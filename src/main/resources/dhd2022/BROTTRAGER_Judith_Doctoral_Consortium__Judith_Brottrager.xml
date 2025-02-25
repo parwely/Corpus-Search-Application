@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_203">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Relating the Unread</title>
+                    <title type="sub">Modellierungen der Literaturgeschichte</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Brottrager</surname>
+                        <forename>Judith</forename>
+                    </persName>
+                    <affiliation>TU Darmstadt, Germany</affiliation>
+                    <email>judith.brottrager@tu-darmstadt.de</email>
+                <idno type="ORCID">0000-0002-3108-8936</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-29T19:10:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Doctoral Consortium</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Distant Reading</term>
+                    <term>Kanonisierung</term>
+                    <term>Digitale Literaturwissenschaft</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">203</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">
+                <anchor xml:id="Hlk77148996"/>Von Beginn an war die Inklusion einer größeren Textmenge und damit auch nicht-kanonisierter Werke eines der Hauptargumente für digitale Ansätze in der Literaturwissenschaft: Durch Distant Reading, könne, so Moretti, eine alternative Literaturgeschichte erfasst werden, die auch das sogenannte „Great Unread“ mit einschließt (Moretti 2013: 48f). Forschungsprojekte der letzten Jahre haben jedoch gezeigt, dass der Mehrwert der digitalen Literaturwissenschaft nicht nur in der rein quantitativen Erweiterung der Untersuchungsgegenstände, sondern auch in der tiefgreifenden Kontextualisierung der untersuchten Texte in einer, wie es Bode nennt, „data-rich literary history“ (Bode 2018: 37–57) liegt. Diese kontextreichen Ansätze, wie beispielsweise Analysen zum Verhältnis von Prestige und Popularität (Underwood/Sellers 2016; Algee-Hewitt et al. 2016; Porter 2018; Underwood 2019: 68–110), zeigen, wie quantitative Methoden trotz nötiger Formalisierungen und Abstraktionen die Komplexität des literarischen Systems (cf. Bode 2017: 91) beschreiben können.
+            </p>
+            <p style="text-align: left; ">Mein Dissertationsprojekt folgt dieser Tradition, indem kanonisierte und nicht-kanonisierte literarische Werke auf unterschiedlichen Ebenen mit Rückgriffen auf literaturhistorische Daten miteinander in Beziehung gesetzt werden. Die für die Untersuchungen erstellten Korpora und Datensätze umfassen etwa 1.200 englisch- und deutschsprachige Texte von 1688 bis 1914, wodurch diachrone und synchrone Vergleiche von Kanonisierungsprozessen und -mustern über Sprachgrenzen hinweg ermöglicht werden. Durch diese Datenvielfalt sollen einerseits etablierte literaturhistorische Narrative untersucht und quantitativ überprüft werden und andererseits literaturwissenschaftliche Kategorien wie Kanonisierung und Wertung so operationalisiert werden, dass sie mit computationellen Methoden zur Bestimmung von Textähnlichkeiten gewinnbringend kombiniert und diese Ähnlichkeit schließlich als Netzwerkmodelle dargestellt werden können. </p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Korpusaufbau</head>
+                <p style="text-align: left; ">Der Korpusaufbau folgt einem systematisch angepassten Ansatz von Algee-Hewitt und McGurl, der darauf abzielt, von einem vorgefundenen zu einem maßgeschneiderten Korpus zu gelangen, indem Bestenlisten, Bestsellerlisten und von Expert*innen kuratierte Literaturlisten kombiniert werden, um ein repräsentatives Korpus für die englischsprachige Literatur des 20. Jahrhunderts zu erstellen (Algee-Hewitt/McGurl 2015). Durch die Kombination dieser Listen decken Algee-Hewitt und McGurl drei Ebenen der literarischen Produktion ab: den normativ-exklusiven Kanon, populäre Texte und von Expert*innen für Postkoloniale und Feministische Literaturwissenschaft vorgeschlagene Werke. Für die Umsetzung für die Zeitspanne von 1688-1914 wurde dieser Ansatz systematisch adaptiert, indem narrative Literaturgeschichten, Anthologien und (spezialisierte) Sekundärtexte, die diese Ebenen abdecken, identifiziert und als bibliografische Quellen für die Korpuserstellung genutzt wurden. Der Workflow umfasst Webscraping, X-Technologien/Transformationen und Retro-Digitalisierungen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Metadatensätze</head>
+                <p style="text-align: left; ">Analog zur Korpuserstellung wurden Daten zur Kontextualisierung der jeweiligen Korpustexte, aber auch der gesamten literarischen Produktion gesammelt. Durch diese Daten können die Korpora mit den von Algee-Hewitt et al. als „the published“<ref target="ftn1" n="1"/> und „the archive“<ref target="ftn2" n="2"/> (Algee-Hewitt et al. 2016: 2) bezeichneten Ebenen der Literaturgeschichte verglichen werden, wodurch wiederum eine Einordnung der Untersuchungsergebnisse und eine Einschätzung der unvermeidlichen Selektionsprozesse bei der Korpuserstellung möglich sind (cf. Bode 2017: 85). Die Daten reichen von Publikationslisten und Leihbibliothekskatalogen bis hin zu Rezensionen und Daten zu Zweitauflagen; der Aufbau der Datensätze orientiert sich am Beispiel der von Garside zur Verfügung gestellten Datenbank 
+                    <hi rend="italic">British Fiction 1800-1829</hi> (Garside 2011). In Anlehnung an erfolgreiche Metadatenanalysen (z.B. Jockers 2013: 35–62) sollen diese Daten zur Überprüfung von Hypothesen zum Zusammenhang zwischen dem Aufschwung des Romans als Gattung und gegenderten Kanonisierungsprozessen verwendet werden (cf. Watt 1957; Raven 1987; Raven/Forster 2000; Tuchman/Fortin 2012). 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Operationalisierungen</head>
+                <p style="text-align: left; ">Die gesammelten Daten werden neben diesen Metadatenanalysen auch für die Operationalisierungen der literaturwissenschaftlichen Konzepte der Kanonisierung und Wertung eingesetzt. Aufbauend auf die theoretischen Grundlagen von Heydebrand und Winko werden Kanonisierung und Wertung als Scores implementiert, die ausdrücken, wie hoch die Wahrscheinlichkeit ist, dass ein bestimmter Text sehr kanonisiert ist beziehungsweise zur Entstehungszeit sehr gut rezipiert wurde (Heydebrand/Winko 1996). Ein besonderes Augenmerk liegt hierbei auf der Differenzierung der Konzepte und der Einbindung der Rezeptionsebene über Marker für Publikumsinteresse (wie Einträge in Leihbibliothekskatalogen und Zweitauflagen innerhalb einer Generation) und sprachliche Werturteile, die durch Sentiment Analysen vergleichbar werden. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick</head>
+                <p style="text-align: left; ">Unter Verwendung der generierten Scores soll schließlich untersucht werden, ob Kanonisierung und Wertung mit textintrinsischen Merkmalen in Verbindung gebracht werden können. Stilometrische Berechnungen, Topic Modeling und Word Embeddings sowie wortartenbasierte Ansätze sollen dabei als alleinstehende Analysen der Textähnlichkeiten durchgeführt werden. Als zusätzliche Analysen- und Visualisierungsmethode dienen Netzwerkmodelle, die anhand der Ergebnisse der Textähnlichkeitsberechnungen erstellt werden, zur Exploration von Ähnlichkeitsstrukturen. Besonders auf dieser Ebene soll der Bezug zur literaturwissenschaftlichen Forschung durch die Identifikation von dichten stilistischen Ähnlichkeitsgruppen und durch aus den Modellen abgeleitete Einzeltextanalysen hergestellt werden.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">i.e. die Menge aller veröffentlichten Texte</note><note place="foot" xml:id="ftn2" n="2">i.e. die Menge der in Bibliotheken und Archiven gesicherten Texte</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Algee-Hewitt, Mark / Allison, Sarah / Gemma, Marissa / Heuser, Ryan / Moretti, Franco / Walser, Hannah</hi> (2016): “Canon/Archive. Large-scale dynamics in the literary field”, 
+                        <hi rend="italic">Pamphlets of the Stanford Literary Lab 11</hi>. 
+                        <ref target="https://litlab.stanford.edu/LiteraryLabPamphlet11.pdf">https://litlab.stanford.edu/LiteraryLabPamphlet11.pdf</ref> [letzter Zugriff 15. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Algee-Hewitt, Mark / McGurl, Mark</hi> (2015): “Between canon and corpus: Six perspectives on 20th-century novels”, 
+                        <hi rend="italic">Pamphlets of the Stanford Literary Lab 8</hi>. 
+                        <ref target="https://litlab.stanford.edu/LiteraryLabPamphlet8.pdf">https://litlab.stanford.edu/LiteraryLabPamphlet8.pdf</ref> [letzter Zugriff 15. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bode, Katherine</hi> (2017): “The equivalence of “close” and “distant” reading; or, toward a new object for data-rich literary history”, in: 
+                        <hi rend="italic">Modern Language Quarterly</hi> 78, 77–106.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bode, Katherine</hi> (2018):
+                        <hi rend="italic" xml:space="preserve"> A world of fiction: Digital collections and the future of literary history</hi>. Ann Arbor: University of Michigan Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Garside, Peter</hi> (2011): 
+                        <hi rend="italic">British fiction 1800-1829. A database of production, circulation &amp; reception</hi>. 
+                        <ref target="http://www.british-fiction.cf.ac.uk/">http://www.british-fiction.cf.ac.uk/</ref> [letzter Zugriff 15. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Heydebrand, Renate von / Winko, Simone</hi> (1996): 
+                        <hi rend="italic">Einführung in die Wertung von Literatur: Systematik - Geschichte - Legitimation</hi>. Paderborn: Schöningh
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Jockers, Matthew Lee</hi> (2013): 
+                        <hi rend="italic">Macroanalysis: Digital methods and literary history.</hi> Urbana: University of Illinois Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Moretti, Franco</hi> (2013): 
+                        <hi rend="italic">Distant reading</hi>. London / New York: Verso.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Porter, J.D.</hi> (2018): “Popularity/Prestige”, 
+                        <hi rend="italic">Pamphlets of the Stanford Literary Lab 17</hi>. 
+                        <ref target="https://litlab.stanford.edu/LiteraryLabPamphlet17.pdf">https://litlab.stanford.edu/LiteraryLabPamphlet17.pdf</ref> [letzter Zugriff 15. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Raven, James</hi> (1987): 
+                        <hi rend="italic">British fiction: 1750 – 1770. A chronological check-list of prose fiction printed in Britain and Ireland</hi>. Newark: University of Delaware Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Raven, James / Forster, Antonia</hi> (eds.) (2000): 
+                        <hi rend="italic">The English novel 1770 - 1829: A bibliographical survey of prose fiction published in the British Isles</hi>. Oxford: Oxford University Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Tuchman, Gaye / Fortin, Nina E. (</hi>2012): 
+                        <hi rend="italic">Edging women out: Victorian novelists, publishers and social change</hi>. London: Routledge.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Underwood, Ted</hi> (2019): 
+                        <hi rend="italic">Distant horizons: digital evidence and literary change</hi>. Chicago: The University of Chicago Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Underwood, Ted / Sellers, Jordan </hi>(2016): “The Longue Durée of Literary Prestige”, in: 
+                        <hi rend="italic">Modern Language Quarterly</hi> 77, 321–344.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Watt, Ian</hi> (1957): 
+                        <hi rend="italic">The rise of the novel</hi>. Berkeley: University of California Press.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_291">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Aktualität und Gedächtnis</title>
+                <title type="sub">Zur korpusanalytischen Untersuchung von Gegenwartsliteratur auf Twitter</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Meier-Vieracker</surname>
+                        <forename>Simon</forename>
+                    </persName>
+                    <affiliation>TU Dresden, Germany</affiliation>
+                    <email>simon.meier-vieracker@tu-dresden.de</email>
+                <idno type="ORCID">0000-0002-0141-9327</idno></author>
+                <author>
+                    <persName>
+                        <surname>Kreuzmair</surname>
+                        <forename>Elias</forename>
+                    </persName>
+                    <affiliation>Universität Greifswald, Germany</affiliation>
+                    <email>elias.kreuzmair@uni-greifswald.de</email>
+                <idno type="ORCID">0000-0003-0652-4748</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-27T10:48:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Twitter</term>
+                    <term>Gegenwartsliteratur</term>
+                    <term>Korpuslinguistik</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Theoretisierung</term>
+                    <term>Archivierung</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">291</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Twitter gilt als ein besonders präsentisches Medium. Mit der in der deutschen Fassung in der Eingabemaske gestellten Frage „Was gibt‘s Neues?“ und überhaupt der Möglichkeit, sich gleichsam mit einem an eine potenziell unbegrenzte Öffentlichkeit gerichteten Instant Messenger in Echtzeit an öffentlichen Diskursen zu beteiligen, lädt Twitter in besonderer Weise zu gegenwartsorientiertem Schreiben ein. Auch aus einer Rezipierendenperspektive kann der primäre Zugriffsmodus der Timeline als Echtzeit-Nachrichtenticker beschrieben werden (Hermes 2021). Zugleich machen die medialen Affordanzen der Persistenz und der Durchsuchbarkeit (boyd 2014: 11) der auf Twitter platzierten Inhalte die Plattform zu einem umfassenden und weitgehend frei zugänglichen Archiv und mithin zu einem breit und vielfältig genutzten Medium des digitalen Gedächtnisses. Dass Twitter sich inzwischen selbst nicht nur als auf Aktualität gerichtetes Medium, sondern auch als Gedächtnismedium versteht, zeigt die Öffnung des Twitter-Archivs mit der neuen API für Forscher:innen (Tornes/Trujillo 2021).</p>
+            <p>Dieses Spannungsverhältnis zwischen gegenwartsbezogenem Schreiben und digitalem Archiv wird nicht nur in zeitdiagnostischen Texten (Osten 2004, Renouard 2018), sondern auch im gegenwartsliterarischen Diskurs auf Twitter selbst immer wieder thematisch. Schriftsteller:innen nutzen Twitter – oder werden dort überhaupt erst zu solchen – und die damit einhergehenden Publikations- und Vernetzungsmöglichkeiten, wobei Kurztexte mit eigenem literarischen Wert, Metadiskurse über Literatur- und den Literaturbetrieb und schließlich auch interaktionsorientierte Kommunikation ineinander übergehen. Bei dieser manchmal als „Twitteratur“ bezeichneten Domäne (Kreuzmair 2016) handelt es sich also um Gegenwartsliteratur und -reflexion, die flüchtig und momentbezogen ist und sich dennoch gleichsam selbst archiviert. Durch die hohe Selbstreflexivität des Diskurses im Sinne ständiger Selbstbeobachtung werden dabei die Gegenwärtigkeit, aber auch Erinnerbarkeit des eigenen Schreibens immer wieder reflektiert.</p>
+            <p>Für das DFG-Projekt „Schreibweisen der Gegenwart. Zeitreflexion und literarische Verfahren nach der Digitalisierung“ (2020-2022), das nach Wechselwirkungen von Zeitreflexion und literarischen Verfahren unter den Bedingungen der Digitalisierung fragt, haben wir im Februar 2020 ein Twitter-Korpus mit den Timelines von 117 öffentlichen Accounts erstellt, die sich in einem erweiterten Sinne der deutschsprachigen Literaturszene zurechnen lassen. Der Datenerhebung war eine teilnehmende Beobachtung über zwei Monate vorausgegangen, die neben der Identifizierung relevanter Accounts auch ergeben hat, dass eine starke Trennung Autor*innen/Literaturbetrieb nicht sinnvoll ist. Unter Nutzung der API über die Software rtweet (Kearney 2018) konnten den Beschränkungen der API entsprechend pro Account bis zu 3000 Tweets erhoben werden, das Korpus umfasst insgesamt 219.450 Tweets aus dem Zeitraum 2009–2020 im Umfang von 3.552.773 Wörtern. Für korpuslinguistische Untersuchungen wurden die Daten in einem XML-Format mit umfangreichen Metadaten aufbereitet, das über den Text hinaus auch interaktive Aspekte wie Reply-Strukturen (Hoppe et al. 2018) und Social Media-charakteristische Metadaten wie Anzahl der Likes und Retweets erfasst. Die Entscheidung für ein eigenes Datenmodell begründet sich durch die fehlenden Standards zur Encodierung von Social Media-Texten (etwa nach TEI), welche die für unsere Fragestellung relevante Interaktivität erfassen. Die Daten wurden mithilfe der auf Social Media-Daten trainierten Python-Module SoMaJo und SoMeWeTa (Proisl &amp; Uhrig 2016; Proisl 2018) tokenisiert, nach Wortarten annotiert und lemmatisiert. Über die webbasierte Korpusanalyseplattform CQPweb (Hardie 2012), das äußerst flexible Abfragen der annotierten Daten und der Metadaten erlaubt, wird das Korpus den Projektbeteiligten zur Verfügung gestellt. Formulierungsmuster, semantische Profile, aber auch Interaktions- und Vernetzungsstrukturen können so computergestützt untersucht werden. Dafür können die in die Software implementierten korpuslinguistischen Methoden wie Keywords in Context, Kollokationsanalysen, Ngramm-Analysen, Distributionsanalysen und Keyword-Berechnungen genutzt werden. Darüber hinaus sind im Projekt auch andere digitale Textanalysemethoden wie etwa Topic Modeling zum Einsatz gekommen (Schöch 2017).</p>
+            <p>Das so erstellte und als Grundlage für die weiteren Analysen herangezogene Korpus ist somit eine Momentaufnahme, eine Fixierung und mithin auch ein Stillstellungs-Artefakt (Jäger 2011: 315) eines eigentlich äußerst fluiden Diskurses. Er wird so der auch quantifizierbaren und reproduzierbaren Analyse zugänglich, gleichsam als digital prozessiertes Datenerbe, und büßt dadurch aber zugleich jene Offenheit und Flüchtigkeit ein, die Social Media-Kommunikation in besonderem Maße auszeichnet.</p>
+            <p>Auf dem Poster stellen wir zum einen unsere Pipeline für die Korpuserstellung und -aufbereitung sowie unser Datenmodell für die Korpusrepräsentation vor. Zum anderen präsentieren wir exemplarische Analyseergebnisse zu Zeitreflexionen auf Twitter wie etwa die auffallende Häufigkeit der Trigramme „das erste Mal“ und „den ganzen Tag“, die einerseits die Zeitbezogenheit des Schreibens auf Twitter anzeigt und andererseits seine tagebuchartige Funktion als Archiv für bemerkenswerte Ereignisse vor Augen führt. Davon ausgehend werden wir die methodologischen Schwierigkeiten diskutieren, die sich aus der analytisch unumgänglichen Fixierung eines eigentlich fluiden Medienformates ergeben.</p>
+            <p>Da der Urheberrechtsstatus von Tweets bislang ungeklärt ist, ist eine vollständige Publikation des Datensatzes leider nicht möglich. Interessierten Forschenden Zugriff auf das Korpus in der verwendeten Analyseplattform CQPweb gewährt werden, wo im Korpus recherchiert werden kann.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt">boyd, danah</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2014): </hi>
+                        <hi rend="italic" style="font-size:11pt">It’s complicated: the social lives of networked teens</hi>
+                        <hi style="font-size:11pt">. New Haven: Yale University Press.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt">Hardie, Andrew</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2012): “CQPweb — combining power, flexibility and usability in a corpus analysis tool”, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">International Journal of Corpus Linguistics</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 17(3): 380–409. 10.1075/ijcl.17.3.04har.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt">Hermes, Jürgen</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2021): "Chirpy Humanities". Billet </hi>
+                        <hi rend="italic" style="font-size:11pt">Public Humanities</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> https://publicdh.hypotheses.org/42 (letzter Zugriff 14.07.2021).</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt">Hoppe, Imke, Lörcher, Ines / Neverla, Irene / Kießling, Bastian</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2018): „Gespräch zwischen vielen oder Monologe von einzelnen? Das Konzept „Interaktivität“ und seine Eignung für die inhaltsanalytische Erfassung der Komplexität von Online-Kommentaren“, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Neue Komplexitäten für Kommunikationsforschung und Medienanalyse: Analytische Zugänge und empirische Studien (Digital Communication Research</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> Band 4). doi:10.17174/dcr.v4.9.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt">Jäger, Ludwig</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2011): „Intermedialität – Intramedialität – Transkriptivität. Überlegungen zu einigen Prinzipien der kulturellen Semiosis“, in: Arnulf Deppermann / Angelika Linke (eds.), </hi>
+                        <hi rend="italic" style="font-size:11pt">Sprache intermedial. Stimme und Schrift, Bild und Ton</hi>
+                        <hi style="font-size:11pt">, 301–323. Berlin, Boston: De Gruyter. 10.1515/9783110223613.299.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt">Kearney, Michael W.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2018): </hi>
+                        <hi rend="italic" style="font-size:11pt">rtweet: Collecting Twitter data</hi>
+                        <hi style="font-size:11pt">. Zenodo. 10.5281/zenodo.2528481.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt">Kreuzmair, Elias</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2016): „Was war Twitteratur?“, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Merkur</hi>
+                        <hi style="font-size:11pt">. https://www.merkur-zeitschrift.de/2016/02/04/was-war-twitteratur/ (letzter Zugriff 10.06.2021).</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt">Osten, Manfred</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2004): </hi>
+                        <hi rend="italic" style="font-size:11pt">Das geraubte Gedächtnis: Digitale Systeme und die Zerstörung der Erinnerungskultur. Eine kleine Geschichte des Vergessens</hi>
+                        <hi style="font-size:11pt">. Frankfurt am Main: Insel.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt">Proisl, Thomas</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2018): „SoMeWeTa: A Part-of-Speech Tagger for German Social Media and Web Texts”, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 665–670.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Proisl, Thomas / Uhrig, Peter </hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(2016): “SoMaJo: State-of-the-art tokenization for German web and social media texts”, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Proceedings of the 10th Web as Corpus Workshop</hi>
+                        <hi style="font-size:11pt">. Berlin: Association for Computational Linguistics, 57–62. 10.18653/v1/W16-2607.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt">Renouard, Maël</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2018): </hi>
+                        <hi rend="italic" style="font-size:11pt">Fragmente eines unendlichen Gedächtnisses</hi>
+                        <hi style="font-size:11pt">. Zürich: Diaphanes.</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt">Schöch, Christof</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2017): “Topic Modeling Genre: An Exploration of French Classical and Enlightenment Drama”, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Digital Humanities Quarterly</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 11(2).</hi>
+                    </bibl>
+                    <bibl rend="Literaturverzeichnis2">
+                        <hi rend="bold" style="font-size:11pt">Tornes, Adam</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> / </hi>
+                        <hi rend="bold" style="font-size:11pt">Trujillo, Leanne</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2021): <hi rend="italic">Enabling the future of academic research with the Twitter API</hi>. https://blog.twitter.com/developer/en_us/topics/tools/2021/enabling-the-future-of-academic-research-with-the-twitter-api (letzter Zugriff 15.07.2021).</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

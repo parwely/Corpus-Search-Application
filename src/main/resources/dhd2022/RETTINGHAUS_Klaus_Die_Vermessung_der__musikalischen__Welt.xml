@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_327">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Die Vermessung der (musikalischen) Welt</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Rettinghaus</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <affiliation>Enote GmbH, Germany</affiliation>
+                    <email>klaus.rettinghaus@enote.com</email>
+                <idno type="ORCID">0000-0003-1898-2543</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-15T22:27:17.663046957</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Notensatz</term>
+                    <term>OMR</term>
+                    <term>statistische Analyse</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Bilderfassung</term>
+                    <term>Transkription</term>
+                    <term>Strukturanalyse</term>
+                    <term>Visualisierung</term>
+                    <term>Datei</term>
+                    <term>Methoden</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">327</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Die Musik ist ein fundamentaler Bestandteil unseres kulturellen Gedächtnisses. Ihre Bewahrung und Überlieferung scheint jedoch – trotz einer schieren Zahl an verfügbaren audio-visuellen Trägermedien – nahezu ausschließlich der papiergebundenen Schriftlichkeit zuzufallen; das renommierte Riemann Musiklexikon erhob diese Schriftlichkeit sogar zum konstitutiv-konzeptionellen Bestandteil ihres Seins: „Es liegt im Wesen der abendländischen Musik, daß sie zur Schrift gebracht wird.“ (Gurlitt 1967: 641). Trotz der breit geführten Diskussion der vergangenen 50 Jahre (Möller 1997) behält die Aussage doch – gerade vor dem Idealbild der Idee einer absoluten Musik (Dahlhaus 1994) – einen wahren Kern.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Geschichte und aktuelle Lage</head>
+                <p>Die traditionelle Musiknotation hat sich über einen Zeitraum von 400 bis 500 Jahren kontinuierlich und behutsam weiterentwickelt, erst durchbrochen durch das Aufkommen der graphischen Notation im 20. Jahrhundert, die antrat, das althergebrachte Schrift-Bild durch neue Bildlichkeit zu ersetzen. (Finke 2019). Ungeachtet dessen wird bis heute die „klassische“ Musiknotation in der Schule gelehrt und ja, sie ist sogar noch immer zum Komponieren nützlich und hilfreich. Kurz gesagt: die traditionelle Notenschrift „aus Punkten und Strichen“ bildet ihren ganz eigenen Kosmos. </p>
+                <p>Umso erstaunlicher ist, dass trotz der Digitalisierungswelle der vergangene Jahre, die insbesondere die Geisteswissenschaften erfasste, die Musiknotation im Wesentlichen in ihrer papiernen Körperlichkeit gefangen blieb. Eine 
+                    <hi rend="italic">wirkliche</hi> digitale Transformation der traditionellen Notenschrift bleibt ein Desiderat. Zwar bieten zahlreiche Sheet-Music-Apps, die über die einschlägigen Distibutionsplattformen erhältlich sind, digitale Surrogate verschiedenster musikalischer Werke, im Gros handelt es sich dabei jedoch lediglich um Scans der (papiernen) Notenseiten und nicht um genuin digitalen Notensatz. Zugegebenermaßen ist eine wirkliche digitale Übersetzung des musikalischen Schriftbildes ein immenses Unterfangen, denn „eine ‚amtliche Rechtschreibung‘ existiert in der Musik nicht.“ (Weber 2015) Hinzu kommt, dass durch die langjährige Tradition der westlichen Musiknotation eine gewisse Erwartungshaltung an das Schriftbild auf Seiten der Leserschaft existiert. Und gerade Musikschaffende sind hier selten bereit Kompromisse einzugehen. Warum existiert von so vielen Werken der Musik eine Vielzahl an unterschiedlichen Ausgaben? In den seltensten Fällen, weil eine Ausgabe „richtiger“ (was auch immer das genau heißen mag) ist als eine andere. Interpretinnen und Interpreten schwören zumeist auf Ausgaben eines bestimmten Verlags, weil sie deren „Qualität“ schätzen; und das bezieht sich üblicherweise nicht auf editorische Grundsatzentscheidungen, sondern vielmehr auf den visuellen Gesamteindruck der Notation.
+                </p>
+                <p>Seit der Industrialisierung des Notendrucks im 19. Jahrhundert herrscht die Überzeugung vor, es gäbe ein ideales Notenbild. Eine Vorstellung die nicht zuletzt durch notengrafische Großkonzerne wie C. G. Röder in Leipzig befeuert wurde, der einen Großteil der deutschen Musikverlagslandschaft belieferte (Beer 2005). Moderner computergestützter Notensatz daneben wirkt zumeist unbefriedigend. Was macht aber ein harmonisches Notenbild aus, wie sind die Größenverhältnisse im Druck? Ein Schlüssel zur Erkenntnis könnten die Notenschlüssel sein, denn diese finden sich häufig und werden im klassischen Notensatz in unterschiedlichen Größen gebraucht. So konstatiert Elaine Gould in ihrem Standardwerk zur Musiknotation: „A change of clef […] is two-thirds of the size of the clef at the beginning of the stave.“ (Gould 2011: 7) Das klingt nach einem gesichertem Fakt. Ein flüchtiger Blick in klassische Editionen von der Wende des 19. zum 20. Jahrhundert liefert einen anderen Eindruck: dort sind Schlüsselwechsel bei einer Größe von 80–90% des Schlüssels vom Anfang des Systems deutlich größer. Auch andere Autorinnen und Autoren, sofern sie überhaupt ein bestimmtes Größenverhältnis nennen, geben üblicherweise eine Größe von 75% an (z. B. Gerou / Lusk 1996: 113). Helene Wanske schweigt diesbezüglich leider (Wanske 1988). </p>
+                <p>Ändern sich Verhältnisse bei unterschiedlichen Rastral-Größen? Sind die Relationen schlüssel-spezifisch? Wie gehen unterschiedliche Verlage vor? Hat sich der Notenstich in dieser Hinsicht über die Jahrzehnte gewandelt? </p>
+            </div>
+            <div type="div1">
+                <head>Idee und Ausblick</head>
+                <p>Um diese Fragen beantworten zu können, untersuchen wir tausende Seiten von Notendrucken klassischer Musik. Moderne Editionen aus dem 20. Jahrhundert mit den Schwerpunkten Klavier- und Kammermusik haben wir selbst gescannt. Hinzu treten Ausgaben von IMSLP<ref target="ftn1" n="1"/>, darunter vor allem Drucke aus den „alten“ Gesamtausgaben, die bis zum 2. Weltkrieg erschienen sind und auch sinfonische Werke enthalten. 
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/60a0e5b391af1e31a2c38f84ddc93b95.png"/>
+                        <head>Abb. 1: Detektierte Schlüssel in unterschiedlichen Größen</head>
+                    </figure>
+                </p>
+                <p>Mit unserer selbstentwickelten OMR-Software sind wir in der Lage, sehr präzise Aussagen über Größen und Größenverhältnisse einzelner Symbole zu treffen. Erste Ergebnisse sollen auf einem Poster präsentiert werden. Dabei beschränken wir uns zunächst auf die Notenschlüssel, denn wie sich zeigt, bietet sich hier bereits ein weites Feld für Analysen. Diese sollen nur den Startschuss geben für weitere Untersuchungen an historischen Musikdrucken und uns helfen, bei der digitalen Transformation des klassischen Notensatzes ein ansprechenderes Layout zu erzielen. Die Ergebnisse sowie die Rohdaten sollen der Community unter einer freien Lizenz bereit gestellt werden. </p>
+            </div>
+        </body>
+        <back><div type="notes"><note xml:id="ftn1" place="foot" n="1"> International Music Score Library Project. 
+                        <ptr target="https://imslp.org/"/>.
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Beer, Axel</hi> (2005): „Röder, Carl Gottlieb“, in: 
+                        <hi rend="italic">MGG Online</hi>, Laurenz Lütteken (ed.), Kassel, Stuttgart, New York 2016ff., zuerst veröffentlicht 2005, online veröffentlicht 2016, 
+                        <ptr target="https://www.mgg-online.com/mgg/stable/26863"/> [letzter Zugriff 14. Juli 2021].
+                    </bibl>
+                    <bibl><hi rend="bold">Dahlhaus, Carl</hi> (1994): 
+                        <hi rend="italic">Die Idee der absoluten Musik</hi>. 3. Auflage. Kassel: Bärenreiter.
+                    </bibl>
+                    <bibl><hi rend="bold">Finke, Gesa</hi> (2019): „Partituren zum Lesen und Schauen. Bildlichkeit als Merkmal graphischer Notation“, in: 
+                        <hi rend="italic">Zeitschrift der Gesellschaft für Musiktheorie</hi> 16/1, 21-39. 
+                        <ptr target="https://doi.org/10.31751/1001"/> [letzter Zugriff 14. Juli 2021].
+                    </bibl>
+                    <bibl><hi rend="bold">Gerou, Tom / Lusk, Linda</hi> (1996): 
+                        <hi rend="italic">Essential Dictionary of Music Notation</hi>. Los Angeles: Alfred Publishing Co.
+                    </bibl>
+                    <bibl><hi rend="bold">Gould, Elaine</hi> (2011): 
+                        <hi rend="italic">Behind Bars</hi>. London: Faber Music.
+                    </bibl>
+                    <bibl><hi rend="bold">Gurlitt, Willibald / Eggebrecht, Hans Heinrich</hi>: (1967): 
+                        <hi rend="italic">Riemann Musiklexikon</hi>, Sachteil, 12. Aufl., Mainz: Schott 641.
+                    </bibl>
+                    <bibl><hi rend="bold">Möller, Hartmut</hi> (1997): „Notation, Einleitung, Bewertungen von Notation“, in:
+                        <hi rend="italic"> MGG Online</hi>, Laurenz Lütteken (ed.), Kassel, Stuttgart, New York 2016ff., zuerst veröffentlicht 1997, online veröffentlicht 2016, 
+                        <ptr target="https://www.mgg-online.com/mgg/stable/13480"/> [letzter Zugriff 14. Juli 2021].
+                    </bibl>
+                    <bibl><hi rend="bold">Töpel, Michael</hi> (1997): „Notation, 20. Jahrhundert, Entwicklungen seit 1950“, in: 
+                        <hi rend="italic">MGG Online</hi>, Laurenz Lütteken (ed.), Kassel, Stuttgart, New York 2016ff., zuerst veröffentlicht 1997, online veröffentlicht 2016, 
+                        <ptr target="https://www.mgg-online.com/mgg/stable/14135"/> [letzter Zugriff 14. Juli 2021].
+                    </bibl>
+                    <bibl><hi rend="bold">Wanske, Helene</hi> (1988): 
+                        <hi rend="italic">Musiknotation. Von der Syntax des Notenstichs zum EDV-gesteuerten Notensatz</hi>. Mainz: Schott.
+                    </bibl>
+                    <bibl><hi rend="bold">Weber, Fabian</hi> (2015): „Vom lesbaren zum schönen Partiturbild“, in: 
+                        <hi rend="italic">nmz - neue musikzeitung</hi> 64 (5) 
+                        <ptr target="https://www.nmz.de/artikel/vom-lesbaren-zum-schoenen-partiturbild"/> [letzter Zugriff 14. Juli 2021].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_163">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Training the Archive</title>
+                <title type="sub">Von der maschinellen Exploration musealer Sammlungsdaten zur Curator’s Machine</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Bönisch</surname>
+                        <forename>Dominik</forename>
+                    </persName>
+                    <affiliation>Ludwig Forum für Internationale Kunst, Germany</affiliation>
+                    <email>dominik.boenisch@mail.aachen.de</email>
+                <idno type="ORCID">0000-0003-4336-0180</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-22T10:24:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Künstliche Intelligenz</term>
+                    <term>Museum</term>
+                    <term>kuratorische Praxis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Sammlung</term>
+                    <term>Beziehungsanalyse</term>
+                    <term>Kollaboration</term>
+                    <term>Bilder</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">163</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi style="font-size:10pt" xml:space="preserve">Die Digitalisierung in Kunstmuseen verspricht einen erweiterten Zugriff auf Sammlungsobjekte sowohl für die Wissenschaft als auch für eine interessierte Öffentlichkeit und das bestenfalls online ortsunabhängig und jederzeit (Glinka / Dörk 2018: 236). Dabei reicht es nicht aus, die hiesige Archivlogik eins zu eins in den digitalen Raum zu übertragen und die Suche in Datenbanken auf eng gedachte Stichworte zu limitieren. Vielmehr sollen über spezielle Interfaces und Visualisierungen eine Exploration von digitalen Beständen, sowie ein </hi>
+                <hi rend="italic" style="font-size:10pt">Schlendern</hi>
+                <hi style="font-size:10pt" xml:space="preserve"> durch die Online-Sammlung möglich gemacht werden, ohne dabei zwingend einem vorgegebenen Suchbegriff folgen zu müssen (Brüggemann et al. 2016: 227). Beispielhafte Lösungen wie PixPlot</hi><ref target="ftn1" n="1"/>
+                <hi style="font-size:10pt">, iArt</hi><ref target="ftn2" n="2"/>
+                <hi style="font-size:10pt" xml:space="preserve"> oder imgs.ai</hi><ref target="ftn3" n="3"/>
+                <hi style="font-size:10pt" xml:space="preserve"> ermöglichen bereits heute mittels künstlicher Intelligenz die systematische und strukturierte Aufbereitung von Sammlungsdaten. Denn durch maschinelles Lernen können Zusammenhänge und Verbindungen zwischen Kunstwerken offenbart werden, die Kurator*innen nicht (mehr) mit bloßem Auge wahrnehmen können (Bell / Ommer 2016: 68). Ein maschinengestütztes, exploratives Aufdecken von Verknüpfungen innerhalb der eigenen musealen Sammlung ist Untersuchungsgegenstand des Forschungsprojekts Training the Archive am Ludwig Forum für Internationale Kunst Aachen im Verbund mit dem HMKV Hartware MedienKunstVerein, Dortmund und dem Visual Computing Institute der RWTH Aachen University.</hi>
+            </p>
+            <p>
+                <hi style="font-size:10pt" xml:space="preserve">Training the Archive (2020-2023) möchte ein Software-Tool entwickeln, welches hilft, die kuratorische Praxis und Recherche am Museum zu unterstützen. Dabei sollen Kurator*innen befähigt werden, beispielsweise über sinnvolle Nearest-Neighbor-Vorschläge die eigenen musealen Sammlunggsdaten neu zu entdecken. Die zugrundeliegende Mustererkennung soll hierbei nicht nur auf visuelle Embeddings zugreifen, sondern auch semantische Verbindungen einbeziehen. Training the Archive entwickelt dazu ein kollaboratives Konzept, welches in die sogenannte Curator’s Machine mündet, die im Poster vorgestellt werden soll. Durch einen effektiven Prozess der Mensch-Maschine-Interaktion soll auch das historische, stilistische und objektbasierte Kontextwissen von Expert*innen Beachtung finden, indem neuronalen Netzen ein </hi>
+                <hi rend="italic" style="font-size:10pt">kuratorischer Blick</hi>
+                <hi style="font-size:10pt" xml:space="preserve"> trainiert wird.</hi>
+            </p>
+            <p>
+                <hi style="font-size:10pt">Da vortrainierte Netze nicht uneingeschränkt off-the-shelf für kunsthistorische Korpora verwendet werden können (vgl. Hunger 2021a), untersucht Training the Archive über Prototypen</hi><ref target="ftn4" n="4"/>
+                <hi style="font-size:10pt">, wie Embeddings aus visuellen Bild-Features und Text-Informationen (Metadaten, sprachliche Konzepte, semantische Kontexte) für Kunstsammlungen verbunden sowie nutzbar gemacht werden können. Dafür werden automatisierte Cluster um verdeckte Beziehungsmuster zwischen Kunstwerken oder die persönliche Intuition sowie den subjektiven Geschmack von Kurator*innen erweitert (vgl. Bönisch 2021) sowie ein Modell – ähnlich dem CLIP-Algoritmus (Radford et al. 2021), welcher semantische Suchen über Bild-Text-Zusammenhänge ermöglicht (Saglani 2021) – mit den Annotationen zu Werkbeschreibungen aus dem ARTigo-Projekt</hi><ref target="ftn5" n="5"/>
+                <hi style="font-size:10pt" xml:space="preserve"> trainiert. Dies soll besonders variable Suchen für Kurator*innen ermöglichen und gleichzeitig deren Expert*innenwissen in den maschinellen Lernprozess einbeziehen. Eine im Forschungsprojekt durchgeführte Studie über das Kuratieren mit international tätigen Kurator*innen gibt dazu Aufschluss über den Prozess der Werkauswahl oder die Kontextualisierung von Kunstwerken in einer Ausstellung und soll helfen, die nächste prototypische Entwicklung zu schärfen. Dabei wird auch verhandelt, wie der Begriff des </hi>
+                <hi rend="italic" style="font-size:10pt">Kuratorischen</hi>
+                <hi style="font-size:10pt" xml:space="preserve"> im heutigen algorithmischen Zeitalter einzuordnen ist (Hunger 2021b). Zusammenfassend möchte das Poster das Forschungsprojekt Training the Archive, dessen Zielstellungen und Prototypen sowie erste Lessons Learned zur Mitte der Projektlaufzeit vorstellen.</hi>
+            </p>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                        <hi style="font-size:9pt" xml:space="preserve">Bereits 2017 veröffentlichte Douglas Duhaime über das Yale Digital Humanities Lab eine Visualisierung für das Clustering von Bilddaten im hochdimensionalen Featureraum. Verfügbar unter: </hi>
+                        <ref target="https://dhlab.yale.edu/projects/pixplot/">
+                            <hi style="font-size:9pt">https://dhlab.yale.edu/projects/pixplot/</hi>
+                        </ref>
+                        <hi style="font-size:9pt">.</hi>
+                    </note><note place="foot" xml:id="ftn2" n="2">
+                        <hi style="font-size:9pt" xml:space="preserve">Ein digitales Research-Werkzeug, mit dessen Hilfe große Bilddatenmengen in den Geisteswissenschaften nutzbar gemacht werden sollen. Ein DFG-Projekt der Ludwig-Maximilians-Universität München, der Technischen Informationsbibliothek Hannover sowie des Heinz-Nixdorf-Instituts. Erreichbar unter: </hi>
+                        <ref target="https://www.iart.vision/">
+                            <hi style="font-size:9pt">https://www.iart.vision/</hi>
+                        </ref>
+                        <hi style="font-size:9pt">.</hi>
+                    </note><note place="foot" xml:id="ftn3" n="3">
+                        <hi style="font-size:9pt" xml:space="preserve">Eine visuelle Suchmaschine für die digitale Kunstgeschichte, die auf Embeddings neuronaler Netzwerke basiert. Entwickelt von Fabian Offert mit Unterstützung von Peter Bell und Oleg Harlamov. Abrufbar unter: </hi>
+                        <ref target="https://imgs.ai/">
+                            <hi style="font-size:9pt">https://imgs.ai/</hi>
+                        </ref>
+                        <hi style="font-size:9pt">.</hi>
+                    </note><note place="foot" xml:id="ftn4" n="4">
+                        <hi style="font-size:9pt" xml:space="preserve">Ein Proof of Concept ist veröffentlicht unter: </hi>
+                        <ref target="https://github.com/DominikBoenisch/Training-the-Archive">
+                            <hi style="font-size:9pt">https://github.com/DominikBoenisch/Training-the-Archive</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve">. Ein weiterer Prototyp kann über die RWTH Aachen University genutzt werden: </hi>
+                        <ref target="https://vci.rwth-aachen.de/annotation-tool/">
+                            <hi style="font-size:9pt">https://vci.rwth-aachen.de/annotation-tool/</hi>
+                        </ref>
+                        <hi style="font-size:9pt">.</hi>
+                    </note><note place="foot" xml:id="ftn5" n="5">
+                        <hi style="font-size:9pt" xml:space="preserve">ARTigo ist ein Forschungsprojekt der Ludwig-Maximilians-Universität München, welches mittels Crowdsourcing über ein Online-Spiel das Ziel verfolgt, Kunstwerke mit Tags zu versehen und durch Schlagworte zu beschreiben. Siehe: </hi>
+                        <ref target="http://www.artigo.org/">
+                            <hi style="font-size:9pt">http://www.artigo.org</hi>
+                        </ref>
+                        <hi style="font-size:9pt">.</hi>
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt" xml:space="preserve">Bell, Peter / Ommer, Björn </hi>
+                        <hi style="font-size:10pt" xml:space="preserve">(2016): "Visuelle Erschließung. Computer Vision als Arbeits- und Vermittlungstool", in: </hi>
+                        <hi rend="italic" style="font-size:10pt" xml:space="preserve">Konferenzband EVA Berlin 2016. </hi>
+                        <hi style="font-size:10pt">Elektronische Medien &amp; Kunst, Kultur und Historie. EVA Berlin, Band 23. Heidelberg: arthistoricum.net 67-73.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Bönisch, Dominik</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2021): "The Curator’s Machine: Clustering of Museum Collection Data through Annotation of Hidden Connection Patterns Between Artworks", in: </hi>
+                        <hi rend="italic" style="font-size:10pt">International Journal for Digital Art History</hi>
+                        <hi style="font-size:10pt">, 5 (Mai): 5.20-5.35. doi:10.11588/dah.2020.5.75953.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold" style="font-size:10pt">Brüggemann, Viktoria / Kreiseler, Sarah / Dörk, Marian</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2016): "Museale Bestände im Web: Eine Untersuchung von acht digitalen Sammlungen", in: </hi>
+                        <hi rend="italic" style="font-size:10pt" xml:space="preserve">Konferenzband EVA Berlin 2016. </hi>
+                        <hi style="font-size:10pt">Elektronische Medien &amp; Kunst, Kultur und Historie. EVA Berlin, Band 23. Heidelberg: arthistoricum.net 227-236.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold" style="font-size:10pt">Glinka, Katrin / Dörk, Marian</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2018): "Zwischen Repräsentation und Rezeption – Visualisierung als Facette von Analyse und Argumentation in der Kunstgeschichte", in: </hi>
+                        <hi rend="italic" style="font-size:10pt">Computing Art Reader: Einführung in die digitale Kunstgeschichte</hi>
+                        <hi style="font-size:10pt">. Computing in Art and Architecture, Band 1. Heidelberg: arthistoricum.net 234-250.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Hunger, Francis</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2021a): "</hi>
+                        <hi rend="italic" style="font-size:10pt">Why so many windows?</hi>
+                        <hi style="font-size:10pt">"</hi>
+                        <hi rend="italic" style="font-size:10pt" xml:space="preserve"> – Wie die Bilddatensammlung ImageNet die automatisierte Bilderkennung historischer Bilder beeinflusst</hi>
+                        <hi style="font-size:10pt">. Training the Archive – Working Paper, Aachen/Dortmund, Juni. doi:10.5281/zenodo.4742621.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Hunger, Francis</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2021b):</hi>
+                        <hi rend="italic" style="font-size:10pt">Kuratieren und dessen statistische Automatisierung mittels Künstlicher 'Intelligenz'.</hi>
+                        <hi style="font-size:10pt">Training the Archive – Working Paper, Aachen/Dortmund, Oktober. doi:10.5281/zenodo.5589930.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Radford, Alec / Kim, Jong Wook / Hallacy, Chris / Ramesh, Aditya / Goh, Gabriel / Agarwal, Sandhini / Sastry, Girish / Askell, Amanda / Mishkin, Pamela / Clark, Jack / Krueger, Gretchen / Sutskever, Ilya</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2021): "</hi>
+                        <hi rend="italic" style="font-size:10pt">Learning Transferable Visual Models from Natural Language Supervision</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">", in: </hi>
+                        <hi rend="italic" style="font-size:10pt">arXiv preprint.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> arxiv:2103.00020.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Saglani, Vatsal</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2021): "What is CLIP (Contrastive Language – Image Pre-training) and how can it be used for semantic image search?", </hi>
+                        <hi rend="italic" style="font-size:10pt">Towards AI</hi>
+                        <hi style="font-size:10pt">, 9. Februar https://pub.towardsai.net/what-is-clip-contrastive-language-image-pre-training-and-how-it-can-be-used-for-semantic-image-b02ccf49414e [letzter Zugriff 22.11.2021].</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

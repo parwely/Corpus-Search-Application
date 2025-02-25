@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_304">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Flexibles Arbeiten mit OCR4all</title>
+                <title type="sub">Massenvolltextdigitalisierung von Drucken mithilfe von OCR-D und hochqualitative Transkription von Handschriften</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Langhanki</surname>
+                        <forename>Florian</forename>
+                    </persName>
+                    <affiliation>Julius-Maximilians-Universität Würzburg, Germany</affiliation>
+                    <email>florian.langhanki@uni-wuerzburg.de</email>
+                <idno type="ORCID">0000-0001-6043-0350</idno></author>
+                <author>
+                    <persName>
+                        <surname>Wehner</surname>
+                        <forename>Maximilian</forename>
+                    </persName>
+                    <affiliation>Julius-Maximilians-Universität Würzburg, Germany</affiliation>
+                    <email>maximilian.wehner@uni-wuerzburg.de</email>
+                <idno type="ORCID">0000-0003-1817-6955</idno></author>
+                <author>
+                    <persName>
+                        <surname>Baierer</surname>
+                        <forename>Konstantin</forename>
+                    </persName>
+                    <affiliation>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</affiliation>
+                    <email>konstantin.baierer@sbb.spk-berlin.de</email>
+                <idno type="ORCID">0000-0003-2397-242X</idno></author>
+                <author>
+                    <persName>
+                        <surname>Hinrichsen</surname>
+                        <forename>Lena</forename>
+                    </persName>
+                    <affiliation>Herzog August Bibliothek Wolfenbüttel</affiliation>
+                    <email>hinrichsen@hab.de</email>
+                <idno type="ORCID">0000-0002-9286-2390</idno></author>
+                <author>
+                    <persName>
+                        <surname>Reul</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Julius-Maximilians-Universität Würzburg, Germany</affiliation>
+                    <email>christian.reul@uni-wuerzburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>OCR/HTR</term>
+                    <term>Digitalisierung</term>
+                    <term>Transkription</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Annotieren</term>
+                    <term>Schreiben</term>
+                    <term>Literatur</term>
+                    <term>Manuskript</term>
+                    <term>Metadaten</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">304</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>
+                    <hi style="font-size:12pt">Die automatisierte Texterkennung von historischen Drucken und Handschriften gilt aus geisteswissenschaftlicher wie aus informatischer Perspektive in ganz unterschiedlichen Forschungs- und Anwendungskontexten auch weiterhin als anspruchsvolle und problembehaftete Aufgabe. Während die OCR (Optical Character Recognition) moderner Texte mit ihren zeilenbasierten OCR-Ansätzen (Breuel et al. 2013) weithin als informatisch quasi gelöstes Problem angesehen wird, stellen v. a. die höchst komplexen Layoutstrukturen vormoderner Werke (speziell der vor 1700) und ihr teils schlechter Druck- bzw. Erhaltungszustand immer noch ein großes Problem bei der Herstellung maschinenles- und -verarbeitbarer Texte dar. Verglichen mit der Vielfalt und Varianz der in Drucken verwendeten Typen und Schriftarten, gestaltet sich die Erkennung von Handschriften durch die vielfältigen Ausprägungen einzelner Schriftarten in Kombination mit unterschiedlichen Schreiberhänden noch einmal komplizierter. Selbst der kommerzielle State of the Art der Texterkennungssoftware wie bspw. ABBYY Finereader</hi><ref target="ftn1" n="1"/>
+                    <hi style="font-size:12pt" xml:space="preserve"> wird in der Produktion wissenschaftlich nutzbarer Daten hier vor erhebliche Probleme gestellt. Die bereits bekannten Schwierigkeiten einer OCR auf historischen Daten müssen demnach um jene einer HTR (Handwritten Text Recognition) mittelalterlicher und frühneuzeitlicher Werke erweitert werden.</hi>
+                </p>
+                <p>
+                    <hi style="font-size:12pt">Besonders die neueren Forschungsfelder innerhalb der Geisteswissenschaften und Digital Humanities (Text Mining, Sentiment Analysis etc.) haben diese Schwierigkeiten bei gleichzeitigem Bedarf großer Textmengen zur Anwendung quantitativer Analyseverfahren erkannt. Hier stellt sich zunehmend die Frage nach Möglichkeiten einer Texterkennung historischer Drucke und Handschriften, die sowohl hohen Qualitätsansprüchen als auch einem ebensolchen Automatisierungsgrad genügen.</hi>
+                </p>
+                <p>
+                    <hi style="font-size:12pt">Es ist unstrittig, dass entsprechende Werkzeuge frei verfügbar sein, kohärente OCR- bzw. HTR-Workflows zur Verfügung stellen müssen und außerdem einfach und selbstständig durch nicht-informatische, geisteswissenschaftliche Nutzer:innen bspw. über eine grafische Benutzeroberfläche nutzbar sein sollten. Hinzu kommen jene spezifischen Anforderungen, die mit der Massenverarbeitung von Texten einhergehen, sowie der Wunsch nach größtmöglicher Flexibilität und nach Vielfalt von Werkzeugen. Den besonderen Anforderungen einer massenhaften Textdigitalisierung wendet sich besonders das DFG-geförderte Projekt OCR-D (Engl et al. 2020) mit dem Ziel zu, die Werke in den Verzeichnissen der deutschsprachigen Drucke (VD 16–18) durch vollautomatische Texterkennung als Forschungsdaten zur Verfügung zu stellen. Während in OCR-D also der Fokus auf Massenverarbeitung, Skalierbarkeit und Flexibilität sowie vielfältigen Anwendungsmöglichkeiten liegt, vereint die an der Universität Würzburg entwickelte Software OCR4all</hi><ref target="ftn2" n="2"/>
+                    <hi style="font-size:12pt">(Reul et al. 2019) die erstgenannten Notwendigkeiten einer einfachen Nutzbarkeit entsprechender Technologien mithilfe einer grafischen Benutzeroberfläche und richtet sich dabei dezidiert an Geisteswissenschaftler:innen.</hi>
+                </p>
+                <p>
+                    <hi style="font-size:12pt">Mit dem im Juli 2021, im Rahmen der dritten Projektphase von OCR-D</hi><ref target="ftn3" n="3"/>
+                    <hi style="font-size:12pt">, gestarteten Würzburger Forschungsprojekt OCR4all-libraries</hi><ref target="ftn4" n="4"/>
+                    <hi style="font-size:12pt" xml:space="preserve"> rückt mit der geplanten Integration der OCR-D-Lösungen in die dort entwickelte Software nun noch einmal verstärkt eine notwendige Vereinfachung und Individualisierung komplexer und projektspezifisch flexibel anwendbarer OCR- und HTR-Workflows in den Fokus. Die Anwendung der Software im Spannungsfeld einer Massenvolltextdigitalisierung wie jener der VD16</hi>
+                    <hi rend=" background(white)" style="font-size:12pt">–</hi>
+                    <hi style="font-size:12pt">18</hi><ref target="ftn5" n="5"/>
+                    <hi style="font-size:12pt" xml:space="preserve"> und einer hochqualitativen Erfassung mittelalterlicher Handschriften erfährt hier einen neuen wie nachhaltigen Rückenwind.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>OCR4all</head>
+                <p>
+                    <hi style="font-size:12pt">Die im Workshop verwendete Software orientiert sich in seinem Aufbau an den Hauptkomponenten eines OCR-Workflows (s. u.), gliedert diesen jedoch noch einmal in unterschiedliche Teilmodule. Dieser modulare Aufbau erlaubt eine Einbindung und Verwendung bereits bestehender Softwarelösungen, die gemäß ihre</hi> n
+                    <hi style="font-size:12pt" xml:space="preserve"> Stärken zu einem kohärenten OCR-Workflow kombiniert werden. Im Allgemeinen umfasst der typische Ablauf einer OCR bzw. HTR die </hi>
+                    <hi rend="bold" style="font-size:12pt">Vorverarbeitung</hi>
+                    <hi style="font-size:12pt" xml:space="preserve"> (Preprocessing), die </hi>
+                    <hi rend="bold" style="font-size:12pt">Regionen- und Zeilensegmentierung</hi>
+                    <hi style="font-size:12pt" xml:space="preserve"> (Region-, Line-Segmentation), die </hi>
+                    <hi rend="bold" style="font-size:12pt">Texterkennung</hi>
+                    <hi style="font-size:12pt" xml:space="preserve"> (Recognition) und die </hi>
+                    <hi rend="bold" style="font-size:12pt">Nachkorrektur</hi>
+                    <hi style="font-size:12pt" xml:space="preserve"> (Post Correction) (s. Abb. 1).</hi>
+                </p>
+                <figure>
+                    <graphic n="1001" width="17cm" height="2.98cm" url="Pictures/34bb96224db02b555e7979e921c587e3.png" rend="block"/>
+                    <head>Abb. 1: Hauptkomponenten eines typischen OCR-Workflows. Von links nach rechts: Originalbild, Vorverarbeitung, Segmentierung, Texterkennung, Nachkorrektur.</head>
+                </figure>
+                <p>
+                    <hi style="font-size:12pt">Im Preprocessing werden die Einzelbilder gerade gestellt und binarisiert oder in Graustufen umgewandelt (s. Abb. 1). Dabei werden alle gängigen Eingabeformate für Bilddateien unterstützt. Dem schließt sich die Layouttypisierung mithilfe des Segmentierungstools LAREX</hi><ref target="ftn6" n="6"/>
+                    <hi style="font-size:12pt" xml:space="preserve"> (s. Abb. 2) an. Hier können werkspezifische Parameter zur Text- und Bildtypisierung festgelegt sowie zu erkennende Layoutregionen (Haupttext, Überschriften, Marginalien, Seitenzahlen, Anstreichungen, Randnotizen etc.) definiert werden. Je nach Komplexität des vorliegenden Seitenlayouts ist nach einer automatischen Layouterkennung ein Eingriff in das vorliegende Ergebnis mittels unterschiedlicher Korrekturwerkzeuge möglich. Weiterhin kann in LAREX die Lesereihenfolge der Layoutbestandteile markiert werden, um den Lesefluss des Originals später vorlagengetreu nachbilden zu können. Vor allem für die Verwendung des maschinenverarbeitbaren Textes in digitalen Editionen sind viele der beschriebenen Funktionen unverzichtbar. </hi>
+                </p>
+                <p>
+                    <hi style="font-size:12pt">Der Layouttypisierung folgt die Zeilensegmentierung. In dieser werden die Text beinhaltenden Layoutbestandteile in einzelne Zeilenbilder zerteilt (OCRopus</hi><ref target="ftn7" n="7"/>
+                    <hi style="font-size:12pt">), um damit die eigentliche OCR vorzubereiten.</hi>
+                </p>
+                <figure>
+                    <graphic n="1002" width="14.22cm" height="8.26cm" url="Pictures/5fc8b0d8db9611474542c16da4634c71.png" rend="block"/>
+                    <head>Abb. 2: Im Teilmodul der Segmentierung erfolgen die Typisierung der Layoutelemente sowie die Festlegung der Lesereihenfolge entweder von Grund auf oder in Form der Korrektur eines automatisch generierten Ergebnisses.</head>
+                </figure>
+                <p>
+                    <hi style="font-size:12pt">Anschließend wird bei der Recognition aus den vorliegenden Einzelzeilenbildern (mittels der OCR-Engine Calamari</hi><ref target="ftn8" n="8"/>
+                    <hi style="font-size:12pt">) maschinenverarbeitbarer Text generiert. Dazu können in OCR4all bereits standardmäßig integrierte gemischte Modelle für Schriftarten unterschiedlicher Epochen genutzt werden. Als ‘gemischt’ werden Modelle bezeichnet, deren Trainingsgrundlage aus einer Vielzahl verschiedener Drucktypen und Schriftarten besteht. Nach der Recognition können die entstandenen Texte in einem Editor komfortabel korrigiert werden (s. Abb. 3).</hi>
+                </p>
+                <figure>
+                    <graphic n="1003" width="17cm" height="5.49cm" url="Pictures/dhd2022_06.jpg" rend="block"/>
+                    <head>Abb. 3: Im Editor kann generierter Text mithilfe einer virtuellen Tastatur (rechts) zeichengetreu korrigiert werden.</head>
+                </figure>
+                <p>
+                    <hi style="font-size:12pt">Für die Berechnung der Fehlerrate einer Zeichenerkennung kann im Evaluationsmodul der ursprünglich erkannte Text mit der durch die Nutzer:innen vorgenommenen Korrektur verglichen werden.</hi>
+                </p>
+                <p>
+                    <hi style="font-size:12pt">Darüber hinaus bietet OCR4all die Möglichkeit, unter Verwendung vorgenommener Textkorrekturen, selbstständig werkspezifische Modelle zu trainieren, anzuwenden und iterativ zu verbessern. Besonders für Werke mit großer Typenvielfalt und -varianz, auf denen bereits bestehende gemischte Modelle keine hinreichende Erkennungsergebnisse erzielen, werden auf diese Weise dennoch sehr hohe Erkennungsraten erreicht.</hi>
+                </p>
+                <p>
+                    <hi style="font-size:12pt">Im abschließenden Modul zur Nachkorrektur können die während des Workflows generierten Texte editionsreif korrigiert und anschließend als Plain Text und im Kontext weiterer Strukturdaten als PAGE-XML</hi><ref target="ftn9" n="9"/>
+                    <hi style="font-size:12pt" xml:space="preserve"> ausgegeben werden. Letzteres Format beinhaltet neben dem erkannten und ggf. nachkorrigierten Text so auch die Koordinaten aller ausgezeichneten Layoutelemente der Scanseite sowie deren semantische Funktion innerhalb des originalen Seitenlayouts. </hi>
+                </p>
+                <p>
+                    <hi style="font-size:12pt">Derzeit ist der Workflow auf die hier erläuterten Methoden beschränkt. Im Verlauf des OCR4all-libraries Projekts werden bis zum Workshop jedoch auch die im Rahmen des OCR-D-Projekts erarbeiteten Lösungen verfügbar gemacht werden, wodurch die Nutzer:innen den Workflow eigenständig um Einiges flexibler gestalten und präziser auf den eigenen Anwendungsfall abstimmen können.</hi>
+                </p>
+                <p>
+                    <hi style="font-size:12pt" xml:space="preserve">In Abhängigkeit des Ausgangsmaterials variiert der zum Erreichen einer sehr hohen Genauigkeit benötigte Arbeitsaufwand zwischen wenigen Minuten bei Werken mit einfachen Layoutstrukturen und einigen Stunden bei sehr komplexen Werken, für die spezifische Erkennungsmodelle erst noch trainiert werden müssen (Reul et al. 2019). </hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Workshopkonzeption</head>
+                <p>
+                    <hi style="font-size:12pt">Der ganztägige Workshop soll einem informatisch wie technisch nicht speziell geschulten Nutzer:innenkreis einen einfachen und verständlichen Einstieg in das Themen- und Problemfeld der OCR und HTR historischer Materialien bieten. Er wird dazu befähigen, mithilfe der vorgestellten Software eigenständig und innerhalb kurzer Zeit qualitativ hochwertige Texte aus ganz unterschiedlichen Ausgangsdaten zu generieren. Die Workshopkonzeption erfolgt deshalb besonders praxisbezogen. Dies bedeutet einen angeleiteten und stets individuell anpassbaren Durchgang des oben vorgestellten OCR- bzw. HTR-Workflows anhand verschiedener, nach Layoutkomplexität, Typographie und Schriftart, Erhaltungszustand und Entstehungszeitraum gruppierter Drucke und Handschriften. Dabei sollen anwendungsbezogen u. a. die folgenden Grundfragen der OCR und HTR beantwortet werden:</hi>
+                </p>
+                <list type="unordered">
+                    <item>Auf welchen Daten ist OCR4all anwendbar? Was ist OCR-D und welchen Mehrwert bringt die Integration von OCR-D-Lösungen?</item>
+                    <item>Wie verändert sich entsprechend des Ausgangsmaterials die Anwendung des in OCR4all integrierten OCR- bzw. HTR-Workflows und der in ihm enthaltenen Submodule?</item>
+                    <item>Mit welchem (manuellen) Aufwand ist in unterschiedlichen Bearbeitungsphasen des Materials zu rechnen?</item>
+                    <item>Wie stark lässt sich der Workflow in Abhängigkeit des vorliegenden Materials automatisieren?</item>
+                    <item>Wie und nach welchen Maßgaben können (im Rahmen eines iterativen Ansatzes) projekt- und werksspezifische Texterkennungsmodelle trainiert werden? Welche Erkennungsgenauigkeiten sind zu erwarten?</item>
+                    <item>Welcher Aufwand ist mit Blick auf die spätere Verwendung der produzierten Texte überhaupt sinnvoll?</item>
+                </list>
+                <p>
+                    <hi style="font-size:12pt" xml:space="preserve">Da sich neben den Spezifika des Ausgangsmaterials auch eine grundlegende technische Expertise der Anwender:innen im Bereich der OCR und HTR als Grundbedingung der Produktion hochwertiger maschinenlesbaer Texte herausgestellt hat, strebt der Workshop neben einer praktischen Handlungsanleitung auch die Vermittlung der wichtigsten Funktionskonzepte der in OCR4all integrierten Submodule an. </hi>
+                </p>
+                <p>
+                    <hi style="font-size:12pt">Darüber hinaus umfasst die Veranstaltung auch Fragen der Einrichtung und Installation der Software, um den Teilnehmer:innen eine stabile und nachhaltige Anwendung von OCR4all über den Workshopkontext hinaus zu ermöglichen. Um einen reibungslosen Ablauf des Workshops selbst zu garantieren, wird durch die Antragsteller:innen eine Serverversion der Software zur Verfügung gestellt. Die max. 25 Teilnehmer:innen benötigen für die Teilnahme deshalb lediglich einen internetfähigen Laptop. Die Verwendung einer Maus wird empfohlen. Digitalisate werden zur Verfügung gestellt, gerne darf aber auch eigenes Material mitgebracht und im Workshop bearbeitet werden.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Forschungsinteressen der Beitragenden</head>
+                <p>
+                    <hi rend="bold" style="font-size:12pt">Florian Langhanki</hi>
+                    <hi style="font-size:12pt" xml:space="preserve"> ist Wissenschaftlicher Mitarbeiter am ‘Zentrum für Philologie und Digitalität’ der Universität Würzburg. Seine Forschungsinteressen sind Übersetzungsliteratur und Zweisprachigkeit in Mittelalter und Früher Neuzeit sowie die OCR und HTR frühneuzeitlicher Werke und Sammelhandschriften.</hi>
+                </p>
+                <p>
+                    <hi rend="bold" style="font-size:12pt">Maximilian Wehner</hi>
+                    <hi style="font-size:12pt" xml:space="preserve"> ist Wissenschaftlicher Mitarbeiter am Lehrstuhl für ältere deutsche Philologie der Universität Würzburg. Seine Forschungsinteressen sind die wissensvermittelnde Literatur der Frühen Neuzeit, die OCR bzw. HTR mittelalterlicher und frühneuzeitlicher Drucke und Handschriften sowie deren Nutzung in universitärer und schulischer Lehre.</hi>
+                </p>
+                <p>
+                    <hi rend="bold" style="font-size:12pt">Konstantin Baierer</hi>
+                    <hi style="font-size:12pt" xml:space="preserve"> ist Wissenschaftlicher Mitarbeiter an der Staatsbibliothek zu Berlin und betreut dort seit 2018 das OCR-D-Projekt.</hi>
+                </p>
+                <p>
+                    <hi rend="bold" style="font-size:12pt" xml:space="preserve">Lena Hinrichsen </hi>
+                    <hi style="font-size:12pt">ist Wissenschaftliche Mitarbeiterin an der Herzog August Bibliothek Wolfenbüttel und Projektkoordinatorin von OCR-D. Ihre Forschungsinteressen sind OCR und Objekterkennung sowie Bild-Text-Verhältnisse.</hi>
+                </p>
+                <p>
+                    <hi rend="bold" style="font-size:12pt" xml:space="preserve">Dr. Christian Reul </hi>
+                    <hi style="font-size:12pt">leitet die Digitalisierungseinheit des ‘Zentrum für Philologie und Digitalität’ der Universität Würzburg. Seine Forschungsschwerpunkte sind die OCR/HTR auf historischem Material sowie die Neu- und Weiterentwicklung der entsprechenden Software.</hi>
+                </p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                            <ref target="https://www.abbyy.com/de-de/finereader/">https://www.abbyy.com/de-de/finereader/
+                            </ref>
+                        </note><note place="foot" xml:id="ftn2" n="2">
+                            <ref target="http://ocr4all.de/">
+                                <hi style="font-size:10pt">http://ocr4all.de/</hi>
+                            </ref>
+                        </note><note place="foot" xml:id="ftn3" n="3">
+                            <ref target="https://ocr-d.de/de/phase3/">
+                                <hi style="font-size:10pt">https://ocr-d.de/de/phase3/</hi>
+                            </ref>
+                        </note><note place="foot" xml:id="ftn4" n="4">
+                            <ref target="https://www.uni-wuerzburg.de/zpd/news/single/news/ocr4all-libraries-genehmigt/">https://www.uni-wuerzburg.de/zpd/news/single/news/ocr4all-libraries-genehmigt/
+                            </ref>
+                        </note><note place="foot" xml:id="ftn5" n="5">
+                            <ref target="https://ocr-d.de/de/about/">
+                                <hi style="font-size:10pt">https://ocr-d.de/de/about/</hi>
+                            </ref>
+                        </note><note place="foot" xml:id="ftn6" n="6">
+                            <ref target="https://github.com/OCR4all/LAREX">https://github.com/OCR4all/LAREX
+                            </ref>
+                        </note><note place="foot" xml:id="ftn7" n="7">
+                            <ref target="https://github.com/tmbdev/ocropy">https://github.com/tmbdev/ocropy
+                            </ref>
+                        </note><note place="foot" xml:id="ftn8" n="8">
+                            <ref target="https://github.com/Calamari-OCR/calamari">https://github.com/Calamari-OCR/calamari
+                            </ref>
+                        </note><note place="foot" xml:id="ftn9" n="9">
+                            <ref target="https://www.primaresearch.org/tools/PAGELibraries">
+                                <hi style="font-size:10pt">https://www.primaresearch.org/tools/PAGELibraries</hi>
+                            </ref>
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt">Breuel, Thomas M. / Ul-Hasan, Adnan / Al-Azawi, Mayce Ali / Shafait, Faisal</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> (2013): High-Performance OCR for Printed English and Fraktur Using LSTM Networks, in:</hi>
+                        <hi rend="italic" style="font-size:12pt" xml:space="preserve"> 12th International Conference on Document Analysis and Recognition:</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> 683-687.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt">Reul, Christian / Christ, Dennis / Hartelt, Alexander / Balbach, Nico / Wehner, Maximilian / Springmann, Uwe / Wick, Christoph / Grundig, Christine / Büttner, Andreas / Puppe, Frank</hi>
+                        <hi style="font-size:12pt" xml:space="preserve"> (2019): OCR4all - An Open-Source Tool Providing a (Semi-)Automatic OCR Workflow for Historical Printings, in: Applied Sciences 2019. (9) 22. URL: </hi>
+                        <ref target="https://www.mdpi.com/2076-3417/9/22/4853">https://www.mdpi.com/2076-3417/9/22/4853
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:12pt" xml:space="preserve">Engl, Elisabeth / Boenig, Matthias / Baierer, Konstantin / Neudecker, Clemens / Hartmann, Volker </hi>
+                        <hi style="font-size:12pt" xml:space="preserve">(2020): Volltexte für die Frühe Neuzeit. Der Beitrag des OCR-D-Projekts zur Volltexterkennung frühneuzeitlicher Drucke, in: Zeitschrift für Historische Forschung 47 (2), 2020, S. 223–250. URL: </hi>
+                        <ref target="https://elibrary.duncker-humblot.com/journals/id/28/vol/47/iss/5737/art/58179">https://elibrary.duncker-humblot.com/journals/id/28/vol/47/iss/5737/art/58179
+                        </ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

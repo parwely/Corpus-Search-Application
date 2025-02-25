@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_338">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+               <title type="full">
+                <title type="main">Prosopographische Interoperabilität (IPIF)</title>
+                <title type="sub">Stand der Entwicklungen</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Vogeler</surname>
+                        <forename>Georg</forename>
+                    </persName>
+                    <affiliation>Universität Graz, Austria</affiliation>
+                    <email>georg.vogeler@uni-graz.at</email>
+                <idno type="ORCID">0000-0002-1726-1712</idno></author>
+                <author>
+                    <persName>
+                        <surname>Hadden</surname>
+                        <forename>Richard</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                    <email>richard.hadden@oeaw.ac.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schlögl</surname>
+                        <forename>Matthias</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Österreich</affiliation>
+                    <email>matthias.schloegl@oeaw.ac.at</email>
+                <idno type="ORCID">0000-0003-1451-0987</idno></author>
+                <author>
+                    <persName>
+                        <surname>Vasold</surname>
+                        <forename>Gunter</forename>
+                    </persName>
+                    <affiliation>Universität Graz, Austria</affiliation>
+                    <email>gunter.vasold@uni-graz.at</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-15T20:57:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Prosopograpie</term>
+                    <term>API</term>
+                    <term>Modellierung</term>
+                    <term>Implementation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Personen</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">338</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Prosopographie ist die Erhebung und Auswertung von individuellen Daten über historische Personen unter den Bedingungen einer eingeschränkten Quellenlage mit dem Ziel Aussagen über die Personen als Gruppe machen zu können. Auf der DHd2019 haben wir einen Vorschlag für eine geteilte RESTful API gemacht, mit der prosopographische Daten in ihren verschiedenen Inkarnationen leichter austauschbar gemacht werden sollen (Vogeler, Schlögl, Vasold 2018). Sie wird seitdem unter dem Titel “International Prosopographical Interchange Format” auf github weiterentwickelt (https://prosopography.org/). Seitdem haben wir an der Modellierung und der Implementierung von Prototypen gearbeitet. </p>
+            <p style="text-align: left; ">Aus Sicht der 
+                <hi rend="bold">Modellierung</hi> will IPIF nicht die Ausdrucksmächtigkeit von RDF basierten Modellen erreichen oder sich vollständig auf Upper-Level-Ontologies wie CIDOC-CRM abbilden lassen. Stattdessen zielt der Vorschlag der API darauf, technisch einfach zu implementieren zu sein. Es haben sich deshalb einige Modellierungsprobleme ergeben, zu denen wir Entscheidungen getroffen haben, die als exemplarisch für solche vereinfachten Lösungen gelten können:
+            </p>
+            <p style="text-align: left; ">
+                <hi rend="bold">Effiziente Filter</hi>: Das konzeptuelle Modell gruppiert sich um das von Jon Bradley in die Prosopographie eingeführte “Factoid” herum (Bradly &amp; Short 2005; Pasin &amp; Bradley 2015), das in der “Assertion” des Genealogie-Datenmodells (GedBase4All) 2010 eine Entsprechung gefunden hat. Davon sind die Entitäten 
+                <hi rend="italic">person</hi> (Individuum), 
+                <hi rend="italic">statement</hi> (Aussage über das Individuum) und 
+                <hi rend="italic">source</hi> (Quellenbeleg für die Aussage) abhängig (Abb. 1)
+            </p>
+            <figure>
+                <graphic n="1001" width="15.920861111111112cm" height="8.972902777777778cm" url="Pictures/0ac1a77c492501c8a6be4a906a195db8.png" rend="inline"/>
+                <head>Abb. 1: Vereinfachte Darstellung des Datenmodells von IPIF</head>
+            </figure>
+            <p style="text-align: left; ">Da das Factoid aber in prospographischer Forschung normalerweise nicht im Mittelpunkt steht, sondern Abfragen nach Personen und ihren Eigenschaften dominieren, bietet IPIF Endpunkte für genau diese Entitäten an, die leicht über ihre Beziehungen zu den anderen Entitäten gefiltert werden können: 
+                <hi style="font-family:Courier New">https://example.org/ipif/v0.1/person/?name=Georg&amp;place=Graz&amp;from=2010&amp;to=2015</hi> legt für die Benutzer eine Suche nahe, die alle Personen identifiziert, über die es 
+                <hi rend="italic">statements</hi> gibt, die ihr den Namen „Georg“ zuweisen und einen Aufenthalt in Graz zwischen 2010 und 2015. Man kann die Formulierung des Filters aber auch als Suche nach allen Personen, zu denen es je eine Aussage (
+                <hi rend="italic">statement</hi>) für jeden Parameter gibt, verstehen. Letztere Interpretation entspricht eher dem konzeptuellen Modell, weitet aber das Ergebnis auf schwer verständliche Art aus. IPIF verwendet deshalb die erste Interpretation als Standard, während die zweite über einen zusätzlichen Parameter 
+                <hi style="font-family:Courier New">independentStatements=true</hi> gelöst wird.
+            </p>
+            <p style="text-align: left; ">
+                <hi rend="bold">Labels für abstrakte Entitäten</hi>: Das Factoidmodell ist epistemologisch strikt und trennt das Individuum von seiner Beschreibung. So gibt es für die 
+                <hi rend="italic">person</hi>-Identität im konzeptuellen Modell keinen menschenlesebaren Identifikator. In der Praxis ist das jedoch unrealistisch, da Listen von Personen, z.B. in 
+                <hi rend="italic">autocomplete</hi>-Funktionen, ein menschenlesbares Label haben sollten. IPIF sieht deshalb vor, dass die jeweilige Implementation für Personenentitäten ein “
+                <hi rend="italic">label</hi>” erzeugt, das Informationen aus den Aussagen verwendet, die vom Standard nicht näher spezifiziert werden. Diese Label können also klassische Angaben aus Name, Lebensdaten und ‚Beruf‘ sein, aber auch andere bei der Individualisierung helfende Daten. Sie müssen weder durchgängig konsistent mit den vorhandenen Statements sein, noch gibt die API ein Versprechen über ihre Stabilität ab.
+            </p>
+            <p style="text-align: left; ">Die derzeit umfangreichste 
+                <hi rend="bold">Implementierung</hi> ist für das prosopographische Framework APIS in Entwicklung. APIS ist ein Entity-store, in der die aus dem Österreichischen Biographischen Lexikon (ÖBL) extrahierten Entitäten und ihre Beziehungen gespeichert werden (Schlögl &amp; Leitowicz 2017). Das Framework ist damit ein generell für prosopographische Daten geeignetes Werkzeug und wird inzwischen in verschiedenen Projekten am ACDH-CH verwendet (APIShub: <ref target="https://apis-hub.acdh-dev.oeaw.ac.at/">
+                    <hi rend="">https://apis-hub.acdh-dev.oeaw.ac.at/</hi>
+                </ref>). APIS bietet eine eigene RESTful API und Serialisierungen der Daten in TEI und CIDOC-CRM (<ref target="https://apis.acdh.oeaw.ac.at/apis/api2/">
+                    <hi rend="">https://apis.acdh.oeaw.ac.at/apis/api2/</hi>
+                </ref>). Zusätzlich haben wir eine IPIF Schnittstelle für die APIS-Daten entwickelt. Die technische Lösung ist eine Solr basierte Bibliothek, die einen für APIS spezifischen Export aus APIS verwendet. Der Suchindex repräsentiert die Endpunkte als Dokumente und definiert für die von IPIF definierten Filter spezifische Indexe. Die Lösung übersetzt also nicht das konzeptuelle Modell von IPIF direkt, sondern verwendete ein auf Performanz getrimmte Variante.
+            </p>
+            <p style="text-align: left; ">Einen ähnlichen Ansatz verfolgt der in Entwicklung befindliche IPIF-Python-Client, der Traversierungen zusammenfasst, um komplexere Abfragen zu vereinfachen, in denen die API in mehreren Schritten abgefragt werden müsste. Damit können Benutzungsfälle abgebildet werden, die auf Joins zwischen den drei Hauptentitäten beruhen, also z.B. Ergebnisse eines Filters auf 
+                <hi rend="italic">statements</hi> an den 
+                <hi rend="italic">sources</hi>-Endpunkt weitergeben.
+            </p>
+            <p style="text-align: left; ">Aus diesen Fällen lassen sich folgende Ansprüche an pragmatische RESTful APIs generalisieren, die wir mit dem Poster zur Diskussion stellen wollen:</p>
+            <list type="ordered">
+                <item>Bevorzuge Filter, die einen kleinen Datenausschnitt erzeugen, denn es ist einfacher, mehrere API-Aufrufe clientseitig zu kombinieren als ein zu großes serverseitiges Ergebnis clientseitig einzuschränken.</item>
+                <item>Keine URI ohne Label: abstrakte Konstrukte sollten immer eine menschenlesbare, semantisch besetzte Alternative besitzen, deren mangelnde semantische Präzision (es können fehlerhafte, veraltete oder umstrittene Angaben sein) hingenommen werden muss.</item>
+                <item>Erlaube Implementationen, die die Definitionen der API performant umsetzen, auch wenn sie nicht explizit das von der API verwendete konzeptuelle Datenmodell realisieren.</item>
+            </list>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bradley, John / Short, Harold</hi> (2005): „Texts into Databases: The Evolving Field of New-Style Prosopography“, in: 
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 20/Suppl 3–24. doi:10.1093/llc/fqi022.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Pasin, Michele / Bradley, John</hi> (2015): „Factoid-Based Prosopography and Computer Ontologies: Towards an Integrated Approach“, in: 
+                        <hi rend="italic">Literary and Linguistic Computing</hi> 30/1 86–97. doi:10.1093/llc/fqt037.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schlögl, Matthias / Lejtovicz, Katalin</hi> (2018): „A Prosopographical Information System (APIS)”, in: Antske Fokkens, ter Braake, Serge, Sluijter, Ronald, Arthur, Paul, and Wandl-Vogt, Eveline (eds.): 
+                        <hi rend="italic" xml:space="preserve">BD-2017. Biographical Data in a Digital World 2017. Proceedings of the Second Conference on Biographical Data in a Digital World 2017. Linz, Austria, November 6-7, 2017, </hi>CEUR Workshop Series 2119, [Budapest: CEUR] 53-58 &lt;
+                        <ref target="http://ceur-ws.org/Vol-2119/paper9.pdf">http://ceur-ws.org/Vol-2119/paper9.pdf</ref>&gt; [letzter Zugriff 10.7.2021]
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Vogeler, Georg / Vasold, Gunter / Schlögl, Matthias </hi>(2019). „Von IIIF zu IPIF? Ein Vorschlag für den Datenaustausch über Personen“. Patrick Sahle (Hrsg.). 
+                        <hi rend="italic">DHd 2019. Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts. Universitäten zu Mainz und Frankfurt 25. bis 29. März 2019</hi>. Frankfurt am Main. doi:10.5281/zenodo.2600812.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Zeditz, Jasper</hi> (2010): “Gedbas4all -- New Data Model for Genealogy“. In: 
+                        <hi rend="italic">GenWiki</hi> &lt;
+                        <ref target="http://wiki-en.genealogy.net/Gedbas4all/Article">
+                            <hi rend="">http://wiki-en.genealogy.net/Gedbas4all/Article</hi>
+                        </ref>&gt; [letzter Zugriff 10.7.2021]
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

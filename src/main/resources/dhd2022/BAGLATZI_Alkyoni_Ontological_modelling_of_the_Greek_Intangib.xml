@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_300">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ontological modelling of the Greek Intangible Cultural Heritage for complex geo-semantic querying</title>
+                <author>
+                    <persName>
+                        <surname>Baglatzi</surname>
+                        <forename>Alkyoni</forename>
+                    </persName>
+                    <affiliation>Spotlight on Innovation (SPOTIN) NPCC, Greece</affiliation>
+                    <email>alkyoni.baglatzi@spotin.org</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Velissaropoulos</surname>
+                        <forename>Georgios</forename>
+                    </persName>
+                    <affiliation>Xorostasi NPCC, Greece</affiliation>
+                    <email>velissaropoulosg@yahoo.gr</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-30T11:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>maps</term>
+                    <term>ontologies</term>
+                    <term>linked open data</term>
+                    <term>intangible cultural heritage</term>
+                    <term>open data</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Räumliche Analyse</term>
+                    <term>Webentwicklung</term>
+                    <term>Karte</term>
+                    <term>Methoden</term>
+                    <term>Projekte</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">300</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>According to UNESCO<ref target="ftn1" n="1"/>, Intangible Cultural Heritage (ICH) includes all traditions passed over to us by our ancestors providing a sense of identity and continuity. Due to the evolution and changes of societies and the global character of our daily interactions nowadays, there is a big challenge in preserving important intangible cultural heritage assets of the past. Technology, though, provides a great opportunity to safeguard the wealth of these cultural assets and pass it over to the next generations. 
+            </p>
+            <p>Intangible cultural heritage data<ref target="ftn2" n="2"/> is very broad including traditional dances and music, customs, health treatments etc. The current work focuses mainly on traditional music and dances of Greece. Greece has thousands of traditional dance and songs, differing a lot from place to place.
+            </p>
+            <p>Although, a wealth of data exists in multiple forms such as videos, images, recordings, documents, physical and digital objects, it cannot be easily retrieved or interconnected. What is missing is a structured way to describe, document, formalize, visualize, and interlink this data with external resources. The current work demonstrates the use of ontologies and semantic web technologies to face this need, with particular emphasis on the spatial and temporal dimension as integrators of the information. </p>
+            <p>Maps are regarded as an enormously powerful and intuitive tool for visualizing data (Harley 2009) supporting critical thinking (Crampton 2001). The efficiency of maps has led to the development of the spatial humanities field demonstrating the power of maps for retrieving implicit knowledge of the past (Roberts 2016; Roberts et al. 2014). In the ICH domain though, little use of maps can be seen.</p>
+            <p>The importance of ontologies and linked open data in the ICH domain has already been acknowledged in various approaches (Chantas et al. 2018; Hou and Wang 2019; Ziku 2020). CultureSampo (Hyvönen et al. 2008), a flagship project introduced intelligent semantic web 2.0 technologies for cross-domain cultural heritage of the area of Finland. Europeana<ref target="ftn3" n="3"/>, the largest EU repository of cultural heritage data, uses linked open data for providing the data in an interoperable form. Regarding Greek ICH, important projects include iTreasures (Dimitropoulos et al. 2014), Wholedance (Camurri et al. 2016) and Terpsichori (Doulamis et al. 2017) demonstrating the important contributions of semantic web technologies for ICH preservation. 
+            </p>
+            <p>In the current work, geo-semantic web technologies are being utilized in order to formalize and document all the data regarding the ICH of Greek traditional dances and songs. Ontologies are being used for the conceptualization of the information and its provision as linked open data. For increasing interoperability and enabling the linkage with existing resources, already developed ontologies and schemas such as the DOLCE ontology (Borgo and Masolo 2010), the CIDOC CRM (Crofts et al. 2008) are being adopted. For the formalization of specialized domain concepts, the Greek Intangible Heritage Ontology (GIHO) is being developed with special focus on the spatial and temporal parameters. For enabling a better understanding of the data and providing more efficient ways of making it available to a wide range of users (either with a technical or non-technical background), a map-based web platform is being developed in which the end users will be able to pose complex queries. The Ontop-spatial (Bereta et al. 2016) and Sextant (Nikolaou et al. 2015) tools developed by the University of Athens, are being used for the processing and visualization of complex spatiotemporal thematic queries such as “Show me all places where dances with rhythms of 9/8 exist” or “Show me all the places where songs with the same text and different music exist”. </p>
+            <p>The contribution and novelty of our approach is threefold: 1) all the information about ICH currently kept in books, videos, etc. is being digitalized and formalized in an interoperable way, 2) a map based central access point is being developed enabling better overview of the information and 3) end users i.e. researchers from the social sciences are provided with an infrastructure that enables the investigation of complex queries and the retrieval of implicit knowledge (i.e. the way trade relations influenced the music and dances in the different regions of Greece)</p>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                        <ref target="https://ich.unesco.org/doc/src/01856-EN.pdf">https://ich.unesco.org/doc/src/01856-EN.pdf</ref>
+                    </note><note place="foot" xml:id="ftn2" n="2">
+                        <anchor xml:id="Hlk77266149"/>
+                        <ref target="https://ich.unesco.org/doc/src/15164-EN.pdf">https://ich.unesco.org/doc/src/15164-EN.pdf</ref>
+                    </note><note place="foot" xml:id="ftn3" n="3">
+                        <anchor xml:id="Hlk77266166"/>
+                        <ref target="https://www.europeana.eu/en">https://www.europeana.eu/en</ref>
+                        <ref target="https://www.europeana.eu/en" xml:space="preserve"> </ref>
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Bereta, K., Xiao, G., Koubarakis, M., Hodrius, M., Bielski, C., and Zeug, G.</hi> (2016), 
+                        "Ontop-spatial: Geospatial data integration using geosparql-to-sql translation", in <hi rend="italic">Proceedings of the 15th International Semantic Web Conference, Posters &amp; Demonstrations Track (ISWC)</hi>. Available at: http://ceur-ws. org, Vol. 1690.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Borgo, S. and Masolo, C.</hi> (2010), 
+                        <hi rend="italic">Ontological foundations of DOLCE</hi>, pp. 279–295. 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Camurri, A., Sarti, A., Pietro, S., Viro, V., Whatley, S., El Raheb, K., Even Zohar, O., Ioannidis, Y., Markatzi, A., Matos, J.-M., Morley-Fletcher, E., Palacio, P. and Romero, M.</hi> (2016), 
+                        <hi rend="italic">Wholodance: Towards a methodology for selecting motion capture data across different dance learning practice</hi>, pp. 1–2.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Chantas, G., Karavarsamis, S., Nikolopoulos, S. and Kompatsiaris, I.</hi> (2018), "A probabilistic, ontological framework for safeguarding the intangible cultural heritage", <hi rend="italic">Journal on Computing and Cultural Heritage</hi> (JOCCH) 11(3), 1–29. </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Crampton, J. W.</hi> (2001), "Maps as social constructions: power, communication and visualization", <hi rend="italic">Progress in Human Geography</hi> 25(2), 235–252.</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Crofts, N., Doerr, M., Gill, T., Stead, S. and Stiff, M.</hi> (2008), <hi rend="italic">Definition of the cidoc conceptual reference model</hi>, ICOM/CIDOC Documentation Standards Group. CIDOC CRM Special Interest Group 5.</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Dimitropoulos, K., Manitsaris, S., Tsalakanidou, F., Nikolopoulos, S., Denby, B., Al Kork, S., Crevier-Buchman, L., Pillot-Loiseau, C., Adda-Decker, M., Dupont, S., Tilmanne, J., Ott, M., Alivizatou, M., Yilmaz, E., Hadjileontiadis, L., Charisis, V., Deroo, O., Manitsaris, A., Kompatsiaris, I. and Nikos, G.</hi> (2014), 
+                        <hi rend="italic">Capturing the intangible: An introduction to the i-treasures project.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Doulamis, A., Voulodimos, A., Doulamis, N., Soile, S. and Lampropoulos, A.</hi> (2017), 
+                        <hi rend="italic">Transforming intangible folkloric performing arts into tangible choreographic digital objects: The terpsichore approach</hi>, pp. 451–460.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Harley, J. B.</hi> (2009), "Maps, knowledge, and power",
+                        <hi rend="italic">Geographic thought: a praxis perspective</hi> pp. 129–148.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Hou, X. and Wang, X.</hi> (2019), 
+                        "Modeling and representation of intangible cultural heritage knowledge using linked data and ontology", <hi rend="bold">Proceedings of the Association for Information Science and Technology</hi> 56(1), 409–412.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Hyvönen, E., Mäkelä, E., Kauppinen, T., Alm, O., Kurki, J., Ruotsalo, T., Seppälä, K., Takala, J., Puputti, K., Kuittinen, H., Viljanen, K., Tuominen, J., Palonen, T., Frosterus, M., Sinkkilä, R., Paakkarinen, P., Laitio, J. and Nyberg, K.</hi> (2008),
+                        <hi rend="italic">Culturesampo – a collective memory of finnish cultural heritage on the semantic web 2.0</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Nikolaou, C., Dogani, K., Bereta, K., Garbis, G., Karpathiotakis, M., Kyzirakos, K. and Koubarakis, M.</hi> (2015), 
+                        "Sextant: Visualizing time-evolving linked geospatial data", <hi rend="italic">Journal of Web Semantics</hi> 35, 35–52.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Roberts, L.</hi> (2016), 
+                        <hi rend="italic">Deep mapping and spatial anthropology.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Roberts, L., Thevenin, T., Hallam, J., Beveridge, A., Mostern, R., Southall, H., Cunningham, N. A., Schwartz, R. M. and Meeks, E.</hi> (2014), 
+                        <hi rend="italic">Toward spatial humanities: Historical GIS and spatial history,</hi> Indiana University Press.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Ziku, M.</hi> (2020), 
+                        "Digital cultural heritage and linked data: Semantically informed conceptualizations and practices with a focus on intangible cultural heritage", <hi rend="italic">Liber Quarterly</hi> 30(1).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

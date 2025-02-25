@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_233">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Poesie als Fehler</title>
+                    <title type="sub">Ein ‘Tool Misuse’-Experiment zur Prozessierung von Lyrik</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Sluyter-Gäthje</surname>
+                        <forename>Henny</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam, Germany</affiliation>
+                    <email>sluytergaeth@uni-potsdam.de</email>
+                <idno type="ORCID">0000-0003-2969-3237</idno></author>
+                <author>
+                    <persName>
+                        <surname>Trilcke</surname>
+                        <forename>Peer</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam, Germany</affiliation>
+                    <email>trilcke@uni-potsdam.de</email>
+                <idno type="ORCID">0000-0002-1421-4320</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-29T13:44:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Lyrik</term>
+                    <term>NLP</term>
+                    <term>Fehler</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Programmierung</term>
+                    <term>Annotieren</term>
+                    <term>Bereinigung</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">233</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Problemhorizont und Fragestellung</head>
+                <p style="text-align: left; ">Analysen der Computational Literary Studies (CLS) vorverarbeiten ihre Untersuchungsgegenstände typischerweise mit Tools des Natural Language Processing (NLP). Dabei weichen literarische Texte aufgrund ihrer historischen und/oder ästhetischen Eigenart teils eklatant von den Daten ab, auf deren Grundlage die 
+                    <hi rend="italic">Models</hi> der NLP-Tools erstellt wurden. Entsprechend sinkt die 
+                    <hi rend="italic">Accuracy</hi> der Tools etwa bei der Tokenisierung, der Lemmatisierung oder dem POS-Tagging von literarischen Texten (Scheible et al. 2011; für POS-Tagger: Rayson et al. 2007; Herrmann 2018; Bamman 2020), wobei die besondere ‘Schwierigkeit’ literarischer Texte alle gängigen Tools zu betreffen scheint (für Lemmatisierung vgl. Ortmann, Roussel, Dipper 2019: 219).
+                </p>
+                <p style="text-align: left; ">Der 
+                    <hi rend="italic">Performance Drop</hi> der NLP-Tools bei Literatur ist ein computerlinguistisches Problem der Domänenadaption. Für die CLS könnte die ‘Fehlerhaftigkeit’ der Tools im Sinne devianzpoetischer Positionen (Fricke 1981) zudem die Möglichkeit bieten, ein computationelles Verständnis vom spezifischen Abweichungscharakter literarischer Texte auszubilden: Wenn die Tools für standardsprachliche Texte entwickelt wurden, dann könnten die Fehler, die diese Tools auf nicht-standardsprachlichen Texten wie der Literatur produzieren, etwas über deren Charakteristika aus computationeller Sicht verraten. 
+                </p>
+                <p style="text-align: left; ">Das folgende Experiment geht von dieser basalen Überlegung aus. Gegenstand des Experiments ist die Lyrik, der regelmäßig eine “Tendenz zu erhöhter Devianz” (Müller-Zettelmann 2000: 100) attestiert wird, die sich in Form gattungsspezifischer “Störungen” (Zymner 2019: 29f.) ausdrückt. Wir entwickeln eine Pipeline, die gezielt ‘Fehler’ von NLP-Tools provoziert und diese ‘Fehler’ regelbasiert typologisiert. Damit möchten wir für die CLS auch exemplarisch den Ansatz des 
+                    <hi rend="italic">Tool Misuse</hi> profilieren, bei dem die Erzeugung von ‘fehlerhaftem’ Output computationeller Tools Grundlage für Erkenntnisse über Literatur wird.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Operationalisierung und Korpora</head>
+                <p style="text-align: left; ">Fehler von Tools wären idealerweise über Daten mit Gold-Standard-Annotationen zu ermitteln. Solche Daten liegen für unser Szenario nicht vor. Deshalb implementieren wir als Workaround eine Pipeline, die folgende Idee umsetzt: Die Verarbeitung einer Zeichenkette durch ein NLP-Tool (Tokenisierung, Lemmatisierung, POS-Tagging) sollte eine Zeichenkette ergeben, die in einem Wörterbuch zu finden ist: Die Ausgabe, die aus der Eingabe “gehst” resultiert, sollte sich als Lemma “gehen” der Wortart “Verb” in einem Wörterbuch finden. Da wir nicht die spezifischen Sprachverarbeitungsprobleme eines individuellen NLP-Tools in den Blick nehmen wollen, lassen wir unser Lyrikkorpus von mehreren Tools prozessieren und betrachten jene Types als potenzielle Fehler, deren von den Tools ausgegebene Lemmata (inkl. POS-Tag) wir nicht in einem Wörterbuch finden.</p>
+                <p style="text-align: left; ">Prozessiert wird ein deutsches kanonbasiertes Korpus mit ‘prototypischer’ Lyrik, das Texte von 12 Autor:innen umfasst, die in der statistisch begründeten Anthologie von Braam (2019) am häufigsten mit Gedichten vertreten sind. Ins Korpus aufgenommen wurden sämtliche im TextGridRepository<ref target="ftn1" n="1"/> verfügbaren Gedichte der 12 Autor:innen (Goethe, Schiller, Hölderlin, Eichendorff, Heine, Droste-Hülshoff, Claudius, Mörike, Storm, Rilke, Trakl, Tucholsky).<ref target="ftn2" n="2"/> Zur eklatanten Unterrepräsentation von Autorinnen im Lyrikkanon siehe (Bers 2020). Vergleichend verwenden wir ein Prosakorpus mit 100 deutschsprachigen Romanen aus dem 19. Jahrhundert, zusammengestellt aus dem TextGridRepository und Projekt Gutenberg<ref target="ftn3" n="3"/>; Grundlage für die Romanauswahl ist die Erwähnung in Beutin et al. (2019).
+                </p>
+                <p style="text-align: left; ">Unsere ‘Fehler-Pipeline’ präferiert 
+                    <hi rend="italic">Recall</hi> vor 
+                    <hi rend="italic">Precision</hi>. Sie produziert also zunächst Indizien für potenzielle Fehler. Eine größere Menge an 
+                    <hi rend="italic">False Positives</hi> ist zu erwarten, etwa weil wir 
+                    <hi rend="italic">Out-of-Vocabulary</hi>-Wörter der verwendeten Wörterbücher prozessieren.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Pipeline</head>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="9.001125cm" url="Pictures/a3ef15927a94bbd24304571dbd0e4a74.png" rend="inline"/>
+                    <head>Abb. 1: Pipeline zur Fehlertypisierung der Korpora</head>
+                </figure>
+                <p>Die in die Pipeline eingespeisten Textdateien (txt-Format) werden tokenisiert, POS-tagged und lemmatisiert (Abb. 1). Um potenzielle Fehler als taggerspezifische Fehler einzuordnen, verwenden wir vier NLP-Tools. Diese sind frei verfügbar, stellen 
+                    <hi rend="italic">Models</hi> für das Deutsche bereit und führen alle NLP-Schritte durch. Den RNNTagger (Schmid 2019) (im Folgenden “RNN”) und stanza (Qi et al. 2020) haben wir aufgrund der guten Performance nach Ortmann et al. (2019) ausgewählt. Die 
+                    <hi rend="italic">Models</hi> beider Tools sind neuronal. Zusätzlich verwenden wir spacy (Honnibal et al. 2020), das für das Deutsche ein 
+                    <hi rend="italic">Transformer Model</hi> (de_dep_news_trf) zur Verfügung stellt. Um auch einen nicht-neuronalen Tagger aufzunehmen, verwenden wir den TreeTagger (Schmid 1994; Schmid 1995) (im Folgenden “Tree”), der auf Grundlage von 
+                    <hi rend="italic">Decision Trees</hi> annotiert.
+                </p>
+                <p>Bei der Verb-Rekonstruktion werden abgetrennte Verbpartikel regelbasiert (mithilfe von POS-Tag und Abstandsmaßen) an das dazugehörige Lemma des Verbs angefügt. Die darauffolgende Fehlerbetrachtung ist auf dem Vergleich der Lemmata mit Wörterbüchern gestützt. Da wir erwarten, dass Fehler, die ihren Ursprung in der Domänenspezifität haben, sich hauptsächlich auf Inhaltswörter, d.i. Nomen (NOUN), Verben (VERB) und Adjektive (ADJ), beschränken, werden der Wörterbuchvergleich und die darauffolgenden Schritte nur für diese Wortarten durchgeführt.</p>
+                <p>Die Lemmata werden unter Berücksichtigung der Wortart in der lexikalisch-semantischen Ressource GermaNet<ref target="ftn4" n="4"/> (Hamp &amp; Feldweg 1997; Henrich &amp; Hinrichs 2010), die 146.787 Lemmata (ADJ, NOUN, VERB) umfasst, sowie im Digitalen Wörterbuch der deutschen Sprache (DWDS)<ref target="ftn5" n="5"/> (Klein &amp; Geyken 2010) nachgeschlagen, das über 230.000 Wörter umfasst.
+                </p>
+                <p>Für jeden Type erzeugen wir Listen von Lemmata pro Tool. Für die 5.144 Gedichttexte ergibt das eine Typezahl von 70.422 (Tab. 1, Spalte “all”), die je nach Tagger aufgrund verschiedener Tokenisierung und POS-Tagging zu unterschiedlichen Tokenzahlen führt. Um zu verhindern, dass Fehler toolspezifisch sind, werten wir einen Type nur dann als potenziellen Fehler, wenn mindestens zwei Tools den Type lemmatisiert haben und kein Lemma aus den Listen im Wörterbuch gefunden wurde (Tab. 01, Spalte “pFail”). Diese potenziellen Fehler werden regelbasiert in Fehlertypen eingeteilt.</p>
+                <table rend="rules">
+                    <head>Tab. 1: Anzahl der Types und Token (ADJ, NOUN, VERB), differenziert nach Lyrik- und Prosakorpus, jeweils für die Gesamtkorpora (“all”) und für die Sets mit potenziellen Fehlern (“pFail”). Minimalwerte sind kursiv und Maximalwerte sind fett gedruckt.</head>
+                    <row>
+                        <cell style="text-align: left;"/>
+			<cell style="text-align: left;">Lyrik</cell>
+			<cell style="text-align: left;">Lyrik</cell>
+                        <cell style="text-align: left;">Prosa</cell>
+                        <cell style="text-align: left;">Prosa</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">all</cell>
+                        <cell style="text-align: left;">pFail</cell>
+                        <cell style="text-align: left;">all</cell>
+                        <cell style="text-align: left;">pFail</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Types</cell>
+                        <cell style="text-align: left;">70.422</cell>
+                        <cell style="text-align: left;">24.244</cell>
+                        <cell style="text-align: left;">263.042</cell>
+                        <cell style="text-align: left;">115.785
+                            <ref target="ftn6" n="6"/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">spacy_Token</cell>
+                        <cell style="text-align: left;">397.924</cell>
+                        <cell style="text-align: left;">36.549</cell>
+                        <cell style="text-align: left;">3.967.566</cell>
+                        <cell style="text-align: left;">250.800</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">stanza_Token</cell>
+                        <cell style="text-align: left;">390.605</cell>
+                        <cell style="text-align: left;">34.493</cell>
+                        <cell style="text-align: left;">3.958.315</cell>
+                        <cell style="text-align: left;">254.049</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">RNN_Token</cell>
+                        <cell style="text-align: left;">390.325</cell>
+                        <cell style="text-align: left;">36.115</cell>
+                        <cell style="text-align: left;">3.977.869</cell>
+                        <cell style="text-align: left;">268.686</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">Tree_Token</cell>
+                        <cell style="text-align: left;">414.395</cell>
+                        <cell style="text-align: left;">39.243</cell>
+                        <cell style="text-align: left;">4.276.486</cell>
+                        <cell style="text-align: left;">280.850</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Analyse</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Typologie potenzieller Fehler</head>
+                    <p>Auf dem pFail-Set führen wir eine regelbasierte Typologisierung durch. Die Typen postulieren wir ausgehend von manuellen Inspektionen des pFail-Set. Für jeden Typen wird eine Regel formuliert. Die Regeln werden daraufhin in einer spezifischen Reihenfolge auf das pFail-Set angewendet. Mehrfachtypisierungen sind nicht möglich; die Reihenfolge der Regelanwendung hat mithin Konsequenzen für die Menge an jeweils identifizierten Vorkommnissen. Die Reihenfolge lautet: CONTRACT, ELISION_APO, PUNC, SHORT, COMP_DASH, COMP, PART_ADJ, ELISION_SIMPLE, ORTH_UPPER, ORTH_SZ, PREFIXED, EPITHESIS, ELISION_END. Die Typendefinitionen führt Tab. 2 auf.</p>
+                    <table rend="rules">
+                        <head>Tab. 2: Typen potenzieller Fehler und Identifikationsregeln</head>
+                        <row>
+                            <cell style="text-align: left;">Bezeichnung</cell>
+                            <cell style="text-align: left;">Beschreibung</cell>
+                            <cell style="text-align: left;">Regel</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">PUNC</cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Satzzeichen sind als ADJ, NOUN, VERB pos-getaggt oder Satzzeichen sind als Teil eines Wortes tokenisiert. </hi>
+                            </cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Wenn im Type ein Satzzeichen (Ausnahme: Apostrophe und Bindestriche, bei denen vor und nach dem Bindestrich mindestens ein Buchstabe steht) vorkommt, typisiere.</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">SHORT</cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Einzelne Buchstaben oder Ziffern sind als ADJ, NOUN, VERB pos-getaggt.</hi>
+                            </cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Wenn ein Type nur zwei Zeichen oder weniger aufweist, typisiere.</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">ORTH_SZ</cell>
+                            <cell style="text-align: left;">Wörter verwenden die historische Schreibung mit “ß”.</cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Ersetze “ß” im Lemma durch “ss” und prüfe im Wörterbuch; wenn im Wörterbuch zu finden, typisiere.</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">ORTH_UPPER</cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">ADJ oder VERB wurden am Versanfang großgeschrieben.</hi>
+                            </cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Wenn ein Type am Anfang einer Zeile steht, ersetze initiale Großschreibung bei ADJ und VERB mit Kleinschreibung und prüfe im Wörterbuch; wenn im Wörterbuch zu finden, typisiere.</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">ELISION_APO</cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Vokale innerhalb eines Wortes wurden getilgt und durch Apostroph ersetzt.</hi>
+                            </cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Wenn innerhalb eines Type ein Apostroph vorkommt, typisiere.</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">ELISION_SIMPLE</cell>
+                            <cell style="text-align: left;">Vokale wurden in der vorletzten oder letzten Silbe eines Wortes ohne Markierung durch Apostroph getilgt.</cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Wenn ein Type auf [“nen”, “ner”, “ne”, “n”] endet und davor kein Vokal und kein “l” oder “r” steht, typisiere.</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">ELISION_END</cell>
+                            <cell style="text-align: left;">Auslautende Vokale in NOUN wurden getilgt.</cell>
+                            <cell style="text-align: left;">Ergänze am Ende eines NOUN ein “e” und prüfe im Wörterbuch; wenn im Wörterbuch zu finden, typisiere.</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">EPITHESIS</cell>
+                            <cell style="text-align: left;">An NOUN wurde ein auslautendes “e” angehängt. </cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Tilge bei NOUN, die auf “e” enden, das “e” und prüfe im Wörterbuch; wenn im Wörterbuch zu finden, typisiere.</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">CONTRACT</cell>
+                            <cell style="text-align: left;">Ein nachfolgendes Pronomen “es” wurde in Form von “‘s” an das voranstehende Wort kontrahiert.</cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Wenn ein Type auf “‘s” endet, typisiere.</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">COMP_DASH</cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Mittels Bindestrich wurden mehrere Wörter zu einem Wort zusammengefügt, das nicht im Wörterbuch steht.</hi>
+                            </cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Wenn innerhalb eines Type ein Bindestrich vorkommt, typisiere.</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">COMP</cell>
+                            <cell style="text-align: left;">Mehrere NOUN wurden zu einem Wort zusammengefügt, das nicht im Wörterbuch steht.</cell>
+                            <cell style="text-align: left;">Wenn ein NOUN gleich viele oder mehr Zeichen aufweist als der Mittelwert der Zeichenanzahl aller Token im “all”-Set (8.8, gerundet 9), typisiere.</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">PART_ADJ</cell>
+                            <cell style="text-align: left;">VERB wurde zu einem partizipialen ADJ abgeleitet, das nicht im Wörterbuch steht.</cell>
+                            <cell style="text-align: left;">Wenn ein ADJ auf “end” endet, typisiere.</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">PREFIXED</cell>
+                            <cell style="text-align: left;">Durch ein Präfix wurde ein Wort abgeleitet, das nicht im Wörterbuch steht.</cell>
+                            <cell style="text-align: left;">
+                                <hi rend="background(white)">Wenn ein Type mit einem Präfix aus einer vorgegeben Liste beginnt, entferne Präfix aus Lemma und prüfe im Wörterbuch; wenn im Wörterbuch zu finden, typisiere.</hi>
+                            </cell>
+                        </row>
+                    </table>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Fehlerkommentierung</head>
+                    <table rend="rules">
+                        <head>Tab. 3: Relative Häufigkeit für die Typen potenzieller Fehler für die beiden pFail-Sets</head>
+                        <row>
+                            <cell style="text-align: left;"/>
+                            <cell style="text-align: left;">Lyrik</cell>
+                            <cell style="text-align: left;">Lyrik</cell>
+                            <cell style="text-align: left;">Lyrik</cell>
+                            <cell style="text-align: left;">Lyrik</cell>
+                            <cell style="text-align: left;">Lyrik</cell>
+                            <cell style="text-align: left;">Prosa</cell>
+                            <cell style="text-align: left;">Prosa</cell>
+                            <cell style="text-align: left;">Prosa</cell>
+                            <cell style="text-align: left;">Prosa</cell>
+                            <cell style="text-align: left;">Prosa</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;"/>
+                            <cell style="text-align: left;">
+                                <hi rend="bold" style="font-size:8pt">merged_ Types</hi>
+                            </cell>
+                            <cell style="text-align: left;">
+                                <hi rend="bold" style="font-size:8pt">spacy_ Token</hi>
+                            </cell>
+                            <cell style="text-align: left;">stanza_Token</cell>
+                            <cell style="text-align: left;">RNN_Token</cell>
+                            <cell style="text-align: left;">
+                                <hi rend="bold" style="font-size:8pt">Tree_ Token</hi>
+                            </cell>
+                            <cell style="text-align: left;">merged_Types</cell>
+                            <cell style="text-align: left;">
+                                <hi rend="bold" style="font-size:8pt">spacy_ Token</hi>
+                            </cell>
+                            <cell style="text-align: left;">stanza_Token</cell>
+                            <cell style="text-align: left;">RNN_ Token</cell>
+                            <cell style="text-align: left;">
+                                <hi rend="bold" style="font-size:8pt">Tree_ Token</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">PUNC</cell>
+                            <cell style="text-align: left;">0,454</cell>
+                            <cell style="text-align: left;">0,271</cell>
+                            <cell style="text-align: left;">0,151</cell>
+                            <cell style="text-align: left;">0,565</cell>
+                            <cell style="text-align: left;">0,451</cell>
+                            <cell style="text-align: left;">0,576</cell>
+                            <cell style="text-align: left;">1,543</cell>
+                            <cell style="text-align: left;">0,527</cell>
+                            <cell style="text-align: left;">1,758</cell>
+                            <cell style="text-align: left;">0,818</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">SHORT</cell>
+                            <cell style="text-align: left;">0,223</cell>
+                            <cell style="text-align: left;">0,865</cell>
+                            <cell style="text-align: left;">1,087</cell>
+                            <cell style="text-align: left;">0,623</cell>
+                            <cell style="text-align: left;">6,116</cell>
+                            <cell style="text-align: left;">0,124</cell>
+                            <cell style="text-align: left;">0,355</cell>
+                            <cell style="text-align: left;">0,524</cell>
+                            <cell style="text-align: left;">0,251</cell>
+                            <cell style="text-align: left;">0,776</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">ORTH _SZ</cell>
+                            <cell style="text-align: left;">0,120</cell>
+                            <cell style="text-align: left;">0,186</cell>
+                            <cell style="text-align: left;">0,180</cell>
+                            <cell style="text-align: left;">0,194</cell>
+                            <cell style="text-align: left;">0,183</cell>
+                            <cell style="text-align: left;">0,133</cell>
+                            <cell style="text-align: left;">0,195</cell>
+                            <cell style="text-align: left;">0,191</cell>
+                            <cell style="text-align: left;">0,192</cell>
+                            <cell style="text-align: left;">0,194</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">ORTH _UPPER</cell>
+                            <cell style="text-align: left;">0,627</cell>
+                            <cell style="text-align: left;">1,152</cell>
+                            <cell style="text-align: left;">1,093</cell>
+                            <cell style="text-align: left;">0,905</cell>
+                            <cell style="text-align: left;">0,846</cell>
+                            <cell style="text-align: left;">0,020</cell>
+                            <cell style="text-align: left;">0,102</cell>
+                            <cell style="text-align: left;">0,059</cell>
+                            <cell style="text-align: left;">0,061</cell>
+                            <cell style="text-align: left;">0,054</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">ELISION _APO</cell>
+                            <cell style="text-align: left;">2,083</cell>
+                            <cell style="text-align: left;">2,424</cell>
+                            <cell style="text-align: left;">2,693</cell>
+                            <cell style="text-align: left;">2,614</cell>
+                            <cell style="text-align: left;">2,349</cell>
+                            <cell style="text-align: left;">0,314</cell>
+                            <cell style="text-align: left;">0,167</cell>
+                            <cell style="text-align: left;">0,191</cell>
+                            <cell style="text-align: left;">0,207</cell>
+                            <cell style="text-align: left;">0,274</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">ELISION _SIMPLE</cell>
+                            <cell style="text-align: left;">2,574</cell>
+                            <cell style="text-align: left;">5,185</cell>
+                            <cell style="text-align: left;">5,256</cell>
+                            <cell style="text-align: left;">4,998</cell>
+                            <cell style="text-align: left;">4,854</cell>
+                            <cell style="text-align: left;">0,978</cell>
+                            <cell style="text-align: left;">1,276</cell>
+                            <cell style="text-align: left;">1,338</cell>
+                            <cell style="text-align: left;">1,178</cell>
+                            <cell style="text-align: left;">1,170</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">ELISION _END</cell>
+                            <cell style="text-align: left;">1,081</cell>
+                            <cell style="text-align: left;">2,129</cell>
+                            <cell style="text-align: left;">1,279</cell>
+                            <cell style="text-align: left;">2,093</cell>
+                            <cell style="text-align: left;">1,233</cell>
+                            <cell style="text-align: left;">0,246</cell>
+                            <cell style="text-align: left;">0,555</cell>
+                            <cell style="text-align: left;">0,401</cell>
+                            <cell style="text-align: left;">0,582</cell>
+                            <cell style="text-align: left;">0,335</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">EPITHESIS</cell>
+                            <cell style="text-align: left;">0,285</cell>
+                            <cell style="text-align: left;">0,380</cell>
+                            <cell style="text-align: left;">0,359</cell>
+                            <cell style="text-align: left;">0,368</cell>
+                            <cell style="text-align: left;">0,354</cell>
+                            <cell style="text-align: left;">0,128</cell>
+                            <cell style="text-align: left;">0,139</cell>
+                            <cell style="text-align: left;">0,132</cell>
+                            <cell style="text-align: left;">0,133</cell>
+                            <cell style="text-align: left;">0,124</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">CONTRACT</cell>
+                            <cell style="text-align: left;">0,639</cell>
+                            <cell style="text-align: left;">0,350</cell>
+                            <cell style="text-align: left;">0,406</cell>
+                            <cell style="text-align: left;">0,144</cell>
+                            <cell style="text-align: left;">0,892</cell>
+                            <cell style="text-align: left;">0,271</cell>
+                            <cell style="text-align: left;">0,127</cell>
+                            <cell style="text-align: left;">0,197</cell>
+                            <cell style="text-align: left;">0,068</cell>
+                            <cell style="text-align: left;">0,864</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">COMP _DASH</cell>
+                            <cell style="text-align: left;">1,926</cell>
+                            <cell style="text-align: left;">1,280</cell>
+                            <cell style="text-align: left;">0,217</cell>
+                            <cell style="text-align: left;">1,252</cell>
+                            <cell style="text-align: left;">1,269</cell>
+                            <cell style="text-align: left;">4,957</cell>
+                            <cell style="text-align: left;">2,354</cell>
+                            <cell style="text-align: left;">0,323</cell>
+                            <cell style="text-align: left;">2,309</cell>
+                            <cell style="text-align: left;">2,497</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">COMP</cell>
+                            <cell style="text-align: left;">37,783</cell>
+                            <cell style="text-align: left;">29,506</cell>
+                            <cell style="text-align: left;">30,400</cell>
+                            <cell style="text-align: left;">29,608</cell>
+                            <cell style="text-align: left;">28,160</cell>
+                            <cell style="text-align: left;">46,432</cell>
+                            <cell style="text-align: left;">33,805</cell>
+                            <cell style="text-align: left;">35,196</cell>
+                            <cell style="text-align: left;">33,173</cell>
+                            <cell style="text-align: left;">32,839</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: left;">PART _ADJ</cell>
+                            <cell style="text-align: left;">3,234</cell>
+                            <cell style="text-align: left;">5,190</cell>
+                            <cell style="text-align: left;">5,294</cell>
+                            <cell style="text-align: left;">5,242</cell>
+                            <cell style="text-align: left;">4,852</cell>
+                            <cell style="text-align: left;">2,060</cell>
+                            <cell style="text-align: left;">4,898</cell>
+                            <cell style="text-align: left;">4,844</cell>
+                            <cell style="text-align: left;">4,580</cell>
+                            <cell style="text-align: left;">4,392</cell>
+                        </row>
+                        <row>
+                            <cell style="text-align: right;">PREFIXED</cell>
+                            <cell style="text-align: right;">2,302</cell>
+                            <cell style="text-align: right;">2,052</cell>
+                            <cell style="text-align: right;">2,079</cell>
+                            <cell style="text-align: right;">2,071</cell>
+                            <cell style="text-align: right;">1,939</cell>
+                            <cell style="text-align: right;">3,643</cell>
+                            <cell style="text-align: right;">3,196</cell>
+                            <cell style="text-align: right;">3,106</cell>
+                            <cell style="text-align: right;">2,951</cell>
+                            <cell style="text-align: right;">2,773</cell>
+                        </row>
+                    </table>
+                    <p>53,33 % der Types im pFail-Set für Lyrik und 59,88 % der Types im pFail-Set für Prosa werden identifiziert (vgl. Tab. 3). Die identifizierten Typen können zu Gruppen zusammengefasst werden: PUNC und SHORT sind überwiegend unterhalb der Wortebene anzusiedelnde Zeichen, meist Rauschen, das bei Lyrik und Prosa in vergleichbarem Umfang auftaucht. ORTH_SZ dokumentiert den ebenfalls bei Lyrik und Prosa vergleichbar ausgeprägten Effekt der 
+                        <hi rend="italic">Historischen Orthographie</hi>, die in unseren Korpora durch Modernisierungen bereits weitgehend abgefangen ist. Ein weiterer Normalisierungsschritt etwa mit dem DTA::CAB-Webservices<ref target="ftn7" n="7"/> könnte hier Abhilfe schaffen.
+                    </p>
+                    <p>Die 10 weiteren Typen lassen sich zu drei Gruppen zusammenführen. COMP_DASH, COMP, PART_ADJ, PREFIXED versammeln 
+                        <hi rend="italic">Kreative Lexik</hi>, d.i. Wortbildungsmechanismen (Komposition, Derivation); hier handelt es sich häufig um 
+                        <hi rend="italic">Out-of-Vocabulary</hi>-Wörter, also um Pipelinefehler, nicht um Toolfehler. Bei der Lyrik lassen sich 45,25 % des “pFail”-Sets dieser Gruppe zuweisen, bei der Prosa 57,09 %. Eine erwartungsgemäß höhere Fehlerrate für Lyrik (0,62 %) als für Prosa (0,02 %) produziert die Pipeline bei ORTH_UPPER, mit dem – in Form der versinitialen Großschreibung – eine Eigenart 
+                        <hi rend="italic">Lyrischer Typographie</hi> identifiziert wird. Ebenfalls höher ist die Gruppe 
+                        <hi rend="italic">Prosodische Deformation</hi>, bestehend aus ELISION_APO, ELISION_SIMPLE, ELISION_END, EPITHESIS, CONTRACT, die bei der Lyrik 6,62 % des pFail-Sets, bei der Prosa 1,93 % des pFail-Sets beschreibt. Da im Prosakorpus umfangreich auch direkte Rede enthalten ist, liegt die Annahme nahe, dass die Deformationen hier tatsächlich auf die metrisch-bedingte Hinzufügung bzw. Tilgung von Vokalen zurückzuführen ist.
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Methodenkritik und Ausblick</head>
+                <p>Zu resümieren, dass die spezifisch lyrische ‘Störung’ für die NLP-Tools insbesondere aus der 
+                    <hi rend="italic">Prosodischen Deformation</hi> des Wortmaterials und den Eigenarten der 
+                    <hi rend="italic">Lyrischen Typographie</hi> resultiert, wohingegen die 
+                    <hi rend="italic">Kreative Lexik</hi> (für die zudem präzisere Regeln notwendig wären) auch bei der Prozessierung literarischer Prosa erhebliche Schwierigkeiten bereitet, erweist sich nicht nur angesichts fehlender Signifikanztests als zu einfach. Denn darüber hinaus ist erstens unsere Pipeline noch zu grob gebaut: zu viele potenzielle Fehler sind, wie etwa bei der kreativen Lexik, faktisch keine Tool-Fehler, sondern Pipelinefehler. Zweitens vermag unsere regelbasierte Typologisierung mit 53,33 % nur etwa die Hälfte des pFail-Sets zu beschreiben. 
+                </p>
+                <p>Darin zeigen sich zwei Felder für Anschlussforschungen: Erstens wäre zu erproben, ob sich bessere Pipelines für die automatisierte NLP-Tool-Fehleridentifikation ohne Annotationsdaten konzipieren lassen, dafür wäre es hilfreich, die Pipeline auf einem kleinen Set an Gold-Standard-Annotationen zu evaluieren; zweitens könnte auf der Grundlage unserer Pipeline gegen die Baseline von 53,33 % das regelbasierte Typologisierungsverfahren optimiert werden. Die manuelle Annotation einer kleinen Sammlung von Gedichten mit Informationen zum Abweichungscharakter jedes einzelnen Wortes würde es ermöglichen, unsere Annahme, dass unser Verständnis der Devianz durch die Nutzbarmachung des Problems der Domänenadaption von NLP-Tools operationalisiert werden kann, zu prüfen. So könnte sichergestellt werden, dass wir durch die Fehlertypisierung der NLP-Tools tatsächlich etwas über die Spezifik des Literarischen erfahren.</p>
+                <p>In jedem Fall haben wir mit dem vorliegenden 
+                    <hi rend="italic">Tool Misuse</hi>-Experiment noch nicht gut genug gelernt, die NLP-Tools ‘falsch’ zu verwenden.
+                </p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                            <ref target="https://textgridrep.org/">https://textgridrep.org/</ref>
+                        </note><note place="foot" xml:id="ftn2" n="2"> Die Korpora sowie der Pipeline-Code sind hier zu finden: 
+                            <ref target="https://gitup.uni-potsdam.de/sluytergaeth/poetry_as_error">https://gitup.uni-potsdam.de/sluytergaeth/poetry_as_error</ref>
+                        </note><note place="foot" xml:id="ftn3" n="3">
+                            <ref target="https://www.projekt-gutenberg.org/">https://www.projekt-gutenberg.org/</ref>
+                        </note><note place="foot" xml:id="ftn4" n="4"> https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/modern-languages/department-of-linguistics/chairs/general-and-computational-linguistics/ressources/lexica/germanet/ </note><note place="foot" xml:id="ftn5" n="5">
+                            <ref target="https://www.dwds.de/">https://www.dwds.de/</ref>
+                        </note><note place="foot" xml:id="ftn6" n="6">
+                                    <hi style="font-size:10pt">Im Prosakorpus ist die Quote der Types, die von “all” nach “pFail” übergeben werden, auffällig größer als im Lyrikkorpus, was u.a. an als NOUN getaggten Eigennamen liegt. Eine abschließende Erklärung muss einer genaueren Analyse des Prosakorpus vorbehalten bleiben.</hi>
+                                </note><note place="foot" xml:id="ftn7" n="7">
+                                <ref target="https://www.deutschestextarchiv.de/public/cab/">https://www.deutschestextarchiv.de/public/cab/</ref>
+                            </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bamman, David</hi> (2020): “LitBank: Born-Literary Natural Language Processing” [Preprint]. https://people.ischool.berkeley.edu/~dbamman/pubs/pdf/Bamman_DH_Debates_CompHum.pdf [letzter Zugriff 14. Juli 2021]. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bers, Anna</hi> (2020): “Nachwort” in: Anna Bers (eds.): 
+                        <hi rend="italic">Frauen | Lyrik</hi>. Gedichte in deutscher Sprache. Stuttgart: Reclam 793-851.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Beutin, Wolfgang et al.</hi> (2019): 
+                        <hi rend="italic">Deutsche Literaturgeschichte</hi>. Von den Anfängen bis zur Gegenwart. Berlin: 9. Aufl., Metzler.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Braam, Hans</hi> (2019): 
+                        <hi rend="italic">Die berühmtesten deutschen Gedichte</hi>. Auf der Grundlage von 300 Gedichtsammlungen. Stuttgart: 2. Aufl., Kröner.”
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Fricke, Harald</hi> (1981): 
+                        <hi rend="italic">Norm und Abweichung</hi>. Eine Philosophie der Literatur. München: Beck.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hamp, Birgit / Feldweg, Helmut</hi> (1997): “GermaNet - a Lexical-Semantic Net for German”, in: 
+                        <hi rend="italic">Proceedings of the ACL workshop Automatic Information Extraction and Building of Lexical Semantic Resources for NLP Applications</hi>. Madrid: 9–15. https://aclanthology.org/W97-0802.pdf [letzter Zugriff 14. Juli 2021]. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Henrich, Verena / Hinrichs, Erhard</hi> (2010): “GernEdiT - The GermaNet Editing Tool”, in: 
+                        <hi rend="italic">Proceedings of the Seventh Conference on International Language Resources and Evaluation (LREC 2010)</hi>, Valletta, Malta: 2228-2235. http://www.lrec-conf.org/proceedings/lrec2010/pdf/264_Paper.pdf [letzter Zugriff 14. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Herrmann, J. Berenike</hi> (2018). “Praktische Tagger-Kritik. Zur Evaluation des PoS-Tagging des Deutschen Textarchivs”, in: 
+                        <hi rend="italic">DHd2018: Kritik der digitalen Vernunft</hi>. Book of Abstracts. Köln: 287-290. https://zenodo.org/record/3684897#.YO_x1W5CTOQ [letzter Zugriff 14. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Honnibal, Matthew / Montani, Ines / Van Landeghem, Sofie / Boyd Adriane</hi> (2020): 
+                        <hi rend="italic">spaCy: Industrial-strength Natural Language Processing in Python</hi>. Zenodo. https://doi.org/10.5281/zenodo.1212303 [letzter Zugriff 14. Juli 2021]. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Klein, Wolfgang / Geyken, Alexander</hi> (2010): “Das ‘Digitale Wörterbuch der Deutschen Sprache DWDS’”, in: 
+                        <hi rend="italic">Lexicographica</hi> 26: 79–96.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Müller-Zettelmann, Eva</hi> (2000): 
+                        <hi rend="italic">Lyrik und Metalyrik</hi>. Theorie einer Gattung und ihrer Selbstbespiegelung anhand von Beispielen aus der englisch- und deutschsprachigen Dichtkunst. Heidelberg: Winter.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ortmann, Katrin / Roussel, Adam / Dipper, Stefanie</hi> (2019): “Evaluating Off-the-Shelf NLP Tools for German”, in: 
+                        <hi rend="italic">Proceedings of the 15th Conference on Natural Language Processing (KONVENS)</hi>: 212-222. https://konvens.org/proceedings/2019/papers/KONVENS2019_paper_55.pdf [letzter Zugriff 14. Juli 2021]. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Qi, Peng / Dozat, Timothy / Zhang, Yuhao / Manning, Christopher D.</hi> (2018): “Universal dependency parsing from scratch”, in: 
+                        <hi rend="italic">Proceedings of the CoNLL 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies</hi>, Brüssel: 160-170.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Rayson, Paul / Archer, Dawn / Baron, Alistair / Culpeper, Jonathan / Smith, Nicholas</hi> (2007): “Tagging the bard: Evaluating the accuracy of a modern POS tagger on Early Modern English corpora”, in: 
+                        <hi rend="italic">Proceedings of Corpus Linguistics (CL2007)</hi>. https://eprints.lancs.ac.uk/id/eprint/13011/1/192_Paper.pdf [letzter Zugriff 14. Juli 2021]. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schmid, Helmut</hi> (1994): “Probabilistic part-of speech Tagging using decision trees”, in: 
+                        <hi rend="italic">Proceedings of International Conference on New Methods in Language Processing</hi>, Manchester, UK: 154-162.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schmid, Helmut</hi> (1995): “Improvements in Part-of-Speech Tagging with an Application to German”, in: 
+                        <hi rend="italic">Proceedings of the ACL SIGDAT-Workshop</hi>, Dublin, Ireland: 13-25. https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/data/tree-tagger2.pdf [letzter Zugriff 14. Juli 2021]. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schmid, Helmut</hi> (2019): “Deep learning-based morphological taggers and lemmatizers for annotating historical texts”, in: 
+                        <hi rend="italic">Proceedings of the 3rd international conference on digital access to textual cultural heritage</hi>, Brüssel: 133-137.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Scheible, Silke / Whitt, Richard J. / Durrell, Martin / Bennett, Paul</hi> (2011): “A gold standard corpus of Early Modern German” in: 
+                        <hi rend="italic">Proceedings of the 5th Linguistic Annotation Workshop</hi>: 124–128. https://dl.acm.org/doi/abs/10.5555/2018966.2018981 [letzter Zugriff 14. Juli 2021]. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Zymner, Rüdiger</hi> (2019): “Begriffe der Lyrikologie” in: Hildebrandt, Claudia et al. (eds.) 
+                        <hi rend="italic">Lyrisches Ich, Textsubjekt, Sprecher?</hi> (= Grundfragen der Lyrikologie, Bd. 1). Berlin: De Gruyter 25-50.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

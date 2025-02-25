@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_177">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Lesen, was wirklich wichtig ist</title>
+                <title type="sub">Die Identifikation von Schlüsselstellen durch ein neues Instrument zur Zitatanalyse</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Arnold</surname>
+                        <forename>Frederik</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>frederik.arnold@hu-berlin.de</email>
+                <idno type="ORCID">0000-0002-0417-4054</idno></author>
+                <author>
+                    <persName>
+                        <surname>Fiechter</surname>
+                        <forename>Benjamin</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>fiechtbe@hu-berlin.de</email>
+                <idno type="ORCID">0000-0002-6478-5260</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-13T06:06:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Schlüsselstelle</term>
+                    <term>Praxeologie</term>
+                    <term>Literaturanalyse</term>
+                    <term>Zitaterkennung</term>
+                    <term>Text Reuse</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Strukturanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Visualisierung</term>
+                    <term>Werkzeuge</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">177</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align: left; ">Literaturinterpretationen heben in der Regel einige wenige Bestandteile des analysierten Primärtextes hervor, die für die jeweilige These und die damit verbundene Interpretation besonders wichtig erscheinen, und interpretieren sie mehr oder weniger ausführlich. Diese Passagen fassen wir als 
+                    <hi rend="italic">Schlüsselstellen</hi>, worunter wir solche Stellen eines Textes (häufig kurze Passagen oder Absätze) verstehen, die im Kontext einer Interpretation besonders relevant sind. Schlüsselstellen, aber auch allgemein Stellen, wurden bislang weder aus einer interpretationstheoretischen noch aus einer interpretationspraktischen Perspektive systematisch untersucht.
+                </p>
+                <p style="text-align: left; ">Mithilfe des unten beschriebenen Konzepts, seiner Umsetzung als Algorithmus (
+                    <hi rend="italic">Lotte</hi>) und einer zugehörigen Visualisierung als Webseite (
+                    <hi rend="italic">Annette</hi>), die die Erkundung literarischer Texte ermöglichen, gelingt es uns nachzuvollziehen, welche Stellen über den individuellen Interpretationsansatz hinaus von Bedeutung sind und somit aus einer über den Zugriff von Expert*innen vermittelten Sichtweise das literarische Werk selbst konstituieren bzw. für dessen Lektüre maßgeblich sind. Unser Ansatz ermöglicht durch die Explorationsumgebung Annette den nahtlosen Wechsel zwischen 
+                    <hi rend="italic">Close</hi> und 
+                    <hi rend="italic">Distant Reading</hi> sowie eine sowohl auf den Primärtext als solchen als auch auf einzelne Sekundärtexte bezogene Perspektive. In diesem Sinn schließt sich unsere Herangehensweise an den von Martin Mueller 2012 eingeführten Begriff des 
+                    <hi rend="italic">Scalable Reading</hi><ref target="ftn1" n="1"/> an und bietet ein neues Konzept und dessen praktische Umsetzung zur Analyse von Korpora, die sich auf einen gemeinsamen Referenztext beziehen. Wir stellen somit ein neues Instrument zur Strukturidentifikation vor, das auf der Basis der Zitatanalyse arbeitet, aber auch über unseren Verwendungskontext hinaus von Interesse ist. Dabei lassen sich gleichermaßen das Verhalten der Interpret*innen und die Bezugnahmen der Korpustexte auf den Primärtext als auch das Verhältnis der Korpustexte untereinander untersuchen.
+                </p>
+                <p style="text-align: left; ">Im Folgenden gehen wir zunächst kurz auf verwandte Arbeiten ein, erläutern dann den Kontext von Konzept und Instrument, ehe wir den Algorithmus und die Webseite zur Exploration vorstellen; dabei wird der Fokus weniger auf technische Details des Algorithmus als auf dessen praktische Anwendung gelegt. Daran schließen sich Überlegungen zur Konzeption und eine Verortung in den Digital Humanities sowie ein Ausblick auf mögliche Erweiterungen des Instruments an.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Projektkontext</head>
+                <p style="text-align: left; ">Die hier vorgestellte Herangehensweise ist ein zentrales Instrument, um im Rahmen des Projekts 
+                    <hi rend="italic">Was ist wichtig? Schlüsselstellen in der Literatur</hi><ref target="ftn2" n="2"/> (Humboldt-Universität zu Berlin, Teil des DFG-Schwerpunktprogramms 
+                    <hi rend="italic">Computational Literary Studies</hi>, SPP 2207)<ref target="ftn3" n="3"/>, Schlüsselstellen zu identifizieren. Diese Schlüsselstellen sind stets nur in Relation zu einem bestimmten Kontext besonders wichtig, z. B. für den Primärtext selbst, für Teile oder Teilaspekte desselben, für ein schriftstellerisches Gesamtwerk oder für übergeordnete Thematiken, Motive etc. Inwiefern dabei die Perspektive des*der jeweiligen Literaturwissenschaftler*in entscheidend ist oder die Beschaffenheit des Primärtextes selbst, gehört zu den offenen Fragen. Auch die soziale Dimension des Wissenschaftssystems (“Was muss zwangsläufig zitiert werden, um die Kenntnisnahme der zuvor publizierten Beiträge abzubilden?”) ist bislang schwer greifbar. Trotz der bis jetzt nicht vorgenommenen Definition wird der Terminus “Schlüsselstelle” wörtlich, in Abwandlungen, die ebenfalls mit der Metapher “Schlüssel” arbeiten (z. B. “Schlüsselszene”), oder in ähnlichen Formulierungen (z. B. “Angelpunkt”) regelmäßig verwendet. Noch deutlich weiter verbreitet ist der Verweis auf “Stellen”, die in der Regel ein mehr oder weniger klar definiertes Teilstück des Textes meinen,<ref target="ftn4" n="4"/> wobei besonders die Länge solcher “Stellen” einer großen Varianz unterliegt. Auch für diesen Begriff existiert keine wissenschaftliche Definition, weder allgemein noch für die textbasierte Literaturwissenschaft, sodass eine Abgrenzung zu “Passage”, “Szene”, “Abschnitt” oder “Episode” nicht immer sinnvoll erscheint.
+                </p>
+                <p style="text-align: left; ">Exemplarisch haben wir die Untersuchung mit zwei kanonischen Texten der deutschen Literatur begonnen, zu denen zahlreiche Interpretationen vorliegen: 
+                    <hi rend="italic">Die Judenbuche</hi> (1842) von Annette von Droste-Hülshoff und 
+                    <hi rend="italic">Michael Kohlhaas</hi> (1808/1810) von Heinrich von Kleist. Zu beiden Texten verfügen wir über je ein Korpus von jeweils ca. 50 deutschsprachigen Interpretationstexten aus dem Projekt 
+                    <hi rend="italic">Das Herstellen von Plausibilität in Interpretationstexten. Untersuchungen zur Argumentationspraxis in der Literaturwissenschaft</hi><ref target="ftn5" n="5"/> (Georg-August-Universität Göttingen). Diese Sekundärtexte sind zwischen 1995 und 2015 erschienen und wurden primär hinsichtlich ihrer Vergleichbarkeit und Diversität ausgewählt; die zeitliche Begrenzung ergibt sich aus dem Anspruch des Göttinger Projekts, die gegenwärtige Interpretationspraxis zu erforschen.<ref target="ftn6" n="6"/> Anhand des Korpus zur 
+                    <hi rend="italic">Judenbuche</hi> wollen wir im Folgenden zeigen, wie uns ein neues Instrument bei der Identifizierung von Schlüsselstellen unterstützt.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Lotte — Ein Werkzeug zur Erkennung von  Textwiederverwendung </head>
+                <p style="text-align: left; ">Lotte ist ein in Python implementierter Algorithmus zur Erkennung von Zitaten. Gegeben einen Quelltext und einen Zieltext, findet er alle Instanzen ab einer Länge von fünf Wörtern, in denen der Zieltext (in unserem Fall eine Literaturinterpretation) einen Teil des Quelltextes, also des literarischen Textes, enthält.<ref target="ftn7" n="7"/> Somit lassen sich alle wörtlichen Übernahmen ab einer bestimmten Länge von einem Text in einen anderen erkennen, ohne dass in dieser Hinsicht Vorarbeit geleistet werden muss; Voraussetzung sind lediglich zwei Textdateien, die sich sinnvollerweise aufeinander beziehen sollten (möglich ist natürlich auch, eventuell vorhandene Übernahmen erst durch Lotte zu ermitteln). Lotte basiert auf 
+                    <hi rend="italic">Sim_text</hi> von Grune und Huntjens (1989) und erweitert den Algorithmus um Funktionalitäten für die korrekte Behandlung spezifischer Eigenschaften von Zitaten. Für technische Details und eine ausführliche Evaluierung sei an dieser Stelle auf Arnold und Jäschke (2021) verwiesen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Annette — Eine Webseite zur Visualisierung und Erkundung</head>
+                <p style="text-align: left; ">Die Idee der Verwendung von (interaktiven) Visualisierungen in den Digital Humanities zur Unterstützung der Arbeit mit Texten aller Art ist nicht neu. Es gibt eine große Anzahl von Ansätzen zur Visualisierung von Strukturen, Häufigkeiten, Mustern etc. – sowohl zur Unterstützung beim Distant Reading als auch beim Close Reading bzw. zur Kombination beider Perspektiven, wie auch wir sie in dieser Arbeit vorstellen. Für einen ausführlichen Überblick sei verwiesen auf Jänicke et al. (2015a). Auch für die Visualisierung von wiederverwendetem Text, wie beispielsweise Zitaten, gibt es verschiedene Ansätze (Vgl. Jänicke et al. 2015b). Im Unterschied zu Annette liegt der Fokus dieser Ansätze auf der Visualisierung der Art und Häufigkeit des wiederverwendeten Texts oder der Alignierung von verschiedenen Varianten des gleichen Texts, zum Beispiel verschiedener Übersetzungen.</p>
+                <p style="text-align: left; ">Eine Webseite zur Visualisierung von (wörtlichen) Zitaten aus Shakespeares Werken wurde von Miller vorgestellt.<ref target="ftn8" n="8"/> Sie veranschaulicht, wie oft jede Zeile Dialog aus jedem dramatischen Werk Shakespeares in der Zeitschriftensammlung von JSTOR zitiert wurde. Die Website beschränkt sich auf die Visualisierung der Zitierhäufigkeit der einzelnen Zeilen und bietet keine Funktion zur Erkundung der Quellen der Zitate. Für eine Visualisierung von Zitaten aus verschiedenen Quellen, wie wir sie vorschlagen, sind die beschriebenen Ansätze nicht geeignet.
+                </p>
+                <p style="text-align: left; ">Für Annette werden die von Lotte gefundenen Übereinstimmungen weiterverarbeitet, um Schlüsselstellen zu identifizieren. Hierfür kombinieren wir überlappende Übereinstimmungen zu einer 
+                    <hi rend="italic">Stelle</hi> und erzeugen minimale nicht überlappende 
+                    <hi rend="italic">Segmente</hi> mit Häufigkeitsangaben. Das Ergebnis dieses Segmentierungsprozesses wird verwendet, um den literarischen Text und die wissenschaftlichen Texte zu visualisieren, wie im Folgenden beschrieben.
+                </p>
+                <p style="text-align: left; ">Ein Screenshot der Webseite<ref target="ftn9" n="9"/> ist in Abbildung 1 dargestellt. Links zeigt eine Heatmap des gesamten literarischen Textes die Verteilung der zitierten Passagen. Je dunkler der Text ist, desto häufiger wird er zitiert und als desto wichtiger wird er angenommen. Ist er weiß, wird er gar nicht zitiert.
+                </p>
+                <p style="text-align: left; ">Rechts neben der Heatmap ist der literarische Text selbst dargestellt. Die Grauskala wird dadurch bestimmt, wie viele Interpretationstexte einen Teil einer Stelle oder die Stelle insgesamt zitieren. Die Farbe ist dabei für eine gesamte Stelle immer die gleiche. Die Schriftgröße wird dadurch bestimmt, wie oft ein minimales Segment zitiert wird, somit kann sie auch innerhalb einer Stelle variabel sein.</p>
+                <p style="text-align: left; ">Rechts unten neben dem literarischen Text wird eine Liste aller Interpretationstexte gezeigt. Ganz rechts werden die zehn häufigsten Passagen aufgelistet. Darüber wird bei einer entsprechenden Auswahl, wie unten beschrieben, der gesamte Text einer Interpretation angezeigt.</p>
+                <p style="text-align: left; ">Ausgehend vom Startbildschirm kann der*die Benutzer*in zwischen verschiedenen Zugriffsmöglichkeiten wählen. Die erste Möglichkeit ist die Auswahl einer Stelle, indem diese im Primärtext angeklickt wird. Anstelle der Gesamtliste werden nun rechts davon nur noch diejenigen Interpretationstexte angezeigt, die zu der ausgewählten Stelle beitragen, zusammen mit einer kurzen Vorschau des Textes. Durch Anklicken eines der Interpretationstexte können wir eine bestimmte Interpretation anzeigen lassen, deren Text oben rechts dargestellt wird. Wir können dann diesen Text durchgehen und andere zitierte Passagen auswählen. Rechts unten wird angezeigt, wie oft die ausgewählte Stelle zitiert wird und von wie vielen Interpretationstexten. Darunter finden wir die zehn meistzitierten Segmente dieser Stelle.</p>
+                <p style="text-align: left; ">Als weitere Möglichkeit kann über die Liste der zehn am häufigsten zitierten Stellen auf die möglicherweise relevantesten, jedenfalls am breitesten rezipierten Stellen zugegriffen werden. Nach Auswahl einer dieser Stellen passt sich wie oben beschrieben die Liste der Interpretationstexte an und es kann von hier aus weiter diese Liste oder ein einzelner Interpretationstext untersucht werden.</p>
+                <figure>
+                    <graphic n="1001" width="16.001997222222222cm" height="9.496838888888888cm" url="Pictures/841f7bd80f368e7a1f0bf41df8ecdd6e.png" rend="inline"/>
+                    <head>Abb. 1: Screenshot von Annette</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Konzeptionelles</head>
+                <p style="text-align: left; ">Durch die beschriebene Funktionsweise werden im Primärtext Stellen konstituiert, die teilweise sehr häufig, teilweise nur wenige Male zitiert werden. Im Fokus unserer Projektarbeit stehen die besonders häufig zitierten Stellen, da sie am ehesten die Schlüsselqualität einer Stelle anzeigen. Dabei darf die reine Quantität selbstverständlich nicht absolut gesetzt werden; um ein Korpus im Querschnitt zu überblicken, scheint uns die Häufigkeit von zitierten Stellen aber ein wichtiger Anhaltspunkt zu sein. Das Konzept, nach dem diese Stellen konstituiert werden, ist dabei die Pointe an unserem Ansatz, da es weit über das bloße Auffinden von Zitaten hinausgeht. Die auf der Webseite visualisierten Stellen ergeben sich nämlich häufig erst durch die Überlappung verschieden langer Segmente bzw. Zusammenfassung verschieden langer Zitate aus unterschiedlichen Interpretationstexten (s. o.). Somit sind Lotte und Annette im Zusammenspiel umso wirkungsvoller, je mehr Texte das Korpus umfasst. </p>
+                <p style="text-align: left; ">Umgekehrt können aber auch jene Stellen von besonderem Interesse sein, die überhaupt nicht zitiert werden. Bei einer überschaubaren Textlänge, wie sie 
+                    <hi rend="italic">Die Judenbuche</hi> aufweist, liegt die Frage nahe, warum z. B. die Zeit nach Friedrich Mergels Heimkehr in den Interpretationstexten kaum eine Rolle spielt – zumindest auf der Ebene der wörtlichen Zitate. In diesem Sinn sagt die Webseite auch etwas über die Struktur der in die Interpretationen übernommenen Textstellen einerseits, andererseits aber auch des literarischen Textes selbst aus, indem visualisiert wird, wie sich die Struktur des literarischen Textes im Spiegel der Interpretationstexte darstellt. Darüber hinaus bietet es sich z. B. auch an, literarische Texte selbst miteinander zu vergleichen, um hier Verweise, Bezugnahmen, Hommagen oder aus anderen Gründen bewusst oder unbewusst übernommene Formulierungen aufzudecken – oder aber Plagiaten nachzuspüren.
+                </p>
+                <p style="text-align: left; ">Diese Funktionsweise eröffnet auch den Horizont für ein integratives Scalable Reading, das wir im Anschluss an Thomas Weitin als Überwindung der “Frontstellung von 
+                    <hi rend="italic">close</hi> und 
+                    <hi rend="italic">distant reading</hi>” verstehen.<ref target="ftn10" n="10"/> So kann zunächst, wie oben beschrieben, der Primärtext ebenso “klassisch” gelesen werden wie die einzelnen Interpretationstexte,<ref target="ftn11" n="11"/> aus denen unmittelbar über die wörtlichen Übernahmen zum jeweiligen Äquivalent im anderen Text gesprungen werden kann. Andererseits kann über die angezeigten am häufigsten zitierten Stellen und die Visualisierung als Heatmap auch ein quantitativer Zugang gewählt werden, der durch die sich anpassenden Visualisierungen die Nutzer*innen in die Lage versetzt, zu entscheiden, wie close oder distant mit den Texten umgegangen werden soll.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Die Vision für Annette</head>
+                <p style="text-align: left; ">Ein erstes Ziel ist die Einführung weiterer Visualisierungen, die einen umfangreicheren Zugang zu den Texten bieten sollen. Im Folgenden wollen wir eine davon genauer vorstellen, die sich mit der Entwicklung der zitierten Stellen über die Zeit befasst, sowie abschließend ein paar weitere kurz skizzieren.</p>
+                <p style="text-align: left; ">Darüber hinaus wollen wir in Zukunft Zitate, die kürzer als fünf Wörter sind, berücksichtigen. Hierfür muss in erster Linie Lotte angepasst werden. In Annette könnten diese dann so visualisiert werden, dass beispielsweise untersucht werden kann, ob kurze Zitate neue Informationen bringen und ob diese ähnlich zu langen Zitaten verteilt sind oder ob sich hier Unterschiede zeigen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Entwicklung der zitierten Stellen über die Zeit</head>
+                <p style="text-align: left; ">Das Ziel dieser Visualisierung ist die Darstellung des Anteils neuer Zitate eines Interpretationstexts im Verhältnis zu allen Zitaten früherer Interpretationstexte. Die Abbildungen 2 und 3 zeigen diese Visualisierung für 
+                    <hi rend="italic">Die Judenbuche</hi> und 
+                    <hi rend="italic">Michael Kohlhaas</hi>. Die horizontale Achse zeigt jeweils alle Interpretationstexte sortiert nach Erscheinungsjahr. Auf der vertikalen Achse ist der Anteil bisher nicht zitierter Zeichen unter allen zitierten Zeichen des Interpretationstexts aufgetragen. Der älteste Interpretationstext hat somit immer einen Anteil von 100%. Der Durchmesser eines Kreises gibt Auskunft über die Gesamtzahl der Zitate des Interpretationstexts aus dem Primärtext.
+                </p>
+                <figure>
+                    <graphic n="1002" width="15.769166666666667cm" height="10.80415cm" url="Pictures/0129f3cea8a4bebed1b516548f0a6750.png" rend="inline"/>
+                    <head>Abb. 2: <hi rend="italic">Die Judenbuche</hi>: Anteil neuer Zitate pro Interpretationstext
+                    </head>
+                </figure>
+                <p style="text-align: left; ">Bei genauerer Betrachtung von Abbildung 2 lässt sich erkennen, dass die drei Texte mit den wenigsten neuen Zitaten auch insgesamt nur sehr wenig zitieren. Gleichzeitig gibt es auch Texte, die verhältnismäßig wenig zitieren und dennoch einen hohen Anteil an neuen Zitaten aufweisen.</p>
+                <figure>
+                    <graphic n="1003" width="15.769163888888889cm" height="10.640694444444444cm" url="Pictures/ebd02d97e9108e8b7d6c7f2a55366f5d.png" rend="inline"/>
+                    <head>Abb. 3: <hi rend="italic">Michael Kohlhaas</hi>: Anteil neuer Zitate pro Interpretationstext</head>
+                </figure>
+                <p style="text-align: left; ">Abbildung 3 zeigt analog die Auswertung für 
+                    <hi rend="italic">Michael Kohlhaas</hi>. Im Unterschied zu Abbildung 2 ist hier zu sehen, dass es immer wieder Interpretationstexte gibt, die viel zitieren und gleichzeitig einen hohen Anteil neuer Zitate aufweisen. Auch im Hinblick auf den Kurvenverlauf fallen Abweichungen gegenüber Abbildung 2 auf; ob sie allein der größeren Textmenge des Primärtextes geschuldet sind, ist offen.
+                </p>
+                <p style="text-align: left; ">Diese Diagramme sollen in interaktiver Form auf der Webseite verfügbar gemacht werden. Es wird dann zum Beispiel möglich sein, einen Interpretationstext auszuwählen und sich anzeigen zu lassen, welche zitierten Stellen neu sind. Diese können dann auch mit allen früheren und zukünftigen Zitaten verglichen werden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ideen für weitere Visualisierungen</head>
+                <p style="text-align: left; ">Für die Zukunft sind noch weitere Visualisierungen angedacht. So soll zum Beispiel für alle Interpretationstexte ermittelt und visualisiert werden, ob diese in der Reihenfolge der Zitate dem literarischen Werk folgen. Weiterhin soll die Länge von Zitaten analysiert werden, was dann beispielsweise in die Bestimmung von Schlüsselstellen einfließen kann. Außerdem wollen wir untersuchen, welcher Anteil eines Werks mengenmäßig zitiert wird und wie sich die Zitate über den Interpretationstext verteilen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p style="text-align: left; ">Im Fokus unseres Beitrags stand ein neues Konzept und dessen Umsetzung zur Identifikation von Schlüsselstellen in literarischen Texten. Neben der praktischen Realisierung als Algorithmus (Lotte) und der Visualisierung zur Erkundung von literarischen Texten (Annette) lag der Schwerpunkt auf den Möglichkeiten und zukünftigen Visionen für Annette. Darüber hinaus haben wir die Überlegungen zur Schlüsselstelle und zur Konstituierung von Stellen vorgestellt und als Beitrag zur Realisierung einer Scalable Reading-Methodik kontextualisiert, die auf Strukturidentifikation abzielt.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Danksagung</head>
+                <p style="text-align: left; ">Die Arbeit wurde durch das DFG-Schwerpunktprogramm (SPP) 2207 
+                    <hi rend="italic">Computational Literary Studies</hi> in dem von Robert Jäschke und Steffen Martus geleiteten Projekt 
+                    <hi rend="italic">Was ist wichtig? Schlüsselstellen in der Literatur</hi> gefördert (Förderkennzeichen 424207720).
+                </p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                            <hi style="font-size:9pt" xml:space="preserve">Zwar erstmalig 2011 in seinem Blog verwendet (vgl. Mueller 2011), aber erst 2012 als Konzept eingeführt (vgl. Mueller 2012), dann in einem 2013 publizierten, aber bereits 2008 gehaltenen Vortrag angewandt (vgl. Mueller 2013). Vgl. auch den Überblickseintrag von 2020 (Mueller 2020). Ebenfalls 2013 hat Ryan Cordell den Begriff </hi>
+                            <hi rend="italic" style="font-size:9pt">Zoomable Reading</hi>
+                            <hi style="font-size:9pt" xml:space="preserve"> vorgeschlagen, der sich bis hin zur Metapher des Zoomens mit Muellers Konzept deckt (vgl. Cordell 2013). Im deutschsprachigen Raum hat Thomas Weitin den Begriff und seine deutsche Übersetzung bekannt gemacht (vgl. Weitin 2015 und Weitin 2017).</hi>
+                        </note><note place="foot" xml:id="ftn2" n="2">
+                            <hi style="font-size:9pt" xml:space="preserve">Homepage: </hi>
+                            <ref target="https://www.projekte.hu-berlin.de/de/schluesselstellen">
+                                <hi rend="" style="font-size:9pt">https://www.projekte.hu-berlin.de/de/schluesselstellen</hi>
+                            </ref>
+                            <hi style="font-size:9pt">. Zugriff am 08.11.2021.</hi>
+                        </note><note place="foot" xml:id="ftn3" n="3">
+                            <hi style="font-size:9pt" xml:space="preserve">Homepage: </hi>
+                            <ref target="https://dfg-spp-cls.github.io/">
+                                <hi rend="" style="font-size:9pt">https://dfg-spp-cls.github.io/</hi>
+                            </ref>
+                            <hi style="font-size:9pt">. Zugriff am 08.11.2021.</hi>
+                        </note><note place="foot" xml:id="ftn4" n="4">
+                            <hi style="font-size:9pt" xml:space="preserve">Vgl. beispielsweise den Eintrag im </hi>
+                            <hi rend="italic" style="font-size:9pt">Wörterbuch der deutschen Gegenwartssprache</hi>
+                            <hi style="font-size:9pt">, der die “Stelle” unter Bedeutungsvariante 1 („lokalisierter Ort, Punkt, Platz“) neben anderen Bedeutungen als „kürzeres Teilstück, kürzerer Abschnitt“ „in einem Schriftwerk, Theaterstück, Film“ bzw. „in einem Musikstück“ definiert (</hi>
+                            <ref target="https://www.dwds.de/wb/Stelle#d-1-1-3">
+                                <hi rend="" style="font-size:9pt">https://www.dwds.de/wb/Stelle#d-1-1-3</hi>
+                            </ref>
+                            <hi style="font-size:9pt">. Zugriff am 08.11.2021).</hi>
+                        </note><note place="foot" xml:id="ftn5" n="5">
+                            <hi style="font-size:9pt" xml:space="preserve">Homepage: </hi>
+                            <ref target="https://uni-goettingen.de/de/587821.html">
+                                <hi rend="" style="font-size:9pt">https://uni-goettingen.de/de/587821.html</hi>
+                            </ref>
+                            <hi style="font-size:9pt">. Zugriff am 08.11.2021.</hi>
+                        </note><note place="foot" xml:id="ftn6" n="6">
+                            <hi style="font-size:9pt" xml:space="preserve">Vgl. </hi>
+                            <ref target="https://www.uni-goettingen.de/de/profil+und+ziele/588365.html">
+                                <hi rend="" style="font-size:9pt">https://www.uni-goettingen.de/de/profil+und+ziele/588365.html</hi>
+                            </ref>
+                            <hi style="font-size:9pt">. Zugriff am 08.11.2021.</hi>
+                        </note><note place="foot" xml:id="ftn7" n="7">
+                            <hi style="font-size:9pt" xml:space="preserve">Quellcode: </hi>
+                            <ref target="https://scm.cms.hu-berlin.de/schluesselstellen/lotte">
+                                <hi rend="" style="font-size:9pt">https://scm.cms.hu-berlin.de/schluesselstellen/lotte</hi>
+                            </ref>
+                            <hi style="font-size:9pt">. Zugriff am 08.11.2021.</hi>
+                        </note><note place="foot" xml:id="ftn8" n="8">
+                            <hi style="font-size:9pt" xml:space="preserve">Vgl. Homepage: </hi>
+                            <ref target="http://shakespeare.visualizingbroadway.com/index.html">
+                                <hi rend="" style="font-size:9pt">http://shakespeare.visualizingbroadway.com/index.html</hi>
+                            </ref>
+                            <hi style="font-size:9pt">. Zugriff am 08.11.2021.</hi>
+                        </note><note place="foot" xml:id="ftn9" n="9">
+                            <hi style="font-size:9pt" xml:space="preserve">Verfügbar unter: </hi>
+                            <ref target="https://hu.berlin/annette">
+                                <hi rend="" style="font-size:9pt">https://hu.berlin/annette</hi>
+                            </ref>
+                            <hi style="font-size:9pt">. Zugriff am 08.11.2021.</hi>
+                        </note><note place="foot" xml:id="ftn10" n="10">
+                            <hi style="font-size:10pt"> </hi>
+                            <hi style="font-size:9pt">Weitin 2017, S. 2. Auch wenn unser Konzept durch den umstandslosen Wechsel zwischen den beiden Stufen close und distant bzw. die Möglichkeit, gleichzeitig nah und distanziert zu analysieren, skalierbar ist, kann es die Vorstellung eines tatsächlich stufenlosen Skalierens, die die Metapher des Zoomens bei Mueller nahelegt und die Weitin als “irreführend” bezeichnet, nicht gänzlich erfüllen.</hi>
+                        </note><note place="foot" xml:id="ftn11" n="11">
+                            <hi style="font-size:9pt">In der oben verlinkten Version der Webseite kann aus urheberrechtlichen Gründen nur auf eine Version zugegriffen werden, bei der die Interpretationstexte unkenntlich gemacht wurden.</hi>
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Arnold, Frederik / Jäschke, Robert</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2021): “Lotte and Annette: A Framework for Finding and Exploring Key Passages in Literary Works”, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Proceedings of the Workshop on Natural Language Processing for Digital Humanities at ICON 2021</hi>
+                        <hi style="font-size:11pt">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi style="font-size:11pt" xml:space="preserve"><hi rend="bold"> Art. “Stelle”</hi> (1976): In: </hi>
+                        <hi rend="italic" style="font-size:11pt">Wörterbuch der deutschen Gegenwartssprache</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. 5. Band. Bereitgestellt durch das Digitale Wörterbuch der deutschen Sprache, </hi>
+                        <ref target="https://www.dwds.de/wb/Stelle">
+                            <hi rend="" style="font-size:11pt">https://www.dwds.de/wb/Stelle</hi>
+                        </ref>
+                        <hi style="font-size:11pt">. [letzer Zugriff 08.11.2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Cordell, Ryan</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(2013): ““Taken Possession of” : The Reprinting and Reauthorship of Hawthorne’s “Celestial Railroad” in the Antebellum Religious Press”, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Digital Humanities Quarterly 7.1</hi>
+                        <ref target="http://digitalhumanities.org/dhq/vol/7/1/000144/000144.html">http://digitalhumanities.org/dhq/vol/7/1/000144/000144.html</ref>
+                        <hi style="font-size:11pt">[letzter Zugriff 08.11.2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Droste-Hülshoff, Annette von</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(1978): “Die Judenbuche : Ein Sittengemälde aus dem gebirgigten Westphalen“, in: Droste-Hülshoff, Annette von: </hi>
+                        <hi rend="italic" style="font-size:11pt">Historisch-kritische Ausgabe : Werke, Briefwechsel</hi>
+                        <hi style="font-size:11pt">. Hrsg. von Winfried Woesler. 5. Band: Prosa. 1. Teil: Text. Bearbeitet von Walter Huge. Tübingen: Niemeyer, 1–42.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Grune, Dick / Huntjens, Matty</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(1989): </hi>
+                        <hi rend="italic" style="font-size:11pt">Detecting copied submissions in computer science workshops</hi>
+                        <hi style="font-size:11pt">, https://dickgrune.com/Programs/similarity_tester/Paper.pdf [letzter Zugriff 08.11.2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Kleist, Heinrich von</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(1990): “Michael Kohlhaas“, in: Kleist, Heinrich von: </hi>
+                        <hi rend="italic" style="font-size:11pt">Sämtliche Werke und Briefe in vier Bänden</hi>
+                        <hi style="font-size:11pt">. Hrsg. von Klaus Müller-Salget u. a. 3. Band: Erzählungen, Anekdoten, Gedichte, Schriften. Frankfurt am Main: Deutscher Klassiker Verlag 11–142.</hi>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold" style="font-size:11pt">Jänicke, S., Franzini, G., Cheema, M. F., &amp; Scheuermann, G.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2015a): “On Close and Distant Reading in Digital Humanities: A Survey and Future Challenges”, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">EuroVis (STARs)</hi>
+                        <hi style="font-size:11pt">, S. 83–103.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Jänicke S., Efer T., Büchler M., Scheuermann G. </hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(2015b): “Designing Close and Distant Reading Visualizations for Text Re-use”, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Computer Vision, Imaging and Computer Graphics – Theory and Applications</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. Springer, Berlin u. a., S. 153–171, </hi>
+                        <ref target="https://doi.org/10.1007/978-3-319-25117-2_10">
+                            <hi rend="" style="font-size:11pt">https://doi.org/10.1007/978-3-319-25117-2_10</hi>
+                        </ref>
+                        <hi style="font-size:11pt">. [letzer Zugriff 08.11.2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Miller, Derek:</hi>
+                        <hi rend="italic" style="font-size:11pt">To Quote or Not to Quote</hi>
+                        <hi style="font-size:11pt">, [o. J.],</hi>
+                        <ref target="http://shakespeare.visualizingbroadway.com/index.html">
+                            <hi style="font-size:11pt">http://shakespeare.visualizingbroadway.com/index.html</hi>
+                        </ref>
+                        <hi style="font-size:11pt">. [letzer Zugriff 08.11.2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Mueller, Martin</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(2011): “The Top Fifty n-gram heavy play links”, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Scalable Reading</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (Blog), </hi>
+                        <ref target="https://sites.northwestern.edu/scalablereading/2011/04/01/the-top-fifty-n-gram-heavy-play-links/">
+                            <hi rend="" style="font-size:11pt">https://sites.northwestern.edu/scalablereading/2011/04/01/the-top-fifty-n-gram-heavy-play-links/</hi>
+                        </ref>
+                        <hi style="font-size:11pt">[letzter Zugriff 08.11.2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Mueller, Martin</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(2012): “Very briefly: scalable reading”, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Scalable Reading</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (Blog), </hi>
+                        <ref target="https://sites.northwestern.edu/scalablereading/2012/06/01/very-briefly-scalable-reading/">
+                            <hi rend="" style="font-size:11pt">https://sites.northwestern.edu/scalablereading/2012/06/01/very-briefly-scalable-reading/</hi>
+                        </ref>
+                        <hi style="font-size:11pt">[letzter Zugriff 08.11.2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Mueller, Martin</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(2013): “Morgenstern’s Spectacles or the Importance of Not-Reading”, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Scalable Reading</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (Blog) </hi>
+                        <ref target="https://sites.northwestern.edu/scalablereading/2013/01/21/morgensterns-spectacles-or-the-importance-of-not-reading/">
+                            <hi rend="" style="font-size:11pt">https://sites.northwestern.edu/scalablereading/2013/01/21/morgensterns-spectacles-or-the-importance-of-not-reading/</hi>
+                        </ref>
+                        <hi style="font-size:11pt">[letzter Zugriff 08.11.2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Mueller, Martin</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(2020): “Scalable Reading”, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Scalable Reading</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (Blog), </hi>
+                        <ref target="https://sites.northwestern.edu/scalablereading/2020/04/26/scalable-reading/">
+                            <hi rend="" style="font-size:11pt">https://sites.northwestern.edu/scalablereading/2020/04/26/scalable-reading/</hi>
+                        </ref>
+                        <hi style="font-size:11pt">[letzter Zugriff 08.11.2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Weitin, Thomas</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(2015): </hi>
+                        <hi rend="italic" style="font-size:11pt">Thinking slowly: Literatur lesen unter dem Eindruck von Big Data</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (= LitLingLab Pamphlet, 1).</hi>
+                        <ref target="http://digitalhumanitiescenter.de/pamphlets/kl3-01_weitin-thinking-slowly.pdf">
+                            <hi rend="" style="font-size:11pt">http://digitalhumanitiescenter.de/pamphlets/kl3-01_weitin-thinking-slowly.pdf</hi>
+                        </ref>
+                        <hi style="font-size:11pt">[letzter Zugriff 08.11.2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:11pt">Weitin, Thomas</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(2017): “Scalable Reading“, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Zeitschrift für Literaturwissenschaft und Linguistik (LiLi)</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 47,1: 1–6. </hi>
+                        <ref target="https://link.springer.com/article/10.1007/s41244-017-0048-4">
+                            <hi rend="" style="font-size:11pt">https://link.springer.com/article/10.1007/s41244-017-0048-4</hi>
+                        </ref>
+                        <hi style="font-size:11pt">[letzter Zugriff 08.11.2021].</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

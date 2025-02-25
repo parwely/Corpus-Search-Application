@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_117">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Emotionen im kulturellen Gedächtnis bewahren</title>
+                <author>
+                    <persName>
+                        <surname>Dennerlein</surname>
+                        <forename>Katrin</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Philologie, JMU Würzburg</affiliation>
+                    <email>katrin.dennerlein@uni-wuerzburg.de</email>
+                <idno type="ORCID">0000-0003-0059-9597</idno></author>
+                <author>
+                    <persName>
+                        <surname>Schmidt</surname>
+                        <forename>Thomas</forename>
+                    </persName>
+                    <affiliation>Lehrstuhl für Medieninformatik, Universität Regensburg</affiliation>
+                    <email>thomas.schmidt@ur.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wolff</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Lehrstuhl für Medieninformatik, Universität Regensburg</affiliation>
+                    <email>Christian.Wolff@sprachlit.uni-regensburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-12-01T07:23:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotation</term>
+                    <term>Dramen</term>
+                    <term>Emotion analysis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Annotieren</term>
+                    <term>Literatur</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">117</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align: left; ">Zwischen dem Ende des Dreißigjährigen Krieges und dem Anfang der Restaurationsepoche entwickelt sich das Drama rasant und wird im deutschsprachigen Gebiet zur publikumswirksamsten Gattung dieses Zeitraums (Baumann 1985; Jahn 1996; Krämer 1998; Urchueguía 2015; Meid 2009: 327-501). Es wird zu einer ‚Schule der Affekte’ (
+                    <hi rend="italic" xml:space="preserve">palaestra affectum, </hi>Rotermund 1972: 25), in der man lernen soll, gewünschte Emotionen zu empfinden und mit unerwünschten wie Angst, Neid oder Leid angemessen umzugehen (Schings 1971; Schings 1980; Wiegmann 1987; Meier 1993; Schulz 1988; Zeller 2005; Lukas 2005; Schonlau 2017). Heutige Konzepte von Emotionen bilden sich dabei erst nach und nach heraus, so dass sich einzelne Figurenaussagen und die Motivation der Handlung für Rezipient*innen der Gegenwart nicht immer unmittelbar erschließen. Die derzeitigen Bemühungen um eine digitale Konservierung von Dramentextbeständen und ihre Analyse müssen folglich um eine Erschließung der Emotionsstrukturen ergänzt werden, wenn dieser Teil des kulturellen Erbes so im kulturellen Gedächtnis konserviert werden soll, dass er auch verständlich bleibt (vgl. zum Begriff des kulturellen Erbes Tauschek 2013). Gemeint ist dabei nicht ein Alltagsverständnis von Gedächtnis im Sinne dessen, „was das Bewußtsein bewußt erinnert" (Luhmann 1999: 44). Es geht vielmehr um das Gedächtnis sozialer Systeme, das durch Kommunikation in der aktuellen Gegenwart benutzt und reproduziert wird. Plädiert wird vorwiegend dafür, die Emotionen in Dramen des Untersuchungszeitraumes im Speichergedächtnis zu bewahren (vgl. Assmann 2003: 133 ff.). Für das Funktionsgedächtnis, das nur das aktuell Anschlussfähige und Zukunftsorienterte verfügbar hält, sind jedoch zumindest diejenigen Emotionsverteilungen und -verläufe von Interesse, die auch heute noch die Dramaturgie von Dialogformaten bestimmen. 
+                </p>
+                <p>Literaturwissenschaftler haben bisher schwerpunktmäßig wenige Texte einzelner Gattungen hinsichtlich der Frage untersucht, welche emotionale und rationale Wirkung durch sie erreicht werden soll (Pikulik 1965; Sauder 1974-1980; Schings 1971; Nolting 1986).<ref target="ftn1" n="1"/> Nur wenige Wissenschaftler*innen erforschen Emotionen der Figuren selbst (Anz 2011; Schulz 1988; Mönch 1993, 344–350; Schonlau 2017). Das führt dazu, dass sehr wenig darüber bekannt ist, welche Figurenemotionen in Dramen dargestellt werden und wann sie im Handlungsverlauf zum Einsatz kommen.
+                </p>
+                <p style="text-align: left; ">Obwohl die Untersuchung von Gefühlen und Emotionen in den letzten Jahren in der computergestützten Literaturwissenschaft für zahlreiche Textgenres an Bedeutung gewonnen hat (siehe Mohammad 2011; Nalisnick/Baird 2013; Reagan et al. 2016; Zehe et al. 2016; Schmidt/Burghardt 2018; Mc Hardy/Adel/Klinger 2019, Kim/Klinger 2019; Jacobs 2019; Pianzola/Rebora/Lauer 2020), wurden speziell emotionale Aspekte in Dramentexten bisher nur vereinzelt untersucht. Der Fokus lag dabei auf der Analyse von Valenz oder Polarität, d.h. der positiven respektive negativen Konnotation von Sätzen und Textteilen, und zumeist auch auf einzelnen Autoren bzw. Werken (Mohammad 2011; Nalisnick/Baird 2013; Schmidt/Burghardt 2018; Schmidt/Burghardt/Dennerlein 2018a; 2018b; Schmidt/Burghardt/Wolff 2019; Schmidt/Burghardt/Dennerlein/Wolff 2019a; 2019b). Die Untersuchung von Emotionsverteilungen und -verläufen in einzelnen Texten, in verschiedenen Genres und Epochen ist das Ziel des Projekts „Emotions in Drama“, das seit April 2020 Emotionen in Dramen dieses Zeitraums in einem kombinierten Verfahren aus händischer Annotation und ihrer Vorhersage mittels Deep Learning-basierter Sprachmodelle erforscht.<ref target="ftn2" n="2"/> Im Folgenden sollen konzeptionelle Überlegungen und erste Ergebnisse dieses Projekts vorgestellt werden.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Emotionsset</head>
+                <p>Im Anschluss an Schwarz-Friesel verstehen wir Emotionen als </p>
+                <p>
+                    <hi rend="italic" xml:space="preserve">[...] mehrdimensionale, intern repräsentierte und subjektiv erfahrbare Syndromkategorien, die sich vom Individuum ichbezogen und introspektiv-geistig sowie körperlich registrieren lassen, deren Erfahrungswerte an eine positive oder negative Bewertung gekoppelt sind und die für andere in wahrnehmbaren Ausdrucksvarianten realisiert werden (können). </hi>(Schwarz-Friesel 2007: 55).
+                </p>
+                <p>Der Ausdruck von Emotionen kann sich physiologisch, sprachlich oder im Verhalten zeigen. Wir annotieren die von der Figur gemeinte eigene oder zugeschriebene Emotion und nicht diejenigen Emotionen, die Produzenten haben oder die bei Rezipienten ausgelöst werden sollen.<ref target="ftn3" n="3"/> Diese gemeinten Emotionen können von den explizit in der Sprache repräsentierten abweichen, so dass bei der Annotation oftmals mehrstufige Schlussprozesse und kontextabhängige Interpretationen nötig sind.
+                </p>
+                <p style="text-align: left; ">Im Untersuchungszeitraum gibt es mehrere historische Kategoriensysteme, die oftmals eine Mischung aus Tugenden und Affekten aufweisen (Zeller 2005; Grimm 2010). Um die Veränderung in der Gewichtung von Emotionen im Untersuchungszeitraum fassen zu können, ist es nötig, solchermaßen von diesen Konzepten zu abstrahieren, dass sie sowohl für den gesamten Zeitraum anwendbar sind als auch Umgewichtungen und Entwicklungen abbilden können.<ref target="ftn4" n="4"/> Deshalb haben wir uns dafür entschieden, die Oberkategorien 
+                    <hi rend="italic">Angst</hi>, 
+                    <hi rend="italic">Leid</hi>, 
+                    <hi rend="italic">Freude</hi> und 
+                    <hi rend="italic">Zuneigung</hi> zu verwenden und diese auszudifferenzieren. Die Notwendigkeit der Ausdifferenzierung sei an einigen Beispielen kurz erläutert: Die Kategorie des Leids, die zweifellos zentral für das gesamte europäische Drama ist, ist um die neu aufkommende Kategorie des Mitleids zu ergänzen, die mit Lessing ab der Mitte des 18. Jahrhunderts zur Zentralkategorie wird (Schings 1980). Ähnlich verhält es sich mit Liebe, die um zwei Kategorien zu ergänzen ist. Einerseits die der Lust, die bspw. im Barockdrama oder später im Drama des Sturm und Drang eine zentrale Rolle bei der Abwertung von Figuren spielt. Andererseits ist hier eine Oberkategorie nötig, die mit ‚Zuneigung‘ betitelt ist, um auch Freundschaft einbeziehen zu können. Diese Emotion ist zentral für die Anthropologie der Aufklärung und zusammen mit Mitleid und der Abwesenheit von Lust vermutlich charakteristisch für den Epochenumbruch vom barocken zum aufklärerischen Drama (Sauder 1974-1980; Lukas 2005). Hinzugekommen sind zudem eine Kategorie der Ablehnung, die Ärger und Wut/Abscheu beinhaltet, weil sie zentral für ein grundlegendes Verständnis der Handlung ist. Die Kategorie der ‚emotionalen Bewegtheit’ schließlich erscheint zusätzlich nötig, um starke gefühlsmäßige Bewegtheit, die aber inhaltlich nicht genauer spezifiziert wird, auszeichnen zu können. Ab und an wissen die Figuren selbst nicht, was sie fühlen (sollen) und/oder schwanken zwischen mehreren Gefühlen. 
+                </p>
+                <p style="text-align: left; ">Diese Kategorien entsprechen, mit leicht abweichenden Benennungen, auch anderen Emotionstaxonomien, die in der Linguistik und in der Literaturwissenschaft verwendet werden (Schwarz-Friesel 2007; Flüh 2020). Die meisten Emotionsrepräsentationen im Natural Language Processing (NLP) folgen Kategoriensystemen der Psychologie, zumeist den Basisemotionen von Plutchik (Plutchik 1980; Wood et al. 2018a; 2018b). Basal sind hier bspw. Angst, Wut, Freude und Trauer, die wir auch verwenden, aber auch einige andere, die wir nicht als Hauptemotionsbezeichnungen übernommen haben, wie ‚Vertrauen‘, ‚Vorfreude‘, Überraschung‘ und ‚Ekel‘. Diese Emotionen können in unserem Schema ebenfalls annotiert werden, sind jedoch in andere Konzepte integriert. Die ‚Vorfreude‘ ist der ‚Freude‘ eingemeindet, ‚Überraschung‘ der ‚emotionalen Bewegtheit‘, ‚Ekel‘ ist in der Form von Abscheu im Sinne starker Ablehnung berücksichtigt. </p>
+                <p style="text-align: left; ">Das Annotationsset setzt sich nach jetzigem Stand wie folgt zusammen (+/-: Polarität):<ref target="ftn5" n="5"/>
+                </p>
+                <list type="unordered">
+                    <item>Emotionen der Zuneigung
+                        <list type="unordered">
+                            <item>Lust (+)</item>
+                            <item>Liebe (+)</item>
+                            <item>Freundschaft (+)</item>
+                            <item>Verehrung, Bewunderung (+)</item>
+                        </list>
+                    </item>
+                    <item>Emotionen der Freude
+                        <list type="unordered">
+                            <item>Freude (+)</item>
+                            <item>Schadenfreude (+)</item>
+                        </list>
+                    </item>
+                    <item>Emotionen der Angst
+                        <list type="unordered">
+                            <item>Angst (-)</item>
+                            <item>Verzweiflung (-)</item>
+                        </list>
+                    </item>
+                    <item>Emotionen der Ablehnung
+                        <list type="unordered">
+                            <item>Ärger (-)</item>
+                            <item>Abscheu, Wut, Hass (-)</item>
+                        </list>
+                    </item>
+                    <item>Emotionen des Leids 
+                        <list type="unordered">
+                            <item>Leid (-)</item>
+                            <item>Mitleid (-)</item>
+                        </list>
+                    </item>
+                    <item>Emotionale Bewegtheit (keine Polarität)</item>
+                </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Annotiertes Korpus</head>
+                <p style="text-align: left; ">Bisher wurden in den folgenden 11 Dramen aus dem GerDracor-Korpus (Fischer et al. 2019) und aus einem Korpus von im deutschsprachigen Gebiet sehr erfolgreichen Werken des 
+                    <hi rend="italic">Leopoldstädter Theaters</hi> in Wien (Kasperl-Stücke) Emotionen ausgezeichnet.<ref target="ftn6" n="6"/> Diese Dramen sind repräsentativ für das noch weitgehend kanonische Gesamtkorpus, enthalten jedoch mit dem 
+                    <hi rend="italic">Mandolettikrämer</hi> und dem 
+                    <hi rend="italic">Postzug</hi> auch bereits zwei Werke außerhalb des Kanons:
+                </p>
+                <list type="unordered">
+                    <item>Luise Adelgunde Victorie Gottsched: Das Testament (1745), Komödie</item>
+                    <item>Johann Elias Schlegel: Canut (1746), Tragödie </item>
+                    <item>Christian Fürchtegott Gellert: Die zärtlichen Schwestern (1747), Komödie</item>
+                    <item>Johann Gottlieb Benjamin Pfeil: Lucie Woodvil (1757), Tragödie </item>
+                    <item>Joachim Wilhelm von Brawe: Der Freigeist (1758), Tragödie </item>
+                    <item>Gotthold Ephraim Lessing: Minna von Barnhelm, oder das Soldatenglück (1767), Komödie</item>
+                    <item>Cornelius von Ayrenhoff: Der Postzug (1769), Komödie</item>
+                    <item>Ferdinand Eberl: Kasperl' der Mandolettikrämer (1789), Komödie [Libretto]</item>
+                    <item>Friedrich Schiller: Kabale und Liebe (1784), Tragödie</item>
+                    <item>August von Kotzebue: Menschenhass und Reue (1790), Komödie</item>
+                    <item>Johann Wolfgang Goethe: Faust. Eine Tragödie (1807), Tragödie</item>
+                </list>
+                <p style="text-align: left; ">Insgesamt haben wir bislang 12.364 Annotationen mit einer durchschnittlichen Länge von ca. 25 Tokens gesammelt. Jeweils zwei Annotator*innen haben diese Dramen mit Emotionsinformationen angereichert. Die Übereinstimmung der Annotator*innen (
+                    <hi rend="italic">Inter-Annotator Agreements</hi>) entsprechen Kappa-Werten auf der Ebene der Einzelemotionen zwischen 0,3 und 0,4 je nach Drama, was einer schwachen bis moderaten Übereinstimmung entspricht (Landis/Koch 1977). Für die Polaritätsklasse erhöhen sich die Werte auf 0,4-0,6. Diese vergleichsweise geringen Übereinstimmungswerte sind üblich für die Annotation historischer und literarischer Texte (Alm/Sproat 2005; Sprugnoli et al. 2016; Schmidt/Burghardt/Dennerlein 2018b; Schmidt/Burghardt/Dennerlein/Wolff 2019b; Schmidt et al. 2019). Es ist geplant, die Werte durch kontinuierliche Verbesserung der Annotationsanleitung und Schulung der Annotator*innen noch weiter zu verbessern. Ausgezeichnet werden Textabschnitte von variabler Größe, die von einem Wort bis zu mehreren Sätzen reichen, weil sich der Ausdruck von Emotionen auf unterschiedlich lange Textabschnitte beziehen kann. Neben Emotionen werden auch Quell- und Zielinformationen annotiert. Weiterführende Informationen zur Annotation finden sich bei Schmidt/Dennerlein/Wolff (2021b; 2021c).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ergebnisse</head>
+                <figure>
+                    <graphic n="1001" width="14.869583333333333cm" height="17.20360833333333cm" url="Pictures/4b8055e4109957a3436f694e53b0deff.png" rend="inline"/>
+                    <head>Abb. 1: Absolute und prozentuale Verteilung der annotierten Emotionen.</head>
+                </figure>
+                <p style="text-align: left; ">Die am häufigsten annotierte Einzelemotion ist Leid (vgl. Abb. 1). Dies erscheint zunächst verwunderlich, weil das Verhältnis von Tragödien zu Komödien im annotierten Korpus mit fünf zu sechs eine positivere Emotion als Hauptemotion erwarten lässt. Zu bedenken ist jedoch, dass Komödien vor dem obligatorischen guten Ende (Kraft 2011) oftmals beträchtliche Hindernisse enthalten, so dass negative Emotionen eben doch eine zentrale Rolle spielen.</p>
+                <p style="text-align: left; ">Für Verlaufsanalysen der Emotionsannotationen wird jedes Drama nach der Zeichenzahl in fünf gleiche Teile (Quintile) geteilt und die Zahl an Emotionsannotationen pro Kategorie und pro Quintil berechnet. Das Verfahren der Aufteilung in Quintile wird in Anlehnung an eine fünfaktige Struktur gewählt, die zahlreiche Dramen, aber eben nicht alle aufweisen. Es ermöglicht normalisierte Vergleiche von Trends in Dramen, die unterschiedliche viele Szenen und Akte haben. Zum Vergleich der Genres (Tragödien vs. Komödien) wird pro Quintil der Durchschnitt aus den jeweiligen Annotationen aller Dramen eines Genres gebildet. </p>
+                <p style="text-align: left; ">Wirft man nun einen Blick auf die Verteilung der Emotion ‚Leid‘ im Handlungsverlauf der Dramen, so sieht man, dass diese Emotion in Tragödien durchschnittlich genau doppelt so häufig annotiert wurde wie in Komödien, wie an der y-Achse der Abb. 2 abzulesen ist (durchschnittlich 27-32 Textstellen mit Leid in der Komödie, 45-60 in der Tragödie): </p>
+                <figure>
+                    <graphic n="1002" width="17.647708333333334cm" height="8.823855555555555cm" url="Pictures/4360157df5f37b3c2285f75b7fc71624.jpg" rend="inline"/>
+                    <head>Abb. 2: Verlauf der Annotationen der Emotion ‚Leid‘ in Tragödien und Komödien.</head>
+                </figure>
+                <p style="text-align: left; ">Zudem kann man in Abb. 2 sehen, dass Leid zu Beginn und am Ende von Tragödien gehäuft auftritt. In der Mitte der Dramen besteht jedoch offensichtlich Hoffnung auf eine Verbesserung der Situation und die Figuren empfinden weniger Leid. In Komödien erkennen wir hingegen nach einer kurzen Abnahme von Leid einen leidvollen Höhepunkt, der jedoch zugleich der Wendepunkt zum Besseren, weniger leidvollen Geschehen ist. </p>
+                <p style="text-align: left; ">Die Tatsache, dass Leid auch in Komödien die wichtigste Emotion ist, hat sicher auch damit zu tun, dass es sich bei den von uns annotierten Komödien vorwiegend um rührende und satirische Komödien handelt, in denen Zustände und Verhaltensweisen kritisiert und auch einige Tränen über leidvolle Ereignisse vergossen werden. Erst zum Schluss hin fügt sich alles zu einem unverfhofft freudigen Ausgang. Diese Thesen über den Handlungsverlauf in der Komödie lassen sich auch durch die Verlaufskurve der Emotion ‚Freude‘ belegen. In Komödien ist in der Mitte der Handlung, wenn sich die Verwirrungen und Probleme häufen, Freude am wenigsten annotiert, zum Schluss hin steigen die Werte wieder fast auf das Niveau des Anfangs (vgl. Abb. 3). In Tragödien finden sich hingegen kurz vor der Mitte der Handlung die meisten freudigen Aussagen von Figuren (vgl. Abb. 3). Dieser Befund des plötzlichen Abfalls von Freude korreliert mit dem dramaturgischen Konzept der Peripetie, dem Glückswechsel. Nach der idealtypischen aristotelischen Definition führt der Handlungsumschwung unvermeidlich zum schlechten Ausgang. Die Ergebnisse unserer Annotationsanalyse zeigen eine dazu passende stetige Abnahme von Freude in der Tragödie:</p>
+                <figure>
+                    <graphic n="1003" width="17.171458333333334cm" height="8.585730555555555cm" url="Pictures/fac04099fe409c82c0221916017e2b88.jpg" rend="inline"/>
+                    <head>Abb. 3: Verlauf der der Annotationen der Emotion ‚Freude‘ in Komödien und Tragödien.</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Diskussion und Ausblick</head>
+                <p style="text-align: left; ">Die bisherigen Ergebnisse sind vielversprechend, was die Erkennung emotionaler Schlüsselstellen betrifft. Poetologisch lassen sie sich gut mit dem erklären, was wir über die kanonischen Dramen wissen, allerdings wurden bisher nur elf ausgewählte Dramen mit Emotionen ausgezeichnet. Ziel ist es einerseits, alle 300 bisher digitalisierten Dramen zu analysieren und neue Erkenntnisse über die Verteilung von Emotionen zu gewinnen. Andererseits soll auch geprüft werden, wie sich die Emotionsverteilung verändert, wenn im größeren Umfang nicht-kanonische Dramen einbezogen werden. Zu diesem Zweck erweitern wir das Korpus um ausgewählte Dramen der Wanderbühne, um Dramen des Schultheaterautors Christian Weise und um Libretti der Hamburger Oper.<ref target="ftn7" n="7"/>
+                </p>
+                <p style="text-align: left; ">Methodisch gehen wir so vor, dass mithilfe der annotierten Textstellen transformerbasierte Sprachmodelle mit Architekturen wie BERT oder ELECTRA auf die Erkennung von Emotionsklassen trainiert werden (Schmidt/Dennerlein/Wolff 2021b; 2021c). Hier gibt es durch die Entwicklungen der letzten Jahre vielversprechende kontextsensitive Verfahren. Während bisherige Verfahren aus dem traditionellen maschinellen Lernen oder für statische Sprachmodelle Wörter meist ohne Beachtung des Kontextes (also der Wortumgebung) repräsentieren, haben Wörter und Ausdrücke in dynamischen Sprachmodellen je nach Kontext eine andere Repräsentation. Auch können die Modelle besser als bisherige Verfahren mit Wörtern und Phrasen umgehen, die nicht im Vokabular enthalten sind. Diese Modelle sind jedoch zumeist mit zeitgenössischem Sprachmaterial trainiert (z. B. mit Web-Texte wie der Wikipedia oder News-Texten, vgl. Chan/Schweter/Möller 2020). Deshalb planen wir, die bestehenden Sprachmodelle auf historische und fiktionale Sprache, später dann auf dramenspezifische Sprache zu trainieren. Erste vielversprechende Projekte konnten auf diese Weise im Kontext deutschsprachiger und historischer Texte erfolgreiche Prädiktionsleistungen erreichen (Labusch et al. 2019; Schweter/Baiter 2019; Brunner et al. 2020a; Schweter/März 2020). Bisher haben wir die Leistung verschiedener transformerbasierter Modelle evaluiert, die auf zeitgenössischer Sprache vortrainiert sind (unter anderem von Chan/Schweter/Möller 2020) und solche, die mit historischen und/oder literarischen Texten nachtrainiert wurden (unter anderem Schweter 2020, Brunner et al. 2020), sowie das Fine-Tuning von BERT-Modellen mithilfe unserer eigenen Korpora und Theaterstücke untersucht. Ein erstes Zwischenergebnis ist, dass die Vorhersagen mit 
+                    <hi rend="italic">gbert-large</hi> und 
+                    <hi rend="italic" xml:space="preserve">gelectra-large </hi>von
+                    <hi rend="italic" xml:space="preserve"> deepset</hi> (Chan/Schweter/Möller 2020) mit 83% Prädiktionsgenauigkeit die besten sind. Diese Zahl bezieht sich auf die Einstufung einer Textstelle als positiv oder negativ. Soll vorausgesagt werden, ob eine Textstelle zu einer unserer Emotionsoberklasse gehört, beträgt die Genauigkeit 57%, für die Vorhersage einer der 13 Einzelemotionen beträgt sie 47%.<ref target="ftn8" n="8"/> Weitere Details und Informationen zu ersten Ergebnissen der Emotionsklassifikation auf dem annotierten Korpus findet man bei Schmidt/Dennerlein/Wolff (2021a; 2021c). Hier ist noch ein erheblicher Aufwand nötig, um Sprachmodelle mit Texten unseres Untersuchungszeitraumes und mit Dramen nachzutrainieren.
+                </p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Während ‚Gattung‘ im Anschluss an Fricke als literaturwissenschaftlicher Ordnungsbegriff verwendet wird, soll im Folgenden der Begriff ‚Genre‘ für alle gruppenförmigen Erscheinungen von Dramen gebraucht werden, die durch historisch identifizierbare „ge- und bewußte[] Normen [bestimmt sind, die] die Produktion und Rezeption von Texten bestimmen“. (Fricke 1981: 132).</note><note place="foot" xml:id="ftn2" n="2"> Das Projekt wird von der Deutschen Forschungsgemeinschaft (DFG) für drei Jahre im Rahmen des Schwerpunktprogramms 
+                            <hi rend="italic">Computational Literary Studies</hi> (SPP 2207/1) gefördert 
+                            <ref target="https://dfg-spp-cls.github.io/projects_en/2020/01/24/TP-Emotions_in_Drama/">https://dfg-spp-cls.github.io/projects_en/2020/01/24/TP-Emotions_in_Drama/</ref> (Projektnummer 424207618 , Sachbeihilfen DE 2188/3-1 und WO 835/4-1).
+                        </note><note place="foot" xml:id="ftn3" n="3"> In der literaturwissenschaftlichen Emotionsforschung lassen produktions-, rezeptions-, text- und kontextbezogene Ansätze unterscheiden (Winko 2003). </note><note place="foot" xml:id="ftn4" n="4"> Das Annotationsschema wurde zu Projektbeginn iterativ bei der Annotation erprobt und mehrfach angepasst, wie es für die Geisteswissenschaften üblich und empfohlen ist (Reiter 2020).</note><note place="foot" xml:id="ftn5" n="5"> Die Bewertung erfolgt ausgehend von der empfindenden Figur. Schadenfreude ist hier folglich deshalb als positive Emotion ausgewiesen, weil sie für die Figur, die sie empfindet, eine freudig-positive Empfindung ist.</note><note place="foot" xml:id="ftn6" n="6">
+                            <ref target="http://lithes.uni-graz.at/maezene/maezene_startseite.html">http://lithes.uni-graz.at/maezene/maezene_startseite.html</ref>. 
+                        </note><note place="foot" xml:id="ftn7" n="7"> Die Ergänzungskorpora müssen teilweise aufwändig volltextdigitalisiert und alle noch mit TEI ausgezeichnet werden. Vgl. z.B. 
+                            <ref target="https://www.germanistik.uni-wuerzburg.de/lehrstuehle/computerphilologie/mitarbeiter/dennerlein/digitalisierung-von-libretti-der-hamburger-gaensemarktoper-von-1678-1730/">https://www.germanistik.uni-wuerzburg.de/lehrstuehle/computerphilologie/mitarbeiter/dennerlein/digitalisierung-von-libretti-der-hamburger-gaensemarktoper-von-1678-1730/</ref>. 
+                        </note><note place="foot" xml:id="ftn8" n="8"> Die Zuordnung einzelner Emotionen zu Oberklassen funktioniert hier noch leicht abweichend. </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Alm, Cecilia Ovesdotter / Sproat, Richard</hi> (2005): “Emotional sequencing and development in fairy tales.”, in: 
+                        <hi rend="italic">International Conference on Affective Computing and Intelligent Interaction</hi>. Springer.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Anz, Thomas</hi> (2011): “Todesszenarien: literarische Techniken zur Evokation von Angst, Trauer und anderen Gefühlen.“, in: Lisanne Sauerwald (Hrsg.): 
+                        <hi rend="italic" xml:space="preserve">Emotionale Grenzgänge. Konzeptualisierungen von Liebe, Trauer und Angst in Sprache und Literatur</hi>. Königshausen &amp; Neumann: 54–59.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Arntzen, Helmut</hi> (1968): 
+                        <hi rend="italic">Die ernste Komödie. Das deutsche Lustspiel von Lessing bis Kleist</hi>. Nymphenburger Verl. 1968.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Assmann, Aleida</hi>: 
+                        <hi rend="italic">Erinnerungsräume. Formen und Wandlungen des kulturellen Gedächtnisses</hi>. 2. Auflage. Beck.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bauman, Thomas</hi>: 
+                        <hi rend="italic">North German opera in the age of Goethe</hi>. Cambridge University Press, 1985.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Brunner, Annelen / Duyen Tanja Tu, Ngoc / Weimer, Lukas / Jannidis, Fotis</hi> (2020): “To BERT or not to BERT-Comparing Contextual Embeddings in a Deep Learning Architecture for the Automatic Recognition of four Types of Speech, Thought and Writing Representation.", in: 
+                        <hi rend="italic" xml:space="preserve">SwissText/KONVENS </hi>2020.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Chan, Branden / Schweter, Stefan / Möller, Timo</hi> (2020): “German's Next Language Model.", in: 
+                        <hi rend="italic">arXiv preprint arXiv:2010.10906</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Fischer, Frank / Börner, Ingo / Göbel, Mathias / Hechtl, Angelika / Kittel, Christopher / Milling, Carsten / Trilcke, Peer</hi> (2019): “Programmable Corpora: Introducing DraCor, an Infrastructure for the Research on European Drama." Zenodo. 
+                        <ref target="https://doi.org/10.5281/zenodo.4284002">https://doi.org/10.5281/zenodo.4284002</ref>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Flüh, Marie</hi> (2020): “Emotionsanalyse“. In 
+                        <hi rend="italic">forTEXT. Literatur digital erforschen</hi>. https://fortext.net/ressourcen/tagsets/emotionsanalyse 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Fricke, Harald</hi> (1981): 
+                        <hi rend="italic">Norm und Abweichung. Eine Philosophie der Literatur</hi>. C.H. Beck.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Grimm, Gunther E.</hi> (2010): “Affekt.", in: Karlheinz Barck, Martin Fontius, Dieter Schlenstedt, Burkhart Steinwachs und Friedrich Wolfzettel (Hrsg.), <hi rend="italic">Ästhetische Grundbegriffe</hi>. Metzler, Bd. 1., 16-49.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Jacobs, Arthur M.</hi> (2019): “Sentiment analysis for words and fiction characters from the perspective of computational (Neuro-) poetics.", in: 
+                        <hi rend="italic">Frontiers in Robotics and AI</hi> 6 (2019): 53.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <anchor xml:id="Hlk504990759"/>
+                        <hi rend="bold">Jahn, Bernhard</hi> (1996): 
+                        <anchor xml:id="Hlk505089945"/>“Das Libretto als literarische Leitgattung am Ende des 17. Jahrhunderts? Zu Zi(e)glers Roman Die Asiatische Banise und seinen Opernfassungen“, in: Eleonore Sent (Hrsg.): 
+                        <hi rend="italic">Die Oper am Weißenfelser Hof</hi>. Hain: 143–170.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Kim, Evgeny / Klinger, Roman</hi> (2019): “A survey on sentiment and emotion analysis for computational literary studies.", in: 
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Kraft, Stefan</hi> (2011): 
+                        <hi rend="italic">Zum Ende der Komödie. Eine Theoriegeschichte des Happyends</hi>. Wallstein.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Krämer, Jörg:</hi>
+                        <hi rend="italic">Deutschsprachiges Musiktheater im späten 18. Jahrhundert: Typologie, Dramaturgie und Anthropologie einer populären Gattung</hi>. Niemeyer.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Labusch, Kai / Neudecker, Clemens / Zellhofer, David</hi> (2019): “BERT for Named Entity Recognition in Contemporary and Historical German.", in: 
+                        <hi rend="italic">Proceedings of the 15th Conference on Natural Language Processing</hi>, Erlangen, Germany.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Landis, J. Richard / Koch, Gary G.</hi> (1977): “The measurement of observer agreement for categorical data.", in: 
+                        <hi rend="italic">biometrics</hi> (1977): 159-174.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Luhmann, Niklas</hi> (1999): “Kultur als historischer Begriff”. In: Niklas Luhmann: 
+                        <hi rend="italic">Gesellschaftsstruktur und Semantik. Studien zur Wissenssoziologie der modernen Gesellschaft</hi>. Bd. 4. Suhrkamp, 31-54.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Lukas, Wolfgang</hi> (2005): 
+                        <hi rend="italic">Theodizee und Anthropologie. Studien zum Moraldiskurs im deutschsprachigen Drama der Aufklärung (ca. 1730–1770)</hi>. Vandenhoek &amp; Rupprecht.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Mc Hardy, Robert / Adel, Heike / Klinger, Roman</hi> (2019): “Adversarial Training for Satire Detection: Controlling for Confounding Variables.”, in: 
+                        <hi rend="italic">Proceedings of the Annual Conference of the North American Chapter of the Association for Computational Linguistics</hi>, Association for Computational Linguistics.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Meid, Volker</hi> (2009): 
+                        <hi rend="italic">Die deutsche Literatur im Zeitalter des Barock. Vom Späthumanismus zur Frühaufklarung 1570–1740</hi>. C.H. Beck, 327-501.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Meier, Albert</hi>: 
+                        <hi rend="italic">Dramaturgie der Bewunderung: Untersuchungen zur politisch-klassizistischen Tragödie des 18. Jahrhunderts</hi>. Klostermann, Vittorio.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Mohammad, Saif</hi> (2011): “From once upon a time to happily ever after: Tracking emotions in novels and fairy tales.", in: 
+                        <hi rend="italic">arXiv preprint arXiv:1309.5909</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Mönch, Cornelia</hi> (1993): 
+                        <hi rend="italic">Abschrecken Oder Mitleiden: Das Deutsche Bürgerliche Trauerspiel Im 18. Jahrhundert: Versuch Einer Typologie</hi>. Niemeyer.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Nalisnick, Eric T. / Baird, Henry S.</hi> (2013): “Character-to-character sentiment analysis in Shakespeare’s plays." 
+                        <hi rend="italic">Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Neuhuber, Christian</hi> (2003): 
+                        <hi rend="italic">Das Lustspiel macht Ernst. Das Ernste in der deutschen Komödie auf dem Weg in die Moderne: von Gottsched bis Lenz</hi>. Berlin.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Nolting, Winfried</hi> (1986): 
+                        <hi rend="italic" xml:space="preserve">Die Dialektik der Empfindung: Lessings Trauerspiele </hi>„
+                        <hi rend="italic" xml:space="preserve">Miss Sara Sampson” und </hi>„
+                        <hi rend="italic">Emilia Galotti”: Mit Einer Einleitung, Gemischte Gefühle: Zur Problematik eines explikativen Verstehens der Empfindung</hi>. F. Steiner Verlag.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Pianzola, Federico / Rebora, Simone / Lauer, Gerhard</hi> (2020): “Wattpad as a Resource for Literary Studies. Quantitative and Qualitative Examples of the Importance of Digital Social Reading and Readers’ Comments in the Margins.", in: 
+                        <hi rend="italic">PLOS ONE</hi>, vol. 15, no. 1, Public Library of Science, p. e0226708. 
+                        <hi rend="italic">PLoS Journals</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Pikulik, Lothar</hi> (1966): 
+                        <hi rend="italic">Bürgerliches Trauerspiel und Empfindsamkeit</hi>. Böhlau.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Plutchik, Robert</hi> (1980): 
+                        <hi rend="italic">Emotion. A psychoevolutionary synthesis</hi>. Harper&amp; Row.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Reagan, Andrew J. / Mitchell, Lewis / Kiley, Dilan / Danforth, Christopher M. / Dodds, Peter Sheridan</hi> (2016): “The emotional arcs of stories are dominated by six basic shapes." 
+                        <hi rend="italic">EPJ Data Science</hi> 5.1: 1-12.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Reiter, Nils</hi> (2020): “Anleitung Zur Erstellung von Annotationsrichtlinien". 
+                        <hi rend="italic">ResearchGate</hi>, &lt;doi:
+                        <ref target="https://doi.org/10.1515/9783110693973-009">10.1515/9783110693973-009</ref>&gt;
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Rotermund, Erwin</hi> (1972): 
+                        <hi rend="italic">Affekt und Artistik: Studien zur Leidenschaftsdarstellung und zum Argumentationsverfahren bei Hofmann von Hofmannswaldau</hi>. W. Fink.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Sauder, Gerhard</hi> (1974-1980): 
+                        <hi rend="italic">Empfindsamkeit</hi>. Metzler. 3 Bde.
+                    </bibl>
+                    <bibl rend="Body Text First Indent 2" style="text-align: left;">
+                        <hi rend="bold">Schings, Hans-Jürgen</hi> (1971): “Consolatio Tragoediae. Zur Theorie des barocken Trauerspiels“. in: 
+                        <hi rend="italic" xml:space="preserve">Deutsche Dramentheorien. Beiträge zu einer historischen Poetik des Dramas in Deutschland</hi>, herausgegeben und eingeleitet von Reinhold Grimm. Athenäum, Bd. 2, 1-44.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schings, Hans-Jürgen</hi> (1980): 
+                        <hi rend="italic">Der mitleidigste Mensch ist der beste Mensch: Poetik Des Mitleids von Lessing Bis Büchner</hi>. C.H. Beck.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas </hi>(2019): "Distant Reading Sentiments and Emotions in Historic German Plays", in: 
+                        <hi rend="italic">Abstract Booklet, DH_Budapest_2019</hi>. Budapest, Hungary, 57-60.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Burghardt, Manuel </hi>(2018): "An Evaluation of Lexicon-based Sentiment Analysis Techniques for the Plays of Gotthold Ephraim Lessing", in: 
+                        <hi rend="italic">Proceedings of the Second Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature.</hi> Santa Fe, New Mexico: Association for Computational Linguistics, 139-149.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Burghardt, Manuel / Dennerlein, Katrin </hi>(2018a): "‘Kann man denn auch nicht lachend sehr ernsthaft sein?‘ – Zum Einsatz von Sentiment Analyse-Verfahren für die quantitative Untersuchung von Lessings Dramen", in: 
+                        <hi rend="italic">Book of Abstracts, DHd 2018.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Burghardt, Manuel / Dennerlein, Katrin </hi>(2018b): "Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior.", in: Sandra Kübler, Heike Zinsmeister (eds.), 
+                        <hi rend="italic">Proceedings of the Workshop on Annotation in Digital Humanities (annDH 2018).</hi> Sofia, Bulgaria, 47-52.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Burghardt, Manuel / Dennerlein, Katrin / Wolff, Christian </hi>(2019a): "Katharsis - A Tool for Computational Drametrics", in: 
+                        <hi rend="italic">Book of Abstracts, Digital Humanities Conference 2019 (DH 2019)</hi>. Utrecht, Netherlands.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Burghardt, Manuel / Dennerlein, Katrin / Wolff, Christian </hi>(2019b): "Sentiment Annotation in Lessing’s Plays: Towards a Language Resource for Sentiment Analysis on German Literary Texts", in: 
+                        <hi rend="italic">2nd Conference on Language, Data and Knowledge (LDK 2019)</hi>. Leipzig, Germany.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Dennerlein, Katrin / Wolff, Christian </hi>(2021a): "Emotion Classification in German Plays with Transformer-based Language Models Pretrained on Historical and Contemporary Language", in
+                        <hi rend="italic">: Proceedings of the 5th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</hi>, 67-79.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Dennerlein, Katrin / Wolff, Christian </hi>(2021b): "Towards a Corpus of Historical German Plays with Emotion Annotations", in: 
+                        <hi rend="italic">3rd Conference on Language, Data and Knowledge (LDK 2021)</hi>. Schloss Dagstuhl-Leibniz-Zentrum für Informatik.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Dennerlein, Katrin / Wolff, Christian </hi>(2021c): "Using Deep Neural Networks for Emotion Analysis of 18th and 19th century German Plays", in: 
+                        <hi rend="italic">Fabrikation von Erkenntnis: Experimente in den Digital Humanities</hi>. Melusina Press. DOI:10.26298/melusina.8f8w-y749-udlf
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Winterl, Brigitte / Maul, Milena / Schark, Alina / Vlad, Andrea / Wolff, Christian </hi>(2019): "Inter-Rater Agreement and Usability: A Comparative Evaluation of Annotation Tools for Sentiment Annotation", in: Draude, C., Lange, M. &amp; Sick, B. (Hrsg.), 
+                        <hi rend="italic">INFORMATIK 2019: 50 Jahre Gesellschaft für Informatik – Informatik für Gesellschaft (Workshop-Beiträge)</hi>. Bonn: Gesellschaft für Informatik e.V., 121-133. DOI: 10.18420/inf2019_ws12
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schonlau, Anja</hi> (2017): 
+                        <hi rend="italic">Emotionen im Dramentext: eine methodische Grundlegung mit exemplarischer Analyse zu Neid und Intrige 1750-1800</hi>. De Gruyter.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schulz, Georg-Michael</hi> (1988): 
+                        <hi rend="italic">Tugend, Gewalt und Tod: das Trauerspiel der Aufklärung und die Dramaturgie des Pathetischen und des Erhabenen</hi>. Niemeyer.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schwarz-Friesel, Monika</hi> (2007): <hi rend="italic">Sprache und Emotion</hi>. Francke
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schweter, Stefan</hi> (2020): <hi rend="italic">Europeana BERT and ELECTRA models</hi>. https://doi.org/10.5281/zenodo.4275044.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schweter, Stefan / Baiter, Johannes</hi> (2019): “Towards robust named entity recognition for historic german.", in: 
+                        <hi rend="italic">arXiv preprint arXiv:1906.07592</hi> (2019).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schweter, Stefan / März, Luisa </hi>(2020): “Triple E-Effective Ensembling of Embeddings and Language Models for NER of Historical German.", in: 
+                        <hi rend="italic">CLEF (Working Notes)</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Sprugnoli, Rachele / Tonelli, Sara / Marchetti, Alessandro / Moretti, Giovanni</hi> (2016): “Towards sentiment analysis for historical texts.", in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 31.4: 762-772.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Tauschek, Markus</hi>: 
+                        <hi rend="italic">Kulturerbe. Eine Einführung</hi>. Reimer 2013.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Urchueguía, Cristina: </hi>
+                        <hi rend="italic">Allerliebste Ungeheuer: Deutsches komisches Singspiel 1760–1790</hi>. Stroemfeld 2015.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Weiss-Schletterer</hi> (2005): 
+                        <hi rend="italic">Das Laster des Lachens. Ein Beitrag zur Genese der Ernsthaftigkeit im deutschen Bürgertum des 18. Jahrhunderts</hi>. Böhlau.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wiegmann, Hermann</hi> (1987): 
+                        <hi rend="italic">Die ästhetische Leidenschaft: Texte zur Affektenlehre im 17. und 18. Jahrhundert</hi>, herausgegeben von Hermann Wiegmann. Olms.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Winko, Simone</hi> (2003): 
+                        <hi rend="italic">Kodierte Gefühle. Zu einer Poetik der Emotionen in lyrischen und poetologischen Texten um 1900</hi>. Erich Schmidt Verlag.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wood, Ian / McCrae, John / Andryushechkin, Vladimir / Buitelaar, Paul</hi> (2018a): “A comparison of emotion annotation schemes and a new annotated data set.", in: 
+                        <hi rend="italic">Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wood, Ian / McCrae, John / Andryushechkin, Vladimir / Buitelaar, Paul</hi> (2018b): “A comparison of emotion annotation approaches for text.", in 
+                        <hi rend="italic">Information</hi> 9.5: 117.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Zehe, Albin / Becker, Martin / Hettinger, Lena / Hotho, Andreas / Reger, Isabella / Jannidis, Fotis</hi> (2016): “Prediction of happy endings in German novels based on sentiment information.", in: 
+                        <hi rend="italic">3rd Workshop on Interactions between Data Mining and Natural Language Processing, Riva del Garda, Italy</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Zeller, Rosemarie</hi> (2005): “Tragödientheorie, Tragödienpraxis und Leidenschaften“. In 
+                        <hi rend="italic">Passion, Affekt und Leidenschaft in der Frühen Neuzeit</hi>, herausgegeben von Johann Anselm Steiger, Harrassowitz, Bd. II: 691–704.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

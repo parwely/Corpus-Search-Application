@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_213">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Evaluation computergestützter Verfahren der Emotionsklassifikation für deutschsprachige Dramen um 1800</title>
+                <author>
+                    <persName>
+                        <surname>Schmidt</surname>
+                        <forename>Thomas</forename>
+                    </persName>
+                    <affiliation>Lehrstuhl für Medieninformatik, Universität Regensburg</affiliation>
+                    <email>thomas.schmidt@ur.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Dennerlein</surname>
+                        <forename>Katrin</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Philologie, JMU Würzburg</affiliation>
+                    <email>katrin.dennerlein@uni-wuerzburg.de</email>
+                <idno type="ORCID">0000-0003-0059-9597</idno></author>
+                <author>
+                    <persName>
+                        <surname>Wolff</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Lehrstuhl für Medieninformatik, Universität Regensburg</affiliation>
+                    <email>christian.wolff@ur.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-12-01T07:49:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Emotionsklassifikation</term>
+                    <term>Transformer-basierte Modelle</term>
+                    <term>Drama</term>
+                    <term>Sentiment Analysis</term>
+                    <term>Maschinelles Lernen</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Datenerkennung</term>
+                    <term>Programmierung</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Sprache</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">213</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align: left; ">Transformerbasierte Sprachmodelle wie BERT (Devlin et al. 2018) und ELECTRA (Clark et al. 2020) gelten als state-of-the-art und Ausgangspunkt für zahlreiche Aufgaben des Natural Language Processing (NLP) (Shmueli / Ku 2019; Munikar et al. 2019; Cao et al. 2020; Dang et al. 2020; Gonzáles-Carvajal et al. 2021; Cortiz 2021). Als ein entscheidender Vorteil dieser Modelle hat sich die dynamische Repräsentation von Tokens in Abhängigkeit von ihrem Kontext herausgestellt. Der Großteil dieser Modelle wird jedoch mit zeitgenössischer Sprache, vor allem mit Sach- und Fachtexten aus dem Web (z.B. 
+                    <hi rend="italic">Wikipedia</hi>) trainiert. Dies stellt ein Problem für Forschungsbereiche wie die Digital Humanities (DH) dar, die mit literarischen Texten arbeiten. Literarische Texte unterscheiden sich entscheidend von Textsorten wie Wikipedia-Artikeln, weil sie fiktional sind und Sprache kreativ und ästhetisch motiviert verwenden. Mit literarischen Texten wird zudem häufig nicht explizit, sondern indirekt durch Bilder kommuniziert. Entwicklungen im Bereich der Domänenadaptation ermöglichen jedoch auch die Optimierung transformerbasierter Modelle auf spezielle Domänen, was Projekte auch im deutschsprachigen Bereich bereits gewinnbringend nutzen konnten (Labusch et al. 2019; Schweter / Baiter 2019; Brunner et al. 2020; Schweter / März 2020). Für die Aufgabe der Emotionsklassifikation findet man im englischsprachigen Bereich Studien, die derartige Methoden für zeitgenössische Texte explorieren (Shmueli / Ku 2019; Acheampong et al. 2020; Cao et al. 2020).
+                </p>
+                <p style="text-align: left; ">In den Digital Humanities (DH) werden Sentiment-Analyse (die Einteilung, ob ein Text eher positiv/negativ konnotiert ist) und Emotionsklassifikation (die Erkennung bzw. Zuordnung distinkter Emotionskonzepte in Texten) in den letzten Jahren immer populärer. Sie werden verwendet, um moderne Textsorten wie Songtexte (Schmidt et al. 2020a), Filmtexte (Schmidt et al. 2020b) und Texte aus den sozialen Medien zu analysieren (Moßburger et al. 2020; Schmidt et al. 2020c; 2020d) finden aber auch Einsatz für literarische Genres wie beispielsweise Märchen (Alm / Sproat 2005; Mohammad 2011), Romane (Kakkonen / Kakkonen 2011; Mohammad et al. 2011; Reagan et al. 2016; Zehe et al. 2016) oder Dramen (Mohammad 2011; Schmidt / Burghardt 2018; Schmidt et al. 2018a; 2018b; Schmidt 2019; Schmidt et al. 2019a; 2019b; 2019c; Yavuz 2020; Schmidt et al. 2021). Die Ziele variieren dabei von der Exploration von Sentiment- und Emotionsverläufen in einzelnen Werken bis zu Gruppenvergleichen (siehe Kim / Klinger 2019). Die steigende Popularität ist wenig überraschend, da die hermeneutische Analyse von Emotionen eine lange Tradition in der Literaturwissenschaft hat, z.B. in der Dramenanalyse (Pikulik 1965; Wiegmann 1987; Anz 2011; Schonlau 2017). </p>
+                <p style="text-align: left; ">Im folgenden Proposal präsentieren wir eine Studie aus dem DFG-Projekt 
+                    <hi rend="italic">Emotions in Drama</hi><ref target="ftn1" n="1"/> zur Evaluation von Methoden transformerbasierter Emotionsklassifikation für ein annotiertes Korpus historischer deutschsprachiger Dramentexte. Unser Ziel ist, es die Leistung verschiedener Verfahren zu vergleichen und Impulse für Optimierungen auf dieser Textsorte zu sammeln. Im nächsten Kapitel wird dazu zunächst in das verwendete Annotationsschema sowie das annotierte Goldstandard-Korpus eingeführt.<ref target="ftn2" n="2"/> Danach werden die verwendeten Klassifikationsverfahren erläutert. Aktuelle Verfahren werden dabei mit bekannten Baseline-Methoden verglichen und für verschiedene Kategorienmodelle evaluiert. Abschließend werden die Ergebnisse der Evaluation präsentiert. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Annotation und Goldstandard-Erstellung</head>
+                <p style="text-align: left; ">Zur Evaluation und zum Training von Algorithmen wurde ein Goldstandard für ein Sub-Korpus unseres Gesamtkorpus‘ annotiert.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Definitionen und Annotationsschema</head>
+                    <p style="text-align: left; ">Emotion wird definiert als der Bewusstseinszustand einer Figur, wie sie sich auch in Text ausdrückt. Annotiert wird die eigene oder zugeschriebene Emotion von Figuren in Abhängigkeit von Kontext und Interpretation. Das Schema hebt sich von üblichen Schemata, die meist von der Psychologie inspiriert sind (Wood et al. 2018a; 2018b) ab, um literarische Interessen zu integrieren. Es besteht aus 13 
+                        <hi rend="italic">Sub-Emotionen,</hi> die sich in sechs 
+                        <hi rend="italic" xml:space="preserve">Hauptklassen </hi>unterteilen lassen und weiter in die 
+                        <hi rend="italic" xml:space="preserve">Polarität </hi>(positiv/negativ) auf höchster Ebene. Abbildung 1 (Kapitel 
+                        <hi rend="italic">Annotationsergebnisse</hi>) illustriert die einzelnen Konzepte.
+                    </p>
+                    <p style="text-align: left; ">Ein Sonderfall des Schemas ist 
+                        <hi rend="italic">emotionale Bewegtheit,</hi> die verwendet wird, um unspezifische emotionale Erregungen zu markieren. Zusammen mit den Klassen 
+                        <hi rend="italic">negativ</hi>/
+                        <hi rend="italic">positiv</hi> bezeichnen wir diese Sammlung an Oberkategorien als 
+                        <hi rend="italic">Dreifach-Polarität</hi>. Es werden sowohl Repliken (einzelne Sprechakte von Figuren) als auch Regieanweisungen annotiert, sofern Annotator*innen dort Emotionen erkennen. Annotator*innen können variable Textlängen pro Einheit annotieren, also einzelne Wörter, Satzteile und mehrere Sätze. Annotationen können sich zudem überlappen. Obwohl es Vorteile hat, feste Annotationseinheiten festzulegen, wurde dieser variable Annotationsstil basierend auf der Erfahrung von Pilotstudien bestimmt.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Annotiertes Teilkorpus</head>
+                    <p style="text-align: left; ">Das zu analysierende Hauptkorpus unseres Gesamtprojektes setzt sich aus unterschiedlichen Dramenkollektionen für die Jahre 1650-1815 aus TextGrid<ref target="ftn3" n="3"/>, GerDracor (Fischer et al. 2019) und anderen Quellen zusammen. Für die vorliegende Studie wurde eine repräsentative Menge von Dramen, gemessen an Sprache und Genre für die Zeit um 1800, gewählt: 
+                        <hi rend="italic">Minna von Barnhelm</hi> (1767, Lessing, Komödie), 
+                        <hi rend="italic">Kabale und Liebe</hi> (1784, Schiller, Tragödie), 
+                        <hi rend="italic">Kasperl’ der Mandolettikrämer</hi> (1789, Eberl, Komödie), 
+                        <hi rend="italic">Menschenhass und Reue</hi> (1790, Kotezbue, Komödie), 
+                        <hi rend="italic">Faust. Eine Tragödie</hi> (1807, Goethe, Tragödie).
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Annotationsprozess</head>
+                    <p style="text-align: left; ">Für die Annotation wurde das Tool CATMA (Gius et al. 2020) verwendet. Die Dramen wurden vollständig von Anfang bis Ende annotiert. Die Lektüre des gesamten Dramas ist notwendig, da kontextabhängig annotiert wird. Je zwei studentische Hilfskräfte haben jedes Werk unabhängig voneinander annotiert. Die Hilfskräfte wurden vor der Annotation mittels Pilotstudien von einer Expertenannotatorin trainiert und hatten Zugriff auf eine Annotationsanleitung. Je nach Länge des Textes hatten die Annotator*innen 1-2 Wochen Zeit pro Drama.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Annotationsergebnisse</head>
+                    <p style="text-align: left; ">Der Goldstandard besteht insgesamt aus 6.596 Emotionsannotationen (Abbildung 1).</p>
+                    <figure>
+                        <graphic n="1001" width="16.002cm" height="12.405430555555556cm" url="Pictures/2ae3ec8fbd5024661d0be315634b0b0f.png" rend="inline"/>
+                        <head>Abb. 1: Verteilung der Annotationsklassen. Nach den jeweiligen Hauptklassen (HK) folgen die Sub-Emotionen. + markiert positive Polarität, - negative Polarität (Avg=Mittelwert, Std=Standardabweichung). Die Aufteilung für die Polarität ist: 3.566 absolut, 54% für negativ, 2.267, 34% positiv und 763, 12% Emotionale Bewegtheit. Alle Prozentangaben sind gerundet.</head>
+                    </figure>
+                    <p style="text-align: left; ">Auf Polaritätsebene sind die meisten Annotationen negativ (56%), 34% positiv und 11% mit der Klasse „emotionale Bewegtheit“ markiert. Einige Kategorien (z.B. Lust und Freundschaft) wurden selten markiert. Die Token-Statistiken verdeutlichen die Varianz in den Annotationslängen: im Schnitt besteht eine Annotation aber aus 25 Tokens für alle Kategorien. </p>
+                    <p style="text-align: left; ">Da Texteinheiten von variabler Länge und überlappende Texteinheiten annotiert werden können, muss zur Berechnung von Übereinstimmungsmetriken eine Festlegung auf eine Texteinheit getroffen werden. Dazu wird folgende Heuristik angewendet: Für jede Replik oder Regieanweisung wird pro Annotator*in diejenige Annotation markiert, die am meisten (gemessen an der Zahl an annotierten Token) markiert wurde. Keine Annotation pro Replik/Regieanweisung wird als zusätzliche Klasse markiert und dann replikenweise Übereinstimmungen kalkuliert (vgl. Abbildung 2).</p>
+                    <figure>
+                        <graphic n="1002" width="16.002cm" height="7.237236111111111cm" url="Pictures/8e7d90e9fa9f893ecdd95894e527a0eb.png" rend="inline"/>
+                        <head>Abb. 2: Übereinstimmungsmetriken für jedes Drama und insgesamt (κ=Cohen’s κ; %=prozentuelle Übereinstimmung der Annotator*innen).</head>
+                    </figure>
+                    <p style="text-align: left; ">Zur Interpretation von Cohen’s κ werden im Folgenden in Klammern die Wertebereiche für einzelne Intervalle gemäß Landis und Koch (1977) mitangegeben. Im Schnitt kann man für die Polarität eine moderate Übereinstimmung (laut Landis und Koch gilt moderat für 0,4&lt;κ&lt;=0,6) und für die anderen Kategorien eine schwache Übereinstimmung (0,1&lt;κ&lt;= 0,4) feststellen. Im Vergleich zu anderen Textsorten ist dies eine geringe Übereinstimmung (Wood et al. 2018a; 2018b), die jedoch vergleichbar mit anderen Sentiment- und Emotionsannotationsprojekten mit literarischen und/oder historischen Texten ist (Alm / Sproat 2005; Sprugnoli et al. 2016; Schmidt et al. 2018b; Schmidt et al. 2019b; 2019d). Mehr Erläuterungen und Ergebnisse zur Annotation findet man bei Schmidt et al. (2021c).</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Trainings- und Evaluationsmaterial</head>
+                    <p style="text-align: left; ">Im Folgenden werden die Ergebnisse für denjenigen Fall präsentiert, bei dem als Trainings- und Evaluationsmaterial („Goldstandard“) alle Annotationen des obigen Annotationskorpus‘ verwendet werden (also je zwei Annotationssätze pro Drama). Dadurch liegt folgende Besonderheit vor: Eindeutige und partielle Annotationswidersprüche werden nicht aufgelöst, sondern dem Modell mit als Trainingsmaterial übergeben. Je nach kategorialem System gibt es eine unterschiedliche Menge an partiellen und absoluten Widersprüchen (ca. 16% für Polarität, 14% für Dreifach-Polarität, 28% für Hauptklassen, 47% für Sub-Emotionen). Dieses Verfahren wurde dennoch gewählt, da aufgrund der variablen Annotationspraxis die Auflösung eindeutiger Annotationswidersprüche schwerfällt (siehe Kapitel 
+                        <hi rend="italic">Diskussion</hi> mit Anregungen, wie mit diesem Problem in künftigen Studien umzugehen ist). Für weitere Evaluationen mit anderen Korpusinstanzen siehe Schmidt et al. (2021b). Insgesamt besteht der „Goldstandard“ aus 6.596 annotierten Textsequenzen variabler Länge. Nicht-annotiertes Textmaterial wurde dem Goldstandard nicht hinzugefügt. Auch diese Limitation wird in der Diskussion besprochen.
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Verfahren der Emotionsklassifikation</head>
+                <p style="text-align: left; ">Wir definieren die Emotionsklassifikation als single-label-Klassifikationsaufgabe für Textsequenzen variabler Länge für folgende Klassengruppen:</p>
+                <list type="unordered">
+                    <item>Polarität (zwei Klassen: positiv vs. negativ; Emotionale Bewegtheit wird hierbei entfernt)</item>
+                    <item>Dreifach-Polarität (drei Klassen)</item>
+                    <item>Hauptklassen (sechs Klassen)</item>
+                    <item>Sub-Emotionen (13 Klassen)</item>
+                </list>
+                <p style="text-align: left; ">Alle Verfahren wurden in 
+                    <hi rend="italic">Python</hi> implementiert. Für die Evaluation und klassische Methoden des maschinellen Lernens wurde 
+                    <hi rend="italic">scikit-learn</hi> (Pedregosa et al. 2011) verwendet, für die transformerbasierten Modelle die 
+                    <hi rend="italic">Hugging-Face</hi> library (Wolf et al. 2019) und 
+                    <hi rend="italic">simpletransformers</hi><ref target="ftn4" n="4"/>.
+                </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Baseline-Methoden</head>
+                    <p style="text-align: left; ">Obschon die Leistung lexikonbasierter Sentiment-Analyse meist von 
+                        <hi rend="italic">Machine Learning</hi>-Verfahren übertroffen wird, wird sie in den DH häufig angewendet, da keine vorannotierten Trainingskorpora notwendig sind (siehe Kim / Klinger 2019 und Schmidt et al. 2021a). Das Verfahren ist regelbasiert und wird bei Taboada et al. (2011) beschrieben. Wir evaluieren zwei Ansätze: (1) das Lexikon 
+                        <hi rend="italic">SentiWortschatz</hi> (SentiWS) (Remus et al. 2010) ohne Vorverarbeitung (im Folgenden als 
+                        <hi rend="italic">lb-sentiws</hi> bezeichnet), (2) SentiWS kombiniert mit Methoden wie Lemmatisierung und Lexikonerweiterung (Schmidt / Burghardt 2018) (
+                        <hi rend="italic">lb-sentiws-optimized</hi>). Letztere Methodik erzielte gute Ergebnisse in historischen deutschsprachigen Dramen (Schmidt / Burghardt 2018). Die gewählten Ansätze können nur für die Polarität angewendet werden, da keine differenzierten Emotionsannotationen in SentiWS vorhanden sind.
+                    </p>
+                    <p style="text-align: left; ">Wir evaluieren zudem zwei klassische Methoden des maschinellen Lernens: (1) Repräsentation über Termfrequenzen in einem bag-of-words-Modell und dem Lern-Algorithmus 
+                        <hi rend="italic">Multinomial Naive Bayes</hi> (
+                        <hi rend="italic">bow-mnb</hi>) sowie (2) 
+                        <hi rend="italic">Support Vector Machines</hi> (SVM) (
+                        <hi rend="italic">bow-svm</hi>) als Lern-Algorithmus. Methode (2) wurde mit dem rbf-kernel der SVC-Klasse von scikit-learn umgesetzt.<ref target="ftn5" n="5"/> Für mehr Informationen über bag-of-words-Ansätze siehe Gonzáles-Carvajal et al. (2021). Die Algorithmen wurden in einer stratifizierten 5x5 Kreuzevaluation trainiert und evaluiert.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>fastText</head>
+                    <p style="text-align: left; ">Statische Sprachmodelle repräsentieren Wörter als Vektoren in Vektorräumen, so dass geometrische Verhältnisse der jeweiligen Semantik entsprechen. Diese Repräsentationen (
+                        <hi rend="italic">word embeddings</hi>) können als Input für neuronale Netze genutzt werden. Wir evaluieren das 
+                        <hi rend="italic">word embedding fastText</hi> (Bojanowski et al. 2017), da es im Vergleich zu anderen statischen Modellen gute Ergebnisse für deutsche Sprache erzielt (Schmitt et al. 2018). Wir nutzen deutschsprachige 
+                        <hi rend="italic">fastText embeddings</hi><ref target="ftn6" n="6"/> trainiert auf der deutschsprachigen Wikipedia sowie ein rekurrentes neuronales Netzwerk (RNN) zur Klassifikation (Cho et al. 2014). Bezüglich der Hyperparameter wird der empfohlene Default des FLAIR-frameworks gewählt (Akbik et al. 2019)<ref target="ftn7" n="7"/> und je ein Modell in einem stratifizierten 5x5-Setting für 12 Epochen trainiert und evaluiert. Für alle Evaluationsmetriken wird der Mittelwert aus den Ergebnissen der fünf Modelle gebildet.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Transformerbasierte Sprachmodelle (zeitgenössische Sprache)</head>
+                    <p style="text-align: left; ">Als transformerbasierte Sprachmodelle werden dynamische 
+                        <hi rend="italic">word embeddings</hi> wie BERT (Devlin et al. 2018) oder ELECTRA (Clark et al. 2020) bezeichnet, die in Erweiterung zu statischen Modellen den Kontext eines Wortes in seiner Umgebung. Wir evaluieren einige der wichtigsten und (über die 
+                        <hi rend="italic">Hugging Face</hi>-Plattform<ref target="ftn8" n="8"/>) frei verfügbaren Modelle, die auf zeitgenössischer Sprache trainiert wurden (Abbildung 3). Die gewählten Modelle erreichen state-of-the-art-Ergebnisse in standardisierten Evaluationen auf deutscher Sprache (Chan et al. 2020). 
+                    </p>
+                    <figure>
+                        <graphic n="1003" width="16.002cm" height="6.321777777777778cm" url="Pictures/bf64c9036e6f3aa88d0424ccbb74f2a4.png" rend="inline"/>
+                        <head>Abb. 3: Evaluierte transformerbasierte Modelle (vortrainiert mit zeitgenössischer Sprache).</head>
+                    </figure>
+                    <p style="text-align: left; ">Für die Klassifikationsaufgabe werden die Modelle in einem „Fine-Tuning“-Schritt mit dem Goldstandard trainiert. Für die konkrete Implementierung folgen wir den jeweiligen Empfehlungen für die gewählte Architektur (Devlin et al. 2018; Clark et al. 2020)<ref target="ftn9" n="9"/> und nutzen die 
+                        <hi rend="italic">Hugging Face</hi>-Bibliothek (Wolf et al. 2020). Pro Sprachmodell und Klassifikationstask werden fünf Klassifikationsverfahren in einem stratifizierten 5x5-setting für je vier Epochen trainiert und Mittelwerte gebildet.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Transformerbasierte Sprachmodelle (historische/poetische Sprache)</head>
+                    <p style="text-align: left; ">Die Performanz von Klassifikations-Aufgaben kann verbessert werden, indem Texte der gleichen Domäne zum Vortraining von transformerbasierten Modellen genutzt werden (siehe Rietzler et al. 2020; Gururangan et al. 2020). Man kann entweder (1) selbst ein Modell von Grund auf mit domänennahen Texten erstellen oder (2) Modelle zeitgenössischer Sprache mit domänenspezifischen historischen Texten nachtrainieren. Beide Methoden wurden bereits erfolgreich im Kontext deutscher, historischer Sprache angewendet (Labusch et al. 2019; Schweter / Baiter 2019; Schweter / März 2020; Brunner et al. 2020). </p>
+                    <figure>
+                        <graphic n="1004" width="16.002cm" height="11.00313888888889cm" url="Pictures/fae48c791aa94ff8c08b68e38023cdee.png" rend="inline"/>
+                        <head>Abb. 4: Evaluierte transformerbasierte Modelle vortrainiert mit historischer Sprache.<ref target="ftn10" n="10"/></head>
+                    </figure>
+                    <p style="text-align: left; ">Auch hier evaluieren wir etablierte vortrainierte Modelle, die über die 
+                        <hi rend="italic">Hugging Face</hi>-Plattform frei verfügbar sind. Abbildung 4 fasst die Daten der Modelle zusammen. Alle Modelle nähern sich dem Kontext unserer Dramen-Texte auf historischer Ebene oder dadurch, dass narrative/poetische Texte genutzt werden, an. Des Weiteren wurde das Modell 
+                        <hi rend="italic">bert-base-german-cased</hi> noch mit den Texten des eigenen Korpus nachtrainiert, zum einen mit unserem Hauptkorpus GerDracor (
+                        <hi rend="italic">bert-base-german-cased-main-corpus</hi>) und in einem zweiten Ansatz lediglich mit den annotierten Dramen (
+                        <hi rend="italic">bert-base-german-cased-annotated-texts).</hi> Das Nachtraining wurde für 4 Epochen mit den default-settings der 
+                        <hi rend="italic">simpletransformer</hi>-library durchgeführt.<ref target="ftn11" n="11"/> Das Implementierungs-, Trainings- und Evaluationsverfahren sowie die gewählten Hyperparameter für die Emotionsprädiktion sind äquivalent zum vorigen Kapitel.
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ergebnisse</head>
+                <p style="text-align: left; ">Hauptmetrik zur Interpretation der Ergebnisse ist die 
+                    <hi rend="italic">accuracy</hi>, also der Anteil an korrekt erkannten Annotationen an allen Annotationen (siehe Abbildung 5). Weitere Details und Informationen zu den Ergebnissen der Studie findet man bei Schmidt et al. (2021d).
+                </p>
+                <figure>
+                    <graphic n="1005" width="16.002cm" height="8.577791666666666cm" url="Pictures/7ba64cab148ba8b8f02400599386cacc.png" rend="inline"/>
+                    <head>Abb. 5: Klassifikationsergebnisse für alle Methoden (die drei besten Ergebnisse je Kategorie sind hervorgehoben).</head>
+                </figure>
+                <p style="text-align: left; ">Alle gewählten Methoden übertreffen in den einzelnen Settings die 
+                    <hi rend="italic">random</hi> und 
+                    <hi rend="italic">majority</hi>-baseline. Die Ergebnisse der lexikonbasierten Sentiment-Analyse bewegen sich auf einem ähnlichem Niveau für Evaluationen auf unterschiedlichen literarischen Texten (Fehle et al. 2021). Die beste Erkennungsrate für Polarität beträgt 83% und wird vom Modell 
+                    <hi rend="italic" xml:space="preserve">gelectra-large </hi>erreicht. Gleiches gilt für die Dreifach-Polarität mit 75% sowie die Hauptklassen (55%). Das beste Modell für die Sub-Emotionen ist 
+                    <hi rend="italic">gbert-large</hi> mit jedoch lediglich 47% Erkennungsrate. Transformerbasierte Modelle erreichen im Schnitt wesentliche bessere Erkennungsraten als alle Baseline-Methoden oder fastText. Mit zunehmender Klassenzahl werden die Ergebnisse (trivialerweise) schlechter. Auch die Abstände zwischen bester und schlechtester Methode werden geringer. Die drei besten Modelle sind konsistent die zwei größten Modelle zeitgenössischer Sprache 
+                    <hi rend="italic" xml:space="preserve">gbert-large </hi>und 
+                    <hi rend="italic">gelectra-large</hi> sowie das auf historische und narrative Sprache optimierte Modell 
+                    <hi rend="italic">bert-base-historical-german-rw-cased</hi>.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Diskussion</head>
+                <p style="text-align: left; ">Obschon die Menge an annotiertem Material im Vergleich zu Studien auf der Basis anderer Textsorten limitiert ist, konnten wir erste Erkenntnisse für die Optimierung computergestützter Methoden sammeln. Für Polarität und Dreifach-Polarität erreichen die besten Modelle in ihren Default-Settings bereits Ergebnisse, die durchaus vergleichbar sind mit state-of-the-art-Resultaten für Sentiment- und Emotionsklassifikation in anderen Bereichen (Yang et al. 2019; Munikar et al. 2019; Cao et al. 2020; Dang et al. 2020). Die besten Ergebnisse erzielen grundsätzlich die derzeit größten transformerbasierten Modelle für die deutsche Sprache. Die Optimierung für historische oder poetische Sprache hat lediglich geringfügige Verbesserungen gegenüber den äquivalenten kontemporären Modellen aufgezeigt. Ein Grund dafür ist möglicherweise, dass die gewählten historischen Modelle noch zu viele Texte aus dem 19. und 20. Jahrhundert enthalten, die doch zu weit entfernt von unserer Zeitepoche sind. Wir befinden uns momentan im Prozess der Akquise großer Textmengen aus dem entsprechenden Zeitraum, um vortrainierte Modelle zu evaluieren, die noch stärker an unsere Domäne angepasst sind.</p>
+                <p style="text-align: left; ">Für die mehrklassigen Kategoriensysteme können keine zufriedenstellenden Ergebnisse erzielt werden. Dies ist ohne größere Optimierung für derartige Klassifikationsverfahren nicht ungewöhnlich. Wir planen sowohl die Anwendung verschiedener empfohlener Verfahren, um mit dem Klassenungleichgewicht umzugehen (Buda et al. 2018) und die Optimierung von Hyperparametern als auch die Exploration des Einsatzes einer neutralen „Nicht-annotiert“-Klasse. Im Bereich der Annotation soll eine Expertenannotation eingefügt werden, welche die Entscheidungen der ersten beiden Annotationen berücksichtigt, aber eine eigenständig verwendbare, widerspruchsfreie Annotationsschicht darstellt. Evaluationsergebnisse mittels der Anwendung von manuellen Widerspruchsauflösungen findet man bei Schmidt et al. (2021b). Wir lassen derzeit weitere Texte annotieren und explorieren historische 
+                    <hi rend="italic">word embeddings,</hi> um akzeptable Ergebnisse für die Hauptkategorien zu erreichen und Emotionen in größeren Mengen unseres Korpus vorhersagen zu können.
+                </p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Das Projekt wird von der Deutschen Forschungsgemeinschaft (DFG) im Rahmen des Schwerpunktprogramms Computational Literary Studies (SPP 2207/1) gefördert 
+                            <ref target="https://dfg-spp-cls.github.io/projects_en/2020/01/24/TP-Emotions_in_Drama/">https://dfg-spp-cls.github.io/projects_en/2020/01/24/TP-Emotions_in_Drama/</ref> (Sachbeihilfen DE 2188/3-1 und WO 835/4-1, Projektnummer: 424207618).
+                        </note><note place="foot" xml:id="ftn2" n="2"> Zur Definition des Emotionsbegriffs und zur Emotionsauswahl vgl. Dennerlein et al. 2022</note><note place="foot" xml:id="ftn3" n="3"> https://textgrid.de</note><note place="foot" xml:id="ftn4" n="4"> https://simpletransformers.ai/</note><note place="foot" xml:id="ftn5" n="5"> https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC</note><note place="foot" xml:id="ftn6" n="6"> https://fasttext.cc/docs/en/crawl-vectors.html</note><note place="foot" xml:id="ftn7" n="7"> Lern-Rate: 0.1, Batch-Größe: 32</note><note place="foot" xml:id="ftn8" n="8"> https://huggingface.co/</note><note place="foot" xml:id="ftn9" n="9"> Lern-Rate: 0.00004; Batch-Größe: 32, maximale Sequenzenlänge: 128; Adam als Optimizer</note><note place="foot" xml:id="ftn10" n="10"> Aus Architektur-Gründen wird das Modell literary-german-bert nur für Polarität/Dreifach-Polarität evaluiert</note><note place="foot" xml:id="ftn11" n="11"> Siehe https://simpletransformers.ai/docs/lm-specifics/</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Acheampong, Francisca Adoma / Wenyu, Chen / Nunoo-Mensah, Henry</hi> (2020): "Text‐based emotion detection: Advances, challenges, and opportunities.", in:
+                        <hi rend="italic">Engineering Reports</hi> 2.7: e12189.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Akbik, Alan / Bergmann,Tanja / Blythe, Duncan / Rasul, Kashif / Schweter, Stefan / Vollgraf, Roland</hi> (2019): "FLAIR: An easy-to-use framework for state-of-the-art NLP.", in:
+                        <hi rend="italic">Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (Demonstrations)</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Alm, Cecilia Ovesdotter / Sproat, Richard</hi> (2005): "Emotional sequencing and development in fairy tales.", in:
+                        <hi rend="italic">International Conference on Affective Computing and Intelligent Interaction</hi>. Springer, Berlin, Heidelberg.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Anz, Thomas</hi> (2011): "Todesszenarien: literarische Techniken zur Evokation von Angst, Trauer und anderen Gefühlen.", in:
+                        <hi rend="italic">Emotionale Grenzgänge.</hi> Würzburg, pp. 54–59.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bojanowski, Piotr / Grave, Edouard / Joulin, Armand / Mikolov, Tomas</hi> (2017): "Enriching word vectors with subword information.", in:
+                        <hi rend="italic">Transactions of the Association for Computational Linguistics</hi> 5: 135-146.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Brunner, Annelen / Duyen Tanja Tu, Ngoc / Weimer, Lukas / Jannidis, Fotis</hi> (2020): "To BERT or not to BERT-Comparing Contextual Embeddings in a Deep Learning Architecture for the Automatic Recognition of four Types of Speech, Thought and Writing Representation.", in:
+                        <hi rend="italic">SwissText/KONVENS</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Buda, Mateusz / Maki, Atsuto / Mazurowski, Maciej A.</hi> (2018): "A systematic study of the class imbalance problem in convolutional neural networks.", in:
+                        <hi rend="italic">Neural Networks</hi> 106: 249-259.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Cao, Lihong / Peng, Sancheng / Yin, Pengfei / Zhou, Yongmei / Yang, Aimin / Li, Xinguang</hi> (2020): "A Survey of Emotion Analysis in Text Based on Deep Learning.", in:
+                        <hi rend="italic">2020 IEEE 8th International Conference on Smart City and Informatization (iSCI)</hi>. IEEE.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Chan, Branden / Schweter, Stefan / Möller, Timo</hi> (2020): "German's Next Language Model.", in:
+                        <hi rend="italic">arXiv preprint arXiv:2010.10906</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Cho, Kyunghyun / Merriënboer, Bart van / Bahdanau, Dzmitry / Bengio, Yoshua</hi> (2014): "On the properties of neural machine translation: Encoder-decoder approaches.", in:
+                        <hi rend="italic">arXiv preprint arXiv:1409.1259</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Clark, Kevin / Luong, Minh-Thang / Le, Quoc V. / Manning, Christopher D.</hi> (2020): "Electra: Pre-training text encoders as discriminators rather than generators.", in:
+                        <hi rend="italic">arXiv preprint arXiv:2003.10555</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Cortiz, Diogo</hi> (2021): "Exploring Transformers in Emotion Recognition: a comparison of BERT, DistillBERT, RoBERTa, XLNet and ELECTRA." 
+                        <hi rend="italic">arXiv preprint arXiv:2104.02041</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Dang, Nhan Cach / Moreno-García, María N. / De la Prieta, Fernando</hi> (2020): "Sentiment-Analyse based on deep learning: A comparative study.", in:
+                        <hi rend="italic">Electronics</hi> 9.3 (2020): 483.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Dennerlein, Katrin / Schmidt, Thomas / Wolff, Christian </hi>(2022): "Emotionen im kulturellen Gedächtnis bewahren.", in:
+                        <hi rend="italic">Book of Abstracts, DHd2022</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Devlin, Jacob / Chang, Ming-Wei / Lee, Kenton / Toutanova, Kristina</hi> (2018): "Bert: Pre-training of deep bidirectional transformers for language understanding.", in:
+                        <hi rend="italic">arXiv preprint arXiv:1810.04805</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Fehle, Jakob / Schmidt, Thomas / Wolff, Christian </hi>(2021): "Lexicon-based Sentiment Analysis in German: Systematic Evaluation of Resources and Preprocessing Techniques", in;
+                        <hi rend="italic">Proceedings of the 17th Conference on Natural Language Processing (KONVENS 2021)</hi>, 86-103.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Fischer, Frank / Börner, Ingo / Göbel, Mathias / Hechtl, Angelika / Kittel, Christopher / Milling, Carsten / Trilcke, Peer</hi> (2019): "Programmable Corpora: Introducing DraCor, an Infrastructure for the Research on European Drama." Zenodo. &lt;https://doi.org/10.5281/zenodo.4284002&gt;
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Evelyn, Gius / Meister, Jan Christoph / Petris, Marco / Meister, Malte / Bruck, Christian / Jacke, Janina / Schumacher, Mareike / Flüh, Marie / Horstmann, Jan</hi> (2020): "CATMA." Zenodo. &lt;https://doi.org/10.5281/zenodo.4353618.&gt;
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">González-Carvajal, Santiago / Garrido-Merchán, Eduardo C.</hi> (2020): "Comparing BERT against traditional machine learning text classification.", in:
+                        <hi rend="italic">arXiv preprint arXiv:2005.13012</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Gururangan, Suchin / Marasović, Ana / Swayamdipta, Swabha / Lo Kyle / Beltagy, Iz / Downey, Doug et al. </hi>(2020): "Don't stop pretraining: adapt language models to domains and tasks.", in:
+                        <hi rend="italic">arXiv preprint arXiv:2004.10964</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Kakkonen, Tuomo / Kakkonen, Gordana Galić </hi>(2011): "SentiProfiler: creating comparable visual profiles of sentimental content in texts.", in:
+                        <hi rend="italic">Proceedings of the Workshop on Language Technologies for Digital Humanities and Cultural Heritage</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Kim, Evgeny / Klinger, Roman</hi> (2019): "A survey on sentiment and emotion analysis for computational literary studies.", in:
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Labusch, Kai / Neudecker, Clemens / Zellhofer, David</hi> (2019): "BERT for Named Entity Recognition in Contemporary and Historical German.", in:
+                        <hi rend="italic">Proceedings of the 15th Conference on Natural Language Processing, Erlangen, Germany</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Landis, J. Richard / Koch, Gary G.</hi> (1977): "The measurement of observer agreement for categorical data.", in:
+                        <hi rend="italic">biometrics</hi> (1977): 159-174.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Mohammad, Saif</hi> (2011): "From once upon a time to happily ever after: Tracking emotions in novels and fairy tales.", in:
+                        <hi rend="italic">arXiv preprint arXiv:1309.5909</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Moßburger, Luis / Wende, Felix / Brinkmann, Kay / Schmidt, Thomas </hi>(2020): "Exploring Online Depression Forums via Text Mining: A Comparison of Reddit and a Curated Online Forum", in:
+                        <hi rend="italic">Proceedings of the Fifth Social Media Mining for Health Applications Workshop &amp; Shared Task</hi>, 70-81.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Munikar, Manish / Shakya, Sushil / Shrestha, Aakash</hi> (2019): "Fine-grained sentiment classification using bert." 
+                        <hi rend="italic">2019 Artificial Intelligence for Transforming Business and Society (AITB)</hi>. Vol. 1. IEEE.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Pedregosa, Fabian et al. </hi>(2011): "Scikit-learn: Machine learning in Python", in: <hi rend="italic">Journal of machine Learning research</hi>, 12, 2825-2830.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Pikulik, Lothar</hi> (1966): <hi rend="italic">"Bürgerliches Trauerspiel" und Empfindsamkeit</hi>. Köln, Graz.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Reagan, Andrew J. / Mitchell, Lewis / Kiley, Dilan / Danforth, Christopher M. / Dodds, Peter Sheridan</hi> (2016): "The emotional arcs of stories are dominated by six basic shapes." 
+                        <hi rend="italic">EPJ Data Science</hi> 5.1: 1-12.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Remus, Robert / Quasthoff, Uwe / Heyer, Gerhard</hi> (2010): "SentiWS-A Publicly Available German-language Resource for Sentiment-Analyse.", in: 
+                        <hi rend="italic">LREC</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Rietzler, Alexander / Stabinger, Sebastian / Opitz, Paul / Engl, Stefan</hi> (2019): "Adapt or get left behind: Domain adaptation through bert language model finetuning for aspect-target sentiment classification.", in: 
+                        <hi rend="italic">arXiv preprint arXiv:1908.11860</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas </hi>(2019): "Distant Reading Sentiments and Emotions in Historic German Plays", in: 
+                        <hi rend="italic">Abstract Booklet, DH_Budapest_2019</hi>. Budapest, Hungary, 57-60.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Burghardt, Manuel </hi>(2018): "An Evaluation of Lexicon-based Sentiment Analysis Techniques for the Plays of Gotthold Ephraim Lessing", in: 
+                        <hi rend="italic">Proceedings of the Second Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</hi>. Santa Fe, New Mexico: Association for Computational Linguistics, 139-149.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Burghardt, Manuel / Dennerlein, Katrin </hi>(2018a): "“Kann man denn auch nicht lachend sehr ernsthaft sein?“ – Zum Einsatz von Sentiment Analyse-Verfahren für die quantitative Untersuchung von Lessings Dramen", in: 
+                        <hi rend="italic">Book of Abstracts, DHd 2018.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schmidt, Thomas / Burghardt, Manuel / Dennerlein, Katrin</hi> (2018b): "Sentiment Annotation of Historic German Plays: An Empirical Study on Annotation Behavior.", in: Sandra Kübler, Heike Zinsmeister (eds.), 
+                        <hi rend="italic">Proceedings of the Workshop on Annotation in Digital Humanities (annDH 2018)</hi>. Sofia, Bulgaria, 47-52.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Burghardt, Manuel / Dennerlein, Katrin / Wolff, Christian </hi>(2019a): "Katharsis - A Tool for Computational Drametrics", in:
+                        <hi rend="italic">Book of Abstracts, Digital Humanities Conference 2019 (DH 2019)</hi>. Utrecht, Netherlands.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Burghardt, Manuel / Dennerlein, Katrin / Wolff, Christian </hi>(2019b): "Sentiment Annotation in Lessing’s Plays: Towards a Language Resource for Sentiment Analysis on German Literary Texts", in:
+                        <hi rend="italic">2nd Conference on Language, Data and Knowledge (LDK 2019)</hi>. LDK Posters. Leipzig, Germany.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Burghardt, Manuel / Wolff, Christian </hi>(2019c): "Towards Multimodal Sentiment Analysis of Historic Plays: A Case Study with Text and Audio for Lessing’s Emilia Galotti.", in:
+                        <hi rend="italic">Proceedings of the Digital Humanities in the Nordic Countries 4th Conference (DHN 2019)</hi>. Copenhagen, Denmark, 405-414.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schmidt, Thomas / Winterl, Brigitte / Maul, Milena / Schark, Alina / Vlad, Andrea / Wolff, Christian</hi> (2019d): "Inter-Rater Agreement and Usability: A Comparative Evaluation of Annotation Tools for Sentiment Annotation", in: Draude, C., Lange, M. &amp; Sick, B. (Hrsg.), 
+                        <hi rend="italic">INFORMATIK 2019: 50 Jahre Gesellschaft für Informatik – Informatik für Gesellschaft (Workshop-Beiträge).</hi> Bonn: Gesellschaft für Informatik e.V., 121-133. DOI: 10.18420/inf2019_ws12
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Bauer, Marlene / Habler, Florian / Heuberger, Hannes / Pilsl, Florian / Wolff, Christian </hi>(2020a): "Der Einsatz von Distant Reading auf einem Korpus deutschsprachiger Songtexte", in 
+                        <hi rend="italic">Book of Abstracts, DHd 2020</hi>, 296-299.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Engl, Isabella / Halbhuber, David / Wolff, Christian </hi>(2020b): "Comparing Live Sentiment Annotation of Movies via Arduino and a Slider with Textual Annotation of Subtitles", in:
+                        <hi rend="italic">Post-Proceedings of the 5th Conference Digital Humanities in the Nordic Countries (DHN 2020)</hi>, 212-223.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Hartl, Philipp / Ramsauer, Dominik / Fischer, Thomas / Hilzenthaler, Andreas / Wolff, Christian </hi>(2020c): "Acquisition and Analysis of a Meme Corpus to Investigate Web Culture", in:
+                        <hi rend="italic">15th Annual International Conference of the Alliance of Digital Humanities Organizations, DH 2020, Conference Abstracts.</hi> Ottawa, Canada.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Kaindl, Florian / Wolff, Christian </hi>(2020d): "Distant Reading of Religious Online Communities: A Case Study for Three Religious Forums on Reddit", in:
+                        <hi rend="italic">Proceedings of the Digital Humanities in the Nordic Countries 5th Conference (DHN 2020).</hi> Riga, Latvia.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Dangel, Johanna / Wolff, Christian </hi>(2021a): "SentText: A Tool for Lexicon-based Sentiment Analysis in Digital Humanities”, in: Schmidt, Thomas / Wolff, Christian (Eds.), 
+                        <hi rend="italic">Information between Data and Knowledge. Information Science and its Neighbors from Data Science to Digital Humanities. Proceedings of the 16th International Symposium of Information Science (ISI 2021).</hi> Glückstadt: Verlag Werner Hülsbusch, 156-172. DOI: 10.5283/epub.44943
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Dennerlein, Katrin / Wolff, Christian </hi>(2021b): "Emotion Classification in German Plays with Transformer-based Language Models Pretrained on Historical and Contemporary Language", in: 
+                        <hi rend="italic">Proceedings of the 5th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</hi>, 67-79.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Dennerlein, Katrin / Wolff, Christian </hi>(2021c): "Towards a Corpus of Historical German Plays with Emotion Annotations", in:
+                        <hi rend="italic">3rd Conference on Language, Data and Knowledge (LDK 2021).</hi> Schloss Dagstuhl-Leibniz-Zentrum für Informatik.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schmidt, Thomas / Dennerlein, Katrin / Wolff, Christian </hi>(2021d): "Using Deep Neural Networks for Emotion Analysis of 18th and 19th century German Plays", in:
+                        <hi rend="italic">Fabrikation von Erkenntnis: Experimente in den Digital Humanities.</hi> Melusina Press. DOI:10.26298/melusina.8f8w-y749-udlf
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schmitt, Martin / Steinheber, Simon / Schreiber, Konrad / Roth, Benjamin</hi> (2018): "Joint aspect and polarity classification for aspect-based Sentiment-Analyse with end-to-end neural networks.", in: 
+                        <hi rend="italic">arXiv preprint arXiv:1808.09238</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schonlau, Anja</hi> (2017): 
+                        <hi rend="italic">Emotionen im Dramentext: eine methodische Grundlegung mit exemplarischer Analyse zu Neid und Intrige 1750-1800</hi>. De Gruyter.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schweter, Stefan</hi> (2020): <hi rend="italic">Europeana BERT and ELECTRA models</hi>. &lt;https://doi.org/10.5281/zenodo.4275044&gt;
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schweter, Stefan / Baiter, Johannes</hi> (2019): "Towards robust named entity recognition for historic german.", in: 
+                        <hi rend="italic">arXiv preprint arXiv:1906.07592</hi> (2019).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schweter, Stefan / März, Luisa </hi>(2020): "Triple E-Effective Ensembling of Embeddings and Language Models for NER of Historical German.", in: 
+                        <hi rend="italic">CLEF (Working Notes)</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Shmueli, Boaz / Lun-Wei Ku</hi> (2019): "Socialnlp emotionx 2019 challenge overview: Predicting emotions in spoken dialogues and chats.", in: 
+                        <hi rend="italic">arXiv preprint arXiv:1909.07734</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Sprugnoli, Rachele / Tonelli, Sara / Marchetti, Alessandro / Moretti, Giovanni</hi> (2016): "Towards Sentiment-Analyse for historical texts.", in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 31.4: 762-772.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wiegmann, Hermann</hi> (Hrsg.) (1987): 
+                        <hi rend="italic">Die ästhetische Leidenschaft: Texte zur Affektenlehre im 17. und 18. Jahrhundert</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wolf, Thomas / Debut, Lysandre / Sanh, Victor / Chaumond, Julien / Delangue, Clement / Moi, Anthony et al.</hi> (2019): "Huggingface's transformers: State-of-the-art natural language processing." 
+                        <hi rend="italic">arXiv preprint arXiv:1910.03771</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wood, Ian / McCrae, John / Andryushechkin, Vladimir / Buitelaar, Paul</hi> (2018a): "A comparison of emotion annotation schemes and a new annotated data set.", in: 
+                        <hi rend="italic">Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wood, Ian / McCrae, John / Andryushechkin, Vladimir / Buitelaar, Paul</hi> (2018b): "A comparison of emotion annotation approaches for text.", in 
+                        <hi rend="italic">Information</hi> 9.5: 117.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Yang, Kisu / Lee, Dongyub / Whang, Taesun / Lee, Seolhwa / Lim, Heuiseok</hi> (2019): "Emotionx-ku: Bert-max based contextual emotion classifier.", in: 
+                        <hi rend="italic">arXiv preprint arXiv:1906.11565</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Yavuz, Mehmet Can</hi> (202 "Analyses of Character Emotions in Dramatic Works by Using EmoLex Unigrams.", in: 
+                        <hi rend="italic">CLiC-it</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Zehe, Albin / Becker, Martin / Hettinger, Lena / Hotho, Andreas / Reger, Isabella / Jannidis, Fotis</hi> (2016): "Prediction of happy endings in German novels based on sentiment information.", in: 
+                        <hi rend="italic">3rd Workshop on Interactions between Data Mining and Natural Language Processing, Riva del Garda, Italy</hi>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

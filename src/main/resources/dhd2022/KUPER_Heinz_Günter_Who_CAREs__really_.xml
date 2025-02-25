@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_273">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Who CAREs, really?</title>
+                    <title type="sub">Vom schwierigen Umgang mit digitalisierten Kulturgütern aus kolonialen Kontexten</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Lange</surname>
+                        <forename>Felix</forename>
+                    </persName>
+                    <affiliation>Zuse-Institut Berlin, Germany</affiliation>
+                    <email>felix.lange@zib.de</email>
+                <idno type="ORCID">0000-0002-3201-3792</idno></author>
+                <author>
+                    <persName>
+                        <surname>Kuper</surname>
+                        <forename>Heinz-Günter</forename>
+                    </persName>
+                    <affiliation>Zuse-Institut Berlin, Germany</affiliation>
+                    <email>kuper@zib.de</email>
+                <idno type="ORCID">0000-0003-0743-3346</idno></author>
+                <author>
+                    <persName>
+                        <surname>Müller</surname>
+                        <forename>Anja</forename>
+                    </persName>
+                    <affiliation>Zuse-Institut Berlin, Germany</affiliation>
+                    <email>anja.mueller@zib.de</email>
+                <idno type="ORCID">0000-0003-3185-7341</idno></author>
+                <author>
+                    <persName>
+                        <surname>Amrhein</surname>
+                        <forename>Kilian</forename>
+                    </persName>
+                    <affiliation>Zuse-Institut Berlin, Germany</affiliation>
+                    <email>amrhein@zib.de</email>
+                <idno type="ORCID">0000-0003-3459-3898</idno></author>
+                <author>
+                    <persName>
+                        <surname>Klindt</surname>
+                        <forename>Marco</forename>
+                    </persName>
+                    <affiliation>Zuse-Institut Berlin, Germany</affiliation>
+                    <email>klindt@zib.de</email>
+                <idno type="ORCID">0000-0001-5198-2225</idno></author>
+                <author>
+                    <persName>
+                        <surname>Nowicki</surname>
+                        <forename>Anna-Lena</forename>
+                    </persName>
+                    <affiliation>Zuse-Institut Berlin, Germany</affiliation>
+                    <email>nowicki@zib.de</email>
+                <idno type="ORCID">0000-0003-2323-5681</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-12-01T20:16:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitalisierung</term>
+                    <term>Dekolonisation</term>
+                    <term>CARE-Prinzipien</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Archivierung</term>
+                    <term>Community-Bildung</term>
+                    <term>Artefakte</term>
+                    <term>Daten</term>
+                    <term>Metadaten</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">273</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Spätestens seit dem Sarr/Savoy-Report (Sarr/Savoy 2018) ist die Diskussion über den Umgang europäischer Gedächtnisinstitutionen mit ihren Sammlungen aus kolonialen Kontexten neu [vgl. Savoy 2021] entbrannt. Welchen Ansprüchen muss in diesem Zusammenhang die Digitalisierung von Objekten des kulturellen Erbes genügen? Das Poster veranschaulicht diese Frage am Beispiel der "Ethnografica"-Sammlung im Nachlass von Karl Schmidt-Rottluff aus dem Bestand des Brücke-Museums Berlin. Die Digitalisierung<ref target="ftn1" n="1"/> der Sammlung wird durch das Forschungs- und Kompetenzzentrum Digitalisierung Berlin (digiS)<ref target="ftn2" n="2"/> in beratender Funktion begleitet. Schmidt-Rottluff, Gründungsmitglied der expressionistischen Künstlergruppe "Brücke" (1905–1913), sammelte in großem Umfang Skulpturen und Objekte aus Gebieten, die zum Teil unter deutscher Kolonialherrschaft standen. Provenienz und Erwerbungsumstände sind in den meisten Fällen nicht endgültig geklärt. Die Art und Weise der digitalen Verfügbarmachung birgt daher im Vergleich zu europäischen Kulturgütern eine große Brisanz. digiS untersucht in diesem Zusammenhang bestehende Technologien hinsichtlich des Urheberrechts, der Dateninfrastruktur zur Veröffentlichung der Digitalisate und des Metadatenmodells.
+            </p>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Urheberrecht</head>
+            <p style="text-align: left; ">Der Forderung von Sarr und Savoy nach einer systematischen Digitalisierung und Open-Access-Publikation von Kulturgut aus kolonialen Kontexten durch europäische Institutionen (Sarr/Savoy 2018: 58) halten Pavis und Wallace (2019) entgegen, dass dies einer Übertragung kolonialer Machtverhältnisse in den digitalen Raum gleichkäme. Dieses Argument spiegelt sich in den Forderungen indigener Gruppen in Australien, Neuseeland und Nordamerika nach "Indigenous Data Governance" (Carroll u.a. 2020) im Gegensatz zur unkontrollierten weltweiten Verfügbarmachung wider. Offensichtlich müssen also die FAIR-Prinzipien auch in Bezug auf digitale Objekte aus kolonialen Kontexten um ein Äquivalent des aus dem indigenen Bereich stammenden CARE-Regelwerks (dies. 2020) ergänzt werden, um gemeinsamen Nutzen und Mitspracherechte der betroffenen Gruppen zu gewährleisten. Digitalisierte Objekte aus außereuropäischen kolonialen Kontexten können also nicht pauschal als gemeinfreies Kulturgut betrachtet und also solches veröffentlicht werden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Metadaten und Dateninfrastruktur</head>
+            <p style="text-align: left; ">Eine wissenschaftliche Erschließung auf der Grundlage europäischer Erfassungskonventionen und für europäische Portale läuft Gefahr, außereuropäische Perspektiven nicht hinreichend abzubilden (vgl. Pavis/Wallace 2019). Damit ist der vieldiskutierte "Bias" in digitalen (Meta-)Daten angesprochen (van Erp/de Boer 2021). Eine objektive, operationalisierbare Definition dieses Begriffs wäre aus wissenschaftlicher Sicht wünschenswert, wird aber zu Recht bspw. von Blodgett u.a. (2020) zu Gunsten normativer Ansprüche an digitale Ressourcen verworfen, bei denen die Interessen von betroffenen marginalisierten Gruppen im Vordergrund stehen. Eine Vision zur Minimierung von Bias in diesem Sinne ist van Erps und de Boers (2021) "polyvokales" Semantic Web. Demnach sollten Metadaten ihre Autorschaft in Daten, Abfragesprachen und User Interfaces explizit ausweisen. Aufbauend auf dieser Arbeit unternimmt digiS eine Analyse der im Museumsbereich gängigen Metadatenformate. Dabei müssen drei Ebenen differenziert werden: Das Austauschformat (bspw. LIDO<ref target="ftn3" n="3"/>), Kontrollierte Vokabulare und die in dieses Gerüst geschriebenen Erschließungsinformationen. Wir untersuchen im Sinne der geforderten Polyvokalität problematische Begriffe in LIDO und erarbeiten Modellierungstechniken, die verschiedene Erschließungsperspektiven sichtbar machen. Bei den Kontrollierten Vokabularen folgen wir dem Ratschlag von Hardesty (2020), nach Möglichkeit Ressourcen zu verwenden, die von den darin genannten Gruppen selbst veröffentlicht werden.
+            </p>
+            <p style="text-align: left; ">Aus unserer Sicht ist der metadatenzentrierte Ansatz sinnvoll, muss aber durch die infrastrukturelle Ebene der Datenportale ergänzt werden. Denn die Veröffentlichung europäischer Metadaten auf einer großen europäischen Plattform wie Europeana wäre in den meisten Fällen die dominierende Erzählung zu den beschriebenen Objekten gegenüber kleineren lokalen Projekten. Auf der Ebene der Dateninfrastruktur sollen vielmehr (auch) die folgenden drei verschiedene Veröffentlichungsorte unterstützt werden:</p>
+            <p style="text-align: left; ">
+                <hi rend="Numbering_Symbols">1)</hi>
+                <hi rend="italic">Das digitale Repositorium der sammelnden Institution</hi> – in diesem Fall die Online-Sammlung des Brücke-Museums<ref target="ftn4" n="4"/>. Hier könnten die außereuropäischen Sammlungsobjekte in den kunsthistorischen Kontext der Brücke-Gruppe eingeordnet und mit dem entsprechenden begrifflichen Instrumentarium erschlossen werden.
+            </p>
+            <p style="text-align: left; ">
+                <hi rend="Numbering_Symbols">2)</hi> Durch die Präsentation der Sammlungsobjekte auf einer
+                <hi rend="italic" xml:space="preserve"> global vernetzten, thematisch nicht spezialisierten Plattform wie Wikimedia Commons</hi> wird der engere fachspezifische Kontext verlassen und eine angemessene Reichweite im Web gewährleistet. Das genannte Projekt setzt diesen Ansatz um<ref target="ftn5" n="5"/>. Dabei sind eine sorgfältige, ethnografisch qualifizierte Auswahl des Materials und ein zunächst minimales Metadatenset wesentlich, dass durch diverse externe Akteur:innen und Expert:innen nach dem Prinzip des Web 2.0 ergänzt werden kann.
+            </p>
+            <p style="text-align: left; ">
+                <hi rend="Numbering_Symbols">3)</hi> Die dritte Veröffentlichungsoption betrifft direkt die Communities aus und in den Herkunftsregionen der Sammlungsobjekte. Ihnen soll durch 
+                <hi rend="italic">Exportschnittstellen</hi> die Möglichkeit gegeben werden, Objekte in ihren eigenen digitalen Sammlungen ohne fremde Vorgaben zu präsentieren.
+            </p>
+            <p style="text-align: left; ">Unserer Ansicht nach müssen die drei Ebenen des Urheberrechtes, des Metadatenmodells und der Dateninfrastruktur gemeinsam in den Blick genommen werden, um eine angemessene digitale Repräsentation von Kulturgut aus kolonialen Kontexten zu ermöglichen.</p>
+        </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                        <ref target="https://www.bruecke-museum.de/de/museum/64/forschung">https://www.bruecke-museum.de/de/museum/64/forschung</ref>
+                    </note><note place="foot" xml:id="ftn2" n="2">
+                        <ref target="https://www.digis-berlin.de/">https://www.digis-berlin.de/</ref>
+                    </note><note place="foot" xml:id="ftn3" n="3">
+                        <ref target="http://www.lido-schema.org/">
+                            <hi rend="Fußnotentext_Zeichen">http://www.lido-schema.org/</hi>
+                        </ref>
+                    </note><note place="foot" xml:id="ftn4" n="4">
+                        <ref target="https://www.bruecke-museum.de/de/sammlung/">https://www.bruecke-museum.de/de/sammlung/</ref>
+                    </note><note place="foot" xml:id="ftn5" n="5">
+                        <ref target="https://commons.wikimedia.org/wiki/Category:Karl_Schmidt-Rottluff%27s_Collection_of_Objects_from_Colonial_Contexts_in_the_Br%C3%BCcke-Museum_Berlin">https://commons.wikimedia.org/wiki/Category:Karl_Schmidt-Rottluff%27s_Collection_of_Objects_from_Colonial_Contexts_in_the_Br%C3%BCcke-Museum_Berlin</ref>
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Blodgett, Sue Lin / Barocas, Solon / Daumé III, Hal / Wallach, Hanna</hi> (2020): "Language (Technology) is Power: A Critical Survey of 'Bias' in NLP". 
+                        <ref target="https://arxiv.org/abs/2005.14050v2">https://arxiv.org/abs/2005.14050v2</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Carroll, Stephanie Russo / Garba, Ibrahim /, Figueroa-Rodríguez, Oscar L. / Holbrook, Jarita / Lovett, Raymond / Materechera, Simeon / Parsons, Mark / Raseroka, Kay / Rodriguez-Lonebear, Desi / Rowe, Robyn / Sara, Rodrigo / Walker, Jennifer D. / Anderson, Jane / Hudson, Maui</hi> (2020): "The CARE Principles for Indigenous Data Governance", in: 
+                        <hi rend="italic">Data Science Journal</hi>, 19(1): 43. DOI: 
+                        <ref target="http://doi.org/10.5334/dsj-2020-043">http://doi.org/10.5334/dsj-2020-043</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Erp, Marieke van / de Boer, Victor</hi> (2021): "A Polyvocal and Contextualised Semantic Web", in: 
+                        <hi rend="italic">The Semantic Web</hi>, 506–12. Lecture Notes in Computer Science. Virtual Event: Springer International Publishing, 2021. 
+                        <ref target="https://www.springerprofessional.de/the-semantic-web/19211334">https://www.springerprofessional.de/the-semantic-web/19211334</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hardesty, Juliet</hi> (2020): "Mitigating Bias Through Controlled Vocabularies". Gehalten auf der <hi rend="italic">2020 DLF Forum</hi>, ONLINE, 9. November 2020. 
+                        <ref target="https://youtu.be/X0PVYgwHhVo">https://youtu.be/X0PVYgwHhVo</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Pavis, Mathilde / Wallace, Andrea</hi> (2019): "Response to the 2018 Sarr-Savoy Report: Statement on Intellectual Property Rights and Open Access relevant to the digitization and restitution of African Cultural Heritage and associated materials", in: 
+                        <hi rend="italic">JIPITEC</hi> 10, Nr. 2 (10. Juli 2019). 
+                        <ref target="https://www.jipitec.eu/issues/jipitec-10-2-2019/4910">https://www.jipitec.eu/issues/jipitec-10-2-2019/4910</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Sarr, Felwine / Savoy, Bénédicte</hi> (2018): 
+                        <hi rend="italic">Rapport sur la restitution du patrimoine culturel africain. Vers une nouvelle éthique relationnelle</hi>. Paris, November 2018. 
+                        <ref target="http://restitutionreport2018.com/sarr_savoy_fr.pdf">http://restitutionreport2018.com/sarr_savoy_fr.pdf</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Savoy, Bénédicte</hi> (2021): 
+                        <hi rend="italic">Afrikas Kampf um seine Kunst: Geschichte einer postkolonialen Niederlage</hi>. München: C.H.Beck, 2021.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_261">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">DH2go</title>
+                    <title type="sub">Lehr- und Lernumgebung für die Digital Humanities</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Heckelen</surname>
+                        <forename>Malte</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Germany</affiliation>
+                    <email>malte.heckelen@ilw.uni-stuttgart.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schlesinger</surname>
+                        <forename>Claus-Michael</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Germany</affiliation>
+                    <email>claus-michael.schlesinger@ilw.uni-stuttgart.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Burkhard</surname>
+                        <forename>Fabienne</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Germany</affiliation>
+                    <email>st170328@stud.uni-stuttgart.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-15T12:23:48.896275454</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>virtual desktop</term>
+                    <term>Remote Lehre</term>
+                    <term>Lehr- und Lernumgebung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Lehre</term>
+                    <term>virtuelle Forschungsumgebungen</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">261</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi rend="">Mit unserem Poster möchten wir unsere Lehr- und Lernumgebung DH2go vorstellen. DH2go ist eine Remote-Desktop-Umgebung, die Strukturen für Kurse und Workshops sowie gängige DH-Technologien bietet. Gestartet als Experiment für unsere eigene DH-Lehre an der Universität Stuttgart, entwickelten wir die Umgebung über drei Jahre weiter und konnten ihre Features in der Lehre erproben.</hi>
+            </p>
+            <p>
+                <hi rend="">DH2go nutzt die Remote-Desktop-Lösung X2Go, die das Einwählen auf einem Server mit eigener Benutzeroberfläche ermöglicht. Kursteilnehmer*innen wählen sich von ihrem eigenen Rechner aus mithilfe eines Clients auf auf einem Server ein und können dort mit einer grafischen Benutzeroberfläche arbeiten. Shell-Zugriff via SSH ist ebenfalls möglich. Es werden nahezu ausschließlich Open Source - Technologien eingesetzt und unsere Dokumentation erlaubt die Replikation auf eigenen Servern.</hi>
+            </p>
+            <p>
+                <hi rend="">Nebst gängigen, vorinstallierten DH-Technologien, etwa für die Arbeit mit XML/TEI oder Stilometrie und Topic Modeling, bietet DH2go spezielle Tools für die Kursorganisation: Ordner für Kursmaterialien erlauben es Kursleiter*innen unkompliziert, die Teilnehmer*innen mit Code, Daten oder Medien zu versorgen. Teilnehmer*innen können darüber hinaus über einen Tauschordner für Gruppenarbeiten Dateien hin- und herschieben.</hi>
+            </p>
+            <p>
+                <hi rend="">Wir entwickelten DH2go zunächst für ein spezifisches Lehrformat: eine einführende Übung zu grundlegenden Methoden und Techniken in den Digital Humanities.. Die Einführung neuer Methoden und Tools alle 2-3 Wochen führte zu Problemen: Variierende Betriebssysteme, kryptische Fehlermeldungen und Installationsprobleme verhinderten die effektive Vermittlung von Inhalten und der häufige Support am Heimrechner der Teilnehmer*innen war für uns in punkto Privacy problematisch. Insbesondere im Zuge der Corona-Krise haben sich diese Probleme aufgrund der Remote-Lehre potenziert.</hi>
+            </p>
+            <p>
+                <hi rend="">Als einheitliche Arbeitsumgebung konnten wir mit DH2go also Probleme lösen, die auch für andere Lehr- und Lernszenarien in den Digital Humanities relevant sind und die sich durch das Ziel zusammenfassen lassen, den Einstieg in die computergestützte Datenverarbeitung zu ebnen und einen reflektierten Umgang mit Methoden und Softwaretools zu vermitteln. DH2go als Arbeitsumgebung mit allen nötigen Tools ready to go unterstützt dieses Ziel in drei Aspekten: 1. reproduzierbare Abläufe, dadurch vereinfachte und wiederholbare Vermittlung von Arbeitsschritten und verbesserte Interaktion der Teilnehmer*innen; 2. besserer Support durch a) strukturierte Anleitungen, b) Supportsystem (First- und Second-Level-Support), c) vereinfachte gegenseitige Unterstützung der Teilnehmer*innen; 3. Schutz der Privatsphäre durch Entkopplung der Arbeitsumgebung von den Privatrechnern der Lernenden (und Lehrenden). </hi>
+            </p>
+            <p>
+                <hi rend="">In verschiedenen Anwendungsszenarien konnten wir feststellen, dass DH2go insbesondere für workshopartige Lehr- und Lernformen geeignet ist, wo Inhalte nicht “von Anfang an” vermittelt werden sollen, aber Anpassungen durch Teilnehmer*innen, etwa bei Python-Skripts, dennoch möglich sein müssen. Dort, wo Interaktionen zwischen Teilnehmer*innen Teil des didaktischen Konzepts sind, zeigen sich die Vorteile von DH2go: unkomplizierter Austausch zu den Funktionen, dieselben Oberflächen für alle Teilnehmer*innen und Leiter*innen und gute Anpassbarkeit an die Erfordernisse bestimmter Kurse und ihrer Teilnehmer. </hi>
+            </p>
+            <p>
+                <hi rend="">Weiter mussten wir den Wert eines guten Supportsystems erst durch Erfahrung kennenlernen. </hi>
+                <hi rend=" background-">Die Nutzung von Infrastruktur - auch 'alle Studierenden nutzen ihre eigenen Laptops im Kurs' ist Infrastruktur - setzt ein funktionierendes Supportsystem voraus. Die Entwicklung eines strukturierten Systems mit auf die Zielgruppe abgestimmten Manuals und einem First- und Second-Level-Support kann daher als wichtiger stabilisierender Faktor für alle mit DH2go durchgeführten Kurse und Workshops gelten.</hi>
+            </p>
+            <p>
+                <hi rend="">In der Lehre zeigten sich ebenfalls einige positive Effekte. Da alle Teilnehmer*innen nur eine einzige Software installieren müssen, sind die üblichen Installationsprobleme kein Zeitfaktor mehr. Darüber hinaus können Teilnehmer*innen die Vorgehensweisen der Kursleiter*innen dank der identischen Benutzeroberflächen direkt replizieren. Ein weniger direktes, unerwartetes Resultat ist die erhöhte Fragebereitschaft bei technischen Problemen: statt das Problem auf eigene Fehler zu beziehen, wird es als Bug empfunden, den man melden sollte. Ein didaktischer Vorteil, wenn auch das Supportvolumen steigt.</hi>
+            </p>
+            <p>Zurzeit ist DH2go auf Anfrage als Service nutzbar oder über unsere Dokumentation und Images auf den eigenen Server-Architekturen replizierbar. Für unsere fortschreitende Arbeit an Konzept und Implementierung freuen wir uns auf spannende Gespräche.</p>
+        </body>
+    </text>
+</TEI>

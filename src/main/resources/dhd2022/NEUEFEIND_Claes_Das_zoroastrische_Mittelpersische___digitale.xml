@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_321">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Das zoroastrische Mittelpersische</title>
+                    <title type="sub">Digitales Corpus und Wörterbuch (MPCD)</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Neuefeind</surname>
+                        <forename>Claes</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln</affiliation>
+                    <email>c.neuefeind@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Mondaca</surname>
+                        <forename>Francisco</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln</affiliation>
+                    <email>f.mondaca@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Eide</surname>
+                        <forename>Øyvind</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln</affiliation>
+                    <email>oeide@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Colditz</surname>
+                        <forename>Iris</forename>
+                    </persName>
+                    <affiliation>Ruhr-Universität Bochum</affiliation>
+                    <email>Iris.Colditz@ruhr-uni-bochum.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Jügel</surname>
+                        <forename>Thomas</forename>
+                    </persName>
+                    <affiliation>Ruhr-Universität Bochum</affiliation>
+                    <email>Thomas.Juegel@ruhr-uni-bochum.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Rezania</surname>
+                        <forename>Kianoosh</forename>
+                    </persName>
+                    <affiliation>Ruhr-Universität Bochum</affiliation>
+                    <email>kianoosh.rezania@rub.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Zeini</surname>
+                        <forename>Arash</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin</affiliation>
+                    <email>a.zeini@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Cantera</surname>
+                        <forename>Alberto</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin</affiliation>
+                    <email>alberto.cantera@fu-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Emanuel</surname>
+                        <forename>Chagai</forename>
+                    </persName>
+                    <affiliation>Hebrew University Jerusalem</affiliation>
+                    <email>chagai17@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Shaked</surname>
+                        <forename>Shaul</forename>
+                    </persName>
+                    <affiliation>Hebrew University Jerusalem</affiliation>
+                    <email>msshaul@mscc.huji.ac.il</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-30T23:59:50</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Mittelpersisch</term>
+                    <term>Pahlavi</term>
+                    <term>Korpuserstellung</term>
+                    <term>Lexikographie</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Annotieren</term>
+                    <term>Webentwicklung</term>
+                    <term>Manuskript</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">321</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading">
+                <head>Einleitung</head>
+                <p>Mit diesem Beitrag möchten wir das Projekt “Das zoroastrische Mittelpersische - digitales Corpus und Wörterbuch (Middle Persian Corpus and Dictionary, MPCD)” vorstellen, das im April 2021 seine Arbeit aufgenommen hat. Das MPCD-Projekt wird von der DFG als Langfristvorhaben mit einer geplanten Laufzeit von insgesamt neun Jahren gefördert.<ref target="ftn0" n="1"/> Das Vorhaben wird als Kooperationsprojekt der Universitäten Bochum, Berlin, Köln und Jerusalem durchgeführt. Während an den Standorten Bochum, Berlin und Jerusalem der Schwerpunkt auf der philologischen Erschließung des Korpus sowie des darauf aufbauenden Wörterbuchs liegt, ist auf Kölner Seite das Cologne Center for eHumanities (CCeH) für die technische Umsetzung einer kollaborativen Recherche- und Arbeitsumgebung zuständig, deren technischen Entwurf wir in diesem Poster-Beitrag thematisieren und zur Diskussion stellen wollen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Gegenstand und Ziele des Projekts</head>
+                <p>Das Mittelpersische war als Amts- und Verkehrssprache insbesondere des Sasanidenreiches (3. – 7. Jhd.) von überkultureller und -religiöser Bedeutung. Von der Spätantike bis zur frühislamischen Zeit verbindet es sprachlich und kulturell die differenten Räume des iranischen Ostens und Westens. Das umfangreiche Korpus der mittelpersischen Texte ist bis heute jedoch nur partiell erschlossen. Ziel des MPCD-Projektes ist deshalb die Erstellung eines Korpus zoroastrisch-mittelpersischer Texte in Pahlavi-Schrift. Dieses mit Abstand größte mittelpersische Korpus (ca. 54 Texte, etwa 687.000 Wörter) wird in Transliteration und Transkription (vgl. dazu Rezania 2020) sowie in Handschriftenphotographien der 15 ältesten Codices, die zum Teil aus dem CAB-Projekt von Alberto Cantera (Corpus Avesticum Berolinense)<ref target="ftn2" n="2"/>bezogen werden können, zugänglich sein. Die Texte werden morphosyntaktisch und lexikographisch annotiert und in TEI kodiert. Die morphosyntaktische Annotation der Texte folgt dem Standard 
+                    <hi rend="italic">Universal Dependencies</hi><ref target="ftn3" n="3"/>,
+                    der für die Annotation des Mittelpersischen angepasst wurde, indem das Subset der für die Annotation des Mittelpersischen notwendigen Tags bestimmt und die notwendigen pahlavi-spezifischen Tags hinzugefügt wurden.
+                </p>
+                <p>Auf Grundlage des Korpus wird anschließend ein digitales Mittelpersisch-Englisch-Lexikon mit ca. 7000 Lemmata erstellt. Digitales Korpus und digitales Wörterbuch stellen im Projekt zwei eng verzahnte Analyseinstrumente dar, die mit unterschiedlichen Schwerpunkten – Syntax und Semantik – ineinandergreifen und auch im Arbeitsprozess eng miteinander verbunden sind. Hierbei kommt eine webbasierte Arbeitsumgebung zum Einsatz, die zum einen die kollaborative Bearbeitung von Korpus und Wörterbuch ermöglicht, zum anderen als Nutzer-Interface für Recherchen und Analysen der aufbereiteten Ressourcen dient. </p>
+                <p>Mit der Einarbeitung der 15 ältesten Codices in ein digitales Korpus mit darauf aufbauendem Wörterbuch schafft das Projekt einen methodisch neuen Zugang zum gesamten zoroastrisch-mittelpersischen Sprachmaterial, der die Voraussetzung für umfassende linguistische und begriffsgeschichtliche Fragestellungen eröffnet. Mit der engen Verzahnung von Text und Wörterbuch ergänzt das Vorhaben bestehende Textsammlungen zum Mittelpersischen wie bspw. TITUS<ref target="ftn4" n="4"/>
+                        (Thesaurus Indogermanischer Text- und Sprachmaterialien) und bildet eine wertvolle Aktualisierung gegenüber vorliegenden Wörterbüchern wie MacKenzie (1971) oder Nyberg (1964, 1974). Das Projekt bietet eine Grundlage dafür, das komplexe Gewebe der Texte der zoroastrisch-mittelpersischen Literatur in seinen internen und externen Bezügen zu identifizieren und damit einer (weithin ausstehenden) kultur- und religionshistorisch differenzierten Beschreibung zuzuführen. Es zielt damit darauf, die ‚horizontalen‘ (d.h. genrespezifischen) und die ‚vertikalen‘ (d.h. historischen) Differenzen der Texte und ihres Wortschatzes sichtbar werden zu lassen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Systementwurf</head>
+                <p>Der Schwerpunkt des Posters liegt auf der Präsentation des Systementwurfs der kollaborativen Recherche- und Arbeitsumgebung sowie der dort eingesetzten Technologien. Dies umfasst zum einen eine Beschreibung der funktionalen Elemente der Nutzerschnittstelle, die dem Anwender als Forschungsumgebung dient, indem sie verschiedene Werkzeuge bereitstellt (z.B. Suche, Verknüpfung von Korpus und Wörterbuch, Export in TEI-Format). Zum anderen werden die Systemarchitektur und die für deren Umsetzung verwendeten Technologien thematisiert. </p>
+                <p>Die Daten werden mithilfe das Python-Webframework Django<ref target="ftn5" n="5"/>
+                    modelliert und in PostgreSQL persistiert. Für die Suche in den Daten werden wir Elasticsearch<ref target="ftn6" n="6"/>
+                    einsetzen. Suche und CRUD-Operationen werden über eine REST-API verfügbar sein, die sich konzeptuell an Vorarbeiten aus dem Projekt VedaWeb<ref target="ftn7" n="7"/>
+                    orientiert (vgl. dazu Mondaca et al. 2019a, 2019b). Für das Frontend werden wir eine Single-Page-Applikation mit React.js<ref target="ftn8" n="8"/>
+                    entwickeln.
+                </p>
+                <p>Wesentliche Funktionen des Frontend sind zum einen die Darstellung der digitalisierten Handschriften und der transliterierten und transkribierten Texte sowie die Möglichkeit zur differenzierten Suche nach linguistischen Parametern, die unter Verwendung von Konzepten aus dem VedaWeb-Projekts implementiert wird (vgl. Kiss et al. 2019). Zum anderen soll das Frontend im Sinne eines Redaktionssystems einen separaten Bereich für die Bearbeitung anbieten, der durch die Nutzerverwaltung nur angemeldeten Benutzern zugänglich ist. Ein solcher Bereich für Korpus und Wörterbuch kann unter Verwendung einer Nutzerverwaltung jeweils als separater View umgesetzt werden, in dem Korrekturen und (Neu-)Eingaben vorgenommen werden. </p>
+                <p>Mit der Fokussierung auf den Systementwurf möchten wir mit dem Poster vor allem einen kompakten Überblick über die Nutzungsmöglichkeiten sowie über die technische Architektur der geplanten Arbeitsumgebung geben.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note xml:id="ftn0" place="foot" n="1"><ptr target="https://gepris.dfg.de/gepris/projekt/452473565"/></note><note xml:id="ftn2" place="foot" n="2"><ptr target="https://www.geschkult.fu-berlin.de/e/iranistik/forschung/CAB/index.html"/></note><note xml:id="ftn3" place="foot" n="3"><ptr target="https://universaldependencies.org/"/></note><note xml:id="ftn4" place="foot" n="4"><ptr target="http://titus.uni-frankfurt.de/indexe.htm"/></note><note xml:id="ftn5" place="foot" n="5"><ptr target="https://www.djangoproject.com/"/></note><note xml:id="ftn6" place="foot" n="6"><ptr target="https://www.elastic.co/"/></note><note xml:id="ftn7" place="foot" n="7"><ptr target="https://vedaweb.uni-koeln.de/"/></note><note xml:id="ftn8" place="foot" n="8"><ptr target="https://reactjs.org/"/></note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Kiss, Börge / Kölligan, Daniel / Mondaca, Francisco / Neuefeind, Claes / Reinöhl, Uta / Sahle, Patrick</hi> (2019): 
+                        "It Takes a Village: Co-developing VedaWeb, a Digital Research Platform for Old Indo-Aryan Texts." In: Steven Krauwer und Darja Fišer (Hg.), <hi rend="italic">TwinTalks at DHN 2019 – Understanding Collaboration in Digital Humanities</hi>. Kopenhagen, 2019.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">MacKenzie, David N. </hi>(1971): 
+                        <hi rend="italic">A Concise Pahlavi Dictionary</hi>. London: Oxford University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mondaca, Francisco / Rau, Felix / Neuefeind, Claes / Kiss, Börge / Kölligan, Daniel / Reinöhl, Uta / Sahle, Patrick</hi> (2019a): 
+                        "C-SALT APIs - Connecting and Exposing Heterogeneous Language Resources." In: <hi rend="italic">Book of Abstracts of the Digital Humanities Conference 2019 (DH2019)</hi> 09.07-12.07.2019. Utrecht, Netherlands.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mondaca, Francisco / Schildkamp, Philip / Rau, Felix </hi>(2019b): 
+                        "Introducing Kosh, a Framework for Creating and Maintaining APIs for Lexical Data". In: <hi rend="italic">Electronic Lexicography in the 21st Century. Proceedings of the eLex 2019 Conference, Sintra, Portugal</hi>. Brno: Lexical Computing CZ, s.r.o., 907–921.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nyberg, Henrik S. </hi>(1964): 
+                        <hi rend="italic">A Manual of Pahlavi. Part I: Texts, Alphabets, Index, Paradigms, Notes and an Introduction.</hi> Wiesbaden: Harrassowitz.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nyberg, Henrik S. </hi>(1974):
+                        <hi rend="italic">A Manual of Pahlavi. Part II: Ideograms, Glossary, Abbreviations, Index, Grammatical Survey, Corrigenda to Part I</hi>. Wiesbaden: Harrassowitz.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Rezania, Kianoosh</hi> (2020): 
+                        "A Suggestion for the Transliteration of Middle Persian Texts in Zoroastrian Middle Persian: Digital Corpus and Dictionary (MPCD): A Three Layered Transliteration System". In: <hi rend="italic">Estudios Iranios y Turanios</hi> 4: 153–73.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

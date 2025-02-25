@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_143">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Auf den Spuren einer altnordischen Saga-Ästhetik</title>
+                <title type="sub">Poetologische Aussagen in den Erzählerbemerkungen der Isländersagas</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Göggelmann</surname>
+                        <forename>Michael</forename>
+                    </persName>
+                    <affiliation>Universität Tübingen, Germany</affiliation>
+                    <email>michael.goeggelmann@uni-tuebingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Heiniger</surname>
+                        <forename>Anna Katharina</forename>
+                    </persName>
+                    <affiliation>Universität Tübingen, Germany</affiliation>
+                    <email>anna-katharina.heiniger@uni-tuebingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Reiter</surname>
+                        <forename>Nils</forename>
+                    </persName>
+                    <affiliation>Universität Köln, Germany</affiliation>
+                    <email>nils.reiter@uni-koeln.de</email>
+                <idno type="ORCID">0000-0003-3193-6170</idno></author>
+                <author>
+                    <persName>
+                        <surname>Zirker</surname>
+                        <forename>Angelika</forename>
+                    </persName>
+                    <affiliation>Universität Tübingen, Germany</affiliation>
+                    <email>angelika.zirker@uni-tuebingen.de</email>
+                <idno type="ORCID">0000-0001-6819-3871</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotation</term>
+                    <term>Ästhetik</term>
+                    <term>Isländersagas</term>
+                    <term>Literarisierung</term>
+                    <term>Poetologie</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Visualisierung</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">143</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung<ref target="ftn1" n="1"/>
+                </head>
+                <p style="text-align: left; ">Der Vortrag stellt die systematischen Annotationen von Erzählerbemerkungen in den anonym überlieferten, mittelalterlichen 
+                    <hi rend="italic">Isländersagas</hi> (altnord. 
+                    <hi rend="italic">Íslendingasögur</hi>) vor und geht dabei vor allem der Frage nach, ob und inwieweit diese als Teil einer Literarisierungsstrategie wirksam werden und damit Aussagen über ein den Isländersagas möglicherweise inhärentes Konzept von Autorschaft ermöglichen.<ref target="ftn2" n="2"/> Die Untersuchung erfolgt mit quantitativen Methoden auf Grundlage der systematischen Annotation der Texte. Dabei liefert die qualitative Analyse einzelner Erzählerbemerkungen erste Anhaltspunkte für eine solche Literarisierungsstrategie, die sich etwa intratextuell in Form von Verben oder Verbalphrasen (z.B. „sem áðr var“ sagt; ‚Wie zuvor erzählt wurde‘) manifestiert. Der Einsatz quantitativer Methoden ermöglicht folglich erstmals eine textübergreifende Analyse, anhand derer nachgewiesen werden soll, inwiefern sich diese in Einzelbelegen bereits sichtbar werdende Literarisierungsstrategie im Verlauf eines Gesamttextes zu einer poetologischen Aussage verdichtet, aufgrund derer sich das ästhetische Selbstverständnis der 
+                    <hi rend="italic">Isländersagas</hi> erschließen lässt. Unsere Annahme ist, dass – wenn auch alle Sagas die gleichen Typen von Kommentaren verwenden – sich aus der Menge der gesammelten Daten ein für jede Saga jeweils individuelles Profil in der Verwendung der Erzählerbemerkungen erkennen lässt. 
+                </p>
+                <p style="text-align: left; ">Während narrative Texte und deren systematische Annotation bereits vielfach Untersuchungsobjekt innerhalb der Digital Humanities waren (Zinsmeister 2016; Gius/Jacke 2017; Adelmann et al. 2018; Ketschik et al. 2020), zeigt sich das Innovationspotenzial der vorliegenden Studie in zweierlei Hinsicht: es wird sowohl das bislang quantitativ gänzlich unerschlossene 
+                    <hi rend="bold" xml:space="preserve">Korpus </hi>der Isländersagas untersucht, wie auch mit der Annotation 
+                    <hi rend="bold" xml:space="preserve">intratextueller Verweise </hi>ein narratologisches Phänomen operationalisiert und in den Blick genommen, das insbesondere hinsichtlich der ästhetischen Faktur der Texte neue Aussagen erlaubt.<ref target="ftn3" n="3"/>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Das Korpus der Isländersagas</head>
+                <p style="text-align: left; ">Die ca. 40 überlieferten 
+                    <hi rend="italic">Isländersagas</hi> (altnord. 
+                    <hi rend="italic">Íslendingasögur</hi>) sind wichtige Repräsentanten erzählender volkssprachiger Literatur nicht nur des isländischen, sondern generell des skandinavischen Mittelalters. Es handelt sich um anonym überlieferte Texte, die zwischen dem 13. und 15. Jh. verschriftlicht wurden und die sich hinsichtlich ihres Umfangs zum Teil beträchtlich unterscheiden (Rowe 2017: S. 157). Als entsprechend unterschiedlich gestaltet sich auch die strukturelle Komplexität der Sagas, die zwar in der Regel chronologisch linear erzählen, aber doch häufig mehrere narrative Stränge verfolgen (Clover 1982). Lange Zeit prägten intensive Debatten hinsichtlich des Verhältnisses zwischen Oralität und Literarizität der Sagas die Forschung. Obwohl von den anfänglichen Extrempositionen – Sagas als rein literarische Werke bzw. Sagas als direkte Verschriftlichung oraler Überlieferung – abgerückt wurde, gibt es nach wie vor keinen Konsens bezüglich des Saga-Ursprungs. Viele Forscher sprechen sich mittlerweile für ein Zusammenspiel mündlich geprägter Elemente und einer literarischen Entwicklung der 
+                    <hi rend="italic">Isländersagas</hi> aus (Ólason 2005: S. 112-114; Callow 2017).
+                </p>
+                <p style="text-align: left; ">Obwohl sich die 
+                    <hi rend="italic">Isländersagas</hi> kaum explizit zu poetischen Fragen äußern, lassen kurze Bemerkungen der Erzählstimme wie auch weitere narrative Techniken – z.B. die Organisation des Erzählten, der Spannungsaufbau und die dramatische Inszenierung oder auch die Selbstrepräsentation der Erzählstimme – das Bewusstsein von Gattungsregeln ebenso erkennen wie das Bestreben, bestimmte Erwartungen des Publikums zu erfüllen. In unserer Analyse gehen wir deshalb, wie eingangs dargestellt, von der These aus, dass sich poetologische Aussagen in den 
+                    <hi rend="italic">Isländersagas</hi> insbesondere dort manifestieren, wo sich durch intratextuelle Verweise Literarisierungsstrategien andeuten.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Die Annotation von Erzählerbemerkungen </head>
+                <p style="text-align: left; ">Bei intratextuellen Verweisen handelt es sich um in der Forschung bislang kaum beachtete Phänomene in den Erzählerbemerkungen, die wir als Mittel des produktiven Austauschs zwischen der intradiegetischen literarischen Praxis und der extradiegetischen Welt des Publikums betrachten. Um diese zu sammeln, zu systematisieren und zu kontextualisieren sowie im Hinblick auf die narrative (Selbst-)Reflexion in den Isländersagas auszuwerten, wurden deshalb solche Äußerungen der Erzählstimme als Ausgangspunkt gewählt, die sich mit dem Erzählen selbst befassen.</p>
+                <p style="text-align: left; ">In Vorarbeiten zu dieser Studie wurden Erzählerbemerkungen in den Isländersagas in fünf Kategorien eingeteilt, die ihrerseits die Grundlage für die ersten Annotationsrichtlinien bilden. In der vorliegenden Studie liegt das Augenmerk auf vier näher untersuchte Sagas. Bereits zu Beginn des Annotationsprozesses (wobei wir der Anleitung in Reiter 2020 folgten) wurde deutlich, dass diese für eine produktive Umsetzung in mehreren Schritten geschärft und durch zusätzliche Kategorien ergänzt und ausdifferenziert werden müssen. Die Überarbeitung der Richtlinien ist bisher in fünf aufeinanderfolgenden Runden vorgenommen worden, so dass diese nun eine erste stabile Form mit sechs Annotationskategorien und meist mehreren Unterkategorien erreichten. Nachfolgend konzentrieren wir uns aus Platzgründen auf die Kategorie der intratextuellen Bezüge – die Annotationen der anderen Kategorien<ref target="ftn4" n="4"/> lassen sich in ähnlicher Weise analysieren.
+                </p>
+                <p style="text-align: left; ">Die Annotation der Erzählerbemerkungen in den Isländersagas wurde mit Hilfe der Software CorefAnnotator (Reiter 2018) vorgenommen. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Intratextuelle Verweise</head>
+                <p style="text-align: left; ">Die Kategorie umfasst alle intratextuellen Bezüge, die die Erzählstimme in einer Saga herstellt und gehört zu den am häufigsten annotierten Kategorien. In mehreren Unterkategorien werden bei der Annotation der Sagas verschiedene Arten intratextueller Verweise erfasst. Auf der intratextuellen Ebene nimmt die Erzählstimme eine narrative Selektion vor, erinnert an frühere Geschehnisse, kündigt Geschehnisse an, die erst noch erzählt werden und informiert darüber, welche Figuren neu eingeführt werden oder für die weitere Handlung keine Rolle mehr spielen. Als Beispiele dieser Kategorie lassen sich oft verwendete Phrasen wie „sem fyrr var sagt“ (Laxdœla saga: S. 71; ‚Wie zuvor erzählt wurde‘),<ref target="ftn5" n="5"/> „Nú er at segja frá“ (Reykdæla saga: S. 157; ‚Nun ist zu berichten von‘) oder „ok nefnu vér hana eigi“ (Laxdœla saga: S. 48; ‚Wir nennen sie aber nicht‘) anführen. Gerade durch Bemerkungen wie der letztgenannten wird die durch die Auswahl vorgenommene Rezeptionslenkung in den Sagas deutlich.
+                </p>
+                <p style="text-align: left; ">Ebenfalls zu den intratextuellen Verweisen zählen häufig verwendete formelhafte Phrasen. Mit Phrasen dieser Art werden zum einen neue Figuren eingeführt („M[aðr] er nefndr Bárðr Heyangrs-Bjarnarson“ (Bárðar saga Snæfellsáss: S. 107)
+                    <hi rend="italic">;</hi> ‚Ein Mann wird Bárðr Heyangrs-Bjarnarson genannt‘), zum anderen werden damit Zeitangaben gemacht („Þá var þat á einni nótt“ (Bárðar saga Snæfellsáss: S. 104); ‚Dann war es eines Nachts‘).
+                </p>
+                <p style="text-align: left; ">Eine weitere intratextuelle Spezifizierung ist die Vorahnung (
+                    <hi rend="italic">foreshadowing</hi>). Mit dieser Unterkategorie werden Textpassagen annotiert, in denen entweder die Erzählstimme oder auch eine Figur eine Vorahnung möglicher bevorstehender Ereignisse ausdrückt, die dann meistens auch eintreffen („mikit illt mun af Hánef hljótask“ (Reykdæla saga: S. 165); ‚Viel Unglück wird durch Hánefr gebracht werden‘).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Erste Auswertungen der Annotationen</head>
+                <p style="text-align: left; ">Die folgenden Analysen wurden auf Basis der bisherigen manuellen Annotationen vorgenommen. Zum jetzigen Zeitpunkt wurden vier Sagas vollständig annotiert, die in der Forschung als ‚randständig‘ innerhalb der Gattung der 
+                    <hi rend="italic">Isländersagas</hi> gelten.<ref target="ftn6" n="6"/>
+                </p>
+                <table rend="rules">
+                    <head>Tab. 1: Grundlegende Korpuseigenschaften</head>
+                    <row>
+                        <cell style="text-align: left;">Saga</cell>
+                        <cell style="text-align: left;">Anzahl Sätze</cell>
+                        <cell style="text-align: left;">Anzahl 
+                            <hi rend="italic">tokens</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi rend="italic">Bárðar saga Snæfellsáss</hi>
+                        </cell>
+                        <cell style="text-align: right;">959</cell>
+                        <cell style="text-align: right;">14 850</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi rend="italic">Grænlendinga saga</hi>
+                        </cell>
+                        <cell style="text-align: right;">352</cell>
+                        <cell style="text-align: right;">6 720</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi rend="italic">Reykdæla saga</hi>
+                        </cell>
+                        <cell style="text-align: right;">1 163</cell>
+                        <cell style="text-align: right;">25 549</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">
+                            <hi rend="italic">Stjörnu-Odda draumr</hi>
+                        </cell>
+                        <cell style="text-align: right;">225</cell>
+                        <cell style="text-align: right;">5 343</cell>
+                    </row>
+                </table>
+                <p style="text-align: left; ">Die unterschiedlich langen Sagas machen einen direkten Vergleich der absoluten Zahlen von Annotationen in ihnen schwierig; in den folgenden Auswertungen werden Häufigkeiten daher normalisiert. Wir betrachten zunächst die Häufigkeit der Annotationen (Abb. 1).</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="5.0623611111111115cm" url="Pictures/5f17d75c9571e9afdfa738e20b453cc8.png" rend="inline"/>
+                    <head>Abb. 1: Anzahl der Annotationen der intratextuellen Verweise mit Unterkategorien.</head>
+                </figure>
+                <p style="text-align: left; ">Bei den 
+                    <hi rend="italic">intratextuellen Bezügen</hi> fällt ins Auge, dass formelhafte Referenzen auf Charaktere vor allem in der 
+                    <hi rend="italic">Grænlendinga saga</hi> und der 
+                    <hi rend="italic">Bárðar saga</hi> annotiert wurden, während zeitliche Formeln dort kaum auftauchen. Vorahnungen (
+                    <hi rend="italic">foreshadowing</hi>) machen in allen Sagas einen ähnlichen Anteil der intratextuellen Bezüge aus. 
+                </p>
+                <p style="text-align: left; ">Diese Auswertung der vier Sagas deutet somit darauf hin, dass die Erzählerbemerkungen in jeder Saga ein eigenständiges Profil bilden. Die Hypothese, nach der wir den Isländersagas eine individuelle Ausgestaltung trotz den allen gemeinsamen Typen von Erzählerkommentaren attestierten, konnte also bereits an dieser Stelle plausibilisiert werden.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Verteilung der Annotationen im Text</head>
+                    <p style="text-align: left; ">Einen visuellen Eindruck von der Verteilung der Annotationen im Textverlauf liefert Abb. 2. Jeder senkrechte Strich markiert dabei die Annotation eines intratextuellen Verweises, wobei die verschiedenen Farben die Unterkategorien der intratextuellen Bezüge repräsentieren.</p>
+                    <figure>
+                        <graphic n="1002" width="16.002cm" height="13.996458333333333cm" url="Pictures/f57b7c555081e9bd1addfc16b196d98f.png" rend="inline"/>
+                        <head>Abb. 2: Grafische Darstellung der Verteilung der Annotationen der Kategorie „intratextuelle Bezüge“ innerhalb der vier exemplarisch diskutierten 
+                        <hi rend="italic">Isländersagas</hi></head>
+                    </figure>
+                    <p style="text-align: left; ">Grundsätzlich verteilen sich die Annotationen, wie zu erwarten war, über den gesamten Text. Die sich dazwischen befindlichen, teilweise recht großen Lücken sollen kapitelweise anhand der Annotationsdichte nachfolgend genauer untersucht werden.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Annotationsdichte je Kapitel</head>
+                    <p style="text-align: left; ">Die Dichte der Annotationen wird in Abb. 3 gezeigt. Für jedes Kapitel und jede Kategorie ergibt sich dabei ein Datenpunkt, die Datenpunkte einer Kategorie sind dann durch Linien verbunden. Die Dichte der Annotationen ist hierbei als relative Anzahl an Annotationen pro Kapitel definiert.</p>
+                    <figure>
+                        <graphic n="1003" width="16.002cm" height="19.655013888888888cm" url="Pictures/af44326dfc2679ce3df5f22a1c4d4a65.png" rend="inline"/>
+                        <head>Abb. 3: Annotationsdichte je Kapitel. Visualisiert ist die Anzahl der Annotationen intratextueller Bezüge je Kapitel, normalisiert anhand der Kapitellänge (in <hi rend="italic">tokens</hi>)</head>
+                    </figure>
+                    <p style="text-align: left; ">Anhand der Grafiken lassen sich die Höhe- und Wendepunkte der jeweiligen Saga ablesen und nachvollziehen. Die ersten zwei großen Ausschläge der 
+                        <hi rend="italic">Bárðar saga</hi> in Kapitel vier und sechs repräsentieren zum ersten Bárðrs Ankunft in Island und seine Inbesitznahme von Land auf der Halbinsel Snæfellsnes (Kp. 4), zum zweiten wird der Zeitpunkt von Bárðrs Rückzug in die Berge nach dem dramatischen und schmerzvollen, jedoch nur vermeintlichen Verlust seiner Tochter Helga stark markiert (Kp. 6). Die Spitzen im letzten Drittel der Saga zeigen die Herausforderung des Wiedergängers Raknarr und im Zuge dessen den Aufbruch Gestrs, Bárðrs Sohn, um Raknarr aufzusuchen und zu bezwingen. In der 
+                        <hi rend="italic">Reykdæla saga</hi> stehen die Spitzen der Annotationsdichte bei den Kapiteln sieben, zwölf und dreizehn und zwanzig ebenfalls für drei zentrale Ereignisse.
+                    </p>
+                    <p style="text-align: left; ">Die hier für die 
+                        <hi rend="italic">Bárðar saga</hi> und 
+                        <hi rend="italic">Reykdæla saga</hi> skizzierten Interpretationen der obigen Grafiken weisen darauf hin, dass mittels der quantitativen Analysen nicht nur bisherige qualitative und hermeneutische Auswertungen bestätigt werden können, sondern darüber hinaus eine Möglichkeit eröffnet wird, um den Prozess des Erzählens und somit auch die Struktur der Sagas besser zu ergründen. Die systematische Annotation wirft somit in vielerlei Hinsicht neues Licht auf die altnordischen Texte: Zum einen ermöglichen Auswertungen wie in Abbildung 3 einen (textübergreifenden) Überblick über die Annotationen. Die Visualisierungen der Daten verdeutlichen abermals die Heterogenität der Textgestaltung innerhalb der Gattung der 
+                        <hi rend="italic">Isländersagas</hi>. Zum anderen lässt sich auf Ebene der einzelnen Sagas die Verknüpfung von Erzählerkommentaren und dem Plot anhand der Ausschläge in den Grafiken nachvollziehen. In ihrer Funktion als Gestaltungsmittel begleiten die Erzählerkommentare die Höhe- und Wendepunkte und prägen somit die Handlungsstränge. 
+                    </p>
+                    <p style="text-align: left; ">Zu bedenken ist, dass Abbildung 3 gegenwärtig ausschließlich die Annotationsdichte der intratextuellen Verweise zeigt. Um ein umfassendes Bild der Annotationsverteilung zu erhalten, müssen in einem nächsten Analyseschritt auch die anderen Annotationskategorien berücksichtigt werden. Daran anschließend wird sich zeigen, ob die Schlüsselstellen in erster Linie mit intratextuellen Kommentaren versehen, oder ob diese auch mit anderen Arten der Erzählerkommentare gekoppelt sind.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p style="text-align: left; ">Durch die vorliegende quantitative Analyse auf Grundlage systematischer Annotationen konnten für die Erzählstimme der Isländersagas Textmerkmale aufgezeigt werden, die zwar zuvor im Einzelfall erkannt, aber nicht im Hinblick auf einen oder mehrere Gesamttexte systematisch erfassbar waren. Mithilfe ihrer visualisierten Distributionen wurde eine neue Perspektive auf die Erzählerbemerkungen geschaffen, deren textübergreifende Bedeutsamkeit bislang nicht erkannt worden war. So lässt die vorliegende Untersuchung annehmen, dass die Distribution der Erzählerkommentare nicht zufällig, sondern an den Handlungsverlauf der Isländersagas gekoppelt ist. Diese Verbindung aus Form und Inhalt wird in einem nächsten Schritt einerseits auf Grundlage der Ergebnisse aus der quantitativen Analyse wieder in die genaue Textanalyse (
+                    <hi rend="italic">close reading</hi>) zurückgeführt. Andererseits gilt es, diese Beobachtung in einem größeren Korpus mess-, beobacht- und beschreibbar zu machen. Dazu planen wir das Verfahren dahingehend weiterzuentwickeln, dass wir Erzählerkommentare auch als Marker für eine automatisierte Erkennung von Handlungseinheiten im Sinne von Zehe et al. (2021) verwenden können. 
+                </p>
+                <p style="text-align: left; ">Bereits jetzt aber zeigen sich die Erzählerbemerkungen in ihrem regelmäßigen Auftreten als Gestaltungsmittel von Höhe- und Wendepunkten der Sagas als derart prägend, dass sich diese als Teil einer Literarisierungsstrategie über Einzelbelege hinweg tatsächlich zu einer poetologischen Aussage verdichten und deren Annotation damit zur ästhetischen Verortung dieser Texte beitragen kann. Auf der Suche nach ästhetischem Potenzial in den Isländersagas trafen wir anhand unserer Methode auf differenzierte Ergebnisse, die auf ein großes Bewusstsein hinsichtlich der Literarisierung und der Ästhetisierung hinweisen. Weitere Analyseschritte zielen auf eine Korpuserweiterung und eine vergleichende Auswertung der Ergebnisse über ein größeres Textkorpus hinweg sowie einer Verfeinerung der Annotations-Tools und ggf. -Kategorien. Darüber hinaus prüfen wir die Möglichkeit einer automatischen Erkennung von Erzählerkommentaren mittels maschineller Lernverfahren auf Grundlage unserer Annotationen. Bei einer hinreichenden Erkennungsrate können ggf. weitere Sagas automatisch annotiert werden. Durch die bei maschinellen Lernverfahren zunächst oft fehlerhaften Verallgemeinerungen erhoffen wir uns zudem auch weitere Einsichten in die Annotationskategorien und deren Verwendung.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                            <hi style="font-size:10pt" xml:space="preserve"> Die vorliegende Arbeit wurde gefördert durch die Deutsche Forschungsgemeinschaft (DFG) – SFB 1391 – Projektnummer 405662736.</hi>
+                        </note><note place="foot" xml:id="ftn2" n="2">
+                            <hi style="font-size:10pt" xml:space="preserve"> Hierbei ist nicht Intention, die Urheberschaft der Sagas im Sinne einer Personenbestimmung zu klären, vielmehr geht es um den möglichen Nachweis pluraler Autorschaftskonzepte bzw. Vielstimmigkeit in den Isländersagas.</hi>
+                        </note><note place="foot" xml:id="ftn3" n="3">
+                            <hi style="font-size:10pt" xml:space="preserve"> Der Beitrag fasst erste Teilergebnisse zusammen. Neben intratextuellen Verweisen wurden auch andere Arten von Erzählerkommentaren annotiert, die allerdings noch nicht systematisch ausgewertet wurden. Die Annotation intratextueller Verweise wird auch in </hi>
+                            <hi rend="italic" style="font-size:10pt">TEASys</hi>
+                            <hi style="font-size:10pt" xml:space="preserve"> praktiziert, dort allerdings als Kategorie der erklärenden Annotation, und nicht als Mittel der Texterschließung. Vgl. hierzu Bauer/Zirker 2020.</hi>
+                        </note><note place="foot" xml:id="ftn4" n="4"> Bei den nicht näher dargestellten Annotationskategorien handelt es sich um Intertextuelle Verweise, Referentielle Bezüge, Ironische Distanzierung bzw. Erzählstimme, Öffentliche Meinung und Superlative bzw. Hyperbolisches.</note><note place="foot" xml:id="ftn5" n="5">
+                            <hi style="font-size:10pt" xml:space="preserve"> Die Übersetzungen der altnordischen Zitate stammen von Anna Katharina Heiniger.</hi>
+                        </note><note place="foot" xml:id="ftn6" n="6">
+                            <hi rend="italic" style="font-size:10pt">Stjörnu-Odda draumr</hi>
+                            <hi style="font-size:10pt" xml:space="preserve"> wird zwar oftmals zum erweiterten Kreis der </hi>
+                            <hi rend="italic" style="font-size:10pt">Isländersagas</hi>
+                            <hi style="font-size:10pt" xml:space="preserve"> gezählt, ist aber im Grunde ein </hi>
+                            <hi rend="italic" style="font-size:10pt">þáttr</hi>
+                            <hi style="font-size:10pt" xml:space="preserve">, ein kurzer, erzählender Prosatext. In der handschriftlichen Überlieferung sind die Texte dieser Art meist als Teile grosser Saga-Kompendien. Zur Problematik des </hi>
+                            <hi rend="italic" style="font-size:10pt">þáttr</hi>
+                            <hi style="font-size:10pt">-Genre vgl. Ármann Jakobsson 2013.</hi>
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Adelmann, Benedikt / Andresen, Melanie / Begerow, Anke / Gaidys, Uta / Gius, Evelyn / Koch, Gertraud / Menzel, Wolfgang / Orth, Dominik / Topp, Sebastian / Vauth, Michael / Zinsmeister, Heike</hi> (2018): “hermA. Zur Rolle von Annotationen in hermeneutischen Prozessen”, in: Vogeler, Georg (ed.):
+                        <ref target="https://researchr.org/publication/dhd-2018" xml:space="preserve"> </ref>
+                        <hi rend="italic" xml:space="preserve">DHd 2018: Kritik der digitalen Vernunft. Konferenzabstracts </hi>412–414.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">“Bárðar saga Snæfellsáss”</hi>, in: Vilmundarson, Þórhallur / Vilhjálmsson, Bjarni (eds.) (1991): 
+                        <hi rend="italic">Harðar saga. B</hi>á<hi rend="italic">rðar saga, Þorskfirðinga saga, Fl</hi>ó<hi rend="italic">amanna saga</hi> (Íslenzk fornrit XIII). Reykjavík: Hið íslenzka fornritafélag 99–172.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bauer, Matthias / Zirker, Angelika</hi> (2020): 
+                        <hi rend="italic" xml:space="preserve">TEASys Style Guide - Explanatory Annotation </hi>http://www.annotation.es.uni-tuebingen.de/wp-content/uploads/2020/09/Styleguide-2020-08-11.pdf [Letzter Zugriff: 12. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Callow, Chris</hi> (2017): “Dating and Origins”, in: Jakobsson, Ármann / Jakobsson, Sverrir (eds.): 
+                        <hi rend="italic">The Routledge Research Companion to the Medieval Icelandic Sagas</hi>. London: Routledge 15
+                        <hi rend="">–</hi>33.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Clover, Carol</hi> (1982): 
+                        <hi rend="italic">The Medieval Saga</hi>. Ithaca / London: Cornell University Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Gius, Evelyn / Jacke, Janina</hi> (2017): “The Hermeneutic Profit of Annotation: On Preventing and Fostering Disagreement in Literary Analysis”, in: 
+                        <hi rend="italic" xml:space="preserve">International Journal of Humanities and Arts Computing </hi>11(2): 233
+                        <hi rend="">–</hi>254.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">“Grænlendinga saga”</hi>, in: Sveinsson, Einar Ól. / Þórðarson, Matthías (eds.) (1935): 
+                        <hi rend="italic">Eyrbyggja saga. Brands þ</hi>á<hi rend="italic">ttr</hi> ǫ<hi rend="italic">rva, Eir</hi>í<hi rend="italic">ks saga rauða, Grœnlendinga saga, Grœnlendiga þ</hi>á<hi rend="italic">ttr</hi> (Íslenzk fornrit IV). Reykjavík: Hið íslenzka fornritafélag 239–269.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Jakobsson, Ármann</hi> (2013): “The Life and Death of the Medieval Icelandic Short Story”, in: 
+                        <hi rend="italic">The Journal of English and Germanic Philology</hi> 112(3): 257–291.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ketschik, Nora / Overbeck, Maximilian / Murr, Sandra / Pichler, Axel / Blessing, André</hi> (2020): “Interdisziplinäre Annotation von Entitätenreferenzen: Von fachspezifischen Fragestellungen zur einheitlichen methodischen Umsetzung”, in: 
+                        <hi rend="">Reiter, Nils / Pichler, Axel / Kuhn, Jonas (eds.)</hi>
+                        <hi rend=" background(white)" xml:space="preserve">: </hi>
+                        <hi rend="italic">Reflektierte Algorithmische Textanalyse. Interdisziplinäre(s) Arbeiten in der CRETA-Werkstatt</hi>
+                        <hi rend=" background(white)" xml:space="preserve">. </hi>
+                        <hi rend="">Berlin: De Gruyter 203–236.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">“Laxdœla saga”</hi>, in: Sveinsson, Einar Ól. (ed.) (1934): 
+                        <hi rend="italic">Laxdœla saga. Halldórs þættir Snorrasonar, Stúfs þáttr</hi> (Íslenzk fornrit V). Reykjavík: Hið íslenzka fornritafélag 1–229.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ólason, Vésteinn</hi> (2005): “Family Sagas”, in: McTurk, Rory (ed.): 
+                        <hi rend="italic">A Companion to Old Norse-Icelandic Literature</hi>, Malden (MA): Blackwell Publishing 101
+                        <hi rend="">–</hi>118.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Reiter, Nils</hi>
+                        <hi rend="" xml:space="preserve"> (2018): “CorefAnnotator - A New Annotation Tool for Entity References”, in: </hi>
+                        <hi rend="italic">Abstracts of EADH: Data in the Digital Humanities</hi>
+                        <hi rend="">.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Reiter, Nils</hi>
+                        <hi rend="" xml:space="preserve"> (2020)</hi>
+                        <hi rend=" background(white)">: “</hi>
+                        <hi rend="">Anleitung zur Erstellung von Annotationsrichtlinien”</hi>
+                        <hi rend=" background(white)" xml:space="preserve">, in: </hi>
+                        <hi rend="">Reiter, Nils / Pichler, Axel / Kuhn, Jonas (eds.)</hi>
+                        <hi rend=" background(white)" xml:space="preserve">: </hi>
+                        <hi rend="italic">Reflektierte Algorithmische Textanalyse. Interdisziplinäre(s) Arbeiten in der CRETA-Werkstatt</hi>
+                        <hi rend=" background(white)" xml:space="preserve">. </hi>
+                        <hi rend="">Berlin: De Gruyter 193–202.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">“Reykdæla saga”</hi>, in: Sigfússon, Björn (ed.) (1940): 
+                        <hi rend="italic">Ljósvetninga saga með þáttum. Reykdoela saga ok Víga-Skútu. Hreiðars þáttr</hi> (Íslenzk fornrit X). Reykjavík: Hið íslenzka fornritafélag 149–243.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Rowe, Elizabeth Ashman</hi> (2017): “The Long and the Short of it”, in: Jakobsson, Ármann / Jakobsson, Sverrir (eds.): 
+                        <hi rend="italic">The Routledge Research Companion to the Medieval Icelandic Sagas</hi>. London: Routledge 151–163.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">“Stjörnu-Odda draumr”</hi>, in: Vilmundarson, Þórhallur / Vilhjálmsson, Bjarni (eds.) (1991): 
+                        <hi rend="italic">Harðar saga. B</hi>á<hi rend="italic">rðar saga, Þorskfirðinga saga, Fl</hi>ó<hi rend="italic">amanna saga</hi> (Íslenzk fornrit XIII). Reykjavík: Hið íslenzka fornritafélag 477–481.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Zehe, Albin / Konle, Leonard / Dümpelmann, Lea / Gius, Evelyn / Hotho, Andreas / Jannidis, Fotis / Kaufmann, Lucas / Krug, Markus / Puppe, Frank / Reiter, Nils / Schreiber, Annekea / Wiedmer, Nathalie </hi>
+                        <hi rend="">(2021): “Detecting Scenes in Fiction: A new Segmentation Task”, in: Merlo, Paola / Tiedemann, Jorg / Tsarfaty, Reut (eds.):</hi>
+                        <hi rend="italic" xml:space="preserve"> Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume </hi>
+                        <hi rend="">3167–3177.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Zinsmeister, Heike</hi> (2016): “Modellierung von Forschungsdaten durch Annotation”, in: Burr, Elisabeth (ed.): 
+                        <hi rend="italic" xml:space="preserve">DHd 2016: Modellierung – Vernetzung – Visualisierung. Konferenzabstracts </hi>437–438
+                        <hi rend="italic">.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

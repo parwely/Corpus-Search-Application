@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_141">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitalisierte Ego-Dokumente als Quellen für die historische Forschung</title>
+                <author>
+                    <persName>
+                        <surname>Adamczak</surname>
+                        <forename>Katarzyna</forename>
+                    </persName>
+                    <affiliation>Bayerische Staatsbibliothek, Germany</affiliation>
+                    <email>katarzyna.adamczak@bsb-muenchen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Štanzel</surname>
+                        <forename>Arnošt</forename>
+                    </persName>
+                    <affiliation>Bayerische Staatsbibliothek, Germany</affiliation>
+                    <email>arnost.stanzel@bsb-muenchen.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-24T16:01:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Ego-Dokumente</term>
+                    <term>Erlebnisbericht</term>
+                    <term>Osteuropaforschung</term>
+                    <term>Südosteuropaforschung</term>
+                    <term>Digitalisierung</term>
+                    <term>Katalogisierung</term>
+                    <term>Langzeitarchivierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Umwandlung</term>
+                    <term>Archivierung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Manuskript</term>
+                    <term>Metadaten</term>
+                    <term>Forschung</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">141</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi rend="">Ego-Dokumente als Quellen für die historische Forschung bieten ein breit ausgefächertes und äußerst spannendes Untersuchungsfeld. Zum einen ermöglichen sie Einblicke auf die verschiedenen Ebenen der Lebens- und Gefühlswelt der Autorin/des Autors, zum anderen verläuft in ihnen eine von Forscherinnen und Forschern zu definierende Grenze zwischen dem, was vom Ego „absichtlich oder unabsichtlich enthüllt“</hi><ref target="ftn1" n="1"/>
+                <hi rend="" xml:space="preserve"> oder aber verborgen wurde.</hi>
+            </p>
+            <p>
+                <hi rend="">Neben den (auto)biographisch gefärbten Zügen besitzen Ego-Dokumente weitere Merkmale, die sie für die Forschung sowie aus informationstechnologischer und bibliothekarischer Sicht interessant machen.</hi>
+            </p>
+            <p>
+                <hi rend="">Zunächst umfassen sie Textsorten, die freiwillig oder unfreiwillig entstanden. Zur erstgenannten Kategorie zählen Texte wie Autobiographien, Memoiren, Reiseberichte, Tagebücher oder Briefe, die u.U. für eine Veröffentlichung bestimmt waren. Der zweiten Kategorie gehören Texte an, bei denen an eine explizite längerfristige Überlieferung oder Veröffentlichung nicht oder nur unter bestimmten Voraussetzungen gedacht war, z.B. Schriftstücke aus administrativen Kontexten: Testamente, Verhörprotokolle oder Zeugenbefragungen. Sodann geben Ego-Dokumente Auskünfte über sonst in historischen Schriftquellen wenig vertretene Gruppen, wie etwa Frauen, Bauern, Arbeiter, Handwerker oder Soldaten. Damit helfen sie, Erfahrungszusammenhänge und Lebenswelten der Unter- und Mittelschichten zu rekonstruieren, die in autobiographischen Texten von herausragenden historischen Persönlichkeiten kaum oder ungenügend beleuchtet wurden. Schließlich bedienen Ego-Dokumente verschiedene Medien: neben den klassischen Manuskripten und Akten sind sowohl Bilder – wie etwa Lithografien oder Fotografien –, als auch Ton- und Filmaufnahmen zu berücksichtigen.</hi>
+            </p>
+            <p>
+                <hi rend="" xml:space="preserve">Die Bayerische Staatsbibliothek ist im Besitz tausender gedruckter Tagebücher, Autobiographien und Memoiren, aber auch Fotografien und Filmen. Neuerdings publiziert sie im Rahmen eines Projektes des Fachinformationsdienstes Ost-, Ostmittel- und Südosteuropa bislang unveröffentlichte Selbstzeugnisse digital. Der Publikationsdienst steht wissenschaftlichen Institutionen und auch Privatpersonen offen und umfasst Materialien mit Bezug zum östlichen und südöstlichen Europa, die Quellencharakter haben und in Deutschland vorliegen, aber durch kommerzielle Verlage nicht veröffentlicht werden. In diesem Zusammenhang wurden bisher ausgewählte Ego-Dokumente aus dem Archiv der Forschungsstelle Osteuropa an der Universität Bremen sowie Ego-Dokumente aus dem Nachlass des Osteuropahistorikers Martin Winkler (1893-1982), die der Bayerischen Bibliothek vermachtet wurden, digitalisiert und über das Forschungsportal </hi>
+                <hi rend="italic">osmikon</hi>
+                <hi rend="" xml:space="preserve"> im Open Access bereitgestellt.</hi><ref target="ftn2" n="2"/>
+                <hi rend="" xml:space="preserve"> Derzeit wird die Bereitstellung des aus Privatbesitz stammenden Nachlasses der deutsch-russischen Medizinerin Elsa Winokurow (1883-1983) sowie von einigen Selbstzeugnissen aus dem Bestand des Instituts für deutsche Kultur und Geschichte Südosteuropas an der LMU München vorbereitet. Die Resonanz auf die bisher veröffentlichen Materialien ist in der Fachcommunity groß. So gab es hoch interessierte Rückmeldungen zum Fotoalbum von Helmuth Schröder über dessen Kriegsgefangenschaft in Sibirien</hi><ref target="ftn3" n="3"/>
+                <hi rend="">, und der Nachlass Winokurow dient einem Projektkurs des Elitestudiengangs Osteuropastudien an der LMU im WS 2020/2021 als Arbeitsgrundlage.</hi><ref target="ftn4" n="4"/>
+            </p>
+            <p>
+                <hi rend="">Die physikalische Vielfalt der digitalisierten Materialien (handschriftlich verfasste Manuskripte, born digital, Einzelblätter, Fotos, Fotonegative, Filme, Audioaufnahmen) ging einher mit der Erarbeitung von technischen Workflows, bei denen größtenteils auf bestehende Best Practices, die im Kontext anderer Projekte an der Bayerischen Staatsbibliothek entwickelt wurden, zurückgegriffen werden konnte. Als besonders herausfordernd erwiesen sich jedoch die Digitalisierung von Dias sowie das Verfahren zur Angabe von Wasserzeichen und Bildunterschriften – beides musste in mehreren Schritten per Trial and Error optimiert werden.</hi>
+            </p>
+            <p>
+                <hi rend="" xml:space="preserve">Das Poster fokussiert zwei Aspekte der digitalen Bereitstellung von Ego-Dokumenten: Erstens die digitale Transformation unveröffentlichter Selbstzeugnisse, beginnend mit deren Anwerbung und Auswahl über die Klärung von Rechtsfragen bis hin zu Digitalisierung, Katalogisierung, Langzeitarchivierung und Online-Bereitstellung; zweitens die Verwendung von digitalisierten Ego-Dokumenten in Forschung und Lehre und der daraus resultierenden Kooperationsmöglichkeiten zwischen Privatpersonen, Forschungsinstituten, Universitäten und Bibliotheken. </hi>
+            </p>
+            <p style="text-align: left; ">
+                <hi rend="">Es handelt sich somit um den Sachstand und um Ausblicke eines Projektes, das seit 2019 an der Bayerischen Staatsbibliothek betrieben wird und zugleich um wissenschaftliche Zugänge zu spannenden historischen Quellen im Kontext der Mikrohistorie, Migrationsgeschichte und teilweise auch der herstory.</hi>
+            </p>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> J. Presser „Uit het werk van dr J. Presser“, Amsterdam 1969, S. 286, zitiert nach W. Schulze „Ego-Dokumente: Annäherung an den Menschen in der Geschichte? Vorüberlegungen für die Tagung 
+                        <hi rend="" style="font-size:10.5pt">»</hi>EGO-DOKUMENTE
+                        <hi rend="" style="font-size:10.5pt">«</hi>“, in: Ders. „Ego-Dokumente. Annäherung an den Menschen in der Geschichte“, Berlin u.a. 1996, S. 11-30; hier. S. 15.
+                    </note><note place="foot" xml:id="ftn2" n="2"> Siehe 
+                        <ref target="https://www.osmikon.de/publizieren/ego-dokumente-veroeffentlichen">https://www.osmikon.de/publizieren/ego-dokumente-veroeffentlichen</ref>. 
+                    </note><note place="foot" xml:id="ftn3" n="3"> Siehe 
+                        <ref target="https://ego-dokumente.osmikon.de/BV045328295/">https://ego-dokumente.osmikon.de/BV045328295/</ref>. 
+                    </note><note place="foot" xml:id="ftn4" n="4">
+                        <hi style="font-size:9pt">Dr. Kornelia Konczal/Dr. Arpine Maniero: Projektkurs „Elsa Winokurow (1883-1983): eine deutsch-russische Biographie“.</hi>
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Schulze, Winfried</hi> (1996): "Ego-Dokumente: Annäherung an den Menschen in der Geschichte? Vorüberlegungen für die Tagung 'EGO-DOKUMENTE'", in: Ders. (Hg.): 
+                        <hi rend="italic">Ego-Dokumente. Annäherung an den Menschen in der Geschichte</hi>, Berlin u.a.: Akademie Verlag 11-30.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

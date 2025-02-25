@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_324">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">‚Arbeitskulturen‘ im Wandel</title>
+                <title type="sub">Erfahrungen und Entwicklungen in 20 Jahren DH-Praxis</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Czmiel</surname>
+                        <forename>Alexander</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Germany</affiliation>
+                    <email>czmiel@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Neuber</surname>
+                        <forename>Frederike</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Germany</affiliation>
+                    <email>neuber@bbaw.de</email>
+                <idno type="ORCID">0000-0001-8279-9298</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-15T21:14:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Arbeitsorganisation</term>
+                    <term>Workflow</term>
+                    <term>Forschungssoftware</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Projektmanagement</term>
+                    <term>Projekte</term>
+                    <term>Forschung</term>
+                    <term>Forschungsprozess</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">324</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Im ‚Zeitalter des Druckes‘ war die Entstehung des kulturellen Gedächtnisses von Individuen und Autoritäten geprägt, das Buch Ziel und Ergebnis der (scheinbar) finalen Forschung (u.a. Burdick et al. 2012). Im Gegensatz zum traditionellen Forschungsprozess stehen die DH für ‚Teamwork‘ und ‚Kollaboration‘ sowie für eine Art und Weise zu forschen und zu publizieren, die eher ‚prozessorientiert‘ als ‚produktorientiert‘ ist (Griffin u. Haylor 2018: §1, Tabak 2017: §6). Um die skizzierten Paradigmen des digitalen Forschungsprozesses in der Praxis zu verinnerlichen und zu adaptieren, hat TELOTA (kurz für „The Electronic Life Of The Academy“),<ref target="ftn1" n="1"/> die DH-Abteilung der Berlin-Brandenburgischen Akademie der Wissenschaften (BBAW), in seiner 20-jährigen Geschichte mehrfach die eigenen Arbeitsstrukturen evaluiert und überarbeitet. Ausgehend davon wird der Vortrag eine seit etwa 2020 etablierte Organisationsstruktur, die Team, Projekte und Forschungssoftwareentwicklung umfasst, vorstellen sowie Erfahrungen in der Umsetzung reflektieren. 
+                </p>
+                <p>Da die DH nicht nur für geisteswissenschaftliche Forschung mit digitalen Methoden, sondern auch für einen Wandel des Forschungsprozesses selbst stehen, zählt der Themenbereich ‚Organisation und Workflows‘ zu Kontext und Bedingungsrahmen, in dem das kulturelle Erbe digital erschlossen wird, und bildet rund um die Frage nach DH-spezifischen ‚Arbeitskulturen‘ ein spannendes Diskussionsfeld zu „Kulturen des digitalen Gedächtnisses“.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Kontext</head>
+                <p>In den letzten Jahren gab es auf den DHd-Konferenzen vermehrt Beiträge zu verschiedenen Formen von Arbeitsorganisation in den DH, die vor allem den Aufbau neuer DH-Standorte thematisiert haben (Roeder et al. 2020, 2019a u. 2019b). Entgegen der Annahme, vor allem Standorte, an denen ‚DH from Scratch‘ betrieben wird, sähen sich mit „institutionellen, organisatorischen, personellen und technischen Anforderungen“ (Roeder et al. 2019b) konfrontiert, gilt dies auch für langjährig gewachsene DH-Abteilungen, die zum Teil auf über zwei Dekaden des Bestehens und Arbeitens zurückblicken.<ref target="ftn2" n="2"/> Aus der Phase des Experimentierens herausgewachsen stehen sie vor ganz anderen Herausforderungen: So hat die Etablierung der DH als Methode und Fach im Allgemeinen vor allem im letzten Jahrzehnt einen regelrechten ‚Boom‘ an digitalen Forschungsprojekten ausgelöst. Abgesehen von stetig neuen Projekten haben die Standorte ‚mit Vergangenheit‘ bereits eine ganze Generation von nicht mehr finanzierten Legacy-Projekten in Betrieb zu halten. Das Wachstum an Projekten hat aus ehemals kleinen Standorten mit geringer personeller Dichte und Lab-Charakter in relativ kurzer Zeit große Teams mit vielen und vielfältigen Mitarbeiter/innen gemacht. In der Konsequenz funktionieren althergebrachte, auf wenige Projekte und auf ein kleines Team ausgerichtete Workflows und Arbeitsstrukturen nicht mehr und müssen neu gedacht werden. Orientierungspunkte einer Restrukturierung von Arbeitsprozessen in den DH können dabei u.a. Methoden aus der Softwareentwicklung (Usher et al. 2020, Agile Business Consortium 2014, Rubin 2012) sowie - teilweise davon abgeleitete - DH-spezifische Ansätze aus dem internationalen Kontext bilden (Smithies u. Ciula 2020, Smithies et al. 2019, Ferraro u. Sichani 2018, Tabak 2017, Reed 2014).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Hintergrund: 20 Jahre TELOTA</head>
+                <p>2021 feiert TELOTA seinen zwanzigsten Geburtstag. Anfänglich eine eher strategische Initiative, begann die Arbeit im Bereich der Softwareentwicklung etwa 2005. TELOTA bestand damals aus einer Leitung, zwei Mitarbeiter/innen und zwei studentischen Hilfskräften und hatte einen stark experimentellen Charakter. Die Phase der technischen Professionalisierung setzte ab etwa 2008 ein, als die Fokussierung auf einzelne Projekte um die Perspektive der projektübergreifenden Standardisierung erweitert wurde (Grötschel u. Neumann 2011). Ab Mitte der 2010er Jahre führte das steigende Interesse der Vorhaben der BBAW an der Umsetzung digitaler Projekte sowie von externen Projektpartnern an der Nachnutzung der von TELOTA entwickelten Werkzeuge zu einem starken Anstieg an neuen Projekten, wodurch sich auch das TELOTA-Team vergrößerte: 2015 bestand das Team noch aus einer Leitung, fünf wissenschaftlichen Mitarbeiter/innen und vier studentischen Hilfskräften. Im Juli 2021 umfasst TELOTA eine Leitung, eine Koordination (beide Autor/innen dieses Beitrags), achtzehn wissenschaftliche Mitarbeiter/innen (die allerdings nicht alle Vollzeitstellen besetzen) sowie drei studentische Hilfskräfte. Zum TELOTA-Portfolio, das Forschungssoftware wie digitale Editionen, Objektsammlungen, Webservices, Frameworks und Tools umfasst, zählen rund 30 aktuell laufende bzw. in der Entwicklung befindliche Projekte sowie ca. 30 Legacy-Projekte, die verfügbar gehalten und in regelmäßigen Abständen überarbeitet und migriert werden. </p>
+                <p>Die Arbeitsorganisation bei TELOTA war und ist von jeher vom ressourcentechnischen Umstand geprägt, dass es mehr Projekte als Mitarbeiter/innen gibt, wobei die Differenz kontinuierlich steigt, denn jedes nicht mehr finanzierte Projekt bleibt ein Projekt bzw. eine Publikation, die weiterhin gewartet und verfügbar gehalten werden muss. Dieser Tatsache ist es maßgeblich geschuldet, dass sich die Teamstruktur und Projektbetreuung bei TELOTA im Laufe der Zeit wie folgt entwickelte: Jede/r Mitarbeiter/in arbeitete kontinuierlich und meistens alleine an ein bis drei Akademienvorhaben und ggf. mit weiteren Stellenprozenten in Drittmittelprojekten. Diese Arbeitsweise war für die Entwickler/innen auf Dauer belastend, da die Entwicklungszeit und -konzentration sowohl durch die über mehrere Projekte verteilte Aufmerksamkeit als auch durch die gleichzeitige Übernahme von koordinatorischen Aufgaben beeinträchtigt wurde. Erschwerend kam hinzu, dass Wissen über Projekte oft bei einzelnen Entwickler/innen lag, wodurch der ‚Bus-Faktor‘ (oder auch ‚Truck Factor‘; Williams u. Kessler 2002: 41) gleich “1” war, was bedeutet, dass jedes Teammitglied über Spezialwissen verfügt und ein Ausfall (z.B. durch Kündigung) das Projekt zumindest für eine gewisse Zeit lahmlegen könnte. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Herausforderungen</head>
+                <p>Die allgemeinen Herausforderungen der Arbeitsorganisation kann anhand einer vertikalen und einer horizontalen Skalierungsebene skizzieren. Die vertikale Ebene beschreibt die wachsende Komplexität der einzelnen digitalen Projekte von der Datenmodellierung über Datenspeicherung, Programmierschnittstellen und Visualisierungen bis hin zur Publikation, Langzeitverfügbarkeit und -archivierung. Die Kompetenzen, um dieses Aufgabenspektrum abzudecken finden sich nur in den seltensten Fällen in einer Person, so dass es in einem Projekt nicht mehr ausreicht, auf eine/n Digitalspezialisten/in zurückzugreifen, sondern auch hier die Aufgaben auf ein Team verteilt werden müssen. </p>
+                <p>Die zweite Ebene ist die horizontale, die schlicht die Menge der in den Einrichtungen parallel umzusetzenden digitalen Projekte beschreibt, sowie die Bedarfe und Einzelanforderungen dieser Projekte, die wiederum Einfluss auf die vertikale Ebene haben. Betreut ein DH-Team viele Projekte parallel, können in diesen Projekten nicht alle Anforderungen in einer kurzen Entwicklungszeit umgesetzt werden. Umgekehrt bedeutet dies, dass wenn komplexe Projekte bearbeitet werden, wenig bis keine parallelen Projekte betreut werden können. </p>
+                <p>Da die Schnittmenge beider Ebenen in den letzten Jahren deutlich gestiegen ist, konnte die oben beschrieben Arbeitsweise (siehe „Hintergrund“) nicht mehr fortgeführt werden. Nachdem verschiedene Modelle der Restrukturierung der Arbeitsorganisation bei TELOTA evaluiert und erprobt wurden, ist seit 2020 ist eine Organisationsstruktur im Einsatz, die ganzheitlich gedacht auf Personen, Projekte und Software ausgerichtet ist.  </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Teamstruktur</head>
+                <p>Wie bereits erwähnt waren zentrale Probleme der Teamstruktur, dass es eigentlich kaum Entwicklung in Teams gab, und, dass Personen mit mehreren Rollen belegt waren, zum Beispiel als Entwickler/in und DH-Koordinationsstelle eines Projekts. Die Restrukturierung von TELOTA umfasste daher zunächst einmal die Einführung einer Koordinationsstelle, deren Aufgaben – in Absprache mit der Leitung – Kommunikation sowie die mittel- und langfristige Entwicklungsplanung umfassen. Die Koordinationsstelle entwickelt und begleitet den neu etablierten Projektworkflow, unterstützt und berät die Projektpartner/innen bei der Planung der DH-spezifischen Ziele, koordiniert die Absprachen mit den Entwicklungsteams und schreitet vermittelnd ein, wenn sich Sackgassen auftun.</p>
+                <p>Eine weitere Maßnahme der Restrukturierung war die Zuordnung der rund achtzehn Mitarbeiter/innen zu kleineren Teams, die wiederum gemeinsam Cluster aus thematisch und technologisch ähnlichen Projekten bearbeiten, um möglichst große Synergieeffekte zwischen Projekten zu kreieren. Die sich dadurch ergebenden Teams bestehen aus rund 6 bis 8 Personen (mit unterschiedlichen Stellenanteilen), die jeweils zu zweit oder dritt ein Projekt bearbeiten. Während der Entwicklungsphasen (siehe “Projektworkflow”) sind die Entwickler/innen ebenfalls an Planungsaufgaben für die direkt anstehenden Softwareentwicklungstasks beteiligt, werden aber von größeren Aufgaben (z.B. Mitwirkung bei Antragstellungen, strategische Sitzungen u.Ä.) durch die Koordinationsstelle entlastet.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Projektworkflow</head>
+                <p>Die Entwicklungsarbeiten der oben erwähnten Teams erfolgt seit Anfang 2020 nach dem Modell der ‚Entwicklungsblöcke‘ (Abb. 1). Angelehnt an das Konzept von „Sprints“ aus der Scrum-Methodik (Rubin 2012), handelt es sich dabei um fest definierte Zeiträume, in denen ein Team aus Entwickler/innen ein zuvor geplantes Zwischenziel umsetzt.<ref target="ftn3" n="3"/> Die Zwischenziele werden iterativ, jeweils vor einem Entwicklungsblock, definiert, stehen mit der grundsätzlichen Roadmap eines Projekts im Einklang, bleiben aber nicht in starren und ausführlichen Vorab-Planungen verhaftet. Im Gegensatz zum klassischen Scrum-Sprint, der nach Features und möglichst kleinteilig konzipiert ist, handelt es sich bei den Entwicklungsblöcken um Arbeitspakete, die eine Menge an Features bzw. Tasks zusammenfassen, welche nach einer gemeinsam bestimmten Priorisierung bearbeitet werden. Durch dieses Vorgehen dauern die Entwicklungsblöcke mit 4-12 Wochen Laufzeit auch wesentlich länger als klassische Scrum-Sprints von etwa 2-4 Wochen.
+                </p>
+                <figure>
+                    <graphic n="1001" width="15.927916666666667cm" height="8.960555555555555cm" url="Pictures/18c7758ea25251e10b41d52f0169cc91.png" rend="inline"/>
+                    <head>Abb. 1: Ablauf eines Entwicklungsblocks bei TELOTA.</head>
+                </figure>
+                <p>Alle Teilziele, Tasks, Fehler und Featurewünsche zu einem Projekt fließen in ein von allen Beteiligten gepflegtes Projekt-Backlog ein (z.B. ein Issues in GitLab, Tickets in Redmine, oder Zeilen in einem Spreadsheet), aus dem eine Teilmenge im Vorfeld einer Entwicklungseinheit mit Blick auf die Roadmap des Projekts, die Aufgabenpriorisierung durch die Projektpartner sowie entwicklungstechnische Empfehlungen TELOTAs als Milestone definiert wird. Die eigentliche Entwicklungsphase startet mit einem Kick-Off-Treffen mit allen Mitarbeiter/innen des Projekts, bei dem Ablauf und Aufgaben noch einmal durchgegangen werden. In der Entwicklungsphase kann sich das Entwickler/innenteam voll und ganz auf die definierten Zwischenziele konzentrieren, neue Featurewünsche müssen zunächst mit der Koordinationsstelle, die in etwa der Rolle des „Product Owners“ in Scrum entspricht, abgestimmt werden. Ist die Softwareentwicklung gestartet, so wird regelmäßig Feedback eingeholt, u.a. in fest etablierten 
+                    <hi rend="italic">face-to-face</hi>-Meetings. 
+                </p>
+                <p>Die Entwicklungsphase endet mit einem Release der Entwicklungen, der gesamte Entwicklungsblock mit Reviewgesprächen innerhalb des TELOTA-Teams und mit den Projektpartnern. Die Demonstration der neu entstandenen Entwicklungen, die Evaluation der Zusammenarbeit sowie der Blick auf die Projektroadmap bilden die Grundlage für den nächsten Entwicklungsblock. </p>
+                <p>Auch wenn das klassische Scrum-Modell der „Sprints“ aufgrund der personellen Ressourcen nicht in aller Konsequenz bei TELOTA durchführbar ist,<ref target="ftn4" n="4"/> kann die Forschungssoftwareentwicklung und die parallel erfolgende geisteswissenschaftliche Forschung von einigen Prinzipien der Methode profitieren. Das Konzept von ‚Time-Boxes‘, die intensive Bearbeitungen von Teilzielen und unmittelbare Releases wirken sich beispielsweise motivationssteigernd aus, weil man von Beginn an auf konkrete Resultate bzw. ‚sichtbare‘ Ergebnisse zusteuert. Gleichzeitig werden bei häufigen Releases frühzeitig Probleme erkannt und Kurskorrekturen möglich. Schließlich generieren die regelmäßigen Meetings, der Erfolgsmoment beim Release und die Feedbackkultur ein Gefühl der Zusammengehörigkeit aller Projektbeteiligten, der das „wir“ und „ihr“, das es oftmals in der Zusammenarbeit zwischen Forschungssoftwareentwickler/innen und Geisteswissenschaft/lern gibt, auflöst. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Werkzeugkasten</head>
+                <p>Zentral bei der Neuorganisation der Softwareentwicklung ist die Verständigung auf einen gemeinsamen technologischen Werkzeugkasten, was u.a. durch die aufwendige Wartung vieler technologisch komplexer Legacy-Projekte dringlich wurde. Leitprinzipien des Werkzeugkastens sind u.a. möglichst nachhaltige und keine in ihrer Funktion redundanten Technologien zu verwenden. Unterschieden wird dabei zwischen ‚Primär‘- und ‚Sekundärtechnologien‘, wobei erstere beispielsweise Programmiersprachen, Datenbanksysteme und umfassende Framework-Plattformen, deren erstmalige Verwendung einen erhöhten Einarbeitungsaufwand bedeutet, umfassen. Die Neueinführung einer Primärtechnologie bedarf daher der Abstimmung mit Leitung, Koordination und Systemadministrator/innen sowie, wenn der Einführung stattgegeben wird, die Durchführung von Schulungen im Team. Unter Sekundärtechnologien fallen Libraries oder kleinere Frameworks, die ggf. auf einer bereits verwendeten Primärtechnologie basieren, leicht zu lernen sind, und deren Verwendung keiner Abstimmung bedarf. </p>
+                <p>Der Aufbau des Werkzeugkastens ist ‚produktorientiert‘, d.h. die Technologie-Stacks werden ergebnisorientiert vorgeschlagen.<ref target="ftn5" n="5"/> Mittels eines Flow-Charts bzw. Entscheidungsbaums (Abb. 2) wird veranschaulicht, wie man als Nutzer/in an den Werkzeugkasten herantritt. Für jedes Ergebnis ist eine User-Story definiert, die, abgesehen von User Story 1 („der Werkzeugkasten beinhaltet bereits eine passende Technologie bzw. einen passenden Technologie-Stack“), Szenarien und Prozeduren für die Neueinführung einer Produktkategorie oder Technologie definiert.
+                </p>
+                <figure>
+                    <graphic n="1002" width="15.875cm" height="10.689166666666667cm" url="Pictures/1b9022fdff7504208b29b35947702bc1.png" rend="inline"/>
+                    <head>Abb. 2: Der Weg durch den TELOTA-Werkzeugkasten</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick</head>
+                <p>Jeder DH-Standort agiert und arbeitet unter spezifischen ressourcentechnischen, personellen und finanziellen Bedingungen, was es erschwert, von den vorgestellten Überlegungen und Ergebnissen allgemeine Empfehlungen für die Strukturierung von Teams, Projekten und Software zu abzuleiten. Grundsätzlich wird aber deutlich, dass die stärkere Reflexion und Konzeptualisierung der ‚Arbeitskultur‘ nicht nur bei sich im Aufbau befindlichen DH-Zentren, sondern auch bei Standorten mit langer Tradition und eher ‚eingefahrenen‘ Strukturen sinnvoll sein kann. Neben den hier vorgestellten Verfahren gibt es eine Reihe weiterer Punkte, die eine regelmäßige Evaluation und Überarbeitung der eigenen Arbeitsstrukturen sinnvoll erscheinen lassen und die zukünftig in den Blick genommen werden. Dazu gehört u.a. eine weitere Professionalisierung und Spezialisierung der einzelnen Teammitglieder auf bestimmte Technologien bzw. Technologie-Cluster, was neben einer Reduzierung des Risikos von Ausfällen auch zu einer stärkeren Fokussierung der Kompetenzen führt. Darüber hinaus sichert dies die Qualität von Forschungssoftware und damit die Langlebigkeit unseres „digitalen Gedächtnisses“.</p>
+            </div>
+            <div/>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                            <ref target="https://www.bbaw.de/en/bbaw-digital/telota">https://www.bbaw.de/en/bbaw-digital/telota</ref>
+                        </note><note place="foot" xml:id="ftn2" n="2"> Zu nennen wären hier beispielsweise das Grazer “Institut Zentrum für Informationsmodellierung” (
+                            <ref target="https://informationsmodellierung.uni-graz.at">https://informationsmodellierung.uni-graz.at</ref>), das “Cologne Center for e-Humanities” (
+                            <ref target="https://cceh.uni-koeln.de/">https://cceh.uni-koeln.de/</ref>) und das Trierer “Kompetenzzentrum - Trier Center for Digital Humanities (
+                            <ref target="https://tcdh.uni-trier.de">https://tcdh.uni-trier.de</ref>).
+                        </note><note place="foot" xml:id="ftn3" n="3"> Auch Tabak 2017 integriert Scrum-Elemente in das von ihm entwickelte „Hybrid Model for Managing DH Projects“ (2017).</note><note place="foot" xml:id="ftn4" n="4"> Beispielsweise sind in den Entwicklungsblöcken TELOTAs die Entwicklungszeiträume länger und die Teams kleiner, wodurch auch die Rolle des „Scrum Masters“ nicht besetzt ist.</note><note place="foot" xml:id="ftn5" n="5"> z.B. zur Realisierung einer digitalen Edition, eines Eingabetools für strukturierte Daten oder eines Bilderalbums.</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Agile Business Consortium</hi> (2014): 
+                        <hi rend="italic">The DSDM Agile Project Framework (2014 Onwards)</hi>, 
+                        <ref target="https://www.agilebusiness.org/page/TheDSDMAgileProjectFramework">https://www.agilebusiness.org/page/TheDSDMAgileProjectFramework
+                        </ref> [letzter Zugriff: 15.7.2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Baars, Wouter / Harmsen, Henk / Kramer, Rutger / Sesink, Laurents / Zundert, Joris van </hi>(2006): 
+                        <hi rend="italic">Project management handbook</hi>. Data Archiving and Networked Services, The Hague, 
+                        <ref target="https://www.projectmanagement-training.net/articles-tools/book/">https://www.projectmanagement-training.net/articles-tools/book/
+                        </ref>  [letzter Zugriff: 15.7.2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Burdick, Anne / Drucker, Johanna / Lunenfeld, Peter / Presner, Todd / Schnapp, Jeffrey </hi>(2012): 
+                        <hi rend="italic">Digital_Humanities</hi>. Cambridge: MIT Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Ferraro, Ginestra / Sichani, Anna-Maria</hi> (2018). „Design as Part of the Plan: Introducing Agile Methodology in Digital Editing Projects“, in: Bleier, Roman / Bürgermeister, Martina / Klug, Helmut / Neuber, Frederike / Schneider Gerlinde (eds.): 
+                        <hi rend="italic">Digital Scholarly Editions as Interfaces</hi>, 83-105. Norderstedt: BoD. 
+                        <ref target="https://kups.ub.uni-koeln.de/9113/">https://kups.ub.uni-koeln.de/9113/
+                        </ref> [letzter Zugriff: 15.7.2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Grötschel, Martin / Neumann, Gerald</hi> (2011): „10 Jahre TELOTA“,  in: 
+                        <hi rend="italic">Jahrbuch 2011 der Berlin-Brandenburgischen Akademie der Wissenschaften</hi>, 202-215. 
+                        <ref target="https://edoc.bbaw.de/files/2007/BBAW_Jahrbuch_2011.pdf">https://edoc.bbaw.de/files/2007/BBAW_Jahrbuch_2011.pdf
+                        </ref> [letzter Zugriff: 15.7.2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Reed, Ashley</hi> (2014): „Managing an Established Digital Humanities Project: Principles and Practices from the Twentieth Year of the William Blake Archive“, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>, Vol. 8, 1. 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/8/1/000174/000174.html">http://www.digitalhumanities.org/dhq/vol/8/1/000174/000174.html
+                        </ref> [letzter Zugriff: 15.7.2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Roeder, Torsten / Cremer, Fabian / Dogunke, Swantje / Elwert, Frederik / Lordick, Harald / Ott, Katrin / Söring, Sibylle / Wübbena, Thorsten</hi> (2020): “Digital Humanities from Scratch” (Workshop), in: Schöch, Christoph (ed.): 
+                        <hi rend="italic">DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation. Konferenzabstracts</hi>. 27-29.  
+                        <ref target="http://doi.org/10.5281/zenodo.3666690">http://doi.org/10.5281/zenodo.3666690
+                        </ref> [letzter Zugriff: 15.7.2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Roeder, Torsten / Söring, Sibylle / Dogunke, Swantje / Elwert, Frederik / Wübbena, Thorsten / Lordick, Harald / Cremer, Fabian / Klammt, Anne </hi>(2019a): „Digital Humanities ‚from Scratch‘. Herausforderungen der DH-Koordination zwischen Querschnittsaufgaben und ‚one-(wo)man-show‘“ (Panel), in: Sahle, Patrick (ed.): 
+                        <hi rend="italic">DHd 2019 Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts</hi>. 68-71. 
+                        <ref target="https://doi.org/10.5281/zenodo.2596095">https://doi.org/10.5281/zenodo.2596095
+                        </ref> [letzter Zugriff: 15.7.2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Roeder, Torsten / Söring, Sibylle / Dogunke, Swantje / Elwert, Frederik / Wübbena, Thorsten / Lordick, Harald / Cremer, Fabian / Klammt, Anne </hi>(2019b): „Digital Humanities ‚from Scratch‘. Ein Panel-Bericht zur DHd 2019“ (Blogpost), in: 
+                        <hi rend="italic">DHd-Blog</hi>, 3. Juli 2019, 
+                        <ref target="https://dhd-blog.org/?p=11804">https://dhd-blog.org/?p=11804
+                        </ref> [letzter Zugriff: 15.7.2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Rubin, Kenneth S. </hi>(2012): 
+                        <hi rend="italic">Essential Scrum: A Practical Guide to the Most Popular Agile Process</hi>. Addison-Wesley Professional.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Smithies, James / Ciula, Ariana </hi>(2020): „Humans in the Loop. Epistemology &amp; Method in King’s Digital Lab“, in: Schuster, Kristen / Dunn, Stuart. (eds.): 
+                        <hi rend="italic">Routledge international handbook of research methods in digital humanities.</hi> London: Routlege, 155-172.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Smithies, James / Westling, Carina / Sichani, Anna-Maria / Mellen, Pam / Ciula, Ariana</hi> (2019): „Managing 100 Digital Humanities Projects: Digital Scholarship &amp; Archiving in King’s Digital Lab“, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>, 13, 1. 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html">http://www.digitalhumanities.org/dhq/vol/13/1/000411/000411.html
+                        </ref> [letzter Zugriff: 15.7.2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Spiro, Lisa</hi> (2012): "'This Is Why We Fight': Defining the Values of the Digital Humanities", in: Gold, Matthew K.: <hi rend="italic">Debates in the Digital Humanities</hi>. Minneapolis 2012, S. 16-35. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Tabak, Edin </hi>(2017): „A Hybrid Model for Managing DH Projects“, in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi>, 11, 1. 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/11/1/000284/000284.html">http://www.digitalhumanities.org/dhq/vol/11/1/000284/000284.html
+                        </ref> [letzter Zugriff: 15.7.2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Usher, Will / Chue Hong, Neil / Darst, Richard / Gonzalez-Beltran, Alejandra / Katz, Daniel S. / Löffler, Frank / Pronk, Thomas /  Richmond, Paul / Shad, Mahmood / Stadler, Konstantin / van den Bergh, Erik / van Werkhoven, Ben</hi> (2020): „How do RSE groups work?“ A blog post from the 2nd International RSE Leaders Workshop 2020. 
+                        <ref target="https://researchsoftware.org/2020/11/19/how-do-RSE-groups-work.html">https://researchsoftware.org/2020/11/19/how-do-RSE-groups-work.html</ref> [letzter Zugriff: 15.7.2021]  
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Williams, Laurie / Kessler, Robert</hi> (2002): 
+                        <hi rend="italic">Pair Programming Illuminated</hi>. Boston u. a.:
+                        <hi rend="a-list-item" xml:space="preserve">Addison-Wesley Professional. </hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

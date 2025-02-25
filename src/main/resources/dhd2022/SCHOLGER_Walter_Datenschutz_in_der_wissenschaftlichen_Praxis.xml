@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_140">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Datenschutz in der wissenschaftlichen Praxis</title>
+                <title type="sub">Der DARIAH-EU ELDAH Consent Form Wizard</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Scholger</surname>
+                        <forename>Walter</forename>
+                    </persName>
+                    <affiliation>Universität Graz; DARIAH-EU WG Ethics and Legality in Digital Arts and Humanities (ELDAH); CLARIN-ERIC Legal and Ethical Issues Committee (CLIC)</affiliation>
+                    <email>walter.scholger@uni-graz.at</email>
+                <idno type="ORCID">0000-0002-9256-0958</idno></author>
+                <author>
+                    <persName>
+                        <surname>Hannesschläger</surname>
+                        <forename>Vanessa</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften (ÖAW); DARIAH-EU WG Ethics and Legality in Digital Arts and Humanities (ELDAH); CLARIN-ERIC Legal and Ethical Issues Committee (CLIC)</affiliation>
+                    <email>vanessa.hannesschlaeger@gmail.com</email>
+                <idno type="ORCID">0000-0003-0938-0890</idno></author>
+                <author>
+                    <persName>
+                        <surname>Kamocki</surname>
+                        <forename>Pawel</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Sprache (IDS); DARIAH-EU WG Ethics and Legality in Digital Arts and Humanities (ELDAH); CLARIN-ERIC Legal and Ethical Issues Committee (CLIC)</affiliation>
+                    <email>pawel.kamocki@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kuzman-Šlogar</surname>
+                        <forename>Koraljka</forename>
+                    </persName>
+                    <affiliation>Universität Zagreb; DARIAH-EU WG Ethics and Legality in Digital Arts and Humanities (ELDAH)</affiliation>
+                    <email>koraljkak@gmail.com</email>
+                <idno type="ORCID">0000-0002-7810-0453</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-30T13:00:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Datenschutz</term>
+                    <term>Wissenschaftethik</term>
+                    <term>Forschungsdaten</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Organisation</term>
+                    <term>Daten</term>
+                    <term>Personen</term>
+                    <term>Werkzeuge</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">140</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Insbesondere im Bereich der Digital Humanities (DH) gilt der offene Zugang zu Wissen und den Ergebnissen wissenschaftlicher Forschung als Selbstverständlichkeit (vgl. <ref target="https://openaccess.mpg.de/Berliner-Erklaerung">Berliner Erklärung</ref>) und aufgrund der Vorgaben nationaler und europäischer Förderprogramme geradezu als Notwendigkeit (vgl. <ref target="https://www.dfg.de/foerderung/programme/infrastruktur/lis/open_access/">DFG</ref>, <ref target="https://www.fwf.ac.at/de/forschungsfoerderung/open-access-policy">FWF</ref>, <ref target="https://ec.europa.eu/info/research-and-innovation/strategy/strategy-2020-2024/our-digital-future/open-science/open-access_en#eu-support-for-open-access">EU</ref>). Der Gedanke der Öffnung von Daten und Ergebnissen umfasst aber nicht nur das Ideal der Ermöglichung eines demokratischen Zugangs zu Forschungsergebnissen, sondern auch einen behutsamen und verantwortungsvollen Umgang mit den beforschten Quellen – besonders dann, wenn es sich dabei um lebende Menschen und deren Zeugnisse handelt. Vertraulichkeit und Datenschutz sind ethische Grundanforderungen für die Verarbeitung personenbezogener (Forschungs-)Daten. 
+            </p>
+            <p style="text-align: left; ">Aus diesem Grund müssen sich Forscher*innen notwendigerweise mit komplexen Rechtsgrundlagen und ethischen Herausforderungen auseinandersetzen, wenn sie Daten über/von Menschen speichern, verwenden, verarbeiten, veröffentlichen und langzeitarchivieren wollen: Zunächst unüberwindbar scheint die Divergenz zwischen dem skizzierten Offenheitsparadigma und den rechtlichen Vorgaben sowie den wissenschaftsethischen Erfordernissen. Seit dem Inkrafttreten der EU-Datenschutzgrundverordnung (<ref target="https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679">DS-GVO</ref>) gibt es einen europaweit anwendbaren, verbindlichen Rechtsrahmen für die Verarbeitung personenbezogener Daten, dessen Berücksichtigung unerlässlich für wissenschaftliche Tätigkeiten ist. 
+                <lb/>Wie eng dabei Ethik und Recht miteinander verwoben sind, zeigt sich etwa auch daran, dass jene Gruppen, die sich im Rahmen der großen europäischen DH-Forschungsinfrastrukturkonsortien <ref target="https://dariah.eu">DARIAH-EU</ref> und <ref target="https://www.clarin.eu/">CLARIN-ERIC</ref> Rechtsfragen widmen, die Frage nach ethischen Dimensionen in ihr Programm (und ihre Bezeichnungen) aufgenommen haben: das <ref target="https://www.clarin.eu/governance/legal-issues-committee">CLARIN-ERIC Legal and Ethical Issues Committee (CLIC)</ref> und die <ref target="https://eldah.hypotheses.org/).">DARIAH-EU Arbeitsgruppe Ethics and Legality in Digital Arts and Humanities (ELDAH)</ref>.
+            </p>
+            <p style="text-align: left; ">Der <ref target="https://consent.dariah.eu/">Consent Form Wizard</ref> (https://consent.dariah.eu/) wurde von der DARIAH-EU Arbeitsgruppe ELDAH als Kooperationsprojekt von Jurist*innen, Entwickler*innen und Wissenschaftler*innen entwickelt. Dieses Werkzeug ermöglicht es, nach der Beantwortung einer Reihe einfacher Fragen eine standardisierte Einwilligungserklärung zu erstellen, die für das Einholen der Einwilligung von Studienteilnehmer*innen, Benutzer*innen, Veranstaltungs- oder Umfrageteilnehmer*innen etc. im Kontext wissenschaftlicher Datenerhebungen und -verarbeitungen verwendet werden kann. Die so generierten Einwilligungserklärungen berücksichtigen die durch die DS-GVO geschaffenen Rahmenbedingungen und Verpflichtungen, aber auch die darin für Forschungs- und Archivierungskontexte definierten Ausnahmen (Kamocki, Ketzan, Wildgans 2018; Bergauer / Jahnel 2017). Sie können daher von der gesamten europäischen DH-Community - und auch in internationalen Kontexten, in denen sich die Verantwortlichen aus wissenschaftsethischen Gründen freiwillig den strengen europäischen Datenschutzvorschriften unterwerfen - verwendet werden. 
+                <lb/>Die zum gegenwärtigen Zeitpunkt konzipierten Anwendungsszenarien des Consent Form Wizards reichen, basierend auf den Befragungen von TeilnehmerInnen mehrerer internationaler DH-Veranstaltungen und themenspezifischer Workshops, von Zustimmungserklärungen für die Datenverarbeitung im Rahmen der Veranstaltungsorganisation über Ton- und Videoaufzeichnungen, das Betreiben von Mailinglisten und Newsletters bis hin zur Verarbeitung personenbezogener Daten im Rahmen von Umfragen und Interviews in der Forschungspraxis. 
+            </p>
+            <p style="text-align: left; ">Das englischsprachige Werkzeug ist auch als Quellcode auf <ref target="https://github.com/acdh-oeaw/dariah_eldah_cfw">GitHub</ref> frei verfügbar und wird gerade in mehrere Sprachen übersetzt: Die deutschen, kroatischen und französischen Übersetzungen sind bereits fertiggestellt. Außerdem wurden und werden eine Reihe von Disseminations-Workshops abgehalten und in Kooperation mit der Universität Jena im Rahmen der <ref target="https://www.gw.uni-jena.de/fakult%C3%A4t/juniorprofessur+f%C3%BCr+digital+humanities+(bild_objekt)/projekt+digital4humanities">Digital4Humanities Reihe</ref> Tutorial Videos in deutscher und englischer Sprache produziert, die wie das Werkzeug zum Zeitpunkt der Konferenz auf mehreren Kanälen frei verfügbar sein werden und in die Materie der Datenschutzgrundverordnung und die Anwendung  des Consent Form Wizards einführen. Diese Videos sind auch auf Youtube verfügbar und werden Teil eines auf der OER Plattform <ref target="https://campus.dariah.eu/">DARIAHcampus</ref> veröffentlichten Moduls sein.
+            </p>
+            <p style="text-align: left; ">Mittels des Posters bei der DHd2022 wollen wir den Consent Form Wizard der breiteren deutschsprachigen DH-Community jenseits von CLARIN-ERIC und DARIAH-EU vorstellen und Erfahrungsberichte weitergeben. Vor allem wollen wir zur Benutzung dieses Werkzeugs in der Praxis einladen und mögliche Erweiterungen - sei es durch weitere Übersetzungen, sei es durch die Umsetzung weiterer Anwendungsszenarien - mit den Teilnehmer*innen der Konferenz diskutieren.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Bergauer, Christian / Jahnel, Dietmar</hi> (2017): <hi rend="italic">Das neue Datenschutzrecht DSG-VO und DSG 2018</hi>. Jan Sramek Verlag KG.</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Europäisches Parlament</hi> (2016): <hi rend="italic">Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten, zum freien Datenverkehr und zur Aufhebung der Richtlinie 95/46/EG</hi> (Datenschutz-Grundverordnung). https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex:32016R0679.</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Kamocki, Pawel / Erik Ketzan / Julia Wildgans</hi> (2018): <hi rend="italic">Language Resources and Research Under the General Data Protection Regulation</hi>. http://nbn-resolving.de/urn:nbn:de:bsz:mh39-97562.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

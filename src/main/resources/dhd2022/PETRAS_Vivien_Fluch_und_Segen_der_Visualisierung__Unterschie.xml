@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_142">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Fluch und Segen der Visualisierung</title>
+                <title type="sub">Unterschiedliche Zielfunktionen im Forschungsprozess der historischen Netzwerkanalyse</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Balck</surname>
+                        <forename>Sandra</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>balcksaa@hu-berlin.de</email>
+                <idno type="ORCID">0000-0002-0573-3911</idno></author>
+                <author>
+                    <persName>
+                        <surname>Menzel</surname>
+                        <forename>Sina</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin, Germany</affiliation>
+                    <email>menzel@ub.fu-berlin.de</email>
+                <idno type="ORCID">0000-0003-1798-2672</idno></author>
+                <author>
+                    <persName>
+                        <surname>Petras</surname>
+                        <forename>Vivien</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>vivien.petras@ibi.hu-berlin.de</email>
+                <idno type="ORCID">0000-0002-8113-1509</idno></author>
+                <author>
+                    <persName>
+                        <surname>Schnaitter</surname>
+                        <forename>Hannes</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>hannes.schnaitter.1@ibi.hu-berlin.de</email>
+                <idno type="ORCID">0000-0002-1602-6032</idno></author>
+                <author>
+                    <persName>
+                        <surname>Zinck</surname>
+                        <forename>Josefine</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>josefine.zinck.1@hu-berlin.de</email>
+                <idno type="ORCID">0000-0002-7511-098X</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-29T08:19:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>HNA</term>
+                    <term>Interviewstudie</term>
+                    <term>Visualisierungsfunktionen</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Netzwerkanalyse</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">142</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <p style="text-align: left; ">In einer Interviewstudie mit sieben Forschenden der historischen Netzwerkanalyse (HNA) wurden die wichtigsten Einsatzgebiete von Visualisierungen im Forschungsprozess identifiziert: Theorieentwicklung und Datenexploration, Datenqualitätsüberprüfung, Analyse sowie Präsentation der Ergebnisse. Die Diskussion der Visualisierungen zeigt ein zwiespältiges Verhältnis der Community: sie werden von den Forschenden sehr differenziert betrachtet, sowohl wenn es um den Zeitpunkt ihres Einsatzes im Forschungsprozess geht und wer für die Entwicklung der Visualisierungen zuständig sein sollte, aber auch, ob diese der Präsentation der Forschungsergebnisse in der historischen Forschungscommunity zuträglich sind oder nicht.  Dabei werden zwei Zielfunktionen unterschieden: Visualisierungen für die Exploration bzw. Analyse und erläuternde Visualisierungen. Entscheidend für die Akzeptanz von Visualisierungen ist deren Dokumentation und Kontextualisierung einschließlich der in ihnen enthaltenen Daten, um eine verlässliche Grundlage für die Forschung zu gewährleisten.</p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align: left; ">Visualisierungen können ein wichtiges Werkzeug in der Analyse von Daten sowie in der Kommunikation von Forschungsergebnissen sein. Einerseits bieten sie die Möglichkeit, schnell einen Überblick über die gesammelten Daten zu erlangen und Fehler oder interessante Fälle zu finden. Sie ermöglichen es den Auswertenden, große Datenmengen ganzheitlich zu betrachten und zu interpretieren. Sie sind aber auch schnell unübersichtlich, ihre Interpretation unterliegt kulturell gelernten Biases und verständliche Visualisierungen sind aufwendig zu erstellen. Diese Dichotomie spiegelt sich auch in der Bewertung von Visualisierungen im Forschungsprozess wider: sie werden in vielen Schritten des Forschungsprozesses genutzt und können dort Mehrwert liefern. Gleichzeitig wird die Nutzung oft als problematisch angesehen und insbesondere die Erstellung guter Visualisierungen oft nicht als eigenständige Forschungsleistung gewürdigt.</p>
+                <p style="text-align: left; ">In diesem Beitrag berichten wir über die Ergebnisse einer von uns im Rahmen des DFG-Projekts SoNAR (IDH) (siehe Bludau et al. 2020) durchgeführten Interviewstudie mit Forschenden aus der historischen Netzwerkanalyseforschung (HNA). Eine der Leitfragen, welche auf der Zielstellung des Projekts basiert, das Netzwerkvisualisierungen für historische Daten entwickeln soll, ist: welchen Wert haben Visualisierungen als Werkzeug für Analyse und Präsentation von Informationen in der Forschungscommunity der HNA? In der Beschreibung der Interviewstudie und deren Ergebnisse gehen wir besonders auf die Sicht der Forschenden auf Visualisierungen ein, die ein zwiegespaltenes Verhältnis aufzeigt. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Interviewstudie zur Historischen Netzwerkanalyse</head>
+                <p style="text-align: left; ">Ziel der Interviewstudie war es, Forschungsprozesse und -fragen der Historischen Netzwerkanalyse zu beschreiben und Anforderungen an eine digitale Informationsinfrastruktur zu identifizieren. Dafür wurden Expert:innen zum Vorgehen bei eigenen Forschungsarbeiten im Bereich der HNA in Form qualitativer Leitfadeninterviews befragt.</p>
+                <p style="text-align: left; ">Es wurden sieben Interviews mit Expert:innen der HNA durchgeführt, davon waren zwei männlich und fünf weiblich. Die Interviewten kamen aus den Bereichen Sozialwissenschaft, Geschichtswissenschaft und Wirtschaftswissenschaft, was die Interdisziplinarität des zu untersuchenden Gebiets untermalt. Die Interviews wurden im Zeitraum Juli-August 2020 durchgeführt und dauerten zwischen 37:08 und 51:28 Minuten. Als Expert:innen gelten Personen, die wissenschaftliche Arbeiten im Bereich HNA vorweisen.</p>
+                <p style="text-align: left; ">Die Befragungen wurden remote über die Videokonferenzlösung Zoom durchgeführt, mit Einverständnis der Proband:innen aufgezeichnet und anschließend mittels MAXQDA transkribiert und codiert. Es folgte eine thematische Analyse, hierbei gebildete Kategorien dienten als Grundlage für die Auswertung. Insgesamt wurden 126 Kategorien gebildet, die in sechs Oberkategorien zusammengefasst wurden:</p>
+                <list type="unordered">
+                    <item>Community: Disziplinäres Selbstverständnis bezogen auf wissenschaftliche und disziplinäre Infrastrukturen, Wissenschaftskommunikation sowie die Einbindung digitaler Methoden in historische Curricula.</item>
+                    <item>Netzwerke: Einschätzungen über die Verbindung der Netzwerkanalyse mit der historischen Forschung im allgemeinen und Definitionsversuche/Einordnungen der HNA durch die Interviewten.</item>
+                    <item>Forschungsprozess: Äußerungen zum Vorgehen bei der Bearbeitung eines Forschungsvorhabens mittels historischer Netzwerkanalyse.</item>
+                    <item>Werkzeuge: Für die Datenaufbereitung und -speicherung verwendete Software, ihre Vor- und Nachteile sowie Anforderungen an zukünftige Systeme.</item>
+                    <item>Datenqualität: Datenqualität ist als besondere Herausforderung der HNA zu verstehen, der Fokus liegt hier auf Anforderungen und Probleme bezogen auf historische Daten.</item>
+                    <item>Visualisierung: Bezieht sich auf die Anwendung von Visualisierungen und dem daraus resultierenden Erkenntnisgewinn sowie Kritik und Herausforderungen im Umgang mit historischen Daten.</item>
+                </list>
+                <p style="text-align: left; ">Die Auswertung der Interviews gibt einen Überblick über exemplarische Forschungsprozesse und deren Aufbereitung in einzelne Teilschritte sowie erste Erkenntnisse zu Anforderungen an Visualisierungen für die HNA in verschiedenen Disziplinen, auf die wir uns im Folgenden besonders fokussieren. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Der Forschungsprozess in der Historischen Netzwerkanalyse</head>
+                <p style="text-align: left; ">“Die Geschichtswissenschaft beschäftigt sich mit der Analyse des menschlichen Zusammenlebens in der Vergangenheit und bemüht sich, Ereignisse und Entwicklungen aus der jeweiligen Zeit heraus zu verstehen und zu deuten. [...] Historische Akteure werden [...] immer auch als Kontext der sie umgebenden Strukturen betrachtet.“ (Düring 2015: 337). Diese Strukturen manifestieren sich in sozialen Beziehungen. Die ursprünglich aus den Sozialwissenschaften kommende formale Netzwerkanalyse erlaubt es, diese nicht immer offensichtlichen Strukturen zu analysieren, indem sie es ermöglicht, diese “präzise zu beschreiben, zu verstehen, wie sie geschaffen wurden und welche Folgen sie haben.” (Lemercier 2012: 21). Die HNA ist eine Methode, die die Interpretation von historischen Strukturen unterstützt und somit als interdisziplinäres Zusammenspiel von historischer Erzählung und formaler Netzwerkanalyse beschrieben werden kann.</p>
+                <p style="text-align: left; ">Die HNA setzt sich aus Komponenten der Sozialwissenschaft und Geschichtswissenschaft und damit verbunden den Digital Humanities zusammen. Der Forschungsprozess dieser Disziplinen ähnelt sich in vielen Bereichen. Bhattacherjee (2012: 20) unterteilt den sozialwissenschaftlichen Forschungsprozess in drei Phasen, welche wiederum in neun Unterphasen aufgeteilt werden. Im Vergleich dazu nennen Burghardt et al. (2014: 2) für die Geisteswissenschaften acht Phasen (siehe Tab. 1). Ausgenommen von “Kommunikation und Kollaboration”, was im weitesten Sinne auch unter Theoriebildung gefasst werden kann, sind keine Unterschiede zum sozialwissenschaftlichen Forschungsprozess zu erkennen.</p>
+                <table rend="rules">
+                    <head>Tab. 1: Modelle des Forschungsprozesses in angrenzenden Disziplinen</head>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Bhattacherjee (2012) - Sozialwissenschaften</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Burghardt et al. (2014) - Geisteswissenschaften</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">
+                            <p style="text-align: left; ">exploration</p>
+                            <list type="unordered">
+                                <item>research question, literature review, theory</item>
+                            </list>
+                            <p style="text-align: left; ">research design</p>
+                            <list type="unordered">
+                                <item>operationalization, research method, sampling strategy</item>
+                            </list>
+                            <p style="text-align: left; ">research execution</p>
+                            <list type="unordered">
+                                <item>pilot testing, data collection, data analysis</item>
+                            </list>
+                            <p style="text-align: left; ">+ research report</p>
+                        </cell>
+                        <cell style="text-align: left;" rend="DH-Default">
+                            <list type="unordered">
+                                <item>Kommunikation und Kollaboration</item>
+                                <item>Recherche</item>
+                                <item>Konzeptualisierung</item>
+                                <item>Datenerhebung</item>
+                                <item>Datenaufbereitung</item>
+                                <item>Datenauswertung</item>
+                                <item>Verschriftlichung</item>
+                                <item>Veröffentlichung</item>
+                            </list>
+                        </cell>
+                    </row>
+                </table>
+                <p style="text-align: left; ">Der mittels Aussagen der Proband:innen beschriebene Forschungsprozess der HNA kann insgesamt in sechs Phasen unterteilt werden, wobei Datenauswahl- und erhebung sowie Datenaustausch- und publikation zusammengefasst wurden (siehe Abb. 1): Theorieentwicklung, Datenauswahl- und Datenerhebung, Qualitätssicherung, Datenanalyse, Dokumentation sowie Datenaustausch und -publikation.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="7.141986111111111cm" url="Pictures/e891f9ebd7f47da5280451abd80432a3.jpg" rend="inline"/>
+                    <head>Abb. 1: Forschungsprozess in der Historischen Netzwerkanalyse</head>
+                </figure>
+                <p style="text-align: left; ">Hierbei lassen sich viele Parallelen zu den oben beschriebenen allgemeinen Forschungsprozessen der Geistes- sowie Sozialwissenschaften erkennen. Im Unterschied zu den anderen Studien sind zwei zusätzliche Prozessabschnitte stärker herausgehoben: Qualitätssicherung und Dokumentation. Diese zwei Phasen des Forschungsprozesses sind stark miteinander verbunden und weisen auf die Wichtigkeit von Transparenz innerhalb des Forschungsprozesses der HNA sowie die Schwierigkeiten im Umgang mit historischen Daten, bezogen auf die Datenqualität, hin. Allen vorgestellten Modellen des Forschungsprozesses ist gemein, dass dieser nicht in streng linearen Pfaden verläuft, sondern durch ständige Feedbackschleifen charakterisiert ist. Die wurden in Abbildung 1 nicht durch Pfeile dargestellt, in den Interviews aber immer wieder charakterisiert.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Visualisierung im HNA Forschungsprozess</head>
+                <p style="text-align: left; ">Innerhalb des HNA-Forschungsprozesses nehmen Visualisierungen eine Sonderstellung ein: sie können am Anfang des Forschungsprozesses eingesetzt werden, um auf neue Forschungsfragen aufmerksam zu werden, sie können bei der Analyse hilfreich sein oder auf Fehler aufmerksam machen. Allgemein werden Visualisierungen im Zusammenhang mit folgenden Prozessabschnitten erwähnt:</p>
+                <div type="div2" rend="DH-Heading2">
+	                <head>Hypothesenbildung:</head>
+                <p style="text-align: left; ">Forschungsfragen werden von HNA-Forschenden sowohl theorie- als auch datengeleitet entwickelt. Im Laufe des Forschungsprozesses können sich Forschungsfragen durch neue Impulse der Datenanalyse verändern. Visualisierungen, hier als Teil des Analyseprozesses, können durch explorative Vorgänge dazu beitragen, neue Thematiken zu entdecken: “[...] es [ist] auch ok, da mit einer nicht klaren Fragestellung ranzugehen, sondern auch explorativ zu sagen, ich schau mal, was da drin ist” (Interview 5). Strukturen werden so sichtbar und können Ausgangspunkt für konkrete Forschungsfragen bzw. die Hypothesenentwicklung sein.</p>
+             </div>    
+                <div type="div2" rend="DH-Heading2">
+	                <head>Qualitätssicherung:</head>
+                <p style="text-align: left; ">Die Qualitätssicherung läuft begleitend zur Datenerhebung und -analyse und kann sich im Laufe des Prozesses wiederholen. Neben intellektueller Durchsicht und statistischen Berechnungen spielen auch Visualisierungen eine Rolle bei dem Aufspüren von Fehlern.  Diese können auch erst nach der eigentlichen Qualitätssicherung, im Prozess der Datenanalyse/Visualisierung, sichtbar werden: “[...] es sind immer noch Fehler drinnen, das ist das Schöne, das fällt einem dann bei der Netzwerkanalyse, wenn man es dann visualisiert, teilweise erst auf, dass da ein Knoten absolut unverbunden ist [...]” (Interview 3).</p>
+              </div> 
+              <div type="div2" rend="DH-Heading2">
+	                <head>Datenanalyse:</head>
+                <p style="text-align: left; ">Die meisten Interviewten erwähnen Visualisierungen im Zusammenhang mit der Datenanalyse. Die Netzwerkanalyse macht durch die Gewichtung von Beziehungen Strukturen innerhalb eines Netzwerks sichtbar: “ich habe durch eine Visualisierung zwei Knoten gefunden, die relevant sind und zwar nur durch die Visualisierung” (Interview 6). Visualisierungen werden genutzt, um übergeordnete Muster zu erkennen und so die Interpretation zu unterstützen. In den meisten Fällen dienen sie dazu, zeitliche und geografische Entwicklungen sozialer Netzwerke sichtbar zu machen und dazu verschiedene Schichten – betreffend Person, Ort und Zeit – in Verbindung miteinander darzustellen. Erwähnt werden in diesem Zusammenhang die Identifikation von Netzwerkeigenschaften wie Zentralität, Dichte und Hubs.</p>
+              </div>   
+              <div type="div2" rend="DH-Heading2">
+	                <head>Ergebnispräsentation:</head>
+                <p style="text-align: left; ">Visualisierungen werden eingesetzt, um Forschungsergebnisse in Vorträgen oder Artikeln zu vermitteln: “das ist halt das Schöne an den Netzwerken, dass man da manchmal doch sehr komplizierte Sachverhalte ein bisschen runterbrechen kann und sich ein Bild häufig sehr sehr viel leichter erklären lässt, als ne umständliche Erklärung über acht Seiten, die manchmal dieses Bild bräuchte, um es in den Köpfen der Leser entstehen zu lassen” (Interview 3). Visualisierungen werden hierbei im Anschluss an den eigentlichen Forschungsprozess entwickelt und dienen lediglich der visuellen Untermalung von Analysen.</p>
+                <p style="text-align: left; ">Abbildung 2 fasst die Funktionen von Visualisierungen im HNA-Forschungsprozess visuell zusammen.</p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="7.642930555555555cm" url="Pictures/3eff9e0beae17f9aac609f93f205316d.jpg" rend="inline"/>
+                    <head>Abb. 2: Verwendung von Visualisierungen innerhalb des Forschungsprozesses der Historischen Netzwerkanalyse</head>
+                </figure>
+                </div>    
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fluch oder Segen der Visualisierung?</head>
+                <p style="text-align: left; ">Visualisierungen werden von den Forschenden sehr differenziert betrachtet, sowohl wenn es um den Zeitpunkt ihres Einsatzes im Forschungsprozess geht und wer für die Entwicklung der Visualisierungen zuständig sein sollte, aber auch, ob diese der Präsentation der Forschungsergebnisse in der historischen Forschungscommunity zuträglich ist oder nicht.</p>
+                <p style="text-align: left; ">Visualisierungen werden von einer eher quantitativ sozialwissenschaftlich arbeitenden Gruppe bevorzugt selbst gebaut und erst im Anschluss an die Analyse verwendet, um eine Beeinflussung durch bildliche Verzerrungen zu verhindern: “also Netzwerke würde ich mir immer selber bauen 
+                    <hi rend="">[...]</hi>“ (Interview 3) oder auch: “für mich sind die Netzwerkvisualisierungen erst das Ende des ganzen Analyseprozesses. Also ich weiß, dass man mit Visualisierungen das menschliche Auge sehr verwirren kann und in Richtungen lenken will, die vielleicht die Daten gar nicht hergeben [...]” (Interview 5).
+                </p>
+                <p style="text-align: left; ">Die andere Gruppe nutzt Visualisierungen dagegen bevorzugt während des Forschungsprozesses und erwartet von automatisch erstellten Datenrepräsentationen bessere Einsichten, die nur durch die Zusammenstellung überhaupt aufgedeckt werden können: “um etwas zu sehen, visualisiert zu bekommen, was ich vorher noch nicht wusste und so noch nicht … mir noch nicht zugänglich war durch irgendwelche Einzelinformationen, sondern diese Kumulation, dieses Aggregat quasi nur sichtbar werden kann” (Interview 4). Diese Gruppe verwendet Visualisierungen auch für die Darstellung von Forschungsergebnissen in Veröffentlichungen.</p>
+                <p style="text-align: left; ">Andere verwenden hingegen Visualisierungen lediglich für den eigenen Erkenntnisgewinn und nicht zur Darstellung von Forschungsergebnissen: „[…] immer, wenn man ein Bild also so eine Grafik zeigt, muss man die erstmal eine halbe Stunde erklären und sagen, was sie jetzt nicht zeigt und was sie zeigt und warum der Algorithmus jetzt den einen Punkt in die Mitte macht und der andere am Rand, aber das eigentlich keine Wertung ist. Bilder zeigen ist sehr komplex und ich bin eher davon abgekommen“ (Interview 6).</p>
+                <p style="text-align: left; ">In mehreren Interviews wird eine Skepsis gegenüber Visualisierungen und der manipulativen Kraft von Bildern deutlich. Genau wie der Datenbestand, der der Visualisierung zugrunde liegt, ist auch die Visualisierung selbst nur eine Repräsentation und keine Replikation der Realität und immer mit einer Reduktion der Komplexität verbunden. (vgl. Freyberg 2020: 1; Drucker, 2014; Kasunic &amp; Sweetapple, 2014) Genau diese Reduktion wird kritisiert, da es Visualisierungen zu „höchst interpretierbedürftige[n] Quellen“ (Interview 7) macht und besonders in der öffentlichen Diskussion intensiver Erklärung bedarf. Kritische Reaktionen sind auch aus der “klassischen” geschichtswissenschaftlichen Community zu vernehmen: „[…] es kam dann immer so der Einwand: Ja, das ist ja spannend und sieht irgendwie cool aus, aber was hast du davon?“ (Interview 7).</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zusammenfassung und Ausblick</head>
+                <p style="text-align: left; ">Für eine angemessene Nutzung in der Forschung muss die Rolle der Visualisierung klar sein. Dabei können zwei Zielfunktionen unterschieden werden: Visualisierungen für die Exploration bzw. Analyse und erläuternde Visualisierungen. Visualisierungen zur Exploration bieten den Betrachter:innen durch die Wahl passend gewählter Abstraktionsebenen und graphischer Elemente die Möglichkeit der Interpretation des Ganzen und des Auffindens interessanter Teilaspekte. Sie unterstützen die Analyse durch die Aggregation von individuellen Merkmalen in den Daten. Eine erläuternde Visualisierung soll den Betrachter:innen einen bestimmten Sachverhalt darstellen und eine bestimmte Erkenntnis kommunizieren. Sie unterstützen insbesondere die kondensierte Darstellung von komplexen Sachverhalten für die Repräsentation und den Austausch mit anderen Forschenden.</p>
+                <p style="text-align: left; ">Wichtig für beide Zielfunktionen ist die Kontextualisierung von Visualisierungen und den in ihnen enthaltenen Daten sowie die Transparenz durch Dokumentation der zugrundeliegenden Datenbankstrukturen, um eine verlässliche Grundlage für die Forschung zu gewährleisten.</p>
+                <p style="text-align: left; ">Basierend auf sieben Expert:inneninterviews kann kein allgemeines Bild für die gesamte Forschungscommunity gezeichnet werden. In der vorliegenden Studie konnten jedoch interessante Muster zwischen verschiedenen Gruppen entdeckt werden, die in einer späteren Nutzer:innenstudie zum SoNAR-Prototyp bestätigt wurden (vgl. Schnaitter et al., 2021). Weitere ausführliche Studien müssen jedoch folgen, um diese Ergebnisse zu validieren. </p>
+                <p style="text-align: left; ">Die HNA Community sieht zwar grundsätzlich nützliche Unterstützungsmöglichkeiten durch die Visualisierung, zweifelt aber gleichzeitig an deren Interpretationskraft sowie deren Bedeutung als Erklärungswerkzeuge in der Forschungskommunikation. Dies wurde mittlerweile in vielen Studien gezeigt und auch in dieser bestätigt. Dies mag einerseits an fehlenden Standards für Darstellungsformen und Datendokumentation liegen, andererseits aber auch der gebotenen Skepsis gegenüber der Interpretationsfähigkeit von historischen Quellen geschuldet sein, die der historischen Forschung unterliegen muss. Es ist eine interessante Frage, ob Fortschritte in der Datendokumentation und -aufbereitung diese Zwiespältigkeit auflösen können.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bhattacherjee, Anol</hi> (2012): <hi rend="italic">Social Science Research: Principles, Methods, and Practices</hi>, Textbooks Collection 3: 20 
+                        <ref target="https://scholarcommons.usf.edu/oa_textbooks/3">https://scholarcommons.usf.edu/oa_textbooks/3</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bludau, Mark-Jan / Dörk, Marian / Halling, Thorsten / Leitner, Elena / Menzel, Sina / Müller, Gerhard / Petras, Vivien / Rehm, Georg / Neudecker, Clemens / Zellhöfer, David / Moreno-Schneider, Julian</hi> (2020): "SoNAR (IDH): Datenschnittstellen für Historische Netzwerkanalyse", in: 
+                        <hi rend="italic">DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation.</hi> 7. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum" (DHd 2020), Paderborn 
+                        <ref target="https://doi.org/10.5281/zenodo.4621862">https://doi.org/10.5281/zenodo.4621862</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Burghardt, M. / Schubert, A. / Traber, M. / Wolff, C.</hi> (2014): "Empirische Untersuchung zu digitalen, geisteswissenschaftlichen Arbeitspraktiken an der Universität Regensburg", in: 
+                        <hi rend="italic">Online-Proceedings der 1. Jahrestagung der “Digital Humanities im deutschsprachigen Raum”</hi>
+                        <ref target="http://doi.org/10.5283/epub.35713">http://doi.org/10.5283/epub.35713</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Drucker, Johanna</hi> (2014): “
+                        <hi rend="italic">Graphesis: Visual forms of knowledge production”</hi> Cambridge, MA: Harvard University Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Düring, Marten / von Keyserlingk, Linda</hi> (2015): "Netzwerkanalyse in den Geschichtswissenschaften. Historische Netzwerkanalyse als Methode für die Erforschung von historischen Prozessen", in: Schützeichel, Rainer / Jordan, Stefan (Hrsg.): 
+                        <hi rend="italic">Prozesse - Formen, Dynamiken, Erklärungen</hi>
+                        <hi style="font-size:10pt">.</hi> Berlin: Springer 337-350 
+                        <ref target="https://doi.org/10.1007/978-3-531-93458-7_15">https://doi.org/10.1007/978-3-531-93458-7_15</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Freyberg, Linda</hi> (2020): "Ikonizität als Erkenntnismittel – Vollständigkeit, Verständlichkeit und Kontextualisierung als Grundprinzipien der Visualisierung", in: 
+                        <hi rend="italic">DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation.</hi> 7. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum" (DHd 2020), Paderborn 
+                        <ref target="https://doi.org/10.5281/zenodo.4621742">https://doi.org/10.5281/zenodo.4621742</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Kasunic, Jacqueline Lorber / Sweetapple, Kate</hi> (2014): "Visualizing Texts A design practice approach to humanities data." In: 
+                        <hi rend="italic">DRHA2014 Conference Digital Research in the Humanities and Arts Theme: Communication Futures: Connecting interdisciplinary design practices in arts/culture</hi>
+                        <ref target="https://core.ac.uk/download/pdf/42391357.pdf#page=88">https://core.ac.uk/download/pdf/42391357.pdf#page=88</ref>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Lemercier, Claire</hi> (2012): "Formale Methoden der Netzwerkanalyse in den Geschichtswissenschaften: Warum und Wie?", in: 
+                        <hi rend="italic">Österreichische Zeitschrift für Geschichtswissenschaften</hi> 23(1): 16-41 
+                        <ref target="https://doi.org/10.25365/oezg-2012-23-1-2">https://doi.org/10.25365/oezg-2012-23-1-2</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schnaitter, Hannes / Balck, Sandra / Zinck, Josefine / Petras, Vivien</hi> (2021): „SoNAR (IDH) AP4-5 Evaluierung IV: Nutzerinnenstudie“ 
+                        <hi rend="italic">Interner Bericht</hi>. 
+                        <ref target="https://github.com/sonar-idh/reports/blob/main/AP4-HU-4-5-3-Evaluierung-IV.pdf">https://github.com/sonar-idh/reports/blob/main/AP4-HU-4-5-3-Evaluierung-IV.pdf</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

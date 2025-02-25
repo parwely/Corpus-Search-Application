@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_226">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Doing (Digital) History</title>
+                <title type="sub">Kollaborative Formen der Erforschung von Geschichte in sozialen Medien im Projekt #SocialMediaHistory</title>
+                </title>
+            <author>
+                    <persName>
+                        <surname>Berg</surname>
+                        <forename>Mia</forename>
+                    </persName>
+                    <affiliation>Ruhr-Universität Bochum, Deutschland</affiliation>
+                    <email>mia.berg@rub.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Lorenz</surname>
+                        <forename>Andrea</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Deutschland</affiliation>
+                    <email>andrea.sarah.lorenz@uni-hamburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-12-01T11:09:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Social Media</term>
+                    <term>Digital History</term>
+                    <term>Erinnerungskultur</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Archivierung</term>
+                    <term>Kollaboration</term>
+                    <term>Methoden</term>
+                    <term>Projekte</term>
+                    <term>Forschung</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">226</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Kontext</head>
+                <p>Medien speichern, vermitteln und strukturieren Gedächtnis<ref target="ftn1" n="1"/> und Geschichte. Sie können sowohl Ergebnis von Erinnerungsprozessen sein als auch einen Erinnerungsanlass bieten (Zierold 2006: 136f.). Erst durch und in unterschiedlichsten Gedächtnismedien<ref target="ftn2" n="2"/> wird das kollektive Gedächtnis konstruiert und durch Akte kollektiver Erinnerung hervorgebracht (Erll 2004: 3). Das Internet hat dabei nicht nur zur digitalen Transformation bestehender Inhalte geführt, sondern neue digitale Gedächtnisinhalte und Erinnerungs- und Geschichtspraktiken generiert. Die Trennung des kollektiven Gedächtnisses in ein kulturelles “Langzeitgedächtnis” und ein kommunikatives “Kurzzeitgedächtnis” weicht zunehmend auf (Assmann 2002: 246). Das zeigen insbesondere die sozialen Medien, deren parallele „Gedächtniscommunities“ und “networked memories“ sich durch Pluralisierung und Fragmentierung individueller und kollektiver Erinnerungen auszeichnen (Bartoletti 2011: 100). Die niedrigen Produktions- und Zugangsschranken potenzieren geschichtsbezogene Inhalte, Akteur*innen und Praktiken. Für Historiker*innen werden Geschichtsbilder und diskursive Aushandlungen sichtbar. Es entsteht eine diverse, partizipative Erinnerungslandschaft, die die Deutungs- und Diskurshoheit etablierter Akteur*innen wie Institutionen oder Forscher*innen in Frage stellt (König 2020: 76). An die Stelle gesellschaftlicher und institutioneller Relevanzstrukturen treten die Interessen der User*innen. Soziale Medien verweisen so auf die Kontingenz und Selektivität von Erinnerungsprozessen (Zierold 2006: 188). Das digitale Gedächtnis zeigt dabei im Brennglas, was aus historischer Perspektive schon immer zu hinterfragen war: das Verhältnis von Erinnern und Vergessen, Fragen der Überlieferung, Auswahl und Speicherung, des Originals, der Partizipation und Sichtbarkeit, der Zugänglichkeit und nicht zuletzt gesellschaftlicher Macht.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Forschungsstand</head>
+                <p>Hannes Burkhardt hat jüngst festgehalten, dass die “Relevanz des Internets für die Vergegenwärtigung von Vergangenheit heute kaum überschätzt werden” könne (Burkhardt 2021: 13). Die Geschichtswissenschaft arbeitet zwar seit Jahren digital und hat mit der Digital History eine eigene “digitale” Disziplin herausgebildet. Vor allem das in audiovisuellen sozialen Medien geformte digitale Gedächtnis wurde bisher jedoch nicht umfangreicher untersucht.<ref target="ftn3" n="3"/> Die Kopplung an Datenstrukturen und globale Konzerne führt zu technischen, ethischen und rechtlichen Herausforderungen. Zentral ist vor allem die Frage, inwiefern Geschichte als Big Data überhaupt ausgewertet werden kann, wenn Plattformen wie Instagram nur eingeschränkte APIs zur Verfügung stellen oder automatisierte Datenerhebungen vollständig verbieten.<ref target="ftn4" n="4"/> Dabei sind gerade Instagram und TikTok auch in Bezug auf geschichtsbezogene Inhalte besonders Nutzer*innen- und Reichweitenstark: Allein #history wurde auf Instagram 41 Millionen Mal geteilt und auf TikTok 23 Milliarden Mal aufgerufen (Stand: November 2021). Um sich den neuen Formaten historischer Erzählung anzunähern, müssen sich geschichtswissenschaftliche Werkzeuge und Infrastrukturen ändern. Zentral stellen sich Fragen nach der Zugänglichkeit, Archivierbarkeit und (automatisierten) Auswertbarkeit der entstehenden Daten (König 2020, Kiechle 2018). Da im Fach häufig nicht einmal flächendeckend empirische Methoden curricular verankert sind, sind viele Historiker*innen im Umgang mit der “Computer Mediated History” (Kiechle 2021) auf die Digital Humanities angewiesen. Bereits im Zuge der DHd 2020 wurde ein fachwissenschaftlicher Bedarf an niedrigschwelligen Services ausgemacht, der auch auf den Umgang und die Forschung mit Social Media-Daten übertragbar ist (Hermes / Klinke / Demmer 2020: 184f.).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Projekt</head>
+                <p>Das Projekt “SocialMediaHistory” erforscht seit März 2021 zusammen mit Citizen Scientist, wie Geschichte auf Instagram und TikTok stattfindet, analysiert und produziert werden kann.<ref target="ftn5" n="5"/> Die ursprünglich rein geschichtswissenschaftliche Perspektive muss dabei um eine informatische ergänzt werden, um die Datenmengen des digitalen Gedächtnisses erschließen und händeln zu können. Darüber hinaus müssen die technischen und kommerziellen Bedingtheiten der Inhalte reflektiert und selbst Datenbankarbeit und Sammlungsaufbau geleistet werden. In den nächsten drei Jahren sollen Geschichtswissenschaft und Digital Humanities deshalb stärker verzahnt werden. 
+                </p>
+                <p>Konkret geschieht dies in einem ersten Schritt im Zuge eines Projektseminars am IDH der Universität zu Köln, das von Jürgen Hermes im WiSe 21/22 angeboten wird. Ausgehend von im Projekt formulierten Fragestellungen entwickeln Studierende in interdisziplinärer Zusammenarbeit Lösungsansätze für (1) die automatisierte Erhebung und Auswertung von Instagram- und TikTok-Kommentaren (Scraping, Sentiment Analysis), (2) die Identifizierung und Auswertung vergangenheitsbezogener Hate Speech (Topic Modeling) sowie (3) die Darstellung von Begleitdiskursen auf Twitter (Netzwerkanalyse). Gemeinsam sollen Möglichkeiten und Grenzen digitaler Methoden ausgelotet werden – auf technischer und rechtlicher Ebene und auf Ebene der historischen Erkenntnis.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick</head>
+                <p>Im weiteren Projektverlauf sollen die erarbeiteten Tools angewandt und evaluiert werden. Das Projekt verfolgt damit eine kollaborative Doing (Digital) History im doppelten Sinne: Durch die eigene Produktion von geschichtsbezogenem Content und als methodischer Zugang zu und Reflexion über Beschaffenheit und Auswertbarkeit geschichtsbezogener Social Media-Inhalte. </p>
+                <p>Das Poster möchte zentrale Fragestellungen und gewonnene Erkenntnisse vorstellen. Auf diese Weise möchte das Projekt einen Beitrag dazu leisten, neue Perspektiven auf eine gemeinsame Wissen(schaft)skultur zu liefern und neue Zugänge in der Geschichtswissenschaft zu etablieren.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Gedächtnis soll hier in Anlehnung an Martin Zierold (2006) als Fundus und Archiv verstanden werden. </note><note place="foot" xml:id="ftn2" n="2"> Der Begriff verweist Aleida Assmann (2009) folgend auf die Rolle von Medien als externer Speicher und Träger des kulturellen Gedächtnisses. </note><note place="foot" xml:id="ftn3" n="3"> Zum Forschungsstand siehe Burkhardt (2021).</note><note place="foot" xml:id="ftn4" n="4"> Vgl. https://www.instagram.com/about/legal/terms/before-january-19-2013/</note><note place="foot" xml:id="ftn5" n="5"> Weitere Informationen: www.socialmediahistory.de.</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Assmann, Jan </hi>(2002): “Das kulturelle Gedächtnis”, in: 
+                        <hi rend="italic" xml:space="preserve">Erwägen, Wissen, Ethik </hi>[EWE] 13: 239-247.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Assmann, Aleida </hi>(2009): 
+                        <hi rend="italic">Erinnerungsräume. Formen und Wandlungen des kulturellen Gedächtnisses</hi> (4. Aufl.). München: C.H.Beck.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Balbi, Gabriele / Ribeiro, Nelson / Schafer, Valérie / Schwarzenegger, Christian (eds.) </hi>(2021): 
+                        <hi rend="italic">Digital Roots. Historicizing Media and Communication Concepts of the Digital Age</hi> (Studies in Digital History and Hermeneutics Vol. 4). Berlin / Boston: De Gruyter.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bartoletti, Roberta</hi> (2011): “Memory and Social Media: New Forms of Remembering and Forgetting”, in: Pirani, Bianca Maria (eds.): 
+                        <hi rend="italic">Learning from Memory: Body, Memory and Technology in a Globalizing World</hi>. Cambridge: Scholars Publishing 82-111.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Blaney, Jonathan / Miligan, Sarah / Steer, Mary / Winters, Jane </hi>(2021): 
+                        <hi rend="italic" xml:space="preserve">Doing digital history. A beginner’s guide to working with text as data. </hi>Manchester: Manchester University Press. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Bunnenberg, Christian / Logge, Thorsten / Steffen, Nils</hi> (2021): “SocialMediaHistory. Geschichtemachen in sozialen Medien”, in: 
+                        <hi rend="italic" xml:space="preserve">Historische Anthropologie </hi>29-2: 267-283. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Burkhardt, Hannes</hi> (2021): 
+                        <hi rend="italic">Geschichte in den Social Media. Nationalsozialismus und Holocaust in Erinnerungskulturen auf Facebook, Twitter, Pinterest und Instagram</hi> (Beihefte zur Zeitschrift für Geschichtsdidaktik, Band 23). Göttingen: V&amp;R unipress.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Erll, Astrid </hi>(2004): “Medium des kollektiven Gedächtnisses – ein (erinnerungs-)kulturwissenschaftlicher Kompaktbegriff”, in: Erll, Astrid / Nünning, Ansgar (eds.): 
+                        <hi rend="italic">Medien des kollektiven Gedächtnisses. Konstruktivität – Historizität – Kulturspezifität</hi>. Berlin / New York: De Gruyter 3-22.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Föhr, Pascal</hi> (2019): 
+                        <hi rend="italic">Historische Quellenkritik im Digitalen Zeitalter</hi>. Glückstadt: vwh Verlag Werner Hülsbusch.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hermes, Jürgen / Klinke, Harald / Demmer, Dennis</hi> (2020): “Public Humanities Tools: Der Bedarf an niederschwelligen Services”, in: 
+                        <hi rend="italic">Book of Abstracts Dhd 2020: Spielräume</hi> 184-186. 
+                        <ref target="https://zenodo.org/record/3666690#.YO8NJZgzaUk">https://zenodo.org/record/3666690#.YO8NJZgzaUk</ref> [letzter Zugriff 24. November 2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kiechle, Oliver</hi> (2018): “Archivierung von Social Media? Store local!”, in: Blog. 
+                        <hi rend="italic">Diskrete Werte. Digitalia – Quellenkritik – Public History.</hi>
+                        <ref target="https://digitalia.hypotheses.org/56">https://digitalia.hypotheses.org/56</ref> [letzter Zugriff 24. November 2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kiechle, Oliver</hi> (2021): “ ‘One person’s Data is another person’s noice.’ – Flame Wars, SPAM und Bots in Born Digital Sources”, in: Blog
+                        <hi rend="italic">. Digitale Geschichtswissenschaft.</hi>
+                        <ref target="https://digitalhist.hypotheses.org/2389">https://digitalhist.hypotheses.org/2389</ref> [letzter Zugriff 24. November 2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">König, Mareike</hi> (2017): “Digitale Methoden in der Geschichtswissenschaft. Definitionen, Anwendungen, Herausforderungen”, in: 
+                        <hi rend="italic">BIOS – Zeitschrift für Biographieforschung, Oral History und Lebensverlaufsanalysen</hi> 1-2: 7-21.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">König, Mareike </hi>(2020): “Geschichte digital. Zehn Herausforderungen”, in: Arendes, Cord et al. (eds.): 
+                        <hi rend="italic">Geschichtswissenschaft im 21. Jahrhundert. Interventionen zu aktuellen Debatten</hi>, Berlin / Boston: De Gruyter 67-76.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Möller, Katrin</hi> (2021): “Die Modellierung des zeitlichen Vergleichs als Kernkompetenz von Digital History”, in: Blog. 
+                        <hi rend="italic">Digitale Geschichtswissenschaft.</hi>
+                        <ref target="https://digitalhist.hypotheses.org/2399">https://digitalhist.hypotheses.org/2399</ref> [letzter Zugriff 24. November 2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Russel, Matthew A. / Klassen, Mikhail </hi>(2019): Mining the Social Web. Data Mining Facebook, Twitter, Linkedin, Instagram, Github, and More (3. Aufl.). Sebastopol: O’Reilly.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Vlassenroot, Eveline / Chambers, Sally / Lieber, Sven / Michel, Alejandra / Geeraert, Friedel / Pranger, Jessica / Birkholz, Julie / Mechant, Peter</hi> (2021): “Web-archiving and social media: an exploratory analysis”, in: 
+                        <hi rend="italic" xml:space="preserve">International Journal of Digital Humanities </hi>1-3. 
+                        <ref target="https://doi.org/10.1007/s42803-021-00036-1">https://doi.org/10.1007/s42803-021-00036-1</ref> [letzter Zugriff 24. November 2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Zierold, Martin</hi> (2006): 
+                        <hi rend="italic">Gesellschaftliche Erinnerung. Eine medienkulturwissenschaftliche Perspektive</hi> (Media and Cultural Memory / Medien und kulturelle Erinnerung, Band 5). Berlin / New York: De Gruyter.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

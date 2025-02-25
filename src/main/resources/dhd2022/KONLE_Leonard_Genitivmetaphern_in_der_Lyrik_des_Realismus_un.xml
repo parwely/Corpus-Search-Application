@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_286">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Genitivmetaphern in der Lyrik des Realismus und der frühen Moderne</title>
+                <author>
+                    <persName>
+                        <surname>Kröncke</surname>
+                        <forename>Merten</forename>
+                    </persName>
+                    <affiliation>Universität Göttingen, Germany</affiliation>
+                    <email>merten.kroencke@uni-goettingen.de</email>
+                <idno type="ORCID">0000-0003-2717-0598</idno></author>
+                <author>
+                    <persName>
+                        <surname>Konle</surname>
+                        <forename>Leonard</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Germany</affiliation>
+                    <email>leonard.konle@uni-wuerzburg.de</email>
+                <idno type="ORCID">0000-0001-5833-0414</idno></author>
+                <author>
+                    <persName>
+                        <surname>Jannidis</surname>
+                        <forename>Fotis</forename>
+                    </persName>
+                    <affiliation>Universität Würzburg, Germany</affiliation>
+                    <email>fotis.jannidis@uni-wuerzburg.de</email>
+                <idno type="ORCID">0000-0001-6944-6113</idno></author>
+                <author>
+                    <persName>
+                        <surname>Winko</surname>
+                        <forename>Simone</forename>
+                    </persName>
+                    <affiliation>Universität Göttingen, Germany</affiliation>
+                    <email>simone.winko@phil.uni-goettingen.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-12-01T13:24:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Metapher</term>
+                    <term>Lyrik</term>
+                    <term>Realismus</term>
+                    <term>Moderne</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Datenerkennung</term>
+                    <term>Programmierung</term>
+                    <term>Annotieren</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">286</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align: left; ">Ein wichtiger Aspekt der sprachlichen Gestaltung literarischer Texte besteht im Einsatz von Metaphern, Metonymien und Tropen im Allgemeinen. Einzelnen Werken, aber auch ganzen Gattungen oder Epochen wird zugeschrieben, dass ihre Spezifik nicht zuletzt in einer jeweils charakteristischen Verwendungsweise uneigentlicher Rede gründe. Unter anderem betrifft das die Geschichte der Lyrik, das heißt die Geschichte einer Gattung, die laut Benjamin Specht „in Bezug auf die Verwendung von Metaphern die weitesten Lizenzen besitzt“ (Specht, 2017: 90). </p>
+                <p style="text-align: left; ">Das Ziel dieses Beitrags besteht darin, den Gebrauch von Metaphern in der deutschsprachigen Lyrik des Realismus und der frühen Moderne<ref target="ftn1" n="1"/> mithilfe automatisierter, quantitativer Methoden zu identifizieren und zu analysieren. Damit sollen mehrere literarhistorische Forschungsthesen auf einer breiten Datengrundlage geprüft und gegebenenfalls differenziert werden.
+                </p>
+                <p style="text-align: left; ">Die literaturwissenschaftliche Forschung macht die Unterscheidung von realistischer und moderner Lyrik unter anderem am Aufkommen neuer, innovativer Formen uneigentlichen Sprechens fest. In der modernen Lyrik treten Metaphern auf, die als „Radikalisierung, Komplizierung und Steigerung“ lyrischer Bildlichkeit (Hiebel 2005: 28), als Beitrag zur sprachlichen „Verfremdung“ (Lamping, 2010: 148; vgl auch Lamping, 2008: 25f), als „assoziativ-hermetische“ Muster (Specht, 2014: 5) oder auch als „Blume[n] ohne Stiel auf der Oberfläche des Gedichts“ (Neumann, 1970: 195f) zu charakterisieren seien. Die Forschung dürfte sich einig sein, dass die moderne Metaphorik gegenüber der vorherigen, traditionellen Bildlichkeit zu größerer Individualität und Heterogenität tendiert (vgl. zur Homogenität der realistischen (Massen-)Lyrik und ihrer Sprachbilder z. B. Stockinger, 2010: 88). Doch durch welche Textmerkmale sich die neuen, modernen Metaphern im Einzelnen auszeichnen, wird unterschiedlich und zum Teil sogar gegensätzlich konzeptualisiert.</p>
+                <list type="ordered">
+                    <item>
+                        <hi rend="italic">Große vs. kleine Bildspanne</hi>: Hugo Friedrich ist der Auffassung, dass die Bildspanne, also etwa im Fall der Metapher ‚die Asche der Schande‘ der semantische Abstand zwischen den Begriffen ‚Asche‘ und ‚Schande‘, bei modernen Metaphern besonders groß sei (Friedrich, 1992: 17f, 207). Harald Weinrich geht vom Gegenteil aus: „Gerade die Nahmetaphern sind befremdend und verfremdend und erscheinen uns kühn. Fernmetaphern sind ungefährlich.“ (Weinrich, 1963: 335)
+                    </item>
+                    <item>
+                        <hi rend="italic">Abstraktion vs. Konkretisierung:</hi> Eine weitere These Friedrichs lautet, dass in der Lyrik der Moderne besonders häufig Konkretes mit Abstraktem verbunden werde, etwa in Metaphern wie ‚der Schnee des Vergessens‘ (Friedrich, 1992: 205; Andreotti, 2014: 317). Gerhard Neumann konstatiert am Beispiel der Metaphorik Mallarmés ein „Zunehmen des konkreten Wortmaterials“ und ein „Untergehen der abstrakten Substantive“ (Neumann, 1970: 199), während Martin Anderle annimmt, dass gerade der Realismus in seiner Bildlichkeit zum “Gegenständliche[n]” tendiere, die Moderne hingegen zum “Metaphysischen” neige (Anderle, 1979: 77-79, Zitat 79).
+                    </item>
+                </list>
+                <p style="text-align: left; ">Unser Beitrag untersucht nur Genitivmetaphern (‚Das Lächeln der Natur‘ usw.); andere Formen, zum Beispiel Adjektivmetaphern (‘Die lächelnde Natur’ usw.), bleiben unberücksichtigt. Zumindest Hugo Friedrich ist allerdings der Auffassung, dass es sich bei Genitivmetaphern ohnehin um den häufigsten Typ von Metaphern in der (modernen) Lyrik handelt (Friedrich, 1992: 205). </p>
+                <p style="text-align: left; ">Im Normalfall der Genitivmetapher bezieht sich das 
+                    <hi rend="italic" xml:space="preserve">Kopfnomen </hi>auf den Ursprungsbereich der Metapher, in dem der Ausdruck im nicht-übertragenen Sinn verwendet wird, während das 
+                    <hi rend="italic">Genitivnomen</hi> sich auf den Zielbereich der übertragenen Rede bezieht. Das erste Nomen wird metaphorisch, das im Genitiv wörtlich verstanden (Skirl und Schwarz-Friesel, 2013: 22), z.B. „Lächeln der Natur“, „Feuermeer der Melodie“. Es können auch beide Nomen metaphorisch verwendet werden und gemeinsam auf einen Ursprungsbereich verweisen. Dies ist z.B. der Fall in „Und wenn es Abend ist, / Empfangen sie [die Menschen] den Tau der Gnadensonne“ (Franz Evers: Der Künstler), wo die Genitivmetapher „Tau der Gnadensonne“ sich auf das Alter der Menschen bezieht. Die Verse sind zugleich ein Beispiel dafür, dass in Gedichten Genitivmetaphern auch Teil einer umfassenderen Passage mit uneigentlicher Rede sein können, in diesem Fall einer Allegorie. 
+                </p>
+                <p style="text-align: left; ">Die hier untersuchten Phänomene (Metaphern in Genitivkonstruktionen) sind mithin nicht exakt identisch mit dem Gegenstand der literaturwissenschaftlichen Forschungsthesen (Metaphern im Allgemeinen), auch wenn man davon ausgehen darf, dass Aussagen über den einen Bereich ebenfalls relevant für den anderen Bereich sind. Eine weitere Relativierung betrifft das Untersuchungskorpus: Während sich sich die Forschungsaussagen in der Regel auf kanonisch-moderne sowie des Öfteren auf deutlich nach 1900 erschienene Gedichte beziehen, enthält das hier zu analysierende Korpus lediglich Texte der Jahrhundertwende um 1900 und damit der 
+                    <hi rend="italic">frühen</hi> Moderne, zudem umfasst es auch Texte von nicht-kanonischen Autoren und Autorinnen dieser Zeit.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ressourcen</head>
+                <p style="text-align: left; ">Die analysierten Gedichte stammen aus den 7 Anthologien des Realismus und den 13 Anthologien der Lyrik um 1900 mit insgesamt 6249 Texten, die wir im Rahmen des Projekts “The beginnings of modern poetry - Modeling literary history with text similarities” untersuchen. Bei den Anthologien um 1900 handelt es sich um Sammlungen, deren Herausgeber Gedichte aufgrund ihrer Modernität ausgewählt haben (siehe Tabelle 1).</p>
+                <table rend="rules">
+                    <head>Tab. 1: Korpus Statistik.</head>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default"/>
+                        <cell style="text-align: left;" rend="DH-Default">Anzahl Gedichte</cell>
+                        <cell style="text-align: left;" rend="DH-Default">Anzahl Wörter</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Realismus</cell>
+                        <cell style="text-align: left;" rend="DH-Default">3367</cell>
+                        <cell style="text-align: left;" rend="DH-Default">400k</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Moderne</cell>
+                        <cell style="text-align: left;" rend="DH-Default">2882</cell>
+                        <cell style="text-align: left;" rend="DH-Default">320k</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Insgesamt</cell>
+                        <cell style="text-align: left;" rend="DH-Default">6249</cell>
+                        <cell style="text-align: left;" rend="DH-Default">720k</cell>
+                    </row>
+                </table>
+                <p style="text-align: left; ">Aus diesem Korpus sind unter Verwendung von spaCy (Montani et al., 2021) 4300 Genitivkonstruktionen<ref target="ftn2" n="2"/> extrahiert worden. 
+                </p>
+                <p style="text-align: left; ">Drei Annotatoren haben Genitivkonstruktionen als metaphorisch oder nicht-metaphorisch annotiert. Annotiert wurden die beiden oben beschriebenen Formen von Genitivmetaphern, aber nur wenn sie in dem Muster 
+                    <hi rend="italic">Kopfnomen---Artikel---Nomen_im_Genitiv</hi> vorkommen (wir haben das Muster 
+                    <hi rend="italic">Nomen_im_Genitiv---Kopfnomen</hi> ignoriert). Während des Annotationsprozesses sind verschiedene Problemfälle aufgetreten. Zum Beispiel konnte die Abgrenzung der Metaphern von einer anderen Form uneigentlichen Sprechens, der Metonymie, herausfordernd sein. Zudem musste entschieden werden, ob eine Metapher im Untersuchungszeitraum über wiederholte Verwendung bereits so etabliert war, dass sie den Charakter des Metaphorischen im Sinn einer Übertragung verloren hatte. Potentiell lexikalisierte Genitivmetaphern (z.B. „Fuß des Berges“) haben wir manuell in Wörterbüchern der Zeit (Sanders, 1865; Heyne, 1895) nachgeschlagen und als metaphorisch markiert, wenn sie dort als Übertragung gekennzeichnet wurden. 
+                </p>
+                <table rend="rules">
+                    <head>Tab. 2: Zusammensetzung der Trainingsdaten.</head>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default"/>
+                        <cell style="text-align: left;" rend="DH-Default">Genitivkonstruktionen</cell>
+                        <cell style="text-align: left;" rend="DH-Default">davon Metaphern</cell>
+                        <cell style="text-align: left;" rend="DH-Default">davon keine Metaphern</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">
+                            <p style="text-align: left; ">Annotationen</p>
+                            <p style="text-align: left; ">Realismus</p>
+                        </cell>
+                        <cell style="text-align: left;" rend="DH-Default">317</cell>
+                        <cell style="text-align: left;" rend="DH-Default">176</cell>
+                        <cell style="text-align: left;" rend="DH-Default">141</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">
+                            <p style="text-align: left; ">Annotationen</p>
+                            <p style="text-align: left; ">Moderne</p>
+                        </cell>
+                        <cell style="text-align: left;" rend="DH-Default">308</cell>
+                        <cell style="text-align: left;" rend="DH-Default">132</cell>
+                        <cell style="text-align: left;" rend="DH-Default">176</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Vorstudie</cell>
+                        <cell style="text-align: left;" rend="DH-Default">285</cell>
+                        <cell style="text-align: left;" rend="DH-Default">173</cell>
+                        <cell style="text-align: left;" rend="DH-Default">112</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;" rend="DH-Default">Insgesamt</cell>
+                        <cell style="text-align: left;" rend="DH-Default">910</cell>
+                        <cell style="text-align: left;" rend="DH-Default">442</cell>
+                        <cell style="text-align: left;" rend="DH-Default">468</cell>
+                    </row>
+                </table>
+                <p style="text-align: left; ">Der annotierte Datensatz umfasst 625 Genitivkonstruktionen mit einem Agreement von 0.53<ref target="ftn3" n="3"/> und 285 weitere Beispiele aus einer Vorstudie (siehe Tabelle 2). Da für diese keine Zweitannotation zur Validierung vorliegt, werden sie ausschließlich zum Training, nicht zur Evaluation verwendet.
+                </p>
+                <p style="text-align: left; ">Für die automatische Metaphernerkennung verwenden wir neben den Annotationen ein deutsches Bert Model<ref target="ftn4" n="4"/> (Chan et al., 2020), ein FastText (Bojanowski et al., 2016) Embedding<ref target="ftn5" n="5"/>, trainiert auf dem deutschen Oscar Subkorpus (Open Super-large Crawled Aggregated coRpus, Ortiz Suárez et al., 2020), Supersense Wortlisten aus GermaNet<ref target="ftn6" n="6"/> und die in Köper und Schulte im Walde (2016) beschriebene Wortliste zu Abstraktheit, Vorstellbarkeit, Arousal und Valenz.
+                </p>
+                <figure>
+                    <graphic n="1001" width="13.958958333333333cm" height="6.4378cm" url="Pictures/1cc6332646b24557d48c52937fda6730.png" rend="inline"/>
+                    <head>Abb. 1: Schema des Systems zur Erkennung von Metaphern in Genitivkonstruktionen. KN: Kopfnomen; GN: Genitivnomen.</head>
+                </figure>
+                <p style="text-align: left; ">Die Erkennung der Metaphern geschieht in zwei Schritten. Im ersten Schritt werden regelbasiert Genitivkonstruktionen erkannt (siehe Ressourcen); im zweiten Schritt werden diese als ‘nicht-metaphorisch’ oder ‘metaphorisch’ klassifiziert. Das System zur Klassifikation von Genitivmetaphern setzt sich aus drei Komponenten zusammen: Supersenser, Affecter und Bert (siehe Abb. 1). Damit folgt der Aufbau dem in Tsvetkov et al. (2014) vorgestellten Ansatz Metaphern unter Berücksichtigung von Abstraktheit, Vorstellbarkeit und Wortklasse ihrer Komponenten zu klassifizieren. </p>
+                <p style="text-align: left; ">Das Training des Supersenser Moduls wird auf den FastText Vektoren der Wörter aus den 20 größten Supersense-Klassen für Substantive aus GermaNet durchgeführt. Diese werden durch überwachte Dimensionsreduktion (Szubert et al., 2019) in einen kleineren Raum mit 10 Dimensionen projiziert. Im Gegensatz zur direkten Verwendung von GermaNet als Eingabe in das System können so out-of-vocabulary Probleme vermieden werden. Außerdem wird durch die Projektion eine reichhaltigere Repräsentation erzeugt in der Supersense-Klassen in Beziehung gesetzt werden können. Eine Evaluation mittels kNN Klassifikation von Substantiven im projizierten Raum in ihre Supersense Klasse ergibt einen F-Score von 0.65.</p>
+                <p style="text-align: left; ">Das Affecter Modul erhält ebenfalls FastText Vektoren, sowie die zugehörigen Werte aus der Wortliste von Köper und Schulte im Walde (2016). Eine 4-fach Regression durch ein MLP erreicht R
+                    <hi rend="superscript" style="font-size:6.5pt">2</hi>: 0.86.
+                </p>
+                <p style="text-align: left; ">Für die Klassifikation von Metaphern werden die Ausgaben aus Supersenser und Affecter an ein nach (Gao et al., 2019) modifiziertes BERT Modell übergeben. Dieses reicht nicht nur das CLS-Token, sondern auch die Embeddings der Genitivkonstruktion weiter. Bei der Unterscheidung zwischen Metaphern und sonstigen Genitivkonstruktionen erreicht das System einen F1 Score von 0.75 (Details siehe Tabelle 3). Die Klassifikation von Metaphern aus dem Realismus wird zwar leicht besser evaluiert als die aus den modernen Anthologien, der Effekt ist für die weitere Analyse aber vernachlässigbar.</p>
+            <figure>
+                <head>Tab. 3: Evaluation der Metaphern Klassifikation</head>
+                <graphic n="1002" width="16cm" height="6cm" url="Pictures/dhd2022_05.png" rend="inline"/>
+            </figure>                   
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ergebnisse</head>
+                <p style="text-align: left; ">Es gibt keinen Unterschied zwischen den Epochen in Hinsicht auf die Menge der Genitivkonstruktionen und den Anteil der Metaphern daran. Die These von der größeren Heterogenität und Individualität der modernen Metaphern haben wir mit zwei Operationalisierungen untersucht: Nimmt der Anteil an seltenen Wörtern zu und steigt der Type-Token-Ratio bei Metaphern der Moderne? Den Anteil der seltenen Wörter haben wir mit einem einfachen Verfahren überprüft, nämlich ob die Token im Wordembedding enthalten sind; wenn nicht, wurden sie als ‘seltene Wörter’ identifiziert. Solche Wörter sind in der Lyrik häufig, zumeist handelt es sich um Komposita oder um Schreibvarianten aufgrund der Anpassung ans Metrum. Die Verwendung solcher seltenen Wörter ist auch schon im Realismus häufig: 26%, findet sich aber noch einmal häufiger in der Moderne 33%.</p>
+                <p style="text-align: left; ">Wir haben den Type-Token-Ratio beider Bestandteile der Genitivmetaphern jeder Epoche untersucht und können auch hier einen signifikanten Unterschied feststellen: Bei den Metaphern der Moderne ist die Variabilität des Wortmaterials deutlich größer (siehe Abb. 2 und 3).</p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="9.045222222222222cm" url="Pictures/653bd7aeb0a1a3ff6834edeb7ad09da2.png" rend="inline"/>
+                    <head>Abb. 2: Variabiltät (sttr) der Genitivnomina nach Epoche.</head>
+                </figure>
+                <figure>
+                    <graphic n="1004" width="16.002033333333333cm" height="9.042419444444445cm" url="Pictures/962faa5dae7381e0d3890abea40360a7.png" rend="inline"/>
+                    <head>Abb. 3: Variabiltät (sttr) der Kopfnomina nach Epoche.</head>
+                </figure>
+                <p style="text-align: left; ">Insgesamt können wir also den Eindruck bestätigen, dass die Metaphern der Moderne -- und das noch vor dem Expressionismus -- heterogener und individueller sind.</p>
+                <p style="text-align: left; ">Die These zur Vergrößerung bzw. Verkleinerung der Bildspanne in den Metaphern haben wir überprüft, indem wir den Kosinusabstand der Substantive im FastText-Wordembedding gemessen haben. Wie Abb. 4 zeigt, hat der Abstand weder zu- noch abgenommen.</p>
+                <figure>
+                    <graphic n="1005" width="16.002cm" height="9.154583333333333cm" url="Pictures/38e7e17c913a960cdc635e6336a4f7b8.png" rend="inline"/>
+                    <head>Abb. 4: Kosinusdistanz der Wordvektoren (fastText) der Metapherkomponenten nach Epoche.</head>
+                </figure>
+                <p style="text-align: left; ">Die These, dass in der Moderne der Abstand zwischen den Nomina einer Genitivmetapher in Hinsicht auf die Abstraktheit zugenommen hat, haben wir mit den Abstraktheits-Werten überprüft, die das oben dargestellten Affecter-Moduls vorhergesagt hat (siehe Abb. 5), ebenso wie die These, dass die Moderne insgesamt zu abstrakteren (oder gerade zu weniger abstrakten) Metaphern neigt.</p>
+                <figure>
+                    <graphic n="1006" width="15.527513888888889cm" height="8.791222222222222cm" url="Pictures/48faf7aae2b5a7d9b85491f78ab5546a.png" rend="inline"/>
+                    <head>Abb. 5: Differenz der Abstraktheit in Metaphern. Formel: Abstraktheit der Kopfnomina - Abstraktheit des Genitivnomina. Hoher Wert: Demut der Finger, Reiz der Schale; Niedriger Wert: Krone des Strebens, Baum der Weisheit. Datengrundlage: 100 Zufallsstichproben mit je 200 Metaphern.</head>
+                </figure>
+                <p style="text-align: left; ">Die Forschungsthesen lassen sich durch unsere Daten nicht bestätigen: Weder verändert sich das Level der durchschnittlichen Abstraktheit oder Konkretheit noch die 
+                    <hi rend="italic">Differenz</hi> der Abstraktheit-Werte wesentlich. Allerdings kann man einen andersartigen (schwachen, aber signifikanten<ref target="ftn7" n="7"/>) Trend beobachten: Abb. 5 zeigt, dass in der Lyrik des Realismus ein leichtes Übergewicht von Metaphern des Typs konkret-abstrakt (“Wasser der Vergessenheit” usw.), in der Moderne hingegen ein leichtes Übergewicht des Typs abstrakt-konkret (“Demut der Finger” usw.) zu beobachten ist. Wie sich diese Metaphern auf Autorinnen und Autoren verteilen, wird in Zukunft genauer zu untersuchen sein. Die folgende Liste zeigt die Metaphern mit der größten Abstraktheit-Differenz: konkret-abstrakt: “Zweig der Pflicht”, “Felsen der Gerechtigkeit”, “Knospe der Hoffnung”, “Blüten des Geistes”, “Becher der Lust” . Abstrakt-konkret: “Forderung des Meeres”, “Lustgetön der Wälder”, “Geist der Taube”, “Zeit der Rose”, “Glorie der Flammen”.
+                </p>
+                <p style="text-align: left; ">Ein Blick auf die beliebtesten Wörter der Metaphern, getrennt nach der Verwendung in der Kopfposition oder im Genitiv, zeigt einige interessante Verschiebungen. Bei den Kopfnomina hat ‘Meer’ eine steile Karriere von Rang 10 auf Rang 1 gemacht, während ‘Hauch’, ‘Geist’ und ‘Traum’ deutlich weniger verwendet werden (siehe Abb. 6). Insgesamt sind die Wiederholungen bei den Kopfnomina weniger häufig und sie nehmen in der Moderne noch ab.</p>
+                <figure>
+                    <graphic n="1007" width="15.527513888888889cm" height="7.752291666666666cm" url="Pictures/b74529ad8ca3e84f18cedf30119257d1.png" rend="inline"/>
+                    <head>Abb. 6: Kopfnomina Realismus und Moderne.</head>
+                </figure>
+                <p style="text-align: left; ">Die Genitivnomina (Abb. 7) dagegen zeichnen sich durch zahlreiche Wiederholungen aus, allerdings nimmt auch hier die Frequenz in der Moderne ab. Auffällig ist, wie stabil die Wortlisten in den oberen Rängen sind, mit der Ausnahme von “Glücks” und “Todes”, die in der Moderne deutlich häufiger werden.</p>
+                <figure>
+                    <graphic n="1008" width="15.527513888888889cm" height="7.752291666666666cm" url="Pictures/4a1c0c1e2a0bcdfac46f9fbad320185d.png" rend="inline"/>
+                    <head>Abb. 7: Genitivnomina Realismus und Moderne.</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p style="text-align: left; ">Insgesamt konnten wir einige der von der Literaturwissenschaft aufgestellten Vermutungen bestätigen, z. B. dass die Komplexität der Metaphern in der Moderne ansteigt. Da viele der Forschungsthesen für die Moderne insgesamt formuliert wurden, müssen wir allerdings dort, wo wir diese nicht bestätigen konnten, es zumindest offen halten, ob sie nicht auf spätere Phasen zutreffen. Allerdings deuten wir unsere Befunde doch so, dass die bisherige Forschung den Bruch zwischen den Epochen deutlich überbetont hat. Unsere Ergebnisse weisen vielmehr darauf hin, dass es sich um eine semantische Evolution handelt. Die hier dargestellten Ergebnisse sollen außerdem in Zukunft noch verbessert werden, indem die regelbasierte Erkennung der Genitivkonstruktionen auf eine bessere Grundlage gestellt wird: Da wir zur Zeit kein Korpus an Gedichten haben, in dem alle Genitivmetaphern annotiert sind, können wir den Recall nicht einschätzen. Außerdem soll ein umfassendes Korpus aus Texten des 19. Jahrhundert das Training eines domänenangepassten Fasttext-Modells ermöglichen, das historisch angemessenere semantische Distanzen zurückgibt. Nicht zuletzt soll auch die Erkennungsgenauigkeit des Systems zur Erkennung der Metaphern durch eine Vergrößerung des Trainingskorpus, durch eine aufwendigere Hyperparameter-Optimierung und durch Arbeit an der Architektur verbessert werden. Ein etwas anspruchsvolleres Ziel besteht außerdem in dem Versuch, die Typisierung der Metaphern auf eine andere Grundlage zu stellen, etwa durch Anschluss an die Kategorien linguistischer Metapherntheorien oder an große Ontologien. Nicht zuletzt werden wir untersuchen, wo die kanonisierten Lyriker dieser Zeit, George, Hofmannsthal, Holz und Rilke, stehen.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Wir werden im Folgenden abkürzend immer von ‘Moderne’ sprechen, meinen aber die Anfänge der Moderne um 1900, denn aus dieser Zeit stammen die Anthologien, deren Gedichte wir untersuchen.</note><note place="foot" xml:id="ftn2" n="2"> Unter diesen 4300 Konstruktionen finden sich 3784 echte Genitivkonstruktionen (true positives) und 516 sonstige Konstruktionen (false positives), was einer Precision von 0.88 entspricht. Über den Recall kann keine Auskunft gegeben werden, da keine Genitivkonstruktionen direkt im Text annotiert worden sind.</note><note place="foot" xml:id="ftn3" n="3"> Cohens Kappa</note><note place="foot" xml:id="ftn4" n="4"> https://huggingface.co/deepset/gbert-large</note><note place="foot" xml:id="ftn5" n="5"> Code und Material: https://github.com/LeKonArD/DHd2022_Metaphern</note><note place="foot" xml:id="ftn6" n="6"> Version 16</note><note place="foot" xml:id="ftn7" n="7"> t-Test für unabhängige Stichproben: p &lt; .001</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Anderle, Martin</hi> (1979): 
+                        <hi rend="italic">Deutsche Lyrik des 19. Jahrhunderts: Ihre Bildlichkeit: Metapher – Symbol – Evokation</hi>.volume Bd 287. Bouvier, Bonn.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Andreotti, Mario</hi> (2014): 
+                        <hi rend="italic">Die Struktur der modernen Literatur: Neue Wege in die Textanalyse. Einführung Epik und Lyrik</hi>.volume 1127. Wien/Köln/Weimar, 5. Auflage.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bojanowski, Piotre / Grave, Edouard / Joulin, Armand / Mikolov, Tomas</hi>: (2016): Enriching Word Vectors with Subword Information. 
+                        <hi rend="italic">arXiv:1607.04606 [cs]</hi>, July. arXiv: 1607.04606.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Chan, Braden / Schweter, Stefan / Möller,Timo</hi> (2020): German’s Next Language Model. 
+                        <hi rend="italic">arXiv:2010.10906 [cs]</hi>, December. arXiv: 2010.10906.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Friedrich, Hugo</hi> (1992): 
+                        <hi rend="italic">Die Struktur der modernen Lyrik. Von der Mitte des neunzehnten bis zur Mitte des zwanzigsten Jahrhunderts</hi>. Rohwolt, Hamburg.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Gao, Zhengjie / Feng, Ao / Song, Xinyu / Wu, Xi</hi> (2019): Target-Dependent Sentiment Classification With BERT. 
+                        <hi rend="italic">IEEE Access</hi>, 7:154290–154299.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Heyne, Moriz</hi> (1895): 
+                        <hi rend="italic">Deutsches Wörterbuch</hi>. Hirzel, Leipzig.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Köper, Maximilian / Schulte im Walde, Sabine</hi> (2016): Automatically Generated Affective Norms of Abstractness, Arousal, Imageability and Valence for 350 000 {G}erman Lemmas. In S. 2595–2598, Portorož, Slovenia. ERLA.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Lamping, Dieter</hi> (2008): 
+                        <hi rend="italic">Moderne Lyrik. Eine Einführung</hi>. Göttingen, 2. Aufl. edition.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Lamping, Dieter</hi> (2010): 
+                        <hi rend="italic">Das lyrische Gedicht. Definitionen zu Theorie und Geschichte der Gattung.</hi> Vandenhoeck &amp; Ruprecht, Göttingen, 3rd edition.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Montani, Ines / Honnibal, Matthew</hi> (2021): 
+                        <hi rend="italic">explosion/spaCy: v3.1.0: New pipelines for Catalan &amp; Danish, SpanCategorizer for arbitrary overlapping spans, use predicted annotations during training, bug fixes &amp; more</hi>. Zenodo, July.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Neumann, Gerhard</hi> (1970) Die ‚Absolute‘ Metapher. Ein Abgrenzungsversuch am Beispiel Stéphane Mallarmés und Paul Celans. 
+                        <hi rend="italic">Poetica</hi>, 3(1):188–249.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ortiz Suárez, Pedro Javier / Romary, Laurent / Sagot, Benoît</hi> (2020): A Monolingual Approach to Contextualized Word Embeddings for Mid-Resource Languages. In 
+                        <hi rend="italic">Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</hi>, S. 1703–1714, Online. Association for Computational Linguistics.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Sanders, Daniel</hi> (1865): 
+                        <hi rend="italic">Wörterbuch der Deutschen Sprache. Mit Belegen von Luther bis auf die Gegenwart</hi>. Wigand, Leipzig, 3rd edition.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Skirl, Helge / Schwarz-Friesel, Monika </hi>(2013): 
+                        <hi rend="italic">Metapher</hi>. Winter, Heidelberg, 2nd edition.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Specht, Benjamin</hi> (2014): Epoche und Metapher Systematik und Geschichte kultureller Bildlichkeit. Einleitung. In Benjamin Specht, editor, 
+                        <hi rend="italic">Epoche und Metapher</hi>, S. 1–22. DE GRUYTER, Berlin, Boston.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Specht, Benjamin</hi> (2017): 
+                        <hi rend="italic">Wurzel allen Denkens und Redens. Die Metapher in Wissenschaft, Weltanschauung, Poetik und Lyrik um 1900</hi>. Winter, Heidelberg.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Stockinger, Claudia</hi> (2010): 
+                        <hi rend="italic">Das 19. Jahrhundert. Zeitalter des Realismus</hi>. Berlin.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Szubert, Benjamin / Cole, Jennifer / Monaco, Claudia / Drozdov, Ignat</hi> (2019): Structure-preserving visualisation of high dimensional single-cell datasets. 
+                        <hi rend="italic">Scientific Reports</hi>, 9(1):8914.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Tsvetkov, Yulia / Boytsov , Leonid / Gershman, Anatole / Nyberg, Eric / Dyer, Chris</hi> (2014): Metaphor Detection with Cross-Lingual Model Transfer. In 
+                        <hi rend="italic">Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</hi>, S. 248–258, Baltimore, Maryland. Association for Computational Linguistics.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Weinrich, Harald </hi>(1963): Semantik der kühnen Metapher. 
+                        <hi rend="italic">Deutsche Vierteljahrsschrift für Literaturwissenschaft und Geistesgeschichte</hi>, 37:325–344.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

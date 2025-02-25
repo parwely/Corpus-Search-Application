@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_284">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Das optimale Datenmodell</title>
+                <title type="sub">Eine Spurensuche im Möglichkeitsfeld der Kodierung</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Saric</surname>
+                        <forename>Sanja</forename>
+                    </persName>
+                    <affiliation>Institut Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities, Universität Graz, Österreich; Institut für Sprachwissenschaft, Universität Graz, Österreich</affiliation>
+                    <email>sanja.saric@uni-graz.at</email>
+                <idno type="ORCID">0000-0002-0802-6999</idno></author>
+                <author>
+                    <persName>
+                        <surname>Steiner</surname>
+                        <forename>Elisabeth</forename>
+                    </persName>
+                    <affiliation>Institut Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities, Universität Graz, Österreich</affiliation>
+                    <email>elisabeth.steiner@uni-graz.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Vogeltanz</surname>
+                        <forename>Maximilian</forename>
+                    </persName>
+                    <affiliation>Institut für Sprachwissenschaft, Universität Graz, Österreich</affiliation>
+                    <email>maximilian.vogeltanz@uni-graz.at</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-15T13:48:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Datenmodellierung</term>
+                    <term>Kodierungsrichtlinien</term>
+                    <term>Interoperabilität</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Umwandlung</term>
+                    <term>Gestaltung</term>
+                    <term>Modellierung</term>
+                    <term>Archivierung</term>
+                    <term>Daten</term>
+                    <term>Metadaten</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">284</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align: left; ">Zu Beginn jedes neuen Projektes in den Digitalen Geisteswissenschaften steht die Frage nach der adäquaten Modellierung der Forschungsdaten. Während im Förderansuchen häufig die Nennung von XML/TEI-Kodierung für Textquellen ausreichend ist, stellt sich die praktische Arbeit meist komplizierter dar: Schon die TEI (TEI Consortium 2021) bietet zahlreiche Möglichkeiten, ähnliche Sachverhalte zu annotieren und die gewählte Strategie muss dabei auf das Material, die Forschungsfrage sowie die Archivierung und Weiterverwendung der Daten Rücksicht nehmen.</p>
+                <p style="text-align: left; ">Der vorliegende Beitrag stellt die Herausforderungen und Lösungsansätze anhand der Briefkorrespondenz von Hugo Schuchardt vor. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Herausforderung bestmögliche Kodierung</head>
+                <p style="text-align: left; ">Ein Modellierungsansatz erfasst die untersuchten Merkmale möglichst genau und standardisiert in einem anerkannten Schema; berücksichtigt Referenzimplementationen und 
+                    <hi rend="italic">best practice</hi>-Guidelines; bezieht fachspezifische Vokabularien und Normdaten mit ein; versieht die Daten bereits im Entstehungsprozess mit Metadaten für die Weiterverwendung. Viele dieser Punkte sind ebenfalls Grundpfeiler der FAIR-Datenprinzipien (Wilkinson et al. 2016). In der Projektarbeit begrenzen jedoch oft verfügbare Zeit- und Personalressourcen die Umsetzbarkeit aller Aspekte, was notgedrungen zu Kompromissen führt. Zusätzlich konkurriert das Bedürfnis, projektspezifische Merkmale zu berücksichtigen, mit dem Anspruch an Vergleichbarkeit und Standardisierung. Trotzdem ist gerade die Interoperabilität zentral für die Nachhaltigkeit der Forschungsdaten.
+                </p>
+                <p style="text-align: left; ">Diese Herausforderungen stellten sich auch im 
+                    <hi rend="italic">Hugo Schuchardt Archiv</hi> (Hurch 2007-), einem langjährigen Vorhaben des Instituts für Sprachwissenschaft der Universität Graz. Im Mittelpunkt einer Kooperation mit dem Institut Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities (ZIM-ACDH) steht die Migration aller Ressourcen vom Institut für Sprachwissenschaft in das Repositorium GAMS, um die Korrespondenz und andere Dokumente aus dem Nachlass zu archivieren.<ref target="ftn1" n="1"/>
+                </p>
+                <p style="text-align: left; ">Daher tritt zu den genannten Faktoren ein weiterer hinzu: die Berücksichtigung von Legacy-Daten. Anpassungen an das neue TEI-Modell konnten zwar teilweise automatisch durchgeführt werden, stoßen aber an Grenzen. Manuelle Anpassungen sind jedoch aufgrund des Umfanges von mehreren Tausend Briefen nur eingeschränkt möglich. Dieses Kompatibilitätsproblem tritt einerseits auf technischer Ebene in Erscheinung, wo alle Daten gegen ein einheitliches ODD-Schema validiert werden sollen, andererseits aber ebenso auf inhaltlicher Ebene, was beispielsweise die Strukturierung des Schlagwortthesaurus betrifft. </p>
+                <p style="text-align: left; ">Für die TEI-Annotation der Korrespondenzdaten drängen sich die Empfehlungen der 
+                    <hi rend="italic">SIG Correspondence</hi> und die entsprechende Weiterverarbeitung im CMI-Format (Dumont et al. 2019) auf, um den Zugriff über 
+                    <hi rend="italic">correspSearch</hi> (Dumont 2016 und Dumont/Grabsch/Müller-Laackman 2021) zu ermöglichen. Als Referenzimplementationen wurden die Briefeditionen der BBAW (insbesondere die beiden Humboldt-Editionen von Ette et al. 2020 und BBAW 2021) konsultiert. Für den Brieftext wurde Kompatibilität mit dem DTA-Basisformat (DTABf) angestrebt. Normdaten und Vokabulare wurden einerseits aus den in Vorarbeiten aufgebauten Thesauri bezogen, andererseits aus 
+                    <hi rend="italic">authority files</hi> wie VIAF, GND und 
+                    <hi rend="italic">GeoNames</hi>. Das ZIM-ACDH versucht durch interne Kodierungsrichtlinien für den TEI-Header einen Grundstock an Metadaten zu erzeugen, der in weiterer Folge für die Langzeitarchivierung in weitere Standards umgewandelt werden kann. Unter zusätzlicher Berücksichtigung der Legacy-Daten ergab die Zusammenwirkung dieser Anforderungen bereits mehrere Konflikte in der Annotation. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Lösungsansätze</head>
+                <p style="text-align: left; ">Das Abstimmen verschiedener Anforderungen und der Abgleich mit den vorhandenen Daten nahm erhebliche Zeit in Anspruch. Danach wurde evaluiert, wo eine automatische Anpassung der Altdaten vertretbar ist und wo sich das ODD-Schema den Daten anpassen muss. Schließlich wurden die Konflikte in den unterschiedlichen Kodierungsvarianten besprochen und versucht, die passendste Lösung zu finden. Dieser Prozess mündete in einem Schema, das die gewünschten Eigenschaften vereinte, aber notgedrungen Abweichungen zu den Ausgangsschemata enthielt. Um diesen Schwachpunkt zu entschärfen, wurde versucht, sowohl die Abweichungen wie auch die Gründe dafür innerhalb und außerhalb des Schemas zu dokumentieren. Dies dient nicht nur in der Erfassung als Referenz für unterschiedliche BearbeiterInnen, sondern gewinnt vor allem in der erhofften Weiternutzung der Daten durch Dritte an Bedeutung. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zusammenfassung und Ergebnisse</head>
+                <p style="text-align: left; ">Der Prozess der Datenmodellierung muss zahlreiche Einflussgrößen berücksichtigen, wie am Beispiel des 
+                    <hi rend="italic">Hugo Schuchardt Archivs</hi> illustriert wurde. Dieser Prozess beinhaltet immer kritische Entscheidungen und Kompromisse, die sich aus dem Material, aber auch durch eingeschränkte Zeit- und Personalressourcen ergeben. Die Frage nach der bestmöglichen Kodierung kann daher nicht allgemeingültig beantwortet werden, vielmehr muss sie individualisiert betrachtet werden. Trotzdem können konstituierende Eigenschaften für eine 
+                    <hi rend="italic">gute</hi> Annotationspraxis beobachtet werden: sie sollte gut dokumentiert sein und unter der Berücksichtigung von FAIR-Data die Weiterverwendung erlauben. Gerade dem Aspekt der Metadaten, die für die Archivierung und Aggregation nach dem Ende des befristeten Projektes zentral sind, wird zu Beginn oft wenig Beachtung geschenkt. Für die nachhaltige Weiternutzung der Daten im wissenschaftlichen Kontext stellt dies jedoch einen essenziellen Bestandteil dar. In diesem Sinne sollte auch die Interoperabilität mit ähnlichen Ressourcen als Faktor bei Kodierungsentscheidungen in Betracht gezogen werden.
+                </p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Das Hugo Schuchardt Archiv wurde von zahlreichen Fördergebern berücksichtigt, hervorzuheben sind die letzten FWF-Projekte „Netzwerk des Wissens“ (P 24400, Bernhard Hurch 2012–2016) und „Philingk: Verlinktes Wissen zur Fachgeschichte“ (I 5076, Ursula Bähler und Bernhard Hurch 2021–2023).</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" style="font-size:10pt">Berlin-Brandenburgischen Akademie der Wissenschaften</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2011–2020): </hi>
+                        <hi rend="italic" style="font-size:10pt">DTABf. Deutsches Textarchiv – Basisformat</hi>
+                        <hi style="font-size:10pt">. http://deutschestextarchiv.de/doku/basisformat [letzter Zugriff 15. Juli 2021].</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" style="font-size:10pt">Berlin-Brandenburgischen Akademie der Wissenschaften</hi>
+                        <hi rend="italic" xml:space="preserve"> </hi>
+                        <hi style="font-size:10pt" xml:space="preserve">(2021): </hi>
+                        <hi rend="italic">Wilhelm von Humboldt: Sprachwissenschaftliche Korrespondenz. </hi>
+                        <hi style="font-size:10pt">https://wvh-briefe.bbaw.de [letzter Zugriff 15. Juli 2021].</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" style="font-size:10pt">Dumont, Stefan</hi>
+                        <hi style="font-size:10pt">(2016):</hi>
+                        <hi rend="italic">"</hi>
+                        <hi style="font-size:10pt">correspSearch – Connecting Scholarly Editions of Letters</hi>
+                        <hi rend="italic">"</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> in: </hi>
+                        <hi rend="italic" style="font-size:10pt">Journal of the Text Encoding Initiative</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> 10. </hi>
+                        <ref target="https://doi.org/10.4000/jtei.1742">
+                            <hi style="font-size:10pt">https://doi.org/10.4000/jtei.1742</hi>
+                        </ref>
+                        <hi style="font-size:10pt">[letzter Zugriff 15. Juli 2021].</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" style="font-size:10pt">Dumont, Stefan / Börner, Ingo / Müller-Laackmann, Jonas / Leipold, Dominik / Schneider, Gerlinde</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">(2019): "Correspondence Metadata Interchange Format (CMIF)" in: Dumont, Stefan / Haaf, Susanne / Seifert Sabine (eds.):  </hi>
+                        <hi rend="italic" style="font-size:10pt">Encoding Correspondence. A Manual for Encoding Letters and Postcards in TEI-XML and DTABf</hi>
+                        <hi style="font-size:10pt">. Berlin. https://encoding-correspondence.bbaw.de/v1/CMIF.html [letzter Zugriff 15. Juli 2021].</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" style="font-size:10pt">Dumont, Stefan / Grabsch, Sascha / Müller-Laackman, Jonas</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2021):</hi>
+                        <hi rend="italic" style="font-size:10pt">correspSearch – Briefeditionen vernetzen</hi>
+                        <hi style="font-size:10pt">. Version 2.0.0. Berlin-Brandenburgische Akademie der Wissenschaften. https://correspSearch.net [letzter Zugriff 15. Juli 2021].</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" style="font-size:10pt">Ette, Ottmar</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> et al. (2020): </hi>
+                        <hi rend="italic" style="font-size:10pt">edition humboldt digital</hi>
+                        <hi style="font-size:10pt">. Berlin-Brandenburgische Akademie der Wissenschaften. Version 6. https://edition-humboldt.de [letzter Zugriff 15. Juli 2021].</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" style="font-size:10pt" xml:space="preserve">Hurch, Bernhard </hi>
+                        <hi style="font-size:10pt">(2007</hi>–
+                        <hi style="font-size:10pt">):</hi>
+                        <hi rend="italic" style="font-size:10pt" xml:space="preserve"> Hugo Schuchardt Archiv</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">. </hi>
+                        <ref target="http://schuchardt.uni-graz.at">
+                            <hi style="font-size:10pt">http://schuchardt.uni-graz.at</hi>
+                        </ref>
+                        <hi style="font-size:10pt">[letzter Zugriff 15. Juli 2021].</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" style="font-size:10pt">Institut Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2021): </hi>
+                        <hi rend="italic" style="font-size:10pt">Geisteswissenschaftliches Asset Management System (GAMS).</hi>
+                        <hi style="font-size:10pt">https://gams.uni-graz.at [letzter Zugriff 15. Juli 2021].</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" style="font-size:10pt">Steiner, Elisabeth / Stigler, Johannes</hi>
+                        <hi style="font-size:10pt">(2018):</hi>
+                        <hi rend="italic">"</hi>
+                        <hi style="font-size:10pt">GAMS – Eine Infrastruktur zur Langzeitarchivierung und Publikation geisteswissenschaftlicher Forschungsdaten</hi>
+                        <hi rend="italic">"</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">. In: </hi>
+                        <hi rend="italic" style="font-size:10pt">Mitteilungen der Vereinigung Österreichischer Bibliothekarinnen und Bibliothekare</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> 71: 207–216.</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" style="font-size:10pt">TEI Consortium</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2021): </hi>
+                        <hi rend="italic" style="font-size:10pt">TEI P5: Guidelines for Electronic Text Encoding and Interchange</hi>
+                        <hi style="font-size:10pt">. Version 4.2.2. https://tei-c.org [letzter Zugriff 15. Juli 2021].</hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" style="font-size:10pt">Wilkinson, Mark D.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> et al. (2016): </hi>
+                        <hi rend="italic">"</hi>
+                        <hi style="font-size:10pt">The FAIR Guiding Principles for scientific data management and stewardship</hi>
+                        <hi rend="italic">"</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> in:</hi>
+                        <hi rend="italic" style="font-size:10pt">Sci. Data</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> 3:160018. </hi>
+                        <ref target="https://doi.org/10.1038/sdata.2016.18">
+                            <hi style="font-size:10pt">https://doi.org/10.1038/sdata.2016.18</hi>
+                        </ref>
+                        <hi style="font-size:10pt">[letzter Zugriff 15. Juli 2021].</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

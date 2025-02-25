@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<TEI>
+<head>
+<title>some title</title>
+</head>
+<text>This is a<br/> text <p>with some <bla blubb="hall0">embedded</bla> tags</p>.</text>
+</TEI>

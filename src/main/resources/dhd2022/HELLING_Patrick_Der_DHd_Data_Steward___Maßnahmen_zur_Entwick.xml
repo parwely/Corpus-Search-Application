@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_139">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Der DHd Data Steward</title>
+                <title type="sub">Maßnahmen zur Entwicklung einer nachhaltigen Datenstrategie für die Digital Humanities im deutschsprachigen Raum</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Borges</surname>
+                        <forename>Rebekka</forename>
+                    </persName>
+                    <affiliation>Rheinische Friedrich-Wilhelms-Universität Bonn, Deutschland</affiliation>
+                    <email>RebekkaBorges@gmx.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Debbeler</surname>
+                        <forename>Anke</forename>
+                    </persName>
+                    <affiliation>Data Center for the Humanites (DCH), Universität zu Köln, Deutschland</affiliation>
+                    <email>adebbel1@uni-koeln.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Helling</surname>
+                        <forename>Patrick</forename>
+                    </persName>
+                    <affiliation>Data Center for the Humanites (DCH), Universität zu Köln, Deutschland</affiliation>
+                    <email>patrick.helling@uni-koeln.de</email>
+                <idno type="ORCID">0000-0003-4043-165X</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-14T12:16:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Forschungsdatenmanagement</term>
+                    <term>FDM</term>
+                    <term>Data Steward</term>
+                    <term>Datenstrategie</term>
+                    <term>Publikation</term>
+                    <term>Archvierung</term>
+                    <term>Veröffentlichung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Archivierung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Daten</term>
+                    <term>Forschungsergebnis</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">139</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Der DHd Data Steward</head>
+                <p style="text-align: left; ">Mit der Ernennung eines Data Stewards hat der Verband Digital Humanities im deutschsprachigen Raum e.V. (DHd) auf der Jahreskonferenz 2020 in Paderborn eine Funktion geschaffen, um eine umfassende Datenstrategie für alle Materialien, Publikationen und Ergebnisse, die im Kontext des DHd-Verbandes entstanden sind/entstehen werden, zu entwickeln.<ref target="ftn1" n="1"/> Sie sollen im Sinne der FAIR-Prinzipien (Wilkinson et al. 2016) (1) langfristig gesichert und archiviert als auch (2) nach Möglichkeit nachhaltig publiziert und verfügbar gemacht werden.
+                </p>
+                <p style="text-align: left; ">Mit diesem Posterbeitrag soll die bisherige Arbeit des DHd Data Stewards präsentiert sowie ein Blick in die Datenzukunft des Verbandes gegeben werden. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Materialien der DHd-Konferenzen </head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Langfristige Verfügbarkeit von DHd-Konferenzwebsites</head>
+                    <p style="text-align: left; ">Einen zentralen Gegenstand und Zugangspunkt einer DHd-Jahreskonferenz stellt die Konferenzwebsite dar. Die Erstellung und das Hosting werden von den lokalen Organisator*innen übernommen. Nach einer Konferenz fehlt es häufig an notwendigen Mitteln für den langfristigen Betrieb dieser Konferenzwebsites.</p>
+                    <p style="text-align: left; ">Zur Gewährleistung einer dauerhaften Erreichbarkeit wurde damit begonnen, statische HTML-Versionen einzelner Konferenzwebsites zu erzeugen, um mögliche technische Abhängigkeiten aufzulösen und den Kurationsaufwand herunterzufahren. Mit einem Umzug auf die technische Infrastruktur der Alliance of Digital Humanities Organizations (ADHO) sollen die Konferenzwebsites langfristig als Unterseite der Verbandswebsite bereitgestellt.<ref target="ftn2" n="2"/>
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Nachhaltige Publikation aller einzelnen DHd-Beiträge</head>
+                    <p style="text-align: left; ">Das Book of Abstracts einer Jahreskonferenz stellt ein wichtiges Publikationsinstrument dar. Seit 2016 wurden die Book of Abstracts via Zenodo publiziert (siehe Burr 2017; Stolz 2017; Vogeler 2018; Sahle 2019; Schöch 2020). Für die erste DHd-Jahreskonferenz 2014 wurde kein Book of Abstracts publiziert. Die Beiträge zur DHd-Jahreskonferenz 2015 sind als PDF-Datei über die Konferenzwebsite verfügbar (siehe Stiegler 2015). </p>
+                    <p style="text-align: left; ">Wenngleich die Books of Abstracts ein wichtiges Schaufenster der deutschsprachigen Digital Humanities (Sahle 2019; Schöch 2020) sind, ermöglichen sie weder eine eindeutige Zitierbarkeit einzelner Beiträge noch ihre Erfassung in digitalen Katalogen. Potentiale und Lösungsansätze zum Umgang mit DHd-Beiträgen wurden bereits in verschiedenen Formaten community-getrieben adressiert (Cremer 2018; Andofer 2019: Andorfer et al. 2019; Lordick 2020; Steyer et al. 2020).</p>
+                    <p style="text-align: left; ">Um die DHd-Beiträge einzeln zitierbar zu veröffentlichen, wurden alle Beiträge gesammelt: </p>
+                    <list type="unordered">
+                        <item>2016, 2018-2020: TEI-Dateien via GitHub
+                            <ref target="ftn3" n="3"/>
+                        </item>
+                        <item>2017: TEI-Dateien von lokalen Organisator*innen</item>
+                        <item>2015: gesammelte PDF-Datei von lokalen Organisator*innen</item>
+                        <item>2014: gesammelte, unvollständige PDF-Datei von lokalen Organisator*innen + weitere Beiträge durch Autor*innen als PDF- und Word-Dateien</item>
+                    </list>
+                    <p style="text-align: left; ">Zur Erstellung einzelner PDF-Dateien zu jedem Abstract wurde für die Jahrgänge 2016-2020 auf bestehende Transformationsskripte zur Erstellung von Book of Abstracts aus TEI-Dateien zurückgegriffen.<ref target="ftn4" n="4"/> Die Skripte wurden angepasst, um für jedes Abstract einzeln eine PDF-Datei zu generieren.<ref target="ftn5" n="5"/>
+                    </p>
+                    <p style="text-align: left; ">Zur persistenten Publikation der DHd-Beiträge wurde das generische Online-Repositorium Zenodo gewählt.<ref target="ftn6" n="6"/> Hier wird bereits seit 2019 eine DHd-Community als zentraler Publikationsort kuratiert.<ref target="ftn7" n="7"/>
+                    </p>
+                    <p style="text-align: left; ">Mit Hilfe weiterer XSL-Transformationsskripte wurden für die Jahrgänge 2016-2020 jeweils eine Konferenz-Metadatendatei generiert, die dem DataCite-Schema und den Anforderungen von Zenodo entspricht (siehe 
+                        <anchor xml:id="Hlk76717581"/>Abb. 1).<ref target="ftn8" n="8"/>
+                        <hi rend="superscript" style="font-size:7pt">,</hi><ref target="ftn9" n="9"/>
+                    </p>
+                    <figure>
+                        <graphic n="1001" width="15.991416666666666cm" height="12.253736111111111cm" url="Pictures/5cf8bad753bb233eb1eb1e5a4b166304.png" rend="inline"/>
+                        <head>Abb. 1: Metadatenschema zu den DHd-Beiträgen mit Beispieleinträgen.</head>
+                    </figure>
+                    <p style="text-align: left; ">Für den Upload der Abstracts auf Zenodo wurde automatisiert für jedes Abstract ein Ordner (Bundle) mit PDF-Datei, TEI-Datei (sofern vorhanden) und Metadatensatz im JSON-Format generiert. Die Publikation dieser Bundles erfolgte automatisiert durch einen eigenen Publikationsworkflow (siehe Abb. 2) über die Zenodo REST API-Schnittstelle in die DHd-Zenodo Community.<ref target="ftn10" n="10"/> Die DHd-Beiträge verfügen über Digital Object Identifier (DOI), sind via OpenAIRE auffindbar und wurden durch die computer science bibliography (dblp) katalogisiert.<ref target="ftn11" n="11"/>
+                        <hi rend="superscript" style="font-size:7pt">,</hi><ref target="ftn12" n="12"/>
+                    </p>
+                    <figure>
+                        <graphic n="1002" width="16.002cm" height="15.098888888888888cm" url="Pictures/db0dcc35a902bb2b0fbe51244c01e050.png" rend="inline"/>
+                        <head>Abb. 2: Der Publikationsworkflow.</head>
+                    </figure>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick und nächste Schritte</head>
+                <p style="text-align: left; ">Der Umzug von alten Konferenzwebsites auf die ADHO-Infrastruktur soll vorangetrieben werden. Empfehlungen für die technische Umsetzung zukünftiger Konferenzwebsites soll deren Umzug auf die ADHO-Infrastruktur vereinfachen. Zusätzlich bedarf es einer Policy zur Speicherung, Archivierung und ggf. Publikation von DHd-Materialien die außerhalb von der Jahreskonferenzen entstanden sind. Zuletzt sollen die entwickelten Workflows und die technische Realisation zur Sicherung und Publikation der einzelnen DHd-Abstracts im Rahmen einer durch die Community getragenen TaskForce zur kontinuierlichen Unterstützung der wechselnden Konferenz-Organisator*innen weiterentwickelt und optimiert werden. Die Einrichtung einer solchen TaskForce ist im Kontext der DHd 2022 Konferenz in Potsdam geplant. Ein Aufruf zur Beteiligung der Community wird im Vorfeld kommuniziert.<ref target="ftn13" n="13"/> Ein wichtiger Ansatz ist hier die Aufbereitung der TEI-Dateien, damit diese auch im Index of Digital Humanities Conferences (Weingart, Eichmann-Kalwara und Lincoln 2020) katalogisiert werden. Eine entsprechende Initiativgruppe hat sich bereits in einem Workshop auf der vDHd-Konferenz 2021 (Andorfer, Busch, Cremer et al. 2021) formiert.<ref target="ftn14" n="14"/>
+                </p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                            <ref target="https://dig-hum.de/">
+                                <hi style="font-size:8pt">https://dig-hum.de/</hi>
+                            </ref>
+                            <hi style="font-size:8pt">[letzter Zugriff 10. November 2021].</hi>
+                        </note><note place="foot" xml:id="ftn2" n="2">
+                                <hi style="font-size:8pt" xml:space="preserve">Erste Website, die auf die ADHO-Infrastruktur umgezogen wurde: DHd-Jahreskonferenzwebsite 2020, Online: </hi>
+                                <ref target="https://dhd2020.dig-hum.de/">
+                                    <hi style="font-size:8pt">https://dhd2020.dig-hum.de/</hi>
+                                </ref>
+                                <hi style="font-size:8pt">[letzter Zugriff 10. November 2021].</hi>
+                            </note><note place="foot" xml:id="ftn3" n="3">
+                                    <ref target="https://github.com/peertrilcke/dhd2016-boa">
+                                        <hi style="font-size:8pt">https://github.com/peertrilcke/dhd2016-boa</hi>
+                                    </ref>
+                                    <hi style="font-size:8pt" xml:space="preserve">; </hi>
+                                    <ref target="https://github.com/GVogeler/DHd2018">
+                                        <hi style="font-size:8pt">https://github.com/GVogeler/DHd2018</hi>
+                                    </ref>
+                                    <hi style="font-size:8pt">[letzter Zugriff 10. November 2021]; Das GitHub-Repositorium mit den TEI-Dateien zur DHd-Jahreskonferenz 2019 ist nicht mehr verfügbar;</hi>
+                                    <ref target="https://github.com/NinaSeemann/DHd2020-BoA">
+                                        <hi style="font-size:8pt">https://github.com/NinaSeemann/DHd2020-BoA</hi>
+                                    </ref>
+                                    <hi style="font-size:8pt">[letzter Zugriff 10. November 2021].</hi>
+                                </note><note place="foot" xml:id="ftn4" n="4">
+                                <ref target="https://github.com/karindalziel/TEI-to-PDF">
+                                    <hi style="font-size:8pt">https://github.com/karindalziel/TEI-to-PDF</hi>
+                                </ref>
+                                <hi rend="Hyperlink"> [letzter Zugriff 10. November 2021]</hi>
+                                <hi style="font-size:8pt">.</hi>
+                            </note><note place="foot" xml:id="ftn5" n="5">
+                                <ref target="https://github.com/araborn/DHd2018">
+                                    <hi style="font-size:8pt">https://github.com/araborn/DHd2018</hi>
+                                </ref>
+                                <hi rend="Hyperlink"> [letzter Zugriff 10. November 2021].</hi>
+                            </note><note place="foot" xml:id="ftn6" n="6">
+                                <ref target="https://zenodo.org/">
+                                    <hi style="font-size:8pt">https://zenodo.org/</hi>
+                                </ref>
+                                <hi style="font-size:8pt">[letzter Zugriff 10. November 2021].</hi>
+                            </note><note place="foot" xml:id="ftn7" n="7">
+                                <ref target="https://zenodo.org/communities/dhd">
+                                    <hi style="font-size:8pt">https://zenodo.org/communities/dhd</hi>
+                                </ref>
+                                <hi style="font-size:8pt">[letzter Zugriff 10. November 2021].</hi>
+                            </note><note place="foot" xml:id="ftn8" n="8">
+                                <ref target="https://github.com/reborg789/zenodup">
+                                    <hi style="font-size:8pt">https://github.com/reborg789/zenodup</hi>
+                                </ref>
+                                <hi style="font-size:8pt">[letzter Zugriff 10. November 2021].</hi>
+                            </note><note place="foot" xml:id="ftn9" n="9">
+                                <ref target="https://schema.datacite.org/">
+                                    <hi style="font-size:8pt">https://schema.datacite.org/</hi>
+                                </ref>
+                                <hi style="font-size:8pt">[letzter Zugriff 10. November 2021].</hi>
+                            </note><note place="foot" xml:id="ftn10" n="10">
+                                <ref target="https://github.com/cceh/zenodup">
+                                    <hi style="font-size:8pt">https://github.com/cceh/zenodup</hi>
+                                </ref>
+                                <hi style="font-size:8pt">[letzter Zugriff 10. November 2021].</hi>
+                            </note><note place="foot" xml:id="ftn11" n="11">
+                                <ref target="https://www.openaire.eu/">
+                                    <hi style="font-size:8pt">https://www.openaire.eu/</hi>
+                                </ref>
+                                <hi style="font-size:8pt" xml:space="preserve"> [letzter Zugriff 10. November 2021].</hi>
+                            </note><note place="foot" xml:id="ftn12" n="12">
+                                <ref target="https://dblp.org/db/conf/dhd/index.html">
+                                    <hi rend="" style="font-size:8pt">https://dblp.org/db/conf/dhd/index.html</hi>
+                                </ref>
+                                <hi style="font-size:8pt" xml:space="preserve"> [letzter Zugriff 10. November 2021].</hi>
+                            </note><note place="foot" xml:id="ftn13" n="13">
+                            <hi style="font-size:8pt" xml:space="preserve"> Weitere Kontaktmöglichkeit zum Data Steward: </hi>
+                            <ref target="https://dig-hum.de/dhd-data-steward">
+                                <hi style="font-size:8pt">https://dig-hum.de/dhd-data-steward</hi>
+                            </ref>
+                            <hi style="font-size:8pt">[letzter Zugriff 17. November 2021].</hi>
+                        </note><note place="foot" xml:id="ftn14" n="14">
+                            <hi style="font-size:8pt">Dieses Poster ist komplementär zum Posterbeitrag „Strukturen und Impulse zur Weiterentwicklung der DHd-Abstracts“ der Initiativgruppe auf der DHd 2022.</hi>
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Andorfer, Peter</hi> (2019): 
+                        <hi rend="italic">dhd-boas-app</hi>, Online:
+                        <ref target="https:/dhd-boas-app.acdh-dev.oeaw.ac.at">https://dhd-boas-app.acdh-dev.oeaw.ac.at/</ref> (letzter Zugriff: 14. Juli 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Andorfer, Peter / Busch, Anna / Cremer, Fabian / Henrich, Andreas / Helling, Patrick / Lordick, Harald / Mischke, Dennis / Steyer, Timo</hi> (2021): "Bericht zur vDHd2021-Veranstaltung: Zukunftslabor DHd-Abstracts". DHd-Blog, Online: 
+                        <ref target="https://dhd-blog.org/?p=15980">https://dhd-blog.org/?p=15980</ref> (letzter Zugriff: 14. Juli 2021).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="ng-binding" xml:space="preserve"><hi rend="bold">Andorfer, Peter / Cremer, Fabian / Steyer, Timo</hi> (2019): “DHd 2019 Book of Abstracts Hackathon”, Beitrag auf der <hi rend="italic">DHd 2019 Digital Humanities multimedial und multimodal</hi>. 6. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum" (DHd 2019). Frankfurt am Main und Mainz, Online: </hi>
+                        <ref target="http://doi.org/10.5281/zenodo.4622102">http://doi.org/10.5281/zenodo.4622102</ref>
+                        <hi rend="ng-binding" xml:space="preserve">. </hi>
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Burr, Elisabeth</hi> (ed.) (2017). 
+                        <hi rend="italic">DHd 2016 Modellierung - Vernetzung - Visualisierung. Die Digital Humanities als Fächerübergreifendes Forschungsparadigma. Konferenzabstracts.</hi> Leipzig, Online: 
+                        <ref target="http://doi.org/10.5281/zenodo.3679331">http://doi.org/10.5281/zenodo.3679331</ref>. 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Cremer, Fabian</hi> (2018): „Nun sag, wie hältst Du es mit dem Digitalen Publizieren, Digital Humanities?“. Digitale Redaktion Blog, Online: 
+                        <ref target="https://editorial.hypotheses.org/113">
+                            <hi rend="">https://editorial.hypotheses.org/113</hi>
+                        </ref> (letzter Zugriff: 14. Juli 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Lordick, Harald</hi> (2020): 
+                        <hi rend="italic">DH(d) Konferenzbeiträge</hi>, Online:
+                        <ref target="http:/www.steinheim-institut.de/dhd">http://www.steinheim-institut.de/dhd/</ref> (letzter Zugriff: 14. Juli 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Sahle, Patrick</hi> (ed.) (2019): 
+                        <hi rend="italic" xml:space="preserve">DHd 2019 Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts. </hi>Frankfurt am Main, Online: 
+                        <ref target="https://doi.org/10.5281/zenodo.2596095">https://doi.org/10.5281/zenodo.2596095</ref>. 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Schöch, Christof</hi> (ed.) (2020): 
+                        <hi rend="italic">DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation. Konferenzabstracts.</hi> Paderborn, Online:
+                        <ref target="https:/doi.org/10.5281/zenodo.3666690">https://doi.org/10.5281/zenodo.3666690</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Steyer, Timo / Andorfer, Peter / Cremer, Fabian</hi> (2020): „Abstract Enhancement. Potentiale der DHd-Konferenzabstracts als Daten/Publikation“, Beitrag auf der <hi rend="italic">DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation</hi>. 7. Tagung des Verbands "Digital Humanities im deutschsprachigen Raum" (DHd 2020). Paderborn, Online: 
+                        <ref target="http://doi.org/10.5281/zenodo.4621706">http://doi.org/10.5281/zenodo.4621706</ref>. 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Stiegler, Johannes</hi> (ed.) (2015): 
+                        <hi rend="italic">DHd 2015 Von Daten zu Erkenntnissen: Digitale Geisteswissenschaften als Mittler zwischen Information und Interpretation. Konferenzabstracts</hi>. Graz, Online: 
+                        <ref target="https://dhd2015.uni-graz.at/de/nachlese/book-of-abstracts/">https://dhd2015.uni-graz.at/de/nachlese/book-of-abstracts/</ref> (letzter Zugriff: 14. Juli 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Stolz, Michael</hi> (ed.) (2017): <hi rend="italic">DHd 2017 Digitale Nachhaltigkeit. Konferenzabstracts</hi>. Bern, Online: 
+                        <ref target="http://doi.org/10.5281/zenodo.3684825">http://doi.org/10.5281/zenodo.3684825</ref>. 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Vogeler, Georg</hi> (ed.) (2018): 
+                        <hi rend="italic">DHd 2018 Kritik der digitalen Vernunft. Konferenzabstracts.</hi> Köln, Online: 
+                        <ref target="http://doi.org/10.5281/zenodo.3684897">http://doi.org/10.5281/zenodo.3684897</ref>. 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Weingart, Scott B. / Eichmann-Kalwara, Nickoal / Lincoln, Matthew</hi> (2020): 
+                        <hi rend="italic">The Index of Digital Humanities Conferences</hi>. Carnegie Mellon University, Online:
+                        <ref target="https:/dh-abstracts.library.cmu.edu">https://dh-abstracts.library.cmu.edu/</ref> (letzter Zugriff: 14. Juli 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Wilkinson, Mark D. / Dumontier, Michel / Aalbersberg, IJsbrand Jan / Appleton, Gabrielle / Axton, Myles / Baak, Arie / Blomberg, Niklas / Boiten, Jan-Willem / da Silva Santos, Luiz Bonino / Bourne, Philip E. / Bouwman, Jildau / Brookes, Antony J. / Clark, Tim / Crosas, Mercè / Dillo, Ingrid / Dumon, Oliver / Edmunds, Scott / Evelo, Chris T. / Finkers, Richard / Gonzalez-Beltran, Alejandra / Gray, Alasdair J.G. / Groth, Paul, Goble, Carole / Grethe, Jeffrey S. / Heringa, Jaap / A.C’t Hoen, Peter / Hooft, Rob / Kuhn, Tobias / Kok, Ruben / Kok, Joost / Lusher, Scott J. / Martone, Maryann E. / Mons, Albert / Packer, Abel L. / Persson, Bengt / Rocca-Serra, Philippe / Roos, Marco / van Schaik, Rene / Sansone, Susanna-Assunta / Schultes, Erik / Sengstag, Thierry / Slater, Ted / Strawn, George / Swertz, Morris A. / Thompson, Mark / van der Lei, Johan / van Mulligen, Erik / Velterop, Jan / Waagmeester, Andrea / Wittenburg, Peter / Wolstencroft, Katherine / Zhao, Jun / Mons Barend</hi> (2016): "The FAIR Guiding Principles for scientific data management and stewardship" in: <hi rend="italic">Scientific Data</hi> 3, Article number: 160018. DOI: 
+                        <ref target="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18
+                        </ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

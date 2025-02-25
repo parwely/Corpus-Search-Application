@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_345">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Zeitgeschichte untersuchen</title>
+                <title type="sub">Topic Modeling von #blackouttuesday-Inhalten auf Instagram</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Knierim</surname>
+                        <forename>Aenne</forename>
+                    </persName>
+                    <affiliation>Universität Regensburg, Germany</affiliation>
+                    <email>aenne.knierim@stud.uni-regensburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Achmann</surname>
+                        <forename>Michael</forename>
+                    </persName>
+                    <affiliation>Universität Regensburg, Germany</affiliation>
+                    <email>michael.achmann@ur.de</email>
+                <idno type="ORCID">0000-0002-4754-7842</idno></author>
+                <author>
+                    <persName>
+                        <surname>Wolff</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Universität Regensburg, Germany</affiliation>
+                    <email>christian.wolff@sprachlit.uni-regensburg.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitale Kulturwissenschaft</term>
+                    <term>Topic Modeling</term>
+                    <term>Social Media Analyse</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Kontextsetzung</term>
+                    <term>Identifizierung</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">345</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung/ Forschungsfrage </head>
+                <p>Die Black Lives Matter-Bewegung zur „Bekämpfung von schwarzem Rassismus auf der ganzen Welt“ entstand 2013 als Reaktion auf den Freispruch des weißen Polizisten George Zimmermann, der den 17-jährigen afroamerikanischen Schüler Trayvon Martin erschossen hatte (Black Lives Matter, n.d.). Um eine Bewegung über nationale Grenzen hinaus zu verbreiten, starteten drei afroamerikanische Aktivistinnen das Hashtag #blacklivesmatter (Black Lives Matter, n.d.). Dieser Prozess wird von Caliandro und Grahams als Grammatization bezeichnet, da das digitale Objekt Hashtag die Bewegung ermöglicht und strukturiert hat (2020). Nach Mundt et al. waren Soziale Medien für das Wachstum der Bewegung signifikant, da sie Beziehungen und Koalitionen mit anderen Gruppierungen der Bewegung ermöglichten und strategischen Aktionismus vereinfachten (2018). </p>
+                <p>Des Weiteren kann die Black Lives Matter-Bewegung auf Grund ihres transnationalen Charakters nach Vincent Millers Begriff des New Social Movement klassifiziert werden (2020). Miller zufolge sorgt "die ungehinderte Erstellung und Verbreitung von Informationen […] für mehr Bewusstsein und Perspektiven zu Themen und Informationen" (2020). Genau das kann man an #blacklivesmatter beobachten: Nach dem Todeskampf des Afroamerikaners George Floyd, der gefilmt wurde und noch am selben Tag viral ging, erreichte die Popularität des New Social Movements einen neuen Höhepunkt. Das Ereignis führte zur Schöpfung eines neuen Hashtags: #blackouttuesday. Unter dem Hashtag posteten am 02.06.2020 mehr als 20 Millionen Menschen in Solidarität mit George Floyd ein schwarzes Quadrat auf Instagram. In den Beiträgen findet ein Diskurs über racial justice in Millionen von Beiträgen statt (Gallagher, 2017). </p>
+                <p>Caliandro und Graham argumentieren, dass Instagram die Mainstream-Medien als Raum für die Bekanntmachung und Diskussion relevanter gesellschaftlicher Themen ersetzt und nennt als Beispiel das Hashtag #blacklivesmatter (2020). Nach dem #blackouttuesday fand Diskurs um Rassismus in den herkömmlichen Medien statt, sodass einzelne Stimmen schwarzer Influencer*Innen, Autor*Innen und Aktivist*Innen Beachtung erlangten. Die Erforschung eines größeren Korpus würde Aufklärung über die Wahrnehmung der Thematik der Hashtag-Nutzer*innen eröffnen.</p>
+                <p>Nach Keightley und Daphi wird das kulturelle Gedächtnis unter anderem durch moderne Kommunikationstechnologien vermittelt (2020). Demnach dient das schwarze Quadrat des #blackouttuesday, das noch immer auf vielen Accounts sichtbar ist, als visuelle Erinnerung an die Ermordung Floyds und an systemischen Rassismus. Mithilfe der Methoden der Digital Humanities und durch die Untersuchung großer Korpora ist es nun möglich, die Stimmen der breiteren Öffentlichkeit am #blackouttuesday zu untersuchen. Das digitale Objekt Hashtag ist eine strukturelle Eigenschaft von Instagram, die als Marker für die wichtigsten Themen, Ideen, Ereignisse, Orte oder Emotionen eines Posts dient (Highfield und Leaver, 2015). Bisherige Forschung um #blacklivesmatter ist überwiegend qualitativ, quantitative Forschung konzentriert sich meist auf den #blacklivesmatter Diskurs auf Twitter. Dies ist nicht zuletzt damit zu erklären, dass die Plattform Instagram den Zugang zu seinem Feed nach dem Cambridge Analytics Skandal 2016 erheblich erschwert hat (Puschmann 2019, Bruns, 2019, Caliandro and Graham 2019). Da der #blackouttuesday auf Instagram seinen Ursprung hat und hauptsächlich dort stattfand, konzentriert sich dieses Projekt auf dieses Soziale Medium. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datenerhebung </head>
+                <p>Da die schwarzen, quadratischen Posts kein spannendes Datenkorpus darstellen, ist das Ziel, deren Bildunterschriften, sog. Captions, inklusive ihrer Hashtags zu untersuchen. Nach Gallagher entstehen aus dem Netzwerk der Interaktionen in den Sozialen Medien Sujets und Themen, die den Rahmen jeder individuellen Konversation verlassen (2017). Die Themen, die sich aus diesem Diskurs entwickeln, werden wiederum von Individuen geformt (Gallagher 2017). Um diese Sujets, hier Topics, zu greifen und deren quantitative Analyse zu ermöglichen, soll ein Korpus aus den Bildunterschriften von Posts mit dem #blackouttuesday vom 02.06.2020 erstellt werden, diese sollen einschließlich der Hashtags in den Captions mit Selenium gecrawlt werden. Dies ist besonders wichtig, da die Verwendung eines Hashtags andere Absichten als die des ursprünglichen Nutzers widerspiegeln und irrelevant zum Medieninhalt sein können, einschließlich Spam. Das ist besonders an der aktuellen Nutzung des Hashtags zu sehen. Aus datenschutzrechtlichen Gründen können nur öffentliche Accounts gecrawlt werden. Dies stellt allerdings kein Manko dar, da private Nutzer*Innen häufig öffentliche Accounts nutzen. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datenanalyse </head>
+                <p>Die erhobenen Daten sollen mittels Topic Modeling untersucht werden. Es wird ein besonderer Fokus auf die sinnhafte linguistische Datenvorverarbeitung gelegt. Auf Grund des spezifischen Sprachgebrauchs in den Sozialen Medien sowie der Nutzung von Emoticons stellt insbesondere die Tokenisierung des Korpus eine besondere Herausforderung dar (Singh und Sachan, 2017). Mit Topic Modeling wird es möglich, aus den Bildunterschriften und Hashtags Topics zu extrahieren und diese anschließend zu analysieren. Dafür wird der Latent Dirichlet Allocation benutzt (Blei et al., 2018). Für das Projekt soll sich auf englischsprachige Posts bezogen werden. Da der #blackouttuesday transnational verwendet wurde, ist es allerdings schwierig, eine genau geographische Grenze zu ziehen. Da sich die Bewegung in den USA gegründet hat, wird angestrebt, den Language Identifier „en-US“ zu verwenden. Die Ergebnisse sollen mit Word Clouds, Diagrammen und weiteren visualisiert werden. So können bereichernde Einblicke in die Gedanken und Gefühle der Unterstützer*innen des Black Live Matter Movements mit besonderem Blick auf #blackouttuesday gegeben werden. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Diskussion </head>
+                <p>Unsere Forschung soll das virale Event #blackouttuesday beleuchten und kann so zum besseren Verständnis von New Social Movements beitragen. Außerdem soll es qualitative Analysen zu #blacklivesmatter um eine neue quantitative Perspektive bereichern. Es soll ersten Aufschluss darüber geben, welche Topics allgemein durch #blacklivesmatter und spezifisch durch #blackouttuesday im gesellschaftlichen Diskurs durch das Soziale Medium Instagram relevant und sichtbar geworden sind.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bainotti</hi>, 
+                        <hi rend="bold">L./ Caliandro, A./ Gandini</hi>, 
+                        <hi rend="bold">A</hi>. (2021): “From archive cultures to ephemeral content, and back: Studying Instagram Stories with digital methods.” In: 
+                        <hi rend="italic">New Media &amp; Society, 23(12), 3656–3676</hi>. https://doi.org/10.1177/1461444820960071.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bruns</hi>, 
+                        <hi rend="bold">A</hi>. (2019): “After the ‘APIcalypse’: social media platforms and their fight against critical scholarly research.” In: 
+                        <hi rend="italic">Information, Communication &amp; Society, 22(11), 1544–1566</hi>. https://doi.org/10.1080/1369118X.2019.1637447.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Caliandro</hi>, 
+                        <hi rend="bold">A./ Graham</hi>, 
+                        <hi rend="bold">J</hi>. (2020): “Studying Instagram Beyond Selfies.” In: 
+                        <hi rend="italic">Social Media + Society, 6(2), 205630512092477</hi>. https://doi.org/10.1177/2056305120924779.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Gallagher, Ryan</hi> (2017): “Disentangling Discourse: Networks, Entropy, and Social Movements.” University of Vermont. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Gilowsky, Julia/ Heinrich, Horst-Alfred</hi> (2018): “Wie wird kommunikatives zu kulturellem Gedächtnis? Aushandlungsprozesse auf den Wikipedia-Diskussionsseiten am Beispiel der Weißen Rose.“ In: G. Sebald (Hrsg.), 
+                        <hi rend="italic">(Digitale) Medien und soziale Gedächtnisse.</hi> Springer Fachmedien Wiesbaden.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Highfield</hi>, 
+                        <hi rend="bold">T</hi>.
+                        <hi rend="bold">/ Leaver</hi>, 
+                        <hi rend="bold">T</hi>. (2015): “A methodology for mapping Instagram hashtags.” In: 
+                        <hi rend="italic">First Monday. Vorab-Onlinepublikation.</hi> https://doi.org/10.5210/fm.v20i1.5563.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Marres</hi>,
+                        <hi rend="bold"> N</hi>. (2015): “Why Map Issues? On Controversy Analysis as a Digital Method. Science, technology &amp; human values”. https://doi.org/10.1177/0162243915574602.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Merrill, S./ Keightley, E./ Daphi, P</hi>. (2020): “Social Movements, Cultural Memory and Digital Media” In: 
+                        <hi rend="italic">Springer International Publishing.</hi> https://doi.org/10.1007/978-3-030-32827-6.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Mundt, M./ Ross, K./ Burnett, C. M</hi>. (2018): “Scaling Social Movements Through Social Media: The Case of Black Lives Matter.” In: 
+                        <hi rend="italic">Social Media + Society, 4(4), 205630511880791.</hi> https://doi.org/10.1177/2056305118807911.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Pfeiffer, Jasmin</hi> (2018): “Rahmungen von Erinnerungen: Zur Metapher des Paratexts.“ In: G. Sebald (Hrsg.), 
+                        <hi rend="italic">(Digitale) Medien und soziale Gedächtnisse (S. 281–299)</hi>. Springer Fachmedien Wiesbaden.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Sebald</hi>, 
+                        <hi rend="bold">G</hi>. (2018): “(Digitale) Medien und soziale Gedächtnisse.“ In: 
+                        <hi rend="italic" xml:space="preserve">Springer Fachmedien Wiesbaden. </hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Singh</hi>, 
+                        <hi rend="bold">S</hi>. 
+                        <hi rend="bold">K</hi>.(2017): “Importance and Challenges of Social Media Text.”
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Sommer, Vivien</hi>. (2018): “Mediatisierte Erinnerungen. Medienwissenschaftliche Perspektiven für eine Theoretisierung digitaler Erinnerungsprozesse.“ In: G. Sebald (Hrsg.), 
+                        <hi rend="italic">(Digitale) Medien und soziale Gedächtnisse.</hi> Springer Fachmedien Wiesbaden.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Zeitler, Anna</hi> (2018): “#MediatedMemories: Twitter und die Terroranschläge von Paris im kollektiven Gedächtnis.“ In: G. Sebald (Hrsg.), 
+                        <hi rend="italic">(Digitale) Medien und soziale Gedächtnisse</hi> (S. 123–143). Springer Fachmedien Wiesbaden.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

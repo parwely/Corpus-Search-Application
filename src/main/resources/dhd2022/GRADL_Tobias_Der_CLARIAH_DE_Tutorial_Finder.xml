@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_320">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Der CLARIAH-DE Tutorial Finder</title>
+                    <title type="sub">Eine Suchumgebung für Lehr- und Schulungsmaterialien in den Digital Humanities</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Werthmann</surname>
+                        <forename>Antonina</forename>
+                    </persName>
+                    <affiliation>Leibniz-Institut für Deutsche Sprache</affiliation>
+                    <email>werthmann@ids-mannheim.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gradl</surname>
+                        <forename>Tobias</forename>
+                    </persName>
+                    <affiliation>Universität Bamberg</affiliation>
+                    <email>tobias.gradl@uni-bamberg.de</email>
+                <idno type="ORCID">0000-0002-1392-2464</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Tutorial Finder</term>
+                    <term>Übergreifende Suche</term>
+                    <term>Lehr- und Schulungsmaterialien</term>
+                    <term>CLARIAH-DE</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Lehre</term>
+                    <term>Organisation</term>
+                    <term>Daten</term>
+                    <term>Infrastruktur</term>
+                    <term>Metadaten</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">320</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align: left; ">Zu digitalen Methoden, Forschungsdaten, Ressourcen und Diensten im Bereich der Digital Humanities sind zahlreiche Lehr- und Schulungsmaterialien vorhanden, die nicht nur Forschenden, sondern auch Lehrenden und Studierenden einen guten Einstieg in praktische Anwendungsfälle bieten. Als Beispiele finden sich Sammlungen und Plattformen wie TeLeMaCo<ref target="ftn1" n="1"/>, DARIAH-Campus
+                    <hi rend="Fußnotenanker"><ref target="ftn2" n="2"/>
+                    </hi> und linguisticsweb.org
+                    <hi rend="Fußnotenanker"><ref target="ftn3" n="3"/>
+                    </hi>, die Materialien zu unterschiedlichen Themen der Digital Humanities zusammenstellen. Zudem gibt es eine Vielzahl von einzeln entwickelten Anleitungen zu wichtigen Grundlagen aus dem Bereich der digitalen Editionen, des maschinellen Lernens und des Natural Language Processing (NLP), wie „Digitale Textedition mit TEI“
+                    <hi rend="Fußnotenanker"><ref target="ftn4" n="4"/>
+                    </hi>, „NLP Based Analysis of Literary Texts“
+                    <hi rend="Fußnotenanker"><ref target="ftn5" n="5"/>
+                    </hi> oder „TopicsExplorer“
+                    <hi rend="Fußnotenanker"><ref target="ftn6" n="6"/>
+                    </hi>. Diese sind zumeist über verschiedene Plattformen oder die Webseiten zugehöriger Projekte zu finden. Die Formate der Materialien reichen von einfachen Dokumentationen über aufgezeichnete Vorträge und Präsentationsfolien bis hin zu didaktisch-methodisch ausgearbeiteten Lerneinheiten und Modulen zum Selbstlernen sowie direkt einsetzbaren Unterrichtsmaterialien. Sie variieren in ihrem Schwierigkeitsgrad und können sowohl für einen niederschwelligen Einstieg ohne Vorkenntnisse als auch für eine Vertiefung unterschiedlichster Themen genutzt werden. Die Angebotslandschaft der Lehr- und Schulungsmaterialien ist nicht nur äußerst vielfältig und heterogen, sondern sie zeichnet sich auch dadurch aus, dass sie im Rahmen von unterschiedlichen nationalen und internationalen Projekten, Initiativen und Vorhaben entwickelt, zusammengestellt und der wissenschaftlichen Community zur Verfügung gestellt wird. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Hintergrund und Ziele</head>
+                <p style="text-align: left; ">Um eine bessere Erreichbarkeit und Zugänglichkeit zu bestehenden sowie neuen Angeboten von Lehr- und Schulungsmaterialien im Bereich der Digital Humanities zu ermöglichen, sollten diese in einem zentralen Verzeichnis zur Verfügung gestellt werden. Im Rahmen des CLARIAH-DE Projekts
+                    <hi rend="Fußnotenanker"><ref target="ftn7" n="7"/>
+                    </hi> wurde – zunächst für die Umsetzung eines Projektmeilensteins – eine Lösung gesucht, die eine übergreifende Suche in frei zugänglichen und nachnutzbaren Lehr- und Schulungsmaterialien zu Forschungsmethoden, Verfahren sowie Werkzeugen im Bereich der Digital Humanities in unterschiedlichen Plattformen und Repositorien bietet (vgl. Annisius et al. 2021, Eckart et al. 2021). 
+                </p>
+                <p style="text-align: left; ">Die Herausforderungen für eine geeignete Lösung bestanden in:</p>
+                <list type="unordered">
+                    <item>der 
+                        <hi rend="bold">Heterogenität der Formate</hi> von verfügbaren Lehr- und Schulungsmaterialien (z. B. Videos, Präsentationsfolien, verschiedene Textformate),
+                    </item>
+                    <item>der 
+                        <hi rend="bold">Heterogenität der Art von Materialien</hi> (z. B. Tutorials, Artikel, Dokumentationen, Vorträge),
+                    </item>
+                    <item>
+                        <hi rend="bold">unterschiedlichen Lösungen, Orten und Betriebsformen</hi> (z. B. Git-basierte Plattformen, YouTube-Kanäle, institutionelle Repositorien) mit 
+                        <hi rend="bold">unterschiedlichen Zugriffsmöglichkeiten</hi> auf die Ressourcen (z. B. mit oder ohne standardisierte Schnittstellen),
+                    </item>
+                    <item>der 
+                        <hi rend="bold">Irregularität bei der Aktualisierung und Erweiterung</hi> der Sammlungen mit neuen Materialien, sowie
+                    </item>
+                    <item>der Notwendigkeit einer dynamischen und iterativen 
+                        <hi rend="bold">Erweiterbarkeit</hi> des Verzeichnisses 
+                        <hi rend="bold">um zusätzliche Sammlungen</hi>.
+                    </item>
+                </list>
+                <p style="text-align: left; ">Es wurde eine Lösung angestrebt, die einen Zugriff auf verteilte und heterogene Sammlungen von Lehr- und Schulungsmaterialien in diversen Formaten ermöglicht und eine systematische Durchsuchbarkeit bietet. Hierbei sollte der Zugang zu den individuellen Sammlungen keineswegs ersetzt werden, sondern im Rahmen der Präsentation relevanter Inhalte eine gezielte Benutzerführung zu diesen angeboten werden. Neben der Verbesserung der Zugänglichkeit und Erreichbarkeit der zur Verfügung gestellten Materialien an einem zentralen Ort gehörte auch die Stärkung ihrer Nachnutzbarkeit in verschiedenen Lehr- und Lernkontexten zu den primären Zielen bei der Entwicklung einer möglichen Lösung. Ausgehend von diesen Zielen entstand der
+                    <hi rend="italic" xml:space="preserve"> CLARIAH-DE Tutorial Finder</hi>
+                    <hi rend="Fußnotenanker"><ref target="ftn8" n="8"/>
+                    </hi>
+                    (siehe Abbildung 1), der über die Rolle des CLARIAH-DE Projektmeilensteins hinaus zu einem anschlussfähigen Dienst weiterentwickelt wurde.
+                </p>
+                <figure>
+                    <graphic n="1001" width="16.007291666666667cm" height="11.641666666666667cm" url="Pictures/5dc13a93e9dd90aa33f75e81db9bebf3.png" rend="inline"/>
+                    <head>Abb. 1: Der im Rahmen von CLARIAH-DE entwickelte Tutorial Finder</head>
+                </figure>
+                <p style="text-align: left; ">Relevante Zielgruppen für das entwickelte Angebot des Tutorial Finders setzen sich zusammen aus:</p>
+                <list type="unordered">
+                    <item>
+                        <hi rend="bold">Studierenden</hi>, die Wissen im Selbststudium aneignen oder Erworbenes vertiefen möchten,
+                    </item>
+                    <item>
+                        <hi rend="bold">Lehrenden</hi>, die in thematischer Verbindung zu Lehrinhalten bereits entwickelte Lehrmaterialien finden können, um sie im Rahmen eigener Lehre einzusetzen,
+                    </item>
+                    <item>
+                        <hi rend="bold">Forschenden</hi>, die durch die Nachnutzung der Materialien neue Methoden und Ressourcen schnell entdecken und sich aneignen können. Durch die Bereitstellung von eigenen Materialien können sie aber auch aktiv z. B. neue Methoden und Ressourcen vorstellen, ihr Wissen teilen, eigene Materialien verbreiten, diese bekannt machen und die Sichtbarkeit eigener Arbeitsergebnisse erhöhen,
+                    </item>
+                    <item>einer 
+                        <hi rend="bold">interessierten Öffentlichkeit</hi>, indem der Tutorial Finder nicht nur der wissenschaftlichen Gemeinschaft vorbehalten ist, sondern die Inhalte offen zur Verfügung stellt und einen schnellen Überblick über diese ermöglicht.
+                    </item>
+                </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Tutorial Finder</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Aufbau des Tutorial Finders</head>
+                    <p style="text-align: left; ">Der CLARIAH-DE Tutorial Finder baut auf einer fachlichen Adaption der in DARIAH-DE entwickelten 
+                        <hi rend="italic">Generischen Suche</hi>
+                        <hi rend="Fußnotenanker"><ref target="ftn9" n="9"/>
+                        </hi> mit den Komponenten der 
+                        <hi rend="italic">Collection Registry</hi>
+                        <hi rend="Fußnotenanker"><ref target="ftn10" n="10"/>
+                        </hi> (CR) und des 
+                        <hi rend="italic">Data Modelling Environment</hi>
+                        <hi rend="Fußnotenanker"><ref target="ftn11" n="11"/>
+                        </hi> (DME) auf
+                        <hi rend="Fußnotenanker"><ref target="ftn12" n="12"/>
+                        </hi>. Die Generische Suche indiziert digitale Inhalte der Sammlungen gemeinsam mit vorhandenen Metainformationen und ermöglicht einen Zugriff auf diese. Dafür muss die Sammlung zunächst in der CR registriert und beschrieben werden. Die Beschreibung in der CR geschieht anhand des 
+                        <hi rend="italic">DARIAH Collection Description Data Model</hi> (DCDDM)
+                        <hi rend="Fußnotenanker"><ref target="ftn13" n="13"/>
+                        </hi>. In den vordefinierten, aber nur in wenigen Fällen obligatorischen Feldern (siehe Abbildung 2) werden die Sammlung, der Ort der Sammlung, die Lizenz sowie die technische Schnittstelle bzw. die Zugriffsmöglichkeit auf die Inhalte der Sammlung beschrieben.
+                    </p>
+                    <figure>
+                        <graphic n="1002" width="15.991416666666666cm" height="11.622263888888888cm" url="Pictures/92e1b5f3473509dbe84f310861fad600.png" rend="inline"/>
+                        <head>Abb. 2: Sammlungseditor der CR im Tutorial Finder</head>
+                    </figure>
+                    <p style="text-align: left; ">Nachdem eine Sammlung beschrieben, gespeichert und veröffentlicht wurde, erscheint sie in der CR des Tutorial Finders (siehe Abbildung 3). </p>
+                    <figure>
+                        <graphic n="1003" width="15.991416666666666cm" height="11.622263888888888cm" url="Pictures/e55f5d94554ed066f96fe43460edaba0.png" rend="inline"/>
+                        <head>Abb. 3: In die CR des Tutorial Finder eingetragene Sammlungen</head>
+                    </figure>
+                    <p style="text-align: left; ">Anschließend werden mithilfe der DME die Daten der Sammlung unter Beachtung ihres disziplinären Kontexts, ihrer Struktur und Komplexität modelliert, Verknüpfungen erstellt und in Form von Zugriffstellen bereitgestellt. Die Generische Suche kann danach auf Datenmodelle und Mappings der DME zugreifen, Informationen zu den Daten weiterverarbeiten, transformieren und integrieren. Hierdurch entstehen Brücken zwischen heterogenen Sammlungen – unabhängig von dort jeweils angebotenen Datenformaten. Volltexte und Metadaten aus TeLeMaCo können so beispielsweise gemeinsam mit den Transkripten aus dem Digital Medieval Webinar Repository (DMWR)<ref target="ftn14" n="14"/> durchsucht und ausgewertet werden.
+                    </p>
+                    <p style="text-align: left; ">Einmal kontextuell erschlossen und modelliert können Datenmodelle auf weitere integrative Formate abgebildet werden. Im Fall des Tutorial Finders wurde zunächst ein – um die Fähigkeit Volltext aufzunehmen – erweitertes Schema von DataCite<ref target="ftn15" n="15"/> gewählt. Über die grundlegende Suchfunktionalität hinausgehende Darstellungen in Form von Wissensgraphen werden derzeit evaluiert und weitergeführt.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Suchfunktionalität des Tutorial Finders</head>
+                    <p style="text-align: left; ">Nachdem eine Sammlung eingetragen ist und ihre Inhalte modelliert sind, kann sie über die Suchfunktionalität des Tutorial Finders durchsucht werden. Hierfür stehen eine 
+                        <hi rend="italic" xml:space="preserve">einfache </hi>und eine 
+                        <hi rend="italic" xml:space="preserve">erweiterte Suche </hi>zur Verfügung. Die 
+                        <hi rend="italic" xml:space="preserve">einfache Suche </hi>(siehe Abbildung 4) erlaubt eine Volltextsuche sowohl auf der Ebene der Primär- als auch der Metadaten – unabhängig von der Existenz von Mappings zwischen den betrachteten Sammlungsdaten. Sie kann auf sämtlichen verfügbaren Sammlungen mit Lehr- und Schulungsmaterialien oder auf einer benutzerdefinierten Teilmenge hieraus ausgeführt werden.
+                    </p>
+                    <figure>
+                        <graphic n="1004" width="15.991416666666666cm" height="11.622263888888888cm" url="Pictures/145c404de183ef7177decc74893bccf4.png" rend="inline"/>
+                        <head>Abb. 4: Suchergebnisse des Tutorial Finders zu „deep learning“ mittels einfacher Suche</head>
+                    </figure>
+                    <p style="text-align: left; ">Die 
+                        <hi rend="italic" xml:space="preserve">erweiterte Suche </hi>(siehe Abbildung 5) bietet neben der Volltextsuche eine gezielte Suche, bei der spezifische Kriterien zur Einschränkung der Suchergebnisse angewendet werden können, die auf dem Schema von DataCite basieren. So können Metadatenfelder des Datenmodells beispielsweise herangezogen werden, um Suchergebnisse nach Orten oder Genres zu filtern.
+                    </p>
+                    <figure>
+                        <graphic n="1005" width="15.991416666666666cm" height="11.622263888888888cm" url="Pictures/9a45c9e095a96d37f68ab22a6418a2bb.png" rend="inline"/>
+                        <head>Abb. 5: Gezielte Suche nach Audiodateien zu „ocr“ mittels erweiterter Suche</head>
+                    </figure>
+                    <p style="text-align: left; ">Wählt man ein Objekt der Ergebnisliste aus, gelangt man zu Informationen über die Zugehörigkeit zu einer Sammlung (siehe Abbildung 6). Insbesondere wird auch die URL präsentiert, unter der das Objekt in seinem ursprünglichen Sammlungskontext zu finden ist. Verfügbare Metainformationen zum Objekt können angesehen und heruntergeladen werden.</p>
+                    <figure>
+                        <graphic n="1006" width="15.991416666666666cm" height="11.622263888888888cm" url="Pictures/9545bb0c549978641e92e25e2fa7bfad.png" rend="inline"/>
+                        <head>Abb. 6: Detailansicht zu einem Suchergebnis im Tutorial Finder</head>
+                    </figure>
+                    <p style="text-align: left; ">Dabei hostet der Tutorial Finder die Lehr- und Schulungsmaterialien nicht selbst, sondern ermöglicht bzw. erleichtert lediglich den Zugang auf diese über Metadaten und Volltexte. Es sind daher die zugrunde liegenden Lizenzen für die Nutzung in den unterschiedlichen Lehr- und Lernkontexten zu beachten.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Angebot und Erweiterung des Tutorial Finders</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Aktueller Stand</head>
+                    <p style="text-align: left; ">Der Tutorial Finder ist ein offenes Angebot und befindet sich im stetigen Ausbau. Er wurde zunächst als Dienst für CLARIAH-DE konzipiert, der eine übergreifende Suche nach den Materialien aus den zwei vorangegangen Projekten – CLARIN-D
+                        <hi rend="Fußnotenanker"><ref target="ftn16" n="16"/>
+                        </hi> und DARIAH-DE
+                        <hi rend="Fußnotenanker"><ref target="ftn17" n="17"/>
+                        </hi> – wie TeLeMaCo von CLARIN oder DARIAH-Campus ermöglichen sollte. Im Laufe der Entwicklung und Erweiterung wurden in den Tutorial Finder Sammlungen und Materialien aufgenommen, die aus anderen für die Community wichtigen nationalen und internationalen Projekten, Vorhaben und Initiativen, z. B. The Programming Historian
+                        <hi rend="Fußnotenanker"><ref target="ftn18" n="18"/>
+                        </hi> oder linguisticsweb.org, stammen. Weiterhin finden sich darin einzeln außerhalb jeglicher Sammlungen entwickelte Tutorials und Anleitungen, die jedoch methodisch aufbereitet sind und eine wertvolle Lehr- und Lernquelle zu aktuellen Themen der (Digitalen) Geisteswissenschaften und benachbarter Disziplinen bieten. 
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Erweiterung des Angebots</head>
+                    <p style="text-align: left; ">Die Sammlung des Tutorial Finders wird nicht nur im Rahmen von Text+ erweitert. Auch die Community der Digital Humanities kann hierzu einen Beitrag leisten und Vorschläge zur Angebotserweiterung des Tutorial Finders machen: Interessierte, die eine Sammlung von Lehr- und Schulungsmaterialien oder einzelne Tutorials einem möglichst breiten Nutzerkreis zur Verfügung stellen wollen, können diese über den CLARIAH-DE Helpdesk
+                        <hi rend="Fußnotenanker"><ref target="ftn19" n="19"/>
+                        </hi> vorschlagen oder sie als authentifizierte Nutzer*innen über den Sammlungseditor der CR (siehe Abbildung 2) im Tutorial Finder selbst anlegen. Sofern erforderlich, kann über den Helpdesk jederzeit auch Unterstützung angefordert werden. So können die Nutzer*innen das Spektrum der angebotenen Materialien unkompliziert erweitern und über den Tutorial Finder auffindbar, durchsuchbar und zugänglich machen.
+                    </p>
+                    <p style="text-align: left; ">Neben der thematischen Relevanz für den Bereich der Digital Humanities bestehen einige grundlegende Voraussetzungen für die Aufnahme einer Sammlung von Lehr- und Schulungsmaterialien in den Tutorial Finder: </p>
+                    <list type="unordered">
+                        <item>Die Materialien einer Sammlung müssen unter einem 
+                            <hi rend="bold">freien Lizenzierungsmodell</hi> zur Verfügung stehen.
+                        </item>
+                        <item>Die Sammlung muss 
+                            <hi rend="bold">öffentlich zugänglich</hi> sein.
+                        </item>
+                        <item>Die Sammlung muss 
+                            <hi rend="bold">aktuell gehalten</hi> werden.
+                        </item>
+                        <item>Es muss eine 
+                            <hi rend="bold">Ansprechperson benannt</hi> werden.
+                        </item>
+                    </list>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>Lizenzauswahl für Lehr- und Schulungsmaterialien</head>
+                        <p style="text-align: left; ">Die für die Lehr- und Schulungsmaterialien am häufigsten genutzten Standardlizenzen sind die Creative-Commons-(CC)-Lizenzen
+                            <hi rend="Fußnotenanker"><ref target="ftn20" n="20"/>
+                            </hi>. Sie werden in den Geistes-, Kultur- und Sozialwissenschaften und in Bildungseinrichtungen allgemein für die Lizenzierung von Texten, Bildern und Videos oder Multimediawerken genutzt. Zu den Vorteilen der CC-Lizenzen gehört, dass sie im Vergleich zu anderen Open-Content-Lizenzen verhältnismäßig einfach zu verstehen sowie international anerkannt und anwendbar sind. Den Nutzenden ermöglichen sie, schnell zu erkennen, ob und unter welchen Bedingungen sie das Material verwenden können. Den Autor*innen bieten sie eine Auswahl von modular aufgebauten Standard-Lizenzen, mit denen sie ihre Materialien nach eigenen Bedürfnissen lizenzieren können (vgl. Kamocki &amp; Ketzan, 2014 für mehr Details zu CC-Lizenzen). Für umfassende Informationen zu verschiedenen Lizenzthemen und zur Auswahl einer passenden Lizenz steht die 
+                            <hi rend="italic">CLARIN ERIC Legal Information Platform</hi>
+                            <hi rend="Fußnotenanker"><ref target="ftn21" n="21"/>
+                            </hi> zur Verfügung.
+                        </p>
+                    </div>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>Zugänglichkeit der Sammlung mit Lehr- und Schulungsmaterialien</head>
+                        <p style="text-align: left; ">Die Infrastruktur des Tutorial Finders ermöglicht eine Abfrage von Angeboten einer Sammlung über eine standardisierte Schnittstelle, z.B. OAI-PMH. Die Bereitstellung einer solchen standardisierten Schnittstelle ist jedoch keine Voraussetzung. Wichtig ist nur, dass die Inhalte der Sammlung online zugreifbar sind und so in den Tutorial Finder eingebunden werden können. So verfügt beispielsweise die TeLeMaCo-Sammlung über keine dedizierte Zugriffsschnittstelle. Die Daten wurden in diesem Fall direkt von der Webseite in der DME mithilfe eines iterativen Web-Crawling erschlossen, modelliert und extrahiert und so in den Tutorial Finder übernommen. Ein anderes Beispiel bildet die Anbindung von Sammlungen, die ihre Materialien in einem öffentlich zugänglichen Git-basierten Repositorium<ref target="ftn22" n="22"/> zusammenstellen und verwalten, wie The 
+                            <hi rend="italic">Programming Historian</hi> oder 
+                            <hi rend="italic">DARIAH-Campus</hi>. In diesem Fall kann das Git-Protokoll als Schnittstelle angebunden werden.
+                        </p>
+                    </div>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>Aktualität der Sammlung mit Lehr- und Schulungsmaterialien</head>
+                        <p style="text-align: left; ">Da der Tutorial Finder lediglich den Zugriff auf Sammlungen mit Schulungs- und Lehrmaterialien ermöglicht, die bereits öffentlich zugänglich sind, und sie selbst weder hostet noch pflegt, wird die regelmäßige Überprüfung und Aktualisierung der Sammlungsinhalte von den jeweiligen Autor*innen bzw. den dafür zuständigen Personen vollzogen. </p>
+                    </div>
+                    <div type="div3" rend="DH-Heading3">
+                        <head>Klärung der zuständigen Ansprechpersonen</head>
+                        <p style="text-align: left; ">Bei der Beschreibung einer Sammlung im Sammlungseditor der CR (siehe Abbildung 2) werden die Autor*innen bzw. die dafür zuständigen Ansprechpersonen ggf. auch mit der Angabe der Affiliation genannt. Diese Angaben sind notwendig, um z. B. Fragen zu Hintergründen der Sammlung, Zugriffsmöglichkeiten oder allgemeinen und technischen Voraussetzungen für die Aufnahmen der Sammlung in den Tutorial Finder zu klären.</p>
+                    </div>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zusammenfassung und Ausblick</head>
+                <p style="text-align: left; ">In diesem Beitrag wurde der Tutorial Finder vorgestellt, der als Angebot des CLARIAH-DE Projekts zum zentralen Durchsuchen von vielfältigen Lehr- und Schulungsmaterialien zu digitalen Methoden, Forschungsdaten, Ressourcen und Diensten im Bereich der Digital Humanities entwickelt wurde. Er ersetzt nicht die bereits vorhandenen Sammlungen von Lehr- und Schulungsmaterialien, da der Tutorial Finder die Materialien nicht selbst hostet, sondern die Suche in verteilten Inhalten ermöglicht, die Sichtbarkeit von Materialien erhöht und ihre Nachnutzbarkeit steigert. Der Tutorial Finder ist für verschiedene Nutzergruppen – Forschende, Lehrende und Studierende aus dem Bereich der Digital Humanities – relevant und kann unter ihrer aktiven Teilnahme erweitert werden. Der Dienst wird derzeit für die weitere inhaltliche und technische Entwicklung in die neu geschaffenen Strukturen der Text+<ref target="ftn23" n="23"/> Forschungsdateninfrastruktur überführt und weiterentwickelt – insbesondere mit Blick auf die organisatorische und fachliche Einbindung in die NFDI Konsortien von Text+ und NFDI4Culture
+                    <hi rend="Fußnotenanker"><ref target="ftn24" n="24"/>
+                    </hi>
+                </p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                            <ref target="https://telemaco.clarin-d.uni-saarland.de/hub/">https://telemaco.clarin-d.uni-saarland.de/hub/</ref> [letzter Zugriff auf alle Verweise in diesem Dokument am 15. Juli 2021]
+                        </note><note place="foot" xml:id="ftn2" n="2">
+                                <ref target="https://campus.dariah.eu/">https://campus.dariah.eu/
+                                </ref>
+                            </note><note place="foot" xml:id="ftn3" n="3">
+                                <ref target="http://linguisticsweb.org/doku.php?id=start">http://linguisticsweb.org/doku.php?id=start
+                                </ref>
+                            </note><note place="foot" xml:id="ftn4" n="4">
+                                <ref target="https://de.dariah.eu/tei-tutorial">https://de.dariah.eu/tei-tutorial
+                                </ref>
+                            </note><note place="foot" xml:id="ftn5" n="5">
+                                <ref target="https://dariah-de.github.io/DARIAH-DKPro-Wrapper/tutorial.html">https://dariah-de.github.io/DARIAH-DKPro-Wrapper/tutorial.html
+                                </ref>
+                            </note><note place="foot" xml:id="ftn6" n="6">
+                                <ref target="https://github.com/DARIAH-DE/TopicsExplorer">https://github.com/DARIAH-DE/TopicsExplorer
+                                </ref>
+                            </note><note place="foot" xml:id="ftn7" n="7"> CLARIAH-DE war ein vom Bundesministerium für Bildung und Forschung (BMBF) gefördertes, zweijähriges (2019–2021) Verbundprojekt, in dessen Rahmen die Ressourcen der Forschungsinfrastrukturen CLARIN-D und DARIAH-DE zusammengeführt wurden.</note><note place="foot" xml:id="ftn8" n="8">
+                                <ref target="https://teaching.clariah.de/search/">https://teaching.clariah.de/search/
+                                </ref>
+                            </note><note place="foot" xml:id="ftn9" n="9">
+                                    <ref target="https://dfa.de.dariah.eu/doc/search/">https://dfa.de.dariah.eu/doc/search/
+                                    </ref>
+                                </note><note place="foot" xml:id="ftn10" n="10">
+                                    <ref target="https://dfa.de.dariah.eu/doc/colreg/">https://dfa.de.dariah.eu/doc/colreg/
+                                    </ref>
+                                </note><note place="foot" xml:id="ftn11" n="11">
+                                    <ref target="https://dfa.de.dariah.eu/doc/dme/">
+                                        <hi style="font-size:11pt">https://dfa.de.dariah.eu/doc/dme/</hi>
+                                    </ref>
+                                </note><note place="foot" xml:id="ftn12" n="12"> Für mehr Informationen zu den Komponenten der GS siehe auch Gradl (2019) sowie Henrich und Gradl (2021).</note><note place="foot" xml:id="ftn13" n="13">
+                                    <ref target="https://github.com/DARIAH-DE/DCDDM">https://github.com/DARIAH-DE/DCDDM
+                                    </ref>
+                                </note><note place="foot" xml:id="ftn14" n="14">
+                                <ref target="https://zenodo.org/communities/dmwr/">https://zenodo.org/communities/dmwr/</ref>
+                            </note><note place="foot" xml:id="ftn15" n="15">
+                                <ref target="https://schema.datacite.org/">https://schema.datacite.org
+                                </ref>
+                            </note><note place="foot" xml:id="ftn16" n="16"> CLARIN-D ist der deutsche Beitrag zur 
+                                    <hi rend="italic">Common Language Resources and Technology Infrastructure</hi> (CLARIN), die als 
+                                    <hi rend="italic">European Research Infrastructure Consortium</hi> (ERIC) ein Netzwerk aus 20 Ländern neben weiteren Partnern bildet, URL:
+                                    <ref target="https://www.clarin-d.net/de" xml:space="preserve"> </ref>
+                                    <ref target="https://www.clarin-d.net/de">https://www.clarin-d.net/de
+                                    </ref>
+                                </note><note place="foot" xml:id="ftn17" n="17"> DARIAH-DE ist der deutsche Partner der 
+                                    <hi rend="italic">Digital Research Infrastructure for the Arts and Humanities</hi> (DARIAH-EU), die mit 19 Ländern und weiteren Partnern ein ERIC auf europäischer Ebene ist, URL:
+                                    <ref target="https://de.dariah.eu/" xml:space="preserve"> </ref>
+                                    <ref target="https://de.dariah.eu/">https://de.dariah.eu
+                                    </ref>
+                                </note><note place="foot" xml:id="ftn18" n="18">
+                                    <ref target="https://programminghistorian.org/">
+                                        <hi rend="Internetverknüpfung">https://programminghistorian.org/</hi>
+                                    </ref>
+                                </note><note place="foot" xml:id="ftn19" n="19">
+                                    <ref target="https://www.clariah.de/support">https://www.clariah.de/support</ref>; die Überführung in Text+ Strukturen ist in Arbeit
+                                </note><note place="foot" xml:id="ftn20" n="20">
+                                        <ref target="https://creativecommons.org/">https://creativecommons.org</ref>
+                                    </note><note place="foot" xml:id="ftn21" n="21">
+                                        <ref target="https://www.clarin.eu/content/legal-information-platform">https://www.clarin.eu/content/legal-information-platform
+                                        </ref>
+                                    </note><note place="foot" xml:id="ftn22" n="22">
+                                    <hi style="font-size:11pt">Für die ausführliche Anleitung zur Nachnutzung Git-basierter Sammlungen im Rahmen der Infrastrukturdienste von CLARIAH-DE siehe Gradl &amp; Jegan (2021).</hi>
+                                </note><note place="foot" xml:id="ftn23" n="23">
+                            <ref target="https://www.text-plus.org/">
+                                <hi rend="Internetverknüpfung">https://www.text-plus.org/</hi>
+                            </ref>
+                        </note><note place="foot" xml:id="ftn24" n="24">
+                                <ref target="https://nfdi4culture.de/">
+                                    <hi rend="Internetverknüpfung">https://nfdi4culture.de/</hi>
+                                </ref>
+                            </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Annisius, Marie / Bock, Sina / Gradl, Tobias / Schopf, Juliane / Stegmeier, Jörn / Werthmann, Antonina</hi> (2021): „CLARIAH-DE Work Package 3: Skills Training and Promotion of Junior Researchers“ in: <hi rend="italic">CLARIAH-DE 2. Vollversammlung / 2nd General Assembly</hi>. Göttingen: Zenodo. DOI: 10.5281/zenodo.4578414
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Eckart, Thomas / Werthmann, Antonina / Buddenbohm, Stefan / Sambale, Heidemarie / Helfer, Felix / Jegan, Robin</hi> (2021): „CLARIAH-DE Work Package 4 Technical Integration and Coordination of Technical Developments“ in: <hi rend="italic">CLARIAH-DE 2. Vollversammlung / 2nd General Assembly</hi>. Göttingen: Zenodo. DOI: 10.5281/zenodo.4572610 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Gradl, Tobias</hi> (2019): „Dokumentation der Datenföderationsarchitektur“ in: <hi rend="italic">DARIAH-DE Working Papers Nr. 39</hi>. Göttingen: DARIAH-DE, URN: urn:nbn:de:gbv:7-dariah-2019-11-7
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Gradl, Tobias / Robin Jegan</hi> (2021): „Nachnutzung Git-basierter Sammlungen im Rahmen der Infrastrukturdienste von CLARIAH-DE“ in: <hi rend="italic">DARIAH-DE Working Papers Nr. 42</hi>. Göttingen: DARIAH-DE. URN: urn:nbn:de:gbv:7-dariah-2021-2-5
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Henrich, Andreas / Tobias Gradl</hi> (2021): „Integration von Forschungsdaten. Wie können Forschungsinfrastrukturen helfen?“ in: <hi rend="italic">Innovation in der Bauwirtschaft Innovation in the Building Industry</hi>. Berlin, Boston: De Gruyter, 749-762. DOI: 10.1515/9783110538915-039 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Kamocki, Paweł / Erik Ketzan</hi> (2014): „Creative commons and language resources: general issues and what’s new in CC 4.0“. https://ids-pub.bsz-bw.de/frontdoor/deliver/index/docId/3224/file/Kamocki_Ketzan_Creative_Commons_and_Language_Resources_2014.pdf
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

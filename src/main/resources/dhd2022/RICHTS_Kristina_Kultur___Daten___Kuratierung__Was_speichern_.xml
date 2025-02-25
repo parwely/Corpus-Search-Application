@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_330">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Kultur – Daten – Kuratierung</title>
+                <title type="sub">Was speichern wir und wozu?</title>
+                </title>
+            <author>
+                <persName>
+                    <surname>Altenhöner</surname>
+                    <forename>Reinhard</forename>
+                </persName>
+                <affiliation>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</affiliation>
+                <email>Reinhard.Altenhoener@sbb.spk-berlin.de</email>
+                <idno type="ORCID">0000-0001-8274-780X</idno>
+            </author>
+            <author>
+                <persName>
+                    <surname>Dieckmann</surname>
+                    <forename>Lisa</forename>
+                </persName>
+                <affiliation>Universität zu Köln</affiliation>
+                <email>Lisa.dieckmann@uni-koeln.de</email>
+                <idno type="ORCID">0000-0002-1708-7371</idno>
+            </author>
+            <author>
+                <persName>
+                    <surname>Münzmay</surname>
+                    <forename>Andreas</forename>
+                </persName>
+                <affiliation>Universität Paderborn</affiliation>
+                <email>Andreas.muenzmay@uni-paderborn.de</email>
+                <idno type="ORCID">0000-0002-8373-4055</idno>
+            </author>
+            <author>
+                <persName>
+                    <surname>Pratschke</surname>
+                    <forename>Margarete</forename>
+                </persName>
+                <affiliation>HU Berlin</affiliation>
+                <email>Margarete.pratschke@hu-berlin.de</email>
+            </author>
+            <author>
+                <persName>
+                    <surname>Primavesi</surname>
+                    <forename>Patrick</forename>
+                </persName>
+                <affiliation>Universität Leipzig</affiliation>
+                <email>primavesi@uni-leipzig.de</email>
+            </author>
+            <author>
+                <persName>
+                    <surname>Richts-Matthaei</surname>
+                    <forename>Kristina</forename>
+                </persName>
+                <affiliation>Universität Paderborn, Germany</affiliation>
+                <email>kristina.richts@uni-paderborn.de</email>
+                <idno type="ORCID">0000-0001-8569-1995</idno>
+            </author>
+            <author>
+                <persName>
+                    <surname>Röwenstrunk</surname>
+                    <forename>Daniel</forename>
+                </persName>
+                <affiliation>Universität Paderborn</affiliation>
+                <email>roewenstrunk@uni-paderborn.de</email>
+                <idno type="ORCID">0000-0001-6271-2095</idno>
+            </author>
+            <author>
+                <persName>
+                    <surname>Schulz</surname>
+                    <forename>Christoph</forename>
+                </persName>
+                <affiliation>FH Düsseldorf</affiliation>
+                <email>cbschulz@web.de</email>
+            </author>
+            <author>
+                <persName>
+                    <surname>Stellmacher</surname>
+                    <forename>Martha</forename>
+                </persName>
+                <affiliation>SLUB Dresden</affiliation>
+                <email>Martha.Stellmacher@slub-dresden.de</email>
+                <idno type="ORCID">0000-0001-5655-0130</idno>
+            </author>   
+         </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-29T18:43:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Panel</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Kulturdaten</term>
+                    <term>Datenkuratierung</term>
+                    <term>Langzeitarchivierung</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">330</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+            <p>Was speichern wir und wozu? Was wird verdeckt, was verschwindet? Wie kann der inhaltliche Sinn erhalten bleiben? Welche Daten, Dokumentationen oder Programme sind für das Verstehen der Erkenntnisse notwendig? Was ist es wert, erhalten zu bleiben und für wen? Was macht es mit 'Kultur', wenn wir sie digital speichern, oder nicht speichern, oder nur für eine gewisse Zeit speichern? Besteht die Gefahr, heute etwas 'wegzusortieren', was morgen wichtig ist? Inwieweit überlassen wir das dem Zufall, inwieweit den technischen Routinen, inwieweit den Expert:innen?
+            </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Beschreibung des Themas</head>
+            <p>Die wissenschaftliche Beschäftigung mit Gegenständen der materiellen und immateriellen Kultur basiert in steigendem Maße auf digitalen Prozessen und auf der Arbeit mit digitalen Objekten. Die Bedeutung IT-gestützter Auswertungsverfahren nimmt ebenfalls zu. Häufig entstehen im Zusammenhang solcher Projekte neue Korpora von Digitalisaten, spezifische Modelle, formale Beschreibungen und Verknüpfungen von materiellen oder immateriellen Objekten, Ereignissen und Wissensbeständen, beispielsweise in Form von 3D-Digitalisierungen, Scans, Kodierungen, Audio- und Videoaufnahmen oder Simulationen. Aber auch wenn vorhandene Digitalisate herangezogen, angereichert, transformiert, verknüpft, visualisiert usw. werden, entstehen vielgestaltige Datenbestände von mitunter hohem Komplexitätsgrad, deren Relevanz sich keineswegs in der Funktion beispielsweise des 'Anhangs' zu klassischen Publikationsformen – Journal Papers, Konferenzbeiträge, Qualifikationsschriften usw. – erschöpft. Vielmehr gehen kulturbezogene Datensätze potenziell selbst als Arbeitsdaten, d.h. als Gegenstand, in den wissenschaftlichen, aber auch in den kulturellen Diskurs bis hin zur kulturökonomischen Praxis ein.</p>
+            <p>Im Allgemeinen stehen bei der Entwicklung von Standards für Datenkuratierung und Langzeitarchivierung technische Belange im Zentrum – also das „Wie?“ der Speicherung und die Beschaffenheit bzw. Qualität der Daten (Zhou 2021). Nicht weniger dringlich für die Aggregation digitaler Kulturdatenkorpora ist aber die vorgelagerte, grundlegende Frage nach der Datenauswahl: Was speichern wir? Warum sollen wir es speichern? Und wie können künftig auch die Perspektiven der Beteiligten an Datenproduktion und -nutzung in den Entscheidungsprozess einbezogen werden?</p>
+            <p>Das Panel regt daher einen Perspektivwechsel an, hin zu forschungsgeleiteten Entscheidungswegen in Bezug auf die Fragen, was in die nachhaltige Bewahrung eingeht, und welche wahrscheinlichen Anforderungen zukünftiger Forschung an diese Objekte dabei in den Blick genommen werden müssen. Bei aller Schwierigkeit prognostischer Bewertungen geht es hier darum, die Sicht derjenigen besser zu verstehen, die konkret mit diesen Daten arbeiten, also den „designated communities“, wie es der OAIS-Standard formuliert (Reference Model 2012): Wie werden die Perspektiven, die Wissenschaftler:innen auf die Daten haben, angemessen und konkret in die Kuratierungsprozesse einbezogen? Welche Anforderungen für Infrastruktureinrichtungen ergeben sich hieraus?</p>
+            <p>Damit ist zugleich ein wesentliches Aufgabenprofil des Konsortiums NFDI4Culture (Altenhöner et al. 2020) umschrieben, das es sich zur Aufgabe macht, den Archivierungs- und Publikationsprozess als forschungsgeleitetes Zusammenwirken der verschiedenen Akteure zu verstehen und pragmatische Ansätze für den Aufbau einer in den unterschiedlichsten Dimensionen kohärenten (und nicht nur technisch verstandenen) Infrastruktur zu liefern.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Ablauf des Panels</head>
+            <p>Die drei Beitragenden werden zunächst in je 10minütigen Impulsvorträgen anhand konkreter Fallbeispiele für 'interessante Ausnahmen' – im Sinne von: Datenkorpora, die gewinnbringend in eine Langzeitarchivierung gebracht werden könnten und sollten, obwohl sie bei den normalen Routinen öffentlicher Archivierung momentan wohl unberücksichtigt blieben – ihre Perspektive auf die übergreifende Thematik darstellen. Im Kern des Panels steht ausgehend von diesen Impulsvorträgen die offene Plenumsdiskussion mit den Panelisten. Die Moderation strukturiert hierbei die Diskussion entlang von Leitfragen (s.u.). Parallel kümmert sich ein Team zugleich um die Dokumentation der Diskussionsbeiträge, insbesondere auch der in der Plenumsdiskussion von den Teilnehmenden eingebrachten weiteren Praxisbeispiele. Die Dokumentation wird in Form eines ausführlichen, zusammenfassenden Berichts im Nachgang den Teilnehmenden zur Verfügung gestellt und im Open Access in kommentierbarer Form öffentlich gemacht. Die Veranstaltung möchte auf diese Weise einen kontinuierlichen Diskussionsprozess der an der Thematik beteiligten Fachcommunities anregen und bestmöglich unterstützen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+            <p>Die Leitfragenbündel für die Paneldiskussion lauten:</p>
+            <list type="unordered">
+                <item>Welche Objekte erhalten wir? Wie bewerten wir Daten?</item>
+                <item>Wie können inhaltlich die aktuellen wie künftigen Interessen der forschenden Communities Berücksichtigung finden? Wer entscheidet?</item>
+                <item>Welche Verwendungszusammenhänge entstandener oder gewonnener Daten sind im eigenen Forschungskontext bzw. im Kontext anderer Projekte absehbar?</item>
+                <item>Was bedeutet das für die Ausgestaltung von Förderlinien? Brauchen wir neben der Bewilligung von Projekten (und der per Datenmanagementplan gesicherten Datenpublikation) auch die zyklische 'Wiederbehandlung' von Archiven, um sie nutzbar zu halten?</item>
+                <item>Welche Rolle spielen bestimmte Medialitäten und Modalitäten von Daten? Welche Rolle spielen disziplinenspezifische bzw. disziplinenübergreifende und -unabhängige Perspektiven? </item>
+                <item>Was bedeutet das für die NFDI4Culture und andere geistes- und kulturwissenschaftliche Konsortien? Wie können die Konsortien hier optimal zusammenwirken? </item>
+            </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Panelisten</head>
+            <p>Margarete <hi rend="bold">Pratschke</hi>, Berlin: Digitale Bildkultur im Netz (Arbeitstitel)
+            </p>
+            <p>Patrick <hi rend="bold">Primavesi</hi>, Leipzig: Tanz - Theater - Performance. Digitale Repräsentation performativer Künste (Arbeitstitel)
+            </p>
+            <p>Christoph <hi rend="bold">Schulz</hi>, Wuppertal: Vergleich verschiedener Modi der digitalen Präsentation von Bewegungsbüchern mit Perspektiven auf die <hi rend="italic">gaming arts</hi> (Arbeitstitel)
+            </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Moderation</head>
+                <p>Reinhard <hi rend="bold">Altenhöner</hi>, Berlin</p>
+                <p>Lisa <hi rend="bold">Dieckmann</hi>, Köln</p>
+                <p>Andreas <hi rend="bold">Münzmay</hi>, Paderborn </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Altenhöner, Reinhard et al.</hi> (2020): "NFDI4Culture – Consortium for research data on material and immaterial cultural heritage", in: 
+                        <hi rend="italic">Research Ideas and Outcomes</hi> 6 (Juli 2020), e57036.
+                        <hi rend="apple-converted-space"> </hi>
+                        <ref target="https://doi.org/10.3897/rio.6.e57036">https://doi.org/10.3897/rio.6.e57036</ref>
+                    </bibl>
+                    <bibl><hi rend="bold">Keitel, Christian</hi> (2013): "Der Nestor-Leitfaden zur Digitalen Bestandserhaltung und seine Folgen für die Archive", in: Naumann, Kai (ed.): 
+                        <hi rend="italic">Digitale Archivierung in der Praxis</hi>. 16. Tagung des Arbeitskreises "Archivierung von Unterlagen aus digitalen Systemen" und Nestor-Workshop "Koordinierungsstellen", Stuttgart 2013, S. 267–277.
+                    </bibl>
+                    <bibl><hi rend="bold">Primavesi, Patrick et al.</hi> (2016): "Archiv/Praxis. Verkörpertes Wissen in Bewegung", in: Cairo, Milena / Hannemann, Moritz / Haß, Ulrike / Schäfer, Judith Schäfer (eds.):
+                        <hi rend="apple-converted-space" xml:space="preserve"> </hi>
+                        <hi rend="italic">Episteme des Theaters.</hi>
+                        <hi rend="apple-converted-space"> </hi>Bielefeld 2016, S. 425–450.
+                        <hi rend="apple-converted-space"> </hi>
+                        <ref target="https://doi.org/10.14361/9783839436035-030">https://doi.org/10.14361/9783839436035-030</ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://public.ccsds.org/Pubs/650x0m2.pdf"><hi rend="bold">Reference Model For An Open Archival Information System (OAIS)</hi></ref>
+                        <hi rend="apple-converted-space" xml:space="preserve"> (2012). </hi>CCSDS Secretariat. Juni 2012. Zugleich
+                        <hi rend="apple-converted-space"> </hi>
+                        <ref target="http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?csnumber=57284">ISO 14721:2012</ref>.
+                        <hi rend="apple-converted-space"> </hi>
+                        <ref target="https://public.ccsds.org/Pubs/650x0m2.pdf">https://public.csds.org/Pubs/650x0m2.pdf</ref>
+                    </bibl>
+                    <bibl><hi rend="bold">Schulz, Christoph Benjamin</hi> (2019): "Die Geschichte(n) gefalteter Bücher. Gefaltete Texte und Leporellos in literarischer Avantgarde und experimenteller Poesie", in: Schulz, Christoph Benjamin (ed.): 
+                        <hi rend="italic">Die Geschichte(n) gefalteter Bücher</hi>. 
+                        <hi rend="italic">Leporellos, Livres-Accordéon und Folded Panoramas in Literatur und Bildender Kunst</hi>. Hildesheim / Zürich / New York 2019, S. 11–121 und S. 437–486.
+                    </bibl>
+                    <bibl><hi rend="bold">Schulz, Christoph Benjamin</hi> (2021a): "Bookishness and Digitally Enhanced Publications Against the Backdrop of Apologies of the Book During the Advent of Digital Media", in: Bazarnik, Katarzyna / Hildebrand-Schat, Viola / Schulz, Christoph Benjamin (eds.): 
+                        <hi rend="italic">Refresh the Book. On the Hybrid Nature of the Book in the Age of Electronic Publishing</hi> (Critical Studies 41). Leiden 2021, S. 133–161.
+                        <hi rend="apple-converted-space"> </hi>
+                        <ref target="https://doi.org/10.1163/9789004443556_008">https://doi.org/10.1163/9789004443556_008</ref>
+                    </bibl>
+                    <bibl><hi rend="bold">Schulz, Christoph Benjamin</hi> (2021b): "Von einem Phänomen der Buchgeschichte zur Herausforderung für die Digital Humanities: Leporellos in der Kinder- und Jugendliteratur", in: Schmideler, Sebastian / Helm, Wiebke (eds.): 
+                        <hi rend="italic">BildWissen – KinderBuch</hi>. Studien zu Kinder- und Jugendliteratur und -medien, Bd. 5, . Stuttgart 2021, S. 23–44.
+                        <hi rend="apple-converted-space"> </hi>
+                        <ref target="https://doi.org/10.1007/978-3-476-05758-7_3">https://doi.org/10.1007/978-3-476-05758-7_3</ref>
+                    </bibl>
+                    <bibl><hi rend="bold">Zhou, Peter</hi> (2021): "Towards a Sustainable Infrastructure for the Preservation of Cultural Heritage and Digital Scholarship", in: 
+                        <hi rend="italic">Data and Information Management</hi> 5, no.2 (2021), S. 253–261.
+                        <hi rend="apple-converted-space"> </hi>
+                        <ref target="https://doi.org/10.2478/dim-2020-0052">https://doi.org/10.2478/dim-2020-0052</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

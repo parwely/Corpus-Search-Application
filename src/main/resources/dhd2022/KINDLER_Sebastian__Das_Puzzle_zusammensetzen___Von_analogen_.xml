@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_196">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">„Das Puzzle zusammensetzen“</title>
+                <title type="sub">Von analogen Dokumentensammlungen zu datenbankbasierten Biografien sowjetischer Kriegsgefangener des Zweiten Weltkriegs</title>
+                </title>
+            <author>
+                    <persName>
+                        <surname>Kindler</surname>
+                        <forename>Sebastian</forename>
+                    </persName>
+                    <affiliation>Deutsches Historisches Institut Moskau, Germany</affiliation>
+                    <email>sebastian.kindler@dhi-moskau.org</email>
+                <idno type="ORCID">0000-0002-9699-2360</idno></author>
+                <author>
+                    <persName>
+                        <surname>Wolf</surname>
+                        <forename>Katrin</forename>
+                    </persName>
+                    <affiliation>Deutsches Historisches Institut Moskau, Germany</affiliation>
+                    <email>katrin.wolf@dhi-moskau.org</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-30T10:24:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Sowjetische Kriegsgefangene</term>
+                    <term>Zweiter Weltkrieg</term>
+                    <term>Biografien</term>
+                    <term>Digitalisierung</term>
+                    <term>Indexierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Daten</term>
+                    <term>Bilder</term>
+                    <term>Personen</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">196</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p>Während des Zweiten Weltkriegs gerieten über fünf Mio. sowjetische Soldaten in deutsche Kriegsgefangenschaft. Charakterisiert war diese Gefangenschaft durch die Nichtbeachtung internationaler Regeln zum Umgang mit feindlichen Kriegsgefangenen und einer unmenschlichen Behandlung bis hin zur Ermordung der Internierten. Mehr als drei Millionen überlebten die Gefangenschaft nicht (Otto, Keller 2011; Wissenschaftliche Dienste 2010). Die Überlebenden wurden nach der Rückkehr in ihre Heimat des Landesverrats und der Kollaboration mit dem Feind verdächtigt und waren unterschiedlichen Repressionen ausgesetzt. Bis heute sind in vielen Fällen sowohl die Namen als auch die Schicksale dieser Personen nicht bekannt.</p>
+                <p>Im deutsch-russischen Gemeinschaftsprojekts „Sowjetische und deutsche Kriegsgefangene und Internierte“ ist es die Aufgabe des DHI Moskau, die heute noch verfügbaren Archivdokumente zu digitalisieren, die personenbezogenen Angaben zu den Kriegsgefangenen zu extrahieren und diese Information für Forschung und Schicksalsklärung öffentlich verfügbar zu machen. Das Projektziel besteht im Aufbau einer Datenbank, die die „Gefangenenbiografien“ der Kriegsgefangenen vom Zeitpunkt ihrer Gefangennahme, ihre Lagerstandorte bis hin zum Ende der Gefangenschaft durch Befreiung oder Tod sowie ggfs. eine Repression nach der Repatriierung und Filtration, d.h. der Suche nach tatsächlichen oder vermeintlichen „Staatsfeinden“, enthält. Voraussetzung für den Aufbau einer solchen digitalen Infrastruktur als Werkzeug für die zukünftige Forschung und Schicksalsklärung ist die Gewinnung, Organisation und Verarbeitung einer sehr großen Datenmenge. Der dafür etablierte Workflow soll als „best practise“-Modell vorgestellt werden.
+                    <hi rend="superscript">1</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Der Workflow: Standards, wo möglich – Kompromisse, wo nötig</head>
+                <p>Die Digitalisierung der Archivdokumente bildet den ersten Schritt auf dem Weg vom Papierdokument zur digitalen Gefangenenbiografie und erfolgt nach Maßgabe der „DFG-Praxisregeln ‚Digitalisierung‘“ (DFG 2016). Aufgrund der Arbeit in einer Vielzahl internationaler Archive und daraus resultierender unterschiedlicher Rahmenbedingungen (technische Ausrüstung, Zustand der Dokumente, Kooperationsbereitschaft etc.) ist dieser „Goldstandard“ jedoch nicht immer umsetzbar. </p>
+                <p>Die Indexierung als Übertragen der auf dem Dokumentenscan enthaltenen Informationen in die digitale Form erfolgt sowohl projektintern als auch durch externe Dienstleister. Im ersten Schritt wird sie auf Basis des Dokuments ohne Änderung, Interpretation oder Änderung des Originaleintrags durchgeführt und verbindet die Informationen unmittelbar mit dem zugehörigen Digitalisat. Bei der Arbeit mit den teils sehr heterogenen Quellen (Provenienz, Entstehungszeit, verwendetes Alphabet, genutzte Sprache, enthaltene Informationen) bestehen für jeden Dokumententyp eigens angepasste Datenfelder. Die Auswahl der zu indexierenden Informationen orientiert sich an den Nutzungsbedürfnissen von Schicksalsklärung und historischer Forschung: Neben den verfügbaren Personenbasisdaten sind das Angaben zu Lageraufenthalten, Transporten, Arbeitskommandos sowie zum Ende der Gefangenschaft und der Repatriierung. Aufwand und Ertrag sind im Hinblick auf die einzelnen Dokumententypen elementar: Bei einer Vielzahl von Dokumenten sind nicht alle enthaltenen Informationen extrahierbar, eine zu starke Limitierung schränkt jedoch im Ergebnis auch die Nutzbarkeit der Gefangenenbiografien ein.</p>
+                <p>Die genutzte Datenbankinfrastruktur sind die „Memorial Archives“ der KZ-Gedenkstätte Flossenbürg.
+                    <hi rend="superscript">2</hi> Die im Rahmen des Projekts generierten Daten sind in mehrere Arbeitsebenen unterteilt: Die unterste Ebene bildet der aus indexierter Information und Digitalisat bestehende Dokumentendatensatz, der die jeweilige Archivalie repräsentiert und die Basis aller weiteren Ebenen bildet. Die indexierten Informationen werden um eine Interpretation des originären Eintrags ergänzt, um Daten zu vereinheitlichen und vergleichbar zu machen. Der unveränderte Eintrag bleibt parallel als Referenz bestehen. Weitere Arbeitsebenen bestehen u. a. aus einer Aktenebene zur Repräsentation von Dokumentensammlungen, einer Ebene zu Transporten und Überstellungen in andere Lager und einer Ebene zu in den Dokumenten genannten dritten Personen. Die Teilebenen fließen auf der Ebene von Personendatensätzen zusammen, die die bereits mehrfach erwähnte Gefangenenbiografie darstellen: Alle zu einem Individuum gehörenden Informationen aus unterschiedlichen Dokumenten werden hier miteinander verbunden, sodass das auf Grundlage aller verfügbaren Informationen erstellte Gefangenenschicksal sichtbar wird. Die Integration der Informationen zu „Transporten“ und „weiteren Personen“ löst diese Informationen von den individuellen Schicksalen und ermöglicht die Forschung zu gruppenbezogenen Erfahrungen nach geografischen und zeitlichen Kriterien ebenso wie nach familiären oder anderen persönlichen Netzwerken. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit</head>
+                <p>Die Erstellung datenbankbasierter Gefangenenbiografien sowjetischer Kriegsgefangener des Zweiten Weltkriegs stellt auf mehreren Ebenen eine Herausforderung dar, bis aus einem Papierdokument eine digitalisierte Quelle mit Potenzial für Schicksalsklärung und Forschung wird. Bei dem vorgestellten Projekt sind es neben bilateraler deutsch-russischer Koordination der Arbeitsschwerpunkte auf politischer und inhaltlicher Ebene die technische Umsetzung der Digitalisierungs- und Indexierungsmaßnahmen sowie die detaillierte konzeptionelle Vorbereitung der einzelnen Arbeitsschritte. Darüber hinaus betreffen rechtliche und ethische Einschränkungen nicht nur die Nachnutzbarkeit der Digitalisate, sondern auch den Umgang mit den personenbezogenen Daten z.T. noch lebender Personen. 
+                    <lb/>Diese und weitere Faktoren sind angesichts des immensen Quellenkorpus zu beachten, um eine Balance zwischen Qualität und Quantität der Verarbeitung zu gewährleisten und die Nutzbarkeit der Gefangenenbiografien für Wissenschaft und Erinnerungskultur zu maximieren.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fußnoten</head>
+                <p>1. Aktuell (Stand 7/2021) verfügt das Projekt über mehr als 1,5 Mio. Digitalisate, aus denen die personenbezogenen Datensätze erstellt werden.</p>
+                <p>2. Abrufbar unter <ref target="https://memorial-archives.international">https://memorial-archives.international</ref>.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Deutsche Forschungsgemeinschaft</hi> (2016): <hi rend="italic">DFG-Praxisregeln ‚Digitalisierung‘</hi> [12/16], 
+                        <ref target="https://www.dfg.de/formulare/12_151/12_151_de.pdf">https://www.dfg.de/formulare/12_151/12_151_de.pdf</ref> [letzter Zugriff 6. Juli 2021].
+                    </bibl>
+                    <bibl><hi rend="bold">Otto, Reinhard / Keller, Rolf</hi> (2011): "Zur individuellen Erfassung von sowjetischen Kriegsgefangenen durch die Wehrmacht", in: <hi rend="italic">VfZ</hi> 59: 563-577.</bibl>
+                    <bibl><hi rend="bold">Overmans, Rüdiger / Hilger, Andreas / Poljan, Pavel</hi> [eds.] (2012): <hi rend="italic">Rotarmisten in deutscher Hand. Dokumente zu Gefangenschaft, Repatriierung und Rehabilitierung sowjetischer Soldaten des Zweiten Weltkriegs</hi>. Paderborn: Schöningh.</bibl>
+                    <bibl><hi rend="bold">Wissenschaftliche Dienste des Bundestags</hi> [eds.]: <hi rend="italic">Sowjetische Kriegsgefangene in Deutschland 1941-1945</hi>. 
+                        <ref target="https://www.bundestag.de/resource/blob/414030/3224bdbbdaed8abc7b833e237a3cdc73/WD-1-036-10-pdf-data.pdf">https://www.bundestag.de/resource/blob/414030/3224bdbbdaed8abc7b833e237a3cdc73/WD-1-036-10-pdf-data.pdf</ref> [letzter Zugriff 6. Juli 2021]. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

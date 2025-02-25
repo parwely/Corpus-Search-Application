@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_249">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Literaturgeschichtsschreibung datenbasiert und wikifiziert?</title>
+                    <title type="sub">Automatische Extraktion thematischer Statements aus französischen Primärtexten mithilfe von Topic Modeling, RDF und eines kontrollierten Vokabulars in LOD</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Röttgermann</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>roettger@uni-trier.de</email>
+                <idno type="ORCID">0000-0002-1918-8117</idno></author>
+                <author>
+                    <persName>
+                        <surname>Klee</surname>
+                        <forename>Anne</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>klee@uni-trier.de</email>
+                <idno type="ORCID">0000-0002-1532-2649</idno></author>
+                <author>
+                    <persName>
+                        <surname>Hinzmann</surname>
+                        <forename>Maria</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>hinzmannm@uni-trier.de</email>
+                <idno type="ORCID">0000-0001-7199-1436</idno></author>
+                <author>
+                    <persName>
+                        <surname>Schöch</surname>
+                        <forename>Christof</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>schoech@uni-trier.de</email>
+                <idno type="ORCID">0000-0002-4557-2753</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>TEI/XML</term>
+                    <term>Metadaten</term>
+                    <term>Topic Modeling</term>
+                    <term>Linked Open Data</term>
+                    <term>Literaturgeschichte</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Bibliographie</term>
+                    <term>Literatur</term>
+                    <term>Metadaten</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">249</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Welche Formalisierungs- und Modellierungsarbeit ist nötig, um Kulturen des kollektiven Gedächtnisses wie die Literaturgeschichtsschreibung als Daten abfragbar zur Verfügung zu stellen? Wir sehen aktuell einige Umbrüche in den Strategien der Gedächtnisinstitutionen, die sich zunehmend dem ‘Linked Open Data’-Paradigma verpflichtet sehen.<ref target="ftn1" n="1"/> Am Beispiel der Domäne französischer Literatur des 18. Jahrhundert verfolgt das Projekt “Mining and Modeling Text” einen ähnlich gearteten, jedoch im Bereich der Literaturgeschichtsschreibung neuen Ansatz einer datenbasierten, wikifizierten Arbeitsweise. Durch den Fokus auf eine spezifische literaturgeschichtliche Domäne entsteht ein besonders dichtes Netz von Aussagen, die über eine systematische Ontologie literaturhistorisch relevanter Aussagetypen miteinander verknüpft sind.
+            </p>
+            <p style="text-align: left; ">Anhand von drei verschiedenen Informationsquellen (Primärliteratur, Sekundärliteratur und bibliographische Daten) werden literaturhistoriographische Aussagen extrahiert und in Form eines Wissensnetzwerks modelliert, das die heterogenen Daten integriert und über einen SPARQL-Endpunkt abfragbar macht. Das interdisziplinäre Projekt vereint informationswissenschaftliche, juristische, literaturwissenschaftliche und computerlinguistische Expertise. Den Prinzipien der Open Science verbunden, wurde eine Infrastruktur aufgebaut, die freie Software wie 
+                <hi rend="italic">Wikibase</hi> nutzt und im Sinne des FAIRen Datenmanagements die laufenden Ergebnisse transparent auf GitHub zur Verfügung stellt. Doch wie gelingt es, das gewonnene Wissen aus heterogenen Datenquellen so zu modellieren, dass es einander ergänzend und vergleichbar in ein gemeinsames Wissensnetz einfließen kann?
+            </p>
+            <p style="text-align: left; ">Dies soll zunächst konkret anhand der Extraktion thematischer Aussagen mittels Topic Modeling (1.) sowie der Extraktion von Themenaussagen aus bibliographischen Daten (2.) veranschaulicht werden. Die Relevanz eines kontrollierten Vokabulars im Sinne der Vergleichbarkeit thematischer Aussagewerte unterschiedlicher Informationsquellen (3.) in einem über SPARQL abfragbaren LOD-Wissensnetzwerk (4.) wird im Anschluss dargelegt. Das kontrollierte Vokabular resultiert dabei aus einem Grundstock zeitgeschichtlich relevanter Themen, erweitert um Themenkonzepte, die sich aus der Informationsextraktion der drei Datenquellen ergeben. </p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Informationsextraktion aus Primärtexten mithilfe von Topic Modeling</head>
+                <p style="text-align: left; ">Als Datengrundlage zur Modellierung von literaturhistorisch relevanten Aussagen dienen uns drei Kategorien an Texten: Primärliteratur (Romane), Sekundärliteratur (Fachliteratur) und bibliographische Quellen. Die erste der drei Informationsquellen besteht aus einem Korpus aus französischen Romanen der zweiten Hälfte des 18. Jahrhunderts (Röttgermann 2021). Dieses umfasst derzeit 115 Texte und wird laufend durch Volltextdigitalisierung mit dem auf historische Drucke spezialisierten OCR-Tool 
+                    <hi rend="italic">OCR4all</hi> (vgl. Reul et al. 2019) und durch Transformation frei verfügbarer EPUBS zu XML-TEI erweitert.<ref target="ftn2" n="2"/>
+                </p>
+                <p style="text-align: left; ">Alle Input-Dateien wurden in TEI-konformes XML nach den Richtlinien der Text Encoding Initiative (vgl. Burnard 2014) nach dem Schema der 
+                    <hi rend="italic" xml:space="preserve">European Literary Text Collection </hi>(ELTeC) kodiert (Burnard/Odebrecht 2019). Mithilfe eines Python-Skripts wurden die Texte teilmodernisiert und normalisiert und als Plaintext extrahiert.<ref target="ftn3" n="3"/> In dieser Fassung dienen die Texte als Input-Daten für den Topic Modeling-Algorithmus.
+                </p>
+                <p style="text-align: left; ">Mithilfe von Topic Modeling (vgl. Blei 2011) ist es möglich, “Topics” aus den Primärtexten zu extrahieren, die Aufschluss über Themen-Cluster innerhalb des Korpus geben können. Die Methode generiert auf der Grundlage der Kookkurrenz von Wörtern Gruppen semantisch verwandter Wörtern, die Topics. Hier wurden mit Mallet (vgl. McCallum 2002) zunächst 30 Topics generiert, welchen im Anschluss Label zugewiesen wurden. Diese wiederum wurden mit Konzepten aus einem Themenvokabular verknüpft.<ref target="ftn4" n="4"/> Auf diese Weise konnten Themen in den Romanen ermittelt werden, welche auf thematische Konzepte der Epoche der Aufklärung verweisen (vgl. Klee/Röttgermann 2020). 
+                </p>
+                <p style="text-align: left; ">Die gewonnenen Topics verteilen sich folgendermaßen über das Korpus (s. Abb. 1):</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="9.90423611111111cm" url="Pictures/8359283fed6c3604cdd4c91fd2faf983.png" rend="inline"/>
+                    <head>Abb. 1: Dominante Topics im Romankorpus, Topic Modeling mit 92 Romanen und 30 Topics. Daten: DOI: 10.5281/zenodo.4493224.</head>
+                </figure>
+                <p style="text-align: left; ">Neben einigen Topic Modeling Artefakten wie [temps paraître encore] haben sich Topics im Romankorpus herauskristallisiert, die auf literarische Gattungen des 18. Jahrhunderts wie Briefroman (Topic “correspondance”) oder Reiseroman (Topic “migration_voyage”) oder auf häufig thematisch verhandelte Konzepte wie Philosophie (Topic “philosophie”) oder Erziehung (Topic “éducation_enfance”) hinweisen.</p>
+                <p style="text-align: left; ">Für das Werk Candide (1759) von Voltaire konnte beispielsweise ein Topic extrahiert werden, das mit dem Label “migration_voyage” versehen wurde (Abb. 2). </p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="10.00125cm" url="Pictures/a78716c101a767e7673f171c35b4ca57.png" rend="inline"/>
+                    <head>Abb. 2: Wordle des Topics “migration_voyage” (vgl. Klee/Röttgermann 2020). Daten: https://doi.org/10.5281/zenodo.4493224.</head>
+                </figure>
+                <p style="text-align: left; ">Aus diesem Einzelergebnis leiten wir folgendes angedeutetes Statement über das Werk Candide ab:</p>
+                <p style="text-align: left; ">[Candide] ABOUT [label @en: travel | label @de: Reise | label@fr: voyage].</p>
+                <p style="text-align: left; ">Ein Mapping der Entitäten auf Wikidata ergibt daraufhin dieses hier in menschenlesbarer Form angedeutete Statement:</p>
+                <p style="text-align: left; ">Q215894 [label @fr: Candide] ABOUT Q61509 [label @en: travel | label @de: Reise | label@fr: voyage].</p>
+                <p style="text-align: left; ">Für den Piloten wurden für das Romankorpus [Stand: 92 Romane]<ref target="ftn5" n="5"/> je Werk die 5 Topics mit der höchsten Wahrscheinlichkeit als Statements formuliert und so in einem ersten Schritt 460 thematische Aussagen dieser Art generiert. Wir haben zur Einspeisung in das Wissensnetzwerk einen Cutoff von 5 Topics gewählt, um so eine Vergleichbarkeit zur Anzahl der Themen in den bibliographischen Daten herzustellen. Die vollständige Anzahl der Topics pro Werk mit Gewichtungen ist jedoch auf GitHub dokumentiert (Klee/Röttgermann 2020).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Extraktion von thematischen Aussagen aus bibliographischen Daten</head>
+                <p style="text-align: left; ">Bei der zweiten Informationsquelle handelt es sich um bibliographische Nachweissysteme zur französischen Literatur 1751-1800 (s. Abb. 3). Im Fokus steht 
+                    <hi rend="italic">die Bibliographie du genre romanesque français</hi> (Martin et al. 1977), die die Grundgesamtheit der literarischen Produktion der entsprechenden Dekaden sorgfältig dokumentiert und Schlagworte zu thematischen Inhalten der Romane enthält, die jedoch nicht indexiert sind.<ref target="ftn6" n="6"/>
+                </p>
+                <p style="text-align: left; ">Die Bibliographie bietet in Kombination mit den Ergebnissen des Topic Modelings die Möglichkeit eines Mensch-Maschine-Vergleichs – wurden die enthaltenen thematischen Schlagworte doch in den 1970er Jahren durch Lektüre und Zusammentragen von Informationen aus anderen Nachschlagewerken erhoben. Die Bibliographie wurde in mehreren Arbeitsschritten aufwendig erschlossen.<ref target="ftn7" n="7"/> Die Extraktion der thematischen Informationen stellt im Wechselspiel mit deren semantischer Modellierung eine besondere Herausforderung dar, da sie einerseits in sehr heterogener Form und andererseits nicht klar abgegrenzt zu weiteren Informationskategorien in der Bibliographie vorliegen.<ref target="ftn8" n="8"/> Zur Identifikation der häufigsten thematischen Aussagen, welche als Statements in das Wissensnetzwerk eingespeist werden, wurde das Korpusanalysetool TXM (vgl. Heiden 2010) genutzt.<ref target="ftn9" n="9"/> Jede dieser Aussagen wird auf ein Konzept unseres kontrollierten Themenvokabulars gemappt. So können die Strings automatisch extrahiert und als Statements formuliert werden. Aus dem Eintrag zu 
+                    <hi rend="italic">Les enfans de la nature</hi> von Pierre Blanchard in der Bibliographie (String aus 4./5. Spalte: &lt;naufrage, robinsonade, intrigue sentimentale; thèmes pédagogiques et philosophiques&gt;) können beispielsweise die folgenden thematischen Statements abgeleitet werden:
+                </p>
+                <p style="text-align: left; ">[Les enfans de la nature] ABOUT [sentiment | Gefühl | sentiment]</p>
+                <p style="text-align: left; ">[Les enfans de la nature] ABOUT [pedagogy | Pädagogik | pédagogie]</p>
+                <p style="text-align: left; ">[Les enfans de la nature] ABOUT [philosophy | Philosophie | philosophie].</p>
+                <p style="text-align: left; ">Technisch unterscheiden sich die RDF-Triple zu Themen je nach Datenquelle nicht, werden jedoch entsprechend ihrer Herkunft in Wikibase mit der Property 
+                    <hi rend="italic" xml:space="preserve">stated in (P14) </hi>referenziert. 
+                </p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="6.062486111111111cm" url="Pictures/c9e420e8643c2e6ea518346d09ee2906.png" rend="inline"/>
+                    <head>Abb. 3: Themenkategorien des französischen Romans 1751-1800 (Martin et al. 1977: xlviii–xlix).</head>
+                </figure>
+                <p style="text-align: left; ">In den bibliographischen Daten sind insgesamt knapp 2700 Items (Veröffentlichungen fiktionaler Prosa in französischer Sprache inklusive Übersetzungen) enthalten, von denen 349 das thematische Schlagwort ‘voyage’ enthalten.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Rolle des kontrollierten Vokabulars</head>
+                <p style="text-align: left; ">Wie lassen sich die thematischen Muster in der Primärliteratur mit den Daten aus den bibliographischen Nachweissystemen vergleichen? Ein wichtiger Modellierungsschritt ist zunächst das Erstellen eines kontrollierten Vokabulars aus thematischen Konzepten der französischen Aufklärung, auf das die Ergebnisse des Topic Modeling und die Bibliographie-Schlagworte gemappt werden. </p>
+                <p style="text-align: left; ">Das Vokabular der Themenbegriffe besitzt eine hohe Relevanz für mehrere Teilprojekte: Es stellt zum einen die Labelbegriffe für die Topics aus dem Topic Model bereit, liefert daneben aber auch die Konzept-Items für die Objektposition solcher thematischer Statements, die aus der Sekundärliteratur und der Bibliographie extrahiert wurden.</p>
+                <p style="text-align: left; ">An das Vokabular sind somit mehrere Anforderungen geknüpft: Die Begriffe müssen die Themenkonzepte der französischen Aufklärung abdecken, sollen ein gewisses Abstraktionslevel aufweisen, damit sie als kategorische Begriffe fungieren können und die Zusammenstellung der Begriffe sollte transparent und nachvollziehbar sein. Eine erste Grundlage bildet das Themeninventar des 
+                    <hi rend="italic">Dictionnaire européen des Lumières</hi> (Delon et al. 2007). Die Artikelstichwörter bieten eine gute Abdeckung an gesellschaftlich, politisch, ideengeschichtlich oder kulturell relevanten Themen der Epoche und stellen somit einen geeigneten Grundstock an möglichen Labeln für die in den Romanen vorkommenden Themen. Dennoch enthält die Ressource Begriffe, die entweder zu spezifisch (z.B. ‘pyrrhonisme’) oder zu generisch (z.B. ‘fonction’’) sind, um durch sie literarische Themen zu beschreiben, weshalb diese für das Vokabular nicht berücksichtigt wurden. Ergänzt wurden die Begriffe um solche Themenkonzepte, die bei der manuellen Annotation der Sekundärliteratur zusätzlich aufgedeckt wurden, um fehlende Konzepte beim Labeling der Topics sowie um thematische Schlagworte aus der Bibliographie (vgl. Martin et al. 1977), wenn diese anderweitig nicht repräsentiert waren. Das Vokabular ist nun konsolidiert, kann aber auch in Zukunft bei Bedarf erweitert werden. 
+                </p>
+                <p style="text-align: left; ">Um die multilinguale Vergleichbarkeit zwischen französischsprachigen Primärtexten und deutschsprachiger Sekundärliteratur zu gewährleisten, und im Sinne der Anschlussfähigkeit an und Interoperabilität mit anderen Datenbeständen, werden die Themenkonzepte auf einen Normdatensatz (Wikidata) gemappt, wodurch das kontrollierte Vokabular konsolidiert und multilingual erfasst ist (siehe Abb. 4).<ref target="ftn10" n="10"/>
+                </p>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="13.110986111111112cm" url="Pictures/12fc5b32c8f7ed87f80387cc3d03271a.png" rend="inline"/>
+                    <head>Abb. 4: Ausschnitt aus dem kontrollierten Vokabular zur Extraktion thematischer Konzepte. “DEL” bezeichnet dabei Ressourcen aus dem 
+                    <hi rend="italic">Dictionnaire européen des Lumières</hi> (Delon et al. 2007), “BGRF” Ressourcen aus den thematischen Schlagworten der 
+                    <hi rend="italic">Bibliographie du genre romanesque français, 1751-1800</hi> (Martin et al. 1977).</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Unser Ziel: ein Wissensnetzwerk der Literaturgeschichtsschreibung</head>
+                <figure>
+                    <graphic n="1005" width="16.002cm" height="10.960805555555556cm" url="Pictures/6ae6fbe171a40b6a482ef75d1c68e81b.png" rend="inline"/>
+                    <head>Abb. 5: Ausschnitt aus dem Netzwerk der dominanten Topics pro Werk in 
+                    <hi rend="italic">Cytoscape</hi> (Datensatz: Klee/Röttgermann 2020). Siehe https://github.com/MiMoText/topicmodeling/blob/master/cytoscape/topics-und-werke_v1.svg für das vollständige Netzwerk.</head>
+                </figure>
+                <p style="text-align: left; ">Ziel ist es, eine Vielzahl an Statements zu aggregieren und die Items auf vielfältige Weise miteinander in Beziehung zu setzen, sodass durch zunehmende Skalierung der Daten aus einzelnen Subjekt-Prädikat-Objekt Aussagen in RDF (Resource Description Framework) ein dichter “Knowledge Graph” (vgl. zum Begriff: Ehrlinger/Wöß 2016) entsteht (s. Abb. 5). </p>
+                <p style="text-align: left; ">Dieser Graph lässt sich sodann auch über einen SPARQL-Endpoint abfragen (s. Abb.6). Ausgehend von der Beobachtung, dass das Themenkonzept "Reise" in den Bibliographie-Daten bei immerhin 14,7 % der Einträge vermerkt ist, ließe sich beispielsweise fragen, in welchen Werken auch laut Topic Modeling das mit dem Themenkonzept "Reise" verbundene Topic als dominantes Topic vorkommt.<ref target="ftn11" n="11"/> Innerhalb des Korpus der 92 Volltexte ergeben sich 13 Treffer.
+                </p>
+                <figure>
+                    <graphic n="1006" width="16.002cm" height="6.866819444444444cm" url="Pictures/4d36d8ecb077a70a1b8c04acff7ea99c.jpg" rend="inline"/>
+                    <head>Abb. 6: Projektinterner SPARQL-Endpoint.</head>
+                </figure>
+                <p style="text-align: left; ">Durch Topic Modeling wurden dabei sowohl Werke identifiziert, die auch laut Bibliographie-Daten die Themenkategorie “Voyages” enthalten, als auch solche, in denen dieses Schlagwort nicht vorkam. </p>
+                <p style="text-align: left; ">Für das Werk 
+                    <hi rend="italic">Jacques le fataliste</hi> (1778) von Diderot stimmen Bibliographie-Daten und Topic Modeling-Ergebnisse im Hinblick auf das Themenkonzept “voyage” überein.
+                </p>
+                <figure>
+                    <graphic n="1007" width="16.002cm" height="8.720666666666666cm" url="Pictures/d222bfd1f33b3ed5cb98f70a2651628a.png" rend="inline"/>
+                    <head>Abb. 7: Bibliographie-Eintrag zu 
+                    <hi rend="italic">Pauliska ou la perversité moderne</hi> (1798) von Révéroni Saint-Cyr (inhaltliche Schlagworte kursiv).</head>
+                </figure>
+                <p style="text-align: left; ">Für das Werk 
+                    <hi rend="italic">Pauliska ou la perversité moderne</hi> (1798) von Révéroni Saint-Cyr wurde mittels Topic Modeling jenes Topic als relevant identifiziert, das mit den Themenkonzept-Labeln “voyage” und “migration” verknüpft ist (Topic Label “migration_voyage”). “Voyage” wird jedoch in den Bibliographie-Daten nicht explizit als Thema genannt (s. Abb. 7). Die Handlungszusammenfassung “les malheurs d’une réfugiée” (“die unglücklichen Begebenheiten einer Flüchtenden”) in den bibliographischen Schlagworten (extrahierbar durch das Mapping mit ‘fuite’ und ‘migration’ aus dem kontrollierten Themenvokabular) macht jedoch deutlich, dass das Topic “migration_voyage” hier ein plausibles Ergebnis darstellt, das durch den Abgleich mit den bibliographischen Daten präziser eingeordnet und im Wissensnetzwerk verknüpft werden kann. Die semantische Schnittmengen ‘menschliche Bewegung’ in allen drei Labels (‘voyage’, ‘fuite’, ‘migration’) zeigt die Gratwanderung, die im Herstellen vergleichbarer Themenkonzepte liegt. Das Labeling des Topics als ‘migration_voyage’ ermöglicht die Vergleichbarkeit der Werke, in denen ‘voyage’ ein Thema ist und stellt zugleich als Label lediglich eine Annäherung an das oben (vgl. Abb. 2) präziser repräsentierte Topic dar. 
+                </p>
+                <p style="text-align: left; ">SPARQL-Abfragen zu den Ergebnissen des Topic Modelings und/oder der bibliographischen Schlagworten ermöglichen es, auch weniger bekannte Werke zu spezifischen Themen zu ermitteln. Zudem zeichnen sich Muster an Themenkomplexen im Zeitverlauf ab. Für das Thema “voyage” innerhalb der bibliographischen Daten zeigt sich eine (auch statistisch signifikante) ansteigende Entwicklung (vgl. Abb. 8).</p>
+                <figure>
+                    <graphic n="1008" width="16.002cm" height="9.900708333333334cm" url="Pictures/ac09b2a144d5d391179bd4f7d6ed5c5c.png" rend="inline"/>
+                    <head>Abb. 8: Prozentualer Anteil der Werke aus der 
+                    <hi rend="italic" xml:space="preserve">Bibliographie du genre romanesque français 1751-1800 </hi>(Martin et al. 1977), die das Schlagwort “voyages” enthalten.</head>
+                </figure>
+                <p style="text-align: left; ">Eine Erklärung für den Anstieg der Themenkategorie “voyage” in den 1780er und 1790er Jahren könnte sein, dass viele Autor:innen die Handlung ihrer Werke aus politischen Gründen in andere Länder “verlegen” und zudem, dass der Themenkomplex der Reise im Kontext von Emigration im Zuge der politischen Ereignisse zunehmend in Romanen verhandelt wird. </p>
+                <p style="text-align: left; ">Beispiele hierfür wären 
+                    <hi rend="italic">Le roi Guiot</hi> (1791) von Jean Vesque de Puttelange, dessen Protagonist in ferne Königreiche reist, um dort einen neugierigen Blick auf von der absolutistischen Monarchie abweichende politische Herrschaftssysteme zu werfen oder auch der erwähnte Roman 
+                    <hi rend="italic">Pauliska ou la perversité moderne</hi> (1798), in dem die Protagonistin durch Polen irrt. Das Thema Flucht und Emigration verweist auf die politische Realität in Frankreich nach der Französischen Revolution (vgl. Van Crugten-André 2001) und ist Anlass zu Reflexionen über Gesellschaftsformen (vgl. Pageaux 1968: 205–14). 
+                </p>
+                <p style="text-align: left; ">Insgesamt ist das Thema “Reise” derzeit laut Topic Modeling im Romankorpus in 14,13% der Werke als dominantes Topic vertreten, in den bibliographischen Daten in 14,74% der Werke. Ein makrostruktureller Blick zeigt demnach in diesem Beispiel eine vergleichbare Größenordnung der thematischen Aussage über das gesamte Korpus hinweg, auch wenn in der Bewertung der Einzelwerke nicht immer Kongruenz besteht. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit und Perspektiven</head>
+                <p style="text-align: left; ">Das Projekt MiMoText modelliert die Geschichte des französischen Romans der zweiten Hälfte des 18. Jahrhunderts in Form von RDF-Tripeln in Wikibase als Knowledge Graph. Im Zuge eines Pilotprojekts wurden in einem ersten Schritt aus bibliographischen Daten und aus einem Romankorpus Relationen zwischen Werken und Themen extrahiert, die in Form von Tripeln in eine eigene Wikibase-Instanz eingelesen wurden. Zur Modellierung der Themen des französischen Romans der Aufklärung wurde ein kontrolliertes Vokabular erstellt, welches auf Wikidata gemappt wurde, um anschlussfähig an die Linked Open Data Cloud zu sein. Die Ergebnisse der Informationsextraktion aus den Romanen (mithilfe von Topic Modeling) und der Informationsextraktion aus bibliographischen Daten können nun per SPARQL-Endpoint abgefragt werden. </p>
+                <p style="text-align: left; ">Zu den nächsten Schritten gehört neben der Extraktion weiterer Statements über quantitative Romananalysen der Import von Themen-Statements aus dem dritten Typus von Informationsquellen (Fachliteratur) in unsere Wikibase-Instanz.<ref target="ftn12" n="12"/>
+                </p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Als Beispiel sei hier die Initiative der GND genannt, die eigenen Daten in Wikidata oder zumindest in einer Wikibase-Instanz (die Software hinter Wikidata) zu integrieren: https://blog.wikimedia.de/2020/03/04/wikibase-und-gnd/, letzter Zugriff: 30.11.2021. Zum Begriff “Linked Open Data” vgl. (Berners-Lee et al. 2006: 1–130).</note><note place="foot" xml:id="ftn2" n="2"> Wir nutzen die Quellen 
+                            <hi rend="italic">Wikisource, Ebooks libres et gratuits, GoogleBooks, Rousseau Online</hi> und 
+                            <hi rend="italic">Frantext</hi>. Diese Metadatentabelle dokumentiert die Korpuszusammensetzung und wird parallel zum Korpusaufbau laufend aktualisiert: http://doi.org/10.5281/zenodo.5040855 /. https://github.com/MiMoText/roman18/blob/master/XML-TEI/xml-tei_metadata.tsv, letzter Zugriff: 30.11.2021.
+                        </note><note place="foot" xml:id="ftn3" n="3"> https://github.com/MiMoText/roman18/blob/master/Python-Scripts/tei2txt_run.py, letzter Zugriff: 30.11.2021.</note><note place="foot" xml:id="ftn4" n="4"> In der Regel werden die Topics durch ein Element des Themenvokabulars repräsentiert, in wenigen Fällen erscheint die Repräsentation durch zwei Themenkonzept-Label treffender.</note><note place="foot" xml:id="ftn5" n="5"> Die Datengrundlage dieses Topic Modeling Durchgangs ist unter folgendem Release zu finden: (Klee/Röttgermann 2020).</note><note place="foot" xml:id="ftn6" n="6"> Zu möglicherweise fehlenden Werken vgl. Dawson 1978. Dawson benennt auch das Desiderat eines Themenindexes.</note><note place="foot" xml:id="ftn7" n="7"> An das Scannen sowie OCR schlossen sich das Generieren von Trainingsdaten sowie die Auszeichnung aller Einträge über ein Machine Learning-Verfahren (CRF) in XML an. Diese bildeten die Datengrundlage für die anschließende Modellierung der Einträge in RDF (vgl. Lüschow 2020), bei der jedoch die einzelnen Keywords noch nicht semantisch modelliert worden sind.</note><note place="foot" xml:id="ftn8" n="8"> Weitere Kategorien umfassen die Erzählform, den Ort der Handlung, die Figuren des Romans, die Tonalität/den Stil des Werks.</note><note place="foot" xml:id="ftn9" n="9"> Ausgewählt wurden zum einen Strings mit mindestens acht Vorkommen in der Bibliographie und darüber hinaus solche mit einer besonderen Relevanz in den anderen Informationsquellen und für die literaturgeschichtliche Domäne insgesamt wie zum Beispiel der String ‘robinsonade’.</note><note place="foot" xml:id="ftn10" n="10"> Zur Dokumentation der Liste vgl. Klee/Hinzmann 2021. </note><note place="foot" xml:id="ftn11" n="11"> Als dominante Topics bezeichnen wir jeweils diejenigen Topics, die in einem Werk unter den 5 Topics mit den höchsten Wahrscheinlichkeiten sind (siehe oben). </note><note place="foot" xml:id="ftn12" n="12"> Hierfür werden mit INCEpTION Aussagen in literaturgeschichtlichen Fachtexten annotiert, die in das Wissensnetzwerk eingespeist werden und zugleich als Trainingsdaten für die automatische Extraktion von Themenaussagen dienen.</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Berners-Lee, Tim / Hall, Wendy / Hendler, James A. / O’Hara, Kieron / Shadbolt, Nigel / Weitzner, Daniel J.</hi> (2006): “A Framework for Web Science”, in: 
+                        <hi rend="italic" xml:space="preserve">Foundations and Trends in Web Science </hi>1.1.: 1–130. 10.1561/1800000001.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Blei, David M.</hi> (2011): “Introduction to Probabilistic Topic Models”, in: 
+                        <hi rend="italic">Communications of the ACM 55.4.</hi>: 1–16.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Burnard, Lou</hi> (2014): 
+                        <hi rend="italic">What Is the Text Encoding Initiative? How to Add Intelligent Markup to Digital Resource</hi>s. Marseille: Encyclopédie Numérique. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Dawson, Robert L.</hi> (1978). “The Martin, Mylne, Frautschi Bibliographie Du Genre Romanesque Français”, in: 
+                        <hi rend="italic">Eighteenth-Century Studies</hi>, 11.4., 497–508. 10.2307/2737969.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Delon, Michel</hi> (2007): 
+                        <hi rend="italic">Dictionnaire européen des Lumières</hi>. Paris: PUF.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ehrlinger, Lisa / Wöß, Wolfram</hi> (2016): „Towards a Definition of Knowledge Graphs“, in: 
+                        <hi rend="italic">SEMANTiCS (Posters, Demos, SuCCESS)</hi> http://ceur-ws.org/Vol-1695/paper4.pdf.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Heiden, Serge</hi> (2010): 
+                        <hi rend="italic">The TXM Platform: Building Open-Source Textual Analysis Software Compatible with the TEI Encoding Scheme</hi>. http://halshs.archives-ouvertes.fr/halshs-00549764/en [letzter Zugriff: 30.11. 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Klee, Anne / Hinzmann, Maria</hi> (2021): 
+                        <hi rend="italic">MiMoText/vocabularies</hi> [Data Set]. https://github.com/MiMoText/vocabularies/blob/main/thematic_vocabulary.tsv [letzter Zugriff: 30.11.2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Klee, Anne / Röttgermann, Julia</hi> (2020): 
+                        <hi rend="italic">Doing Topic Modeling on French 18th Century Novels in the Context of MiMoText Project [Data Set]</hi> https://github.com/MiMoText/topicmodeling [letzter Zugriff: 30.11.2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Lüschow, Andreas</hi> (2020): “Automatische Extraktion und semantische Modellierung der Einträge einer Bibliographie französischsprachiger Romane”, in: 
+                        <hi rend="italic">Spielräume: Digital Humanities zwischen Modellierung und Interpretation. Konferenzabstracts</hi>, 80–84 10.5281/zenodo.3666690.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Martin, Angus / Mylne, Vivienne / Frautschi, Richard L.</hi> (1977): 
+                        <hi rend="italic" xml:space="preserve">Bibliographie du genre romanesque </hi>français, 1751-1800. London: Mansell.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">McCallum, Andrew Kach</hi> (2002): 
+                        <hi rend="italic">MALLET: A Machine Learning for Language Toolkit</hi>. http://mallet.cs.umass.edu.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Pageaux, Daniel-Henri</hi> (1968): “Voyages romanesques au siècle des Lumières”, in: 
+                        <hi rend="italic">Études littéraires</hi>, 1.2.: 205–214. 10.7202/500020ar.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Reul, Christian / Christ, Dennis / Hartelt, Alexander / Barbelt, Nico / Wehner, Maximilian</hi> (2019): “OCR4all -- An Open-Source Tool Providing a (Semi-)Automatic OCR Workflow for Historical Printings”, in: 
+                        <hi rend="italic">ArXiv:1909.04032</hi> [Cs].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Röttgermann, Julia</hi> (2021): 
+                        <hi rend="italic">Collection de romans français du dix-huitième siècle (1750-1800) / Eighteenth-Century French Novels (1750-1800) [dataset]. Release v0.2.0</hi> 10.5281/zenodo.5040855.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

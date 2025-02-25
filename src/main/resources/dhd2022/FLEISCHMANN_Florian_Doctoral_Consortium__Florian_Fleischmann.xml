@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_222">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Adnominale Possession in einem Bibel-Parallelkorpus</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Fleischmann</surname>
+                        <forename>Florian</forename>
+                    </persName>
+                    <affiliation>LMU München, Germany</affiliation>
+                    <email>Florian.Fleischmann@itg.uni-muenchen.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-14T13:58:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Doctoral Consortium</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>OCR</term>
+                    <term>Adnominale Possession</term>
+                    <term>Parallelkorpus</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">222</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">
+                <hi rend="fontstyle01">Empirische Sprachwissenschaft erarbeitet Erkenntnisse auf Basis sprachlichen Original-Materials. Für Untersuchungen über Unterschiede zwischen verschiedenen diachronen Stufen oder dialektalen Varietäten einer Sprache muss sprachliches Material aus diversen Quellen miteinander verglichen werden. Textsorte, Inhalt und Art der Quellen addieren hierbei weitere Variablen zur Untersuchung. Eine Möglichkeit, diesem Umstand zu begegnen, bieten Parallelkorpora. Sie haben den Vorteil, dass hier nur ein einziger Text in verschiedenen Sprachstufen bzw. -varietäten verglichen wird. Varianz in der Textsorte scheidet so als Erklärung für etwaige beobachtete linguistische Unterschiede aus. Um ein umfassendes Parallelkorpus zu erstellen, muss der untersuchte Text in möglichst vielen diachronen und/oder dialektalen Fassungen vorliegen. Einen Text, für den dies zutrifft, stellt die Bibel dar. Bibelübersetzungen ins Deutsche existieren bereits seit dem Althochdeutschen (z.B. Evangelienharmonie des Tatian, ca. 830 (Sievers 1872)) und sind lückenlos bis zum Neuhochdeutschen überliefert. Auch dialektal besitzen sie synchron eine weite Verbreitung. Es existieren bspw. (Teil-)Übersetzungen ins Hessische (Mieth 2011), Kärntnerische (Bünker 2007), Niederdeutsche (Jessen 1984), Pennsylvania Dutch (o. A. 2002), Schwäbische (Paul 1997), Walliserdeutsche (Theler 2011) oder Zürichdeutsche (Weber 2011). Ein weiterer Vorteil der Bibel liegt darin, dass hier eine möglichst textgetreue Wiedergabe im Sinne des Übersetzers liegt. Anpassungen an die individuelle Varietät erfolgen möglichst behutsam und konservativ, insbesondere was Syntax und Lexik angehen. Das Erstellen eines derartigen Parallelkorpus ist Kern meiner Promotionsschrift.</hi>
+            </p>
+            <p style="text-align: left; ">
+                <hi rend="fontstyle01">Besonderes Augenmerk liegt dabei auf einer nachhaltigen Aufbereitung der zugrundeliegenden Daten im Sinne der FAIR-Prinzipien. In einem ersten Schritt müssen die Bibeln digitalisiert werden. In vielen Fällen ist dies bereits durch Bibliotheken geschehen, meistens jedoch nur als Bild-PDFs. Zur weiteren Verarbeitung werden diese mittels automatischer Texterkennung (OCR) in maschinenlesbare Form gebracht. Bei älteren Texten stellt dies aufgrund der verwendeten gebrochenen Schriftarten (wie Fraktur) ein Problem dar. Vortrainierte Texterkennungsmodelle versagen hier oft (Baierer 2020, Springmann 2017: 3), so dass selbstständig neuronale Netze zur Erkennung trainiert werden müssen. Mit OCR4all (</hi><ref target="https://www.ocr4all.org">https://www.ocr4all.org</ref>
+                <hi rend="fontstyle01">) steht ein leistungsfähiges Software-Paket hierfür zur Verfügung. OCR4all basiert auf dem OCRopus-Derivat Calamari, das im Vergleich zu anderen OCR-Lösungen wie OCRopy. Tesseract oder OCRopus die besten Erkennungsraten zeigt (Wick 2020). OCR4all vereint weiterhin die Schritte von Pre-Processing, Character Recognition und Post-Processing in einem Tool und sorgt so für einen effizienten Arbeitsablauf. Bei Pilotversuchen ließen sich für ausgewählte historische Bibeln Erkennungsraten von 98 % und mehr erzielen. Mit OCR-D ist eine vergleichbare Lösung in Entwicklung, zumindest momentan liegen dessen Erkennungsraten jedoch noch niedriger (Baierer 2020).</hi>
+            </p>
+            <p style="text-align: left; ">
+                <hi rend="fontstyle01" xml:space="preserve"> </hi>Die Ausgabe liegt zunächst als reiner Text vor. Diese werden in eine SQL-Datenbank importiert und nach ihren Bibelversen annotiert. Auf diese Weise lässt sich in einem späteren Schritt eine einfache Weboberfläche entwerfen, die eine alignierte Darstellung von Bibelversen zulässt. Dadurch können auch Forschungszweige außerhalb der Sprachwissenschaften (im Rahmen von UrhG § 60d) auf das Parallelkorpus zugreifen. Im Kern soll das Parallelkorpus als Grundlage für linguistische Fragestellungen dienen. Hierfür sind weitere Verarbeitungsschritte notwendig, um die Daten entsprechend aufzubereiten. Es ist angezeigt, die Annotation der Texte um POS-Tags zu erweitern. Für Nicht-Standard Varietäten muss hierfür wieder auf das Training eigenständiger Tagger durch neuronale Netze zurückgegriffen werden. Obwohl diese sich im NLP bewährt haben, sind die Voraussetzungen für einen erfolgreichen Einsatz im linguistischen Kontext nicht vollständig klar. Im Rahmen dieser Arbeit sollen Einflussvariablen identifiziert und deren Auswirkung auf die Arbeit mit neuronalen Netzen vermessen werden. Ziel der Untersuchung ist es deshalb weiterhin, Verfahren zu verbessern und Parameter einzugrenzen, wie Neuronale Netze optimal zur Erkennung sprachlicher Strukturen genutzt werden können.
+            </p>
+            <p style="text-align: left; ">
+                <hi rend="fontstyle01" xml:space="preserve">Ein möglicher beispielhafter Untersuchungsgegenstand ist die Possession, eine grundlegende, sprachübergreifende Kategorie, um Besitzverhältnisse auszudrücken. Possession kann durch unterschiedliche Konstruktionen realisiert werden. Diese können in Konkurrenz stehen oder parallel existieren. Eine Unterkategorie dieser Möglichkeiten bilden die adnominalen Konstruktionen. Im Deutschen umfassen diese (vgl. Kasper 2017: 300): </hi>
+            </p>
+            <p style="text-align: left; ">
+                <hi rend="fontstyle21" xml:space="preserve">• </hi>
+                <hi rend="fontstyle01" xml:space="preserve">possessiver Genitiv: </hi>
+                <hi rend="fontstyle31">Marias Kind, das Kind Marias</hi>
+                <hi rend="fontstyle01">.</hi>
+                <lb/>
+                <hi rend="fontstyle21" xml:space="preserve">• </hi>
+                <hi rend="fontstyle01" xml:space="preserve">possessiver Dativ: </hi>
+                <hi rend="fontstyle31">Maria ihr Kind</hi>
+                <hi rend="fontstyle01">.</hi>
+                <lb/>
+                <hi rend="fontstyle21" xml:space="preserve">• </hi>
+                <hi rend="fontstyle31">von</hi>
+                <hi rend="fontstyle01" xml:space="preserve">-Konstruktion: </hi>
+                <hi rend="fontstyle31">das Kind von Maria</hi>
+                <hi rend="fontstyle01">.</hi>
+                <lb/>
+                <hi rend="fontstyle21" xml:space="preserve">• </hi>
+                <hi rend="fontstyle01" xml:space="preserve">Possessivpronomen: </hi>
+                <hi rend="fontstyle31">ihr Kind</hi>
+                <hi rend="fontstyle01">.</hi>
+            </p>
+            <p style="text-align: left; ">
+                <hi rend="fontstyle01" xml:space="preserve">Es liegen zahlreiche Arbeiten zur Possession allgemein (Seiler 1983; Heine 1997; Stolz et al. 2008; McGregor 2009; Börjars et al. 2013) oder zu Teilaspekten vor: ihre Verwendung in einzelnen Dialekten des Deutschen (z.B. für Hessen: Kasper 2017), die Konkurrenz zwischen Genitiv und </hi>
+                <hi rend="fontstyle31">von</hi>
+                <hi rend="fontstyle01" xml:space="preserve">-Konstruktionen in Abhängigkeit der Textsorte (Lang 2018), den frühkindlichen Erwerb possessiver Phrasen (Eisenbeiß et al. 2009) oder Possession im Sprachvergleich – beispielsweise Deutsch und Koreanisch (Shin 2004). Nicht vorhanden ist hingegen eine longitudinale Studie, die die gesamte deutsche Sprachgeschichte abdeckt. Und obwohl für Einzeldialekte Untersuchungen zur Possession existieren, fehlt eine umfassende empirische Studie, die eine größere Anzahl an dialektalen Varietäten des Deutschen abdeckt. Die adnominale Possession eignet sich deshalb besonders, um anhand des geschaffenen Parallelkorpus hinsichtlich ihrer diachronen Entwicklung und der Realisierung in dialektalen Varietäten untersucht zu werden. </hi>
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Baierer, Konstantin et al. </hi>(2020): 
+                        <hi rend="fontstyle01">“</hi>OCR-D kompakt: Ergebnisse und Stand der Forschung in der Förderinitiative“, in: 
+                        <hi rend="italic">Bibliothek Forschung und Praxis</hi> 44/2: 218-230.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Börjars, Kersti / Denison, David / Scott, Alan</hi>, (eds.) (2013): 
+                        <hi rend="italic">Morphosyntactic Categories and the Expression of Possession</hi>. Amsterdam, Philadelphia: John Benjamins.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="fontstyle01">
+                            <hi rend="bold">Bünker</hi>
+                            <hi rend="bold">,</hi>
+                            <hi rend="bold" xml:space="preserve"> Michael / Lagger</hi>
+                            <hi rend="bold">,</hi>
+                            <hi rend="bold" xml:space="preserve"> Sepp</hi> (Übers.) (2007): 
+                            <hi rend="italic" xml:space="preserve">Es wead ana kemmen. </hi>Das Markusevangelium auf Kärntnerisch. Übersetzt von Michael Bünker und Sepp Lagger. Klagenfurt: Heyn.
+                        </hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Eisenbeiß, Sonja / Matsuo, Ayumi / Sonnenstuhl, Ingrid</hi> (2009): „Learning to encode possession“. In: McGregor, William (ed.): 
+                        <hi rend="italic">The expression of possession</hi>. Berlin [u.a.]: de Gruyter, S. 143–213.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Heine, Bernd</hi> (1997): 
+                        <hi rend="italic">Possession. Cognitive sources, forces, and grammaticalization</hi>. Cambridge: Cambridge University Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="fontstyle01">
+                            <hi rend="bold">Jessen, Johannes</hi> (Übers.) (1984): 
+                            <hi rend="italic" xml:space="preserve">Dat Ole un dat Nie Testament in unse Moderspraak. </hi>Übersetzt von Johannes Jessen. Göttingen: Vandenhoeck &amp; Ruprecht.
+                        </hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Kasper, Simon</hi> (2017): „Adnominale Possession“. In: 
+                        <hi rend="italic">SyHD-Atlas</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Lang, Kristine</hi> (2018): 
+                        <hi rend="italic">Possession. Empirisch-funktionale Untersuchungen zu Genitivattribut und Präpositionalphrase mit von</hi>. München: Iudicium.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">McGregor, William</hi> (2009): 
+                        <hi rend="italic">The expression of possession</hi>. Berlin [u.a.]: de Gruyter.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="fontstyle01">
+                            <hi rend="bold">Mieth, Klemens</hi> (Übers.) (2011): 
+                            <hi rend="italic" xml:space="preserve">Das Neue Testament uff Hessisch. </hi>Übersetzt von Klemens Mieth. Norderstedt: Books on Demand GmbH.
+                        </hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="fontstyle01">
+                            <hi rend="bold">o. A.</hi> (2002): 
+                            <hi rend="italic">Es Nei Teshtament. Mitt Di Psaltah un Shpricha</hi>. South Holland, IL: The Bible League.
+                        </hi>
+                        <hi rend="Absatz-Standardschriftart1" xml:space="preserve"> </hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="fontstyle01">
+                            <hi rend="bold">Paul, Rudolf</hi> (Übers) (1997): 
+                            <hi rend="italic">D Bibel für Schwoba. s Matthäus-Evangeliom</hi>. Ens Schwäbische übersetzt vom Pfarrer Rudolf Paul. Tübingen: Silberburg.
+                        </hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Shin, Yong-Min</hi> (2004): 
+                        <hi rend="italic">Possession und Partizipantenrelation. Eine funktional-typologische Studie zur Possession und ihren semantischen Rollen am Beispiel des Deutschen und Koreanischen</hi>. Bochum: Brockmeyer.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Seiler, Hansjakob</hi> (1983): 
+                        <hi rend="italic">Possession as an Operational Dimension of Language</hi>. Tübingen: Narr.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="fontstyle01">
+                            <hi rend="bold">Sievers, Eduard</hi> (ed.) (1872): 
+                            <hi rend="italic">Tatian. Lateinisch und altdeutsch mit ausführlichem Glossar</hi>. Paderborn: Schöningh.
+                        </hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="fontstyle01">
+                            <hi rend="bold">Springmann, Uwe / Lüdeling, Anke</hi> (2017): “OCR of historical printings with an application to building diachronic corpora: A case study using the RIDGES herbal corpus”, in: 
+                            <hi rend="italic">Digital Humanities Quarterly</hi> 11/2.
+                        </hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Stolz, Thomas / Kettler, Sonja / Stroh, Cornelia / Urdze, Aina</hi> (2008): 
+                        <hi rend="italic">Split possession. An areal-linguistic study of the alienability correlation and related phenomena in the
+                            <lb/>languages in Europe. 
+                        </hi>Amsterdam, Philadelphia: Benjamins.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="fontstyle01">
+                            <hi rend="bold">Theler, Hubert</hi> (Übers.) (2011): 
+                            <hi rend="italic" xml:space="preserve">Ds Niww Teschtamänt uf Wallisertitsch. </hi>Übersetzt von Hubert Theler. Visp: Rotten.
+                        </hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="fontstyle01">
+                            <hi rend="bold">Weber, Emil</hi> (Übers.) (2011): 
+                            <hi rend="italic">S Nöi Teschtamänt Züritüütsch</hi>. Us em Griechische. Übersetzt von Emil Weber. Zürich: Jordan.
+                        </hi>
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="fontstyle01">
+                            <hi rend="bold">Wick, Christoph / Reul, Christian / Puppe, Frank</hi> (2020): “Calamari - A High-Performance Tensorflow-based Deep Learning Package for Optical Character Recognition”, in: 
+                            <hi rend="italic">Digital Humanities Quarterly</hi> 14/2.
+                        </hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

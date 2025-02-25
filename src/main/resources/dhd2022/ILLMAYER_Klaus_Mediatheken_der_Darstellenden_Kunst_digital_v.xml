@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_344">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Mediatheken der Darstellenden Kunst digital vernetzen</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Illmayer</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Austria</affiliation>
+                    <email>klaus.illmayer@oeaw.ac.at</email>
+                <idno type="ORCID">0000-0001-7253-996X</idno></author>
+                <author>
+                    <persName>
+                        <surname>Tiefenbacher</surname>
+                        <forename>Sara</forename>
+                    </persName>
+                    <affiliation>Universitätsbibliothek Johann Christian Senckenberg</affiliation>
+                    <email>S.Tiefenbacher@ub.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Voß</surname>
+                        <forename>Franziska</forename>
+                    </persName>
+                    <affiliation>Universitätsbibliothek Johann Christian Senckenberg</affiliation>
+                    <email>F.Voss@ub.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Beck</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>Universitätsbibliothek Johann Christian Senckenberg</affiliation>
+                    <email>J.Beck@ub.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Henninger</surname>
+                        <forename>Christine</forename>
+                    </persName>
+                    <affiliation>Internationales Theater Institut Deutschland, Berlin / Mediathek für Tanz und Theater</affiliation>
+                    <email>c.henniger@iti-germany.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wittenbecher</surname>
+                        <forename>Maxim</forename>
+                    </persName>
+                    <affiliation>Internationales Theater Institut Deutschland, Berlin / Mediathek für Tanz und Theater</affiliation>
+                    <email>m.wittenbecher@iti-germany.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-05T00:04:51.74</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Tanzaufführung</term>
+                    <term>Theateraufführung</term>
+                    <term>audiovisuelle Aufzeichnungen</term>
+                    <term>Mediatheken</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Infrastruktur</term>
+                    <term>Metadaten</term>
+                    <term>benannte Entitäten (named entities)</term>
+                    <term>Video</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">344</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Für die Tanz- und Theaterwissenschaft sind audiovisuelle (AV) Aufzeichnungen von Tanz- und Theateraufführung von großer Bedeutung. Sind doch AV-Materialien neben der archivalischen Dokumentation und Augenzeug*innenberichten eine der wichtigsten Quellen für die nachträgliche Auseinandersetzung mit dem flüchtigen Ereignis einer Tanz- und Theateraufführung (vgl. bspw. Fischer-Lichte 1999, S. 11). Durch die steigende Verfügbarkeit und der damit einhergehenden Kostenreduktion von Aufzeichnungsmedien – insbesondere VHS-Kassetten – wurde ab den 1980er Jahren an theaterwissenschaftlichen Instituten im deutschsprachigen Raum begonnen, systematisch solche Aufzeichnungen zu sammeln und damit Mediatheken für die Theaterforschung zu begründen (beispielhaft Fuxjäger 2020). Zugleich erstellen auch Theaterhäuser Aufzeichnungen sowie Künstler*innen und Theatergruppen zur Selbstdokumentation. Eine bedeutende Rolle nehmen zudem die öffentlich-rechtlichen Fernsehstationen ein, die regelmäßig Tanz- und Theateraufführungen ausstrahlen und über umfangreiche Bestände verfügen. Trotz einer großen Bandbreite an Institutionen, die AV-Aufzeichnungen von Tanz- und Theateraufführungen bereithalten, gibt es weder eine einheitliche Systematik noch eine übergreifende Bestandsaufnahme dieser verstreuten Mediathekensammlungen. Prekär ist zudem meist auch die Zugriffsmöglichkeit auf die AV-Materialien.</p>
+            <p>Das in diesen Mediatheken gebündelte Potential für die Forschung ist der tanz- und theaterwissenschaftlichen Community bewusst, was auch in einer 2018 durchgeführten Umfrage unter Mitgliedern der Gesellschaft für Theaterwissenschaft bestätigt wurde. Darauf aufbauend wurde eine Bestands- und Bedarfsanalyse erstellt, die darauf drängt, die Sammlungen untereinander digital zu vernetzen und Forscher*innen und Künstler*innen einfacher zugänglich zu machen. Zugleich wurde auf die Dringlichkeit hingewiesen, die AV-Aufzeichnungen systematisch zu digitalisieren, da viele Trägermedien durch Mehrfachbenutzung und Materialverschleiß gefährdet sind.</p>
+            <p>Basierend auf diese Vorarbeiten wurde vom <ref target="https://www.performing-arts.eu/Content/uber">Fachinformationsdienst </ref><ref target="https://www.performing-arts.eu/Content/uber">für </ref><ref target="https://www.performing-arts.eu/Content/uber">Darstellende Kunst</ref> (FID DK) gemeinsam mit dem <ref target="ttps://www.mimecentrum.iti-germany.de/de/mediathek">Internationalen Theater Institut Deutschland, Berlin/Mediathek für Tanz und Theater</ref> (ITI/MTT) der Projektantrag "Mediatheken der Darstellenden Kunst digital vernetzen" im Bereich <ref target="ttps://www.dfg.de/foerderung/programme/infrastruktur/lis">"Wissenschaftliche Literaturversorgungs- und Informationssysteme"</ref> (LIS) der DFG gestellt, der genehmigt wurde und im April 2021 gestartet ist. Das Mediatheken-Projektteam möchte im Posterbeitrag für die DHd2022 das Projekt vorstellen und über den bis dahin erfolgten Fortschritt informieren.
+            </p>
+            <p>Ziel der ersten Phase des Mediatheken-Projekts ist es, eine digitale Infrastruktur und darauf aufbauend einen prototypischen Workflow zu entwicklen, wobei anhand der AV-Aufzeichnungsdatenbanken zweier Projektpartner*innen – des ITI/MTT und der wissenschaftlichen Audiothek und Videothek des Instituts für Theater-, Film- und Medienwissenschaft der Universität Wien – die in unterschiedlichen Formaten vorliegenden Metadaten zusammengeführt und diese auf Überschneidungen und Ergänzungen überprüft werden (z.B. Aufzeichnungen einer Inszenierung an unterschiedlichen Aufführungstagen in Berlin und in Wien). Somit wird eine Basis nicht nur für eine institutionenübergreifende Suche sondern auch für weiterführende Analysen gelegt. Zu diesem Zweck wird eine projektspezifische Ontologie entworfen und kontrollierte Vokabularien aufgebaut bzw. weiterverwendet, die die Grundlagen für die zweite Phase des Projektes legen, in der die Datensammlungen weiterer Projektpartner*innen gemapped und mittels einer Ingest-Pipeline eingepflegt werden. Für die Ontologie wird auf <ref target="ttp://cidoc-crm.org/">CIDOC CRM</ref>-Kompatibilität geachtet, wobei die Besonderheiten von Tanz- und Theateraufführungen in eigenen Erweiterungen integriert werden. Schwierigkeiten ergeben sich aus den heterogenen Sammlungskonventionen und Erfassungsstrategien der Projektpartner*innen sowie unterschiedlichen Zugriffsgenehmigungen(vgl. Klimpel et al 2015), die es zu berücksichtigen gilt. Für den öffentlich zugänglichen Großteil der Metadaten wird eine Verfügbarkeit über das Portal des FID DK hergestellt (zum Portal siehe Beck et al 2016, Voß 2017). Es gilt darauf hinzuweisen, dass das Mediatheken-Projekt zunächst nur Metadaten vernetzt und nicht digitale Materialien anbietet. Die von den Projektpartner*innen übermittelten Daten werden disambiguiert, mit Identifiern zur GND, Wikidata sowie AV-spezifischen Services wie IMDB verbunden, mit zusätzlichen Daten angereichert und zueinander in Bezug gesetzt. Ein besonderes Augenmerk besteht darin, bruchstückhafte Informationen zu den Aufführungen mit Hilfe von tanz- und theaterspezifischen "authority files" wie den im FID DK-Portal verzeichneten Ereignissen zu ergänzen. Dabei wird auch ein Rückspielen der Informationen über verfügbare AV-Aufzeichnungen in die "authority files" anvisiert. Womit mehrere Möglichkeiten zum Auffinden von AV-Material für Forscher*innen, Künstler*innen und Interessierte hergestellt wird.
+            </p>
+            <p>Im Poster wird neben diesem Workflow auch die technische Infrastruktur dargelegt, die die Bereitstellung von Daten basierend auf den FAIR data principles organisiert. Das Ingest sowie das Post-processing – u.a. Disambiguieren, Enrichen, Mergen – der Daten der Projektpartner*innen wird mittels eines im Projekt entwickelten REST-API-driven Backends vorgenommen, wobei die Daten in einem Triple Store abgelegt werden.</p>
+            <p>Zusätzlich wird im Poster die Motivation für die Entwicklung der projektspezifischen Ontologie dargelegt, die Schnittstellen zu tanz- und theaterwissenschaftlichen Datenmodellen aufgezeigt und auf die Verwendung von Standards und Vokabularien aus den Fernseh- und Filmwissenschaft hingewiesen. Schließlich wird noch die Bedeutung einer föderierten Datensammlung von AV-Materialien von Tanz- und Theateraufzeichnungen hinsichtlich des Tagungsthemas der DHd2021 aufgezeigt, da die im Mediatheken-Projekt angewandten digitale Verfahren für die Gedächtnispflege der Tanz- und Theaterwissenschaft von großer Bedeutung ist.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Beck, Julia; Dörrer, Axel; Knepper, Marko; Voß, Franziska</hi> (2016): „Neue Wege der Informationsaggregation und -vernetzung. Ein Blick hinter die Kulissen des Fachinformationsdienstes Darstellende Kunst", in: ABI Technik, Jg. 36, Heft 4, 2016, S. 218-226.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fischer-Lichte, Erika </hi> (1999): 
+                        <hi rend="italic">Kurze Geschichte des Deutschen Theaters.</hi> 2. Aufl. ed., Tübingen: UTB A. Francke.
+                    </bibl>
+                    <bibl>
+                        
+                        <hi rend="bold">Fuxjäger, Anton</hi> (2020): "Die wissenschaftliche Videothek des Instituts für Theater-, Film- und Medienwissenschaft an der Universität Wien: Geschichte, Organisation, Technik", 
+                        <ptr target="https://tfm.univie.ac.at/sammlungen-einrichtungen/videothek/hintergrundinformationen/"/>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Klimpel, Paul; König, Eva-Marie</hi> (2015):
+                        <hi rend="bold">"</hi>Urheberrechtliche Aspekte beim Umgang mit audiovisuellen Materialien in Forschung und Lehre", Gutachten für die Gesellschaft für Medienwissenschaft und den Verband der Historiker und Historikerinnen Deutschlands, Berlin September 2015.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Voß, Franziska</hi> (2017): „Der Fachinformationsdienst Darstellende Kunst”, in: Die vierte Wand: Organ der Initiative TheaterMuseum Berlin e.V., Berlin: Initiative TheaterMuseum Berlin e.V., Heft 7, 2017, S. 62-63.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

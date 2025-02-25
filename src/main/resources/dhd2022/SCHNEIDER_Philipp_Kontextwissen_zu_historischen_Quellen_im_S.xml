@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_315">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Kontextwissen zu historischen Quellen im Semantic Web</title>
+                    <title type="sub">Die computergestützte Analyse heraldischer Wand- und Deckenmalereien mit Hilfe von Background Knowledge</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Schneider</surname>
+                        <forename>Philipp</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>philipp.schneider.1@hu-berlin.de</email>
+                <idno type="ORCID">0000-0002-6743-8600</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-15T18:40:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Doctoral Consortium</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Semantic Web</term>
+                    <term>Modellierung</term>
+                    <term>Analyse von Relationen</term>
+                    <term>Kontextualisieren</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">315</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Das Dissertationsvorhaben “Coat of Arms in Context. The Aggregation and Analysis of Heraldic Data on Wall and Ceiling Paintings in French and German Speaking Areas (1300-1600) with Semantic Web Technologies” hat zum Ziel, mittels Semantic Web Technologien Wappensammlungen auf Wandmalereien zu erschließen, zu modellieren, und zu analysieren.<ref target="ftn1" n="1"/> Dabei soll insbesondere untersucht werden, wie aus unterschiedlichen, heterogenen Provenienzen stammendes historisches Kontextwissen und Metadaten zu den Quellen in eine Analyse eingebunden werden müssen und welche Konsequenzen sich daraus für den Erkenntniswert solcher Datenauswertungen ergeben. Für die Analyse ist eine geschichtswissenschaftliche Forschungsperspektive maßgebend. Hierbei werden Funktion und Bedeutung heraldischer Wandmalereien für die visuelle Kommunikation von sozialem Aufstieg in den Blick genommen. Grundlage ist ein auszubauender Knowledge Graph eines Drittmittelprojekts.
+            </p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Anforderungen an eine Ontologie heraldischer Wandmalereien und ihrer Kontexte</head>
+                <p style="text-align: left; ">Insbesondere heraldische Wandmalereien zeichnen sich durch eine hohe Intermedialität aus (Pastoureau 1979). Diese prägt bereits einzelne Wappen – sie sind einem Akteur zugeordnet und tragen eine Bedeutung, die von Überlieferungszeit, -ort und im Besonderen vom Verwendungskontext abhängt, in dem das Wappen dargestellt und nachgenutzt wurde. Sind Wappen Teil einer Wandmalerei, ist darüber hinaus auch der Raum, in dem sie sich befinden, ihre dortige Position und Relation zu anderen Abbildungen, die Funktion des Raums und dessen Wechselwirkung mit den ihn nutzenden Akteuren, sowie das Bauwerk, in dem sich der Raum befindet, von analytischer Relevanz (Meier 2007).</p>
+                <p style="text-align: left; ">Diese Kontexte müssen sowohl in die digitale Repräsentation als auch in die Analyse heraldischer Wandmalereien eingebunden werden. Auf Modellierungsbene wird hierfür eine flexible und modulare Ontologie (Eide 2019) entwickelt, mit der sich die Wappen einer Wandmalerei in ihrem architektonischen, zeitlichen und personalen (bzw. institutionellen) Kontext verorten lassen. Ebenso muss berücksichtigt werden, dass einige Wandmalereien nur aus sekundären Nachweisen rekonstruiert werden können – einige ursprüngliche Werke sind zerstört, können aber z.B. über historische Zeichnungen nachgewiesen werden (Hablot 2020). In dieses Datenmodell wird eine Ontologie integriert, mit der sich einzelne Wappen formal beschreiben lassen (Hiltmann und Riechert 2020). Somit sind auch auf ikonografischer Ebene Bezüge zwischen einzelnen Teilen unterschiedlicher Wandmalereien sowie zwischen ihren Rezipient:innen und den Träger:innen der Wappen analysierbar.</p>
+                <p style="text-align: left; ">Neben der Repräsentation von Multidimensionalität und Kontextwissen, müssen heterogene Datenbestände integriert werden. Nachgenutzt werden Datenbanken (z.B. (ArmmA), (Literatur und Wandmalerei)), Denkmallisten und analoge Verzeichnisse (z.B. (de Mérindol 2000)), die mit jeweils eigenen Vorannahmen, Modellierungsentscheidungen und Anwendungszielen erstellt wurden. Diese haben z.T. erhebliche Auswirkungen auf die Interpretierbarkeit, Vergleichbarkeit und Aussagekraft der Daten (Beretta 2021).</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Methoden zur Analyse mulidimensionaler Daten und ihrer Kontexte: Ansätze mit Semantic Web Technologien</head>
+                <p style="text-align: left; ">Daneben hat das Dissertationsvorhaben zum Ziel, diese Daten auch für die Beantwortung konkreter geschichtswissenschaftlicher Fragestellungen nutzbar zu machen. Methodisch und technisch erfordert dies die Integration des zu modellierenden multidimensionalen historischen Kontextwissens, in konkrete Analyseverfahren. In der Regel besteht Datenanalyse aus dem Erkennen von Mustern, die dann mit Hilfe von Domänenwissen von der Forscher:in kontextualisiert und interpretiert werden – die Einbindung von Kontextwissen und die eigentliche Auswertung sind somit voneinander getrennt. Mit Hilfe von Semantic Web Technologien und Linked Data wurden in der Informatik mehrere Ansätze zur direkten Einbeziehung von Kontextwissen in Datenauswertungen entwickelt (Ristoski und Paulheim 2016). Zu nennen sind hier beispielsweise automatisches Ableiten von implizitem Wissen durch 
+                    <hi rend="italic">Inferencing</hi>, 
+                    <hi rend="italic">Semantic Similarity</hi>, oder die Berechnung von auf Kontextwissen basierenden Erklärungsvorschlägen für in den Daten identifizierte Cluster mittels induktiver logischer Programmierung (Tiddi 2018). Zentral sind außerdem Potenziale des 
+                    <hi rend="italic">Graph Embedding,</hi> bei dem Graphdaten in einen Vektorraum transformiert werden (Ristoski et al. 2019). Derartige Verfahren sollen im Rahmen der Dissertation erstmals für historische Daten erprobt werden. Sie können bestimmte historische (v.a. intermediale) Quellentypen überhaupt erst computergestützt analysierbar machen, im Sinne des Serendipitätsprinzips bei der Interpretation angewandtes Domänenwissen ergänzen, um neue Zusammenhänge zu erfassen, sowie Analysen komplexer Graphdatenbanken stärker skalieren.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Analyse von Knowledge Graphen in den Humanities</head>
+                <p style="text-align: left; ">Diese Vorteile wurden hinsichtlich der Erforschung von Kulturdaten schon in der Anfangszeit des Semantic Web diskutiert (Lin 2008). Eine Integration derartiger Ansätze in geisteswissenschaftliche Arbeiten, und insbesondere in den geschichtswissenschaftlichen Methodenkanon, ist jedoch nicht erfolgt. Dadurch sind auch die epistemologischen Auswirkungen einer computergestützten Integration von Daten als Kontextwissen in Analysen von Knowledge Graphen bislang nicht untersucht (Hogan et al. 2021).</p>
+                <p style="text-align: left; ">Der Vortrag wird die beschriebenen Fragen und Herausforderungen des Dissertationsprojekts präsentieren. Dies erfolgt auf Grundlage einer ersten Version der Ontologie und einer ersten exemplarischen Datenauswertung. Zentral sind dabei die Modellierungsentscheidungen zur Repräsentation des multidimensionalen historischen Kontextwissens, deren Konsequenzen für die erprobten Analyseverfahren, sowie die Interpretierbarkeit ihrer Ergebnisse. So können erste Überlegungen hinsichtlich der Erkenntnispotenziale der vorgestellten Methoden für die Erforschung von Kulturobjekten diskutiert werden.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Grundlage hierfür ist der, auszubauende, Knowledge Graph des von der Volkswagenstiftung geförderten Projekts 
+                        <hi rend="italic">Die Performanz der Wappen</hi>; 
+                        <ref target="http://www.digitalheraldry.org/">http://www.digitalheraldry.org/</ref> (zuletzt aufgerufen am 29.11.2021).
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl rend="Bibliography">
+                        <anchor xml:id="ref-ArmmAARmorialMonumental"/>
+                        <anchor xml:id="refs"/><hi rend="bold">“ArmmA. ARmorial Monumental du Moyen-Âge“</hi>. Letzter Zugriff: 13. Mai 2021. 
+                        <ref target="https://armma.saprat.fr/">https://armma.saprat.fr/</ref>.
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <anchor xml:id="Xd0f71df7a73b4abe38a654348e698d51a25b3d5"/>
+                        <hi rend="bold">Beretta, Francesco</hi> (2021): “A Challenge for Historical Research: Making Data FAIR Using a Collaborative Ontology Management Environment (OntoME)”, in: 
+                        <hi rend="italic">Semantic Web</hi> 12 (2) 279--294. 
+                        <ref target="https://doi.org/10.3233/SW-200416">https://doi.org/10.3233/SW-200416</ref>.
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <anchor xml:id="ref-eideOntologiesDataModeling2019"/>
+                        <hi rend="bold">Eide, Øyvind / Christian-Emil Smith Ore</hi> (2019): “Ontologies and Data Modeling” in: Flanders, Julia / Jannidis, Fotis (eds.): 
+                        <hi rend="italic">The Shape of Data in the Digital Humanities. Modeling Texts and Text-Based Resources</hi>. Abingdon 178--196. 
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <anchor xml:id="ref-hablotCycleHeraldiqueCouvent2020"/>
+                        <hi rend="bold">Hablot, Laurent</hi> (2020): “Le Cycle héraldique Du Couvent Des Jacobins de Poitiers. Un Armorial Des Morts de La Bataille de Poitiers 1356?” in: Hiltmann, Torsten / de Seixas, Miguel Metelo (eds.): 
+                        <hi rend="italic">Heraldry in Medieval and Early Modern State Rooms</hi> (= Heraldic Studies 3). Ostfildern 257--276.
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <anchor xml:id="ref-hiltmannDigitalHeraldryState2020"/>
+                        <hi rend="bold">Hiltmann, Torsten / Thomas Riechert</hi> (2020): “Digital Heraldry. The State of the Art and New Appraoches Based on Semantic Web Technologies” in: Balouzat-Loubet, Christelle (ed.): 
+                        <hi rend="italic">L’édition En Ligne de Documents d’archives médiévaux</hi>. Turnhout 102--125.
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <hi rend="bold" xml:space="preserve">Hogan, Aidan / Eva Blomqvist / Michael Cochez / Claudia D’amato / Gerard de Melo et al. </hi>(2021) : “Knowledge Graphs” 
+                        <hi rend="italic">ACM Computing Surveys</hi> 54.4: 71:1–71:37. 
+                        <ref target="https://doi.org/10.1145/3447772">https://doi.org/10.1145/3447772</ref>.
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <anchor xml:id="ref-linIssuesInferencePlatform2008"/>
+                        <hi rend="bold">Lin, Chia-Hung / Jen-Shin Hong / Martin Doerr</hi> (2008): “Issues in an Inference Platform for Generating Deductive Knowledge: A Case Study in Cultural Heritage Digital Libraries Using the CIDOC CRM”, in: 
+                        <hi rend="italic">International Journal on Digital Libraries</hi> 8 (2): 115--132. 
+                        <ref target="https://doi.org/10.1007/s00799-008-0034-0">https://doi.org/10.1007/s00799-008-0034-0</ref>.
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <anchor xml:id="ref-LiteraturUndWandmalerei"/><hi rend="bold">“Literatur und Wandmalerei. Erscheinungsformen ‘höfischer’ Kultur Und Ihre Träger Im Mittelalter”</hi>. Letzter Zugriff: 13. Mai 2021. 
+                        <ref target="http://wandmalereien.imareal.sbg.ac.at/">http://wandmalereien.imareal.sbg.ac.at/</ref>.
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <anchor xml:id="ref-meierFunktionUndFiktion2007"/>
+                        <hi rend="bold">Meier, Hans-Rudolf</hi> (2007): “Funktion Und Fiktion von Raumdekorationen. Zur Raumsymbolik Im Mittelalterlichen Profanbau.” in: Staubach, Nikolaus / Johanterwage, Vera (eds.): 
+                        <hi rend="italic">Außen Und Innen. Räume Und Ihre Symbolik Im Mittelalter</hi> (= Tradition - Reform - Innovation. Studien Zur Modernität Des Mittelalters 14). Frankfurt a. M. 251--264.
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <anchor xml:id="X94c7a1b622ea9b2568b4c133220aa8f3692f6dc"/>
+                        <hi rend="bold">Mérindol, Christian de</hi> (2000): 
+                        <hi rend="italic">La Maison Des Chevalies de Pont-Saint-Esprit. Les décors Peints. Corpus Des décors Monumentaux Peints Et Armoriés Du Moyen Âge En France</hi>. Vol. 2. Pont-Saint-Esprit.
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <anchor xml:id="ref-pastoureauTraiteHeraldique1979"/>
+                        <hi rend="bold">Pastoureau, Michel</hi> (1979): 
+                        <hi rend="italic">Traité d’héraldique</hi>. Paris.
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <anchor xml:id="ref-ristoskiSemanticWebData2016"/>
+                        <hi rend="bold">Ristoski, Petar / Heiko Paulheim</hi> (2016): “Semantic Web in Data Mining and Knowledge Discovery: A Comprehensive Survey.” 
+                        <hi rend="italic">Journal of Web Semantics</hi> 36: 1--22. 
+                        <ref target="https://doi.org/10.1016/j.websem.2016.01.001">https://doi.org/10.1016/j.websem.2016.01.001</ref>.
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <hi rend="bold">Ristoski, Petar / Jessica Rosati / Tommaso di Noia / Renato de Leone / Heiko Paulheim</hi> (2019): “RDF2Vec: RDF graph embeddings and their applications” 
+                        <hi rend="italic">Semantic Web</hi> 10.4: 721-752. 
+                        <ref target="http://doi.org/10.3233/SW-180317">http://doi.org/10.3233/SW-180317</ref>.
+                    </bibl>
+                    <bibl rend="Bibliography">
+                        <anchor xml:id="ref-tiddiExplainingDataPatterns2018"/>
+                        <hi rend="bold">Tiddi, Ilaria</hi> (2018): 
+                        <hi rend="italic">Explaining Data Patterns Using Knowledge from the Web of Data</hi> (= Studies on the Semantic Web 34). Berlin. 
+                        <ref target="https://www.iospress.nl/book/explaining-data-patterns-using-knowledge-from-the-web-of-data/">https://www.iospress.nl/book/explaining-data-patterns-using-knowledge-from-the-web-of-data/</ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

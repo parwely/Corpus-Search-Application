@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_170">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Computational Literary Studies Data Landscape Review</title>
+                <author>
+                    <persName>
+                        <surname>Börner</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam</affiliation>
+                    <email>ingo.boerner@uni-potsdam.de</email>
+                <idno type="ORCID">0000-0001-8294-2541</idno></author>
+                <author>
+                    <persName>
+                        <surname>Charvat</surname>
+                        <forename>Vera Maria</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</affiliation>
+                    <email>VeraMaria.Charvat@oeaw.ac.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname><hi rend="math">Ď</hi>ur<hi rend="math">č</hi>o</surname>
+                        <forename>Matej</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</affiliation>
+                    <email>Matej.Durco@oeaw.ac.at</email>
+                <idno type="ORCID">0000-0002-5274-8278</idno></author>
+                <author>
+                    <persName>
+                        <surname>Mrugalski</surname>
+                        <forename>Michał</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin</affiliation>
+                    <email>michal.mrugalski@hu-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Odebrecht</surname>
+                        <forename>Carolin</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin</affiliation>
+                    <email>carolin.odebrecht@hu-berlin.de</email>
+                <idno type="ORCID">0000-0003-4887-7701</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-24T18:14:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Computational Literary Studies</term>
+                    <term>Metadaten</term>
+                    <term>Linked Open Data</term>
+                    <term>Data Landscape</term>
+                    <term>Research Discovery</term>
+                    <term>FAIR principles</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Community-Bildung</term>
+                    <term>Organisation</term>
+                    <term>Infrastruktur</term>
+                    <term>Metadaten</term>
+                    <term>Forschungsergebnis</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">170</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <anchor xml:id="Hlk77279491"/>Literarische Werke und deren digitale Repräsentationen stellen auch in den Fachbereichen der Computational Literary Studies (CLS) das Fundament für epistemische Auseinandersetzungen und Diskurse. Die unterschiedlichen Prozessierungen und Visualisierungen wie digitale Editionen (Sahle 2013) oder Netzwerkanalysen (Trilcke 2013) von literarischen Werken aller Gattungen (Epik, Drama, Lyrik) erzeugen eine Vielzahl an heterogenen Daten, die immer flexibler und umfassender miteinander in Interaktion treten und kommunizieren. Diese Entwicklung stellt die Frage der Interoperabilität der Daten in den Mittelpunkt, wobei Linked Open Data (LOD; Heath &amp; Bizer 2011) eine zentrale Rolle spielen.
+            </p>
+            <p>Das übergeordnete Ziel von "Computational Literary Studies Infrastructure"<ref target="ftn1" n="1"/> – ein von der EU finanziertes "Integrating Activitie for Starting Communities (IASC)"-Projekt – ist die Schaffung eines einheitlichen und einfachen Zugangs zu den besten europäischen und nationalen Infrastrukturen für die CLS-Community. In unserem Arbeitspaket 
+                <hi rend="italic">Data Selection and Curation</hi> möchten wir Informationen über literarische Werke systematisch für die CLS-Community kompilieren, aufbereiten und konsolidieren, um die Zugangsparadigmen für literarische Daten signifikant zu rekonfigurieren und die Einhaltung der FAIR-Prinzipien (findable, accessible, interoperable, reusable; Wilkinson et al. 2016) erheblich zu verbessern.
+            </p>
+            <p>Um die Auffindbarkeit und den forschungsorientierten Zugang zu literarischen Daten für die CLS-Community zu ermöglichen, ist eine Inventarisierung der CLS-Datenlandschaft erforderlich, die forschungsrelevante Kriterien für die Datenauswahl sowie deren Erfassung und Beschreibung anwendet. Mit dieser Inventarisierung, die wir in Form einer 
+                <hi rend="italic">Data Landscape Review</hi> durchführen, kann die vorhandene Datenlandschaft als digitales Erbe für CLS-Kontexte erst umfassend sichtbar und als Vorlage für weitere Forschungsvorhaben zugänglich gemacht werden.
+            </p>
+            <p>Dabei stellen wir uns unter anderem folgende Fragen: Welche Beschreibungsmerkmale sind für die Daten als Kollektion im Sinne einer eigenen epistemischen Einheit wesentlich? Welche Beschreibungsmerkmale sind in Bezug auf die literarischen Vorlagen und deren Aufbereitungen wichtig? Wie kann nach Kollektionen oder einzelnen Datensätzen im Sinne der 
+                <hi rend="italic">programmable corpora</hi> (Fischer et al. 2019) recherchiert werden? 
+            </p>
+            <p>Die Ergebnisse unserer 
+                <hi rend="italic">Data Landscape Review</hi> werden wir als Posterpräsentation mit Fokus auf den technischen Bericht zur Kartierung und Kontextualisierung der CLS-Daten vorstellen. 
+            </p>
+            <p>Aufbauend auf der Review werden die Ergebnisse in Form eines stetig wachsenden, interaktiven Online-Katalogs literarischer Corpora für die CLS-Community bereitgestellt. Dieser wird eine umfassende Übersicht über die verfügbaren Ressourcen inklusive ausführlicher beschreibender Metadaten liefern und die üblichen Abfrage- und Erschließungsmöglichkeiten mittels verschiedener Such- und Filtermechanismen bieten. Konzeptueller Ausgangspunkt für die strukturierte Sammlung der Informationen ist das Metamodell für Korpusmetadaten (MKM; Odebrecht 2018) – ein, generisches erweiterbares Beschreibungsmodell, für die zentralen Entitäten 
+                <hi rend="italic">Korpus</hi>, 
+                <hi rend="italic">Dokument</hi> und 
+                <hi rend="italic">Annotation</hi> sowie ihre Beziehungen untereinander. 
+            </p>
+            <p>Während das Modell selbst abstrakt definiert ist, erarbeiten wir eine kongruente/entsprechende Ontologie im OWL-Format (OWL, 2012), welche eine Repräsentation der Daten in RDF (Resource Description Framework)<ref target="ftn2" n="2"/> ermöglicht. Die Formalisierung als OWL-Ontologie gestattet darüber hinaus auch, Äquivalenzen zu bereits bestehenden Ontologien und Schemata im Sinne des LOD-Paradigmas explizit zu machen. Hier sind insbesondere Ansätze zur Text- und Publikationseinordnung wie FRBR (IFLA, 1998) und Dublin Core (ISO standard 15836) zu nennen. Neben Äquivalenzen auf der Schema-Ebene wird der Datensatz um Verweise/Verlinkungen zu externen Referenzressourcen wie zum Beispiel die Normdateien GND (Gemeinsame Normdatei)<ref target="ftn3" n="3"/>, VIAF (Virtual International Authority File)<ref target="ftn4" n="4"/>, WikiData<ref target="ftn5" n="5"/> und GeoNames<ref target="ftn6" n="6"/> angereichert. Diese sind unabdingbar, um semantische Interoperabilität zwischen Datensätzen herzustellen. Die in RDF serialisierten Daten werden selbstverständlich regelmäßig als geschlossener Datensatz ("Dump"), sowie über einen SPARQL<ref target="ftn7" n="7"/>-Endpoint verfügbar gemacht. Die Ontologie sowie eine erste proof-of-concept Version des Online-Katalogs werden wir bei der Tagung präsentieren.
+            </p>
+            <p>Ebenso ist zu berücksichtigen, dass dieser Katalog Teil von einem komplexen Gefüge an Ressourcen, Providern und Disseminationskanälen bzw. Aggregatoren ist. Die Position des Katalogs in diesem Gefüge und seine Beziehung zu verwandten Aggregatoren wie CLARIN VLO (Virtual Language Observatory)<ref target="ftn8" n="8"/>, Europeana<ref target="ftn9" n="9"/> oder OpenAIRE (Open Access Infrastructure for Research in Europe)<ref target="ftn10" n="10"/> müssen noch im Detail erarbeitet werden. Der grundlegende Ansatz wird dabei aber sein, die Information über mehrere Kanäle möglichst breit zu streuen/disseminieren und dafür auch Mappings der Metadaten in die erforderlichen Metadaten-Formate, wie CMDI (Component Metadata Initiative)<ref target="ftn11" n="11"/> für VLO bzw. EDM (Europeana Data Model)<ref target="ftn12" n="12"/> für Europeana bereitzustellen.
+            </p>
+            <p>Die 
+                <hi rend="italic">Data Landscape Review</hi> und der Online-Katalog werden den Forschenden Zugriff zu einer breiten Palette an Ressourcen, die über mehrere europäische Anbieter distribuiert sind, ermöglichen und mit Beschreibungen und Informationen auch einen umfassenden, domänenspezifischen Überblick über diese Ressourcen bieten.
+            </p>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                        <hi style="font-size:9pt" xml:space="preserve">Website des Projekts CLS INFRA (No. 101004984): </hi>
+                        <ref target="https://clsinfra.io/">
+                            <hi style="font-size:9pt">https://clsinfra.io/</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve"> (letzter Zugriff 24.11.2021)</hi>
+                    </note><note place="foot" xml:id="ftn2" n="2">
+                        <hi style="font-size:9pt">RDF W3C Recommendation: </hi>
+                        <ref target="https://www.w3.org/TR/rdf-primer/">
+                            <hi rend="" style="font-size:9pt">https:/www.w3.org/TR/rdf-primer/</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve"> (letzter Zugriff 24.11.2021)</hi>
+                    </note><note place="foot" xml:id="ftn3" n="3">
+                        <hi style="font-size:9pt">GND: </hi>
+                        <ref target="https://gnd.network">
+                            <hi rend="" style="font-size:9pt">https://gnd.network</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve"> (letzter Zugriff 24.11.2021)</hi>
+                    </note><note place="foot" xml:id="ftn4" n="4">
+                        <hi style="font-size:9pt" xml:space="preserve">VIAF: </hi>
+                        <ref target="http://viaf.org/">
+                            <hi rend="" style="font-size:9pt">http://viaf.org/</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve"> (letzter Zugriff 24.11.2021)</hi>
+                    </note><note place="foot" xml:id="ftn5" n="5">
+                        <hi style="font-size:9pt" xml:space="preserve">Wikidata: </hi>
+                        <ref target="https://www.wikidata.org/">
+                            <hi rend="" style="font-size:9pt">https://www.wikidata.org/</hi>
+                        </ref>
+                        <hi style="font-size:9pt"> (letzter Zugriff 24.11.2021)</hi>
+                    </note><note place="foot" xml:id="ftn6" n="6">
+                        <hi style="font-size:9pt" xml:space="preserve">GeoNames: </hi>
+                        <ref target="http://www.geonames.org/">
+                            <hi rend="" style="font-size:9pt">http://www.geonames.org/</hi>
+                        </ref>
+                        <hi style="font-size:9pt" xml:space="preserve"> (letzter Zugriff 24.11.2021)</hi>
+                    </note><note place="foot" xml:id="ftn7" n="7">
+                        <hi style="font-size:9pt" xml:space="preserve">SPARQL steht für SPARQL Protocol and RDF Query Language; SPARQL W3C Recommendation: </hi>
+                        <ref target="https://www.w3.org/TR/sparql11-overview/">
+                            <hi rend="" style="font-size:9pt">https://www.w3.org/TR/sparql11-overview/</hi>
+                        </ref>
+                        <hi style="font-size:9pt"> (letzter Zugriff 24.11.2021)</hi>
+                    </note><note place="foot" xml:id="ftn8" n="8">
+                        <hi style="font-size:9pt" xml:space="preserve">CLARIN VLO: </hi>
+                        <ref target="https://vlo.clarin.eu/">
+                            <hi rend="" style="font-size:9pt">https://vlo.clarin.eu/</hi>
+                        </ref>
+                        <hi style="font-size:9pt"> (letzter Zugriff 24.11.2021)</hi>
+                    </note><note place="foot" xml:id="ftn9" n="9">
+                        <hi style="font-size:9pt" xml:space="preserve">Europeana: </hi>
+                        <ref target="https://www.europeana.eu/de">
+                            <hi rend="" style="font-size:9pt">https://www.europeana.eu/de</hi>
+                        </ref>
+                        <hi style="font-size:9pt"> (letzter Zugriff 24.11.2021)</hi>
+                    </note><note place="foot" xml:id="ftn10" n="10">
+                        <hi style="font-size:9pt" xml:space="preserve">OpenAIRE: </hi>
+                        <ref target="https://www.openaire.eu/">
+                            <hi rend="" style="font-size:9pt">https://www.openaire.eu/</hi>
+                        </ref>
+                        <hi style="font-size:9pt"> (letzter Zugriff 24.11.2021)</hi>
+                    </note><note place="foot" xml:id="ftn11" n="11">
+                        <hi style="font-size:9pt" xml:space="preserve">CMDI: </hi>
+                        <ref target="https://www.clarin.eu/cmdi">
+                            <hi style="font-size:9pt">https://www.clarin.eu/cmdi</hi>
+                        </ref>
+                        <hi style="font-size:9pt"> (letzter Zugriff 24.11.2021)</hi>
+                    </note><note place="foot" xml:id="ftn12" n="12">
+                        <hi style="font-size:9pt" xml:space="preserve">gesammelte Dokumentationen zum EDM: </hi>
+                        <ref target="https://pro.europeana.eu/page/edm-documentation">
+                            <hi rend="" style="font-size:9pt">https://pro.europeana.eu/page/edm-documentation</hi>
+                        </ref>
+                        <hi style="font-size:9pt"> (letzter Zugriff 24.11.2021)</hi>
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Fischer, Frank / Börner, Ingo / Göbel, Mathias / Hechtl, Angelika / Kittel, Christopher / Milling, Carsten / Trilcke, Peer </hi>(2019): "Programmable Corpora: Introducing DraCor, an Infrastructure for the Research on European Drama", in: Fischer, Frank / Akimova, Marina / Orekhov, Boris (eds.): 
+                        <hi rend="italic">Digital Humanities 2019. Conference Abstracts</hi>, Utrecht University, Moscow, 
+                        <ref target="https://dev.clariah.nl/files/dh2019/boa/0268.html">
+                            <hi rend="">https://dev.clariah.nl/files/dh2019/boa/0268.html</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Heath, Tom / Bizer, Christian </hi>(2011): "Linked Data: Evolving the Web into a Global Data Space", 1st edition, in: 
+                        <hi rend="italic">Synthesis Lectures on the Semantic Web: Theory and Technology</hi>, Vol. 1, No. 1 [San Rafael, Calif.]: Morgan &amp; Claypool, S. 1-136, doi: 
+                        <ref target="https://doi.org/10.2200/S00334ED1V01Y201102WBE001%20" xml:space="preserve">https://doi.org/10.2200/S00334ED1V01Y201102WBE001 </ref> 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">IFLA</hi> (1998): "Functional Requirements for Bibliographic Records: Final Report", in: 
+                        <hi rend="italic">IFLA Series on Bibliographic Control</hi> 19 (former UBCIM). München: K.G. Saur Verlag. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">ISO standard 15836</hi> (2017): "The Dublin Core Metadata Element Set" 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Odebrecht, Carolin</hi> (2018): "MKM – ein Metamodell für Korpusmetadaten. Dokumentation und Wiederverwendung historischer Korpora", Dissertation. Humboldt-Universität zu Berlin, Sprach- und literaturwissenschaftliche Fakultät, Berlin. doi: 
+                        <ref target="https://doi.org/10.18452/19407">https://doi.org/10.18452/19407</ref>  
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sahle, Patrick</hi> (2013): "Digitale Editionsformen, Zum Umgang mit der Überlieferung unter den Bedingungen des Medienwandels", 3 Bände, Norderstedt: Books on Demand, in: 
+                        <hi rend="italic">Schriften des Instituts für Dokumentologie und Editorik</hi>, Bände 7-9.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Trilcke, Peer</hi> (2013): "Social Network Analysis (SNA) als Methode einer textempirischen Literaturwissenschaft", in: Ajouri, Philip / Mellmann, Katja / Rauen, Christoph (eds): 
+                        <hi rend="italic">Empirie in der Literaturwissenschaft</hi>. Paderborn: Mentis 201–247.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wilkinson, Mark D. / Dumontier, Michel / Aalbersberg, IJsbrand J. / et al.</hi> (2016): "The FAIR Guiding Principles for scientific data management and stewardship". Sci Data 3, 160018. doi: 
+                        <ref target="https://doi.org/10.1038/sdata.2016.18">
+                            <hi rend="">https://doi.org/10.1038/sdata.2016.18</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">W3C OWL Working Group</hi> (2012): Web Ontology Language (OWL), 
+                        <ref target="https://www.w3.org/OWL/">
+                            <hi rend="">https://www.w3.org/OWL/</hi>
+                        </ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

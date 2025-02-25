@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_263">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Digitale Methodenkritik</title>
+                <title type="sub">Die Integration computergestützter Textanalyseverfahren in den Werkzeugkasten der Historiker:innen</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Althage</surname>
+                        <forename>Melanie</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>melanie.althage@hu-berlin.de</email>
+                <idno type="ORCID">0000-0001-5233-1061</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-29T15:15:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Doctoral Consortium</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Methodenkritik</term>
+                    <term>digitale Quellenkritik</term>
+                    <term>genuin digitale Quellen</term>
+                    <term>Text Mining</term>
+                    <term>Topic Modeling</term>
+                    <term>Historische Fachkommunikation</term>
+                    <term>Digital History</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">263</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Das vorliegende Proposal basiert auf dem Dissertationsprojekt “Mining the Historian’s Web – Methodenkritische Reflexion quantitativer Verfahren zur Analyse genuin digitaler Quellen am Beispiel der historischen Fachkommunikation”. Im Zentrum steht die Untersuchung der Adaptierbarkeit etablierter Textanalysemethoden der Digital Humanities und Computerwissenschaften für historische Quellen und Forschungsfragen sowie die Entwicklung von Strategien zur Integration dieser Methoden in den Werkzeugkasten der Historiker:innen.</p>
+            <p>Die digitale Durchdringung der Alltags- und Arbeitswelt hat die Art und Weise des Forschens in den Geistes- beziehungsweise Geschichtswissenschaften modifiziert: Nicht nur das 
+                <hi rend="italic">womit</hi>, sondern auch das 
+                <hi rend="italic">worüber</hi> geforscht wird, ist zunehmend geprägt von “Digitalität”, also dem Umstand, dass die Quellen als maschinell (re-)produzierte wie verarbeitbare Daten vorliegen, d.h. als “in Zahlen gefasste Informationen” (Emich 2019: 213), die abstrakte Repräsentationen und Rekonstruktionen von Objekten, Konzepten oder Ereignissen darstellen (Schöch 2013; Drucker 2011; Owens 2011). Die (kommunikations-)technologischen Entwicklungen seit Mitte des 20. Jahrhunderts begünstigten einerseits die von umfangreichen Digitalisierungsprojekten angestoßene freiere und ortsunabhängige Zugänglichkeit zum digitalisierten kulturellen Erbe über bspw. Archiv- oder Bibliotheksdatenbanken im Web.<ref target="ftn1" n="1"/> Andererseits führten sie zu einem grundlegenden Wandel der gebräuchlichen Kommunikationsverfahren sowie der Mediennutzung im Beruflichen wie im Privaten. Dadurch entstanden neuartige, multimediale und genuin digitale Quellengattungen, die nicht zuletzt für die Zeitgeschichte von essenzieller Bedeutung sind (u.a. Milligan 2019; Haber 2012; Patel 2011).
+            </p>
+            <p>Digitale Quellen, gleich ob es sich um 
+                <hi rend="italic">digitized</hi>, 
+                <hi rend="italic">born-digital</hi> oder 
+                <hi rend="italic" xml:space="preserve">reborn-digital </hi>handelt (nach Brügger 2012), sind und werden aus dem geschichtswissenschaftlichen Forschungs- und Erkenntnisbildungsprozess nicht mehr wegzudenken (sein). Entsprechend erfährt die Frage zunehmend Aufmerksamkeit, ob und inwiefern die klassische Quellenkritik auf diese neuen Quellentypen angewendet werden kann (u.a. Föhr 2019; Margulies 2009).<ref target="ftn2" n="2"/> Indes sind Untersuchungen, die sich damit auseinandersetzen, was es heißt, mit digitalen und insbesondere 
+                <hi rend="italic">genuin digitalen</hi> Objekten als Forschungsressource zu arbeiten, bislang sowohl in praktischer als auch in theoretischer Perspektive in den Geschichtswissenschaften noch unterrepräsentiert (Aufschläge: Hiltmann et al. 2021; Fickers 2020; Milligan 2019; Schreiber 2012).
+            </p>
+            <p>Eine wesentliche Säule des Dissertationsprojekts ist daher die Untersuchung der epistemologischen Konsequenzen der computergestützten Analyse textbasierter, originär digitaler Quellen für den historischen Forschungsprozess: Was heißt es, Text zunächst als Daten und erst in zweiter Instanz als Bedeutungsträger zu verarbeiten? Welche epistemologischen Veränderungen gehen mit der Untersuchung digitaler Objekte einher, wenn sie nicht lediglich als Surrogat für ein physisches Objekt verstanden werden, sondern die Digitalität als ihre substantielle Eigenschaft berücksichtigt wird? Dies erfolgt am Beispiel der digitalen historischen Fachkommunikation und damit anhand genuin digitaler Quellen.</p>
+            <p>Ihre spezifischen Eigenschaften als maschinell prozessierbare Daten legen den Einsatz digitaler Werkzeuge und Methoden nahe. In den Digital Humanities haben sich dementsprechend eine Reihe von digitalen Methoden zur Auswertung von Textdaten etabliert wie bspw. 
+                <hi rend="italic">Topic Modeling</hi>, die auch in den Geschichtswissenschaften nachgenutzt werden und in nutzerfreundlichen Werkzeugen wie 
+                <hi rend="italic">DARIAH-DE TopicsExplorer</hi> (Simmler et al. 2019) oder 
+                <hi rend="italic">Voyant Tools</hi> (Sinclair/Rockwell 2016) implementiert sind. Solche Methoden stammen allerdings nicht selten aus fachfremden Disziplinen mit je eigenen theoretisch-methodologischen Annahmen respektive Erkenntnisinteressen, die im Kontrast zu geschichtswissenschaftlichen Forschungstraditionen stehen können; sie sind daher nicht ohne Weiteres auf historische Anwendungsfälle übertragbar. Folglich ist die Frage zu stellen, wie die Kluft zwischen historischer Fachdisziplin und fachfremder Methode identifiziert und überwunden werden kann, um sie produktiv in den Werkzeugkasten der Historiker:innen zu integrieren.
+            </p>
+            <p>Die epistemologischen Implikationen, die mit diesen Methoden und 
+                <hi rend="italic">Tools</hi> für die Arbeit mit historischen Quellen sowie für die Wissensproduktion zusammenhängen, werden erst in jüngerer Zeit aus spezifisch geschichtswissenschaftlicher Perspektive intensiver erforscht (Hiltmann et al. 2021; Fickers 2020; Braake et al. 2016; Wettlaufer 2016). Da eine systematische Werkzeug- und Methodenkritik, die den verantwortungsvollen Umgang mit digitalen Methoden begleiten muss, allerdings bislang für die Geschichtswissenschaften weitestgehend Desiderat geblieben ist, ist es Ziel der Dissertation, in Anlehnung an Diskussionen rund um 
+                <hi rend="italic">Tool</hi> und 
+                <hi rend="italic">Algorithmic Criticism</hi> (Es/Schäfer/Wieringa 2021; Dobson 2019; Ramsay 2011) zu ihrer Ausbildung einen Beitrag zu leisten. Dafür ist es notwendig, die Verfahren hinsichtlich der in sie eingeflossenen Annahmen einzuordnen, kritisch zu reflektieren und gegebenenfalls entsprechend des Erkenntnisziels anzupassen oder Alternativen aufzuzeigen; hierbei sind insbesondere die Erkenntnisgrenzen für historische Forschungsvorhaben zu dokumentieren. Dabei gilt es zu reflektieren, inwiefern die computergestützten Berechnungen den interpretativen Akt als Kerngeschäft der Geschichtsschreibung selbst beeinflussen.
+            </p>
+            <p style="text-align: left; text-align: justify;">Der Vortrag wird anhand der Methode 
+                <hi rend="italic">Topic Modeling</hi> erste anwendungsbezogene und methodenkritische Erkenntnisse zu ihrer produktiven Integration in den historischen Forschungsprozess präsentieren, und dabei speziell die für die Geschichtswissenschaften zentralen Aspekte der Historizität und Relationalität berücksichtigen.
+            </p>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                        <hi style="font-size:10pt" xml:space="preserve"> Die Potenziale ihrer Verknüpfung zeigen Projekte wie </hi>
+                        <hi rend="italic" style="font-size:10pt">Europeana</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">: </hi>
+                        <ref target="https://www.europeana.eu/de">
+                            <hi rend="underline" style="font-size:10pt">https://www.europeana.eu/de</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve"> [letzter Zugriff 29.11.2021].</hi>
+                    </note><note place="foot" xml:id="ftn2" n="2">
+                        <hi style="font-size:10pt" xml:space="preserve"> Dass dies nicht allein die Geschichtswissenschaften betrifft, zeigt die interdisziplinär angelegte Workshopreihe im Rahmen der vDHd 2021 von Jonathan D. Geiger et al.: “Digitale Quellenkritik: Ein neues Kapitel”, in: </hi>
+                        <hi rend="italic" style="font-size:10pt">vDHd 2021</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (Blog), erschienen am: 28.01.2021, URL: </hi>
+                        <ref target="https://vdhd2021.hypotheses.org/288">
+                            <hi rend="underline" style="font-size:10pt">https://vdhd2021.hypotheses.org/288</hi>
+                        </ref>
+                        <hi style="font-size:10pt" xml:space="preserve"> [letzter Zugriff 29.11.2021].</hi>
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Braake, Serge ter / Fokkens, Antske / Ockeloen, Niels / Son, Chantal van</hi> (2016): “Digital History: Towards New Methodologies” in: Bozic, Bojan / Mendel-Gleason, Gavin / Debruyne, Christophe / O’Sullivan, Declan (eds.): 
+                        <hi rend="italic">Computational History and Data-Driven Humanities</hi>. Cham: Springer 23–32.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Brügger, Niels</hi> (2012): “When the Present Web is Later the Past: Web Historiography, Digital History and Internet Studies”, in: 
+                        <hi rend="italic">HSR</hi> 37, 4: 102–117.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Dobson, James E.</hi> (2019): 
+                        <hi rend="italic">Critical Digital Humanities. The Search for a Methodology</hi>. Urbana (Illinois): University of Illinois Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Drucker, Johanna </hi>(2011): “Humanities Approaches to Graphical Display”, in: 
+                        <hi rend="italic">DHQ</hi> 5, 1: http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html [letzter Zugriff 29.11.2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Emich, Birgit</hi> (2019): 
+                        <hi rend="italic">Geschichte der Frühen Neuzeit (1500–1800) studieren</hi>. München 2. völlig überarb. Aufl.: UKV Verlag.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Es, Karin van / Schäfer, Mirko T. / Wieringa, Maranke</hi> (2021): “Tool Criticism and the Computational Turn. A “Methodological Moment” in Media and Communication Studies”, in: 
+                        <hi rend="italic">Medien &amp; Kommunikationswissenschaft</hi> 69, 1: 46–64.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fickers, Andreas</hi> (2020): “Update für die Hermeneutik. Geschichtswissenschaft auf dem Weg zur digitalen Forensik?”, in: 
+                        <hi rend="italic">Zeithistorische Forschungen/Studies in Contemporary History</hi> 17, 1: 157–168.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Föhr, Pascal </hi>(2019): 
+                        <hi rend="italic">Historische Quellenkritik im Digitalen Zeitalter</hi>. Glückstadt: Verlag Werner Hülsbusch.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Haber, Peter</hi> (2012): “Zeitgeschichte und Digital Humanities”, in: 
+                        <hi rend="italic">Docupedia-Zeitgeschichte</hi> 24.09.2012: http://docupedia.de/zg/haber_digital_humanities_v1_2012 [letzter Zugriff 29.11.2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hiltmann, Torsten / Keupp, Jan / Althage, Melanie / Schneider, Philipp</hi> (2021): “Digital Methods in Practice. The Epistemological Implications of Applying Text Re-Use Analysis to the Bloody Accounts of the Conquest of Jerusalem (1099)”, in: 
+                        <hi rend="italic">Geschichte und Gesellschaft</hi> 46, 1: 122–156 10.13109/gege.2021.47.1.122.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Margulies, Simon B. </hi>(2009): 
+                        <hi rend="italic" xml:space="preserve">Digitale Daten als Quelle der Geschichtswissenschaft. Eine Einführung </hi>(Kölner Beiträge zu einer geisteswissenschaftlichen Fachinformatik, Bd. 2). Hamburg: Verlag Dr. Kova<hi rend="math">č</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Milligan, Ian </hi>(2019): 
+                        <hi rend="italic">History in the Age of Abundance? How the Web is Transforming Historical Research</hi>. Montreal: McGill-Queen’s University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Owens, Trevor</hi> (2011): “Defining Data for Humanists: Text, Artifact, Information or Evidence?”, in: 
+                        <hi rend="italic">Journal of Digital Humanities</hi> 1, 1: http://journalofdigitalhumanities.org/1-1/defining-data-for-humanists-by-trevor-owens/ [letzter Zugriff 29.11.2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Patel, Kiran K.</hi> (2011): “Zeitgeschichte im digitalen Zeitalter. Neue und alte Herausforderungen”, in: <hi rend="italic">Vierteljahrshefte für Zeitgeschichte</hi>, 59, 3: 331–351 10.1524/vfzg.2011.0019.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Ramsay, Stephen </hi>(2011): 
+                        <hi rend="italic">Reading Machines. Toward an Algorithmic Criticism.</hi> Urbana (Illinois): University of Illinois Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schöch, Christof</hi> (2013): “Big? Smart? Clean? Messy? Data in the Humanities”, in: 
+                        <hi rend="italic">Journal of Digital Humanities</hi> 2, 3: http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/ [letzter Zugriff 29.11.2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Schreiber, Catherina </hi>(2012): “Genuine Internetdaten als historische Quellen – Entwurf einer korrealistischen Quellentheorie”, in: 
+                        <hi rend="italic">Zeitschrift für digitale Geschichtswissenschaften</hi> 1: http://universaar.uni-saarland.de/journals/index.php/zdg/article/view/292 [letzter Zugriff 29.11.2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Simmler, Severin / Vitt, Thorsten / Pielström, Steffen</hi> (2019): “Topic Modeling with Interactive Visualizations in a GUI Tool”, in: 
+                        <hi rend="italic">Proceedings of the Digital Humanities Conference</hi> https://dev.clariah.nl/files/dh2019/boa/0637.html [letzter Zugriff 29.11.2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sinclair, Stéfan / Geoffrey Rockwell</hi> (2016): “Voyant Tools”. Web. 
+                        <ref target="http://voyant-tools.org/">http://voyant-tools.org/</ref>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wettlaufer, Jörg</hi> (2016): “Neue Erkenntnisse durch digitalisierte Geschichtswissenschaft(en)? Zur hermeneutischen Reichweite aktueller digitaler Methoden in informationszentrierten Fächern”, in: 
+                        <hi rend="italic">ZfdG</hi> 1: 10.17175/2016_011.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

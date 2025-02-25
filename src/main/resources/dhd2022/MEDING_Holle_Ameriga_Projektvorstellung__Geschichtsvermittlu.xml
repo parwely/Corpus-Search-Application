@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_137">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Analyse der Rezeption von Telenovelas und Serien über lateinamerikanische Geschichte durch Algorithmen</title>
+                <author>
+                    <persName>
+                        <surname>Meding</surname>
+                        <forename>Holle Ameriga</forename>
+                    </persName>
+                    <affiliation>Geschichtsvermittlung durch Unterhaltungsmedien in Lateinamerika. Labor für Erinnerungsforschung und digitale Methoden (GUMELAB, FU Berlin), Germany</affiliation>
+                    <email>holle.meding@fu-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Contreras Saiz</surname>
+                        <forename>Mónika</forename>
+                    </persName>
+                    <affiliation>Geschichtsvermittlung durch Unterhaltungsmedien in Lateinamerika. Labor für Erinnerungsforschung und digitale Methoden (GUMELAB, FU Berlin), Germany</affiliation>
+                    <email>m.contreras.saiz@fu-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Muessemann</surname>
+                        <forename>Hannah</forename>
+                    </persName>
+                    <affiliation>Geschichtsvermittlung durch Unterhaltungsmedien in Lateinamerika. Labor für Erinnerungsforschung und digitale Methoden (GUMELAB, FU Berlin), Germany</affiliation>
+                    <email>hannah.muessemann@fu-berlin.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-26T08:55:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Serien</term>
+                    <term>Geschichtsvermittlung</term>
+                    <term>politische Bildung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Programmierung</term>
+                    <term>Netzwerkanalyse</term>
+                    <term>Kommentierung</term>
+                    <term>Video</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">137</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: justify;">
+                <hi style="font-size:11pt" xml:space="preserve">In Lateinamerika hat die Produktion von Telenovelas und Serien, die die jüngere Vergangenheit der Region thematisieren, in den letzten zwanzig Jahren zugenommen. Ereignisse, wie die Militärdiktaturen in Chile, Argentinien und Brasilien oder der bewaffnete Konflikt in Kolumbien dienen als Grundlage für Geschichten, die durch audiovisuellen Unterhaltungsmedien im Fernsehen ein breites Publikum erreichen. Die Darstellungen prägen dadurch die kollektiven Erinnerungen über Ländergrenzen hinweg. </hi>
+                <hi rend="" style="font-size:11pt">Auch der Einfluss der sozialen Medien hat in den letzten zehn Jahren im Feld des kulturellen Gedächtnisses erheblich zugenommen. Soziale Medien werden dabei aufgrund von Kommentaren und Hashtags zu einem Raum für die Vermittlung und Diskussion der Telenovelas und Serien.</hi>
+            </p>
+            <p style="text-align: justify;">
+                <hi style="font-size:11pt" xml:space="preserve">Das vom Bundesministerium für Bildung und Forschung (BMBF) geförderte Projekt </hi>
+                <hi rend="italic" style="font-size:11pt">Geschichtsvermittlung durch Unterhaltungsmedien in Lateinamerika. Labor für Erinnerungsforschung und digitale Methoden</hi>
+                <hi style="font-size:11pt" xml:space="preserve">(GUMELAB) des Lateinamerika-Instituts der Freien Universität Berlin untersucht die trans-/nationale Rezeption lateinamerikanischer Geschichte anhand von Telenovelas und Serien. </hi>
+                <anchor xml:id="Hlk88727366"/>
+                <hi style="font-size:11pt">Dabei wird der Einfluss dieser Unterhaltungsmedien auf die Erinnerungsbilder, das Geschichtsbewusstsein und die politische Bildung der Zuschauer:innen analysiert.</hi>
+            </p>
+            <p style="text-align: justify;">
+                <hi style="font-size:11pt">Durch die Diskussionen über Telenovelas und Serien in sozialen Netzwerken entstehen große Datenmengen, die sich als stetig wandelnde historische Quellen betrachtet werden können. Im interdisziplinären Projekt GUMELAB werden sie mit Methoden der Natural Language Processing ausgewertet. Dafür werden Algorithmen zur Textklassifizierung und Named Entity Recognition verwendet, um die Hauptaussagen von Interaktionen auf Twitter, Facebook, YouTube und Online-Zeitungen zu identifizieren und zu kategorisieren. Dies erfolgt durch die Programmierung eines „Suchalgorithmus“ für die Auswahl und Charakterisierung für die forschungsrelevanten Informationsquellen. Analysiert werden spanischsprachige Daten, die seit dem Ausstrahlungsdatum der jeweiligen chilenischen oder kolumbianischen Produktion bis Ende Juli 2021 im Netz auftauchten.</hi>
+            </p>
+            <p style="text-align: justify;">
+                <hi style="font-size:11pt">Die nötigen Kriterien beruhen auf der Relevanz, dem Umfang und der Verfügbarkeit der Informationen in der jeweiligen Analyseeinheit (Tweet, Post, Kommentar, Absatz usw.). Eine repräsentative Teilmenge wird anschließend manuell in relevante und nicht relevante Einheiten sortiert. Diese bilden die Grundlage und den Input für die Konstruktion dreier Modelle kognitiver Agenten (KA; Evidence-based Reasoning, EBR) (Koeman 2019, Tecuci et al. 2019, ITU 2019), die für die Hauptanalysekategorien (Erinnerungsbilder, Geschichtsbewusstsein und politische Bildung) entworfen wurden. Nach der Zuordnung einzelner Daten zu den Kategorien werden die KAs mit Hilfe des GPT-3-Modells (Generative Pre-trained Transformer 3) und der Theorie komplexer Netzwerke (Barabási 2016) trainiert. Sie ermöglichen es, das logische Denken zu trainieren, das die Hauptkategorien der Forschungsanalyse in der historischen Quelle interpretiert. Außerdem helfen sie bei der quantitativen Auswertung des Quellenkorpus und der Visualisierung der Verhaltensdynamik der sozialen Netzwerke. Die erhobenen Daten werden in einer internen Datenbank gespeichert und im Anschluss mit den Ergebnissen der qualitativen Interviews mit Zuschauer:innen aus Chile, Kolumbien und der USA abgeglichen.</hi>
+            </p>
+            <p style="text-align: justify;">
+                <hi style="font-size:11pt">Ein tieferes Verständnis von den untersuchten Prozessen ist von wissenschaftlicher und gesellschaftspolitischer Relevanz, da es ein neues Licht auf die Rezeption politischer und historischer Zusammenhänge durch Unterhaltungsmedien wirft. Die Vermittlung eines kulturellen Gedächtnisses durch fiktionale Darstellungen, die auf geschichtlichen Ereignissen beruhen, erlauben uns, Geschichtsvermittlung als eine gesamtgesellschaftliche Aufgabe zu verstehen.</hi>
+            </p>
+            <p style="text-align: justify;">
+                <hi style="font-size:11pt">Innerhalb der Erinnerungsforschung (Assmann 1999; Halbwachs 1939; Jelin 2002) wurde der Einfluss audiovisueller Produktionen auf das kollektive Gedächtnis (Erll 2008; Landsberg 2004) und deren Rezeption wenig untersucht. Eine vergleichende Untersuchung, die die Rezeption von Unterhaltungsmedien in sozialen Netzwerken mit digitalen Methoden (Botero 2018; Jensen 2012) untersucht, wurde bisher noch nicht durchgeführt. Die angestrebten Ergebnisse des Projektes GUMELAB sollen aufzeigen, wie Unterhaltungsmedien, in denen die Vergangenheit interpretiert und inszeniert wird, zu Zwecken der politischen Bildung genutzt werden können. Der methodische Einsatz von kognitiven Agenten wird durch die stetig anwachsenden Datenmengen auch in Zukunft für die Geschichtswissenschaften immer wichtiger werden, insbesondere wenn es sich dabei um dynamische, digital entstehende Quellen unterschiedlicher Art handelt, die im Netz kursieren.</hi>
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl rend="Citavi Literaturverzeichnis">
+                        <hi rend="bold">Assmann, Aleida</hi> (1999):
+                        <hi rend="italic" style="font-size:11pt">Erinnerungsräume. Formen und Wandlunge des kulturellen Gedächtnisses</hi>.
+                        <hi style="font-size:11pt" xml:space="preserve">München: Beck.   </hi>
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis">
+                        <hi rend="bold">Barabási, Albert-László</hi> (2016):
+                        <hi rend="italic" style="font-size:11pt">Network Science</hi>.
+                        <hi style="font-size:11pt">Unter Mitarbeit von Márton Pósfai. Cambridge: Cambridge University Press.</hi>
+                    </bibl>
+                    <bibl><hi rend="bold">Botero, J.</hi> (2018): 
+                        <hi rend="italic">Description and Prediction of Collective Human Behavior: A Complex Systems Perspective</hi>. Doctoral Thesis, Universidad de Antioquia.
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis">
+                        <hi rend="bold">Erll, Astrid</hi> (Hg.) (2008):
+                        <hi rend="italic" style="font-size:11pt">Film und kulturelle Erinnerung. Plurimediale Konstellationen</hi>.
+                        <hi style="font-size:11pt">Berlin: De Gruyter.</hi>
+                    </bibl>
+                    <bibl><hi rend="bold">Halbwachs, Maurice</hi> [1939] (1991): 
+                        <hi rend="italic">Das kollektive Gedächtnis</hi>. Frankfurt am Main: Fischer-Taschenbuch-Verl.
+                    </bibl>
+                    <bibl><hi rend="bold">ITU</hi> (2019): 
+                        <hi rend="italic" xml:space="preserve">United Nations Activities on Artificial Intelligence </hi>(AI).
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis">
+                        <hi rend="bold">Jelin, Elizabeth</hi> (2002):
+                        <hi rend="italic" style="font-size:11pt">Los trabajos de la memoria</hi>.
+                        <hi style="font-size:11pt">Madrid: Siglo XXI de España; SSRC.</hi>
+                    </bibl>
+                    <bibl><hi rend="bold">Jensen, K.</hi> (Hg.) (2012): 
+                        <hi rend="italic">A Handbook of Media and Communication Research. Qualitative and Quantitative Methodologies</hi>. London: Routledge.
+                    </bibl>
+                    <bibl><hi rend="bold">Koeman, V.</hi> (2019): 
+                        <hi rend="italic">Tools for Developing Cognitive Agents</hi>. https://doi.org/10.4233/uuid:f80750ee-db68-480e-8c58-2c167bd24ee5 
+                    </bibl>
+                    <bibl rend="Citavi Literaturverzeichnis">
+                        <hi rend="bold">Landsberg, Alison</hi> (2004):
+                        <hi rend="italic" style="font-size:11pt">Prosthetic memory. The transformation of American remembrance in the age of mass culture</hi>.
+                        <hi style="font-size:11pt">New York: Columbia University Press.</hi>
+                    </bibl>
+                    <bibl><hi rend="bold">Tecuci, G., Marcu, D., Mihai B., David S.</hi> (2019): 
+                        <hi rend="italic">Toward a Computational Theory of Evidence-Based Reasoning for Instructable Cognitive Agents</hi>. arXiv:1910.03990 [cs.AI]
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

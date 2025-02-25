@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_214">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Forschendes Lernen digital</title>
+                <author>
+                    <persName>
+                        <surname>Bläß</surname>
+                        <forename>Sandra</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Germany</affiliation>
+                    <email>sandra.blaess@uni-hamburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Flüh</surname>
+                        <forename>Marie</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Germany</affiliation>
+                    <email>marie.flueh@uni-hamburg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gerstorfer</surname>
+                        <forename>Dominik</forename>
+                    </persName>
+                    <affiliation>Technische Universität Darmstadt</affiliation>
+                    <email>gerstorfer@linglit.tu-darmstadt.de</email>
+                <idno type="ORCID">0000-0002-8095-2540</idno></author>
+                <author>
+                    <persName>
+                        <surname>Gius</surname>
+                        <forename>Evelyn</forename>
+                    </persName>
+                    <affiliation>Technische Universität Darmstadt</affiliation>
+                    <email>evelyn.gius@tu-darmstadt.de</email>
+                <idno type="ORCID">0000-0001-8888-8419</idno></author>
+                <author>
+                    <persName>
+                        <surname>Meister</surname>
+                        <forename>Malte</forename>
+                    </persName>
+                    <affiliation>Technische Universität Darmstadt</affiliation>
+                    <email>meister@linglit.tu-darmstadt.de</email>
+                <idno type="ORCID">0000-0002-9670-3573</idno></author>
+                <author>
+                    <persName>
+                        <surname>Nantke</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>Universität Hamburg, Germany</affiliation>
+                    <email>julia.nantke@uni-hamburg.de</email>
+                <idno type="ORCID">0000-0002-8037-1009</idno></author>
+                <author>
+                    <persName>
+                        <surname>Schumacher</surname>
+                        <forename>Mareike</forename>
+                    </persName>
+                    <affiliation>Technische Universität Darmstadt</affiliation>
+                    <email>schumacher@linglit.tu-darmstadt.de</email>
+                <idno type="ORCID">0000-0002-7952-4194</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-30T10:57:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Forschendes Lernen</term>
+                    <term>Methodenvermittlung</term>
+                    <term>Projektkooperation</term>
+                    <term>digitale Briefedition</term>
+                    <term>Dissemination</term>
+                    <term>Dehmel digital</term>
+                    <term>forTEXT</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Lehre</term>
+                    <term>Projekte</term>
+                    <term>Forschung</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">214</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Gerade Projekte aus dem Bereich der digitalen Literaturwissenschaften bringen vielseitige Ergebnisse und Forschungsdaten ganz unterschiedlicher Art hervor, die sich in die Lehre integrieren lassen und so einen Brückenschlag zwischen geisteswissenschaftlicher Forschung und Lehre ermöglichen. Während im angloamerikanischen Sprachraum unter dem Oberbegriff „DH-Pedagogy“ eine lebendige Debatte über didaktisch fundierte Lehr-Lern-Szenarien in den Digital Humanities geführt wird, (Hirsch 2012) sind systematische Überlegungen dieser Art im deutschen Sprachraum noch eher selten zu finden. </p>
+            <p style="text-align: left; ">In unserem Beitrag schildern wir aus der Erfahrung der konkreten Forschungs- und Lehrpraxis, auf welche Art und Weise sich das DH-Forschungs- und Editionsprojekt 
+                <hi rend="italic">Dehmel digital</hi> sowie die Lern- und Disseminationsplattform 
+                <hi rend="italic">forTEXT</hi> in der DH-Lehre fruchtbar kombinieren lassen, um ein digitales Lehren und Lernen zu ermöglichen, das Grundideen des Forschenden Lernens aufgreift und weiterdenkt. Wir stellen vor, wie durch die Dokumentation und Aufbereitung der Forschungsprozesse für die Plattform 
+                <hi rend="italic">forTEXT</hi> gleichzeitig eine nachhaltige Nutzung der etablierten Verfahren und produzierten Forschungsdaten in anderen Lehr-Lern-Szenarien ermöglicht wird.
+            </p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Forschendes Lernen als Leitgedanke</head>
+                <p style="text-align: left; ">Im hochschuldidaktischen Diskurs kommen die Begriffe „Forschendes“, „Forschungsbasiertes“, „Forschungsorientiertes“ oder „Forschungsnahes Lernen“ nach wie vor vielseitig und häufig zum Einsatz. In der internationalen Diskussion um Forschendes Lernen haben sich vor allem Systematisierungsansätze nach Hearley und Jenkins (2009) und Huber (2009 und 2014) etabliert, die in aktuellen und auf die Hochschulbildung im deutschsprachigen Raum bezogenen Publikationen aufgegriffen werden. Beide Ansätze definieren zwei Dimensionen des Forschenden Lernens: die inhaltliche Ausrichtung des Forschungsangebots (ergebnisorientiert und prozessorientiert) und die Form der Studierendenbeteiligung (passives Rezipieren und aktive Gestaltung). Darauf aufbauend lassen sich drei Kategorien unterscheiden, auf die der Lernfokus bei Ansätzen des Forschenden Lernens gelegt werden kann: auf den Forschungsprozess, die Forschungsmethode und die Forschungsergebnisse. Die Studierenden werden je nach Fokus rezeptiv aktiv, wenden erworbenes Wissen an und/oder werden selbst forschend tätig (Wulf et al. 2020).</p>
+                <p style="text-align: left; ">Diverse Universitäten oder Fachbereiche bestimmen Forschendes Lernen als didaktisches Leitprinzip für die Lehre. Konsens besteht bisher vor allem darüber, dass es im Lehrprofil von Hochschulen einen festen Platz einnehmen sollte. Ob aus den Zielen konkrete Maßnahmen folgen, hängt schlussendlich am Engagement von Einzelpersonen. Eine curriculare Verankerung ist selten der Fall (Huber 2020). Dieser Widerspruch aus proklamiertem Leitprinzip und eher vereinzelter praktischer Umsetzung kann auch im vorliegenden Beitrag nicht aufgelöst werden. Stattdessen zeigen wir ein beispielhaftes Lehr- und Lernszenario, das Forschungsnahes Lernen im Rahmen der Digital Humanities praktisch austestet.</p>
+                <p style="text-align: left; ">Das Erlernen digitaler Verfahren erfolgt am effektivsten möglichst praxisnah. Gerade digitale Tools und Methoden bieten deshalb Möglichkeiten, um Forschendes Lernen erfolgreich umzusetzen (Schirmer und Martin 2020). Beiträge, in denen digitale Literaturwissenschaft und Ansätze dieser Lernform systematisch zusammengebracht werden, sind allerdings selten. Eine fachspezifische Form des Forschenden Lernens ist aufgrund unterschiedlicher Forschungsformen, -begriffe und -gegenstände (trotz der domänenübergreifenden Forschungstätigkeiten des Beobachtens, Beurteilens, Modellierens und Konstruierens) allerdings wichtig. Gerade für die in geisteswissenschaftlichen Forschungs- und Lernszenarien entscheidende Begriffs- und Theoriebildung sowie die Fähigkeit zur hermeneutischen Interpretation gilt ein Zugang über Forschendes Lernen bislang als schwierig; im domänenübergreifenden Diskurs über Forschendes Lernen sind Beiträge aus den Geisteswissenschaften unterrepräsentiert (Huber 2017). Hier finden sich mittlerweile aber auch gelungene Gegenbeispiele (Hethey und Struve 2017, Mieg 2020), an die dieser Beitrag direkt anschließt. Die wechselseitige Kooperation und die gemeinsame Integration von Ansätzen des Forschenden Lernens in den Projekten 
+                    <hi rend="italic">Dehmel digital</hi> und 
+                    <hi rend="italic">forTEXT</hi> hat sich dabei als besonders fruchtbar erwiesen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Projekt Dehmel digital</head>
+                <p style="text-align: left; ">Das Forschungs- und Editionsprojekt <ref target="https://www.slm.uni-hamburg.de/germanistik/forschung/forschungsprojekte/dehmel-digital.html">
+                        <hi rend="italic">Dehmel digital</hi>
+                    </ref> hat die sukzessive materielle Erschließung und inhaltliche Erforschung des Korrespondenznetzwerks von Richard und Ida Dehmel zum Ziel, die um 1900 das Zentrum eines europaweiten Netzwerks von Künstler:innen und Kulturschaffenden bildeten. Der umfangreiche Briefnachlass des Ehepaars (insgesamt ca. 35.000 Briefe) liegt hauptsächlich in handschriftlicher Form vor. Im Rahmen des Projekts werden die Briefe digitalisiert und mit quantitativen computationellen Verfahren erschlossen. Die digitalisierten Briefe werden auf einer digitalen Plattform für unterschiedliche Zielgruppen (Wissenschafler:innen, Studierende und interessierte Lai:innen) aufbereitet und zur Nachnutzung zur Verfügung gestellt. Im Rahmen des Projekts kommen verschiedene Verfahren der digitalen Manuskriptanalyse und quantitativen inhaltlichen Texterschließung zum Einsatz, die bereits in 
+                    <hi rend="italic">forTEXT</hi> als Methoden und/oder Lerneinheiten integriert sind. Gleichzeitig ist das Thema der digitalen Erschließung in 
+                    <hi rend="italic">forTEXT</hi> bislang zwar in Methoden-, Tool- und Lerneinheitsbeiträgen zur Anwendung von 
+                    <hi rend="italic">Transkribus</hi> aufgegriffen, aber noch kaum auf den Bereich der Edition bezogen, der aktuell noch nicht explizit repräsentiert ist.
+                </p>
+                <p style="text-align: left; ">Eine Verknüpfung zwischen dem Forschungsprojekt 
+                    <hi rend="italic">Dehmel digital</hi> und der universitären Lehre findet an der Universität Hamburg seit 2019 in verschiedenen Seminarformaten statt. Die Integration in die Lehre enthält im Sinne des Forschenden Lernens ergebnisorientierte sowie prozessorientierte Aspekte und sowohl passiv-rezipierende als auch aktiv-gestaltende Elemente. In den Lehrveranstaltungen lernen die Studierenden unterschiedliche Arbeitsphasen des Erschließungsprojekts kennen. Auch die 
+                    <hi rend="italic">forTEXT</hi>-Lehr- und Lernmaterialien werden seit Projektbeginn im Jahr 2018 in der universitären Lehre erprobt. Auf diese Weise kann das Feedback der Studierenden kontinuierlich in die Weiterentwicklung der Disseminationsplattform einbezogen werden. Die enge Zusammenarbeit mit dem Projekt 
+                    <hi rend="italic" xml:space="preserve">Dehmel digital </hi>ermöglicht darüber hinaus erstmalig die Verbindung mit einem laufenden Forschungsprojekt und damit die Umsetzung eines sitzungsübergreifenden Lehr- und Lernszenarios des Forschenden Lernens. Gerade die Kombination aus konkretem Forschungsprojekt und generischer Disseminationsplattform ermöglicht dabei eine strukturierte und nachhaltige Gestaltung der verschiedenen Komponenten und ist dazu geeignet, bisherige Konzepte des Forschenden Lernens um literaturwissenschaftliche Anwendungsszenarien zu erweitern. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Das forTEXT-Projekt </head>
+                <p style="text-align: left; ">
+                    <hi rend="italic">forTEXT</hi> ist ein Disseminationsprojekt, das Interessierten einen Einstieg in die Digital Humanities ermöglicht. Über die Homepage <ref target="https://fortext.net/">fortext.net</ref> (vgl. Gius et al. 2021) werden zitierfähige Methodenbeschreibungen, Textsammlungen und Tools verfügbar gemacht, die niedrigschwellige Einführungen vor dem Hintergrund der nicht-digitalen Geisteswissenschaften geben. Thematisch reichen diese von Digitalisierung über Annotation zu Interpretation und Visualisierung. Die präsentierten Materialien sind unterteilt in Routinen, Ressourcen und Tools. Sie werden aus literaturwissenschaftlicher Perspektive bewertet und – zum Teil mit der Hilfe von Videos – erklärt.
+                </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="9.300986111111111cm" url="Pictures/b9199679c2074428d1f79b4f5dbce6de.png" rend="inline"/>
+                    <head>Abb. 1: forTEXT-Inhalte im Überblick</head>
+                </figure>
+                <p style="text-align: left; ">Die Sammlung der 
+                    <hi rend="italic">forTEXT-</hi>Lehr- und Lernmaterialien unterstützt einen aktiven Forschungsprozess in jeder Phase (vgl. Abb. 1). Die Inhalte der Plattform haben einen starken methodischen Fokus und sind darum besonders geeignet, um prozessorientierte und methodische Aspekte des Forschenden Lernens abzudecken. Die Beitragskategorien sind entweder passiv-informativ oder für das aktive Lernen im ‚Hands-on‘-Modus konzipiert, sodass auch unterschiedliche Formen der Beteiligung sich ergänzen. Unter 
+                    <hi rend="italic">Routinen</hi> finden sich z.B. Methodeneinträge und Lerneinheiten, mithilfe derer Forschende und Studierende mit einem Interesse für bestimmte Methoden der Digital Humanities sich diese theoretisch sowie praktisch aneignen können. Sind Methodenkenntnisse und Kompetenzen der Toolnutzung vorhanden, rücken 
+                    <hi rend="italic">Ressourcen</hi> ins Zentrum des Interesses. Je nach gewählter Methode werden z.B. kleinere oder größere Korpora benötigt, die in einschlägigen 
+                    <hi rend="italic">Textsammlungen</hi> zu finden sind, die jeweils in einem eigenen Beitrag vorgestellt werden. Während Nutzer:innen sich durch die kombinierte Rezeption von Methodenbeiträgen, Lerneinheiten und Ressourcen die Basiskompetenzen zur Nutzung einer Methode aneignen, werden im Bereich 
+                    <hi rend="italic">Tools</hi> nützliche und in den Digitalen Geisteswissenschaften häufig verwendete Softwares ausführlich vorgestellt und hinsichtlich der Eignung für DH-Neulinge bewertet.
+                </p>
+                <p style="text-align: left; ">Gerade für Einsteiger:innen in die Digital Humanities ist die Frage, welche 
+                    <hi rend="italic">Routinen</hi>, 
+                    <hi rend="italic">Ressourcen</hi> und 
+                    <hi rend="italic">Tools</hi> überhaupt für die eigene Forschung geeignet wären, nicht leicht zu beantworten. Darum gibt es den 
+                    <hi rend="italic">forTEXT-Projektpiloten</hi> – einen interaktiven Fragebogen, der den Weg in die eigenständige Projektarbeit bereitet. Studierende, die im Seminarkontext das Forschungsprojekt 
+                    <hi rend="italic">Dehmel digital</hi> kennengelernt haben, gehören auch zur primären Zielgruppe von 
+                    <hi rend="italic">forTEXT</hi>, da sie (teilweise) schon darin geübt sind, eigene Forschungsprojekte zu planen, aber oft noch nicht darin, digitale Methoden darin einzusetzen. Über den Projektpiloten, also in einem aktiven Frage-Modus, oder über die theoretischen Einträge der 
+                    <hi rend="italic">forTEXT</hi>-Webseite und damit eher passiv-rezeptiv – die Studierenden können sich bedarfsgenau und auf ihr konkretes Forschungsvorhaben konzentriert in die digitalen Geisteswissenschaften einarbeiten. Dabei wird die Erschließung und Erforschung des Dehmel-Korrespondenznetzwerks didaktisch mit der Vermittlung von Methodenwissen und -kritik sowie der Verwendung von Tools verschränkt und auch durch die direkte Anwendung der Methoden im Seminar können Studierende Inspiration für ihr Vorgehen in eigenen Forschungsprojekten finden.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Erkenntnisse aus der Praxis</head>
+                <p style="text-align: left; ">Im Rahmen der Integration des Forschungsprojekts 
+                    <hi rend="italic">Dehmel digital</hi> in die universitäre Lehre kommen vor allem Methoden der digitalen Textanalyse zum Einsatz. Dabei werden zunächst in einer eher passiv-rezeptiven Phase auf Grundlage der 
+                    <hi rend="italic">forTEXT</hi>-Inhalte Prozesse grundlegende Funktionen ausgewählter Tools und Methoden zur digitalen Textanalyse vermittelt (prozessorientiert, passiv). Die Lektüre von Methodeneinträgen, Tool- und Ressourcenvorstellungen (z.B. zum Thema NER oder HTR) und deren Diskussion im Seminar vermitteln theoretisch-methodologisches Hintergrundwissen und bestimmen die inhaltliche Dimension des Forschenden Lernens (nach Hearley und Jenkins 2009). In einer zweiten Phase steht die aktive Mitarbeit der Studierenden im Projektkontext im Vordergrund. Hierbei bildet die theoretische Vorarbeit den Ausgangspunkt für die teilautomatisierte Transkription sowie das Training eigener Modelle zur Erkennung von Handschriften oder Named Entities in Briefen. Auf diese Weise erwerben die Studierenden zum einen die Kompetenz, mittels digitaler Verfahren Daten zu produzieren. Zum anderen lernen sie prozessorientiert, die angewendeten Verfahren kritisch zu hinterfragen. Sie gewinnen also unter anderem einen Einblick in die Praxis der Entstehung von Quellen, die eine Grundlage der literaturwissenschaftlichen Lehre und Forschung sind, und üben den kritischen, fruchtbaren Umgang mit digitalen Quellen. Ihr konkretes Feedback besitzt auch eine Relevanz für Dritte und kann sowohl auf die Ausgestaltung des Forschungsprojekts 
+                    <hi rend="italic">Dehmel digital</hi> als auch auf die Präsentation von Inhalten auf 
+                    <hi rend="italic" xml:space="preserve">forTEXT.net </hi>rückwirken: Bei 
+                    <hi rend="italic">Dehmel digital</hi> können mithilfe der Resonanz beispielsweise Veränderungen im Transkriptionsvorgehen vorgenommen werden, 
+                    <hi rend="italic">forTEXT</hi> kann z.B. inhaltliche Erweiterungen vornehmen, indem neue Methoden und Tools getestet und beschrieben werden, die es ermöglichen, die von den Studierenden beschriebenen Grenzen auszuweiten. 
+                </p>
+                <p style="text-align: left; ">Beispielsweise wurde in einem Seminar 2019/20 mit Studierenden eine Korrespondenz des Dehmelkorpus transkribiert. Durch Diskussionsrunden angeregt, konnten manche Metadatenkategorisierungen im Dehmelprojekt und Teile der Editionsrichtlinien optimiert werden. Das Feedback der Studierenden war positiv, vor allem unter dem Gesichtspunkt, dass sie sich anhand der für das literaturwissenschaftliche Studium eher unüblichen praktischen Arbeit im Seminar eine konkrete Vorstellung von editorischer Praxis machen konnten. Aus den Rückmeldungen konnten vonseiten der Seminarleitung zudem Ideen gewonnen werden, wie sich der Seminarplan für das nächste Mal verständlicher und effizienter aufbauen ließe, und Vorstellungen, für welche theoretischen und methodischen Konzepte die Vermittlung noch verbessert werden könnte, wie z.B. für das Training eines HTR-Modells.</p>
+                <p style="text-align: left; ">Die im Seminar erhobenen Daten und trainierten Modelle werden ebenfalls ins Projekt 
+                    <hi rend="italic">Dehmel digital</hi> zurückgespielt. Die Studierenden lernen ein konkretes Forschungsprojekt kennen und vollziehen einzelne Schritte im Forschungsprozess nach. Gleichzeitig bekommen sie einen breit angelegten Überblick über Methoden der digitalen Geisteswissenschaften und die Forschungstraditionen, an die sie anknüpfen.
+                </p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="8.466666666666667cm" url="Pictures/a2fedb971ee0933bf0c7aed9b6ec5622.png" rend="inline"/>
+                    <head>Abb. 2: Didaktisches Dreieck zwischen Dehmel digital, Lehre und forTEXT</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Forschung – Lehre – Dissemination</head>
+                <p style="text-align: left; ">Abbildung 2 macht anhand des beschriebenen Use Cases prototypisch das Zusammenwirken von passiv-rezipierenden, aktiv-forschenden und produzierenden Anteilen der Lehrveranstaltungen sowie von konkreten und generischen Inhalten deutlich und zeigt die Reintegration der Ergebnisse Forschenden Lernens in das Forschungsprojekt und die Disseminationsplattform. Ausgangspunkt ist das Projekt 
+                    <hi rend="italic">Dehmel digital</hi>, das die beiden Dimensionen Forschenden Lernens nach Healey und Jenkins – inhaltlicher Fokus und Studierendenbeteiligung – als auch Wulfs Kategorien von Prozess, Methode und Ergebnis voll abdeckt. Studierende arbeiten aktiv in einem Forschungssetting und können Ergebnisse zum Projekt beitragen. 
+                    <hi rend="italic">forTEXT</hi> verstärkt den methodischen Fokus und dient der Vermittlung zwischen digitalen Geisteswissenschaften und den in diesem Falle ansonsten eher analog-traditionell ausgebildeten Studierenden. Über das Projekt 
+                    <hi rend="italic" xml:space="preserve">Dehmel digital </hi>können bisher auf der 
+                    <hi rend="italic">forTEXT.net</hi>-Plattform bestehende Desiderate im Bereich der digitalen Editionswissenschaften ausgemacht und in Form konkreter Inhalte ergänzt werden. Dort wird die Sichtbarkeit des Dehmel-Projekts sowie der in dessen Kontext erarbeiteten Workflows erhöht und neben den Studierenden des eigenen Seminars können auch andere Forschende und Lernende auf die Methodenkompetenzvermittlung zugreifen. Gerade die Verknüpfung von konkreter Projekt-Perspektive und generischer Sicht auf das Feld der Digital Humanities macht eine übergeordnete hermeneutische Reflexion möglich, die dem Forschenden Lernen entsprechend sowohl theorie- als auch erfahrungsbasiert ist und somit Teil eines nachhaltigen Lernprozesses werden kann. Durch diese Kombination können also Elemente des Forschenden Lernens gewinnbringend in literaturwissenschaftliche Lernszenarien integriert werden.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Gius, Evelyn / Gerstorfer, Dominik / Meister, Malte / Schumacher, Mareike et al.</hi> (2021): 
+                        <hi rend="italic" xml:space="preserve">forTEXT. Literatur digital erforschen.</hi>
+                        <ref target="https://fortext.net" xml:space="preserve"> </ref>https://fortext.net [letzter Zugriff: 6. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Healey, Mitch / Jenkins, Alan</hi> (2009): 
+                        <hi rend="italic" xml:space="preserve">Developing undergraduate research and inquiry. </hi>York.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hethey, Meike / Struve, Karen</hi> (2017): „MitLesen. Forschendes Lernen in den Literaturwissenschaften“, in: Kaufmann, Margrit E. / Satilmis, Ayla / Mieg, Harald A. (eds.): 
+                        <hi rend="italic" xml:space="preserve">Forschendes Lernen in den Geisteswissenschaften. Konzepte, Praktiken und Perspektiven hermeneutischer Fächer</hi>.
+                        <hi rend="italic"></hi>Wiesbaden: Springer VS 141
+                        <hi rend="italic">-</hi>166.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hirsch, Brett D.</hi> (2012): „&lt;/Parentheses&gt;: Digital Humanities and the Place of Pedagogy“, in: Hirsch, Brett D. (ed.): 
+                        <hi rend="italic">Digital Humanities Pedagogy. Practices, Principles and Politics</hi>.
+                        <hi rend="italic" xml:space="preserve"></hi>Cambridge: Open Book Publishers 3
+                        <hi rend="italic">-</hi>30.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Huber, Ludwig</hi> (2009): „Warum Forschendes Lernen nötig und möglich ist“, in: Huber, Ludwig / Hellmer, Julia / Schneider, Friederike (eds.): 
+                        <hi rend="italic">Forschendes Lernen im Studium. Aktuelle Konzepte und Erfahrungen</hi>.
+                        <hi rend="italic" xml:space="preserve"></hi>Bielefeld: Universitäts Verlag Webler 9
+                        <hi rend="italic">-</hi>35.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Huber, Ludwig</hi> (2014): „Forschungsbasiertes, Forschungsorientiertes, Forschendes Lernen: Alles dasselbe? Ein Plädoyer für eine Verständigung über Begriffe und Unterscheidungen im Feld des forschungsnahen Lehrens und Lernens“, in: 
+                        <hi rend="italic">Das Hochschulwesen HSW</hi> 36 (1/2): 22
+                        <hi rend="italic">-</hi>29.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Huber, Ludwig</hi> (2017): „Forschendes Lernen in den Geisteswissenschaften. Fernes Echo seiner historischen Ursprünge“, in: Kaufmann, Margrit E. / Satilmis, Ayla / Mieg, Harald A. (eds.): 
+                        <hi rend="italic">Forschendes Lernen in den Geisteswissenschaften. Konzepte, Praktiken und Perspektiven hermeneutischer Fächer</hi>.
+                        <hi rend="italic"></hi> Wiesbaden: Springer VS 21
+                        <hi rend="italic">-</hi>34.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Huber, Ludwig</hi> (2020): „Curriculare Verankerung des Forschungsnahen Lernens“, in: Wulf, Carmen / Haberstroh, Susanne / Petersen, Maren (eds.): 
+                        <hi rend="italic">Forschendes Lernen. Theorie, Empirie, Praxis</hi>. Wiesbaden: Springer VS 3
+                        <hi rend="italic">-</hi>20. 10.1007/978-3-658-31489-7.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Mieg, Harald A.</hi> (2020): „Eine Systematik der Forschungsformen und ihre Eignung für Forschendes Lernen“, in: Wulf, Carmen / Haberstroh, Susanne / Petersen, Maren (eds.): 
+                        <hi rend="italic">Forschendes Lernen. Theorie, Empirie, Praxis</hi>.
+                        <hi rend="italic" xml:space="preserve"></hi>Wiesbaden: Springer VS 21
+                        <hi rend="italic">-</hi>34. 10.1007/978-3-658-31489-7.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schirmer, Carola / Martin, Victoria</hi> (2020): „Die Gestaltung Forschenden Lernens mit digitalen Medien“, in: Wulf, Carmen / Haberstroh, Susanne / Petersen, Maren (eds.): 
+                        <hi rend="italic">Forschendes Lernen. Theorie, Empirie, Praxis</hi>. Wiesbaden: Springer VS 285
+                        <hi rend="italic">-</hi>297. 10.1007/978-3-658-31489-7_24.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Wulf, Carmen / Haberstroh, Susanne / Petersen, Maren</hi> (2020): 
+                        <hi rend="italic">Forschendes Lernen. Theorie, Empirie, Praxis</hi>.
+                        <hi rend="italic"></hi> Wiesbaden: Springer VS. 10.1007/978-3-658-31489-7.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

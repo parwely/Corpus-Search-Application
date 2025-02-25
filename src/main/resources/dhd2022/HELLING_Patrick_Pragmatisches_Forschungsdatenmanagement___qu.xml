@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_185">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Pragmatisches Forschungsdatenmanagement</title>
+                <title type="sub">Qualitative und quantitative Analyse der Bedarfslandschaft in den Computational Literary Studies</title>
+                </title>
+            <author>
+                    <persName>
+                        <surname>Helling</surname>
+                        <forename>Patrick</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Philologie, Lehrstuhl für Computerphilologie und neuere deutsche Literaturgeschichte, Universität Würzburg</affiliation>
+                    <email>patrick.helling@uni-koeln.de</email>
+                <idno type="ORCID">0000-0003-4043-165X</idno></author>
+                <author>
+                    <persName>
+                        <surname>Jung</surname>
+                        <forename>Kerstin</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Philologie, Lehrstuhl für Comuterphilologie und neuere deutsche Literaturgeschichte, Universität Würzburg</affiliation>
+                    <email>kerstin.jung@ims.uni-stuttgart.de</email>
+                <idno type="ORCID">0000-0002-9548-8461</idno></author>
+                <author>
+                    <persName>
+                        <surname>Pielström</surname>
+                        <forename>Steffen</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Philologie, Lehrstuhl für Comuterphilologie und neuere deutsche Literaturgeschichte, Universität Würzburg</affiliation>
+                    <email>pielstroem@biozentrum.uni-wuerzburg.de</email>
+                <idno type="ORCID">0000-0003-1016-2911</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-11T08:36:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Computational Literary Studies</term>
+                    <term>CLS</term>
+                    <term>Literaturwissenschaften</term>
+                    <term>Forschungsdatenmanagement</term>
+                    <term>FDM</term>
+                    <term>Interview</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Archivierung</term>
+                    <term>Projektmanagement</term>
+                    <term>Organisation</term>
+                    <term>Infrastruktur</term>
+                    <term>Literatur</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">185</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align: left; ">Die 
+                    <hi rend="italic">Computational Literary Studies</hi> (CLS) sind ein aufstrebendes, interdisziplinäres Forschungsfeld, in dem Gegenstände und Fragestellungen aus der Literaturwissenschaft mit computergestützten, teilweise quantitativen Methoden bearbeitet werden. Damit verorten sich die CLS am Schnittpunkt von Literaturwissenschaft, Computerlinguistik und Informatik.
+                </p>
+                <p style="text-align: left; ">Bedingt durch diese digitalen Methoden spielen Forschungsdaten unterschiedlichster Art eine zentrale Rolle für die CLS: Die Basis eines jeden Projektes stellt ein Korpus digitalisierter literarischer Texte dar. Dazu kommen weitere Arten von Forschungsdaten, unter anderem Textannotationen, zusammenfassende Statistiken und Visualisierungen, Metadaten und, bedingt durch den aktuellen Deep-Lerning-Trend in der Computerlinguistik, zunehmend auch komplexe statistische Sprachmodelle. Entsprechend zeichnet sich die Forschungsdatenmanagement-Bedarfslandschaft der CLS durch eine starke Heterogenität aus, die auch in vielen anderen Teildisziplinen der Geisteswissenschaften festzustellen ist (Pempe 2012). Der Umgang mit diesen Forschungsdaten über den gesamten Forschungsdatenlebenszyklus hinweg stellt dabei eine Grundbedingung wissenschaftlichen Fortschritts dar (Bryant, Lavoie &amp; Maipas 2017) und ist nicht erst seit Bestrebungen hin zu einer fachlich getriebenen Nationalen Forschungsdateninfrastruktur (RfII 2016, 2017) wesentlicher Bestandteil guter wissenschaftlicher Praxis (DFG 2019).<ref target="ftn1" n="1"/> Für die Transparenz der wissenschaftlichen Methode und die Reproduzierbarkeit der Ergebnisse ist ein fachspezifisches Management der zu Grunde liegenden Forschungsdaten im Sinne der FAIR-Prinzipien (Wilkinson et al. 2016) bis hin zur nachhaltigen Publikation und Archivierung auch in den CLS von zentraler Bedeutung. Einige spezifische Aspekte, wie die Verwendung nicht exakt reproduzierbarer, stochastischer Verfahren oder die oft komplexe rechtliche Situation der teilweise urheberrechtlich geschützten Primärdaten stellen hierbei besondere Herausforderungen dar (vgl. Schöch et al. 2020; Kleinkopf et al. 2021).
+                </p>
+                <p style="text-align: left; ">Das DFG Schwerpunkprogramm SPP 2207 „Computational Literary Studies“ (SPP CLS) setzt sich aus insgesamt 11 an verschiedenen Universitäten in Deutschland und der Schweiz angesiedelten Forschungsprojekten und einem Datenkoordinationsteam zusammen.
+                    <hi rend="Fußnotenanker"><ref target="ftn2" n="2"/>
+                    </hi>
+                </p>
+                <p style="text-align: left; ">Das Datenkoordinationsteam ist mit zwei halben Stellen sowie einer Koordinierungsstelle ausgestattet und zentral an der Gesamtkoordinationsstelle des SPP CLS angesiedelt. Seine Mitglieder verfügen sowohl über langjährige Erfahrungen und Kompetenzen im methodischen Bereich der Computational Literary Studies als auch im fachspezifischen, geisteswissenschaftlichen Forschungsdatenmanagement (FDM). Zusätzlich zur Entwicklung und Umsetzung einer gemeinsamen Strategie für das Management von Forschungsdaten für das gesamte SPP unterstützt das Team auch die Koordination des gesamten Schwerpunktprogramms. </p>
+                <p style="text-align: left; ">Das SPP CLS bietet durch seine Bündelung von verschiedenen CLS-Forschungsvorhaben einen hervorragenden Rahmen, um zu untersuchen, welche Art von Forschungsdaten in CLS-Projekten wie genutzt werden. Ziel einer solchen Landschaftsvermessung ist es, die Forschungspraxis im SPP 2207 zu erfassen und zu beobachten, um daraus 
+                    <hi rend="italic">Best Practices</hi> im Umgang mit Forschungsdaten zur Schaffung eines Mehrwerts für das gesamte Feld zu identifizieren und zu aggregieren sowie methodisch verwandte Fachbereiche wie bspw. textbasiert arbeitende Digital Humanities oder die Computerlinguistik mit zu adressieren. 
+                </p>
+                <p style="text-align: left; ">Darüber hinaus können die methodischen Ansätze zur Entwicklung einer Strategie für das Forschungsdatenmanagement sowie die strukturelle und organisatorische Einbindung des Datenkoordinationsteams in den Gesamtkontext des Schwerpunktprogramms als ein konkret erprobtes Praxisbeispiel für die Bedienung von FDM-Bedarfen und das Management von Forschungsdaten innerhalb von Forschungs- und Infrastrukturverbünden wie bspw. Sonderforschungsbereichen, Exzellenzclustern oder grundsätzlich übergreifenden Informationsinfrastrukturprojekten verstanden werden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Vorgehen zur Landschaftsvermessung</head>
+                <p style="text-align: left; ">Zur Analyse der Bedarfe zum Forschungsdatenmanagement in den CLS wurde ein Vorgehen mit Interviewgesprächen sowie mehreren Analyseschritten und Reviewphasen entwickelt. Durch diesen Doppelschritt konnte sich bei der Datenerfassung besonders nah am tatsächlichen Forschungsalltag sowie den aktuellen Bedingungen und Bedarfen jedes einzelnen Projekts orientiert werden. Dies kann bei bspw. quantitativen, ggf. sogar anonym durchgeführten, Onlineumfragen zu FDM-Bedarfen, die durchaus fehleranfällig sein können, nicht zwangsläufig gewährleistet werden, da hier i.d.R. keine Möglichkeit besteht auf die Antworten der Befragten konkreter einzugehen.</p>
+                <p style="text-align: left; ">Zunächst wurde mit jedem Projekt ein Interview auf Basis eines Leitfadens aus 47 offenen, nach Projektphasen gruppierten Fragen durchgeführt
+                    <hi rend="Fußnotenanker"><ref target="ftn3" n="3"/>
+                    </hi> : (i) zum Umgang mit Daten und lebenden Systemen im laufenden Projekt, sowie (ii) zu Publikations- und Archivierungsstrategien am Ende des Projekts. Dabei dienten die qualitativen Interviews neben der Landschaftsvermessung auch dem Kennenlernen der jeweiligen Projekte sowie dem Aufbau der Kommunikation zwischen den Projektbeteiligten und dem Datenkoordinationsteam.
+                </p>
+                <p style="text-align: left; ">Im Interview wurden allgemeine Beispiele zur Erläuterung der Fragen angegeben. Aus den gegebenen Antworten wurde ein Antworteninventar erstellt, das den Projekten zusammen mit den eigenen Antworten zum Review zur Verfügung gestellt wurde. Dieser Schritt stellte sicher, dass die Antworten der Projekte korrekt zugeordnet wurden und, dass Aspekte, die auf mehrere Projekte zutreffen, aber nicht von allen erwähnt wurden, am Ende dennoch für die folgenden Analysen umfassend erfasst werden konnten.</p>
+                <p style="text-align: left; ">Dabei wurden Review und Analyse zunächst auf Aspekte zum laufenden Projekt konzentriert, da Fragen zum Ende der Projektphase eher tentativ beantwortet wurden. Zum Zeitpunkt dieser Einreichung befanden sich die Fragen zum Ende der Projektphase im Reviewprozess.</p>
+                <p style="text-align: left; ">Für die Landschaftsvermessung der CLS in Bezug auf (1) wissenschaftliches Arbeiten, (2) Management von Forschungsdaten sowie entsprechende (3) Trends, (4) Best Practices und (5) community-getriebene Standards sowie die Entwicklung einer gemeinsamen Datenstrategie wurden die Interviews zunächst quantitativ ausgewertet (siehe Abschnitt 3). Zur Umsetzung pragmatischer Lösungsstrategien für das gesamte SPP CLS durch die Datenkoordination im Sinne der Identifikation und Umsetzung von FDM-Lösungsstrategien orientiert an der (a) Gesamtheit der Bedarfe im Schwerpunktprogramm und auf der (b) Basis existierender Werkzeuge und Angebotsstrukturen in der gesamten FDM-Landschaft, war neben dieser quantitativen Analyse auch eine qualitative Auswertung der Inhalte relevant (siehe Abschnitt 4).</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Quantitative Auswertung: Erste Ergebnisse der Landschaftsvermessung</head>
+                <p style="text-align: left; ">Zur Beschreibung der Datenlandschaft und Entwicklung einer passgenauen Datenstrategie für das gesamte SPP CLS ist zentral, welche Datentypen und -formate genutzt und produziert werden. Im Kontext der digitalen Literaturwissenschaften vermeintlich wenig überraschend arbeiten alle Projekte des Schwerpunktprogramms mit Textdaten und beinahe genauso viele mit Softwarecode. Aber auch numerische und bibliographische Daten, sogar Bilddaten spielen bei einigen Projekten eine wichtige Rolle (Tabelle 1) und müssen bei der Archivierung und Nachnutzbarmachung von Projektergebnissen mitberücksichtigt werden. </p>
+                <p style="text-align: left; ">Tabelle 1: Genutzte Datentypen im SPP CLS.</p>
+                <figure>
+                    <head>Tab. 1: Genutzte Datentypen im SPP CLS.</head>
+                    <graphic n="1001" width="17.00036111111111cm" height="10.542763888888889cm" url="Pictures/9bf068dd8e08456a7b9daacffb21ee20.png" rend="inline"/>
+                </figure>
+                <p style="text-align: left; ">Mit XML, PlainText-Formaten sowie PDF nutzen viele Projekte textbasierte Datenformate, die sich bereits vergleichsweise gut für eine nachhaltige Archivierung und Nachnutzung eignen. Ähnliches gilt für die Nutzung von CSV-Dateien. Dennoch wird deutlich, dass in der Bandbreite genutzter Formate einige Projekte auch proprietäre Lösungen verwenden (Abb. 1), wodurch aus FDM-Perspektive gegen Projektende eine Formatmigration nötig werden könnte.</p>
+                <figure>                    
+                    <graphic n="1002" width="17.00036111111111cm" height="11.200694444444444cm" url="Pictures/4aa1c5bb0b7670c80e18eb896d6d3ef3.png" rend="inline"/>
+                    <head>Abb. 1: Genutzte Datenformate im SPP CLS.</head>
+                </figure>
+               
+                <p style="text-align: left; ">Vor dem Hintergrund der hohen Relevanz von Softwarecode (vgl. Tabelle 1) spielt auch die Nutzung von Programmier- und Skriptsprachen in einem zentralen Datenmanagement eine wichtige Rolle (Tabelle 2). </p>
+                <figure>
+                    <head>Tab. 2: Genutzte Programmier- und Skriptsprachen im SPP CLS.</head>
+                    <graphic n="1003" width="17.00036111111111cm" height="11.743972222222222cm" url="Pictures/64604eb3cc3315c24a00d2faa9f8385f.png" rend="inline"/>
+                </figure>
+                <p style="text-align: left; ">In diesem Zusammenhang sind gleichzeitig der Umgang mit lebenden Systemen (Tabelle 3) und hier verwendeter Technologie-Stacks (Abb. 2) am Ende der Projektlaufzeit eine zentrale Herausforderung. Insbesondere die durch die Projekte teilweise selbst motivierte Nutzung von statischen Systemen wie bspw. Jekyll wird die langfristige Verfügbarkeit von lebenden Systemen dabei deutlich erleichtert.</p>
+                <figure>
+                    <head>Tab. 3: Geplante lebende Systeme im SPP CLS.</head>
+                    <graphic n="1004" width="17.00036111111111cm" height="5.9707638888888885cm" url="Pictures/6e93991ef0c2feedfe0249030bf8bd71.png" rend="inline"/>
+                </figure>
+                    <figure>
+                        <graphic n="1005" width="17.00036111111111cm" height="9.890125cm" url="Pictures/6793445c69fea181e27a92dac07a7b6f.png" rend="inline"/>
+                        <head>Abb. 2: Geplante Technologie-Stacks zur Entwicklung lebender Systeme im SPP CLS.</head>
+                </figure>
+              
+                <p style="text-align: left; ">Neben der Erfassung von Informationen, die für das FDM relevant sind, war es bei der Landschaftsvermessung im SPP CLS auch ein Ziel Aussagen über methodische und organisatorische Best Practices innerhalb des Forschungsfelds zu treffen. </p>
+                <figure>
+                    <graphic n="1006" width="17.00036111111111cm" height="11.631083333333333cm" url="Pictures/8346756b6366ef6a02979be5fbe52b81.png" rend="inline"/>
+                    <head>Abb. 3: Analyseverfahren und methodische Werkzeuge im SPP CLS.</head>
+                </figure>
+                <p style="text-align: left; ">Während die Abfrage von angewandten Analyseverfahren und methodischer Werkzeuge innerhalb der einzelnen Projekte erste Trends ablesen lassen (Abb. 3), können Informationen über genutzte Tools zum Projektmanagement sowie zur Annotation von Daten dabei helfen, infrastrukturelle Bedarfe der Community zu identifizieren (Abb. 4 und Tabelle 4). </p>
+                <figure>
+                    <graphic n="1007" width="17.00036111111111cm" height="11.724569444444445cm" url="Pictures/f6388ff7eb11350953be182470d5bf5a.png" rend="inline"/>
+                    <head>Abb. 4: Genutzte Tools zur Projektverwaltung im SPP CLS.</head>
+                </figure>
+                <figure>
+                    <head>Tab. 4: Genutzte Annotationstools im SPP CLS.</head>
+                    <graphic n="1008" width="17.00036111111111cm" height="6.00075cm" url="Pictures/959992a278de1e70641c6127a1538194.png" rend="inline"/>
+                </figure>
+                <p style="text-align: left; ">Darüber hinaus können die Angaben zu Archivierungs- und Publikationsstrategien, trotz ihres noch tentativen Charakters, bereits für die Ableitung von Best Practices innerhalb der Fachdisziplin genutzt werden (Abb. 5 und Abb. 6).</p>
+                <figure>
+                    <graphic n="1009" width="17.00036111111111cm" height="11.315347222222222cm" url="Pictures/f4d891a4dccfb2fbbcb536a109a0c8e6.png" rend="inline"/>
+                    <head>Abb. 5: Tentative Angaben zu genutzten Archivierungsinfrastrukturen im SPP CLS.</head>
+                </figure>
+
+                <figure>
+                    <graphic n="10010" width="17.00036111111111cm" height="11.601097222222222cm" url="Pictures/fcbd4af0c98beb4744f38912ec1de6b4.png" rend="inline"/>
+                    <head>Abb. 6: Tentative Angaben zu genutzten Publikationsinfrastrukturen im SPP CLS.</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Qualitative Auswertung: Abgeleitete FDM-Maßnahmen </head>
+                <p style="text-align: left; ">Beispielhaft für die pragmatische Identifikation und Umsetzung von Maßnahmen zur Handhabung der Bedarfe im Forschungsdatenmanagement in den CLS gehen wir hier auf zwei Aspekte ein.</p>
+                <p style="text-align: left; ">Zum Arbeiten in und zum Austausch zwischen den Projekten sowie der projektübergreifenden Arbeit einzelner Arbeitsgruppen wurde nach einer geeigneten Plattform gesucht. Dabei waren folgende Kriterien ausschlaggebend:</p>
+                <list type="unordered">
+                    <item>Die Zusammenarbeit muss über Fach-, Universitäts-, und Ländergrenzen vollumfänglich möglich sein. </item>
+                    <item>Die Ablage und der Austausch von Daten muss möglich sein, idealerweise auch das gemeinsame Arbeiten auf der Plattform, die daher zumindest eine Versionierung zur Verfügung stellen muss.</item>
+                    <item>Textdateien und Annotationen müssen ebenso verwaltet werden können wie formale Metadaten und Softwarecode.</item>
+                    <item>Die Gesamtkapazität muss im hohen GB-Bereich liegen, da Datensätze sowie Modelle aus dem Maschinellen Lernen im zweistelligen GB-Bereich als Einzeldateien zu erwarten sind.</item>
+                    <item>Bereiche für Projekte, Projektgruppen sowie Arbeitsgruppen müssen leicht angelegt und verwaltet werden können.</item>
+                    <item>Der Speicherort muss bekannt und sicher sein, damit rechtliche Belange, bspw. urheberrechtlicher Natur, gewahrt und dem Missbrauch der Daten vorgebeugt werden kann. </item>
+                </list>
+                <p style="text-align: left; ">Cloud-Lösungen sind für den Datenaustausch und das kollaborative Arbeiten oft die erste Wahl. Jedoch sind sie meist auf bestimmte, ggf. lokale Nutzergruppen ausgerichtet (z.B. Dienste für Hochschulen eines Bundeslandes), bezüglich des Speicherorts intransparent oder mit kommerziell tätigen Unternehmen verbunden, was durch unterschiedliche Richtlinien der Universitäten ebenfalls nicht alle beteiligten Projekte einschließen kann. </p>
+                <p style="text-align: left; ">Letzteres trifft auch auf zentral zugreifbare Entwicklungsplattformen wie Github oder Gitlab zu, die allerdings den zusätzlichen Vorteil haben, dass sie auch für gemeinsame Codeentwicklung zur Verfügung stehen und Features zum Projektmanagement, wie z.B. Ticketsysteme anbieten. </p>
+                <p style="text-align: left; ">Wenngleich es einen wachsenden, disziplinübergreifenden Bedarf an der Nutzung von kollaborativen Versionierungssystemen gibt, der sich u.a. aus den mittlerweile breit aufgestellten Schulungs- und Workshop-Angeboten ableiten lässt,<ref target="ftn4" n="4"/> gibt es gleichzeitig einen Mangel an standortübergreifend nutzbaren, zentralen Angeboten solcher Systeme. Entsprechend wurde, trotz eines hohen Betreuungs- und Verwaltungsaufwandes, eine eigene Gitlab-Instanz für das SPP CLS auf universitären Servern aufgesetzt. Dabei war neben der Erfüllung der Kriterien ausschlaggebend, dass im Schwerpunktprogramm bereits Erfahrungen im Umgang mit git-basierten Lösungen vorhanden waren. Für große Einzeldateien wurde das sogenannte Large File Storage zur Verfügung gestellt. Backups erfolgen durch die Infrastruktur des universitären Rechenzentrums. Die Instanz wird durch das Datenkoordinationsteam des SPP CLS betrieben und verwaltet. Da durch die große Funktionalität von Gitlab eine gezielte Verwendung mit Einstiegshürden verbunden sein kann, wurde eine spezifische Dokumentation zusammengestellt und ein Einstiegsworkshop für die Mitglieder des Schwerpunktprogramms organisiert. 
+                </p>
+                <p style="text-align: left; ">Ein zweiter Aspekt ist der Bedarf einer zentralen Publikationsplattform, z.B. für Materialien, die nicht in fachspezifischen Repositorien oder Publikationsorganen unterkommen (Posterpräsentationen, Folien, Handreichungen, aber perspektivisch auch Datendumps oder Snapshots lebender Systeme). Wichtige Anforderungen sind hierbei eine langfristige Auffindbarkeit und Zitierbarkeit sowie die Möglichkeit Ergebnisse der verschiedenen Projekte im Projektverbund gemeinsam sichtbar zu machen:</p>
+                <list type="unordered">
+                    <item>Die abgelegten Daten sollen bei einer Speicherinstitution liegen, bei der klar ist, wo die entsprechende Infrastruktur unterhalten wird und wer darauf Zugriff hat. </item>
+                    <item>Die Dauerhaftigkeit der Speicherinstitution sollte gegeben sein. </item>
+                    <item>Die Ablage von Daten sollte, auch in größeren Mengen, für Forschende ohne zusätzliche Kosten möglich sein. </item>
+                    <item>Eine maximale Daten-/Dateiobergrenze sollte es nicht geben. Der verfügbare Speicherplatz sollte mindestens im zweistelligen GB-Bereich liegen. </item>
+                    <item>Die Speicherinstitution sollte die Vergabe von persistenten Identifiern ermöglichen. </item>
+                    <item>Mit Hilfe von Versionierung und möglichst auch versionierbarer, persistenter Identifier sollten verschiedene Zustände von Publikationen, Daten und sonstigen Materialien veröffentlicht werden können. </item>
+                    <item>Die Vergabe von Lizenzen und Möglichkeit eines abgestuften Zugriffs sollte unterstützt werden, um ggf. auch rechtlich geschützte Materialen gesammelt abzulegen. </item>
+                    <item>Technische Komponenten des Systems sollten transparent sein. </item>
+                    <item>Zur Steigerung der Auffindbarkeit und Nachnutzung von Publikationen sollte die Speicherinstitution Schnittstellen zu anderen Portalen anbieten und Metadaten an weitere Onlinekataloge weitergeben. </item>
+                </list>
+                <p style="text-align: left; ">Unterschiedliche projektfinanzierte Repositorien und Publikationssysteme stellen zwar mögliche Lösungen für die skizzierten Anforderungen dar, allerdings können Förderstrategien, insbesondere innerhalb der deutschsprachigen Wissenschaftslandschaft, deren langfristige Weiterfinanzierung und somit die Dauerhaftigkeit eines Services i.d.R. nicht gewährleisten. Bereits institutionalisierte Angebotsstrukturen verfügen hingegen häufig entweder über eine Begrenzung des Adressatenkreises, oder haben sich fachlich oder formatspezifisch stark spezialisiert. Die Nutzung von wirtschaftlich-kommerziellen Angeboten kann wiederum, abgesehen von wissenschaftsethischen Einwänden und beschränkenden universitären Richtlinien, von den nutzenden Projekten und Wissenschaftler*innen selbst auf Dauer nicht getragen und finanziert werden. </p>
+                <p style="text-align: left; ">Zur Bedienung der skizzierten Bedarfe wurden zwei Lösungen identifiziert und in die Datenstrategie des SPP CLS integriert: Zunächst wurde eine eigene Community für das Schwerpunktprogramm auf dem Online-Speicherdienst Zenodo eingerichtet, welcher nahezu allen Anforderungen entspricht.
+                    <hi rend="Fußnotenanker"><ref target="ftn5" n="5"/>
+                    </hi> Das generische Repositorium ist mittlerweile in vielen Fachdisziplinen als Dienst etabliert. Es ermöglicht die Verwendung reichhaltiger Metadaten zur Beschreibung von Publikationen, unterstützt die Vergabe von versionierten Digital Object Identifiern (DOI), gibt Metadaten an aggregierende Portale wie bspw. OpenAIRE weiter und wird vom CERN in der Schweiz dauerhaft betrieben.
+                    <hi rend="Fußnotenanker"><ref target="ftn6" n="6"/>
+                    </hi>
+                </p>
+                <p style="text-align: left; ">Für die langfristige Veröffentlichung von lebenden Systemen wie bspw. Websites, Tools und einfacher Anwendungen stellt in Ergänzung Github eine Lösung dar. Auch der netzbasierte Dienst zur Versionsverwaltung verfügt in diversen wissenschaftlichen Communities, obwohl er mittlerweile von Microsoft betrieben wird, über einen großen Nutzendenkreis und kann für den abgegrenzten Gegenstandsbereich einiger lebender Systeme in Frage kommen: Github ermöglicht neben der kollaborativen Entwicklung auch die dokumentierte und quelloffene Bereitstellung von Software und verfügt über eine Schnittstelle zu Zenodo, wodurch Github-Repositorien in einem bestimmten Zustand auf Zenodo publiziert und persistent referenzierbar gemacht werden können. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Weitere Perspektiven auf eine gemeinsamen Datenstrategie </head>
+                <p style="text-align: left; ">Trotz erster pragmatischer und bedarfsorientierter Lösungsstrategien im Rahmen der Entwicklung einer gemeinsamen Datenstrategie innerhalb des SPP CLS hat die erste Review- und Analysephase der Landschaftsvermessung deutlich gemacht, dass innerhalb des Schwerpunktprogramms sehr heterogene Bedingungen und Bedarfe in Bezug auf das Forschungsdatenmanagement vorherrschen. Unterschiedliche Methoden angewandt auf verschiedene Korpora erzeugen teilweise individuelle Forschungsdaten und -ergebnisse, die es sowohl projektintern als auch für das gesamte SPP CLS langfristig zu sichern sowie verfügbar zu machen gilt. </p>
+                <p style="text-align: left; ">Eine zentrale Herausforderung der zweiten Review- und Analysephase, mit Fokus auf der Konkretisierung individueller Archivierungs- und Publikationsstrategien innerhalb der einzelnen Projekte, ist die Integration etablierter Vorgehensweisen in die gemeinsame Datenstrategie des SPP CLS. Darüber hinaus wird es eine Hauptaufgabe sein die Entwicklung von lebenden Systemen innerhalb der einzelnen Projekte so weit zu begleiten und zu betreuen, dass möglichst alle individuellen Websites, Tools und kleineren Anwendungen auch über die Projektphasen hinaus in einer statischen Form mit geringem Kurationsaufwand, bspw. via Github und Zenodo, auffindbar, zugänglich, interoperabel und nachnutzbar bleiben. </p>
+                <p style="text-align: left; ">In unserem Vortrag werden wir das Schwerpunktprogramm als Blaupause für das Forschungsdatenmanagement innerhalb der CLS dezidierter beschreiben und die hier beschriebenen Ergebnisse mit weiteren Erkenntnissen, auch zu möglichen fachspezifischeren Lösungen, die wir aus der bis dahin abgeschlossenen zweiten Review- und Analysephase gewinnen werden, komplettieren.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Vgl. 
+                            <ref target="https://www.nfdi.de/">https://www.nfdi.de/</ref>
+                            <hi rend="Hyperlink" xml:space="preserve"> und</hi>
+                            <ref target="https://www.gwk-bonn.de/themen/weitere-arbeitsgebiete/informationsinfrastrukturen-nfdi/">https://www.gwk-bonn.de/themen/weitere-arbeitsgebiete/informationsinfrastrukturen-nfdi/</ref> (letzter Zugriff: 14. Juli 2021).
+                        </note><note place="foot" xml:id="ftn2" n="2"> DFG Schwerpunktprogramm „Computational Literary Studies“, Online: 
+                                <ref target="https://dfg-spp-cls.github.io/">
+                                    <hi rend="Internetverknüpfung">https://dfg-spp-cls.github.io/</hi>
+                                </ref> (letzter Zugriff: 09. Juli 2021).
+                            </note><note place="foot" xml:id="ftn3" n="3"> Interviewleitfaden zur FDM-Bestandsaufnahme im Schwerpunktprogramm „Computational Literary Studies“, Online: 
+                                <ref target="http://doi.org/10.5281/zenodo.4269639">http://doi.org/10.5281/zenodo.4269639</ref>. 
+                            </note><note place="foot" xml:id="ftn4" n="4"> Vgl. u.a. diverse Workshops zum Forschungsdatenmanagement mit Gitlab, durchgeführt durch die Landesinitiative für Forschungsdatenmanagement (fdm.nrw), Online: 
+                            <ref target="https://www.fdm.nrw/index.php/fdm-nrw/versionierung-gitlab/">https://www.fdm.nrw/index.php/fdm-nrw/versionierung-gitlab/</ref> (letzter Zugriff: 09.11.2021); „Workshop: Git und Gitlab für Anfänger*innen“, durchgeführt durch die Landesinitiative FDM Thüringen, 21. Juli 2021, Online: 
+                            <ref target="https://forschungsdaten-thueringen.de/veranstaltung/workshop-git-gitlab-de.html">https://forschungsdaten-thueringen.de/veranstaltung/workshop-git-gitlab-de.html</ref> (letzter Zugriff: 09.11.2021); „git and GitLab basics workshop“, durchgeführt durch NFDI4Ing, 21.09.2021, Online: 
+                            <ref target="https://nfdi4ing.de/git-and-gitlab-basics-workshop-3/">https://nfdi4ing.de/git-and-gitlab-basics-workshop-3/</ref> (letzter Zugriff: 09.11.2021); Workshop „Datenversionierung mit Git – Advanced Track“, durchgeführt durch Carolin Odebrecht auf der RDA Deutschland Tagung 2020, Potsdam, 25.02.2020, Online: 
+                            <ref target="https://www.rda-deutschland.de/praesentationen-2020/gitlabworkshop2020.pdf">https://www.rda-deutschland.de/praesentationen-2020/gitlabworkshop2020.pdf</ref> (Folien) (letzter Zugriff: 09.11.2021).
+                        </note><note place="foot" xml:id="ftn5" n="5"> Online: https://zenodo.org/</note><note place="foot" xml:id="ftn6" n="6"> Online: https://www.openaire.eu/</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Bryant, Rebecca / Lavoie, Brian / Malpas, Constance</hi> (2017):
+                        <hi rend="italic">A Tour of the Research Data Management (RDM) Service Space. The Realities of Research Data Management, Part 1</hi>. Dublin, Ohio: OCLC Research. DOI:
+                        <ref target="https://doi.org/10.25333/C3PG8J">https://doi.org/10.25333/C3PG8J
+                        </ref>.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">DFG - Deutsche Forschungsgemeinschaft</hi> (2019):
+                        <hi rend="italic">Guidelines for Safeguarding Good Research Practice. Code of Conduct.</hi> Zenodo: http://doi.org/10.5281/zenodo.3923602. 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Kleinkopf, Felicitas / Jacke, Janina / Gärtner, Markus</hi> (2021): „Text- und Data-Mining: urheberrechtliche Grenzen der Nachnutzung wissenschaftlicher Korpora und ihrer Bedeutung für die Digital Humanities“ in: <hi rend="italic">MMR: Zeitschrift für IT-Recht und Recht der Digitalisierung</hi>, Jahrgang 2021, Heft 3. München: C.H.BECK oHG 196 ff. Online:
+                        <ref target="http://dx.doi.org/10.18419/opus-11445">http://dx.doi.org/10.18419/opus-11445</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Pempe, Wolfgang</hi> (2012): „Geisteswissenschaften“ in: Neuroth, Heike / Strathmann, Stefan / Oßwald, Achim / Scheffel, Regine / Klump, Jens / Ludwig, Jens (eds.):
+                        <hi rend="italic">Langzeitarchvierung von Forschungsdaten. Eine Bestandsaufnahme</hi>. Boizenburg: Verlag Werner Hülsbusch 137-160.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">RfII 2016, RfII - Rat für Informationsinfrastrukturen</hi> (2016):
+                        <hi rend="italic">Leistung aus Vielfalt. Empfehlungen zu Strukturen, Prozessen und Finanzierung des Forschungsdatenmanagements in Deutschland</hi>. Göttingen. Online:
+                        <ref target="https://d-nb.info/1104292440/34">https://d-nb.info/1104292440/34</ref> (letzter Zugriff: 14. Juli 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">RfII - Rat für Informationsinfrastrukturen</hi> (2017):
+                        <hi rend="italic">Schritt für Schritt - oder: Was bringt wer mit? Ein Diskussionsimpuls für den Einstieg in die Nationale Forschungsdateninfrastruktur (NFDI)</hi>. Göttingen, Online: https://d-nb.info/1131083113/34 (letzter Zugriff: 14. Juli 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Schöch, Christof / Döhl, Frédéric / Rettinger, Achim / Gius, Evelyn / Trilcke, Peer / Leinen, Peter / Jannidis, Fotis / Hinzmann, Maria / Röpke, Jörg</hi> (2020): „Abgeleitete Textformate: Text und Data Mining mit urheberrechtlich geschützten Textbeständen“ in: <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften</hi>. Wolfenbüttel, Online:
+                        <ref target="https://doi.org/10.17175/2020_006">https://doi.org/10.17175/2020_006</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Wilkinson, Mark D. / Dumontier, Michel / Aalbersberg, IJsbrand Jan / Appleton, Gabrielle / Axton, Myles / Baak, Arie / Blomberg, Niklas / Boiten, Jan-Willem / da Silva Santos, Luiz Bonino / Bourne, Philip E. / Bouwman, Jildau / Brookes, Antony J. / Clark, Tim / Crosas, Mercè / Dillo, Ingrid / Dumon, Oliver / Edmunds, Scott / Evelo, Chris T. / Finkers, Richard / Gonzalez-Beltran, Alejandra / Gray, Alasdair J.G. / Groth, Paul, Goble, Carole / Grethe, Jeffrey S. / Heringa, Jaap / A.C’t Hoen, Peter / Hooft, Rob / Kuhn, Tobias / Kok, Ruben / Kok, Joost / Lusher, Scott J. / Martone, Maryann E. / Mons, Albert / Packer, Abel L. / Persson, Bengt / Rocca-Serra, Philippe / Roos, Marco / van Schaik, Rene / Sansone, Susanna-Assunta / Schultes, Erik / Sengstag, Thierry / Slater, Ted / Strawn, George / Swertz, Morris A. / Thompson, Mark / van der Lei, Johan / van Mulligen, Erik / Velterop, Jan / Waagmeester, Andrea / Wittenburg, Peter / Wolstencroft, Katherine / Zhao, Jun / Mons Barend</hi> (2016):
+                        „The FAIR Guiding Principles for scientific data management and stewardship” in: <hi rend="italic">Scientific Data</hi> 3, Article number: 160018. DOI:
+                        <ref target="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18
+                        </ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

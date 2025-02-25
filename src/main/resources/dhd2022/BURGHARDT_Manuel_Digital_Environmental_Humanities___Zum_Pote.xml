@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_241">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Digital Environmental Humanities</title>
+                <title type="sub">Zum Potential von „Computational and Literary Biodiversity Studies“ (CoLiBiS)</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Langer</surname>
+                        <forename>Lars</forename>
+                    </persName>
+                    <affiliation>Spezielle Botanik und Funktionelle Biodiversität, Universität Leipzig</affiliation>
+                    <email>lars.langer@uni-leipzig.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Burghardt</surname>
+                        <forename>Manuel</forename>
+                    </persName>
+                    <affiliation>Computational Humanities Group, Universität Leipzig</affiliation>
+                    <email>burghardt@informatik.uni-leipzig.de</email>
+                <idno type="ORCID">0000-0003-1354-9089</idno></author>
+                <author>
+                    <persName>
+                        <surname>Borgards</surname>
+                        <forename>Roland</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Literatur und ihre Didaktik, Universität Frankfurt</affiliation>
+                    <email>borgards@lingua.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Köhring</surname>
+                        <forename>Esther</forename>
+                    </persName>
+                    <affiliation>Institut für Deutsche Literatur und ihre Didaktik, Universität Frankfurt</affiliation>
+                    <email>koehring@lingua.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wirth</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Spezielle Botanik und Funktionelle Biodiversität, Universität Leipzig; Deutsches Zentrum für integrative Biodiversitätsforschung (iDiv), Halle-Jena-Leipzig; Max-Planck-Institut für Biogeochemie, Jena</affiliation>
+                    <email>cwirth@uni-leipzig.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>environmental humanities</term>
+                    <term>computational literary studies</term>
+                    <term>text mining</term>
+                    <term>Ökologie</term>
+                    <term>Biodiversität</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">241</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung: „Nature’s Contribution to People“</head>
+                <p>
+                    <hi style="font-size:10pt" xml:space="preserve">Spätestens seit dem Einsetzen der Industrialisierung erfährt unser Planet einen überdurchschnittlichen Rückgang der Biodiversität </hi>
+                    <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"DOI":"10.5281/zenodo.3553579","author":[{"dropping-particle":"","family":"IPBES","given":"","non-dropping-particle":"","parse-names":false,"suffix":""}],"editor":[{"dropping-particle":"","family":"Díaz","given":"S.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Settele","given":"J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Brondízio","given":"E. S.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Ngo","given":"H. T.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Guèze","given":"M.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Agard","given":"J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Arneth","given":"A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Balvanera","given":"P.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Brauman","given":"K. A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Butchart","given":"S. H. M.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Chan","given":"K. M. A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Garibaldi","given":"L. A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Ichii","given":"K.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Liu","given":"J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Subramanian","given":"S. M.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Midgley","given":"G. F.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Miloslavich","given":"P.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Molnár","given":"Z.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Obura","given":"D.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Pfaff","given":"A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Polasky","given":"S.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Purvis","given":"A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Razzaque","given":"J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Reyers","given":"B.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Chowdhury","given":"R. Roy","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Shin","given":"Y. J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Visseren-Hamakers","given":"I. J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Willis","given":"K. J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Zayas","given":"C. N.","non-dropping-particle":"","parse-names":false,"suffix":""}],"id":"ITEM-1","issued":{"date-parts":[["2019","11","25"]]},"publisher":"IPBES secretariat","publisher-place":"Bonn","title":"Summary for Policymakers of the Global Assessment Report on Biodiversity and Ecosystem Services","type":"book"},"uris":["http://www.mendeley.com/documents/?uuid=1e5f2f3b-09c4-4075-a66b-3de11041e2fc"]},{"id":"ITEM-2","itemData":{"author":[{"dropping-particle":"","family":"Millennium Ecosystem Assessment","given":"","non-dropping-particle":"","parse-names":false,"suffix":""}],"editor":[{"dropping-particle":"V.","family":"Reid","given":"Walter","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Mooney","given":"Harold A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Cropper","given":"Angela","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Capistrano","given":"Doris","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Carpenter","given":"Stephen R.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Chopra","given":"Kanchan","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Dasgupta","given":"Partha","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Dietz","given":"Thomas","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Duraiappah","given":"Anantha Kumar","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Hassan","given":"Rashid","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Kasperson","given":"Roger","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Leemans","given":"Rik","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"May","given":"Robert M.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"McMichael","given":"Tony (A.J.)","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Pingali","given":"Prabhu","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Samper","given":"Cristián","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Scholes","given":"Robert","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Watson","given":"Robert T.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Zakri","given":"A.H.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Shidong","given":"Zhao","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Ash","given":"Neville J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Bennett","given":"Elena","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Kumar","given":"Pushpam","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Lee","given":"Marcus J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Raudsepp-Hearne","given":"Ciara","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Simons","given":"Henk","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Thonell","given":"Jillian","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Zurek","given":"Monika B.","non-dropping-particle":"","parse-names":false,"suffix":""}],"id":"ITEM-2","issued":{"date-parts":[["2005","1","1"]]},"publisher":"Island Press","publisher-place":"Washington DC","title":"Ecosystems and Human Well-Being: Synthesis","type":"book"},"uris":["http://www.mendeley.com/documents/?uuid=935896ac-e2a8-49a2-b78b-d07703bca410"]},{"id":"ITEM-3","itemData":{"DOI":"10.1038/nature11148","ISSN":"0028-0836","PMID":"22678280","abstract":"The most unique feature of Earth is the existence of life, and the most extraordinary feature of life is its diversity. Approximately 9 million types of plants, animals, protists and fungi inhabit the Earth. So, too, do 7 billion people. Two decades ago, at the first Earth Summit, the vast majority of the world's nations declared that human actions were dismantling the Earth's ecosystems, eliminating genes, species and biological traits at an alarming rate. This observation led to the question of how such loss of biological diversity will alter the functioning of ecosystems and their ability to provide society with the goods and services needed to prosper. © 2012 Macmillan Publishers Limited.","author":[{"dropping-particle":"","family":"Cardinale","given":"Bradley J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Duffy","given":"J. Emmett","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Gonzalez","given":"Andrew","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Hooper","given":"David U.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Perrings","given":"Charles","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Venail","given":"Patrick","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Narwani","given":"Anita","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Mace","given":"Georgina M.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Tilman","given":"David","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Wardle","given":"David A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Kinzig","given":"Ann P.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Daily","given":"Gretchen C.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Loreau","given":"Michel","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Grace","given":"James B.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Larigauderie","given":"Anne","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Srivastava","given":"Diane S.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Naeem","given":"Shahid","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"Nature","id":"ITEM-3","issue":"7401","issued":{"date-parts":[["2012","6","7"]]},"page":"59-67","title":"Biodiversity loss and its impact on humanity","type":"article-journal","volume":"486"},"uris":["http://www.mendeley.com/documents/?uuid=82a62522-2c79-4592-8ef6-82e7976cb63c"]}],"mendeley":{"formattedCitation":"(Cardinale et al., 2012; IPBES, 2019; Millennium Ecosystem Assessment, 2005)","plainTextFormattedCitation":"(Cardinale et al., 2012; IPBES, 2019; Millennium Ecosystem Assessment, 2005)","previouslyFormattedCitation":"(Cardinale et al., 2012; IPBES, 2019; Millennium Ecosystem Assessment, 2005)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                    <anchor xml:id="_Fieldmark__997_777594497"/>
+                    <hi style="font-size:10pt">(Cardinale et al., 2012; IPBES, 2019; Millennium Ecosystem Assessment, 2005)</hi>
+                    <hi style="font-size:10pt" xml:space="preserve">. Diese Biodiversität liefert einen wichtigen Beitrag für unsere Gesellschaft, etwa durch die Bereitstellung von Ressourcen, die Regulierung globaler und lokaler Ökosystemprozesse aber auch auf immaterieller Ebene als Quelle von Inspiration, Bildung und Erholung </hi>
+                    <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"DOI":"10.5281/zenodo.3553579","author":[{"dropping-particle":"","family":"IPBES","given":"","non-dropping-particle":"","parse-names":false,"suffix":""}],"editor":[{"dropping-particle":"","family":"Díaz","given":"S.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Settele","given":"J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Brondízio","given":"E. S.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Ngo","given":"H. T.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Guèze","given":"M.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Agard","given":"J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Arneth","given":"A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Balvanera","given":"P.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Brauman","given":"K. A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Butchart","given":"S. H. M.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Chan","given":"K. M. A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Garibaldi","given":"L. A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Ichii","given":"K.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Liu","given":"J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Subramanian","given":"S. M.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Midgley","given":"G. F.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Miloslavich","given":"P.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Molnár","given":"Z.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Obura","given":"D.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Pfaff","given":"A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Polasky","given":"S.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Purvis","given":"A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Razzaque","given":"J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Reyers","given":"B.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Chowdhury","given":"R. Roy","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Shin","given":"Y. J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Visseren-Hamakers","given":"I. J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Willis","given":"K. J.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Zayas","given":"C. N.","non-dropping-particle":"","parse-names":false,"suffix":""}],"id":"ITEM-1","issued":{"date-parts":[["2019","11","25"]]},"publisher":"IPBES secretariat","publisher-place":"Bonn","title":"Summary for Policymakers of the Global Assessment Report on Biodiversity and Ecosystem Services","type":"book"},"uris":["http://www.mendeley.com/documents/?uuid=1e5f2f3b-09c4-4075-a66b-3de11041e2fc"]},{"id":"ITEM-2","itemData":{"DOI":"10.1126/science.aap8826","ISSN":"0036-8075","author":[{"dropping-particle":"","family":"Díaz","given":"Sandra","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Pascual","given":"Unai","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Stenseke","given":"Marie","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Martín-López","given":"Berta","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Watson","given":"Robert T.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Molnár","given":"Zsolt","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Hill","given":"Rosemary","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Chan","given":"Kai M. A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Baste","given":"Ivar A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Brauman","given":"Kate A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Polasky","given":"Stephen","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Church","given":"Andrew","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Lonsdale","given":"Mark","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Larigauderie","given":"Anne","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Leadley","given":"Paul W.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Oudenhoven","given":"Alexander P. E.","non-dropping-particle":"van","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Plaat","given":"Felice","non-dropping-particle":"van der","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Schröter","given":"Matthias","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Lavorel","given":"Sandra","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Aumeeruddy-Thomas","given":"Yildiz","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Bukvareva","given":"Elena","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Davies","given":"Kirsten","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Demissew","given":"Sebsebe","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Erpul","given":"Gunay","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Failler","given":"Pierre","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Guerra","given":"Carlos A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Hewitt","given":"Chad L.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Keune","given":"Hans","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Lindley","given":"Sarah","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Shirayama","given":"Yoshihisa","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"Science","id":"ITEM-2","issue":"6373","issued":{"date-parts":[["2018","1","19"]]},"page":"270-272","title":"Assessing nature's contributions to people","type":"article-journal","volume":"359"},"uris":["http://www.mendeley.com/documents/?uuid=8de8bab8-f2c2-486a-871c-44671e420c9a"]},{"id":"ITEM-3","itemData":{"DOI":"10.5167/uzh-25528","author":[{"dropping-particle":"","family":"Schmid","given":"Bernhard","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Balvanera","given":"Patricia","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Cardinale","given":"Bradley","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Godbold","given":"Jasmin","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Pfisterer","given":"Andrea","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Raffaelli","given":"David","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Solan","given":"Martin","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Srivastava","given":"Diane","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"Biodiversity, Ecosystem Functioning, and Human Wellbeing","id":"ITEM-3","issued":{"date-parts":[["2009","7","30"]]},"page":"14-29","title":"Consequences of species loss for ecosystem functioning: Meta-analyses of data from biodiversity experiments","type":"article-journal"},"uris":["http://www.mendeley.com/documents/?uuid=5e8a0f3f-5460-4d80-bbf9-2b3099cd7219"]}],"mendeley":{"formattedCitation":"(Sandra Díaz et al., 2018; IPBES, 2019; Schmid et al., 2009)","plainTextFormattedCitation":"(Sandra Díaz et al., 2018; IPBES, 2019; Schmid et al., 2009)","previouslyFormattedCitation":"(Sandra Díaz et al., 2018; IPBES, 2019; Schmid et al., 2009)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                    <anchor xml:id="_Fieldmark__1002_777594497"/>
+                    <hi style="font-size:10pt">(Díaz et al., 2018; IPBES, 2019; Schmid et al., 2009)</hi>
+                    <hi style="font-size:10pt" xml:space="preserve">. Der Schutz der Biodiversität ist daher ein drängendes Zukunftsthema (The Global Risks Report, 2021; European Biodiversity Strategy for 2030, 2020), nicht nur in den Naturwissenschaften (Díaz et al. 2019), sondern auch in den kulturwissenschaftlichen Umweltstudien, den sogenannten </hi>
+                    <hi rend="italic" style="font-size:10pt">Environmental Humanities</hi>
+                    <hi style="font-size:10pt" xml:space="preserve"> (Vidal &amp; Dias, 2017), in denen sich der interdisziplinäre Ansatz des </hi>
+                    <hi rend="italic" style="font-size:10pt">Ecocriticism</hi>
+                    <hi style="font-size:10pt" xml:space="preserve"> etabliert hat </hi>
+                    <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"DOI":"10.1007/978-3-476-05489-0","ISBN":"978-3-476-02567-8","author":[{"dropping-particle":"","family":"Bühler","given":"Benjamin","non-dropping-particle":"","parse-names":false,"suffix":""}],"id":"ITEM-1","issued":{"date-parts":[["2016","1","1"]]},"publisher":"J.B. Metzler","publisher-place":"Stuttgart","title":"Ecocriticism","type":"book"},"uris":["http://www.mendeley.com/documents/?uuid=c98a2f80-705e-4384-9679-86f34a5e2638"]}],"mendeley":{"formattedCitation":"(Bühler, 2016)","plainTextFormattedCitation":"(Bühler, 2016)","previouslyFormattedCitation":"(Bühler, 2016)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                    <anchor xml:id="_Fieldmark__1017_777594497"/>
+                    <hi style="font-size:10pt">(Bühler, 2016)</hi>
+                    <hi style="font-size:10pt" xml:space="preserve">. Eine Zusammenarbeit dieser beiden Forschungszugänge wird von beiden Seiten explizit gefordert (Gesing et al., 2019; Nadim, 2016; Díaz et. al., 2015; Borie &amp; Hulme, 2015), konnte aber mangels operationalisierbarer Methoden bisher kaum realisiert werden, da nicht zuletzt im Gegensatz zu materiellen Beiträgen der Natur für die Gesellschaft (bspw. Nahrung oder Rohstoffe), immaterielle Beiträge (bspw. Erholung oder Inspiration) schwerer zu quantifizieren sind </hi>
+                    <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"DOI":"10.4337/9781843765486","ISBN":"9781843765486","author":[{"dropping-particle":"","family":"Martinez-Alier","given":"Joan","non-dropping-particle":"","parse-names":false,"suffix":""}],"id":"ITEM-1","issued":{"date-parts":[["2002","8","26"]]},"publisher":"Edward Elgar Publishing","publisher-place":"Cheltenham","title":"The Environmentalism of the Poor","type":"book"},"uris":["http://www.mendeley.com/documents/?uuid=6bf6ba0f-59ec-4244-a27e-3263cd74eea1"]},{"id":"ITEM-2","itemData":{"DOI":"10.1126/science.289.5478.395","ISSN":"00368075","author":[{"dropping-particle":"","family":"Daily","given":"G. C.","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"Science","id":"ITEM-2","issue":"5478","issued":{"date-parts":[["2000","7","21"]]},"page":"395-396","title":"ECOLOGY: The Value of Nature and the Nature of Value","type":"article-journal","volume":"289"},"uris":["http://www.mendeley.com/documents/?uuid=e771a528-7f01-4bf1-9bd6-64e69d2fd5e0"]},{"id":"ITEM-3","itemData":{"DOI":"10.1073/pnas.1114773109","ISSN":"1091-6490","PMID":"22615401","abstract":"Cultural ecosystem services (ES) are consistently recognized but not yet adequately defined or integrated within the ES framework. A substantial body of models, methods, and data relevant to cultural services has been developed within the social and behavioral sciences before and outside of the ES approach. A selective review of work in landscape aesthetics, cultural heritage, outdoor recreation, and spiritual significance demonstrates opportunities for operationally defining cultural services in terms of socioecological models, consistent with the larger set of ES. Such models explicitly link ecological structures and functions with cultural values and benefits, facilitating communication between scientists and stakeholders and enabling economic, multicriterion, deliberative evaluation and other methods that can clarify tradeoffs and synergies involving cultural ES. Based on this approach, a common representation is offered that frames cultural services, along with all ES, by the relative contribution of relevant ecological structures and functions and by applicable social evaluation approaches. This perspective provides a foundation for merging ecological and social science epistemologies to define and integrate cultural services better within the broader ES framework.","author":[{"dropping-particle":"","family":"Daniel","given":"Terry C.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Muhar","given":"Andreas","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Arnberger","given":"Arne","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Aznar","given":"Olivier","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Boyd","given":"James W.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Chan","given":"Kai M. A.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Costanza","given":"Robert","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Elmqvist","given":"Thomas","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Flint","given":"Courtney G.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Gobster","given":"Paul H.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Grêt-Regamey","given":"Adrienne","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Lave","given":"Rebecca","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Muhar","given":"Susanne","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Penker","given":"Marianne","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Ribe","given":"Robert G.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Schauppenlehner","given":"Thomas","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Sikor","given":"Thomas","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Soloviy","given":"Ihor","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Spierenburg","given":"Marja","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Taczanowska","given":"Karolina","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Tam","given":"Jordan","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Dunk","given":"Andreas","non-dropping-particle":"von der","parse-names":false,"suffix":""}],"container-title":"Proceedings of the National Academy of Sciences of the United States of America","id":"ITEM-3","issue":"23","issued":{"date-parts":[["2012","6","5"]]},"page":"8812-9","title":"Contributions of cultural services to the ecosystem services agenda.","type":"article-journal","volume":"109"},"uris":["http://www.mendeley.com/documents/?uuid=beb9fa39-d7c2-420f-a046-562414e2020d"]}],"mendeley":{"formattedCitation":"(Daily, 2000; Daniel et al., 2012; Martinez-Alier, 2002)","plainTextFormattedCitation":"(Daily, 2000; Daniel et al., 2012; Martinez-Alier, 2002)","previouslyFormattedCitation":"(Daily, 2000; Daniel et al., 2012; Martinez-Alier, 2002)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                    <anchor xml:id="_Fieldmark__1028_777594497"/>
+                    <hi style="font-size:10pt">(Daily, 2000; Daniel et al., 2012; Martinez-Alier, 2002)</hi>
+                    <hi style="font-size:10pt">. In diesem Beitrag schlagen wir die Digital Humanities (DH) als Intermediär vor, um eine Brücke zwischen natur- und kulturwissenschaftlichen Biodiversitätsforschungen zu bauen. Durch diese interdisziplinäre Vermittlung ergibt sich das neuartige Forschungsgebiet der „Digital Environmental Humanities“, welches die Methoden der DH nutzt, um einen quantitativen Zugang zu immateriellen Beiträgen der Natur durch die computergestützte Analyse von materialisierten Kulturartefakten, wie etwa Büchern, zu untersuchen.</hi>
+                </p>
+                <p>
+                    <hi style="font-size:10pt" xml:space="preserve">Der heute gebräuchliche Biodiversitätsbegriff wurde in den 1980er Jahren geprägt </hi>
+                    <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"DOI":"10.17226/989","abstract":"This important book for scientists and nonscientists alike calls attention to a most urgent global problem: the rapidly accelerating loss of plant and animal species to increasing human population pressure and the demands of economic development. Based on a major conference sponsored by the National Academy of Sciences and the Smithsonian Institution, Biodiversity creates a systematic framework for analyzing the problem and searching for possible solutions.","editor":[{"dropping-particle":"","family":"Wilson","given":"Edward O.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Peter","given":"Frances M.","non-dropping-particle":"","parse-names":false,"suffix":""}],"id":"ITEM-1","issued":{"date-parts":[["1988"]]},"language":"English","publisher":"The National Academies Press","publisher-place":"Washington, DC","title":"Biodiversity","type":"book"},"uris":["http://www.mendeley.com/documents/?uuid=381ec354-48c9-4d28-a700-e54856be1976"]}],"mendeley":{"formattedCitation":"(Wilson & Peter, 1988)","plainTextFormattedCitation":"(Wilson & Peter, 1988)","previouslyFormattedCitation":"(Wilson & Peter, 1988)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                    <anchor xml:id="_Fieldmark__1041_777594497"/>
+                    <hi style="font-size:10pt">(Wilson &amp; Peter, 1988)</hi>
+                    <hi style="font-size:10pt" xml:space="preserve">. In der Konsequenz ergeben sich für historisch orientierte Untersuchungen (bspw. Literaturgeschichte der Biodiversität) Probleme mit der Anwendbarkeit des Begriffs, sodass man implizit mit einem Anachronismus, einer historischen Rückprojektion, arbeitet. Gleichzeitig hat das Konzept der Biodiversität in dieser Form eine starke wissenschaftliche und moralische Autorität (Toepfer, 2011:361). Biodiversität ist also nicht nur wissenschaftlich messbar, sondern hat auch Auswirkungen auf normatives Handeln und somit auf die Politik. Zusätzlich impliziert der Begriff der Biodiversität gemäß dem Motto „varietas delectat“ immer auch eine ästhetische Dimension (vgl. Abb. 1). </hi>
+                </p>
+                <figure>
+                    <graphic n="1001" width="10.707077777777778cm" height="7.919366666666667cm" url="Pictures/71c204638664334181f68ab8bc12eac2.png" rend="inline"/>
+                    <head>Abb. 1: Drei Dimensionen des Biodiversitätsbegriffs.</head>
+                </figure>
+                <p>
+                    <hi style="font-size:10pt" xml:space="preserve">Diese Begriffstrias spiegelt sich auch in der kurzen Geschichte des ‚Weltbiodiversitätsrats‘ (IPBES = </hi>
+                    <hi rend="italic" style="font-size:10pt">Intergovernmental Platform for Biodiversity and Ecosystem Services</hi>)
+                    <hi style="font-size:10pt">wider: Biodiversität soll demnach wissenschaftlich quantifiziert werden und die Erkenntnisse als Grundlage für politisches (normatives) Handeln herangezogen werden. Dementsprechend wird der hier zunächst gebrauchte, stark an ökonomischen Modellen ausgerichtete Begriff der „Ecosystem Services“ mittlerweile vom Konzept „Nature’s Contribution to People“ (Beiträge der Natur zur Gesellschaft) ersetzt, welches besser die engen Verflechtungen von Kultur und Natur inklusive ihrer immateriellen Komponenten zu berücksichtigen vermag.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Methodik der CoLiBiS</head>
+                <p>
+                    <hi style="font-size:10pt" xml:space="preserve">Bisher leiden Methoden der Quantifizierung immaterieller Beiträge der Natur für die Gesellschaft an subjektiver Verzerrung (vgl. etwa Ainscough, </hi>
+                    <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"DOI":"10.1016/j.ecoser.2019.01.004","ISSN":"22120416","author":[{"dropping-particle":"","family":"Ainscough","given":"Jacob","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Vries Lentsch","given":"Aster","non-dropping-particle":"de","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Metzger","given":"Marc","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Rounsevell","given":"Mark","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Schröter","given":"Matthias","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Delbaere","given":"Ben","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Groot","given":"Rudolf","non-dropping-particle":"de","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Staes","given":"Jan","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"Ecosystem Services","id":"ITEM-1","issued":{"date-parts":[["2019","4"]]},"title":"Navigating pluralism: Understanding perceptions of the ecosystem services concept","type":"article-journal","volume":"36"},"label":"chapter","suppress-author":1,"uris":["http://www.mendeley.com/documents/?uuid=2c3a9228-4134-4cf7-8b90-bf921254201b"]}],"mendeley":{"formattedCitation":"(2019)","plainTextFormattedCitation":"(2019)","previouslyFormattedCitation":"(2019)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                    <anchor xml:id="_Fieldmark__1132_777594497"/>
+                    <hi style="font-size:10pt">2019)</hi>
+                    <hi style="font-size:10pt" xml:space="preserve"> oder sind von überschaubarem Umfang (vgl. etwa. </hi>
+                    <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"DOI":"10.1002/fee.1324","ISSN":"15409295","author":[{"dropping-particle":"","family":"Celis-Diez","given":"Juan L.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Díaz-Forestier","given":"Javiera","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Márquez-García","given":"Marcela","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Lazzarino","given":"Silvia","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Rozzi","given":"Ricardo","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Armesto","given":"Juan J.","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"Frontiers in Ecology and the Environment","id":"ITEM-1","issue":"8","issued":{"date-parts":[["2016","10"]]},"page":"408-410","title":"Biodiversity knowledge loss in children's books and textbooks","type":"article-journal","volume":"14"},"uris":["http://www.mendeley.com/documents/?uuid=b2edbd90-5456-3d81-974b-5cdd655a8304"]},{"id":"ITEM-2","itemData":{"DOI":"10.1177/1745691616662473","ISBN":"1745-6916","ISSN":"1745-6916","PMID":"28346112","abstract":"Human connection with nature is widely believed to be in decline even though empirical evidence is scarce on the magnitude and historical pattern of the change. Studying works of popular culture in English throughout the 20th century and later, we have documented a cultural shift away from nature that begins in the 1950s. Since then, references to nature have been decreasing steadily in fiction books, song lyrics, and film storylines, whereas references to the human-made environment have not. The observed temporal pattern is consistent with the explanatory role of increased virtual and indoors recreation options (e.g., television, video games) in the disconnect from nature, and it is inconsistent with a pure urbanization account. These findings are cause for concern, not only because they imply foregone physical and psychological benefits from engagement with nature, but also because cultural products are agents of socialization that can evoke curiosity, respect, and concern for the natural world.","author":[{"dropping-particle":"","family":"Kesebir","given":"Selin","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Kesebir","given":"Pelin","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"Perspectives on Psychological Science","id":"ITEM-2","issue":"2","issued":{"date-parts":[["2017","3","27"]]},"page":"258-269","title":"A growing disconnection from nature is evident in cultural products","type":"article-journal","volume":"12"},"uris":["http://www.mendeley.com/documents/?uuid=6ef3e310-1ef6-43ad-971e-482e22e875a0"]},{"id":"ITEM-3","itemData":{"DOI":"10.1177/0963662513519042","ISSN":"0963-6625","author":[{"dropping-particle":"","family":"Prévot-Julliard","given":"Anne-Caroline","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Julliard","given":"Romain","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Clayton","given":"Susan","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"Public Understanding of Science","id":"ITEM-3","issue":"6","issued":{"date-parts":[["2015","8","10"]]},"page":"672-680","title":"Historical evidence for nature disconnection in a 70-year time series of Disney animated films","type":"article-journal","volume":"24"},"uris":["http://www.mendeley.com/documents/?uuid=e495c89d-129e-4309-8f76-f61801da871f"]}],"mendeley":{"formattedCitation":"(Celis-Diez et al., 2016; Kesebir & Kesebir, 2017; Prévot-Julliard et al., 2015)","plainTextFormattedCitation":"(Celis-Diez et al., 2016; Kesebir & Kesebir, 2017; Prévot-Julliard et al., 2015)","previouslyFormattedCitation":"(Celis-Diez et al., 2016; Kesebir & Kesebir, 2017; Prévot-Julliard et al., 2015)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                    <anchor xml:id="_Fieldmark__1141_777594497"/>
+                    <hi style="font-size:10pt">Celis-Diez et al., 2016; Kesebir &amp; Kesebir, 2017; Prévot-Julliard et al., 2015)</hi>
+                    <hi style="font-size:10pt" xml:space="preserve">. Ein bislang kaum untersuchter immaterieller Beitrag der Natur ist deren Einfluss auf unsere Kommunikation. So wurden etwa die Nennungen von Lebewesen in unserer Sprache im Laufe der Zeit zu unterschiedlichen Zwecken genutzt, bspw. in Vergleichen („Augen wie ein Luchs“), Metaphern („Wurzel“ als Ursache/Ursprung), Redewendungen („auf den Busch klopfen“), Wortspielen („Katzen wohnen im Miezhaus“), Wortneuschöpfungen („Computermaus“) und </hi>
+                    <hi rend="italic" style="font-size:10pt">entity naming</hi>
+                    <hi style="font-size:10pt" xml:space="preserve"> (Leipzig – „die Stadt im Lindenhain“). Wir gehen davon aus </hi>
+                    <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"author":[{"dropping-particle":"","family":"Langer","given":"Lars","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Burghardt","given":"Manuel","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Borgards","given":"Roland","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Böhning-Gaese","given":"Katrin","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Seppelt","given":"Ralf","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Wirth","given":"Christian","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"People and Nature","id":"ITEM-1","issued":{"date-parts":[["2021"]]},"title":"The rise and fall of biodiversity in literature: A comprehensive quantification of historical changes in the use of vernacular labels for biological taxa in Western creative literature","type":"article-journal"},"uris":["http://www.mendeley.com/documents/?uuid=340c79ec-c806-4425-9db0-5eda54440566"]}],"mendeley":{"formattedCitation":"(Langer et al., 2021)","plainTextFormattedCitation":"(Langer et al., 2021)","previouslyFormattedCitation":"(Langer et al., 2021)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                    <anchor xml:id="_Fieldmark__1204_777594497"/>
+                    <hi style="font-size:10pt">(vgl. auch Langer et al., 2021)</hi>,
+                    <hi style="font-size:10pt" xml:space="preserve">dass Biodiversität in unserer Kommunikation als Indikator für das Bewusstsein des Menschen für seine Lebenswelt betrachtet werden kann </hi>
+                    <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"DOI":"10.1163/9789401210720_002","abstract":"The ways in which we represent animals say much about who we are, who we strive to be, and our often conflicting ideas about our relationships with nonhuman species. Whether the animal is seen as someone with whom we can relate and feel kinship or conceived of as the radical other, popular cultural descriptions of animals are often – if not always – indirect descriptions of ourselves.The contributions to this volume offer a unique panorama of academic and literary approaches, demonstrating that an analysis of cultural representations and constructions of animals is indispensable for a better understanding of the interface of human culture and the so-called animal world.","author":[{"dropping-particle":"","family":"Tüür","given":"Kadri","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Tønnessen","given":"Morten","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"The Semiotics of Animal Representations","id":"ITEM-1","issued":{"date-parts":[["2014","1","1"]]},"page":"7-30","publisher":"Brill | Rodopi","title":"The semiotics of animal representations","type":"chapter"},"uris":["http://www.mendeley.com/documents/?uuid=8c08189e-b7d0-4cfe-baa0-3025d438cf21"]},{"id":"ITEM-2","itemData":{"ISBN":"9780226520447","author":[{"dropping-particle":"","family":"Mesoudi","given":"Alex","non-dropping-particle":"","parse-names":false,"suffix":""}],"id":"ITEM-2","issued":{"date-parts":[["2011"]]},"publisher":"University of Chicago Press","title":"Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences","type":"book"},"uris":["http://www.mendeley.com/documents/?uuid=0e46fcb3-fe54-46d0-a008-66b3952655cf"]},{"id":"ITEM-3","itemData":{"ISBN":"9781452954110","abstract":"The eighteenth-century naturalist Erasmus Darwin (grandfather of Charles) argued that plants are animate, living beings and attributed them sensation, movement, and a certain degree of mental activity, emphasizing the continuity between humankind and plant existence. Two centuries later, the understanding of plants as active and communicative organisms has reemerged in such diverse fields as plant neurobiology, philosophical posthumanism, and ecocriticism. The Language of Plants brings together groundbreaking essays from across the disciplines to foster a dialogue between the biological sciences and the humanities and to reconsider our relation to the vegetal world in new ethical and political terms. Viewing plants as sophisticated information-processing organisms with complex communication strategies (they can sense and respond to environmental cues and play an active role in their own survival and reproduction through chemical languages) radically transforms our notion of plants as unresponsive beings, ready to be instrumentally appropriated. By providing multifaceted understandings of plants, informed by the latest developments in evolutionary ecology, the philosophy of biology, and ecocritical theory, The Language of Plants promotes the freedom of imagination necessary for a new ecological awareness and more sustainable interactions with diverse life forms. Contributors: Joni Adamson, Arizona State U; Nancy E. Baker, Sarah Lawrence College; Karen L. F. Houle, U of Guelph; Luce Irigaray, Centre National de la Recherche Scientifique, Paris; Erin James, U of Idaho; Richard Karban, U of California at Davis; André Kessler, Cornell U; Isabel Kranz, U of Vienna; Michael Marder, U of the Basque Country (UPV-EHU); Timothy Morton, Rice U; Christian Nansen, U of California at Davis; Robert A. Raguso, Cornell U; Catriona Sandilands, York U.","author":[{"dropping-particle":"","family":"Gagliano","given":"Monica","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Ryan","given":"John C.","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Vieira","given":"Patrícia","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"The Language of Plants: Science, Philosophy, Literature","id":"ITEM-3","issued":{"date-parts":[["2017"]]},"publisher":"University of Minnesota Press","title":"The language of plants: Science, philosophy, literature","type":"book"},"uris":["http://www.mendeley.com/documents/?uuid=a0c9040f-b2a3-4287-b621-6a60ee70f3f8"]}],"mendeley":{"formattedCitation":"(Gagliano, Ryan, & Vieira, 2017; Mesoudi, 2011; Tüür & Tønnessen, 2014)","plainTextFormattedCitation":"(Gagliano, Ryan, & Vieira, 2017; Mesoudi, 2011; Tüür & Tønnessen, 2014)","previouslyFormattedCitation":"(Gagliano, Ryan, & Vieira, 2017; Mesoudi, 2011; Tüür & Tønnessen, 2014)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                    <anchor xml:id="_Fieldmark__1220_777594497"/>
+                    <hi style="font-size:10pt">(Gagliano, Ryan, &amp; Vieira, 2017; Mesoudi, 2011; Tüür &amp; Tønnessen, 2014)</hi>.
+                    <hi style="font-size:10pt">Als Teilbereich der Digital Environmental Humanities schlagen wir für die Untersuchung des Einflusses der Natur auf die literarische Kommunikation den neuartigen Ansatz der „Computational and Literary Biodiversity Studies“ (CoLiBiS) vor. Konkret soll dabei die Analyse der Biodiversität in textuellem Kulturgut durch die Verknüpfung von Methoden aus der Ökologie und den DH erfolgen.</hi>
+                </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Ökologische Methoden</head>
+                    <p>
+                        <hi style="font-size:10pt">In der Ökologie wird Biodiversität über Maßzahlen quantifiziert und bezieht sich auf eine bestimmte taxonomische Stufe, wobei entsprechende Vorkommen innerhalb eines vordefinierten Raumes erfasst werden. Ein Taxon ist eine Einheit in der biologischen Systematik der Lebewesen, das aufgrund gleicher Eigenschaften bestimmten Lebewesen zugeordnet wird (bspw. die Säugetiere als Gruppe aller säugenden Wirbeltiere). Die taxonomische Stufe kennzeichnet dabei die Höhe eines Taxons in der biologischen Systematik (bspw. sind die Säugetiere eine „Klasse“ und gehören zum „Unterstamm“ der Wirbeltiere). Die am häufigsten untersuchte Stufe in ökologischen Studien ist die „Art“ (</hi>
+                        <hi rend="italic" style="font-size:10pt">species</hi>).
+                        <hi style="font-size:10pt" xml:space="preserve">Übliche Maßzahlen für Biodiversität sind </hi>
+                        <hi rend="italic" style="font-size:10pt">richness</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (Anzahl verschiedener Arten), </hi>
+                        <hi rend="italic" style="font-size:10pt">abundance</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (Anzahl aller Individuen jeglicher Arten), Shannon-Diversität und Simpson-Diversität. Die Shannon-Diversität </hi>
+                        <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"DOI":"10.2307/1948435","ISSN":"00129615","author":[{"dropping-particle":"","family":"Whittaker","given":"R H","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"Ecological Monographs","id":"ITEM-1","issue":"4","issued":{"date-parts":[["1960","2","1"]]},"page":"407-407","title":"Vegetation of the Siskiyou Mountains, Oregon and California","type":"article-journal","volume":"30"},"uris":["http://www.mendeley.com/documents/?uuid=b56eaa2b-ac63-4d02-acc9-e111b755b35c"]}],"mendeley":{"formattedCitation":"(Whittaker, 1960)","plainTextFormattedCitation":"(Whittaker, 1960)","previouslyFormattedCitation":"(Whittaker, 1960)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                        <anchor xml:id="_Fieldmark__1291_777594497"/>
+                        <hi style="font-size:10pt">(Whittaker, 1960)</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> quantifiziert die Unsicherheit der Vorhersage der Art eines zufällig gewählten Individuums im Untersuchungsraum. Die Simpson-Diversität quantifiziert hingegen die Wahrscheinlichkeit, dass zwei zufällig gewählte Individuen aus dem Untersuchungsraum der gleichen Art angehören. Üblicherweise wird hier der Kehrwert genommen, damit höhere Werte mit höherer Diversität korrelieren. Beide Maßzahlen sind abhängig von der Verteilung der Zahl der Individuen zwischen den Arten, so dass eine hohe Gleichverteilung (</hi>
+                        <hi rend="italic" style="font-size:10pt">evenness</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">) höhere Werte erzeugt. Der Untersuchungsraum kann stark variieren und in Abstufungen betrachtet werden. So können bspw. verschiedene Plots (vordefinierte Teilabschnitte) einer Wiese als kleinste Stufe dienen, in der man die Shannon-Diversität von Grasarten bestimmt. Auf der niedrigsten räumlichen Stufe wird dann von <hi rend="math">α</hi>-Diversität </hi>
+                        <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"ISBN":"978-0199580668","author":[{"dropping-particle":"","family":"Magurran","given":"Anne E","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"McGill","given":"Brian J","non-dropping-particle":"","parse-names":false,"suffix":""}],"id":"ITEM-1","issued":{"date-parts":[["2011","11","19"]]},"publisher":"Oxford University Press","title":"Biological Diversity: Frontiers in Measurement and Assessment","type":"book"},"uris":["http://www.mendeley.com/documents/?uuid=37353c12-a5ae-4159-a982-b1bd29efe4fe"]}],"mendeley":{"formattedCitation":"(Magurran & McGill, 2011)","plainTextFormattedCitation":"(Magurran & McGill, 2011)","previouslyFormattedCitation":"(Magurran & McGill, 2011)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                        <anchor xml:id="_Fieldmark__1322_777594497"/>
+                        <hi style="font-size:10pt">(Magurran &amp; McGill, 2011)</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> geredet. Die nächste Stufe könnte nun die gesamte Region (also bspw. die gesamte Wiese) sein, in der man die <hi rend="math">γ</hi>-Diversität bestimmt. Unterschiedliche Plots auf einer homogenen Wiese können möglicherweise die gleichen Arten beinhalten, wodurch <hi rend="math">γ</hi> ähnlich hoch ist wie <hi rend="math">α</hi>, während sie auf einer heterogenen Wiese verschiedene Arten beinhalten, wodurch <hi rend="math">γ</hi> deutlich höher ist als <hi rend="math">α</hi>. Um die Biodiversität zwischen Plots zu quantifizieren nutzt man bspw. den Quotienten von <hi rend="math">γ</hi> geteilt durch <hi rend="math">α</hi> und bezeichnet diesen als <hi rend="math">β</hi>-Diversität. Wir möchten nun im Rahmen der CoLiBiS diese Indizes etablieren, um Biodiversität auch in der literarischen Kommunikation zu quantifizieren. In unserem Fall werden sodann nicht Wiesen und Plots, sondern Bücher und Kapitel untersucht. Die Vorgehensweise hierzu wird in den nachfolgenden Fallstudien näher erläutert.</hi>
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>DH-Methoden </head>
+                    <p>
+                        <hi style="font-size:10pt" xml:space="preserve">Aus dem Bereich der DH kommen in den CoLiBiS vor allem Text Mining und NLP-Methoden zum Einsatz, um Lebewesen in großen Literaturkorpora automatisiert zu detektieren und damit einer Quantifizierung mithilfe der genannten Biodiversitätsindizes zugänglich zu machen. Zu den relevanten Methoden gehören grundlegende NLP-Verfahren zum </hi>
+                        <hi rend="italic" style="font-size:10pt">text preprocessing</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">, etwa Lemmatisierung, um Flexionsformen miterfassen zu können, aber auch </hi>
+                        <hi rend="italic" style="font-size:10pt">POS-Tagging und Named Entity Recognition</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> zur Disambiguierung von Naturbegriffen und anderen Begriffen (bspw. „to bear“ vs. „the bear“; „Rose“ als Name vs. „rose“ als Blume). Weiterhin kommen Methoden der Segmentierung zum Einsatz, um das Korpus in Plots und Regionen unterteilen zu können und so die Biodiversitätsindizes zuordnen zu können. </hi>
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fallstudien</head>
+                <p>
+                    <hi style="font-size:10pt" xml:space="preserve">In ersten Fallstudien wurde bereits das Potential des CoLiBiS-Ansatzes erfolgreich erprobt. Das konkrete Szenario war hier die Untersuchung der Vielfalt, die der Erwähnung von Lebewesen in belletristischer Literatur im Zeitraum von 1705 bis 1969 zugrunde liegt </hi>
+                    <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"author":[{"dropping-particle":"","family":"Langer","given":"Lars","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Burghardt","given":"Manuel","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Borgards","given":"Roland","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Böhning-Gaese","given":"Katrin","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Seppelt","given":"Ralf","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Wirth","given":"Christian","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"People and Nature","id":"ITEM-1","issued":{"date-parts":[["2021"]]},"title":"The rise and fall of biodiversity in literature: A comprehensive quantification of historical changes in the use of vernacular labels for biological taxa in Western creative literature","type":"article-journal"},"uris":["http://www.mendeley.com/documents/?uuid=340c79ec-c806-4425-9db0-5eda54440566"]}],"mendeley":{"formattedCitation":"(Langer et al., 2021)","plainTextFormattedCitation":"(Langer et al., 2021)","previouslyFormattedCitation":"(Langer et al., 2021)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                    <anchor xml:id="_Fieldmark__1434_777594497"/>
+                    <hi style="font-size:10pt">(Langer et al., 2021)</hi>
+                    <hi style="font-size:10pt" xml:space="preserve">. Zu diesem Zweck analysierten wir ein englisches Sub-Korpus des </hi>
+                    <hi rend="italic" style="font-size:10pt">Standardized Project Gutenberg Corpus</hi>
+                    <hi style="font-size:10pt" xml:space="preserve"> (SPGC) </hi>
+                    <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"DOI":"10.3390/e22010126","ISSN":"1099-4300","abstract":"The use of Project Gutenberg (PG) as a text corpus has been extremely popular in statistical analysis of language for more than 25 years. However, in contrast to other major linguistic datasets of similar importance, no consensual full version of PG exists to date. In fact, most PG studies so far either consider only a small number of manually selected books, leading to potential biased subsets, or employ vastly different pre-processing strategies (often specified in insufficient details), raising concerns regarding the reproducibility of published results. In order to address these shortcomings, here we present the Standardized Project Gutenberg Corpus (SPGC), an open science approach to a curated version of the complete PG data containing more than 50,000 books and more than 3 × 10 9 word-tokens. Using different sources of annotated metadata, we not only provide a broad characterization of the content of PG, but also show different examples highlighting the potential of SPGC for investigating language variability across time, subjects, and authors. We publish our methodology in detail, the code to download and process the data, as well as the obtained corpus itself on three different levels of granularity (raw text, timeseries of word tokens, and counts of words). In this way, we provide a reproducible, pre-processed, full-size version of Project Gutenberg as a new scientific resource for corpus linguistics, natural language processing, and information retrieval.","author":[{"dropping-particle":"","family":"Gerlach","given":"Martin","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Font-Clos","given":"Francesc","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"Entropy","id":"ITEM-1","issue":"1","issued":{"date-parts":[["2020","1","20"]]},"page":"126","title":"A Standardized Project Gutenberg Corpus for Statistical Analysis of Natural Language and Quantitative Linguistics","type":"article-journal","volume":"22"},"uris":["http://www.mendeley.com/documents/?uuid=c0387f38-436f-4eff-b684-54dd2cd4e585"]}],"mendeley":{"formattedCitation":"(Gerlach & Font-Clos, 2020)","plainTextFormattedCitation":"(Gerlach & Font-Clos, 2020)","previouslyFormattedCitation":"(Gerlach & Font-Clos, 2020)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                    <anchor xml:id="_Fieldmark__1448_777594497"/>
+                    <hi style="font-size:10pt">(Gerlach &amp; Font-Clos, 2020)</hi>,
+                    <hi style="font-size:10pt">welches knapp 16.000 literarische Werke von etwa 4.000 Autoren enthält. Zu den bestehenden Metadaten, die im Wesentlichen Titel und Kategorisierung der Werke sowie Namen und Lebensdaten der Autoren beinhalten, wurden zahlreiche weitere Parameter, wie etwa Geschlecht und Herkunftsort der Autoren, manuell ergänzt und aufbereitet. Die Identifizierung der Lebewesen im Korpus realisieren wir durch den Abgleich mit einem großen Lexikon, welches über 240.000 englische Begriffe für Lebewesen enthält. Dieses Lexikon wurde aus Wikidata und Wikispecies (https://dumps.wikimedia.org) extrahiert.</hi>
+                </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Biodiversität in unserer Kommunikation als Spiegel von Bewusstsein gegenüber der Natur (Fallstudie 1)<hi rend="Footnote_Anchor"><ref target="ftn1" n="1"/>
+                        </hi>
+                    </head>
+                    <p>
+                        <hi style="font-size:10pt">Alle Werke des eingangs erwähnten SPCG-Subkorpus wurden für die diachrone Analyse in Fünfjahresabschnitte eingeteilt und dann unter Verwendung des beschriebenen Lexikons englischer Bezeichnungen für Lebewesen und mit Hilfe von NLP-Methoden auf deren Biodiversität durchsucht. Insgesamt wurden so mehr als 4,4 Millionen Okkurrenzen von ca. 6.000 unterschiedlichen Bezeichnungen für Lebewesen gefunden (Beispielsatz: „We sat down on a rude bench, under a group of magnificent</hi>
+                        <hi rend="underline" style="font-size:10pt">lime trees</hi>).
+                        <hi style="font-size:10pt" xml:space="preserve">Zur Berechnung der Biodiversitätsindizes eines Werkes unterteilten wir jedes Werk in Abschnitte zu je 1.000 Wörtern (Plots), in denen wir die <hi rend="math">α</hi>-Diversität bestimmten. Nach einer Größennormalisierung wurden bspw. </hi>
+                        <hi rend="italic" style="font-size:10pt">richness</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> sowie <hi rend="math">α</hi>-, <hi rend="math">β</hi>- und <hi rend="math">γ</hi>-Diversität bestimmt. Um die Entwicklung über die Zeit nachvollziehen zu können, wurden sämtliche Werke gemäß ihres Fünfjahresabschnitts mithilfe eines Bootstrapping-Ansatzes gemittelt. Alle größen-normalisierten Biodiversitätsindizes, wie bspw. die Shannon-Diversität pro Werk (<hi rend="math">γ</hi>-Diversität), zeigen auf, dass nach einem anfänglichen Anstieg von Biodiversität in Literatur (BiL) in den 1830er Jahren ein Maximum erreicht wurde, und danach ein stetiger Abfall von BiL – auch relativ zum jeweiligen Gesamtvokabular – folgte (siehe Abb. 2). Die Ergebnisse der <hi rend="math">β</hi>-Diversität weisen zudem darauf hin, dass nach diesem Höchstwert zusätzlich eine weniger spezifische Nennung von Lebewesen innerhalb von Werken stattfindet.</hi>
+                    </p>
+                    <p>
+                        <hi style="font-size:10pt">Diese Ergebnisse interpretieren wir dahingehend, dass BiL bis zur Industrialisierung aufgrund mehrerer simultaner Einflüsse, wie etwa der Öffnung der fiktionalen Literatur, der Weiterentwicklung des Bildungssystems und einer möglichen Bewusstwerdung von Biodiversitätsverlust während der Romantik, zunimmt. Da diese Einflüsse andauerten und wir keine Hinweise auf weitere BiL-reduzierende Vorgänge fanden, wie bspw. Verschlankung biologischen Vokabulars durch Synonymbildung, vermuten wir, dass die darauffolgende Umkehrung der Entwicklung von BiL ab 1837 das Resultat menschlicher Entfremdung von der Natur infolge umfassender sozialer Veränderungen durch die Industrialisierung ist. Inwiefern an dieser Umkehr auch Prozesse beteiligt sind, die sich ausschließlich im literarischen Feld abspielen, wie z.B. epochenspezifische Funktionen von und Ansprüche an Literatur, also sich literaturhistorisch wandelnde poetologische Konzepte, entzieht sich bisher einer Quantifizierung.</hi>
+                    </p>
+                    <figure>
+                        <graphic n="1002" width="16.002cm" height="8.634236111111111cm" url="Pictures/8cd1ce1e021b0d574070159adee8bd8e.png" rend="inline"/>
+                        <head>Abb. 2: Durchschnittliche Shannon-Diversität pro größen-normalisiertem Werk über die Fünfjahresabschnitte hinweg. Eine Changepoint-Regression erklärte mit R²=0,58 die Messwerte gut, war mit p &lt; 0,001 hochsignifikant und zeigte einen Changepoint im 1835er Fünfjahresabschnitt.</head>
+                    </figure>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Parameter für Empfindsamkeit gegenüber Natur (Fallstudie 2)</head>
+                    <p>
+                        <hi style="font-size:10pt" xml:space="preserve">In einer weiteren, aktuell laufenden Fallstudie, soll untersucht werden, ob es autoren- oder genrespezifische Parameter gibt, die in unmittelbarem Zusammenhang mit einem erhöhten BiL-Wert und damit einer höheren Empfindsamkeit gegenüber der Natur stehen. Hierzu werden die eingangs erwähnten zusätzlichen Metadaten, die für jedes Werk und jeden Autor durch Daten aus Wikidata ergänzt wurden, herangezogen. Um einen Überblick zu relevanten Parametern zu bekommen, die mit der Wahrnehmung und Verarbeitung von Biodiversität korrelieren, bestimmten wir mit einer </hi>
+                        <hi rend="italic" style="font-size:10pt">Random</hi>
+                        <hi style="font-size:10pt">-</hi>
+                        <hi rend="italic" style="font-size:10pt">Forest</hi>
+                        <hi style="font-size:10pt">-Regression die Wichtigkeit und die gegenseitige Abhängigkeit</hi>
+                        <hi rend="italic" style="font-size:10pt">(partial dependency)</hi>
+                        <hi style="font-size:10pt">einiger ausgewählter Parameter.</hi>
+                        <hi rend="italic" style="font-size:10pt">Partial dependencies</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> einer </hi>
+                        <hi rend="italic" style="font-size:10pt">Random</hi>
+                        <hi style="font-size:10pt">-</hi>
+                        <hi rend="italic" style="font-size:10pt">Forest</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">-Regression zeigen den isolierten Einfluss eines Parameters, d.h. unter der Annahme, dass alle anderen konstant gehalten werden. Die </hi>
+                        <hi rend="italic" style="font-size:10pt">partial dependencies</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> für den Parameter </hi>
+                        <hi rend="italic" style="font-size:10pt">Hauptregion</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> des Autors (siehe Abb. 3) und die </hi>
+                        <hi rend="italic" style="font-size:10pt">Literaturform</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> der Werke (siehe Abb. 4) weisen, gerade auch unter Betrachtung der Fehlerbalken, auf einen deutlichen Einfluss dieser Parameter auf die resultierende BiL hin. </hi>
+                    </p>
+                    <p style="text-align: left;">
+                        <hi style="font-size:10pt" xml:space="preserve">Diese ersten Ergebnisse deuten darauf hin, dass die Wahrnehmung eines Autors und die damit verbundene schriftliche Verarbeitung der umgebenden Biodiversität in starkem Zusammenhang mit seiner Hauptregion steht. Es liegt die Vermutung nahe, dass sich dies u.a. mit kulturellen Unterschieden, biogeographischen Eigentümlichkeiten der einzelnen Gegenden und regional verschiedenen Zuständen der Entfremdung von Natur zu tun hat. So können wir vermutlich davon ausgehen, dass im deutlich weniger erschlossenen Nordamerika des 19. Jahrhunderts naturnahe Themen eine höhere Alltagsrelevanz besaßen und Lebewesen eine stärkere Immersion der Wahrnehmung erwirkten als im dichter besiedelten Europa oder gar auf den Britischen Inseln, wo die Industrialisierung am frühesten begann und am stärksten vorangeschritten war (siehe Abb. 3). </hi>
+                    </p>
+                    <figure>
+                        <graphic n="1003" width="15.945555555555556cm" height="10.230555555555556cm" url="Pictures/875ea9f2a779707c6e3d714926360f0f.png" rend="inline"/>
+                        <head>Abb. 3: <hi rend="italic">Partial dependencies</hi> bezüglich des durchschnittlichen Artenreichtums pro normalisiertem Werk in isolierter Abhängigkeit von der Hauptregion des Autors.
+                        </head>
+                    </figure>
+                    <p style="text-align: left;">
+                        <hi style="font-size:10pt">Die Prädisposition eines Werks bezüglich BiL scheint zudem stark mit seiner Literaturform zu korrelieren, wobei vor allem für Lyrik ein stark erhöhter Wert zu beobachten ist (siehe Abb. 4)</hi>
+                        <anchor xml:id="Hlk76991940"/>
+                        <hi style="font-size:10pt" xml:space="preserve">. </hi>
+                    </p>
+                    <figure>
+                        <graphic n="1004" width="15.945555555555556cm" height="7.196666666666666cm" url="Pictures/d3411918645fa378852c39527b99ff89.png" rend="inline"/>
+                        <head>Abb. 4: <hi rend="italic">Partial dependencies</hi> bezüglich des durchschnittlichen Artenreichtums pro normalisiertem Werk in isolierter Abhängigkeit von der Literaturform des Werks.
+                        </head>
+                    </figure>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fazit und Ausblick</head>
+                <p>
+                    <hi style="font-size:10pt">In diesem Beitrag schlagen wir mit den „Computational and Literary Biodiversity Studies“ einen interdisziplinären „Digital Environmental Humanities“-Ansatz zur Untersuchung von Biodiversität in der Literatur vor. Zur konkreten Umsetzung von CoLiBiS stellen wir einen Methodenmix aus ökologischen Maßzahlen und textanalytischen Verfahren der DH vor und illustrieren deren Potential anhand zweier Fallstudien. Wir hoffen damit einen Anreiz für weitere, vergleichbare Studien zu schaffen, die weitere Korpora (Weltliteratur vs. Nationalliteraturen) untersuchen und zur Kontextualisierung der Biodiversitätsmaße ggf. weitere Metadaten heranziehen. Weiterhin ist geplant, die bislang erarbeiteten Ressourcen für Folgeforschung frei zugänglich zu machen. Dies betrifft im Wesentlichen eine durchsuchbare Datenbank, welche sämtliche Sätze enthält, in denen mindestens ein Begriff für ein Lebewesen vorkommt. Die Datenbank soll eine Suche nach Keywords sowie auch eine Filterung nach den unterschiedlichen Metadaten erlauben. Weiterhin sollen die erweiterten und manuell redigierten Metadaten zu einem Subkorpus des SPCG als separater Datensatz veröffentlicht werden.</hi>
+                </p>
+                <p>
+                    <hi style="font-size:10pt" xml:space="preserve">Weiteres Potential für weiterführende Ansätze ergibt sich zudem auf Ebene der DH-Methodik. So könnten künftig etwa </hi>
+                    <hi rend="italic" style="font-size:10pt">word embeddings</hi>
+                    <hi style="font-size:10pt" xml:space="preserve"> für eine verbesserte Erkennung von Begriffen für Lebewesen jenseits des aktuellen, statischen Lexikonansatzes eingesetzt werden. Dies scheint vor allem im Kontext literarischer Produktion vielversprechend, wo gehäufte, kreative Umschreibungen von Lebewesen („Isegrim“ als Wolf, „Mäusefresser“ als Katze, etc.) zu erwarten sind, die nicht Teil der Wikispecies-Begriffsliste sind. Weiterhin könnte mit LDA Topic Modeling der Kontext der Naturbegriffe erfasst (beispielhafte Kontexte: Stadt, Land, Traumszene, etc.) und mithilfe von Sentiment Analyse hinsichtlich der emotionalen Polarität erfasst werden (positive oder negative Naturdarstellung im Werk von Autor X).</hi>
+                </p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                                    <hi rend="footnote_reference"> </hi>
+                                    <hi style="font-size:9pt" xml:space="preserve"> Sämtliche Details der nachfolgenden Fallstudie werden ausführlich in </hi>
+                                    <?biblio ADDIN CSL_CITATION {"citationItems":[{"id":"ITEM-1","itemData":{"author":[{"dropping-particle":"","family":"Langer","given":"Lars","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Burghardt","given":"Manuel","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Borgards","given":"Roland","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Böhning-Gaese","given":"Katrin","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Seppelt","given":"Ralf","non-dropping-particle":"","parse-names":false,"suffix":""},{"dropping-particle":"","family":"Wirth","given":"Christian","non-dropping-particle":"","parse-names":false,"suffix":""}],"container-title":"People and Nature","id":"ITEM-1","issued":{"date-parts":[["2021"]]},"title":"The rise and fall of biodiversity in literature: A comprehensive quantification of historical changes in the use of vernacular labels for biological taxa in Western creative literature","type":"article-journal"},"uris":["http://www.mendeley.com/documents/?uuid=340c79ec-c806-4425-9db0-5eda54440566"]}],"mendeley":{"formattedCitation":"(Langer et al., 2021)","plainTextFormattedCitation":"(Langer et al., 2021)","previouslyFormattedCitation":"(Langer et al., 2021)"},"properties":{"noteIndex":0},"schema":"https://github.com/citation-style-language/schema/raw/master/csl-citation.json"}?>
+                                    <anchor xml:id="_Fieldmark__1487_777594497"/>
+                                    <hi style="font-size:9pt">(Langer et al., 2021) beschrieben.</hi>
+                                </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <?biblio ADDIN Mendeley Bibliography CSL_BIBLIOGRAPHY?>
+                        <anchor xml:id="_Fieldmark__1818_777594497"/>
+                        <hi rend="bold" style="font-size:10pt">Ainscough, J., de Vries Lentsch, A., Metzger, M., Rounsevell, M., Schröter, M., Delbaere, B., … Staes, J.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2019): "Navigating pluralism: Understanding perceptions of the ecosystem services concept"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Ecosystem Services</hi>,
+                        <hi rend="italic" style="font-size:10pt">36</hi>.
+                        <hi style="font-size:10pt">doi: 10.1016/j.ecoser.2019.01.004</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt" xml:space="preserve">Borie, M., &amp; Hulme, M. </hi>
+                        <hi style="font-size:10pt" xml:space="preserve">(2015): "Framing global biodiversity: IPBES between mother earth and ecosystem services"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Environmental Science &amp; Policy</hi>,
+                        <hi rend="italic" style="font-size:10pt">54</hi>,
+                        <hi style="font-size:10pt">487–496. doi: 10.1016/j.envsci.2015.05.009</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Bühler, B.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2016):</hi>
+                        <hi rend="italic" style="font-size:10pt">Ecocriticism</hi>.
+                        <hi style="font-size:10pt">doi: 10.1007/978-3-476-05489-0</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Cardinale, B. J., Duffy, J. E., Gonzalez, A., Hooper, D. U., Perrings, C., Venail, P., … Naeem, S.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2012): "Biodiversity loss and its impact on humanity"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Nature</hi>,
+                        <hi rend="italic" style="font-size:10pt">486</hi>,
+                        <hi style="font-size:10pt">(7401), 59–67. doi: 10.1038/nature11148</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Celis-Diez, J. L., Díaz-Forestier, J., Márquez-García, M., Lazzarino, S., Rozzi, R., &amp; Armesto, J. J.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2016): "Biodiversity knowledge loss in children’s books and textbooks"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Frontiers in Ecology and the Environment</hi>,
+                        <hi rend="italic" style="font-size:10pt">14</hi>
+                        <hi style="font-size:10pt">(8), 408–410. doi: 10.1002/fee.1324</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Daily, G. C.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2000): "Ecology: The Value of Nature and the Nature of Value"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Science</hi>,
+                        <hi rend="italic" style="font-size:10pt">289</hi>
+                        <hi style="font-size:10pt">(5478), 395–396. doi: 10.1126/science.289.5478.395</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Daniel, T. C., Muhar, A., Arnberger, A., Aznar, O., Boyd, J. W., Chan, K. M. A., … von der Dunk, A.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2012): "Contributions of cultural services to the ecosystem services agenda"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Proceedings of the National Academy of Sciences of the United States of America</hi>,
+                        <hi rend="italic" style="font-size:10pt">109</hi>
+                        <hi style="font-size:10pt">(23), 8812–8819. doi: 10.1073/pnas.1114773109</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Díaz, Sandra, Demissew, S., Joly, C., Lonsdale, W. M., &amp; Larigauderie, A.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2015): "A Rosetta Stone for Nature’s Benefits to People"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">PLOS Biology</hi>,
+                        <hi rend="italic" style="font-size:10pt">13</hi>
+                        <hi style="font-size:10pt">(1). doi: 10.1371/journal.pbio.1002040</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt" xml:space="preserve">Díaz, Sandra, Pascual, U., Stenseke, M., Martín-López, B., Watson, R. T., Molnár, Z., … Shirayama, Y. </hi>
+                        <hi style="font-size:10pt" xml:space="preserve">(2018): "Assessing nature’s contributions to people"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Science</hi>,
+                        <hi rend="italic" style="font-size:10pt">359</hi>
+                        <hi style="font-size:10pt">(6373), 270–272. doi: 10.1126/science.aap8826</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Díaz, Sandra, Settele, J., Brondízio, E. S., Ngo, H. T., Agard, J., Arneth, A., … Zayas, C. N.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2019): "Pervasive human-driven decline of life on Earth points to the need for transformative change"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Science</hi>,
+                        <hi rend="italic" style="font-size:10pt">366</hi>
+                        <hi style="font-size:10pt">(6471). doi: 10.1126/science.aax3100</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">EU Biodiversity Strategy for 2030.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2020):</hi>
+                        <hi rend="italic" style="font-size:10pt">Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions</hi>.
+                        <hi style="font-size:10pt">Retrieved from https://ec.europa.eu/environment/strategy/biodiversity-strategy-2030_en</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Gagliano, M., Ryan, J. C., &amp; Vieira, P.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2017): "The language of plants: Science, philosophy, literature"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">The Language of Plants: Science, Philosophy, Literature</hi>.
+                        <hi style="font-size:10pt">University of Minnesota Press.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Gerlach, M., &amp; Font-Clos, F.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2020): "A Standardized Project Gutenberg Corpus for Statistical Analysis of Natural Language and Quantitative Linguistics"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Entropy</hi>,
+                        <hi rend="italic" style="font-size:10pt">22</hi>
+                        <hi style="font-size:10pt">(1), 126. doi: 10.3390/e22010126</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Gesing, F., Knecht, M., Flitner, M., &amp; Amelang, K. (Eds.).</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2019):</hi>
+                        <hi rend="italic" style="font-size:10pt">NaturenKulturen. Denkräume und Werkzeuge für neue politische Ökologien</hi>.
+                        <hi style="font-size:10pt">Bielefeld: transcript.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">IPBES.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2019):</hi>
+                        <hi rend="italic" style="font-size:10pt">Summary for Policymakers of the Global Assessment Report on Biodiversity and Ecosystem Services</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (S. Díaz, J. Settele, E. S. Brondízio, H. T. Ngo, M. Guèze, J. Agard, … C. N. Zayas, eds.). doi: 10.5281/zenodo.3553579</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Kesebir, S., &amp; Kesebir, P.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2017): "A growing disconnection from nature is evident in cultural products"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Perspectives on Psychological Science</hi>,
+                        <hi rend="italic" style="font-size:10pt">12</hi>
+                        <hi style="font-size:10pt">(2), 258–269. doi: 10.1177/1745691616662473</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Langer, L., Burghardt, M., Borgards, R., Böhning-Gaese, K., Seppelt, R., &amp; Wirth, C.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (zur Publikation angenommen; 2021): "The rise and fall of biodiversity in literature: A comprehensive quantification of historical changes in the use of vernacular labels for biological taxa in Western creative literature"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">People and Nature</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Magurran, A. E., &amp; McGill, B. J.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2011):</hi>
+                        <hi rend="italic" style="font-size:10pt">Biological Diversity: Frontiers in Measurement and Assessment</hi>.
+                        <hi style="font-size:10pt">Oxford University Press.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Martinez-Alier, J.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2002):</hi>
+                        <hi rend="italic" style="font-size:10pt">The Environmentalism of the Poor</hi>.
+                        <hi style="font-size:10pt">doi: 10.4337/9781843765486</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Mesoudi, A.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2011):</hi>
+                        <hi rend="italic" style="font-size:10pt">Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences</hi>.
+                        <hi style="font-size:10pt">University of Chicago Press.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt" xml:space="preserve">Millennium Ecosystem Assessment. </hi>
+                        <hi style="font-size:10pt">(2005):</hi>
+                        <hi rend="italic" style="font-size:10pt">Ecosystems and Human Well-Being: Synthesis</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (W. V. Reid, H. A. Mooney, A. Cropper, D. Capistrano, S. R. Carpenter, K. Chopra, … M. B. Zurek, eds.). Washington DC: Island Press.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Nadim, T.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2016): "Biodiversität erfassen: von Suppen und Satelliten", in: A. Blum, N. Zschocke, V. Barras, &amp; H.-J. Rheinberger (Eds.),</hi>
+                        <hi rend="italic" style="font-size:10pt">Diversität. Geschichte und Aktualität eines Konzepts</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (pp. 68–83). Königshausen &amp; Neumann.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Prévot-Julliard, A.-C., Julliard, R., &amp; Clayton, S.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2015): "Historical evidence for nature disconnection in a 70-year time series of Disney animated films"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Public Understanding of Science</hi>,
+                        <hi rend="italic" style="font-size:10pt">24</hi>
+                        <hi style="font-size:10pt">(6), 672–680. doi: 10.1177/0963662513519042</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt" xml:space="preserve">Schmid, B., Balvanera, P., Cardinale, B., Godbold, J., Pfisterer, A., Raffaelli, D., … Srivastava, D. </hi>
+                        <hi style="font-size:10pt" xml:space="preserve">(2009): "Consequences of species loss for ecosystem functioning: Meta-analyses of data from biodiversity experiments"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Biodiversity, Ecosystem Functioning, and Human Wellbeing</hi>,
+                        <hi style="font-size:10pt">14–29. doi: 10.5167/uzh-25528</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">The Global Risks Report.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2021):</hi>
+                        <hi rend="italic" style="font-size:10pt">The Global Risks Report</hi>.
+                        <hi style="font-size:10pt">World Economic Forum, Geneva.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Toepfer, G.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2011): "Diversität"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Historisches Wörterbuch der Biologie. Geschichte und Theorie der biologischen Grundbegriffe. Bd. 1.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve">Stuttgart, 351–365.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Tüür, K., &amp; Tønnessen, M.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2014): "The semiotics of animal representations"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">The Semiotics of Animal Representations</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (pp. 7–30). doi: 10.1163/9789401210720_002</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Vidal, F., &amp; Dias, N. (Eds.).</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (2017):</hi>
+                        <hi rend="italic" style="font-size:10pt">Endangerment, Biodiversity, and Culture</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Whittaker, R. H.</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> (1960): "Vegetation of the Siskiyou Mountains, Oregon and California"</hi>, in:
+                        <hi rend="italic" style="font-size:10pt">Ecological Monographs</hi>,
+                        <hi rend="italic" style="font-size:10pt">30</hi>
+                        <hi style="font-size:10pt">(4), 407–407. doi: 10.2307/1948435</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-size:10pt">Wilson, E. O., &amp; Peter, F. M. (Eds.).</hi>
+                        <hi style="font-size:10pt">(1988):</hi>
+                        <hi rend="italic" style="font-size:10pt">Biodiversity</hi>.
+                        <hi style="font-size:10pt">doi: 10.17226/989</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

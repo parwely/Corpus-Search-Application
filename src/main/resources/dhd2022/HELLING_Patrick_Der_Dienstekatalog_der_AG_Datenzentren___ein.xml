@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_172">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Der Dienstekatalog der AG Datenzentren</title>
+                <title type="sub">Ein digitales Verzeichnis für Forschungsdatenmanagement-Services in den Geisteswissenschaften</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Rau</surname>
+                        <forename>Felix</forename>
+                    </persName>
+                    <affiliation>Data Center for the Humanities (DCH), Universität zu Köln, Deutschland</affiliation>
+                    <email>f.rau@uni-koeln.de</email>
+                <idno type="ORCID">0000-0003-4167-0601</idno></author>
+                <author>
+                    <persName>
+                        <surname>Helling</surname>
+                        <forename>Patrick</forename>
+                    </persName>
+                    <affiliation>Data Center for the Humanities (DCH), Universität zu Köln, Deutschland</affiliation>
+                    <email>patrick.helling@uni-koeln.de</email>
+                <idno type="ORCID">0000-0003-4043-165X</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-14T08:27:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Forschungsdatenmanagement</term>
+                    <term>FDM</term>
+                    <term>Datenmanagement</term>
+                    <term>Digital Humanities</term>
+                    <term>Dienstekatalog</term>
+                    <term>AG Datenzentren</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Kommunikation</term>
+                    <term>Community-Bildung</term>
+                    <term>Daten</term>
+                    <term>Infrastruktur</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">172</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausgangssituation</head>
+                <p style="text-align: left; ">Die langfristige Sicherung, Verfügbarkeit und Nachnutzbarkeit von Forschungsdaten im Sinne der FAIR-Prinzipien (Wilkinson et al. 2016) ist ein wesentlicher Bestandteil guter wissenschaftlicher Praxis (DFG 2019) und nicht erst seit den Bestrebungen hin zu einer Nationalen Forschungsdateninfrastruktur (NFDI) (RfII 2016, 2017) ein wichtiger Motor wissenschaftlichen Fortschritts (Bryant, Lavoie &amp; Maipas 2017).<ref target="ftn1" n="1"/> An vielen Universitäten und außeruniversitären Einrichtungen wurden zur Unterstützung von Forschenden bei Fragen des Forschungsdatenmanagements (FDM) entsprechende, i.d.R. generisch ausgerichteten, Kompetenzzentren aufgebaut.<ref target="ftn2" n="2"/>
+                </p>
+                <p style="text-align: left; ">Die Bedienung fachspezifischer FDM-Bedarfe in den Geisteswissenschaften übernehmen u.a. die Mitgliedsinstitutionen der DHd-AG Datenzentren. Die 2014 gegründete AG versteht sich dabei als offenes Forum, um Herausforderungen im geisteswissenschaftlichen Forschungsdatenmanagement gemeinsam zu adressieren.<ref target="ftn3" n="3"/> Die Arbeitsgruppe besteht aus insgesamt 28 Datenzentren und Interessensvertreter*innen, von denen 16 Einrichtungen über FDM-Servicestrukturen verfügen. Sie ergänzen das Forschungsdatenmanagement an ihren Standorten und darüber hinaus um ein geisteswissenschaftliches Profil und erarbeiten passgenaue Lösungsstrategien für die Forschungs- und Datenlandschaft der Geisteswissenschaften, die sich durch eine starke Heterogenität auszeichnet (Pempe 2012).
+                </p>
+                <p style="text-align: left; ">Um die Sichtbarkeit und Erreichbarkeit einzelner Datenzentren der AG und ihrer FDM-Services zu verbessern, hat die Arbeitsgruppe einen gemeinsamen Dienstekatalog (Helling, Moeller und Mathiak 2018) entwickelt, der als durchsuchbare Website verfügbar gemacht wurde.<ref target="ftn4" n="4"/>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Vorgehensweise</head>
+                <p style="text-align: left; ">Für die Erstellung des Katalogs wurden ca. einstündige Telefon-/Skypeinterviews mit Vertreter*innen aller AG-Mitgliedsinstitutionen geführt, die über FDM-Servicestrukturen verfügen. Die Interviews wurden nach einem Gesprächsleitfaden strukturiert, der sich wiederum an einer zuvor durchgeführten Online-Selbstauskunft innerhalb der AG orientiert. Der Leitfaden wurde den Befragten im Vorfeld der Gespräche zur Verfügung gestellt und ist auch online nachnutzbar.<ref target="ftn5" n="5"/> Er besteht aus 57 Fragen, die in zwei Kernbereiche unterteilt sind: Der erste Fragenkomplex zum 
+                    <hi rend="italic">Profil der Datenzentren</hi> behandelt unter anderem die institutionelle Anbindung der Datenzentren sowie Kooperationen und Zukunftsperspektiven. Der zweite Fragenkomplex 
+                    <hi rend="italic">Dienstleistungen der Datenzentren</hi> bezieht sich auf konkrete Services und Angebotsstrukturen. Insgesamt wurden dabei acht Servicebereiche behandelt:
+                </p>
+                <list type="unordered">
+                    <item>Allgemeines Beratungsangebot</item>
+                    <item>Bereitstellung/Vermittlung von technischen Infrastrukturen</item>
+                    <item>Konsolidierung von Services</item>
+                    <item>Speicherung und Archivierung</item>
+                    <item>Repositoriums-Lösungen</item>
+                    <item>Datenkuratierung</item>
+                    <item>Softwarekuratierung</item>
+                    <item>Softwareentwicklung </item>
+                </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Quantitative Auswertung der Ergebnisse </head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Allgemeines Beratungsangebot</head>
+                    <p style="text-align: left; ">Nahezu alle Datenzentren beraten geisteswissenschaftliche Forscher*innen bei Fragen zum Management von Forschungsdaten in der Breite (siehe Abb. 1). Dabei erfolgt allerdings nicht jede Beratung zwangsläufig durch das jeweilige Datenzentrum. Insbesondere bei der Bedienung rechtlicher Fragestellungen gab die Mehrheit der Zentren an mit anderen Kompetenzstellen an ihren Einrichtungen zusammenzuarbeiten, bzw. an diese zu vermitteln. </p>
+                    <figure>
+                        <graphic n="1001" width="16.002cm" height="9.87425cm" url="Pictures/d87d51c9e00bde529f9d1c1aa9537827.png" rend="inline"/>
+                        <head>Abb. 1: Allgemeine Beratungskompetenzen der Datenzentren.</head>
+                    </figure>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Bereitstellung/Vermittlung von technischen Infrastrukturen</head>
+                    <p style="text-align: left; ">Technische Infrastrukturen von zentralen Einrichtungen wie bspw. lokalen IT- oder Rechenzentren werden i.d.R. nachgenutzt und vermittelt. Auf diese Weise sind alle Datenzentren in der Lage mittelbar Speicherbedarfe zu bedienen und virtuelle Maschinen, Server sowie Netzwerke zur Verfügung zu stellen (siehe Abb. 2). </p>
+                    <figure>
+                        <graphic n="1002" width="16.002cm" height="9.87425cm" url="Pictures/7752fe3e89b8c3b1e4e4a595a2d07b8b.png" rend="inline"/>
+                        <head>Abb. 2: Vermittlungskompetenz bei technischen Infrastrukturangeboten.</head>
+                    </figure>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Konsolidierung von Services</head>
+                    <p style="text-align: left; ">Spezifische Übernahme- und Dokumentationsprozesse sowie konkrete Geschäftsmodelle in Form von Service Level Agreements (SLA) oder Verträgen befinden sich bei vielen Datenzentren noch in einer Entwicklungsphase (siehe Tab. 1).</p>
+                    <figure>
+                        <head>Tab. 1: Übernahmeprozesse und Dokumentationsstandards.</head>
+                        <graphic n="1003" width="16.002cm" height="2.6599444444444442cm" url="Pictures/ef3de36887e61941124841c2642efb1c.png" rend="inline"/>
+                    </figure>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Speicherung und Archivierung/Repositorien</head>
+                    <p style="text-align: left; ">Alle Datenzentren unterstützen aktiv bei der Speicherung von Forschungsdaten. Die meisten von ihnen helfen Forscher*innen zusätzlich auch bei der Langzeitarchivierung oder übernehmen diese direkt selbst. Insgesamt werden 21 generische und fachspezifische Repositorien von den Mitgliedsinstitutionen der AG Datenzentren unterhalten (siehe Tab. 2).</p>
+                    <figure>
+                        <head>Tab. 2: Speicherungs- und Archivierungsservices der Datenzentren.</head>
+                        <graphic n="1004" width="16.002cm" height="2.6599444444444442cm" url="Pictures/750509a6701fcd7100b3eb85e5888109.png" rend="inline"/>
+                    </figure>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Datenkuratierung</head>
+                    <p style="text-align: left; ">Während die langfristige Kuratierung von Forschungsdaten grundsätzlich einen Kernbereich aller befragten Datenzentren darstellt, unterscheiden sich die konkreten Services und Dienste zur Datenkuration zwischen den einzelnen Datenzentren untereinander (siehe Abb. 3).</p>
+                    <figure>
+                        <graphic n="1005" width="16.002cm" height="9.87425cm" url="Pictures/f62ee5e4064e08c95412799d4f41b3bb.png" rend="inline"/>
+                        <head>Abb. 3: Services zur Kuration von Forschungsdaten.</head>
+                    </figure>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Softwarekuratierung und Softwareentwicklung </head>
+                    <p style="text-align: left; ">Noch wenige Datenzentren verfügen über Expertise beim Hosting und Betrieb lebender Systeme wie bspw. Websites, Visualisierungen, dynamischen Datenbanken und sonstigen Anwendungssystemen (siehe Tab. 3). Unterstützung bei der Entwicklung von unterschiedlicher Software bieten hingegen viele Datenzentren an (siehe Tab. 4).</p>
+                    <figure>
+                        <head>Tab. 3: Kompetenzverteilung beim Hosting und Betrieb lebender Systeme.</head>
+                        <graphic n="1006" width="16.002cm" height="1.6862777777777778cm" url="Pictures/7370de202b4ce048448e2c2215fdf9ba.png" rend="inline"/>
+                    </figure>
+                    <figure>
+                        <head>Tab. 4: Unterstützung bei der Entwicklung von Software.</head>
+                        <graphic n="1007" width="16.002cm" height="2.621138888888889cm" url="Pictures/bca9af067c3b06100e9839626898a6de.png" rend="inline"/>
+                    </figure>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Bereitstellung des Dienstekatalogs der AG Datenzentren</head>
+                <p style="text-align: left; ">Um die gewonnenen quantitativen Ergebnisse, die einen Überblick über die aktuelle, fachspezifische FDM-Versorgungslandschaft geisteswissenschaftlicher Forscher*innen im deutschsprachigen Raum liefern, der Forschungscommunity sinnvoll verfügbar zu machen, wurden die sichtbar gemachten Servicestrukturen der einzelnen Datenzentren in eine durchsuchbare Wordpress-Website überführt. Den Kern dieser Ergebnispräsentation stellen einzelne Profilseiten aller Datenzentren dar, in denen die Servicestrukturen aufbereitet in Tabellenform adressierbar gemacht wurden. Neben der Zugänglichmachung der Services über die einzelnen Datenzentren kann die Website auch gezielt nach einzelnen Services durchsucht werden. </p>
+                <p style="text-align: left; ">Die Wordpress-Website wurde mittlerweile in eine statische HTML-Version überführt und via GitHub publiziert, um den Aufwand für Betrieb und technischer Kuration möglichst gering zu halten. Die inhaltlich-redaktionelle Kuration des Dienstekatalogs obliegt der AG Datenzentren.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                            <hi style="font-size:10pt" xml:space="preserve">Nationale Forschungsdateninfrastruktur (NFDI), Online: </hi>
+                            <ref target="https://www.nfdi.de/">
+                                <hi style="font-size:10pt">https://www.nfdi.de/</hi>
+                            </ref>
+                            <hi style="font-size:10pt" xml:space="preserve"> (letzter Zugriff: 14. Juli 2021); Gemeinsame Wissenschaftskonferenz (GWK): Informationsinfrastrukturen/NFDI, Online: </hi>
+                            <ref target="https://www.gwk-bonn.de/themen/weitere-arbeitsgebiete/informationsinfrastrukturen-nfdi/">
+                                <hi style="font-size:10pt">https://www.gwk-bonn.de/themen/weitere-arbeitsgebiete/informationsinfrastrukturen-nfdi/</hi>
+                            </ref>
+                            <hi style="font-size:10pt" xml:space="preserve"> (letzter Zugriff: 14. Juli 2021).</hi>
+                        </note><note place="foot" xml:id="ftn2" n="2">
+                            <hi style="font-size:10pt" xml:space="preserve"> Forschungsdaten.org: Sammlung „FDM-Kontakte“, Online: </hi>
+                            <ref target="https://www.forschungsdaten.org/index.php/FDM-Kontakte">
+                                <hi style="font-size:10pt">https://www.forschungsdaten.org/index.php/FDM-Kontakte</hi>
+                            </ref>
+                            <hi style="font-size:10pt" xml:space="preserve"> (letzter Zugriff: 14. Juli 2021).</hi>
+                        </note><note place="foot" xml:id="ftn3" n="3">
+                            <hi style="font-size:10pt" xml:space="preserve"> Arbeitsgruppe Datenzentren des Verbands „Digital Humanities im deutschsprachigen Raum e.V.“, Online: </hi>
+                            <ref target="https://dhd-ag-datenzentren.github.io/">
+                                <hi style="font-size:10pt">https://dhd-ag-datenzentren.github.io/</hi>
+                            </ref>
+                            <hi style="font-size:10pt" xml:space="preserve"> (letzter Zugriff: 14. Juli 2021).</hi>
+                        </note><note place="foot" xml:id="ftn4" n="4">
+                            <hi style="font-size:10pt" xml:space="preserve">Dienstekatalog der Arbeitsgruppe Datenzentren, Online: </hi>
+                            <ref target="https://dhd-ag-datenzentren-dienstekatalog.github.io/">
+                                <hi style="font-size:10pt">https://dhd-ag-datenzentren-dienstekatalog.github.io/</hi>
+                            </ref>
+                            <hi style="font-size:10pt" xml:space="preserve"> (letzter Zugriff: 14. Juli 2021).</hi>
+                        </note><note place="foot" xml:id="ftn5" n="5">
+                            <hi style="font-size:10pt" xml:space="preserve">Fragebogen zur Entwicklung eines Dienstekatalogs der AG Datenzentren im Verband Digital Humanities im deutschsprachigen Raum e.V., Online: </hi>
+                            <ref target="http://doi.org/10.5281/zenodo.5101280">
+                                <hi style="font-size:10pt">http://doi.org/10.5281/zenodo.5101280</hi>
+                            </ref>
+                            <hi style="font-size:10pt" xml:space="preserve">. </hi>
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Bryant, Rebecca / Lavoie, Brian / Malpas, Constance</hi> (2017): 
+                        <hi rend="italic">A Tour of the Research Data Management (RDM) Service Space. The Realities of Research Data Management, Part 1</hi>. Dublin, Ohio: OCLC Research. DOI: 
+                        <ref target="https://doi.org/10.25333/C3PG8J">
+                            <hi rend="underline">https://doi.org/10.25333/C3PG8J</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">DFG - Deutsche Forschungsgemeinschaft</hi> (2019): 
+                        <hi rend="italic">Guidelines for Safeguarding Good Research Practice. Code of Conduct.</hi> Zenodo: http://doi.org/10.5281/zenodo.3923602.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Helling, Patrick / Moeller, Katrin / Mathiak, Brigitte</hi> (2018): „Forschungsdatenmanagement in den Geisteswissenschaften – der Dienstekatalog der AG-Datenzentren des Verbands Digital Humanities im deutschsprachigen Raum“ in: <hi rend="italic">ABI Technik</hi>, Band 38, Heft 3, Seiten 251–261, ISSN (Online) 2191-4664, ISSN (Print) 0720-6763, DOI: 
+                        <ref target="https://doi.org/10.1515/abitech-2018-3006">https://doi.org/10.1515/abitech-2018-3006</ref>.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Pempe, Wolfgang</hi> (2012): „Geisteswissenschaften“ in: Neuroth, Heike / Strathmann, Stefan / Oßwald, Achim / Scheffel, Regine / Klump, Jens / Ludwig, Jens (eds.): 
+                        <hi rend="italic">Langzeitarchvierung von Forschungsdaten. Eine Bestandsaufnahme</hi>. Boizenburg: Verlag Werner Hülsbusch 137-160.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">RfII - Rat für Informationsinfrastrukturen</hi> (2016): 
+                        <hi rend="italic">Leistung aus Vielfalt. Empfehlungen zu Strukturen, Prozessen und Finanzierung des Forschungsdatenmanagements in Deutschland</hi>. Göttingen. Online: 
+                        <ref target="https://d-nb.info/1104292440/34">https://d-nb.info/1104292440/34</ref> (letzter Zugriff: 14. Juli 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">RfII - Rat für Informationsinfrastrukturen</hi> (2017): 
+                        <hi rend="italic">Schritt für Schritt - oder: Was bringt wer mit? Ein Diskussionsimpuls für den Einstieg in die Nationale Forschungsdateninfrastruktur (NFDI)</hi>. Göttingen, Online: https://d-nb.info/1131083113/34 (letzter Zugriff: 14. Juli 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Wilkinson, Mark D. / Dumontier, Michel / Aalbersberg, IJsbrand Jan / Appleton, Gabrielle / Axton, Myles / Baak, Arie / Blomberg, Niklas / Boiten, Jan-Willem / da Silva Santos, Luiz Bonino / Bourne, Philip E. / Bouwman, Jildau / Brookes, Antony J. / Clark, Tim / Crosas, Mercè / Dillo, Ingrid / Dumon, Oliver / Edmunds, Scott / Evelo, Chris T. / Finkers, Richard / Gonzalez-Beltran, Alejandra / Gray, Alasdair J.G. / Groth, Paul, Goble, Carole / Grethe, Jeffrey S. / Heringa, Jaap / A.C’t Hoen, Peter / Hooft, Rob / Kuhn, Tobias / Kok, Ruben / Kok, Joost / Lusher, Scott J. / Martone, Maryann E. / Mons, Albert / Packer, Abel L. / Persson, Bengt / Rocca-Serra, Philippe / Roos, Marco / van Schaik, Rene / Sansone, Susanna-Assunta / Schultes, Erik / Sengstag, Thierry / Slater, Ted / Strawn, George / Swertz, Morris A. / Thompson, Mark / van der Lei, Johan / van Mulligen, Erik / Velterop, Jan / Waagmeester, Andrea / Wittenburg, Peter / Wolstencroft, Katherine / Zhao, Jun / Mons Barend</hi> (2016): “The FAIR Guiding Principles for scientific data management and stewardship” in: <hi rend="italic">Scientific Data</hi> 3, Article number: 160018. DOI: 
+                        <ref target="https://doi.org/10.1038/sdata.2016.18">
+                            <hi rend="underline">https://doi.org/10.1038/sdata.2016.18</hi>
+                        </ref>.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

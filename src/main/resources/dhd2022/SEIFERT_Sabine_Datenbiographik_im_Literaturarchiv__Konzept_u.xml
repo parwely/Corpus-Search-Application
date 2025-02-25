@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_212">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Datenbiographik im Literaturarchiv</title>
+                <title type="sub">Konzept und Umsetzung digitaler Dienste am Theodor-Fontane-Archiv</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Seifert</surname>
+                        <forename>Sabine</forename>
+                    </persName>
+                    <affiliation>Theodor-Fontane-Archiv, Universität Potsdam</affiliation>
+                    <email>sabine.seifert@uni-potsdam.de</email>
+                <idno type="ORCID">0000-0001-9847-8245</idno></author>
+                <author>
+                    <persName>
+                        <surname>Busch</surname>
+                        <forename>Anna</forename>
+                    </persName>
+                    <affiliation>Theodor-Fontane-Archiv, Universität Potsdam</affiliation>
+                    <email>annabusch@uni-potsdam.de</email>
+                <idno type="ORCID">0000-0001-5584-4807</idno></author>
+                <author>
+                    <persName>
+                        <surname>Trilcke</surname>
+                        <forename>Peer</forename>
+                    </persName>
+                    <affiliation>Theodor-Fontane-Archiv, Universität Potsdam</affiliation>
+                    <email>trilcke@uni-potsdam.de</email>
+                <idno type="ORCID">0000-0002-1421-4320</idno></author>
+                <author>
+                    <persName>
+                        <surname>Genzel</surname>
+                        <forename>Kristina</forename>
+                    </persName>
+                    <affiliation>Theodor-Fontane-Archiv, Universität Potsdam</affiliation>
+                    <email>kristina.genzel@uni-potsdam.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Heilmann</surname>
+                        <forename>Juliane</forename>
+                    </persName>
+                    <affiliation>Theodor-Fontane-Archiv, Universität Potsdam</affiliation>
+                    <email>juliane.heilmann@uni-potsdam.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Möller</surname>
+                        <forename>Klaus-Peter</forename>
+                    </persName>
+                    <affiliation>Theodor-Fontane-Archiv, Universität Potsdam</affiliation>
+                    <email>klaus-peter.moeller@uni-potsdam.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-15T17:44:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Archiv</term>
+                    <term>Datenbiographik</term>
+                    <term>Metadaten</term>
+                    <term>digitale Dienste</term>
+                    <term>Chronik</term>
+                    <term>Kulturdaten</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Veröffentlichung</term>
+                    <term>Bibliographie</term>
+                    <term>Literatur</term>
+                    <term>Metadaten</term>
+                    <term>virtuelle Forschungsumgebungen</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">212</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Archiv und Biographik</head>
+                <p>Die Arbeit von Literaturarchiven steht seit deren ersten Konzeptualisierungen im 19. Jahrhundert (Dilthey 1970 [1889]; vgl. Thaler 2011, Schöttker 2016) in einem komplexen Wechselverhältnis zu den philologischen Tätigkeiten der Editorik und Biographik, die im 20. und 21. Jahrhundert noch ergänzt werden u.a. um Textgenetik und Material Media Studies. Während das Zusammenspiel von Archiv und Editorik dabei zuletzt vor dem Horizont der Digitalisierung intensiv diskutiert wird (vgl. exemplarisch Nutt-Kofoth 2019), steht eine Neujustierung des Verhältnisses von Archiv und Biographik (vgl. Fetz 2009) im Zeichen der digitalen Transformation (Wettmann 2018) noch aus.</p>
+                <p>Im Zuge der digitalen Erweiterung seiner Dienste (Trilcke 2019; Trilcke, Busch, Seifert 2021) hat das Theodor-Fontane-Archiv in den vergangenen Jahren nicht nur bio- und bibliographische Datenbestände zu Fontane erstellt und offen im Web nutzbar gemacht, es hat auch an einem Konzept für eine digital-biographische Ressource und deren Umsetzung gearbeitet. Anders als für die Buch-Biographik typisch, wurde dabei kein narrativer Ansatz gewählt. Ziel war es vielmehr, eine Konzeption 
+                    <hi rend="italic">datengetriebener Biographik</hi> zu implementieren, die einem chronikalen Prinzip folgt.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Konzept der technischen Umsetzung </head>
+                <p>Orientierungspunkt für die Konzeption und (Daten-)Grundlage für die Umsetzung dieses datenbiographischen Dienstes war die fünfbändige Druckausgabe der 
+                    <hi rend="italic" xml:space="preserve">Theodor Fontane Chronik </hi>(Berbig 2010). Das Konzept wie auch das Vorgehen dieser 
+                    <hi rend="italic" xml:space="preserve">Fontane Chronik </hi>wurde im Zuge der Umsetzung in zweifacher Hinsicht digitalisiert. Erstens folgt die Print-Chronik dem Prinzip der 
+                    <hi rend="italic">Datenaggregation</hi>: Biographische Informationen wurden aus zahlreichen Einzeldatenbeständen (Briefverzeichnisse und -ausgaben, Bibliographien etc.) systematisch zur Chronik zusammengetragen. Zweitens nimmt die Print-Chronik eine datumsbasierte 
+                    <hi rend="italic">Datenkonsolidierung</hi> vor, bei der jeder Datensatz einem übergeordneten Tages-, Monats- oder Jahresdatensatz zugewiesen wird. Der im April 2021 veröffentlichte Dienst 
+                    <hi rend="italic" xml:space="preserve">Fontane Chronik digital </hi>übernimmt entsprechend nicht nur den Datenbestand der Print-Chronik, sondern implementiert auch diese beiden Prinzipien.
+                </p>
+                <p>Die 
+                    <hi rend="italic">Fontane Chronik digital</hi> wird als frei nutzbarer Dienst für Ansicht, Recherche, Suche und Exploration verschiedener Datenbestände des Fontane-Archivs angeboten. Diese Datenbestände werden in der virtuellen Forschungsumgebung FuD, entwickelt vom Trier Center for Digital Humanities (TCDH), vorgehalten und gepflegt. Im Web sind sie als einzelne, vollwertige Dienste adressier- und recherchierbar. Die chronikalen Prinzipien sind in Form der algorithmischen Aggregation und Konsolidierung der unterschiedlichen Datenbestände in einer ElasticSearch-Instanz implementiert. Ein Frontend, das unterschiedliche Zugangsszenarien, Suchlogiken und Darstellungsformen berücksichtigt, präsentiert die Informationen usergerecht.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einzeldatenbestände: Bibliographie, Briefdatenbank, Biographische Datenbank</head>
+                <p>Die Einzeldatenbestände, für die individuelle Dienste mit eigenen Interfaces entwickelt wurden, umfassen die wichtigsten Forschungsdaten zu Fontane. Als digitale Dienste werden dabei die 
+                    <hi rend="italic">Fontane Briefdatenbank</hi> und die 
+                    <hi rend="italic" xml:space="preserve">Fontane Bibliographie online </hi>in Form offener Kulturdaten webbasiert und kostenfrei verfügbar gemacht. Ergänzt um die Daten der Biographischen Datenbank fließen die Datenbestände dieser Dienste in den übergreifenden Dienst 
+                    <hi rend="italic">Fontane Chronik digital</hi> ein.
+                </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Bibliographie</head>
+                    <p>Die ursprünglich als Druck publizierte 
+                        <hi rend="italic" xml:space="preserve">Theodor Fontane Bibliographie </hi>(Rasch 2006) enthält in systematischer Anordnung bibliographische Daten zu sämtlicher Primär- und Sekundärliteratur von und zu Fontane. 2019 konnte sie als Datenbank 
+                        <hi rend="italic" xml:space="preserve">Fontane Bibliographie online </hi>veröffentlicht werden. Sie wird regelmäßig aktualisiert und enthält derzeit 17.641 Metadatensätze. Verknüpfungen gibt es intern u.a. zu den Digitalisaten der 
+                        <hi rend="italic">Fontane Blätter retrodigital</hi>. Zudem werden externe Ressourcen verlinkt (z.B. Digitalisate der 
+                        <hi rend="italic" xml:space="preserve">Vossischen Zeitung </hi>in ZEFYS).
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Briefdatenbank</head>
+                    <p>Die 
+                        <hi rend="italic" xml:space="preserve">Fontane Briefdatenbank </hi>verzeichnet sämtliche bekannte Briefe von Fontane. Informationen aus den archiveigenen Verzeichnisinstrumenten, dem 1988 publizierten ‘Hanser Briefverzeichnis’ und weiteren Quellen werden zusammengeführt, ergänzt und mit (inter-)nationalen Verbunddatenbanken verknüpft, z.B. correspSearch. Erfasst werden brieftypische Metadaten, Schlagworte zum Inhalt, Standortnachweise und Druckgeschichte. Mehr als 6.183 Datensätze sind über ein Interface durchsuchbar. Auf der Grundlage der Print-Chronik wurde die Briefdatenbank um 2.035 erschlossene Von-Briefe sowie 4.125 überlieferte und erschlossene An-Briefe ergänzt. Diese erweiterte Briefdatenbank bildet die Grundlage für die Datenweitergabe an die 
+                        <hi rend="italic">Fontane Chronik digital</hi>.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Biographische Datenbank</head>
+                    <p>Aus XML-Druck-Daten der 
+                        <hi rend="italic">Print-Chronik</hi> wurden regelbasiert 19.183 Datensätze in das FuD-Datenbanksystem geparst, wo sie aktualisiert und mit Norm- und Registerdaten angereichert werden. Die biographische Datenbank umfasst Datensätze zu folgenden Typen biographischer Daten: “Unternehmungen, Begegnungen, Ereignisse” (11.749 Datensätze), “Lektüren” (1.404), “Schriftstellerische und journalistische Arbeiten Fontanes” (2.263), “Druck von Publikationen Fontanes” (2.950), “Veröffentlichungen über Fontane” (692), “Wohnungen Fontanes” (125).
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fontane Chronik digital </head>
+                <p>Auf den drei Einzeldatenbeständen aufbauend operiert die 
+                    <hi rend="italic" xml:space="preserve">Fontane Chronik digital </hi>(Abb.1) aggregierend und konsolidierend. Für diesen datenbiographischen Meta-Dienst wurde dabei ein Frontend entwickelt, das das chronikale Konsolidierungsprinzip in Form eines Kalender-Interfaces aufgreift.
+                </p>
+                <p>Mit der Implementierung des chronikalen Prinzips in Form einer Datenbiographik ist ein entscheidender Entwicklungsschritt im digitalen Ausbau des Fontane-Archivs abgeschlossen. Auf der nun bestehenden Infrastruktur aufbauend, steht vor allem die Qualitätssteigerung der Daten (Normdaten, LOD) sowie die Anbindung und Öffnung qua APIs im Vordergrund der Entwicklungsarbeiten.</p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="20.872091666666666cm" url="Pictures/60f2e6852d10a902fde8314601ae459e.png" rend="inline"/>
+                    <head>Abb. 1: Kalenderansicht der <hi rend="italic" style="font-size:9pt">Fontane Chronik digital</hi></head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Digitale Dienste des Theodor-Fontane-Archivs</head>
+                <p style="text-align: left;">
+                    <hi rend="bold" xml:space="preserve">Berbig, Roland </hi>(Bearb.) / 
+                    <hi rend="bold">Theodor-Fontane-Archiv</hi> (ed.) (2021 ff.): 
+                    <hi rend="italic">Theodor Fontane Chronik digital. Auf der Grundlage der “Theodor Fontane Chronik” (5 Bde., Berlin: De Gruyter 2010)</hi>. Potsdam. <ref target="https://www.fontanearchiv.de/fontane-chronik">https://www.fontanearchiv.de/fontane-chronik</ref> [letzter Zugriff 13. Juli 2021].
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold">Rasch, Wolfgang</hi> (Bearb.) / 
+                    <hi rend="bold">Theodor-Fontane-Archiv</hi> (ed.) (2019 ff.): 
+                    <hi rend="italic">Theodor Fontane Bibliographie online. Auf der Grundlage der “Theodor Fontane Bibliographie. Werk und Forschung” (3 Bde., Berlin: De Gruyter 2006).</hi> Potsdam. <ref target="https://www.fontanearchiv.de/fontane-bibliographie">https://www.fontanearchiv.de/fontane-bibliographie</ref> [letzter Zugriff 13. Juli 2021].
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold">Theodor-Fontane-Archiv</hi> (ed.) (2019 ff.): 
+                    <hi rend="italic">Digitale Handschriftensammlung</hi>. Potsdam. <ref target="https://www.fontanearchiv.de/fontane-handschriften">https://www.fontanearchiv.de/fontane-handschriften</ref> [letzter Zugriff 13. Juli 2021].
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold">Theodor-Fontane-Archiv / Theodor Fontane Gesellschaft</hi> (eds.) (2019 ff.): 
+                    <hi rend="italic" xml:space="preserve">Fontane Blätter retrodigital. </hi>Technische Betreuung: Universitätsbibliothek Potsdam. Potsdam. <ref target="https://www.fontanearchiv.de/fontane-blaetter">https://www.fontanearchiv.de/fontane-blaetter</ref> [letzter Zugriff 13. Juli 2021].
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold">Theodor-Fontane-Archiv / UCLab Fachhochschule Potsdam</hi> (eds.) (2019): 
+                    <hi rend="italic" xml:space="preserve">Fontanes Handbibliothek visualisiert. </hi>Design und Entwicklung: Mark-Jan Bludau. Projektkoordination: Anna Busch. Potsdam. <ref target="https://www.fontanearchiv.de/handbibliothek">https://www.fontanearchiv.de/handbibliothek</ref> [letzter Zugriff 13. Juli 2021].
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold">Theodor-Fontane-Archiv</hi> (ed.) (2021 ff.): 
+                    <hi rend="italic">Theodor Fontane Briefdatenbank. Unter Berücksichtigung von “Die Briefe Theodor Fontanes: Verzeichnis und Register” (München: Hanser 1988).</hi> Potsdam. <ref target="https://www.fontanearchiv.de/fontane-briefdatenbank">https://www.fontanearchiv.de/fontane-briefdatenbank</ref> [letzter Zugriff 13. Juli 2021].
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Bibliographie</head>
+                <p style="text-align: left;">
+                    <hi rend="bold" xml:space="preserve">Berbig, Roland </hi>(2010): 
+                    <hi rend="italic">Theodor Fontane Chronik</hi>. Projektmitarbeit 1999–2004: Josefine Kitzbichler. Berlin / New York: De Gruyter.
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold">Dilthey, Wilhelm</hi> (1970 [1889]): “Archive der Litteratur in ihrer Bedeutung für das Studium der Geschichte der Philosophie”, in: 
+                    <hi rend="italic">Archiv für Geschichte der Philosophie</hi> II,3: 343–367.
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold" xml:space="preserve">Fetz, Bernhard </hi>(2009): “Der Stoff, aus dem das (Nach-)Leben ist. Zum Status biographischer Quellen”, in: Fetz, Bernhard (ed.):
+                    <hi rend="italic" xml:space="preserve"> Die Biographie. Zur Grundlegung ihrer Theorie</hi>. Berlin / New York: De Gruyter 103–154.
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold" xml:space="preserve">Nutt-Kofoth, Rüdiger </hi>(2019): “Edition als Archiv? Zur Frage der Konvergenz zweier Wissensformationen im analogen und im digitalen Zeitalter”, in: Kastberger, Klaus / Maurer, Stefan / Neuhuber, Christian (eds.): 
+                    <hi rend="italic">Schauplatz Archiv. Objekt – Narrativ – Performanz</hi>. Unter Mitarbeit von Georg Hofer. Berlin / Boston: De Gruyter 107–123. 
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold">Rasch, Wolfgang</hi> (2006): 
+                    <hi rend="italic">Theodor Fontane Bibliographie. Werk und Forschung</hi>. Berlin: De Gruyter. 
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold">Schöttker, Detlev</hi> (2016): “Posthume Präsenz: Zur Ideengeschichte des literarischen Archivs”, in: Lepper, Marcel / Raulff, Ulrich (eds.): 
+                    <hi rend="italic">Handbuch Archiv. Geschichte, Aufgaben, Perspektiven</hi>. Stuttgart: J.B. Metzler Verlag 237–246.
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold">Thaler, Jürgen</hi> (2011): “Zur Geschichte des Literaturarchivs. Wilhelm Diltheys Archive für Literatur im Kontext”, in: 
+                    <hi rend="italic">Schiller-Jahrbuch</hi> 55: 361–374.
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold">Trilcke, Peer / Busch, Anna / Seifert, Sabine</hi> (2021): “Vom Ausbau des Digitalen Archivs. Neue digitale Dienste des Theodor-Fontane-Archivs. Chronik und Briefdatenbank”, in: 
+                    <hi rend="italic">Fontane Blätter</hi> 111: 173–183.
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold">Trilcke, Peer</hi> (2019): “Auf dem Weg zu einem auch Digitalen Archiv. Digitale Dienste des Theodor-Fontane-Archivs”, in: 
+                    <hi rend="italic" xml:space="preserve">Fontane Blätter </hi>107: 98–103.
+                </p>
+                <p style="text-align: left;">
+                    <hi rend="bold">Wettmann, Andrea</hi> (2018): “Die Archive und der ‘Digital Turn’. Eine Standortbestimmung”, in: Bonte, Achim / Rehnolt, Juliane (eds.): 
+                    <hi rend="italic">Kooperative Informationsinfrastrukturen als Chance und Herausforderung</hi>. Berlin / Boston: De Gruyter 361–371. 10.1515/9783110587524-038.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

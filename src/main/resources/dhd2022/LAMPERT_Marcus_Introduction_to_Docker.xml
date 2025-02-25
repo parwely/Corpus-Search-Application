@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_134">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Introduction to Docker</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Lampert</surname>
+                        <forename>Marcus</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Germany</affiliation>
+                    <email>lampert@bbaw.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-05T11:06:47.659255370</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Docker</term>
+                    <term>Software Deployment</term>
+                    <term>Virtualization</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Programmierung</term>
+                    <term>Webentwicklung</term>
+                    <term>Konservierung</term>
+                    <term>Infrastruktur</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">134</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Short Description</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Overview</head>
+                    <p>First introduced in 2013, Docker is one of those tools that, not unlike the version control software Git, has become nearly ubiquitous in software development. As a lightweight virtualization software, it elegantly solvescommon problems in software engineering related to developing and deploying applications. Dockercreates independent operating environments, so-called ‘containers’, with which one can deploy applications in a flexible and reproducible manner. A singleDocker command on the command line can launch an entire application, either locally or on a server, with any number and kind of desired frontends, backends, services, databases, etc. This containerized approach to application development has many advantages for software engineering in general, and for the the Digital Humanities specifically, including:</p>
+                    <list type="unordered">
+                        <item>Ease of setting up an existing project on a new server or personal computer. This is why, for example, open source projects often offer a Docker image, or describe how to set up their application using a standard Dockerfile.</item>
+                        <item>Continuity between local development and production. Building a project locally on a personal computer with Docker, versus building for production with Docker are often similar, if not identical processes.</item>
+                        <item>Broad language and version support. A server that runs Docker only needs to have Docker installed in order to support basically every major language and their various versions. If a Docker image exists for a given language and version, then that application can be run. Specifically for the Digital Humanities, where projects have a long duration, this feature could potentially prolong the time for which an applicationcan be supported.</item>
+                    </list>
+                    <p>In this workshop, we offer participants a practical introduction to Docker and show by example how it can be integrated into existing and new Digital Humanities projects. The two examples we use are Digital Humanities projects developed at the Berlin-Brandenburg Academy of Sciences and Humanities and are exemplars of two standard application types used in the Digital Humanities: a web application based on an SQL database, and a web application based on an XML NoSQL database. Participants will follow along with the presenter, deploying these applications on their own laptops using Docker. We will also look together at a live Docker application running on a server at the Berlin-Brandenburg Academy of Sciences and Humanities. By the end of the workshop, participants will have a general idea of what Docker is and how to use it, and can begin thinking about how they can use Docker to facilitate their Digital Humanities projects.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Background</head>
+                    <p>The workshop is based on a workshop developed internally at the Berlin-Brandenburg Academy of Sciences and Humanities. At the Academy, we have recognized the advantages that Docker would bring for a number of our projects. This workshop is designed to be practical and accessible to a broad audience. It covers basic concepts and commands that arise in one’s regular work with Docker.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Workshop Structure and Content</head>
+                <p>The workshop takes four hours, including breaks. It consists of four modules, each module lasting about 45 minutes followed by a 15 minute break:</p>
+                <list type="unordered">
+                    <item>Introduction</item>
+                    <item>Docker</item>
+                    <item>Docker Compose</item>
+                    <item>Deployment</item>
+                </list>
+                <p>In each of these modules, the presenter will explain and demonstrate core concepts on his computer, and then participants will be asked to execute a number of Docker commands on their computers. At least one assistant will assist the presenter in going around the room helping people.</p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Module 1: Introduction</head>
+                    <p>Topics covered:</p>
+                    <list type="unordered">
+                        <item>Installing Docker and Docker Compose</item>
+                        <item>Description of Docker: a software platform for enclosing applications and application components in containers that are encapsulated but share an operating system, i.e. lightweight virtualization</item>
+                        <item>Advantages of Docker:
+                            <list type="unordered">
+                                <item>Reproducible application builds in a reproducible environment.</item>
+                                <item>Can run multiple applications on a host, local or a server, without colliding dependencies.</item>
+                                <item>Easy to deploy, locally or on a server, an application with multiple parts (frontend, backend, database, etc).</item>
+                            </list>
+                        </item>
+                        <item>Disadvantages of Docker:
+                            <list type="unordered">
+                                <item>Learning curve</item>
+                                <item>Additional work of dockerizing a project</item>
+                                <item>Managing Docker on a server, potential security problems.</item>
+                            </list>
+                        </item>
+                        <item>The building blocks of Docker: images, containers, volumes, networks, etc.</item>
+                    </list>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Module 2: Docker</head>
+                    <p>Objective: learn basic Docker commands.</p>
+                    <p>Topics Covered:</p>
+                    <list type="unordered">
+                        <item>Anatomy of a docker project
+                            <list type="unordered">
+                                <item>‘Dockerfile’</item>
+                                <item>‘.dockerignore’ (optional)</item>
+                            </list>
+                        </item>
+                        <item>Starting the example application without docker
+                            <list type="unordered">
+                                <item>‘cp .env.example .env’</item>
+                                <item>‘php composer install or compose install’</item>
+                                <item>‘php artisan serve’</item>
+                            </list>
+                        </item>
+                        <item>Starting applications with docker
+                            <list type="unordered">
+                                <item>‘docker build .’</item>
+                                <item>‘docker run [IMAGE ID]’</item>
+                                <item>From a new terminal window: ‘docker ps’</item>
+                                <item>‘docker exec -ti [CONTAINER ID/NAME] bash’</item>
+                            </list>
+                        </item>
+                        <item>A few problems:
+                            <list type="unordered">
+                                <item>Cannot access the port (see ‘docker network ls’)</item>
+                                <item>Image ID is not very descriptive</item>
+                            </list>
+                        </item>
+                        <item>Stopping the container:
+                            <list type="unordered">
+                                <item>‘docker ps’</item>
+                                <item>‘docker stop [CONTAINER ID/NAME]’</item>
+                            </list>
+                        </item>
+                        <item>Starting the applications with docker, improved
+                            <list type="unordered">
+                                <item>‘docker build -t [NAME] .’</item>
+                                <item>‘docker run -p 8000:8181 [NAME]’</item>
+                            </list>
+                        </item>
+                        <item>Starting applications in the background
+                            <list type="unordered">
+                                <item>‘docker run -d -p 8000:8181 [NAME]’</item>
+                                <item>‘docker logs -f [CONTAINER ID/NAME]’</item>
+                            </list>
+                        </item>
+                        <item>Starting verses running a container
+                            <list type="unordered">
+                                <item>‘docker container ls’</item>
+                                <item>‘docker start [CONTAINER ID/NAME]’</item>
+                            </list>
+                        </item>
+                    </list>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Module 3: Docker Compose</head>
+                    <p>Objective: learn how a docker-compose.yml file is composed and learn basic Docker Compose commands.</p>
+                    <p>Topics Covered</p>
+                    <list type="unordered">
+                        <item>Problems with just using Docker
+                            <list type="unordered">
+                                <item>Stopping containers is annoying</item>
+                                <item>Important things like ports, tags, network, volumes, etc. are only giving at runtime</item>
+                                <item>How would you handle a project with multiple containers?</item>
+                            </list>
+                        </item>
+                        <item>Docker commands one might often use
+                            <list type="unordered">
+                                <item>‘docker exec -ti [CONTAINER ID/NAME] bash’ - If you have a database in a docker container, for example</item>
+                                <item>‘docker ps’, ‘docker image ls’, ‘docker volume ls’</item>
+                            </list>
+                        </item>
+                        <item>Basic Docker Compose commands
+                            <list type="unordered">
+                                <item>‘docker-compose build [services]’</item>
+                                <item>‘docker-compose up [services]’</item>
+                                <item>‘docker-compose up --build [services]’</item>
+                                <item>‘docker-compose down’, ‘docker-compose down -v’</item>
+                            </list>
+                        </item>
+                        <item>Common things we do in a docker-compose.yml file
+                            <list type="unordered">
+                                <item>expose ports</item>
+                                <item>talk with other containers in the same network</item>
+                                <item>set environment variables</item>
+                                <item>define volumes</item>
+                            </list>
+                        </item>
+                        <item>Use cases of Docker Compose
+                            <list type="unordered">
+                                <item>Production: deploy with one command</item>
+                                <item>Development: start those services you aren't actively working on.</item>
+                            </list>
+                        </item>
+                    </list>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Module 4: Deployment</head>
+                    <p>Objective: Gain a general idea of how to use Docker to deploy an application on a server</p>
+                    <p>Topics Covered:</p>
+                    <list type="unordered">
+                        <item>One docker-compose.yml for each environment.
+                            <list type="unordered">
+                                <item>local.docker-compose.yml</item>
+                                <item>production.docker-compose.yml</item>
+                            </list>
+                        </item>
+                        <item>Merging Multiple docker-compose.yml files: 
+                            <ptr target="https://docs.docker.com/compose/extends/"/>
+                        </item>
+                        <item>Vendor docker-compose.yml with a shell script.
+                            <list type="unordered">
+                                <item>Define a template.yml with variables:
+                                    <lb/>environment:
+                                    <lb/> - BACKEND_URL: https://${BACKEND_URL}:${BACKEND_PORT}
+                                </item>
+                                <item>For each env define values for the variables. So, env.local looks like:
+                                    <lb/>BACKEND_URL=localhost
+                                    <lb/>BACKEND_PORT=1234
+                                </item>
+                                <item>Have shellscript execute ‘envsubst’ to generate the docker-compose.yml:
+                                    <lb/>Input: ‘devops/vendor.sh local’
+                                    <lb/>Output: ‘docker-compose.yml’
+                                </item>
+                            </list>
+                        </item>
+                    </list>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Presenter</head>
+                <p>Marcus Lampert</p>
+                <p>Wissenschaftlicher Mitarbeiter an der Berlin-Brandenburgischen Akademie der Wissenschaften</p>
+                <p><ref target="mailto:lampert@bbaw.de">lampert@bbaw.de</ref></p>
+                
+                <p>Marcus works as a software engineer on various Digital Humanities projects at the Berlin-Brandenburg Academy of Sciences and Humanities. He received his PhD 2015 in German Literature from the University of Chicago writing on the content and influence of Johann Gottlieb Fichte’s 1794
+                    <hi rend="italic">Science of Knowledge</hi>. Prior to joining the Academy, he worked for three years as a software engineer at PricewaterhouseCoopers Deutschland. He enjoys working as a fullstack developer, fiddling on both the frontend and backend, and solving devops challenges. Marcus is driven by the quest to use modern technology to facilitate the sharing of knowledge.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Format of the Workshop and Target Audience</head>
+                <list type="unordered">
+                    <item>Language: German, or English depending on the needs of the participants.</item>
+                    <item>Up to 25 participants. No prior knowledge of Docker required.</item>
+                    <item>Participants should have an interest in writing and/or deploying websites or other related software applications.</item>
+                    <item>Basic use of the command line is helpful but not required.</item>
+                    <item>Experience with Linux systems is helpful but not required.</item>
+                </list>
+                <p>Participants should have a personal laptop with the following specs:
+                    <list type="unordered">
+                        <item>admin rights so that they can install software such as Docker and Docker Compose.</item>
+                        <item>Preferably Mac or Linux as Operating System.</item>
+                        <item>Ability to connect to the internet.</item>
+                        <item>Some remaining storage space (50 GB) for using Docker.</item>
+                        <item>Very old machines might have performance or compatibility issues with Docker.</item>
+                    </list>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Technical Equipment</head>
+                <list type="unordered">
+                    <item>Large display monitor/screen to connect to presenter’s laptop.</item>
+                    <item>Power outlets for the participants’ computers.</item>
+                    <item>Wireless internet connection for all the participants.</item>
+                </list>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <anchor xml:id="id_js-reference-string-01"/><hi rend="bold">Docker Documentation.</hi> 
+                        <ptr target="https://docs.docker.com/"/> (accessed 1 December 2021).
+                    </bibl>
+                    <bibl>
+                        <anchor xml:id="id_js-reference-string-0"/><hi rend="bold">En.wikipedia.org. Docker (software) - Wikipedia.</hi> 
+                        <ptr target="https://en.wikipedia.org/wiki/Docker_(software"/>) (accessed 1 December 2021).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

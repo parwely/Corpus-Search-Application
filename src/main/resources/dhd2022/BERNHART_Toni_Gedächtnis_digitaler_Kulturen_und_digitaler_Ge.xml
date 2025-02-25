@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_204">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Gedächtnis digitaler Kulturen und digitaler Geisteswissenschaften</title>
+                    <title type="sub">Plädoyer für eine Wissenschaftsgeschichte der DH</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Bernhart</surname>
+                        <forename>Toni</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Germany</affiliation>
+                    <email>toni.bernhart@ilw.uni-stuttgart.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-12-01T19:50:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Wissenschaftsgeschichte</term>
+                    <term>history of science</term>
+                    <term>Geschichte der DH</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Kontextsetzung</term>
+                    <term>Schreiben</term>
+                    <term>Veröffentlichung</term>
+                    <term>Lehre</term>
+                    <term>Forschung</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">204</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ansatz und Anspruch</head>
+                <p style="text-align: left; ">Digitale Kulturen konstituieren Gedächtnis. Sie sammeln, speichern, überliefern, analysieren, verknüpfen und interpretieren Information. Doch verhalten sie sich bislang ahistorisch, indem sie sich für die Entwicklung und Geschichte ihrer Ansätze, Ansprüche und Methoden kaum interessieren und das Gedächtnis und die Reflexion ihrer selbst vernachlässigen. Die Forderung nach einer Fach- oder Wissenschaftsgeschichte der digitalen Geisteswissenschaften wurde im Verlauf der vergangenen Jahre punktuell artikuliert (Hoover 2007, Kelih 2008, Cortelazzo / Tuzzi 2008, Jannidis / Lauer 2014, Jannidis 2015, Twellmann 2015, Weitin 2015, Thaller 2017, Schöch 2017, Bernhart 2018, Fischer / Akimova / Orekhov 2019, Fischer / Gramelsberger / Hoffmann / Hofmann / Rheinberger / Rickli 2020, Bernhart im Druck), zuletzt auch deutlich in etlichen Diskussionen bei der 7. Jahrestagung des Verbands „Digital Humanities im deutschsprachigen Raum e.V.“ 2020 in Paderborn. In institutionellen Positionsbestimmungen findet das Desideratum bisher allerdings kaum programmatischen Niederschlag.</p>
+                <p style="text-align: left; ">Der Beitrag möchte für die Etablierung einer Wissenschaftsgeschichte der digitalen Geisteswissenschaften sensibilisieren.<ref target="ftn1" n="1"/> Eigentlich müsste das Ansinnen selbsterklärend sein, schon allein deshalb, weil digitale Geisteswissenschaften maßgeblich aus geisteswissenschaftlichen Kontexten resultieren, in denen diachrone und synchrone Perspektivierungen von Wissens- und Theoriebildung selbstverständlich sein sollten. Doch die bislang nur sehr verhaltenen Bemühungsbestrebungen in diese Richtung deuten darauf hin, dass das Bewusstsein für Sinn und Dringlichkeit einer Wissenschaftsgeschichte der digitalen Geisteswissenschaften auch in einem geisteswissenschaftlichen Kontext kaum gegeben zu sein scheint.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Kontinuum und Ähnlichkeiten</head>
+                <p style="text-align: left; ">Algorithmische und digitale Kulturen und mit ihnen ihre Geschichte beginnen entgegen gängiger Lehrmeinung (vgl. etwa Ciotti / Crupi 2012, Nyhan / Flinn 2016) nicht erst mit der Erfindung des Computers. Sie beginnen dort, wo Enumeration, Indizierung, Serialisierung, Quantifizierung und Formalisierung semantischer Entitäten und kultureller Artefakte sichtbar werden. Solche Ansätze sind nicht eindeutig in eine bestimmte Epoche oder eine begrenzbare zeitliche Phase datierbar, sondern sie stellen grundlegende kulturelle Praktiken dar. Bezogen auf Literaturen, wies darauf zuletzt Eva von Contzen in ihren listologischen Forschungsarbeiten hin, die Personen-, Sach- und Eigenschaftslisten von den antiken über die mittelalterlichen bis in die Literaturen der Gegenwart untersuchen (Contzen 2016, Contzen 2018). Auf einen Vorlauf, der länger ist als bislang angenommen, macht mit Blick auf digitale Gesellschaften und Kulturen auch Armin Nassehi aufmerksam, wenn er behauptet, „dass die moderne Gesellschaft bereits ohne die digitale Technik in einer bestimmten Weise 
+                    <hi rend="italic">digital</hi> ist“ (Nassehi 2019: 11; Kursivierung im Original).
+                </p>
+                <p style="text-align: left; ">Deutlich sichtbar werden Operationalisierungen und Algorithmisierungen unter dem Eindruck der Empirismen der Frühen Neuzeit. Erste Ballungen sind im Zuge der Ausdifferenzierung der Einzelwissenschaften im 19. Jahrhundert erkennbar. Erstaunlich und überraschend an diesen frühen Ansätzen sind Ähnlichkeiten mit den Zielen und Ansprüchen der digitalen Geisteswissenschaften.</p>
+                <p style="text-align: left; ">Einander ähnlich sind frühe operationalisierende Ansätze und die späteren digitalen Geisteswissenschaften in ihren Ansprüchen, schneller und effizienter zu Ergebnissen zu kommen als mit der Methode des menschlichen und sinnkonstituierenden Lesens, auf der Grundlage gewonnener Daten intersubjektive und interoperable Vergleichs- und Austauschmöglichkeiten herzustellen, einen verborgenen oder nicht-bewussten Informationsgehalt literarischer oder künstlerischer Werke offenzulegen und darüber hinaus neue und ungewöhnliche Forschungsfragen zu generieren. Charakteristisch für diese Ansprüche ist darüber hinaus ein disziplinenübergreifender Ansatz, der schon sehr früh zu beobachten ist. Belege für solche Ähnlichkeiten finden sich im 19., 20. und 21. Jahrhundert. Anhand von Beispielen, die sich in ihren Praktiken und Zielsetzungen im Rückblick als (proto-)typisch erweisen, möchte dieser Beitrag die genannten Ansprüche erläutern.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Effizienz und Offenlegung verborgener Ästhetiken</head>
+                <p style="text-align: left; ">Als ein Beispiel dafür, dass von operationalisierter, quantitativer oder algorithmischer Arbeitsweise raschere Ergebnisse zu erwarten seien, kann Thomas C. Mendenhall (1841–1924) gelten. Zur Datenerhebung für seine Stilanalysen verwendete er mechanische Zählmaschinen, mit denen es ihm – wie er berechnete – möglich war, in einem Viertel der Zeit, die bei traditionellem Vorgehen erforderlich gewesen wäre, zu Ergebnissen zu kommen; bedient wurden die Zählmaschinen bezeichnenderweise von Frauen (Mendenhall 1901: 102). Sein methodisches Vorgehen beschreibt Mendenhall folgendermaßen:</p>
+                <quote>Nearly twenty years ago I devised a method for exhibiting graphically such peculiarities of style in composition as seemed to be almost purely mechanical and of which an author would usually be absolutely unconscious. The chief merit of the method consisted in the fact that its application required no exercise of judgment, accurate enumeration being all that was necessary, and by displaying one or more phases of the mere mechanism of composition characteristics might be revealed which the author could make no attempt to conceal, being himself unaware of their existence. (Mendenhall 1901: 97)</quote>
+                <p style="text-align: left; ">Kennzeichnend für die entwickelte Methode ist der Weg der Wissensgenerierung: Stilistische Besonderheiten würden „rein mechanisch“ („purely mechanical“) sichtbar und ein Autor sei sich der in seinem Text wirksamen Muster „absolut nicht bewusst“ („absolutely unconscious“). Die Hauptleistung der Methode bestehe darin, dass eine forschende Person über keinerlei fachwissenschaftlich geschultes Urteilsvermögen verfügen müsse, allein die akkurate Darstellung der Messwerte genüge, um die Kompositionsprinzipien offenzulegen, die ein Autor nicht verbergen könne, ja, deren Existenz ihm weder bewusst noch bekannt sei. Die hier sehr früh formulierte Vorstellung einer mechanischen, unbewussten oder verborgenen Poetik ist kennzeichnend für zahlreiche quantitative und algorithmische Analyseverfahren und findet sich in abgewandelter Form in Theorien der Digital Humanities wieder (Burrows 1987: 2, Moretti 2005: 54, Jockers 2013: 106-108, Jannidis 2014: 169).</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Intersubjektivität und neue Fragestellungen</head>
+                <p style="text-align: left; ">Beispielhaft ist etwa der wenig beachtete Psychologe Karl Groos (1861–1946), der umfassende statistische Analysen zu Farbworthäufigkeiten in den Werken von William Shakespeare, Johann Wolfgang Goethe, Friedrich Schiller, Richard Wagner u.a. unternommen hat. In einer kurzen autobiografischen Schrift, in der er seine Arbeitsweise reflektiert, hält er fest:</p>
+                <quote>Erstens können wir auf Grund von zahlenmäßigen Feststellungen in einer objektiveren Weise vergleichen, sei es nun, daß es sich um die Eigenart verschiedener Individuen, sei es, daß es sich um verschiedene Perioden in der Entwicklung derselben Persönlichkeit handelt. Und zweitens treibt das Fixieren von Zahlen sozusagen automatisch neue Fragestellungen aus sich heraus, auf die eine andere Methode gar nicht verfallen würde. (Groos 1921: 109–110)</quote>
+                <p style="text-align: left; ">
+                    <hi rend="Bullets">Groos weist hier auf die Möglichkeiten hin, dass „zahlenmäßige[] Feststellungen“ zu „objektiveren“ Arbeitsweisen führen können und dass solche Verfahren „sozusagen automatisch“ neue Forschungsfragen generierten. „[E]ine andere Methode“ – er meint damit wohl erprobte und etablierte Hermeneutiken – würde zu solchen neuen Fragen gar nicht erst führen. Eine vergleichbare Argumentation spielt in den Digital Humanities eine wichtige Rolle, wenn darauf verwiesen wird, dass Algorithmen und digitale Modellierungen in nicht unwesentlichem Maße dazu beitrügen, weiterführende und erweiternde Fragen aufzuwerfen. Die Methoden und Werkzeuge der Digital Humanities lieferten demnach nicht nur Ergebnisse im Sinne von Daten und Erkenntnissen, sondern dienten wesentlich auch der Heuristik auf dem Weg zur Interpretation. Das Verfahren, das Groos beschreibt, zeigt überraschende Ähnlichkeit mit dem später von Franco Moretti modellierten Konzept des 
+                        <hi rend="italic">Distant</hi>
+                        <hi rend="italic">reading</hi>.
+                    </hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Disziplinenübergreifende Arbeitsweise</head>
+                <p style="text-align: left; ">Es fällt auf, dass operationalisierende, quantifizierende und algorithmisierende Verfahren schon sehr früh oft disziplinenübergreifend operierten. Entsprechende Ansätze zur Bearbeitung geisteswissenschaftlich virulenter Fachfragen wurden häufig nicht innerhalb der dafür zuständigen Fächer entwickelt, sondern in anderen Disziplinen wie der Medizin, der Physik oder der Mathematik und von diesen an die zuständigen Disziplinen herangetragen oder ihnen angeboten. Nicht selten hatte dies dort Abwehrreaktionen zur Folge.</p>
+                <p style="text-align: left; ">Ein frühes Beispiel dafür ist Sir Thomas Young (1773–1829), Arzt und Professor für Naturphilosophie an der Royal Institution in London. In seiner Schrift mit dem Titel 
+                    <hi rend="italic">Remarks on the probabilities of error in physical observations, and on the density of the earth, considered, especially with regard to the reduction of experiments on the pendulum</hi> (Young 1819) geht es um Fragen der physikalischen Dichte der Erde, die Young mit den Methoden der Wahrscheinlichkeitsrechnung behandelt. Doch auch Fragen der sogenannten Sprachenverwandtschaft, zur realgeschichtlichen Aussagekraft literarischer Quellen und zur Entschlüsselung der Hieroglyphenschrift greift er auf, für die er Lösungen mithilfe der Wahrscheinlichkeitsrechnung vorschlägt. Die Frage der Ähnlichkeit von Sprachen und die noch nicht entschlüsselten Hieroglyphen waren drängende wissenschaftliche Fragen der Zeit.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick</head>
+                <p style="text-align: left; ">Indem Praktiken neben Objekten das Fundament für kulturelles Gedächtnis bilden, bilden digitale, auch proto-digitale Praktiken umso deutlicher das Fundament für das Gedächtnis digitaler Kulturen. Die Geisteswissenschaften sind dazu berufen und befähigt, solche Gedächtnisse zu kartografieren und systematisch und historisch zu perspektivieren.</p>
+                <p style="text-align: left; ">Digitale Praktiken in einem weiten Sinn gibt es nicht erst, seitdem von Digital Humanities gesprochen wird, auch nicht erst seit der Erfindung des Computers. Sie emergieren vielmehr dann, wenn zählende, messende, rechnende, operationalisierende und algorithmisierende Ansätze und Verfahren bei der Beschreibung, Speicherung und Analyse insbesondere kultureller Artefakte Anwendung finden.</p>
+                <p style="text-align: left; ">Konkret stellt dies die Digital Humanities – nach ihrer Emanzipierung innerhalb der Geisteswissenschaften, um die sie lange ringen mussten – vor einen erweiterten kulturellen Horizont, der zu ihrer historisch informierten Verortung, zum Verständnis ihrer Leistungsfähigkeit und ihrer Grenzen und zur Systematisierung (proto-)typischer Denk- und Argumentationsmuster beitragen kann. Auch die Digital Humanities haben eine Geschichte und ein Anrecht darauf, dass sie erzählt – und geschrieben – wird.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Der Beitrag fußt auf den Forschungsergebnissen des DFG-geförderten Forschungsprojekts „Quantitative Literaturwissenschaft“ (Projektnummer 259167649).</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bernhart, Toni</hi> (2018): „Quantitative Literaturwissenschaft: Ein Fach mit langer Tradition?“, in: Bernhart, Toni / Willand, Marcus / Richter, Sandra / Albrecht, Andrea (Hg.): 
+                        <hi rend="italic">Quantitative Ansätze in den Literatur- und Geisteswissenschaften. Systematische und historische Perspektiven.</hi> Berlin, Boston: Walter de Gruyter 207–219.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bernhart, Toni</hi> (im Druck): „Algorithmische Wissenskulturen in den Geisteswissenschaften und ihr Vorlauf im 19. Jahrhundert“, in: Hashagen, Ulf / Seising, Rudolf (Hg.): 
+                        <hi rend="italic">Algorithmische Wissenskulturen? Der Einfluss des Computers auf die Wissenschaftsentwicklung.</hi> Cham: Springer.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Burrows, John F.</hi> (1987): 
+                        <hi rend="italic">Computation into Criticism. A Study of Jane Austen’s Novels and an Experiment in Method</hi>. Oxford: Clarendon Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ciotti, Fabio / Crupi, Gianfranco</hi> (Hg.) (2012): 
+                        <hi rend="italic">Dall'informatica umanistica alle culture digitali. Atti del convegno di studi (Roma, 27-28 ottobre 2011) in memoria di Giuseppe Gigliozzi.</hi> Roma: Sapienza Università Editrice.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Contzen, Eva von</hi> (2016): „The Limits of Narration: Lists and Literary History“, in: 
+                        <hi rend="italic">Style</hi> 50/3: 241–260.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Contzen, Eva von</hi> (2018): „Experience, Affect, and Literary Lists“, in: 
+                        <hi rend="italic">Partial Answers</hi> 16/2: 315–327.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Cortelazzo, Manlio / Tuzzi, Arjuna</hi> (2008): 
+                        <hi rend="italic">Metodi statistici applicati all'italiano</hi>. Bologna: Zanichelli.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Fischer, Frank / Akimova, Marina / Orekhov, Boris</hi> (Hg.) (2019): 
+                        <hi rend="italic">Moscow Formalism and Literary History</hi> (Sonderband der Zeitschrift 
+                        <hi rend="italic">Journal of Literary Theory</hi>). Berlin: Walter de Gruyter.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Fischer, Philipp / Gramelsberger, Gabriele / Hoffmann, Christoph / Hofmann, Hans / Rheinberger, Hans-Jörg / Rickli, Hannes</hi> (2020): 
+                        <hi rend="italic">Datennaturen. Ein Gespräch zwischen Biologie, Kunst, Wissenschaftstheorie und -geschichte</hi>. Zürich: Diaphanes.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Groos, Karl</hi> (1921): [Ohne Titel], in: Schmidt, Raymund (Hg.): 
+                        <hi rend="italic">Die Philosophie der Gegenwart in Selbstdarstellungen,</hi> Band 2. Leipzig: Meiner 101–115.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hoover, David L.</hi> (2007): „Quantitative Analysis and Literary Studies“, in: Siemens, Ray / Schreibman, Susan (Hg.): 
+                        <hi rend="italic">A Companion to Digital Literary Studies</hi>. Malden, Mass. u.a.: Blackwell 517–533.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Jannidis, Fotis</hi> (2014): „Der Autor ganz nah. Autorstil in Stilistik und Stilometrie“, in: Schaffrick, Matthias / Willand, Marcus (Hg.): 
+                        <hi rend="italic">Theorien und Praktiken der Autorschaft</hi>. Berlin, Boston: Walter de Gruyter 169–195.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Jannidis, Fotis</hi> (2015): „Perspektiven empirisch-quantitativer Methoden in der Literaturwissenschaft. Ein Essay“, in: 
+                        <hi rend="italic">Deutsche Vierteljahrsschrift für Literaturwissenschaft und Geistesgeschichte (DVJs)</hi> 89/4: 657-661.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Jannidis, Fotis / Lauer, Gerhard</hi> (2014): „Burrows Delta and its Use in German Literary History“, in: Erlin, Matt / Tatlock, Lynne (Hg.): 
+                        <hi rend="italic">Distant Readings. Topologies of German Culture in the Long Nineteenth Century</hi>. Suffolk: Boydell &amp; Brewer 29–54.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Jockers, Matthew L.</hi> (2013): 
+                        <hi rend="italic">Macroanalysis. Digital Methods and Literary History</hi>. Urbana, Chicago, Springfield: University of Illinois Press.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Kelih, Emmerich</hi> (2008): 
+                        <hi rend="italic">Geschichte der Anwendung quantitativer Verfahren in der russischen Sprach- und Literaturwissenschaft</hi>. Hamburg: Kova<hi rend="math">č</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Mendenhall, Thomas C.</hi> (1901): „A Mechanical Solution of a Literary Problem“, in: 
+                        <hi rend="italic">Popular Science Monthly</hi> 60: 97–105.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Moretti, Franco</hi> (2005): 
+                        <hi rend="italic">Graphs, Maps, Trees. Abstract Models for a Literary History.</hi> London, New York: Verso.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Nassehi, Armin</hi> (2019): 
+                        <hi rend="italic">Muster. Theorie der digitalen Gesellschaft.</hi> München: Beck.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Nyhan, Julianne / Flinn, Andrew</hi> (2016): 
+                        <hi rend="italic">Computation and the Humanities. Towards an Oral History of Digital Humanities</hi>. Heidelberg: Springer.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schöch, Christof</hi> (2017): „Quantitative Analyse“, in: Jannidis, Fotis / Kohle, Hubertus / Rehbein Malte (Hg.): 
+                        <hi rend="italic" xml:space="preserve">Digital Humanities. Eine Einführung. Mit Abbildungen und Grafiken. </hi>Stuttgart: Metzler 279–298.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Thaller, Manfred</hi> (2017): „Geschichte der Digital Humanities; Digital Humanities als Wissenschaft“, in: Jannidis, Fotis / Kohle, Hubertus / Rehbein Malte (Hg.): 
+                        <hi rend="italic" xml:space="preserve">Digital Humanities. Eine Einführung. Mit Abbildungen und Grafiken. </hi>Stuttgart: Metzler 3–18.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Twellmann, Marcus</hi> (2015): „‚Gedankenstatistik‘
+                        <hi style="font-size:10pt">.</hi> Vorschlag zur Archäologie der Digital Humanities“, in: 
+                        <hi rend="italic">Merkur</hi> 69: 19–30.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <anchor xml:id="CTVL00111ef3014989a4ecd9c4bc4234ab7f6ec"/>
+                        <hi rend="bold">Weitin, Thomas</hi> (2015): „Digitale Literaturwissenschaft“, in: 
+                        <hi rend="italic">Deutsche Vierteljahrsschrift für Literaturwissenschaft und Geistesgeschichte (DVJs)</hi> 89/4: 651–656.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

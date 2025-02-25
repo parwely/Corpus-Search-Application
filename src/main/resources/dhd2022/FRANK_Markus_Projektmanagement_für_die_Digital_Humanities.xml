@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_112">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Projektmanagement für die Digital Humanities</title>
+                <author>
+                    <persName>
+                        <surname>Frank</surname>
+                        <forename>Markus</forename>
+                    </persName>
+                    <affiliation>Ludwig-Maximilians-Universität München, Germany</affiliation>
+                    <email>Markus.Frank@itg.uni-muenchen.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-06-07T08:51:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Projektmanagement</term>
+                    <term>Interdisziplinarität</term>
+                    <term>Projektplanung</term>
+                    <term>Ablaufsteuerung</term>
+                    <term>agile Methoden</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Projektmanagement</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">112</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Themenbeschreibung</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Einleitung</head>
+                    <p>Unter 30% aller IT-Projekte werden erfolgreich abgeschlossen, mehr als 50% enden mit geringem Erfolg, und etwa 20% scheitern vollständig. Zu diesem Ergebnis kommt der viel beachtete CHAOS Report 2015, der in den Jahren 2011 bis 2015 über 25.000 Software-Projekte auf ihren Erfolg bzw. Misserfolg hin untersucht hat (siehe Standish Group/IKTM 2015). Erfolg wird im Report daran bemessen, ob ein Projekt den versprochenen Funktionsumfang liefert, sich im Budgetrahmen bewegt, und ob die geplante Bearbeitungszeit eingehalten wurde. Erfolgreiche IT-Projekte erfüllen oder übererfüllen alle Anforderungen, wenig erfolgreiche IT-Projekte liefern unvollständige Funktionalität oder benötigen zusätzliches Geld bzw. Zeit, und gescheiterte Projekte liefern keine Funktionalität ab. Es ist davon auszugehen, dass der Report keine IT-Projekte aus dem Bereich der Digital Humanities beinhaltet<ref target="ftn1" n="1"/>, und dennoch dürften die Gründe, die häufig für mangelnden Projekterfolg herangeführt werden, aus vielen DH-Projekten bekannt sein (vgl. Tiemeyer 2018: 2): IT-Projekte scheitern häufig an „weichen Faktoren“. Kommunikation zwischen den Projektteilen ist der Schlüsselfaktor für Erfolg, ebenso wie Transparenz und der professionelle Umgang mit Risiken, Unsicherheiten und Spannungen. Gerade das Verhalten der Projektleitung wirkt sich wesentlich auf den Erfolg aus, da sie die Rahmenbedingungen für erfolgreiche Projektabwicklung schaffen muss, wozu die IT-Strategie des Projektes, klare Rollen aber auch eine angemessene Ressourcenausstattung zählt. Je größer Projekte werden, je komplexer und interdisziplinärer, umso wichtiger wird die Wahl angemessener Arbeitsorganisationsformen und von Planungsstrukturen, die über die Erstellung eines Arbeitsplanes in der Projektantragsphase hinausgehen. Was den Erfolg eines Projektes behindert, sind in vielen Fällen nicht die „harten technischen Leistungsfaktoren“, sondern ein fehlendes Projektmanagement, welches die Rahmenbedingungen für den Projekterfolg schafft (vgl. Tiemeyer 2018: 2).
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>
+                        <hi rend="bold">
+                            <hi rend="normalweight" xml:space="preserve">Aktuelle Situation in den Digital </hi>
+                            <hi rend="normalweight">Humanities</hi>
+                        </hi>
+                    </head>
+                    <p>Professionelles Projektmanagement spielt in den DH bis zum heutigen Zeitpunkt quasi keine Rolle, weder in den Projekten selbst, noch in der Ausbildung (siehe hierzu Cremer 2019). Standard in der Ausbildung von Geisteswissenschaftlern ist auch heute noch die Einzelarbeit (vgl. Siemens 2009: 225) und nicht die Kollaboration in inter- oder multidisziplinären Teams: „ […] humanists do not necessarily come to DH with the necessary skills and mindset for collaboration“ (Siemens 2016: 344). Obwohl die Thematik langsam an Bedeutung zu gewinnen scheint<ref target="ftn2" n="2"/>, taucht sie in den Anträgen auf Fördermittel bislang allenfalls peripher auf, es existieren kaum explizite Projektmanagement-Positionen in DH-Projekten<ref target="ftn3" n="3"/>. Dedizierte Weiterbildungsangebote für das Projektmanagement in den DH oder ein Eingang dieser Themenbereiche in die Curricula der DH-Studiengänge sind bis zum heutigen Tag so selten, dass sich an Sharon Leons Feststellung aus dem Jahr 2011 über den Mangel an Absolventen und Nachwuchswissenschaftlern mit Vorbereitung auf die Zusammenarbeit in interdisziplinären Projekten bis heute kaum etwas geändert haben dürfte (siehe Leon 2011). Tatsächliche neue Arbeitsmodelle, die speziell für die DH entworfen wurden, sind ebenfalls kaum auffindbar (siehe als Ausnahmebeispiel Tabak 2017).
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Der Bedarf</head>
+                    <p>Grundsätzlich gilt: Je größer und komplexer ein IT-Projekt wird, je mehr Disziplinen zusammenarbeiten, umso größer wird die Wahrscheinlichkeit von Misserfolg (vgl. Standish Group/IKTM 2015: 3) und umso stärker steigt der Bedarf an Planung und Ablaufsteuerung. Werden die Projekte so groß, dass sie aus mehreren Teilprojekten bestehen, treten immer größere Koordinationsprobleme auf, die bis zum Auseinanderbrechen bzw. Abbruch der Projekte führen können (siehe hierzu ausführlich DFG 2008). Was also kann modernes Projektmanagement in einem Forschungsprojekt der DH bewirken? Projektmanagement dient dazu, das Ineinandergreifen von Ressourcen sowie die Abläufe im Projekt zu optimieren und Engpässe zu vermeiden. Es soll produktive Kommunikation über fachliche Domänen hinweg sicherstellen, Meilensteine definieren und über deren Einhaltung wachen. Es soll Konfliktpotentiale im Team reduzieren und bei der Konfliktlösung helfen. Zusammengefasst soll es dazu beitragen, dass Projekte erfolgreich abgeschlossen werden, die Ziele erfüllt oder übererfüllt werden, und dass die Arbeitskraft der Mitarbeiter geschont wird<ref target="ftn4" n="4"/>. Gerade im Wettbewerb um Forschungsgelder kann ein professionelles Projektmanagement einen klaren Vorteil bei der Zielerreichung bedeuten, im Gegensatz zu Projekten ohne entsprechendes Management. Woran können sich die DH orientieren, wenn sie nach Management-Ansätzen für ihre Projekte sucht? Obwohl DH-Projekte einige Besonderheiten aufweisen, welche durch die Zusammenarbeit von Geisteswissenschaftlern und IT-Spezialisten entstehen, handelt es sich am Ende doch meistens um IT-Projekte, mit der zentralen Herausforderung, die Kommunikation zwischen den fachwissenschaftlichen Elementen und den IT-Elementen zu überbrücken. Kommunikation und interdisziplinäre Konflikte spielen eine bedeutende Rolle, im Kern benötigen die komplexen Softwareprojekte aber primär eine umfangreiche Planung und zugleich Organisationsformen, die flexibel auf Veränderungen reagieren können. Klassische sequenzielle Vorgehensmodelle (siehe Timinger 2017: 38-41) sind für IT-Projekte oft nicht zielführend, es braucht vielmehr iterative und inkrementelle Vorgehensmodelle (siehe Timinger 2017: 43-46) oder agile Methoden (siehe Timinger 2017: 161-240), die mit hoher Geschwindigkeit auf sich verändernde Rahmenbedingungen und neue methodische und fachwissenschaftliche Erkenntnisse reagieren können.
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Der Workshop</head>
+                    <p>Der Workshop soll an diesem Bedarf ansetzen, und soll eine erste Einführung in zentrale Bereiche des Projektmanagement im IT-Sektor geben, die an den Bedürfnissen der DH ausgerichtet sind. Dabei liegt ein besonderes Augenmerk darauf, den Teilnehmern die Möglichkeit zu geben, auf Basis ihrer eigenen Projekterfahrungen die Methoden zu reflektieren und exemplarisch anzuwenden.</p>
+                    <p>Ein erster Teil des Workshops befasst sich mit der Projektplanung (siehe hierzu Tiemeyer 2018, Timinger 2017, Jakoby 2015): Es lässt sich wohl generell konstatieren, dass in DH-Forschungsprojekten zu wenig geplant wird, da zumeist eine Orientierung am groben Arbeitskonzept erfolgt, welches im Projektantrag skizziert wurde. Im Workshop werden Werkzeuge präsentiert, die aufbauend auf dem Projektantrag zur detaillierteren Planung komplexer Projekte eingesetzt werden können. Wie formuliert man Arbeitspakete, welche Abhängigkeiten zwischen Kernelementen existieren, wie evaluiert man Durchlaufzeiten und stellt Engpässe fest? Wie vermeidet man Zielantinomien?</p>
+                    <p>Der zweite Teil befasst sich mit klassischem Projektmanagement: Welche Vorgehensmodelle existieren, und welche sind für DH-Projekte sinnvoll? Welche Instrumente hält das klassische Projektmanagement bereit, um die Arbeit zu steuern (Ist-Soll-Vergleiche etc.)?</p>
+                    <p>Der dritte Teil führt in den Bereich des agilen Projektmanagements ein: Agilität ist ein zentrales Paradigma modernen F&amp;E-Arbeit im Software-Segment (siehe Beck et al. 2001). Gezeigt werden grundlegende Konzepte von Scrum und Kanban (siehe z.B. Schwaber &amp; Sutherland 2020). Welche Elemente daraus sind einsetzbar im Projektalltag und unter den Determinanten universitärer Organisationsverfassung?</p>
+                    <p>Im letzten Teil des Workshops wird es um „Projektkatastrophen“ gehen: Wie kommt es zu sogenannten Death-March-Projekten (siehe Yourdon 1997), und wie vermeidet man, dass sich das eigene Projekt dazu entwickelt?</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Weitere Angaben</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Lernziele</head>
+                    <list type="unordered">
+                        <item>Die Teilnehmenden kennen gängige Ablauf- und Planungsstrukturen von Projekten, Grundlagen klassischer Managementansätze für IT-Projekte, agile Methoden der Projektrealisierung (SCRUM, KANBAN) sowie gängige Gefahren und zentrale Determinanten der Projektrealisierung in den Digital Humanities.</item>
+                        <item>Sie können passende Vorgehensmodelle auswählen, Projektziele formulieren und definieren, Zielhierarchien erstellen und operationalisieren, Risiken erfassen und einfache Projektstrukturpläne anfertigen. Darüber hinaus können sie Vorgangsknoten-Netzpläne (DIN 69900) lesen, in einfacher Form erstellen und Ressourcenplanung vornehmen.</item>
+                    </list>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Ablauf &amp; Zeitplan</head>
+                    <p>Tag 1 (4 Stunden):</p>
+                    <list type="unordered">
+                        <item>Projektmanagement Einleitung (Standards, Vorgehensmodelle, Phasen, Aufwand)</item>
+                        <item>Fragen und Übungen</item>
+                        <item>PAUSE</item>
+                        <item>Klassisches Projektmanagement (Arbeitsmodelle, Klassische Werkzeuge)</item>
+                        <item>Anwendungsfälle</item>
+                    </list>
+                    <p>Tag 2 (4 Stunden):</p>
+                    <list type="unordered">
+                        <item>Agiles Projektmanagement (Scrum, Kanban, Engpasstheorie)</item>
+                        <item>Anwendungsfälle</item>
+                        <item>PAUSE</item>
+                        <item>Zeit, Geld, Qualität und der „Death March“</item>
+                        <item>Fragen und Übungen</item>
+                    </list>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Zielpublikum</head>
+                    <p>Der Workshop richtet primär an Personen, die als Geisteswissenschaftler oder IT-Spezialisten in DH-Forschungsprojekten arbeiten und/oder mit der Koordination bzw. Leitung von DH-Forschungsprojekten betraut sind. Sie sollten einige Erfahrungen in der Projektarbeit mitbringen, da die im Workshop vermittelten Instrumente auf konkrete Management- und Planungsfragen der Projekte angewendet werden sollen.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Technische Ausstattung</head>
+                    <p>Es wird keine besondere technische Ausstattung benötigt.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Beitragende</head>
+                    <p>Dr. Markus Frank</p>
+                    <p>(Ludwig-Maximilians-Universität, IT-Gruppe Geisteswissenschaften, Geschwister-Scholl-Platz 1, 80539 München)</p>
+                    <p>Markus Frank ist an der IT-Gruppe Geisteswissenschaften im Bereich der Konzeption und Koordination von Digital Humanities Projekten tätig, zudem betreut er den Studiengang 
+                        <hi rend="italic">Digital Humanities - Sprachwissenschaften</hi>, in dem er zu geisteswissenschaftlichen, informatischen als auch zu Projektmanagement-Themen lehrt. Seine Arbeitsschwerpunkte liegen im Bereich der Korpuslinguistik, der Data Science und dem Scientific Programming. Seit einigen Jahren beschäftigt er sich mit dem Themenbereich professionelles Projektmanagement für Forschungsprojekte in den Digital Humanities. Nach der Promotion hat er berufsbegleitend 
+                        <hi rend="italic">Wissenschaftsmanagement</hi> im Master an der Deutschen Universität für Verwaltungswissenschaften in Speyer studiert.
+                    </p>
+                </div>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Der Schwerpunkt des Reports liegt auf privatwirtschaftlichen IT-Projekten, wobei die Softwareprojekte der Klassifikation „Government“ besonders schlecht abschneiden (21% Erfolg, 55% geringer Erfolg, 24% Scheitern, siehe Standish Group/IKTM 2015: 4).</note><note place="foot" xml:id="ftn2" n="2"> Siehe hierzu beispielsweise die 
+                                <hi rend="italic">Interviewreihe zu Projektmanagement in den Digital Humanities</hi> der VDHD2021 (https://vdhd2021.hypotheses.org/187, aufgerufen am 27.05.2021) oder den Beitrag von Rodgers et al. 2016.
+                            </note><note place="foot" xml:id="ftn3" n="3"> Aus Ausnahme kann hier das Projekt Verba Alpina an der LMU München gelten, welches über eine dedizierte Projektmanagement-Position verfügt (siehe Krefeld &amp; Lücke 2014).</note><note place="foot" xml:id="ftn4" n="4"> Für eine Studie zu den Überstunden im Arbeitsalltag des akademischen Mittelbaus siehe Ambrasat (2019).</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Ambrasat, Jens</hi> (2019): 
+                        "Bezahlt oder unbezahlt? Überstunden im akademischen Mittelbau." In: <hi rend="italic">Forschung &amp; Lehre</hi> 19 (2). 152–154.
+                    </bibl>
+                    <bibl><hi rend="bold">Beck, Kent / Grenning, James / Martin, Robert</hi> et al. (2001): 
+                        <hi rend="italic">Manifesto for Agile Software Development</hi>. http://agilemanifesto.org/ [zuletzt aufgerufen am 27.05.2021]
+                    </bibl>
+                    <bibl><hi rend="bold">Cremer, Fabian</hi> (2019): 
+                        <hi rend="italic">Gottes Werk und Teufels Beitrag: Ein Essay zu Digital Humanities und Projektmanagement</hi>. DHdBlog. https://dhd-blog.org/?p=11283 [zuletzt aufgerufen am 27.05.2021]
+                    </bibl>
+                    <bibl><hi rend="bold">DFG</hi> (2008): <hi rend="italic">Management von Forschungsverbünden - Möglichkeiten der Professionalisierung und Unterstützung</hi>. Wiley-VCH.</bibl>
+                    <bibl><hi rend="bold">Jakoby, Walter</hi> (2015
+                        <hi rend="superscript">3</hi>): 
+                        <hi rend="italic">Projektmanagement für Ingenieure</hi>. Springer Vieweg.
+                    </bibl>
+                    <bibl><hi rend="bold">Krefeld, Thomas / Lücke, Stephan</hi> (2014): 
+                        <hi rend="italic">VerbaAlpina. Der alpine Kulturraum im Spiegel seiner Mehrsprachigkeit</hi>. https://dx.doi.org/10.5282/verba-alpina [zuletzt aufgerufen am 27.05.2021]
+                    </bibl>
+                    <bibl><hi rend="bold">Leon, Sharon</hi> (2011): 
+                        <hi rend="italic">Project Management for Humanists</hi>. http://mediacommons.org/alt-ac/pieces/preparing-future-primary-investigators-project-management-humanists [zuletzt aufgerufen am 27.05.2021]
+                    </bibl>
+                    <bibl><hi rend="bold">Rodgers, Stephanie</hi> et al. (2016): 
+                        <hi rend="italic">Project Management for the Digital Humanities</hi>. https://scholarblogs.emory.edu/pm4dh/ [zuletzt aufgerufen am 05.11.2021]
+                    </bibl>
+                    <bibl><hi rend="bold">Schwaber, Ken / Sutherland, Jeff</hi> (2020): 
+                        <hi rend="italic">The Scrum Guide</hi>. https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf [zuletzt aufgerufen am 27.05.2021]
+                    </bibl>
+                    <bibl><hi rend="bold">Siemens, Lynne</hi> (2009): 
+                        "‘It´s a team if you use 'reply all'’: An exploration of research teams in digital humanities environments". In: <hi rend="italic">Literary and Linguistic Computin</hi> 24 (2). 225–233.
+                    </bibl>
+                    <bibl><hi rend="bold">Siemens, Lynne</hi> (2016): 
+                        "Project management and the digital humanist". In: Crompton, Constance / Lane, Richard / Siemens, Ray (Hrsg.): <hi rend="italic">Doing Digital Humanities. Practice, Training, Research</hi>. Routledge. 343–357.
+                    </bibl>
+                    <bibl><hi rend="bold">Standish Group/IKMT</hi> (2015): 
+                        <hi rend="italic">Chaos Report 2015</hi>. https://www.standishgroup.com/sample_research_files/CHAOSReport2015-Final.pdf [zuletzt aufgerufen am 27.05.2021]
+                    </bibl>
+                    <bibl><hi rend="bold">Tabak, Edin</hi> (2017): 
+                        "A Hybrid Model for Managing DH Projects". In: <hi rend="italic">Digital Humanities Quarterly</hi> 11 (1).
+                    </bibl>
+                    <bibl><hi rend="bold">Tiemeyer, Ernst</hi> (2018): 
+                        <hi rend="italic">Handbuch IT-Projektmanagement</hi>. Hanser.
+                    </bibl>
+                    <bibl><hi rend="bold">Timinger, Holger</hi> (2017): 
+                        <hi rend="italic">Modernes Projektmanagement</hi>. Wiley.
+                    </bibl>
+                    <bibl><hi rend="bold">Yourdon, Edward</hi> (1997): 
+                        <hi rend="italic">Death March. The Complete Software Developer´s Guide to Surviving “Mission Impossible” Projects</hi>. Prentice Hall PTR.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_256">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Towards a Computational Study of German Book Reviews</title>
+                    <title type="sub">A Comparison between Emotion Dictionaries and Transfer Learning in Sentiment Analysis</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Rebora</surname>
+                        <forename>Simone</forename>
+                    </persName>
+                    <affiliation>University of Bielefeld, Germany</affiliation>
+                    <email>simone.rebora@uni-bielefeld.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Messerli</surname>
+                        <forename>Thomas</forename>
+                    </persName>
+                    <affiliation>University of Basel, Switzerland</affiliation>
+                    <email>thomas.messerli@unibas.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Herrmann</surname>
+                        <forename>J. Berenike</forename>
+                    </persName>
+                    <affiliation>University of Bielefeld, Germany</affiliation>
+                    <email>berenike.herrmann@uni-bielefeld.de</email>
+                <idno type="ORCID">0000-0002-5256-0566</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-15T10:49:01.624694866</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Book reviews</term>
+                    <term>Machine learning</term>
+                    <term>Sentiment analysis</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Annotieren</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">256</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <anchor xml:id="id_docs-internal-guid-9f56acc5-7fff-4a6e-05a0-07ec80c9d8ca"/>This poster reports on the groundwork for the computational study of evaluative practices in German language book reviews. We trained classifiers for evaluation and sentiment at sentence level on the LOBO corpus, comprising ~1.3 million book reviews downloaded from the social reading platform LovelyBooks.
+            </p>
+            <p>
+                <hi rend="">For the two classification tasks, we compared performance of dictionary-based and transfer-learning (TL) based sentiment analysis (SA). To use dictionary-based SA systematically, a repository of twelve open-source German-language SA lexicons was created (see Table 1). Lexicon formats were uniformed to automatically annotate reviews for sentiment in a processing pipeline. For the TL approaches, we chose BERT and FastText, both of which based on distributional representations of natural language (see Devlin et al., 2019; Mikolov et al., 2017</hi>)
+                <hi rend="">.</hi>
+            </p>
+            <p>
+                <hi rend="">
+                    <figure>
+                        <head>Tab. 1: Overview of German-language sentiment dictionaries</head>
+                        <graphic url="Pictures/b21ba19a61b2c71b0d07415a2b4311aa.png"/>
+                    </figure>
+                </hi>
+              </p>
+            <p>The dictionary-based and TL approaches were evaluated on two manually annotated datasets, working with two annotators: in the first dataset (~21,000 sentences), the annotation task was that of identifying evaluative language (vs. descriptive language); in the second dataset (~13,500 sentences), the task focused on the distinction between positive and negative sentiment. These two classification tasks form the basis for a large-scale analysis of the LOBO corpus, which segments reviews into evaluative and descriptive passages, to describe differences in evaluation practices across genres (e.g., romance, science fiction) and ratings (1-5 stars).</p>
+            <p>
+                <hi rend="">For the creation of the Gold Standard of Task 1 (evaluation classification), manual annotation reliability was evaluated on a subset of 250 reviews (~4,000 sentences). Cohen’s </hi>
+                <hi rend="italic">Kappa</hi>
+                <hi rend=""> </hi>
+                <hi rend="">(0.76) indicated a strong agreement between annotators. Overall, 66% of the total sentences were annotated as “evaluation”. Training an SVM classifier on the features generated by the 12 sentiment dictionaries rendered a macro </hi>
+                <hi rend="italic">F1</hi>
+                <hi rend=""> </hi>
+                <hi rend="">score of 0.75 (see Table 2 for details).</hi>
+            </p>
+            <p>
+                <hi rend="">
+                    <figure>
+                        <head>Tab. 2: Efficiency of dictionary-based SVM on Task 1</head>
+                        <graphic url="Pictures/aacbbb91c514a9932afe8765dbc51672.png"/>
+                    </figure>
+                </hi>
+            </p>
+            <p>
+                <hi rend="">To compare the efficiency of the dictionaries, the same classifier was trained separately with the single dictionaries. Fig. 1 shows the results, with AffectiveNorms as the best-performing dictionary (macro </hi>
+                <hi rend="italic">F1 </hi>
+                <hi rend="">score of 0.67).</hi>
+            </p>
+            <p>
+                <figure>
+                    <graphic url="Pictures/fdceb3361a5be5c10f1024ce25cb6d0f.png"/>
+                    <head>Fig. 1: Efficiency of single German-language SA dictionaries (Task 1)</head>
+                </figure>
+            </p>
+            <p>
+                <hi rend="">Yet, by contrast, TL-methods proved substantially more efficient, with macro</hi>
+                <hi rend=""> </hi>
+                <hi rend="italic">F1</hi>
+                <hi rend=""> </hi>
+                <hi rend="">scores of 0.83 for FastText and of 0.89 for BERT (results obtained via a 5-fold cross validation, repeated five times to average variance, see Table 3 for details on BERT).</hi>
+            </p>
+            <p>
+                <hi rend="">
+                    <figure>
+                        <head>Tab. 3: Efficiency of BERT on Task 1</head>
+                        <graphic url="Pictures/a5e4fb31030e74dadf2fcbf9fd0a9242.png"/>
+                    </figure>
+                </hi>
+            </p>
+            <p>The evaluation procedure was repeated on Task 2 (positive vs. negative sentiment). Again, inter-annotator agreement was strong for manual annotation of the Gold Standard (Cohen’s Kappa = 0.79). Annotation percentages are shown by Fig. 2 (where the “other” category indicates both mixed feelings and the absence of evaluation).</p>
+            <p>
+                <figure>
+                    <graphic url="Pictures/d950d46427f136c87d8c87085dbaa50e.png"/>
+                    <head>Fig. 2: Percentages of annotations for task 2</head>
+                </figure>
+            </p>
+            <p>
+                <hi rend="">The dictionary-based SVM classifier reached a macro </hi>
+                <hi rend="italic">F1</hi>
+                <hi rend=""> </hi>
+                <hi rend="">score of 0.64, while the best performance was obtained by SentiArt (see Fig. 3). Efficiency was again higher for FastText (macro </hi>
+                <hi rend="italic">F1 </hi>
+                <hi rend="">score = 0.72) and best for BERT (macro </hi>
+                <hi rend="italic">F1</hi>
+                <hi rend=""> </hi>
+                <hi rend="">score = 0.83). However, the learning curve for BERT shows how there is still room for improvement, with efficiency not fully reaching a plateau (see Fig. 4).</hi>
+            </p>
+            <p>
+                <figure>
+                    <graphic url="Pictures/33e14784be3beec00ab9fe90a8523774.png"/>
+                    <head>Fig. 3: Efficiency of single German-language SA dictionaries on Task 2</head>
+                </figure>
+            </p>
+            <p>
+                <figure>
+                    <graphic url="Pictures/eff835afec5d34aac5e649535a0fcd49.png"/>
+                    <head>Fig. 4: Learning curve (with increasing amount of training material) of BERT for Task 2</head>
+                </figure>
+            </p>
+            <p>
+                <hi rend="">
+                    <figure>
+                        <head>Tab. 4: Overview of results for lexicon-based and TL-based approache</head>
+                        <graphic url="Pictures/636ae6971af2f159725288924fc664fc.png"/>
+                    </figure>
+                </hi>
+            </p>
+            <p>Our results highlight the higher efficiency of TL-methods (see Table 4) and of dictionaries based on vector space models (like SentiArt and AffectiveNorms). They show that computational methods can reliably identify sentiment of book reviews in German. In order to fruitfully use similar methodology to identify types of engagement by reviewers with literature beyond the descriptive/evaluative and positive/negative dichotomies, a useful next step will be to attempt the design of TL-tasks for the identification of more fine-grained evaluative practices. These include the construction of and orientation to particular evaluative scales (e.g. reading pleasure, literary quality) and particular subjects of evaluation (e.g. novels, authors, characters).</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-29983a88-7fff-e13a-4495-4ee6266fd339"/>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Clematide, S. and Klenner, M.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2010). Evaluation and extension of a polarity lexicon for German. s.n. doi:10.5167/UZH-45506. https://www.zora.uzh.ch/id/eprint/45506 (accessed 12 July 2021).</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Devlin, J., Chang, M.-W., Lee, K. and Toutanova, K.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="italic">ArXiv:1810.04805 [Cs] </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">http://arxiv.org/abs/1810.04805 (accessed 13 July 2021).</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Hölzer, M., Scheytt, N. and Kächele, H.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(1992). Das „Affektive Diktionär Ulm“ als eine Methode der quantitativen Vokabularbestimmung. In Züll, C. and Mohler, P. Ph. (eds), </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="italic">Textanalyse: Anwendungen der computerunterstützten Inhaltsanalyse. Beiträge zur 1. TEXTPACK-Anwenderkonferenz</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">. (ZUMA-Publikationen). Wiesbaden: VS Verlag für Sozialwissenschaften, pp. 131–54 doi:10.1007/978-3-322-94229-6_7. https://doi.org/10.1007/978-3-322-94229-6_7 (accessed 12 July 2021).</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Jacobs, A. M.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2019). Sentiment Analysis for Words and Fiction Characters From the Perspective of Computational (Neuro-)Poetics. </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="italic">Frontiers in Robotics and AI</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">, </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">6</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">doi:10.3389/frobt.2019.00053. https://www.frontiersin.org/article/10.3389/frobt.2019.00053/full (accessed 8 September 2019).</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Kanske, P. and Kotz, S. A.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2010). Leipzig Affective Norms for German: A reliability study. </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="italic">Behavior Research Methods</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">, </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">42</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(4): 987–91 doi:10.3758/BRM.42.4.987.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Klinger, R., Suliya, S. S. and Reiter, N.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2016). Automatic Emotion Detection for Quantitative Literary Studies: A case study based on Franz Kafka’s ‘Das Schloss’ und ‘Amerika’. </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="italic">DH2016 Book of Abstracts</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">. Kraków: ADHO https://dh2016.adho.org/abstracts/318.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Köper, M. and Schulte im Walde, S.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2016). Automatically Generated Affective Norms of Abstractness, Arousal, Imageability and Valence for 350 000 German Lemmas. </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="italic">Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC’16)</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">. Portorož, Slovenia: European Language Resources Association (ELRA), pp. 2595–98 https://aclanthology.org/L16-1413 (accessed 12 July 2021).</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Mikolov, T., Grave, E., Bojanowski, P., Puhrsch, C. and Joulin, A.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2017). Advances in Pre-Training Distributed Word Representations. </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="italic">ArXiv:1712.09405 [Cs] </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">http://arxiv.org/abs/1712.09405 (accessed 13 July 2021).</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Mohammad, S. M. and Turney, P. D.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2013). CROWDSOURCING A WORD-EMOTION ASSOCIATION LEXICON. </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="italic">Computational Intelligence</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">, </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">29</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(3): 436–65 doi:10.1111/j.1467-8640.2012.00460.x.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Remus, R., Quasthoff, U. and Heyer, G.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2010). SentiWS - A Publicly Available German-language Resource for Sentiment Analysis. </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="italic">Proceedings of the Seventh International Conference on Language Resources and Evaluation (LREC’10)</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">. Valletta, Malta: European Language Resources Association (ELRA) http://www.lrec-conf.org/proceedings/lrec2010/pdf/490_Paper.pdf (accessed 12 July 2021).</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Ruppenhofer, J., Steiner, P. and Wiegand, M.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2017). Evaluating the Morphological Compositionality of Polarity. </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="italic">RANLP 2017 - Recent Advances in Natural Language Processing Meet Deep Learning</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">. Incoma Ltd. Shoumen, Bulgaria, pp. 625–33 doi:10.26615/978-954-452-049-6_081. http://www.acl-bg.org/proceedings/2017/RANLP%202017/pdf/RANLP081.pdf (accessed 12 July 2021).</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Stamm, N.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2014). Klassifikation und Analyse von Emotionswörtern in Tweets für die Sentimentanalyse.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Võ, M. L. H., Conrad, M., Kuchinke, L., Urton, K., Hofmann, M. J. and Jacobs, A. M.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2009). The Berlin Affective Word List Reloaded (BAWL-R). </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="italic">Behavior Research Methods</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">, </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">41</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2): 534–38 doi:10.3758/BRM.41.2.534.</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="bold">Waltinger, U.</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">(2010). GermanPolarityClues: A Lexical Resource for German Sentiment Analysis. </hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="italic">Proceedings of the Seventh International Conference on Language Resources and Evaluation (LREC’10)</hi>
+                        </ref>
+                        <ref target="https://www.zotero.org/google-docs/?hrnXlP">
+                            <hi rend="">. Valletta, Malta: European Language Resources Association (ELRA) http://www.lrec-conf.org/proceedings/lrec2010/pdf/91_Paper.pdf (accessed 12 July 2021).</hi>
+                        </ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

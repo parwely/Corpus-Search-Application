@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_155">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Corpus Nummorum</title>
+                <title type="sub">Eine digitale Forschungsinfrastruktur für antike Münzen</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Köster</surname>
+                        <forename>Jan</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburg. Akademie der Wissenschaften, Germany</affiliation>
+                    <email>jan.koester@bbaw.de</email>
+                <idno type="ORCID">0000-0003-2713-5207</idno></author>
+                <author>
+                    <persName>
+                        <surname>Franke</surname>
+                        <forename>Claus</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburg. Akademie der Wissenschaften, Germany</affiliation>
+                    <email>franke@bbaw.de</email>
+                <idno type="ORCID">0000-0003-3371-6163</idno></author>
+                <author>
+                    <persName>
+                        <surname>Peter</surname>
+                        <forename>Ulrike</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburg. Akademie der Wissenschaften, Germany</affiliation>
+                    <email>peter@bbaw.de</email>
+                <idno type="ORCID">0000-0003-0954-4322</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Research Software Engineering</term>
+                    <term>Klassische Altertumswissenschaften</term>
+                    <term>Numismatik</term>
+                    <term>relationale Daten</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Annotieren</term>
+                    <term>Kollaboration</term>
+                    <term>Artefakte</term>
+                    <term>Forschung</term>
+                    <term>Werkzeuge</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">155</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Geprägte Münzen sind Objekte von besonderem quellenkundlichen Wert. Als erstes allgemein akzeptiertes normiertes Tauschmittel waren sie einer der wichtigsten Schlüssel zur Entstehung übergreifender Handelsnetzwerke und damit letztendlich zu der Wirtschaft und Gesellschaft, wie wir sie heute kennen. Darüber hinaus wurden (und werden) Münzen sehr oft mit bildlichen Darstellungen und kurzen Textbotschaften versehen, sodass sie nicht nur einen finanziellen Wert darstellen, sondern auch ein Mittel der Kommunikation repräsentieren. Die geringe Größe erfordert jedoch eine spezielle, komprimierte, mithin chiffrierte Bildsprache, die zu entschlüsseln besondere wissenschaftliche Methoden und vor allem eine breite, systematisch erfasste Datengrundlage erfordert. Aufgrund ihrer großen Stückzahl, den sozioökonomischen Implikationen, der Symbolkraft und der in der Regel hervorragenden Datierbarkeit bilden Münzen eine der wichtigsten Materialgruppen in den klassischen Altertumswissenschaften.</p>
+            <p>Das an der Berlin-Brandenburgischen Akademie der Wissenschaften (Zentrum Grundlagenforschung Alte Welt) beheimatete Drittmittelprojekt Corpus Nummorum (<ref target="https://www.corpus-nummorum.eu/">https://www.corpus-nummorum.eu/</ref>) erschließt antike griechische Münzen geordnet nach Regionen und konzentriert sich auf Prägungen aus Thrakien, Moesien, Mysien und der Troas, die bereits in der Webpräsenz des CN verfügbar sind. Die Bestände werden in Kooperation mit dem Münzkabinett der Staatlichen Museen zu Berlin und internationalen Partnern sowie der direkten Einbeziehung der numismatischen Community (sowohl Forscher*innen als auch Laien) erschlossen. Die Sammlung der Objekte bildet die Grundlage für die Bestimmung und Erfassung der zur Herstellung der Münzen verwendeten Stempel sowie der Klassifizierung der Münzen in ausführlich beschriebenen Leittypen. 
+            </p>
+            <p>Das Corpus Nummorum bildet eine digitale Forschungsinfrastruktur, welche die Nachnutzung der Forschungsdaten und die uneingeschränkte Kollaboration mit anderen Personen bzw. Institutionen gestattet und fördert. Dabei kommt der Verwendung und Erweiterung numismatischer Normdaten eine große Bedeutung zu. Besonders hervorzuheben ist hier die enge Verzahnung mit dem Normdatenportal Nomisma (<ref target="http://nomisma.org/">http://nomisma.org/</ref>). Des Weiteren werden zusammen mit dem Big Data Lab der Goethe-Universität zu Frankfurt a.M. die Potenziale des Natural Language Processing, der machine-learning-basierten Bilderkennung sowie der automatisierten Qualitätskontrolle eruiert und zur praktischen Anwendung gebracht. So soll unter anderem ein multilingualer ikonographischer Thesaurus entstehen, von dem alle ikonographisch arbeitenden Altertumswissenschaften profitieren.
+            </p>
+            <p>Im Bereich des Research Software Engineering hat das Corpus Nummorum in Zusammenarbeit mit dem Arbeitsbereich TELOTA – IT/DH der BBAW den CN Editor, eine multifunktionale Web-App, entwickelt, welche den gesamten Workflow von der Anlage eines neuen Datensatzes, über den Upload und die Verknüpfung mit Bildern bzw. anderen Medien sowie die Anreicherung mit Normdaten bis hin zur Veröffentlichung händeln kann. Hinzu treten umfangreiche Such- und Filtermöglichkeiten einschließlich verschiedener Indices und einer Volltextsuche, welche Boolesche Operatoren, REGEX sowie CN-spezifische Ausdrücke erlaubt. Der CN Editor ist Open-Source-Software. Der Sourcecode ist seit 2021 vollumfänglich auf Github (<ref target="https://github.com/telota/corpus-nummorum-editor">https://github.com/telota/corpus-nummorum-editor</ref>) unter der GPL-3.0 License frei verfügbar ist. Er basiert auf dem PHP-Framework Laravel für das Backend sowie dem Javascript-Vue.js-Framework für das Frontend (Single-Page-Application). Hinzu tritt eine durchstrukturierte MySQL-Datenbank. Ein leichtgewichtiger, modularer Aufbau erlaubt eine schnelle Erweiterung des CN Editors um neue Funktionen oder die Anpassung an andere Objektgattungen, was ihn auch für Vorhaben jenseits der Numismatik interessant macht.
+            </p>
+            <p>Das geplante Poster bzw. die Präsentation soll neben der Projektkonzeption vor allem die praktische digitale Arbeit des Corpus Nummorum veranschaulichen und gleichermaßen Herausforderungen wie Lösungsansätze vorstellen, die nicht nur für das Feld der Numismatik allein, sondern für alle Fächer, die mit ähnlich strukturierten Daten arbeiten, von Relevanz sind. Zu nennen wären hier etwa:</p>
+            <list type="unordered">
+            <item>Verknüpfung von Einzelobjekten mit entsprechenden Leitgruppen, wobei alle oder nur ausgewählte Werte der Leitgruppe dynamisch auf das Einzelobjekt übertragen werden können (und zwar sowohl manuell als auch automatisiert, etwa wenn die Leitgruppe aktualisiert wird)</item>
+            <item>Versionierung und Edition. Aktuell beschäftigen wir uns intensiv mit einer eher technischen Versionierung, die jede direkt Änderung erfasst, und einer gezielten Neuedition, die z.B. nötig werden kann, wenn die Datierung einer Münze aufgrund neuer Erkenntnisse geändert werden muss. Diese Vorgänge transparent, nachvollziehbar und gleichzeitig technisch niedrigschwellig zu gestalten, ist eines unserer wichtigsten Anliegen.</item>
+            <item>Erstellen eines ikonographischen Thesaurus basierend auf Natural Language Processing der eingegebenen Daten sowie einer entsprechenden Aufbereitung und Einordnung der Ergebnisse. Ziel ist ein innovatives standardisiertes multilinguales Normdatenportal für Münzikinographie.</item>
+            </list>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Ulrike Peter / Karsten Tolle</hi> (2019): "Corpus Nummorum – Coins, types and data quality control", <hi rend="italic">Proceedings of the 8th Joint Meeting of ECFN and nomisma.org 2019</hi> (im Druck)</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Patricia Klinger / Sebastian Gampe / Karsten Tolle / Ulrike Peter</hi> (2018): "Semantic Search based on Natural Language Processing – a Numismatic example", in: <hi rend="italic">Journal of Ancient History and Archaeology</hi> 5, 3: 68-79</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Ulrike Peter</hi> (2017): "Corpus Nummorum Thracorum – A Research Tool for Thracology and an Example of Digital Numismatic Collaboration", in: Maria Caccamo Caltabiano (eds.): <hi rend="italic">XV International Numismatic Congress Taormina 2015. Proceedings</hi>, 1, Roma / Messina: 1306</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

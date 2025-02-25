@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_288">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Vom Begriff über das Phänomen zur Analyse</title>
+                <title type="sub">Ein CRETA-Workshop zur Operationalisierung in den DH</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Andresen</surname>
+                        <forename>Melanie</forename>
+                    </persName>
+                    <affiliation>University of Stuttgart, Germany</affiliation>
+                    <email>melanie.andresen@ims.uni-stuttgart.de</email>
+                <idno type="ORCID">0000-0002-3913-1273</idno></author>
+                <author>
+                    <persName>
+                        <surname>Krautter</surname>
+                        <forename>Benjamin</forename>
+                    </persName>
+                    <affiliation>Heidelberg University, Germany</affiliation>
+                    <email>Benjamin.Krautter@gs.uni-heidelberg.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Pagel</surname>
+                        <forename>Janis</forename>
+                    </persName>
+                    <affiliation>University of Stuttgart, Germany</affiliation>
+                    <email>janis.pagel@ims.uni-stuttgart.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Pichler</surname>
+                        <forename>Axel</forename>
+                    </persName>
+                    <affiliation>FU Berlin, Germany</affiliation>
+                    <email>axel.pichler@fu-berlin.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Operationalisierung</term>
+                    <term>Modellierung</term>
+                    <term>Textanalyse</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Theoretisierung</term>
+                    <term>Methoden</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">288</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Der Workshop stellt eine weiterentwickelte und personell anders besetzte Version des auf der DHd 2020 abgehaltenen, beinahe gleichnamigen Workshops dar. Er adressiert eine der zentralen Herausforderungen für Arbeiten in den Digital Humanities – die Operationalisierung geisteswissenschaftlicher Konzepte und Fragestellungen für computergestützte Forschungsansätze (vgl. Jannidis 2010: 109–132; Moretti 2013; Flanders/Jannidis 2015; Jacke 2014: 118–139; Pichler/Reiter 2020, Pichler/Reiter 2021). Während Geisteswissenschaftler*innen vor allem mit komplexen, häufig mehrere Textphänomene umfassenden Konzepten arbeiten und als relevant erachtete Kontexte zu deren Deutung heranziehen, ist die computergestützte Arbeit an identifizierbare Phänomene auf der Textoberfläche gebunden. Die hieraus erwachsende Diskrepanz zwischen theoretischen Erwartungen und konkreten Ergebnissen gilt es über eine adäquate Operationalisierung zu überbrücken (vgl. Moretti 2013: 1). Ziel ist es also, Verfahren zu entwickeln, die theoretische Begriffe über potenziell mehrere Teilschritte auf Textoberflächenphänomene zurückführen. Oder kurz gesagt: 
+                    <hi rend="bold">die Erkennung und Messbarmachung von Instanziierungen theoretischer Konzepte</hi>. Mit unserem Workshop wollen wir genau diese Schnittstelle in den Fokus rücken. Anhand ausgewählter Anwendungsfälle zeigen wir, welche Herausforderungen sich aus dem Einsatz computergestützter Methoden für geisteswissenschaftliche Fragestellungen ergeben und wie mit ihnen umgegangen werden kann. In einem praktischen Teil haben die Teilnehmenden die Möglichkeit, an der Operationalisierung vorgegebener exemplarischer Fragestellungen der Textanalyse und der dafür relevanten Konzepte zu arbeiten. Hierfür stellen wir Anwendungsfälle mit geeigneten Tools und Technik-„Baukästen“ zur Verfügung. Programmierkenntnisse werden dabei nicht vorausgesetzt. Ziel des Workshops ist es, das Bewusstsein für die Differenzen zwischen geisteswissenschaftlicher und computergestützter Arbeitsweise zu schärfen, typische Herausforderungen zu adressieren und Herangehensweisen zur Operationalisierung geisteswissenschaftlicher Konzepte aufzuzeigen. Denn nur durch die reflektierte Auseinandersetzung mit den Operationalisierungsannahmen kann ein angemessener Umgang mit den Ergebnissen gewährleistet werden.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Use Cases</head>
+                <p>Als Anwendungsfälle stellen wir Phänomene vor, zu denen wir im Rahmen des „Center for Reflected Text Analytics“ e.V. (CRETA)
+                    <hi rend="superscript">1</hi> umfangreiche Erfahrungen gesammelt haben. Die gewählten Beispiele decken verschiedene Aufgabentypen ab: Wir behandeln erstens die Extraktion bestimmter Instanzen aus einem Text und zweitens ein holistisches Textphänomen.
+                </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Entitäten und Entitätenreferenzen </head>
+                    <p>In einem ersten Anwendungsfall befassen wir uns mit dem Konzept der Entität und ihrer Referenz in literarischen Texten (vgl. Reiter u.a. 2017: 19–22; Blessing u.a. 2020). Dabei fassen wir den Begriff der Entität sehr weit: „Alles, was man als Einheit denken kann, kann als Entität behandelt werden“ (Jannidis 2017: 103). Zu den Entitäten zählen dementsprechend Personen/Figuren, Orte, Organisationen sowie Ereignisse. Das Konzept ist also für verschiedene Forschungsfragen anschlussfähig. Auf Entitäten kann auf verschiedene Weise referiert werden, etwa über Eigen- und Gattungsnamen (z. B. „Angela Merkel“, „die Kanzlerin“). Um Entitäten in einem Text zu extrahieren, müssen folglich die Entitätenreferenzen annotiert und kookkurrente Ausdrücke aufgelöst werden. Die Herausforderungen bestehen vor allem in der Festlegung der Referenzausdrücke (welche Ausdrücke werden berücksichtigt?), in der Abgrenzung von Entitätenreferenzen gegenüber generischen Ausdrücken sowie im Umgang mit Verschachtelungen, Metonymien und textspezifischen Besonderheiten.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Protagonisten im Drama</head>
+                    <p>Der zweite Anwendungsfall setzt sich mit der Identifikation von Protagonisten im Drama auseinander, fokussiert also ein holistisches Textphänomen. Die verschiedenen Perspektiven der Literaturwissenschaft auf Protagonisten, Hauptfiguren und Helden von Dramen (vgl. die Ausführungen in Krautter u.a. 2018: 6–16 und Wulff 2002: 431–448) haben zur Folge, dass eine Reihe von Definitionen und Identifikationsstrategien koexistieren, die häufig an historische Normvorstellungen geknüpft sind. Diese historische Gebundenheit erschwert die operationale Definition von Protagonisten, wenn man auf größere Abschnitte der Literaturgeschichte blickt.</p>
+                    <p>Direkt anschlussfähig für die Methoden der Digital Humanities erscheint die in den späten 1970er Jahren von Manfred Pfister skizzierte Annahme, dass „quantitative[] Dominanzrelationen“ (Pfister 2001: 227) hilfreich für die Differenzierung des Bühnenpersonals seien. Pfister nennt zwei Kriterien, die dabei helfen können, dramatische Figuren schon aufgrund quantitativer Eigenschaften als Haupt- oder Nebenfiguren zu identifizieren: nämlich die Zeitdauer, die sie auf der Bühne stehen, und ihr Anteil an der gesamten Figurenrede (vgl. Pfister 2001: 226–227). Diese Auffassung Pfisters lässt sich mit digitalen Methoden der Dramenanalyse um weitere Eigenschaften der Figuren, etwa durch Netzwerkmetriken oder Topic Modeling, zu einem multidimensionalen Ansatz ergänzen. Die größte Herausforderung stellt hierbei die Validierung der Ergebnisse dar, da diese an die Gültigkeit der operationalen Definition für die manuelle Annotation gebunden ist.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ansätze zur Operationalisierung</head>
+                <p>Im Workshop stellen wir zwei Ansätze zur Operationalisierung vor, die sich – in verschiedenen Phasen des Forschungsprozesses – sehr gut gegenseitig ergänzen. Der erste Ansatz besteht in der 
+                    <hi rend="bold">operationalen Definition theoretischer Konzepte durch manuelle Annotationen</hi>. Die Ergebnisse sind also keine Skripte oder Funktionen, sondern klare(re), als Abfolge von Operationen bestimmte Definitionen der fraglichen Konzepte, die von Menschen mit hoher intersubjektiver Übereinstimmung umgesetzt werden, und zudem die theoretische Diskussion bereichern können (vgl. Gius/Jacke 2017; Pagel u.a. 2020; Reiter 2020, Pichler/Reiter 2021). Daneben führt der Annotationsprozess auch zu einer intensiven und kritischen Beschäftigung mit den Texten und den textuellen Indikatoren des Konzeptes und liefert damit auch Ideen für eine computergestützte Operationalisierung.
+                </p>
+                <p>Als zweiten Ansatz stellen wir eine Vorgehensweise vor, die Zielphänomene 
+                    <hi rend="bold">indirekt operationalisiert</hi>. Da sich viele geisteswissenschaftliche Konzepte nicht direkt messen lassen, sie also nicht unmittelbar durch mögliche Instanzen auf der Textoberfläche repräsentiert werden, müssen die Konzepte schrittweise auf messbare Eigenschaften zurückgeführt werden. In diesem Fall werden also mehrere messbare Eigenschaften in den Blick genommen, die mit dem Zielkonzept verwandt, aber nicht deckungsgleich sind und das Konzept somit indirekt operationalisieren. Aufschlussreich ist dabei in erster Linie die Gesamtschau der verschiedenen als relevant erachteten Einflussfaktoren (vgl. „instrumental variables“ in Sack 2011; „indirekte Operationalisierung“ in Reiter/Willand 2018). Bei textbasierten Phänomenen lassen sich so insbesondere linguistische und strukturelle Eigenschaften, die größtenteils mit hoher Reliabilität automatisch extrahierbar sind, in die Operationalisierung integrieren.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ablauf</head>
+                <p>In einem Theorieteil führen wir in Geschichte und Praxis der Operationalisierung von geisteswissenschaftlichen Fragestellungen und Konzepten für die computergestützte Analyse ein. Anhand der oben genannten Beispiele aus der CRETA-Praxis thematisieren wir die Problematik und stellen Ansätze zur Operationalisierung im Detail vor. Je nach Interesse kann anschließend, im praktischen Teil, einer dieser Anwendungsfälle ausgewählt und bearbeitet werden. Dabei haben die Teilnehmenden die Möglichkeit, beide Operationalisierungsansätze an ihrem gewählten Anwendungsfall zu erproben. Hierfür befassen sie sich zunächst mit dem Konzept, indem sie es anhand eines Textauszugs manuell annotieren und parallel stichpunktartig die Richtlinien schärfen. In einer ersten Diskussionsrunde werden die verschiedenen Ergebnisse gesammelt und diskutiert. Zur Erprobung des zweiten Ansatzes stellen wir für jeden Anwendungsfall einen Operationalisierungs-„Baukasten“ vor. Dieser besteht aus einer Sammlung von Python-Skripten in einem Jupyter-Notebook, das auf das jeweilige Untersuchungsvorhaben zugeschnitten ist und den Teilnehmenden die Möglichkeit gibt, sich dem zu untersuchenden Phänomen über computergestützte Verfahren anzunähern. Die Teilnehmenden können in Kleingruppen in diesem Baukasten verschiedene Parameter einstellen sowie manuell Eigenschaften an- oder abwählen, wobei sie auf ihr Vorwissen über den Untersuchungsgegenstand aus der ersten Praxisrunde zurückgreifen können. Nachdem die Teilnehmenden die Eigenschaften ausgewählt und ggf. parametrisiert haben, können sie die Ergebnisse visualisieren und mit den Texten abgleichen. Damit erhalten die Teilnehmenden ein direktes Feedback zu den ausgewählten Parametern und können prüfen, ob das Untersuchungsvorhaben mit den festgelegten Einstellungen angemessen umgesetzt wird. Der Baukasten ist zur iterativen Nutzung vorgesehen, sodass der Einfluss verschiedener verwandter Eigenschaften auf die Ausgaben sichtbar wird und die Teilnehmenden sich einer geeigneten technischen Umsetzung sukzessiv annähern können. In einer abschließenden Diskussion werden die Ergebnisse gesammelt und es wird ausgewertet, wie adäquat sich die jeweiligen Zielphänomene mittels der gewählten Annahmen abbilden haben lassen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Lernziele</head>
+                <p>Ziel unseres Workshops ist es, die Teilnehmenden für die Wichtigkeit der Operationalisierung in den Digital Humanities zu sensibilisieren und ihnen Wege zu ihrer erfolgreichen Realisierung vorzustellen. Durch die interdisziplinäre Ausrichtung von DH-Arbeiten kommt der Operationalisierung eine Schlüsselposition zu, da sie eine Brücke zwischen geisteswissenschaftlichen Konzepten und computergestützter Umsetzung schlägt (vgl. Moretti 2013: 1). Mit den gewählten Anwendungsfällen wollen wir den Teilnehmenden ein „Repertoire“ für die Operationalisierung verschiedener Aufgabentypen mitgeben. Wir zeigen zum einen, dass die Annotation eines Phänomens als Methode seiner Operationalisierung dienen kann (vgl. Gius/Jacke 2017: 233–254); zum anderen führen wir für textbasierte Phänomene eine indirekte Operationalisierung ein (vgl. Reiter/Willand 2018). Beide Verfahrensweisen sind auf andere Anwendungsfälle übertragbar. Gleichzeitig möchten wir deutlich machen, dass es für jedes Untersuchungsvorhaben nicht nur eine, sondern verschiedene Wege der Operationalisierung gibt. Die Spielräume, die bei der Operationalisierung geisteswissenschaftlicher Fragestellungen entstehen, machen es notwendig, Entscheidungen reflektiert zu treffen, sie offenzulegen und ihren Einfluss auf die Ergebnisse als Voraussetzung für eine angemessene Interpretation zu bedenken. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Anhang</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Zeitplan</head>
+                    <p>(insgesamt 3 Stunden + 30 Min. Pause)</p>
+                    <p>1. Einführung und Ablauf (10 Min.)</p>
+                    <p>2. Theoretischer Teil (insgesamt 30 Min.)</p>
+                    <p>• Erläuterung der Problemstellung</p>
+                    <p>• Vorstellung der Anwendungsfälle</p>
+                    <p>3. Praktischer Teil</p>
+                    <p>• Einführung in die Primärtexte und Tools, Ausgabe der skizzierten Guidelines (10 Min.)</p>
+                    <p>• Erste Praxisrunde (Kleingruppen): Manuelle Annotation eines Phänomens, parallele Erweiterung/Überarbeitung der Guidelines, iterativ (30-40 Min.)</p>
+                    <p>– Kaffeepause (30 Min.) –</p>
+                    <p>• Sammeln der Ergebnisse und Diskussion der Herangehensweisen (20 Min.)</p>
+                    <p>• Zweite Praxisrunde (Kleingruppen): Arbeit am Operationalisierungsbaukasten, Feedback über Ausgabedatei, iterativ (30-40 Min.)</p>
+                    <p>4. Abschlussdiskussion: Sammeln der Ergebnisse, Diskussion der Erfahrungen und Lernziele (30 Min.) </p>
+                    <p>Die Durchführung des Workshops auf der DHd 2020 hat gezeigt, dass das gestraffte dreistündige Format gute didaktische Resultate zeitigt. Der Fokus auf die praktischen Dimensionen der Operationalisierung ist dabei gewollt: Aus der konkreten praktischen Arbeit heraus lässt sich unserer Ansicht nach am besten der theoretische Rahmen und die theoretischen Probleme bei der Operationalisierung reflektieren.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Zahl der möglichen Teilnehmenden</head>
+                    <p>Zwischen 15 und 25</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Angaben zur technischen Ausstattung</head>
+                    <p>Abgesehen von Beamer und ausreichend Steckdosen ist keine besondere technische Ausstattung erforderlich. Die Teilnehmenden arbeiten im praktischen Teil an ihrem eigenen Laptop. Informationen zu eventuellen Vorab-Installationen werden rechtzeitig mitgeteilt.</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Beitragende</head>
+                    <p>Der Workshop wird von Mitgliedern des Center for Reflected Text Analytics (CRETA) e.V. veranstaltet, die bereits erfahrene Workshop-Leiter*innen im DH-Bereich sind (DHd 2017, DHd 2018, ESU 2018, DHd 2019, HCH 2019, DHd 2020).</p>
+                    <p>CRETA konzentriert sich auf die Entwicklung von Methoden zur kritisch-reflektierten Textanalyse im Forschungsbereich der Digital Humanities. Die Methoden werden fachübergreifend für textanalytische Fragestellungen aus der Literatur-, Sprach-, Geschichts- und Sozialwissenschaft sowie Philosophie erarbeitet und eingesetzt. Das bis 2020 vom BMBF geförderte eHumanities-Zentrum ist Ende 2020 mit der Gründung eines Vereines in eine neue Phase übergegangen. Mit der Vereinsgründung wird der Tatsache Rechnung getragen, dass über Stuttgart hinaus inzwischen Wissenschaftler*innen an ähnlichen Zielen arbeiten und CRETA in vielfältiger Weise verbunden sind, etwa durch gemeinsame Projekte. </p>
+                    <p>Melanie Andresen</p>
+                    <p><ref target="mailto:melanie.andresen@ims.uni-stuttgart.de">
+                            <hi rend="underline">melanie.andresen@ims.uni-stuttgart.de</hi>
+                        </ref>
+                    </p>
+                    <p>Universität Stuttgart</p>
+                    <p>Institut für Maschinelle Sprachverarbeitung </p>
+                    <p>Pfaffenwaldring 5b</p>
+                    <p>70569 Stuttgart</p>
+                    <p>Melanie Andresen ist Postdoc am Institut für Maschinelle Sprachverarbeitung an der Universität Stuttgart. Sie hat Germanistische Linguistik an der Universität Hamburg studiert und ist dort 2020 im Bereich der Korpuslinguistik promoviert worden. Aus den Projekten 
+                        <hi rend="italic">hermA</hi> (Universität Hamburg) und 
+                        <hi rend="italic">Q:TRACK</hi> (Universität Stuttgart, Universität zu Köln) bringt sie viel Erfahrung mit der Operationalisierung geistes- und sozialwissenschaftlicher Fragestellungen mit.
+                    </p>
+                    <p>Benjamin Krautter </p>
+                    <p>Benjamin.Krautter@uni-koeln.de</p>
+                    <p>Universität zu Köln</p>
+                    <p>Institut für Digital Humanities</p>
+                    <p>Albertus-Magnus-Platz</p>
+                    <p>50931 Köln</p>
+                    <p>Benjamin Krautter ist Promotionsstudent am Germanistischen Seminar der Universität Heidelberg und Mitarbeiter im Projekt Q:TRACK. Dort arbeitet er u. a. an der Operationalisierung literaturwissenschaftlicher Kategorien für die quantitative Dramenanalyse. Im Zentrum seines Forschungsinteresses steht dabei die mögliche Verbindung quantitativer und qualitativer Methoden für die Analyse und Interpretation literarischer Texte.</p>
+                    <p>Janis Pagel </p>
+                    <p><ref target="mailto:janis.pagel@ims.uni-stuttgart.de">
+                            <hi rend="underline">janis.pagel@uni-koeln.de</hi>
+                        </ref>
+                    </p>
+                    <p>Universität zu Köln</p>
+                    <p>Institut für Digital Humanities</p>
+                    <p>Albertus-Magnus-Platz</p>
+                    <p>50931 Köln</p>
+                    <p>Janis Pagel ist Promotionsstudent am Institut für Maschinelle Sprachverarbeitung der Universität Stuttgart und Mitarbeiter am Institut für Digital Humanities der Universität zu Köln. Er studierte Germanistik und Linguistik in Bochum, sowie Computerlinguistik in Stuttgart und Amsterdam. Er forscht zu Anwendungen von computerlinguistischen Methoden auf literaturwissenschaftliche Fragestellungen und Koreferenzresolution auf literarischen Texten.</p>
+                    <p>Axel Pichler</p>
+                    <p><ref target="mailto:axel.pichler@fu-berlin.de">
+                            <hi rend="underline">axel.pichler@</hi>
+                        </ref>ts.uni-stuttgart.de
+                    </p>
+                    <p>Universität Stuttgart</p>
+                    <p>Institut für Maschinelle Sprachverarbeitung </p>
+                    <p>Pfaffenwaldring 5b</p>
+                    <p>70569 Stuttgart </p>
+                    <p>Axel Pichler studierte Philosophie und Germanistik in Wien und Graz. Im Sommersemester 2021 war er Gastprofessor für Digital Humanities am EXC “Temporal Communities” der FU Berlin. Zurzeit arbeitet er als Postdoc unter anderem an der Entwicklung und Reflexion von Methoden der computergestützten Textanalyse am Institut für Maschinelle Sprachverarbeitung der Universität Stuttgart.</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Fußnoten</head>
+                <p>1.<ref target="https://cretaverein.de/" xml:space="preserve"> </ref><ref target="https://cretaverein.de/">
+                        <hi rend="underline">https://cretaverein.de/.de</hi>
+                    </ref>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Blessing, André / Echelmeyer, Nora / John, Markus / Reiter, Nils</hi> (2017): „An end-to-end environment for research question-driven entity extraction and network analysis“, in: 
+                        <hi rend="italic">Proceedings of the Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature</hi>, Vancouver.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Flanders, Julia / Jannidis, Fotis</hi> (2015): 
+                        <hi rend="italic">Knowledge Organization and Data Modeling in the Humanitie</hi>s. 
+                        <ref target="https://opus.bibliothek.uni-wuerzburg.de/opus4-wuerzburg/frontdoor/deliver/index/docId/11127/file/flanders_jannidis_datamodeling.pdf">
+                            <hi rend="underline">https://opus.bibliothek.uni-wuerzburg.de/opus4-wuerzburg/frontdoor/deliver/index/docId/11127/file/flanders_jannidis_datamodeling.pdf</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gius, Evelyn / Jacke, Janina</hi> (2017): „The Hermeneutic Profit of Annotation. On Preventing and Fostering Disagreement in Literary Analysis“, in: 
+                        <hi rend="italic">International Journal of Humanities and Arts Computing</hi> 11, S. 233–254.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jacke, Janina</hi> (2014): „Is There a Context-Free Way of Understanding Texts? The Case of Structuralist Narratology“, in: 
+                        <hi rend="italic">Journal of Literary Theory</hi> 8, S. 118–39.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jannidis, Fotis</hi> (2017): „Grundlagen der Datenmodellierung“, in: 
+                        <hi rend="italic">Digital Humanities. Eine Einführung</hi>, hg. v. Fotis Jannidis, Hubertus Kohle und Malte Rehbein, Stuttgart, S. 99–108.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jannids, Fotis</hi> (2010): „Methoden der computergestützten Textanalyse“, in: 
+                        <hi rend="italic">Methoden der literatur- und kulturwissenschaftlichen Textanalyse. Ansätze – Grundlagen – Modellana- lysen</hi>, hg. v. Vera Nünning, Ansgar Nünning und Irina Bau- der-Begerow, Stuttgart, Weimar, S. 109–132.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Ketschik, Nora / Overbeck, Maximilian / Murr, Sandra / Pichler, Axel und André Blessing </hi>(2020): „Interdisziplinäre Annotation von Entitätenreferenzen“, in: 
+                        <hi rend="italic">Reflektierte algorithmische Textanalyse</hi>, hg. v. Nils Reiter, Axel Pichler und Jonas Kuhn, Berlin.
+                        <ref target="https://doi.org/10.1515/9783110693973-010" xml:space="preserve"> </ref>
+                        <ref target="https://doi.org/10.1515/9783110693973-010">
+                            <hi rend="underline">https://doi.org/10.1515/9783110693973-010</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Krautter, Benjamin / Pagel, Janis / Reiter, Nils / Willand, Marcus</hi> (2018): „Titelhelden und Protagonisten – Interpretierbare Figurenklassifikation in deutschsprachigen Dramen“, in: 
+                        <hi rend="italic">Litlab Pamphlet</hi> 7.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Moretti, Franco</hi> (2013): „Operationalizing”: or, the function of measurement in modern literary theory“, in: 
+                        <hi rend="italic">Literary Lab</hi> 6, S. 1–13.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pagel, Janis / Reiter, Nils / Rösiger, Ina / Schulz, Sarah</hi> (2020): „Annotation als flexibel einsetzbare Methode“, in: 
+                        <hi rend="italic">Reflektierte algorithmische Textanalyse</hi>, hg. v. Nils Reiter, Axel Pichler und Jonas Kuhn, Berlin. 
+                        <ref target="https://doi.org/10.1515/9783110693973-006">
+                            <hi rend="underline">https://doi.org/10.1515/9783110693973-006</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pichler, Axel / Reiter, Nils</hi> (2020): „Reflektierte Textanalyse“, in: 
+                        <hi rend="italic">Reflektierte algorithmische Textanalyse</hi>, hg. v. Nils Reiter, Axel Pichler und Jonas Kuhn, Berlin.
+                        <ref target="https://doi.org/10.1515/9783110693973-003" xml:space="preserve"> </ref>
+                        <ref target="https://doi.org/10.1515/9783110693973-003">
+                            <hi rend="underline">https://doi.org/10.1515/9783110693973-003</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pichler, Axel / Reiter, Nils</hi> (2021): „Zur Operationalisierung literaturwissenschaftlicher Begriffe in der algorithmischen Textanalyse. Eine Annäherung über Norbert Altenhofers hermeneutische Modellinterpretation von Kleists Das Erdbeben in Chili“, in: 
+                        <hi rend="italic">Journal of Literary Theory</hi> 15, S. 1–29. 
+                        <ref target="https://doi.org/10.1515/jlt-2021-2008">https://doi.org/10.1515/jlt-2021-2008</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Pfister, Manfred</hi> (2001): 
+                        <hi rend="italic">Das Drama. Theorie und Analyse</hi>, München.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Reiter, Nils</hi> (2020): „Anleitung zur Erstellung von Annotationsrichtlinien“, in: 
+                        <hi rend="italic">Reflektierte algorithmische Textanalyse</hi>, hg. v. Nils Reiter, Axel Pichler und Jonas Kuhn, Berlin.
+                        <ref target="https://doi.org/10.1515/9783110693973-009" xml:space="preserve"> </ref>
+                        <ref target="https://doi.org/10.1515/9783110693973-009">
+                            <hi rend="underline">https://doi.org/10.1515/9783110693973-009</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Reiter, Nils / Gius, Evelyn / Willand, Marcus (Hg.) </hi>(2019): 
+                        <hi rend="italic">A Shared Task for the Digital Humanities. Special issue of Cultural Analytics</hi>. November 2019.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Reiter, Nils / Blessing, André / Echelmeyer, Nora / Kremer, Gerhard / Koch, Steffen / Murr, Sandra / Overbeck, Maximilian / Pichler, Axel</hi> (2017): CUTE: CRETA Unshared Task zu Entitätenreferenzen“, in: 
+                        <hi rend="italic">DHd 2017 Bern</hi>, Conference Abstracts, S. 19–22.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Reiter, Nils / Willand, Marcus</hi> (2018): „Poetologischer Anspruch und dramatische Wirklichkeit: Indirekte Operationalisierung in der digitalen Dramenanalyse“, in: 
+                        <hi rend="italic">Quantitative Ansätze in den Literatur- und Geisteswissenschaften: Systematische und historische Perspektiven</hi>, hg. v. Toni Bernhart, Marcus Willand, Sandra Richter und Andrea Albrecht, Stuttgart, S. 45–76.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sack, Graham Alexander</hi> (2011): „Simulating Plot: Towards a Generative Model of Narrative Structure“, in: 
+                        <hi rend="italic">Papers from the AAAI Fall Symposium</hi> (FS-11-03).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wulff, Hans Jürgen</hi> (2002): „Held und Antiheld, Prot- und Antagonist: Zur Kommunikations- und Texttheorie eines komplizierten Begriffsfeldes. Ein enzyklopädischer Aufriß“, In: 
+                        <hi rend="italic">Weltentwürfe in Literatur und Medien. Phantastische Wirklichkeiten realistische Imaginationen. Festschrift für Marianne Wünsch</hi>, hg. v. Hans Krah und Claus-Michael Ort. Kiel, S. 431–448.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_336">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Grenzüberschreitendes Textmining von Historischen Zeitungen</title>
+                    <title type="sub">Das impresso-Projekt zwischen Text- und Bildverarbeitung, Design und Geschichtswissenschaft</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Ehrmann</surname>
+                        <forename>Maud</forename>
+                    </persName>
+                    <affiliation>École polytechnique fédérale de Lausanne - EPFL</affiliation>
+                    <email>maud.ehrmann@epfl.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Bunout</surname>
+                        <forename>Estelle</forename>
+                    </persName>
+                    <affiliation>Luxembourg Centre for Contemporary and Digital History (C2DH), Luxembourg</affiliation>
+                    <email>estellebunout@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Clematide</surname>
+                        <forename>Simon</forename>
+                    </persName>
+                    <affiliation>University of Zurich</affiliation>
+                    <email>siclemat@ifi.uzh.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Düring</surname>
+                        <forename>Marten</forename>
+                    </persName>
+                    <affiliation>Luxembourg Centre for Contemporary and Digital History (C2DH), Luxembourg</affiliation>
+                    <email>marten.during@uni.lu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Fickers</surname>
+                        <forename>Andreas</forename>
+                    </persName>
+                    <affiliation>Luxembourg Centre for Contemporary and Digital History (C2DH), Luxembourg</affiliation>
+                    <email>andreas.fickers@uni.lu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Guido</surname>
+                        <forename>Daniele</forename>
+                    </persName>
+                    <affiliation>Luxembourg Centre for Contemporary and Digital History (C2DH), Luxembourg</affiliation>
+                    <email>daniele.guido@uni.lu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kalyakin</surname>
+                        <forename>Roman</forename>
+                    </persName>
+                    <affiliation>Luxembourg Centre for Contemporary and Digital History (C2DH), Luxembourg</affiliation>
+                    <email>roman@kalyakin.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kaplan</surname>
+                        <forename>Frederic</forename>
+                    </persName>
+                    <affiliation>École polytechnique fédérale de Lausanne - EPFL</affiliation>
+                    <email>frederic.kaplan@epfl.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Romanello</surname>
+                        <forename>Matteo</forename>
+                    </persName>
+                    <affiliation>École polytechnique fédérale de Lausanne - EPFL</affiliation>
+                    <email>matteo.romanello@unil.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schroeder</surname>
+                        <forename>Paul</forename>
+                    </persName>
+                    <affiliation>Luxembourg Centre for Contemporary and Digital History (C2DH), Luxembourg</affiliation>
+                    <email>hello@youtag.lu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Ströbel</surname>
+                        <forename>Philip</forename>
+                    </persName>
+                    <affiliation>University of Zurich</affiliation>
+                    <email>pstroebel@cl.uzh.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>van Beek</surname>
+                        <forename>Thijs</forename>
+                    </persName>
+                    <affiliation>Luxembourg Centre for Contemporary and Digital History (C2DH), Luxembourg</affiliation>
+                    <email>thijs@midasweb.lu</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Volk</surname>
+                        <forename>Martin</forename>
+                    </persName>
+                    <affiliation>University of Zurich</affiliation>
+                    <email>martin.volk@uzh.ch</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wieneke</surname>
+                        <forename>Lars</forename>
+                    </persName>
+                    <affiliation>Luxembourg Centre for Contemporary and Digital History (C2DH), Luxembourg</affiliation>
+                    <email>lars.wieneke@uni.lu</email>
+                <idno type="ORCID">0000-0001-6248-8644</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-15T22:38:19.800604619</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Historische Zeitungen</term>
+                    <term>Interface design</term>
+                    <term>NLP</term>
+                    <term>Visualisierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Webentwicklung</term>
+                    <term>benannte Entitäten (named entities)</term>
+                    <term>Forschungsprozess</term>
+                    <term>Software</term>
+                    <term>Werkzeuge</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+            <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">336</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <hi rend="italic">impresso. Media Monitoring of the Past</hi> ist ein interdisziplinäres Forschungsprojekt, in dem Wissenschaftler und Wissenschaftlerinnen aus der Computerlinguistik, Design und den Geschichtswissenschaften an der Anreicherung eines Korpus aus schweizerischen und luxemburgischen Zeitungen arbeiten. Ziel ist es, die Qualität von Textmining-Werkzeugen für historische Zeitungstexte zu verbessern, letztere mit zusätzlichen Informationen anzureichern und schließlich mit Hilfe einer neu entwickelten Benutzeroberfläche in den historischen Forschungsprozess zu integrieren.
+                </p>
+                <p>
+                    <hi rend="italic">impresso</hi> adressiert die Herausforderungen, die große Sammlungen von digitalisierten und mit Daten angereicherten Zeitungen mit sich bringen. Diese lassen sich in fünf Kategorien zusammenfassen: 
+                </p>
+                <p>1. Dokumenten-Silos: Portale für digitalisierte Zeitungen bieten aufgrund rechtlicher Restriktionen und digitalisierungspolitischer Zwänge zwangsläufig unvollständige, nicht repräsentative Sammlungen, die einer automatisierten Verarbeitung in unterschiedlicher Qualität unterzogen wurden.</p>
+                <p>2. Große Mengen, großes Wirrwarr: Zeitungsdigitalisate sind durch Unvollständigkeit, Inkonsistenzen und Duplikate gekennzeichnet.</p>
+                <p>3. Textrauschen: Unvollkommene OCR, fehlerhafte Artikelsegmentierung und das Fehlen geeigneter linguistischer Ressourcen beeinträchtigen die Robustheit von Bild- und Text-Mining-Algorithmen erheblich.</p>
+                <p>4. Generosity (Whitelaw 2015): Suche und Auffinden relevanter Inhalte in solch großen und heterogenen Korpora.</p>
+                <p>5. Transparenz: Kritische Beurteilung der inhärenten Verzerrungen in digitalisierten Quellen und den daraus extrahierten Daten.</p>
+                <p>Parallel zu 
+                    <hi rend="italic">impresso</hi>, haben in jüngster Zeit eine Reihe von ähnlich gelagerten Forschungsprojekten computergestützte Methoden für die Analyse digitalisierter historischer Zeitungen angewandt (Ridge et al. 2019). In diesem Beitrag präsentieren wir unseren Ansatz, den obigen Herausforderungen mit Hilfe eines interdisziplinären Teams und eines Co-Design-Ansatzes gerecht zu werden (Allen and Sieczkiewicz 2010; Atanassova 2014; Hechl et al. 2021; Ehrmann 2019). Im Folgenden geben wir einen Überblick über die wesentlichen Schritte der Dokumenten- und Textverarbeitung und deren Repräsentation innerhalb des Interfaces. Für jeden Schritt werden wir dessen Mehrwert, überwundene Schwierigkeiten und zukünftige Zielsetzungen darlegen. Ein Beispiel soll aber zunächst den Mehrwert des multilingualen, schweizerisch-luxemburgischen Korpus, der semantischen Anreicherungen und der Benutzeroberfläche illustrieren: Eine einfache Stichwortsuche nach Artikeln, die über die Schlacht um Arnheim seit dem Jahr 1944 berichten stößt in diesem Korpus schnell an ihre Grenzen: Die Stichwörter “arnheim” (deutsche Schreibweise) oder “arnhem” (niederländisch, englisch, französisch) liefern eine Vielzahl von irrelevanten Treffern verursacht durch den dortigen Fußball-Club Vitesse Arnhem, Werbeanzeigen und OCR-Fehler. Im Vergleich zu anderen Benutzeroberflächen für historische Zeitungen kann eine solche Suche in der 
+                    <hi rend="italic">impresso</hi>-App erheblich präziser formuliert und erweitert werden. Im Folgenden werden die wesentlichen Arbeitsschritte (Siehe auch Abb. 1) und Komponenten vorgestellt und, wo sinnvoll, durch das obige Beispiel illustriert.
+                </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="15.751527777777778cm" url="Pictures/dc429a6e0e81b9e54a61e6b623481250.png" rend="inline"/>
+                    <head>Abb. 1: Überblick über wesentlichen Arbeitsschritte des 
+                        <hi rend="italic">impresso</hi>-Projekts
+                    </head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Datenerfassung und Vorverarbeitung</head>
+                <p>Digitalisierte Zeitungen sind in “Silos” über viele Institutionen mit unterschiedlichen Zugriffsrichtlinien und Einrichtungen verstreut. Aus rechtlicher und administrativer Perspektive werden wir auf unsere Strategien zur Akquise und Inventarisierung digitaler Zeitungssammlungen eingehen und über unsere Vereinbarungen mit Datenanbietern berichten. Aus technischer Perspektive werden wir die Workflows skizzieren, die für den Umgang mit heterogenen Bild- und OCR-Formaten (Optical Character Recognition) entwickelt wurden, ebenso wie unsere Bemühungen um deren Standardisierung.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Digitale Dokumentenverarbeitung</head>
+                <p>Unser Ausgangspunkt sind – im Idealfall – Texte und Textblöcke, wie sie von OCR und OLR (Optical Layout Recognition) ausgegeben werden. Aufgrund der bereits erwähnten Heterogenität sind Texte und Layoutelemente jedoch meist “verrauscht” und müssen sorgfältig bewertet, korrigiert und zuweilen mittels OCR neu erfasst werden. Während des Projekts haben wir deshalb eine mehrsprachige OCR-Qualitätsbeurteilung, HTR-basierte Systeme für die Erkennung von Frakturschrift (Ströbel 2019) und die semantische Segmentierung von Zeitungen unter Verwendung textueller und visueller Merkmale (Barman 2019) getestet.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Lexikalische Verarbeitung</head>
+                <p>Nach der Texterkennung, bestand der nächste Schritt im Aufbau des impresso-Korpus in der Anwendung einer Reihe von linguistischen Vorarbeiten, einschließlich Sprachidentifikation, Tokenisierung, Normalisierung der historischen Rechtschreibung und Lemmatisierung. Historischer Sprachwandel und die Mehrsprachigkeit unseres Zeitungskorpus (französisch, deutsch, luxemburgisch) haben diese Aufgaben verkompliziert. Als ergänzende Ressourcen sind diese Vorarbeiten aber für nachfolgende Textverarbeitungsaufgaben nützlich. Desweiteren haben wir verteilte Repräsentationen von Wörtern (word embeddings) für jede Sprache im Korpus berechnet. N-Gram-Visualisierungen spiegeln die Veränderungen im Wortgebrauch in unserem Korpus im Laufe der Zeit wider; korpusspezifische word embeddings ermöglichen es dem Benutzer, verwandte Wörter zu finden und auch über verschiedene Sprachen hinweg zu vergleichen. Innerhalb des Interfaces dienen word embeddings zur Anzeige von Vorschlägen für die Schlagwortsuche und für N-gram-Analysen, indem sie synonyme oder verwandte Begriffe anzeigen (“arnheim”, “arnhem”), aber auch auf historische Schreibvarianten und häufige OCR-Fehler (“arnehm”) hinweisen. Die Benutzeroberfläche ermöglicht ebenfalls den Vergleich mehrerer N-grams in Kombination mit Suchanfragen oder innerhalb einzelner Artikel-Sammlungen, beispielsweise um die Präsenz der Schlacht von Arnheim mit jener von anderen Schlachten zu vergleichen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Benannte Entitäten</head>
+                <p>Benannte Einheiten wie Namen von Personen, Orten und Organisationen liegen der Semantik von Texten zugrunde und sind von entscheidender Bedeutung bei deren Interpretation. Ihre automatische Erkennung und Disambiguierung unterstützt das information retrieval und die Exploration großer Textsammlungen erheblich. Sie zeigen die wechselnden Kontexte auf, in denen Personen, Institutionen und Orte über Sprachen, Zeit und Zeitungen hinweg erscheinen. Durch die Verknüpfung werden beispielsweise die Entitäten “Michail Gorbatschow” und “Mikhail Gorbachev” derselben Person zugeordnet und durch kontextualisierende Informationen wie Lebensdaten angereichert. Innerhalb des Interfaces kann die Verteilung der Entitäten innerhalb des Korpus, auch über Sprachgrenzen hinweg verfolgt werden. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Topic Modelling</head>
+                <p>Wir ermitteln sprachspezifisch, welche "Themen" in unserem Zeitungskorpus vorkommen, um daraus eine Thematik für den Benutzer abzuleiten. Zu diesem Zweck werden mehrere topic models (über das gesamte Korpus, pro Zeitung, pro Zeitraum) berechnet und die Themen den Zeitungsartikeln zugeordnet. Topics erlauben es, überwältigende Ergebnismengen zu reduzieren, bestimmte Themenaspekte wie “Sport”, “Militär” oder “Kunst” ein- bzw. auszuschließen. Im obigen Beispiel würden also sport-basierte Themen aus- und militär-basierte Themen eingeschlossen. Innerhalb des Interfaces visualisiert eine Graph-Visualisierung Überschneidungen zwischen Topics. Knoten repräsentieren Topics, eine Kante zwischen zwei Knoten ist gewichtet und basiert auf der Zahl der Artikel, in denen beide Topics erkannt wurden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Text reuse</head>
+                <p>Text reuse erkennt und vergleicht ähnliche Textpassagen und liefert Cluster von wiederverwendeten Text-Passagen, die sich in großen Sammlungen von Dokumenten auffinden lassen. Innerhalb des impresso-Projekts haben wir passim (Romanello 2018; Smith et al. 2014) verwendet. Das Interface zeigt Text reuse Passagen innerhalb von Artikeln an und eine eigene Komponente erlaubt die Stichwortsuche in allen Text reuse Clustern mit diversen Filter-Möglichkeiten um beispielsweise die Zirkulation von Agenturberichten über die Schlacht von Arnheim in der Presselandschaft zu rekonstruieren.</p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="11.696347222222222cm" url="Pictures/81bda226deea28b3e83354d80977f5ab.png" rend="inline"/>
+                    <head>Abb. 2: Text Reuse Explorer</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Bildähnlichkeits-Suche</head>
+                <p>Eine auf (Seguin 2018) basierende visuelle Suchmaschine ergänzt die Textsuche und erlaubt es, Kopien und einander ähnliche visuelle Elemente, wie z.B. Anzeigen, Fotos, Zeichnungen und Karten zu suchen. Die Bildähnlichkeitssuche erlaubt drei Formen der Interaktion: ausgehend von einem Bild können ähnliche Bilder gefunden werden, Bilder können über eine Stichwortsuche im umgebenden Text gefunden werden, externe Bilder können hochgeladen werden um zu prüfen, ob ähnliche Bilder im Korpus vorhanden sind.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Systemarchitektur</head>
+                <p>Text- und Bildverarbeitungskomponenten müssen in eine modulare Systemarchitektur integriert werden, die auch eine API, ein middle layer und ein front end umfasst. Wir haben eine technische Dokumentation veröffentlicht, die Informationen zu allen Schritten in der Aufbereitung und Anreicherung unseres Korpus und einer API enthält.</p>
+                <p>Die Benutzeroberfläche wurde mit dem Ziel entwickelt, quellen- und datenkritisches Textmining für die breite Masse von historisch arbeitenden WissenschaftlerInnen anzubieten und neue Arbeitsabläufe für die Exploration historischer Zeitungen zu ermöglichen. Um eine hohe Anschlussfähigkeit an gängige Forschungspraxis zu gewährleisten, haben wir den Schwerpunkt auf das Auffinden von relevanten Inhalten gelegt. Inspiriert wurde die Gestaltung der Benutzeroberfläche durch die Prinzipien der Generosity, einem sinnbildlichen sich-öffnen des Korpus und der Transparenz, die eine informierte Nutzung und kritische Einordnung der gemachten Beobachtungen ermöglichen soll. Weiter angeregt durch die Gestaltung durch das in mehreren Workshops gesammelte Benutzerfeedback und durch das übergreifende Ziel, nahtlos zwischen close und distant reading Perspektiven zu wechseln. Um eine möglichst breite Anwendbarkeit und unterschiedlichste Workflows zu gewährleisten, wurde die Benutzeroberfläche so gestaltet, dass sie NutzerInnen im Rahmen des technisch möglichen die freie Kombination aller obenstehenden semantischen Anreicherungen und den auf ihnen basierenden Komponenten erlaubt. Dies wird ermöglicht durch eine Reihe von Komponenten, die innerhalb der gesamten Benutzeroberfläche verfügbar sind.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Search</head>
+                <p>Suchoperationen gehören zu den am häufigsten genutzten Interaktionen mit digitalisierten Quellen. Innerhalb der Benutzeroberfläche wurden deshalb Merkmale der klassischen “erweiterten” Suche mit semantischen Anreicherungen verknüpft um im Sinne der Generosity unterschiedliche Zugänge in das Material zu ermöglichen. Neben klassischen UND/ODER/NICHT Interaktionen, schlägt die Suche verwandte oder synonyme Suchbegriffe auf Basis des Korpus vor ebenso wie relevante Entitäten und Topics. In Kombination mit Filtern, die sowohl auf Bestandsmetadaten und semantischen Anreicherungen basieren, ermöglicht es die Suche in einem iterativen Prozess hochkomplexe Suchanfragen zu formulieren.</p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="16.637cm" url="Pictures/96ab57bd17ac9fd625f5bbf43f502523.png" rend="inline"/>
+                    <head>Abb. 3: Suche mit Hilfe von word embeddings, topics, Spracherkennung und Bestandsmetadaten</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Collections</head>
+                <p>Ermöglichen den manuellen oder Suchabfragen-basierten Aufbau themenspezifischer Sammlungen mit bis zu 10.000 Artikeln, die als eigene Objekte ebenfalls durchsucht und gefiltert werden können.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Inspect&amp;Compare</head>
+                <p>Inspect&amp;Compare erlaubt den Vergleich von Suchanfragen und Sammlungen hinsichtlich ihrer Überlappungen und Differenzen mit Hilfe von Zeitleisten und Balkendiagrammen. Beispielsweise ließen sich eine Sammlung von Artikeln zu Arnheim mit einer Sammlung über die Schlacht von El-Alamein hinsichtlich ihrer Präsenz in der Medienberichterstattung vergleichen. Ebenso eignet sich die Komponente für den iterative Aufbau von Sammlungen durch experimentelle Variationen von Suchanfragen und dem Vergleich ihrer Ergebnisse. Figure X zeigt beispielsweise an, dass die angelegte Sammlung in (A) 182 Artikel mit dem Begriff „vitesse arnhem“ enthält.</p>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="7.7664027777777775cm" url="Pictures/02293f6b217f0043ab4c2faf97430288.png" rend="inline"/>
+                    <head>Abb. 4: Inspect&amp;Compare, Vergleich einer Sammlung mit einer Suchabfrage</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Überblicks-Fenster</head>
+                <p>Zu jedem Objekt innerhalb der Benutzeroberfläche, wie z.B. genannten Entitäten, Topics oder Zeitungen erlaubt ein korrespondierendes Überblicks-Fenster deren Präsenz innerhalb der laufenden Suche bzw. des Korpus zu prüfen und weitere Informationen, wie z.B. Metadaten abzurufen.</p>
+                <figure>
+                    <graphic n="1005" width="16.002cm" height="9.55851388888889cm" url="Pictures/97cae641c2941c959526d697c9e59a53.png" rend="inline"/>
+                    <head>Abb. 5: Überblicks-Fenser eines topics</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Export</head>
+                <p>Artikelsammlungen können mit allen semantischen Anreicherungen für die weitere Analyse außerhalb des Interfaces als .csv Dateien exportiert werden, je nach Rechtssituation auch inklusive des Artikel-Volltextes.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Artikelempfehlungen </head>
+                <p>Such- und Filteroperationen dienen dazu, relevante Inhalte innerhalb des Korpus zu identifizieren und neue Facetten auf das Quellenmaterial zu erhalten. Ein automatisiertes Empfehlungssystem hilft dabei, relevante Inhalte zu finden, die außerhalb des Suchbereichs der NutzerInnen liegen. Artikelempfehlungen basieren auf topics, zeitlicher Distanz, benannten Entitäten und text reuse, die voneinander unabhängig gewichtet werden können. Dies könnten Artikel sein, die zwar die Schlacht von Arnheim thematisieren und ähnliche benannte Entitäten erwähnen, aber nicht einem militär-basierten Topic zugeordnet wurden und deshalb aus den vorigen Ergebnislisten ausgeschlossen wurden.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Korpus-Übersicht</head>
+                <p>Visualisierung des Gesamtbestandes inklusive aller Bibliotheks-Metadaten, die auch Lücken, Verzerrungen im Korpus einschließt.</p>
+                <figure>
+                    <graphic n="1006" width="16.002cm" height="5.575652777777778cm" url="Pictures/77d9b590504ef07ebfab51a716de40c1.png" rend="inline"/>
+                    <head>Abb. 6: Korpus-Übersicht</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Lehr-/Lernmaterialien</head>
+                <p>Die Gestaltung der Benutzeroberfläche hat sich an den durchschnittlichen technischen Kompetenzen der historisch arbeitenden GeisteswissenschaftlerInnen orientiert, mit dem Ziel, NutzerInnen zu fordern ohne sie zu überfordern. Gleichzeitig, dem Anspruch der Transparenz folgend, sollten möglichst alle relevanten Methoden und Entscheidungen im Einreichungsprozess erklärt und dokumentiert werden. Diesen Zwecke erfüllen eine Reihe von FAQs, Blogartikeln, Tutorials und Videos, die das Projekt und die Funktionalitäten der Benutzeroberfläche dokumentieren.</p>
+                <p>Die Kombination aus semantischer Anreicherung, Design und historischen Forschungsinteressen hat - wie wir hier illustriert haben – zu einer Vielzahl von neuen Interaktionsmöglichkeiten mit historischen Zeitungen geführt. In Kombination tragen diese dazu bei, relevante Inhalte besser zu finden, close und distant reading zu integrieren und Vergleichsperspektiven einzunehmen.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Allen, Robert, and Robert Sieczkiewicz.</hi> 2010. “How Historians Use Historical Newspapers.” 
+                        <hi rend="italic" xml:space="preserve">Proceedings of the American Society for Information Science and Technology </hi>47. https://doi.org/10.1002/meet.14504701131.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Atanassova, Rossitza.</hi> 2014. “Improving the Discovery of European Historic Newspapers.” In 
+                        <hi rend="italic">IFLA WLIC 2014 - Lyon - Libraries, Citizens, Societies: Confluence for Knowledge</hi>. Lyon, France. http://library.ifla.org/1038/.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Barman, Raphaël.</hi> 2019. “Historical Newspaper Semantic Segmentation Using Visual and Textual Features.”
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ehrmann, Maud.</hi> 2019. “Historical Newspaper User Interfaces: A Review.” In 
+                        <hi rend="italic">IFLA 85</hi>
+                        <hi rend="italic superscript">th</hi>
+                        <hi rend="italic">.</hi> Athens, Greece: IFLA. http://library.ifla.org/2578/.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hechl, Stefan, Pierre-Carl Langlais, Jani Marjanen, Sarah Oberbichler, and Eva Pfanzelter.</hi> 2021. “Digital Interfaces of Historical Newspapers: Opportunities, Restrictions and Recommendations.” 
+                        <hi rend="italic">Journal of Data Mining &amp; Digital Humanities</hi> HistoInformatics (January). https://doi.org/10.46298/jdmdh.6121.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ridge, Mia, Giovanni Colavizza, Laurel Brake, Maud Ehrmann, Jean-Phillipe Moreux, and Andrew Prescott, eds.</hi> 2019. “The Past, Present and Future of Digital Scholarship with Newspaper Collections.” In 
+                        <hi rend="italic">DH 2019 Book of Abstracts</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Romanello, Matteo.</hi> 2018. “Detecting Text Reuse in Newspapers Data with Passim.” Presented at the Hacking the News Workshop in conjunction with DHN 2018, Helsinki. http://dig-hum-nord.eu/.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Seguin, Benoît Laurent Auguste.</hi> 2018. “Making Large Art Historical Photo Archives Searchable.” Lausanne: EPFL.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Smith, David A., Ryan Cordel, Elizabeth Maddock Dillon, Nick Stramp, and John Wilkerson.</hi> 2014. “Detecting and Modeling Local Text Reuse.” In 
+                        <hi rend="italic">IEEE/ACM Joint Conference on Digital Libraries</hi>, 183–92. https://doi.org/10.1109/JCDL.2014.6970166.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ströbel, Phillip</hi>. 2019. “Improving OCR of Black Letter in Historical Newspapers: The Unreasonable Effectiveness of HTR Models on Low-Resolution Images.” Presented at the 
+                        <hi rend="italic" xml:space="preserve">Digital Humanities 2019: Complexities, Utrecht, December 7. </hi>https://www.conftool.pro/dh2019/index.php?page=brows%20eSessions&amp;path=adminSessions&amp;print=export&amp;ismobile=%20false&amp;form_session=481&amp;presentations=show.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Whitelaw, Mitchell.</hi> 2015. “Generous Interfaces for Digital Cultural Collections” 9 (1). http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

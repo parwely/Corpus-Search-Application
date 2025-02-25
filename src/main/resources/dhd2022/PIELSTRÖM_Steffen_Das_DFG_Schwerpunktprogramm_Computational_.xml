@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_323">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Das DFG Schwerpunktprogramm Computational Literary Studies</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Pielström</surname>
+                        <forename>Steffen</forename>
+                    </persName>
+                    <affiliation>Julius-Maximilians-Universität Würzburg, Germany</affiliation>
+                    <email>pielstroem@biozentrum.uni-wuerzburg.de</email>
+                <idno type="ORCID">0000-0003-1016-2911</idno></author>
+                <author>
+                    <persName>
+                        <surname>Jung</surname>
+                        <forename>Kerstin</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Germany</affiliation>
+                    <email>kerstin.jung@ims.uni-stuttgart.de</email>
+                <idno type="ORCID">0000-0002-9548-8461</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-15T22:01:26.605145688</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Computational Literary Studies</term>
+                    <term>Community</term>
+                    <term>Literaturwissenschaft</term>
+                    <term>Textanalyse</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Community-Bildung</term>
+                    <term>Literatur</term>
+                    <term>Forschung</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">323</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Die Computational Literary Studies (CLS) sind ein wachsendes, interdisziplinäres Forschungsfeld angesiedelt zwischen Literaturwissenschaft, Computerlinguistik und Informatik, in dem computergestützte Verfahren zur Analyse literaturwissenschaftlicher Fragestellungen zum Einsatz kommen. Insgesamt elf Einzelprojekte aus Deutschland und der Schweiz, die zur Zeit in diesem Emerging Field arbeiten, gehören dem seit 2020 aktiven Schwerpunktprogramm SPP 2207 "Computational Literary Studies" der Deutschen Forschungsgemeinschaft (DFG) an, davon erhalten 10 Projekte direkte Förderung aus dem Programm, ein weiteres Projekt ist mit dem Programm assoziiert. Hinzu kommt ein Zentralprojekt das, als Besonderheit neben der organisatorischen und inhaltilichen Koordination der Fortschungsvorhaben, über eine eigens eingerichteten Personalstelle für das projektübergreifende Forschungsdatenmanagement verfügt. So bietet das Programm eine enge Begleitung und Abstimmung der Projekte in Fragen des Forschungsdatenmanagements über die gesamte Laufzeit. Für das kooperative Arbeiten wird vom Zentralprojekt u.a. eine Gitlab-Instanz zur Verfügung gestellt.</p>
+            <p>In den einzelnen Projekten kooperieren erfahrene Digital Humanists eng mit etablierten Literaturwissenschaftler*innen um an aktuell relevanten Fragen der Literaturwissenschaft zu arbeiten. Die Forschung im SPP 2207 konzentriert sich vor allem auf die deutschsprachige Literatur. Hier reicht das Spektrum der Forschungsgegenstände von Romanen über Dramen bis hin zur Poesie, die untersuchten Texte entstammen verschiedenen Epochen vom Mittelhochdeutschen bis ins späte 20. Jahrhundert. Hinzu kommen methodologische Untersuchungen die zum Ziel haben, das methodische Repertoire der Computational Literary Studies für die spezifischen Anforderungen des Faches zu validieren und weiter zu entwickeln. So haben sich für Sentimentanalyse, Wordembeddings und Annotationen projektübergreifende Arbeitsgruppen etabliert und ein ganzes Projekt widmet sich der Methodenforschung im Bereich der kontrastiven Stilometrie.</p>
+            <p>Die Projekte in der ersten, dreijährigen Förderperiode sind im einzelnen:</p>
+            <list type="unordered">
+            <item>Anomaliebasierte quantitative Untersuchung von Stil und Gattung anhand des Stilmittelgebrauchs in mittelalterlicher Literatur (Joachim Denzler &amp; Sophie Marshall)</item>
+            <item>Die Anfänge der modernen Lyrik - Literaturgeschichte mit Textähnlichkeiten modellieren (Simone Winko &amp; Fotis Jannidis)</item>
+            <item>Advanced sentiment analysis for understanding affective-aesthetic responses to literary texts: A computational and experimental psychology approach to children’s literature (Berenike Herrmann, Arthur Jacobs, Gerhard Lauer &amp; Jana Lüdtke)</item>
+            <item>Computergestützte Analyse von Unzuverlässigkeit und Wahrheit in Fiktion – Vernetzung und Operationalisieren der Narratologie CAUTION (Jonas Kuhn &amp; Janina Jacke)</item>
+            <item>Emotionen im Drama (Christian Wolff &amp; Katrin Dennerlein)</item>
+            <item>Evaluation von Events in der NarraTologie EvENT (Evelyn Gius &amp; Chris Biemann)</item>
+            <item>Quantitative Drama Analytics: Tracking Character Knowledge Q:TRACK (Nils Reiter &amp; Marcus Willand)</item>
+            <item>Relating the Unread - Netzwerkmodelle in der Literaturgeschichte (Ulrik Brandes &amp; Thomas Weitin)</item>
+            <item>Literatur strukturieren - Varianten und Funktionen reflexiver Passagen in fiktionalen Erzähltexten (Anke Holler, Caroline Sporleder &amp; Benjamin Gittel)</item>
+            <item>Was ist wichtig? Schlüsselstellen in der Literatur (Robert Jäschke &amp; Steffen Martus)</item>
+            <item>Zeta und Konsorten - Distinktivitätsmaße für die Digitalen Literaturwissenschaften (Christof Schöch)</item>
+            </list>
+            <p>Angesichts der Vernetzung und Verankerung nahezu aller Programmbeteiligten in der nationalen wie internationalen Fachcommunity - so engagieren sich Mitglieder u.a. in der ADHO Special Interest Group "Digital Literary Stylistics", der EU COST Action "Distant Reading for European Literary History", dem EU-Programm "Computational Literary Studies Infrastructure" (CLSInfra) und der ACL Special Interest Group on Humanities (SIGHUM) - sieht sich SPP 2207 nicht nur als Einrichtung für eine begrenzte Zahl geförderter Projekte sondern auch als Multiplikator und "Netzwerkknoten" für die gesamte CLS-Community, insbesondere im deutschsprachigen Raum. Veranstaltungen des Schwerpunktprogramms wie Meetings und Workshops sind daher in der Regel ebenso offen für Interessierte wie die projektübergreifenden Arbeitsgruppen, um die aktive Beteiligung weiterer Teile der Fachcommunity an den Aktivitäten von SPP 2207 zu fördern.</p>
+            <p>Mit dem vorliegenden Poster präsentiert sich SPP 2207 in seiner Gesamtheit und zeigt, wie die Vernetzung in einem solchen Programm Synergien und Gelegenheiten zur Zusammenarbeit schafft, die in der Zukunft auch in die weitere Foschungscommunity hinein wirken sollen.</p>
+        </body>
+    </text>
+</TEI>

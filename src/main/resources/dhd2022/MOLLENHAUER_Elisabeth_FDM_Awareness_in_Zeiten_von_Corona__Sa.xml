@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_229">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">FDM-Awareness in Zeiten von Corona</title>
+                    <title type="sub">Sammelkarten zum Forschungsdatenmanagement „Daten &amp; Datteln digital“</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Mollenhauer</surname>
+                        <forename>Elisabeth</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln, Germany</affiliation>
+                    <email>e.mollenhauer@uni-koeln.de</email>
+                <idno type="ORCID">0000-0001-8034-7191</idno></author>
+                <author>
+                    <persName>
+                        <surname>Rau</surname>
+                        <forename>Felix</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln, Germany</affiliation>
+                    <email>f.rau@uni-koeln.de</email>
+                <idno type="ORCID">0000-0003-4167-0601</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-05T00:04:51.74</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Forschungsdatenmanagement</term>
+                    <term>Data Literacy</term>
+                    <term>Vermittlung</term>
+                    <term>Awareness</term>
+                    <term>Community</term>
+                    <term>Pandemie</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Gestaltung</term>
+                    <term>Kommunikation</term>
+                    <term>Einführung</term>
+                    <term>Lehre</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">229</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>FDM-Vermittlung vor Corona</head>
+                <p>Als Forschungsdatenkompetenzzentrum der Philosophischen Fakultät der Universität zu Köln ist das Data Center for the Humanities (DCH) für die aktive Unterstützung von Geisteswissenschaftler:innen an der Fakultät und darüber hinaus bei Fragen zum Forschungsdatenmanagement (FDM) zuständig. Dies umfasst alle Aspekte des Forschungsdatenlebenszyklus, von der initialen Forschungsfrage über die Datenerhebung und -analyse bis hin zur Archivierung, Publikation und Nachnutzbarmachung von Forschungsdaten. Dies schließt auch Aspekte der Öffentlichkeitsarbeit mit ein, um Wissenschaftler:innen über Fragen des Umgangs mit Forschungsdaten zu informieren und die Awareness für die Notwendigkeit von umfassendem Forschungsdatenmanagement zu steigern.<ref target="ftn1" n="1"/>
+                </p>
+                <p>
+                    <anchor xml:id="id__gjdgxs"/>In einer Umfrage zu Forschungsdaten an der Philosophischen Fakultät 2018 schätzte die überwiegende Mehrheit der befragten Wissenschaftler:innen ihre FDM-Kenntnisse als durchschnittlich (45,2 %) bis gering (29,6 %) ein. Als Konsequenz wurde die Beratungstätigkeit des DCH sowie die aktive Unterstützung von Wissenschaftler:innen beim Datenmanagement weiter verstärkt und Schwellen reduziert. Mit einer 2019 eingerichteten offenen, wöchentlich stattfindenden Sprechstunde konnten die durch das DCH durchgeführten Beratungen noch einmal signifikant erhöht werden. Mit dem FDM-Workshop für Promovierende an der a.r.t.e.s. Graduate School for the Humanities Cologne und der FDM-Übung für Masterstudierende der Informationsverarbeitung, Medieninformatik und Linguistik haben FDM-Aspekte außerdem Eingang in die universitäre Lehre gefunden und werden so frühzeitig an Nachwuchswissenschaftler:innen herangetragen (vgl. Blumtritt et al. 2020a, 2020b).<ref target="ftn2" n="2"/>
+                </p>
+                <p>Für das Sommersemester 2020 wurde in Zusammenarbeit mit dem Dekanat der Philosophischen Fakultät eine mehrteilige Vortragsreihe zu FDM-Themen geplant, vorbereitet und beworben (s. Abb. 1). Die als praktisch orientierte „How-to“-Reihe konzipierten Vorträge sollten unter dem Titel „Daten &amp; Datteln“ Informationsvermittlung mit Kaffee, Keksen und Trockenobst in einer ungezwungenen Atmosphäre verbinden.</p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/6ac395dbb21c6015544e86cb728309ae.jpg"/>
+                        <head>Abb. 1: Ankündigung der Vorträge im Sommersemester 2020 (Layout und Illustration: Julia Sorouri)</head>
+                    </figure>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Digitale FDM-Vermittlung während der Corona-Pandemie</head>
+                <p>Als Mitte März 2020 deutlich wurde, dass neben Lehre und Beratung auch eine Vortragsreihe in Präsenz nicht möglich sein würde, wurde entschieden, die Vorträge durch digitale Sammelkarten zu ersetzen und über den digitalen Newsletter der Fakultät monatlich zu versenden.<ref target="ftn3" n="3"/> Die Sammelkarten wurden gleichzeitig auch über den Twitter-Account des DCH kommuniziert und fanden so auch über die Grenzen der Fakultät hinaus Anklang.<ref target="ftn4" n="4"/> Ergänzt wurden die Sammelkarten im Wintersemester 2020/21 durch zwei digitale Kurzvorträge für Mitglieder der Fakultät.<ref target="ftn5" n="5"/>
+                </p>
+                <p>
+                    <anchor xml:id="id__1bkti5th8cb1"/>Die monatliche Kommunikation der Sammelkarten konnte so der durch Kontaktbeschränkungen reduzierten Sichtbar- und Niederschwelligkeit des DCH und seines Angebots entgegenwirken.<ref target="ftn6" n="6"/> Gleichzeitig wurde regelmäßig über den Fortbestand des Beratungs- und Betreuungsangebot des DCH im digitalen Raum informiert. Aufgrund der positiven Resonanz auf Twitter – und der andauernden Pandemie – wurde die Reihe in den darauffolgenden Semestern durch weitere Sammelkarten erweitert und ist seitdem fortlaufend.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Entwicklung und Umsetzung des Sammelkartensets</head>
+                <p>Für das Sommersemester 2020 (und auch für die folgenden) wurden vorab vier Sammelkarten mit je einem FDM-Thema konzipiert und als kompakter Text in einem entworfenen Template umgesetzt. Zentrale Aspekte der Sammelkarten wurden mit Icons und Diagrammen veranschaulicht. Als Download wurden die Karten öffentlich auf der Webseite des DCH mit einem vertiefendem Text zur Verfügung gestellt und sind dort mit einer individuellen URL aufrufbar.<ref target="ftn7" n="7"/>
+                </p>
+                <p>Die ersten acht Sammelkarten bieten einen Einstieg in grundlegende FDM-Aspekte und somit auch in die Grundlagen guter wissenschaftlicher Praxis (vgl. DFG 2019) und Themen der Data Literacy (vgl. Wuttke &amp; Helling 2020). Sie betreffen sämtliche Etappen des Forschungsdatenlebenszyklus und nehmen konkret Bezug auf das Service-Portfolio des DCH einerseits sowie durch das Datenzentrum adressierte Forschungsbereiche andererseits:<ref target="ftn8" n="8"/>
+                </p>
+                <list type="unordered">
+                    <item>Forschungsdatenmanagement und Drittmittelförderung</item>
+                    <item>Datenmanagementpläne</item>
+                    <item>Archivierung</item>
+                    <item>Digitales Publizieren</item>
+                    <item>Langlebigkeit und Pflege von Daten</item>
+                    <item>Backup und Datensicherheit</item>
+                    <item>Nachhaltige Softwarekuratierung</item>
+                    <item>Persistente Identifier: DOI, ORCID und Co.</item>
+                </list>
+                <p>Dabei hat sich gezeigt, dass bereits auf Vermittlung ausgerichtete Konzepte wie die FAIR-Prinzipien (vgl. Wilkinson et al. 2016)<ref target="ftn9" n="9"/> oder die 3-2-1-Backup-Regel (vgl. Briney et al. 2020: 8–9) aufgrund ihrer Prägnanz sich besonders für das Format der Sammelkarte eignen (s. Abb. 2). Fortgeführt wurde die Reihe mit der Vorstellung eigener Ressourcen und Services, wodurch insbesondere auch fachspezifische FDM-Aspekte und die Kompetenzbereiche des DCH – audiovisuelle (AV) Daten und lexikalische Ressourcen – abgedeckt wurden.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/ddd472fe2a829266a6f2a2903f8d0773.jpg"/>
+                        <head>Abb. 2: Sammelkarte 6 – Backup und Datensicherheit (Layout: Elisabeth Mollenhauer, basierend auf Arbeiten von Julia Sorouri)</head>
+                    </figure>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick zur Nachnutzung</head>
+                <p>Die zunächst nur temporär geplanten Sammelkarten haben sich mittlerweile als wesentlicher Bestandteil der Öffentlichkeitsarbeit des DCH auf Twitter etabliert. In postpandemischer Zukunft sollen diese als gedrucktes Set in kleiner Auflage in Beratung, Schulung und Lehre als Gesprächseinstieg und praktische Merkhilfen zum Mitnehmen eingesetzt werden. Die über Twitter kommunizierten Sammelkarten zu generischen FDM-Themen sollen weiterhin auch universitätsextern einen Mehrwert für die geisteswissenschaftliche Community erzeugen.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note xml:id="ftn1" place="foot" n="1"><ptr target="https://dch.phil-fak.uni-koeln.de/sites/dch/user_upload/Satzung_DCH__11.07.2018_.pdf"/>[letzter Zugriff 1. Dezember 2021].
+                    </note><note xml:id="ftn2" place="foot" n="2"><ptr target="https://dch.phil-fak.uni-koeln.de/sichtbarkeit-und-lehre/umfrage-forschungsdaten"/>; 
+                        <ptr target="https://dch.phil-fak.uni-koeln.de/sichtbarkeit-und-lehre"/>[letzter Zugriff 1. Dezember 2021].
+                    </note><note xml:id="ftn3" place="foot" n="3">Die Idee, FDM-Inhalte auf ein Sammel- oder Spielkartenformat zu konzentrieren und zu vermitteln, wurde bereits im „DANS Data Game“ (
+                        <ptr target="https://web.archive.org/web/20211201115745/https://dans.knaw.nl/en/news/dans-data-game/"/>; 
+                        <ptr target="https://web.archive.org/web/20211201120148/https://dans.knaw.nl/en/news/dans-data-game-also-online-available/"/>) des Data Archiving and Networked Services (DANS) in Den Haag und in den „Research Data ScaryTales“ des Thüringer Kompetenznetzwerks Forschungsdatenmanagement (TKDM) umgesetzt (vgl. Gerlach et al. 2020). Auch das Dramenquartett (
+                        <ptr target="https://dramenquartett.github.io/"/>) verfolgt ein didaktisches Ziel (vgl. Fischer et al. 2018a, 2018b) [letzter Zugriff 1. Dezember 2021].
+                    </note><note xml:id="ftn4" place="foot" n="4"><ptr target="https://twitter.com/dch_cologne"/>[letzter Zugriff 1. Dezember 2021].
+                    </note><note xml:id="ftn5" place="foot" n="5"><ptr target="https://dch.phil-fak.uni-koeln.de/daten-und-datteln/vortraege"/>[letzter Zugriff 1. Dezember 2021].
+                    </note><note xml:id="ftn6" place="foot" n="6">Siehe hierzu auch die „Research Data ScaryTales“ des TKDM: 
+                        <ptr target="https://web.archive.org/web/20211024045932/https://forschungsdaten-thueringen.de/rdm-scarytales/articles/overview.html"/><hi rend=""> </hi>[letzter Zugriff 1. Dezember 2021].
+                    </note><note xml:id="ftn7" place="foot" n="7"><ptr target="https://dch.phil-fak.uni-koeln.de/daten-und-datteln/sammelkarten"/>[letzter Zugriff 1. Dezember 2021].
+                    </note><note xml:id="ftn8" place="foot" n="8"><ptr target="https://dch.phil-fak.uni-koeln.de/fdm-services"/>; 
+                        <ptr target="https://dch.phil-fak.uni-koeln.de/forschung"/>[letzter Zugriff 1. Dezember 2021].
+                    </note><note xml:id="ftn9" place="foot" n="9"><ptr target="https://www.go-fair.org/fair-principles/"/>[letzter Zugriff 1. Dezember 2021].
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Blumtritt, Jonathan / Helling, Patrick / Mathiak, Brigitte / Neuefeind, Claes / Rau, Felix / Schildkamp, Philip / Wieners, Jan Gerrit</hi> (2020a): "Geisteswissenschaftliches Forschungsdatenmanagement in der Lehre – Konzepte, Methoden, Erfahrungen", in: 
+                        <hi rend="italic">DHd 2020 "Spielräume. Digital Humanities zwischen Modellierung und Interpretation". 7. Jahrestagung des Verbands Digital Humanities im deutschsprachigen Raum e.V. Konferenzabstracts</hi> 318–321 
+                        <ptr target="https://doi.org/10.5281/zenodo.4608524"/>
+                        <hi rend="">. </hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Blumtritt, Jonathan / Helling, Patrick / Mathiak, Brigitte / Neuefeind, Claes / Rau, Felix / Schildkamp, Philip / Wieners, Jan Gerrit</hi> (2020b): "Geisteswissenschaftliches Forschungsdatenmanagement in der Lehre – Konzepte, Methoden, Erfahrungen", in: 
+                        <hi rend="italic">DHd 2020 "Spielräume. Digital Humanities zwischen Modellierung und Interpretation". 7. Jahrestagung des Verbands Digital Humanities im deutschsprachigen Raum e.V.</hi> [Poster] 
+                        <ptr target="https://doi.org/10.5281/zenodo.3697519"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Briney, Kristin A. / Coates, Heather / Goben, Abigail</hi> (2020): "Foundational Practices of Research Data Management", in: 
+                        <hi rend="italic">Research Ideas and Outcomes</hi> 6: e56508 
+                        <ptr target="https://doi.org/10.3897/rio.6.e56508"/>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Deutsche Forschungsgemeinschaft (DFG)</hi> (2019): 
+                        <hi rend="italic">Guidelines for Safeguarding Good Research Practice. Code of </hi>
+                        <hi rend="italic">Conduct</hi>
+                        <ptr target="https://doi.org/10.5281/zenodo.3923601"/>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fischer, Frank / Kittel, Christopher / Milling, Carsten / Trilcke, Peer / Wolf, Jana</hi> (2018a): "Dramenquartett – Eine didaktische Intervention", in: 
+                        <hi rend="italic">DHd 2018 "Kritik der digitalen Vernunft". 5. Jahrestagung des Verbands Digital Humanities im deutschsprachigen Raum e.V. </hi>
+                        <hi rend="italic">Konferenzabstracts</hi> 397–398 
+                        <ptr target="https://doi.org/10.5281/zenodo.4622596"/>
+                        <hi rend="">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fischer, Frank / Kittel, Christopher / Milling, Carsten / Schultz, Anika / Trilcke, Peer / Wolf, Jana</hi> (2018b): "Dramenquartett – Eine didaktische Intervention", in: 
+                        <hi rend="italic">DHd 2018 "Kritik der digitalen Vernunft". 5. Jahrestagung des Verbands Digital Humanities im deutschsprachigen Raum e.V.</hi> [Poster] 
+                        <ptr target="https://doi.org/10.6084/m9.figshare.5926363.v1"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gerlach, Roman / Rex, Jessica / Lang, Kevin / Neute, Nadine / Schröter, Annett / Schwartze, Volker</hi> (2020): 
+                        <hi rend="italic">Research Data ScaryTales</hi> [Data set] 
+                        <ptr target="https://doi.org/10.5281/zenodo.4066679"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wilkinson, Mark D. / Dumontier, Michel / Aalbersberg, IJsbrand Jan, et al.</hi> (2016): "The FAIR Guiding Principles for scientific data management and stewardship", in: 
+                        <hi rend="italic">Sci Data</hi> 3: 160018 
+                        <ptr target="https://doi.org/10.1038/sdata.2016.18"/>.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wuttke, Ulrike / Helling, Patrick</hi>
+                        <hi rend=""> (2020): "Barcamp Data Literacy: Datenkompetenzen in den digitalen Geisteswissenschaften vermitteln: Erkenntnisse aus dem Workshop der AG Datenzentren während der DHd 2020 an der Universität Paderborn", in: </hi>
+                        <hi rend="italic">Bausteine Forschungsdatenmanagement</hi>
+                        <hi rend=""> 2 (November): 49–55 </hi>
+                        <ptr target="https://doi.org/10.17192/bfdm.2020.2.8276"/>
+                        <hi rend="">.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

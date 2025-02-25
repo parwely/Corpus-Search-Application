@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_206">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Optimiertes Peer Reviewing in den Digital Humanities</title>
+                <author>
+                    <persName>
+                        <surname>Guhr</surname>
+                        <forename>Svenja</forename>
+                    </persName>
+                    <affiliation>Technische Universität Darmstadt, Deutschland</affiliation>
+                    <email>svenja.guhr@tu-darmstadt.de</email>
+                <idno type="ORCID">0000-0002-7686-3609</idno></author>
+                <author>
+                    <persName>
+                        <surname>Steyer</surname>
+                        <forename>Timo</forename>
+                    </persName>
+                    <affiliation>Universitätsbibliothek Braunschweig, Deutschland</affiliation>
+                    <email>t.steyer@tu-braunschweig.de</email>
+                <idno type="ORCID">0000-0003-0218-2269</idno></author>
+                <author>
+                    <persName>
+                        <surname>Scholger</surname>
+                        <forename>Walter</forename>
+                    </persName>
+                    <affiliation>Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities, Universität Graz, Österreich</affiliation>
+                    <email>walter.scholger@uni-graz.at</email>
+                <idno type="ORCID">0000-0002-9256-0958</idno></author>
+                <author>
+                    <persName>
+                        <surname>Burghardt</surname>
+                        <forename>Manuel</forename>
+                    </persName>
+                    <affiliation>Universität Leipzig, Deutschland</affiliation>
+                    <email>burghardt@informatik.uni-leipzig.de</email>
+                <idno type="ORCID">0000-0003-1354-9089</idno></author>
+                <author>
+                    <persName>
+                        <surname>Dieckmann</surname>
+                        <forename>Lisa</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln, Deutschland</affiliation>
+                    <email>lisa.dieckmann@uni-koeln.de</email>
+                <idno type="ORCID">0000-0002-1708-7371</idno></author>
+                <author>
+                    <persName>
+                        <surname>Reiter</surname>
+                        <forename>Nils</forename>
+                    </persName>
+                    <affiliation>Universität zu Köln, Deutschland</affiliation>
+                    <email>nils.reiter@uni-koeln.de</email>
+                <idno type="ORCID">0000-0003-3193-6170</idno></author>
+                <author>
+                    <persName>
+                        <surname>Wuttke</surname>
+                        <forename>Ulrike</forename>
+                    </persName>
+                    <affiliation>FH Potsdam, Deutschland</affiliation>
+                    <email>ulrike.wuttke@fh-potsdam.de</email>
+                <idno type="ORCID">0000-0002-8217-4025</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-14T15:09:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Peer Review</term>
+                    <term>DHd-Community</term>
+                    <term>Schreibwerkstatt</term>
+                    <term>Austausch</term>
+                    <term>best practice</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Community-Bildung</term>
+                    <term>Bewertung</term>
+                    <term>Schreiben</term>
+                    <term>Veröffentlichung</term>
+                    <term>Methoden</term>
+                    <term>Standards</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">206</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Beschreibung des Themas</head>
+                <p>
+                    <hi rend="italic">Peer reviewing</hi> gilt auch in den Digital Humanities als die wissenschaftliche Qualitätssicherungsmaßnahme für Publikations- und Veranstaltungsformate. Die Umsetzung, ob als 
+                    <hi rend="italic">open, blind</hi> oder 
+                    <hi rend="italic">double-blind</hi> steht dabei schon seit einigen Jahren in der Diskussion und - ungeachtet des gewählten Verfahrens - in der Kritik. Bei der DHd-Jahrestagung 2022 wurde nach einigen Jahren des 
+                    <hi rend="italic">blind peer reviewing</hi> zum ersten Mal eine Variante des 
+                    <hi rend="italic">open peer reviewing</hi> für diese Tagungsreihe eingesetzt. In diesem neuen Ansatz erfahren die Autor:innen die Namen der Gutachter:innen, was für mehr Transparenz, Qualität und Fairness des Begutachtungsprozesses sorgen soll. 
+                    <lb/>Rund um das Begutachtungsverfahren waren aber nicht nur die Form des Reviewings, sondern auch die Begutachtungskriterien der DHd-Jahrestagungen in den letzten Jahren immer wieder Gegenstand der Diskussion innerhalb der Community. Dies ergab sich nicht zuletzt daraus, dass die Kriterien seit der 1. DHd-Jahrestagung in Passau nicht umfassend weiter spezifiziert wurden sowie teilweise unscharfe Begriffe und Kategorien beinhalten. Eine weitere Besonderheit der Digital Humanities (im deutschsprachigen Raum) ist die Interdisziplinarität bzw. die Diversität der Fachtraditionen in der Wissenschaftskommunikation (z.B. Kritiklevel) und im Reviewprozess. Gleichzeitig ist die DHd-Community neuen experimentellen Formaten aufgeschlossen, weil sich noch keine Traditionen etabliert haben und dadurch die Gestaltungsfreiheit bei der Community liegt.
+                </p>
+                <p>Um diesen Überlegungen Rechnung zu tragen, gründete sich die Task Force “Optimized Peer Review” (OPR), die durch einen bei der vDHd veranstalteten Workshop (Burghardt et al. 2021) um weitere Mitglieder ergänzt wurde. In Absprache mit dem DHd-Vorstand sowie dem aktuellen Programmkomitee entwickelte die Task Force eine Handreichung für das 
+                    <hi rend="italic">peer reviewing</hi> der DHd 2022 mit weiterführenden Erklärungen der Kriterien und Empfehlungen zur Begutachtung in der DHd-Community, die bereits für den Reviewprozess der DHd-Jahrestagung 2022 an die Reviewer:innen verteilt wird. 
+                    <lb/>Ein globales Ziel der Handreichung ist es, eine größere Einheitlichkeit in der Anwendung der Begutachtungskriterien für Beiträge zur DHd-Jahrestagung zu schaffen. 
+                    <lb/>Diese neuen Entwicklungen und die damit verbundenen Diskussionen und Beschlüsse sind gerade für noch unerfahrene Reviewer:innen nicht immer leicht nachzuvollziehen, daher möchte die erwähnte Task Force mit diesem Workshop ein Format anbieten, um sich über die Begutachtungspraxis der DHd zu informieren, einen Ort für Austausch zwischen mehr und weniger erfahrenen Reviewer:innen zu schaffen, aber auch konkret das Schreiben von Gutachten zu erproben.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ablauf</head>
+                <p>Der Workshop wird eine Mischung aus theoretischen Input- und interaktiven Diskussions- und Anwendungsphasen sein. In den Inputphasen wird ein Überblick über die unterschiedlichen Varianten des 
+                    <hi rend="italic">peer reviewing</hi> sowie eine Darstellung aktueller Diskurse aus verschiedenen wissenschaftlichen Perspektiven zum Begutachtungswesen gegeben. Hiermit wird ein möglichst einheitlicher Wissensstand geschaffen und Grundlage für die anschließenden Diskussionsrunden gelegt. Diese finden in Kleingruppen statt, in denen Erfahrungsaustausch und konstruktive Diskussion an erster Stelle stehen. Ziel ist es, Feedback zum derzeitigen Reviewprozess der DHd-Jahrestagungen sowie der Interpretation der Reviewkriterien zu bekommen. Daher versteht sich der Workshop nicht nur als Format für die Wissensvermittlung zum neuen Reviewverfahren, sondern auch als diskursiver Raum, um die weitere Gestaltung künftiger Begutachtungsverfahren transparenter zu gestalten und noch enger an die Bedarfe der Community zu koppeln. 
+                    <lb/>Zu Beginn des Workshops stellt das Organisationsteam das Thema, den Workshopablauf sowie die Ziele des Workshops vor. Darauf folgt eine Aktivierungsphase: Didaktisch organisiert als „Think-Pair-Share“-Aufgabe sind die Teilnehmenden dazu aufgefordert, zunächst in Einzelarbeit (
+                    <hi rend="italic">Think-Phase</hi>) orientiert an einer Leitfrage ihre Erfahrungen mit dem 
+                    <hi rend="italic">peer-reviewing</hi>-Verfahren zu reflektieren. 
+                    <lb/>Anschließend werden diese Reflektionen in Partnerarbeit (
+                    <hi rend="italic">Pair-Phase</hi>) mit dem Ziel diskutiert, positive und negative Erfahrungen der Teilnehmenden zu sammeln und insbesondere Bedarfe der Teilnehmenden im Rahmen des Begutachtungsprozesses zu benennen: Welche Unterstützung wünschen sich die Teilnehmenden von Programmkomitee und Verband? Wie kann negativen Reviewerfahrungen aktiv vorgebeugt werden? Wie lassen sich künftige Reviewprozesse aufgrund der gemachten Erfahrungen optimieren? 
+                    <lb/>In der 
+                    <hi rend="italic">Share-Phase</hi> soll der Fokus nach einer kurzen Schilderung der positiven Erfahrungen auf die negativen Erfahrungen gelenkt werden, zu denen sodann in Kategorien gebündelt die Ideen und Lösungsvorschläge der Teilnehmenden im Plenum diskutiert werden. 
+                    <lb/>Diese erste Arbeitsphase dient der Aktivierung und Sensibilisierung der Teilnehmenden für das Thema Reviewing und für die Komplexität von negativen Erfahrungen im Reviewprozess sowie seiner Vereinheitlichung und Qualitätssicherung. 
+                    <lb/>Die 
+                    <hi rend="italic">Share-Phase</hi> dient gleichzeitig als Überleitung zum Überblicksvortrag der Beitragenden, in dem die Ideen und ersten Umsetzungen vorgestellt werden, die die Task Force innerhalb des letzten Jahres erarbeitet haben:
+                </p>
+                <list type="unordered">
+                    <item>Handreichung: Empfehlungen für besseres Reviewing </item>
+                    <item>Handreichung: Schärfung der Reviewkriterien </item>
+                    <item>Community Maßnahmen: Ombudsstelle, Review Award, Community Engagement</item>
+                </list>
+                <p>Anschließend gibt es eine moderierte Diskussionsrunde zum Vorgehen und zu den Ideen der Task Force, aus der sich die Beitragenden konstruktives Feedback versprechen. Außerdem soll die Diskussionsrunde als Möglichkeit dienen, den Teilnehmenden Teilhabe an der weiteren Gestaltung des Reviewprozesses (inklusive flankierender Maßnahmen wie der Ombudstelle und dem 
+                    <hi rend="italic">best review award</hi>) zu gewähren. 
+                    <lb/>Nach der Diskussion wird in einem praxisorientierten Teil auf das Schreiben von konstruktiven Gutachten eingegangen. Anhand von Fallbeispielen geben erfahrene Gutachtende und die Beitragenden in kleinen Gruppen Tipps für das Formulieren von Lob und Kritik, für die generelle Bewertung von Einreichungen orientiert an der Handreichung und gehen auf die Fragen der Teilnehmenden ein. Auch wird anhand der Fallbeispiele konkret das Formulieren von konstruktivem Feedback erprobt. Durch diese Einheit wird das im Workshop vermittelte Wissen um exemplarische Beispiele ergänzt und so die Hürde für das Schreiben eines ersten Reviews gemindert. 
+                    <lb/>Den Abschluss des Workshops bildet eine Ergebnisdokumentation, die zusätzlich zu einer Workshopdokumentation mit den Teilnehmer:innen und der Community über einen DHd-Blogpost geteilt wird. Zudem wird die Dokumentation in die weitere Arbeit der Task Force einbezogen werden.
+                    <lb/>Bei diesem Workshop profitieren die Teilnehmenden sowie die Beitragenden vom gemeinsamen Wissens-, Erfahrungs- und Ideenpool und integrieren so aktiv die DHd-Community in die Gestaltung des 
+                    <hi rend="italic">peer-reviewing</hi>-Prozesses der zukünftigen Jahrestagungen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ablaufplan</head>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;">Phase</cell>
+                        <cell style="text-align: left;">Inhalt(e)</cell>
+                        <cell style="text-align: left;">Sozialform und Methode(n)</cell>
+                        <cell style="text-align: left;">Medien</cell>
+                        <cell style="text-align: left;">
+                            <p>Zeit </p>
+                            <p>in min</p>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">1. Begrüßung</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">Plenum</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">7</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">2. Vorstellung</cell>
+                        <cell style="text-align: left;">Organisationsteam, Teilnehmende, Thema, geplanter Ablauf</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">Beamer-Präsentation</cell>
+                        <cell style="text-align: left;">7</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">3. Aktivierungsphase</cell>
+                        <cell style="text-align: left;">„Think-Pair-Share“-Aufgabe</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">45</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">a) 
+                            <hi rend="italic">Think-Phase</hi>
+                        </cell>
+                        <cell style="text-align: left;">Reflektion 
+                            <hi rend="italic">peer-reviewing</hi>-Erfahrungen orientiert an Leitfragen
+                        </cell>
+                        <cell style="text-align: left;">Einzelarbeit</cell>
+                        <cell style="text-align: left;">Blatt DIN A4 + Stift</cell>
+                        <cell style="text-align: left;">5</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">b) 
+                            <hi rend="italic">Pair-Phase</hi>
+                        </cell>
+                        <cell style="text-align: left;">Positive Erfahrungen herausstellen, Lösungen für neg. Erfahrungen formulieren</cell>
+                        <cell style="text-align: left;">Partner:innenarbeit</cell>
+                        <cell style="text-align: left;">Blatt DIN A3 + Stifte</cell>
+                        <cell style="text-align: left;">15</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">c) 
+                            <hi rend="italic">Share-Phase</hi>
+                        </cell>
+                        <cell style="text-align: left;">Diskussion der Ideen und Lösungsvorschläge</cell>
+                        <cell style="text-align: left;">Plenum, Gruppengespräch</cell>
+                        <cell style="text-align: left;">Sammeln der Beiträge in Beamer-Präsentation</cell>
+                        <cell style="text-align: left;">25</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">4. Pause</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">15</cell>
+                    </row>
+                </table>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;">Phase</cell>
+                        <cell style="text-align: left;">Inhalt(e)</cell>
+                        <cell style="text-align: left;">Sozialform und Methode(n)</cell>
+                        <cell style="text-align: left;">Medien</cell>
+                        <cell style="text-align: left;">
+                            <p>Zeit </p>
+                            <p>in min</p>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">5. Input</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">(77)</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">a) Vortrag A</cell>
+                        <cell style="text-align: left;">
+                            <p>Überblick zu Begutachtungsvarianten</p>
+                            <p>- Was ist 
+                                <hi rend="italic">peer reviewing</hi>? (generell)
+                            </p>
+                            <p>- Was ist 
+                                <hi rend="italic">open peer reviewing</hi>? (spezifisch)
+                            </p>
+                            <p>- verschiedene 
+                                <hi rend="italic">peer-reviewing</hi>-Varianten (Überblicksfolie mit Varianten in Spalten)
+                            </p>
+                        </cell>
+                        <cell style="text-align: left;">Vortrag</cell>
+                        <cell style="text-align: left;">Beamer-Präsentation</cell>
+                        <cell style="text-align: left;">10</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">b) kurze Interaktion</cell>
+                        <cell style="text-align: left;">Zeit zur Klärung von Rückfragen</cell>
+                        <cell style="text-align: left;">Plenum</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">7</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">c) Impulsvorträge</cell>
+                        <cell style="text-align: left;">
+                            <p>Reviewroutinen in verschiedenen Fachdisziplinen;</p>
+                            <p>allgemeine Erfahrungen aus drei verschiedenen Perspektiven (Informatik, Germanistik, DH2020)</p>
+                        </cell>
+                        <cell style="text-align: left;">Vortrag</cell>
+                        <cell style="text-align: left;">Beamer-Präsentation</cell>
+                        <cell style="text-align: left;">15</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">d) Interaktion</cell>
+                        <cell style="text-align: left;">Frage ans Plenum: Wie läuft das Reviewing in Ihrer Disziplin? (Leitfrage für moderierten Austausch)</cell>
+                        <cell style="text-align: left;">Plenum</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">10</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">e) Vortrag B</cell>
+                        <cell style="text-align: left;">
+                            <p>Infos zur 
+                                <hi rend="italic">Task Force OPR</hi>
+                            </p>
+                            <p>- spezifisch im DHd-Kontext: normale Begutachtungspraxis bis 2020</p>
+                            <p>- Entscheidung in der Mitgliederversammlung 2020</p>
+                            <p>- Gründung der Task Force</p>
+                            <p>- Aufgaben der Task Force</p>
+                            <p>- Zwischenergebnisse: Abschnitte der Handreichung, Ombudstelle, Coaching für neue Reviewer:innen</p>
+                        </cell>
+                        <cell style="text-align: left;">Vortrag</cell>
+                        <cell style="text-align: left;">Beamer-Präsentation</cell>
+                        <cell style="text-align: left;">20</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">6. Diskussion</cell>
+                        <cell style="text-align: left;">moderierte Diskussionsrunde zu Vorgehen/Ideen der Task Force, Fokus: Handreichung</cell>
+                        <cell style="text-align: left;">
+                            <p>Plenum,</p>
+                            <p>Gruppengespräch</p>
+                        </cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">15</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">7. Pause</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">15</cell>
+                    </row>
+                </table>
+                <table rend="rules">
+                    <row>
+                        <cell style="text-align: left;">Phase</cell>
+                        <cell style="text-align: left;">Inhalt(e)</cell>
+                        <cell style="text-align: left;">Sozialform und Methode(n)</cell>
+                        <cell style="text-align: left;">Medien</cell>
+                        <cell style="text-align: left;">
+                            <p>Zeit </p>
+                            <p>in min</p>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">8. Coaching</cell>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">(55)</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">a) Impuls</cell>
+                        <cell style="text-align: left;">Wie schreibt man ein gutes Review? Wie wird konstruktives Feedback formuliert? Was sind die Hürden beim Schreiben des ersten Reviews?</cell>
+                        <cell style="text-align: left;">
+                            <p>experimentelle Mischung: Plenum,</p>
+                            <p>Gruppengespräch, Vortrag</p>
+                        </cell>
+                        <cell style="text-align: left;">Sammeln der Beiträge in Beamer-Präsentation</cell>
+                        <cell style="text-align: left;">15</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">b) Fallbeispielarbeit</cell>
+                        <cell style="text-align: left;">Formulierung von konstruktivem Feedback anhand zur Verfügung gestellter Beispiele (3 Texte für 6 Gruppen) hinsichtlich der Kriterien in der Handreichung</cell>
+                        <cell style="text-align: left;">Partner:innenarbeit</cell>
+                        <cell style="text-align: left;">Laptops oder Blatt DIN A4 + Stift</cell>
+                        <cell style="text-align: left;">25</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">c) Diskussion</cell>
+                        <cell style="text-align: left;">Diskussion der Ergebnisse</cell>
+                        <cell style="text-align: left;">Plenum</cell>
+                        <cell style="text-align: left;">Sammeln der Beiträge in Beamer-Präsentation</cell>
+                        <cell style="text-align: left;">15</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">9. Ergebnisse</cell>
+                        <cell style="text-align: left;">Dokumentation der Ergebnisse</cell>
+                        <cell style="text-align: left;">Plenum, Gruppengespräch</cell>
+                        <cell style="text-align: left;">Sammeln der Beiträge in Dokument als Ergebnisdokumentation (Grundlage für Blogpost)</cell>
+                        <cell style="text-align: left;">10</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;">10. Abschluss</cell>
+                        <cell style="text-align: left;">Feedbackblock und Ausblick</cell>
+                        <cell style="text-align: left;">Plenum</cell>
+                        <cell style="text-align: left;">Beamer-Präsentation</cell>
+                        <cell style="text-align: left;">9</cell>
+                    </row>
+                    <row>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;"/>
+                        <cell style="text-align: left;">240</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Lernziele</head>
+                <p>Die Teilnehmenden erkennen die Komplexität des 
+                    <hi rend="italic">peer reviewing</hi> im DHd-Kontext. 
+                    <lb/>Die Teilnehmenden reflektieren persönliche Reviewerfahrungen und formulieren konstruktive Ideen und Lösungsvorschläge zur Verbesserung des Reviewverfahrens. 
+                    <lb/>Die Teilnehmenden erhalten Informationen über das Vorgehen der Task Force, diskutieren ihre Vorschläge und geben konstruktives Feedback. 
+                    <lb/>Die Teilnehmenden üben das konstruktive Formulieren von Feedback und erhalten bewährte Formulierungen als Anregung für zukünftige Reviews.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Kontaktdaten aller Beitragenden</head>
+                <p>
+                    <hi rend="bold">Svenja Guhr</hi> (svenja.guhr@tu-darmstadt.de) ist wissenschaftliche Mitarbeiterin am Institut für Sprach- und Literaturwissenschaft der TU Darmstadt. Sie lehrt und forscht in der computationellen Literaturwissenschaft mit Forschungsinteresse in automatisierter Analyse von Prosatexten, Lautstärke als narratologisches Phänomen und Gender Studies. 
+                </p>
+                <p>
+                    <hi rend="bold">Timo Steyer</hi> (t.steyer@tu-braunschweig.de) leitet das Referat Informationskompetenz an der Universitätsbibliothek der Technischen Universität Braunschweig. Er ist seit vielen Jahren in den Digital Humanities aktiv und ist Convenor der DHd-AG Digitales Publizieren. Seine Forschungsinteressen sind digitales Publizieren, (Meta)datenmodellierung und Data Literacy.
+                </p>
+                <p>
+                    <hi rend="bold">Walter Scholger</hi> (walter.scholger@uni-graz.at) ist Institutsmanager am Zentrum für Informationsmodellierung der Universität Graz, Sprecher des CLARIAH-AT Konsortiums und Co-Lead der DARIAH-EU Arbeitsgruppe zu ethischen und rechtlichen Aspekten der Digital Humanities (ELDAH) und bearbeitet die Themenfelder Open Science sowie Aspekte der digitalen Veröffentlichung und Nachnutzung von Forschungsdaten aus den Bereichen Wissenschaft und Kulturerbe. 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Angaben zum Zielpublikum</head>
+                <p>Zahl der möglichen Teilnehmer:innen: &lt; 30 Personen</p>
+                <p>Das Zielpublikum umfasst alle, die sich für den Begutachtungsprozess der Tagungen des DHd-Verbandes und ähnlicher Veranstaltungen interessieren. Es werden keine Vorkenntnisse benötigt. Angesprochen sind vor allem junge Wissenschaftler:innen, die planen erste Reviewanfragen anzunehmen und den Workshop als Orientierung nutzen wollen, um sich mit erfahrenen Reviewer:innen auszutauschen. Für den Erfahrungsaustausch freuen wir uns über die Teilnahme erfahrener Reviewer:innen, die 
+                    <hi rend="italic">best-practice</hi>-Erfahrungen und erfolgreiche Routinen mit den Teilnehmenden sowie den Beitragenden teilen möchten. Zusätzlich wollen wir Teilnehmende ansprechen, die den Workshop nutzen möchten, um ihre eigene Reviewpraxis zu reflektieren und aktiv an der Qualität ihrer Reviews zu arbeiten.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Benötigte technische Ausstattung</head>
+                <p>Benötigt werden ein Beamer für die Präsentation in der Einleitungsphase sowie WLAN im Seminarraum mit Zugang für die Teilnehmer:innen und die Workshopleitung. 
+                    <lb/>Die Teilnehmer:innen bringen ihren eigenen internetfähigen Laptop mit.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Burghardt, Manuel / Dieckmann, Lisa / Guhr, Svenja / Reiter, Nils / Scholger, Walter / Steyer, Timo / Trilcke, Peer / Wuttke, Ulrike</hi> (2021): 
+                        <hi rend="italic">Handreichung für den Begutachtungsprozess der DHd2022.</hi> Zenodo doi:10.5281/zenodo.5093652.
+                    </bibl>
+                    <bibl><hi rend="bold">Burghardt, Manuel / Dieckmann, Lisa / Reiter, Nils / Steyer, Timo / Scholger, Walter / Trilcke, Peer / Wuttke, Ulrike</hi> (2021): 
+                        <hi rend="italic">Besseres Reviewing für die DHd (Version 1.0).</hi> Zenodo doi:10.5281/zenodo.4633633.
+                    </bibl>
+                    <bibl><hi rend="bold">DFG</hi> (2010): 
+                        <hi rend="italic">Hinweise zu Fragen der Befangenheit, DFG-Vordruck 10.201</hi>, https://www.dfg.de/formulare/10_201/ [letzter Zugriff 14. Juli 2021]. 
+                    </bibl>
+                    <bibl><hi rend="bold">Omer, Ahmad / Abdularhim, Mohhamed</hi> (2017): "The criteria of constructive feedback: The feedback that counts", in: 
+                        <hi rend="italic">Journal of Health Specialties</hi> 5(1): 45 https://link.gale.com/apps/doc/A479274547/HRCA?u=anon~5c61e832&amp;sid=bookmark-HRCA&amp;xid=647edcaf [letzter Zugriff 14. Juli 2021]. 
+                    </bibl>
+                    <bibl><hi rend="bold">Ross-Hellauer, Tony</hi> (2017): “What is open peer review? A systematic review”, in: 
+                        <hi rend="italic">F1000Research</hi> 6: 588 doi:10.12688/f1000research.11369.2.
+                    </bibl>
+                    <bibl><hi rend="bold">Ross-Hellauer, Tony / Görögh, Edit</hi> (2019): “Guidelines for open peer review implementation”, in: 
+                        <hi rend="italic">Res Integr Peer Rev</hi> 4(4) doi:10.1186/s41073-019-0063-9.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

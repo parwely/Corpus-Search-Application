@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_244">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Referenzierung des digitalen kulturellen (Text-)Erbes</title>
+                <title type="sub">Digitale Quellenkritik und Modellierung von Metadaten</title>
+                </title>
+            <author>
+                    <persName>
+                        <surname>Althage</surname>
+                        <forename>Melanie</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>melanie.althage@hu-berlin.de</email>
+                <idno type="ORCID">0000-0001-5233-1061</idno></author>
+                <author>
+                    <persName>
+                        <surname>Dreyer</surname>
+                        <forename>Malte</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>malte.dreyer@cms.hu-berlin.de</email>
+                <idno type="ORCID">0000-0002-1775-8622</idno></author>
+                <author>
+                    <persName>
+                        <surname>Guescini</surname>
+                        <forename>Rolf</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>rolf.guescini@hu-berlin.de</email>
+                <idno type="ORCID">0000-0003-4325-5751</idno></author>
+                <author>
+                    <persName>
+                        <surname>Hiltmann</surname>
+                        <forename>Torsten</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>torsten.hiltmann@hu-berlin.de</email>
+                <idno type="ORCID">0000-0002-6757-6210</idno></author>
+                <author>
+                    <persName>
+                        <surname>Lüdeling</surname>
+                        <forename>Anke</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>anke.luedeling@hu-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Odebrecht</surname>
+                        <forename>Carolin</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Germany</affiliation>
+                    <email>carolin.odebrecht@hu-berlin.de</email>
+                <idno type="ORCID">0000-0003-4887-7701</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Quellenkritik</term>
+                    <term>Forschungsdaten</term>
+                    <term>Text</term>
+                    <term>Metadaten</term>
+                    <term>Modellierung</term>
+                    <term>Erschließung</term>
+                    <term>Referenzierung</term>
+                    <term>Linked Data</term>
+                    <term>User Stories</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Community-Bildung</term>
+                    <term>Metadaten</term>
+                    <term>Methoden</term>
+                    <term>benannte Entitäten (named entities)</term>
+                    <term>Forschungsprozess</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">244</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Forschungsgegenstand</head>
+                <p>
+                    <hi rend="docdata" xml:space="preserve">Historische Textdaten </hi>wie etwa Urkunden, Briefe, Tagebücher aber auch literarische Texte sind integraler Bestandteil unseres kulturellen Erbes und insofern für viele geisteswissenschaftliche Fachbereiche wie die Sprach-, Literatur- und Geschichtswissenschaften die empirische Forschungsgrundlage. Für deren Referenzierung und Erschließung wurden insbesondere in den historischen Disziplinen und  Methodiken zur Einordnung und Kritik solcher Quellen geprägt (grundlegend etwa: Droysen 1868: 16-19; Bernheim 1907: 113-134), die wiederum auch für andere wie die oben genannten Fachbereiche intellektuelle Zugänge zu Forschungsressourcen ermöglichen können. Die Anpassung der Quellenkritik an die spezifischen Eigenschaften digitalisierter und genuin-digitaler Quellen ist dagegen ein interdisziplinär zu verortendes Desiderat in dem emergierenden komplementären digitalen Forschungsparadigma „Digital Humanities“ (für die Geschichtswissenschaften etwa: Föhr 2019; Margulies 2009).<ref target="ftn1" n="1"/> Mit domänenspezifischen Zugängen, die sich Beschreibungsansätze aus den genannten Fachbereichen zu eigen machen, können (historische) Textdaten trans- und interdisziplinär kritisch eingeordnet, gefunden, erschlossen und wiederverwendet werden (vgl. FAIR Data Wilkinson et al. 2016).
+                </p>
+                <p>
+                    <hi rend="docdata">In unserem Beitrag zeigen wir, wie eine domänenspezifi</hi>sche Datendokumentation, -kritik und -referenzierung mit standardisierten Methoden (TEI ODD Burnard 2013, UML-Modell für Metadaten Odebrecht 2019) für das LAUDATIO-Repositorium (Guescini, Schulz und Odebrecht 2021)<ref target="ftn2" n="2"/> und damit für die historisch arbeitenden Textwissenschaften umgesetzt werden kann. Die Dokumentation und Kritik nehmen sich dabei die historische Quellenkritik als Vorbild. Entsprechend werden in LAUDATIO sowohl äußerlich beschreibende als auch aus den Inhalten extrahierte Metadaten verwendet, um eine Einordnung und Erschließung der textuellen Quellen zu ermöglichen und zugleich neue Wege zu deren korpusimmanenter wie -übergreifender Recherche und Analyse zu bieten. Ein Schwerpunkt wird hierbei zunächst auf Personen- und Ortsbezüge gesetzt (wie zum Beispiel mit GND). Dabei leiten uns drei Fragenkomplexe an:
+                </p>
+                <p rend="3089" style="text-align: left; text-align: justify;">I) Wie können wir diese multiplen Perspektiven (Kritik, Erschließung und Dokumentation) auf eine Quelle und über mehrere Quellen hinweg in einem Modell abbilden? Wie können wir Referenzen zu Personen und Orten in verschiedensten Quellen abrufbar machen? Wie gelingt die Einordnung der Quellen in etablierte Taxonomien beziehungsweise Ontologien? </p>
+                <p style="text-align: justify;">II) Wir erweitern diesen Forschungsgegenstand um die folgende Perspektive: Wie ordnen sich Transkripte und Annotationen in dieses Informationsgefüge ein? Wie lassen sich deren digitale Repräsentationen und deren (gewollte) Manipulationen so beschreiben, dass auch dieser Teil der digitalen Quellenkritik sind? </p>
+                <p style="text-align: justify;">III) Wie kann aus dieser Informationsdichte eine Exploration erfolgen, die den Forschenden die so versammelten Quellen als Forschungsdaten auffindbar, zugänglich, interoperabel und wiederverwendbar macht?</p>
+                <p>
+                    <hi rend="docdata">Um sich der Beantwortung dieser Fragen anzunähern und um im Rahmen einer nachhaltigen Infrastru</hi>ktur als Weiterentwicklung des bestehenden Forschungsdatenrepositoriums LAUDATIO entsprechende Lösungsansätze umzusetzen, haben wir in einem ersten Schritt in einem interdisziplinären Team aus zentraler Infrastruktureinheit, Korpuslinguistik, Forschungsdatenmanagement und Geschichtswissenschaften 56 User Stories entwickelt, die wir in der Posterpräsentation vorstellen und mit der Community diskutieren.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Anwendungsperspektive</head>
+                <p>Diese User Stories und deren Akzeptanzkriterien stellen für uns die wesentliche Implementierungsgrundlage der Weiterentwicklung von LAUDATIO über die bisherige sprachwissenschaftliche Zielgruppe hinaus dar. LAUDATIO will explizit ein Angebot an Geisteswissenschaftler:innen verschiedenster Disziplinen zur nachhaltigen Publikation und Nachnutzung textbasierter Forschungsdaten machen. Eine breite Diskussion und ggf. Anpassung/Erweiterung ist daher essentiell. Nur so können wir LAUDATIO als Publikationsplattform in der Nutzerdomäne erweitern und einen wichtigen Beitrag für Open Science leisten sowie das Forschungsdatenmanagement unseres kulturellen Texterbes unterstützen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <hi rend="docdata">User Stories für die Erschließung von Textdaten</hi>
+                </head>
+                <p>
+                    <hi rend="docdata">Die User Stories repräs</hi>entieren die Bedarfe von historisch Forschenden, die das Repositorium und dessen Filter-/Suchinterfaces zur Forschungsdatenpublikation und -recherche verwenden. Zwei entscheidende Befunde, die sich aus der Entwicklung der User Stories ergeben haben, betreffen die Umsetzung der FAIR-Prinzipien sowie die Berücksichtigung der Forschungs- und Arbeitsprozesse insbesondere im Bereich des Datenmanagements der Zielgruppe(n). Nachfolgend zeigen wir ein Beispiel für eine User Story mit Akzeptanzkriterien, die sich aus den Forschungsprozessen und Workflows der nutzenden Community ableiten:
+                </p>
+                <p rend="1458" style="text-align: left; text-align: justify;">
+                    <hi style="font-size:11pt" xml:space="preserve">User Story: </hi>
+                    <hi rend="italic" style="font-size:11pt">Als Geschichtswissenschaftler:in möchte ich eine Liste von Orten, die in den Dokumenten genannt sind, um nach für mich relevanten Dokumenten zu recherchieren.</hi>
+                </p>
+                <p style="text-align: justify;">Akzeptanzkriterien:</p>
+                <list type="unordered">
+                    <item>Dynamische Generierung von Ortslisten aus dem Metadatenindex</item>
+                    <item>Metadatenindex hält verschiedene Typen von Orten vor (Publikationsort, Ort genannt in Dokument)</item>
+                    <item>Orte sind, wo möglich, mit Geodaten referenziert</item>
+                    <item>Auswahl und Anzeige der Ortsliste über die Expertensuche</item>
+                    <item>Auswahl und Anzeige der Ortsliste über die Metadatenanzeige pro Korpus und pro Dokument </item>
+                </list>
+                <p>Der thematische Schwerpunkt liegt bei uns in der Modellierung flexibler, unterschiedlich granularer und miteinander verschränkter Referenzierungen, die auf Korpus-, Text- und Annotationsebene ansetzen und miteinander interagieren. Personen, Orte und Werke sind Entitäten, die für eine digitale Quellenkritik entscheidende Informationen tragen. Ein umfassendes Desiderat für die Weiterentwicklung von LAUDATIO sind die Akzeptanzkriterien, welche das messbare Ergebnis und damit den Erfolg der User Story für die nutzende Community beschreib-, validierbar und im Rahmen der Entwicklung implementierbar machen. Wir diskutieren auf der Postersession nicht nur die User Stories sondern auch die Akzeptanzkriterien.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                            <hi rend="docdata">Vgl. auch weitere Ansätze zur Diskussion einer digitalen Quellenkritik </hi>
+                            <hi rend="italic" style="font-size:9pt">Virtuelles BarCamp zu den theoretischen Aspekten einer digitalen Quellenkritik</hi>
+                            <hi style="font-size:9pt">: https://vdhd2021.hypotheses.org/288 [letzter Zugriff 15.Juli 2021].</hi>
+                        </note><note place="foot" xml:id="ftn2" n="2">
+                            <ref target="https://www.laudatio-repository.org/">
+                                <hi rend="" style="font-size:9pt">https://www.laudatio-repository.org/</hi>
+                            </ref>
+                            <hi style="font-size:9pt" xml:space="preserve"> besucht am 12.07.2021.</hi>
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl rend="5430" style="text-align: left; text-align: justify;">
+                        <hi rend="bold" style="font-size:11pt">Bernheim, Ernst</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (1907): </hi>
+                        <hi rend="italic" style="font-size:11pt">Einleitung in die Geschichtswissenschaft.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> Leipzig: Göschen‘sche Verlagsbuchhandlung.</hi>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold" style="font-size:11pt">Burnard, Lou</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2013): „Resolving the Durand Conundrum“, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Journal of the Text Encoding Initiative</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 6 </hi>
+                        <ref target="http://journals.openedition.org/jtei/842">
+                            <hi rend="" style="font-size:11pt">http://journals.openedition.org/jtei/842</hi>
+                        </ref>
+                        <hi style="font-size:11pt" xml:space="preserve"> [letzter Zugriff 13.07.2021].</hi>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold" style="font-size:11pt">Droysen, Johann Gustav</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (1868): </hi>
+                        <hi rend="italic" style="font-size:11pt">Grundriss der Historik</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. Leipzig: Veit. </hi>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Föhr, Pascal </hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(2019): </hi>
+                        <hi rend="italic" style="font-size:11pt">Historische Quellenkritik im Digitalen Zeitalter</hi>
+                        <hi style="font-size:11pt">. Glückstadt: Verlag Werner Hülsbusch.</hi>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold" style="font-size:11pt">Guescini, Rolf / Schulz, Konstantin / Odebrecht, Carolin. (2021)</hi>
+                        <hi style="font-size:11pt" xml:space="preserve">. </hi>
+                        <hi rend="italic" style="font-size:11pt">Laudatio Repository - Long-term Access and Usage of Deeply Annotated Information Docker Images (Version 0.1)</hi>
+                        <hi style="font-size:11pt">. Zenodo. http://doi.org/10.5281/zenodo.5101524</hi>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold" style="font-size:11pt" xml:space="preserve">Margulies, Simon B. </hi>
+                        <hi style="font-size:11pt" xml:space="preserve">(2009): </hi>
+                        <hi rend="italic" style="font-size:11pt" xml:space="preserve">Digitale Daten als Quelle der Geschichtswissenschaft. Eine Einführung </hi>
+                        <hi style="font-size:11pt">(Kölner Beiträge zu einer geisteswissenschaftlichen Fachinformatik, Bd. 2). Hamburg: Verlag Dr. Kova<hi rend="math">č</hi>.</hi>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold" style="font-size:11pt">Odebrecht, Carolin</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2019): „A Model-to-model Approach for Developing Corpus Metadata. An “Odd” TEI Customization for Encoding Metadata“, in: Digital Humanities 2019 Conference Proceedings. Utrecht University, 9-12-7.2019, Utrecht.</hi>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold" style="font-size:11pt">Wilkinson, M. D. et al.</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> (2016): „The FAIR Guiding Principles for scientific data management and stewardship“, in: </hi>
+                        <hi rend="italic" style="font-size:11pt">Scientific Data</hi>
+                        <hi style="font-size:11pt" xml:space="preserve"> 3, DOI: 10.1038/sdata.2016.18.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

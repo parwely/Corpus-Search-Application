@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_295">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Beyond the render silo</title>
+                <title type="sub">Semantically annotating 3D data within an integrated knowledge graph and 3D-rendering toolchain</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Rossenova</surname>
+                        <forename>Lozana</forename>
+                    </persName>
+                    <affiliation>TIB – Leibniz Information Centre for Science and Technology</affiliation>
+                    <email>lozana.rossenova@tib.eu</email>
+                <idno type="ORCID">0000-0002-5190-1867</idno></author>
+                <author>
+                    <persName>
+                        <surname>Schubert</surname>
+                        <forename>Zoe</forename>
+                    </persName>
+                    <affiliation>SPK – Stiftung Preussischer Kulturbesitz</affiliation>
+                    <email>Zoe.Schubert@sbb.spk-berlin.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Vock</surname>
+                        <forename>Richard</forename>
+                    </persName>
+                    <affiliation>Bonn University</affiliation>
+                    <email>vock@cs.uni-bonn.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Blümel</surname>
+                        <forename>Ina</forename>
+                    </persName>
+                    <affiliation>TIB – Leibniz Information Centre for Science and Technology, Hannover University of Applied Sciences and Arts</affiliation>
+                    <email>Ina.Bluemel@tib.eu</email>
+                <idno type="ORCID">0000-0002-3075-7640</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-30T23:28:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>3D-models</term>
+                    <term>3D-rendering</term>
+                    <term>semantic web</term>
+                    <term>Linked Open Data</term>
+                    <term>knowledge graph</term>
+                    <term>Kompakkt</term>
+                    <term>Wikibase</term>
+                    <term>annotation</term>
+                    <term>enrichment</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Kontextsetzung</term>
+                    <term>Archivierung</term>
+                    <term>Kollaboration</term>
+                    <term>Daten</term>
+                    <term>3D-Bilder</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">295</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Research problem</head>
+                <p style="text-align: left; ">The proliferation of improved scanning technologies and digital record-keeping systems led to mass-digitisation efforts and the launch of numerous online archives and collections (Terras
+                    <hi style="font-size:10pt">, 2011</hi>). Cultural heritage and research institutions have had to adapt their practices to account for shifts in what contemporary cultural stewardship and the study of cultural memory entails (Parry, 2010). Collections of images and texts need to be fully accessible to fulfil institutional missions (Kapsalis, 2016; Maher and Tallon, 2018). In the vast majority of cases, access implies viewing siloed resources, such as scanned text pages or photographs of physical objects and sometimes 3D renderings, alongside minimal descriptive metadata. But digital representations of cultural assets in the form of 3D models within disciplines such as architecture, art, archaeology, and 3D reconstruction are particularly heterogeneous in formats and structure, ergo standardized access and visualisation tools fail to meet new research objectives and institutional requirements. Especially as the result of state-of-the-art digitisation efforts, 3D datasets challenge renderers in terms of geometric complexity, memory and bandwidth requirements (Koller et al., 2009). What is more, cultural memory preservation is not guaranteed through digitisation activities alone, but instead requires the active participation of diverse audiences who can search, access and enrich datasets through annotation and critical interpretation.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Methodology</head>
+                <p style="text-align: left; ">To address this knowledge gap, a suite of tools is being developed as part of the NFDI4Culture project across several partner organisations. Operating within 
+                    <hi rend="italic">Task area 1: Data capture and enrichment</hi>, the proposed toolchain focuses on the annotation of 3D data within a knowledge graph environment, so that 3D objects’ geometry, attendant metadata, as well as annotations remain searchable, while data interconnections are not lost. The project builds on several existing FOSS tools: 
+                </p>
+                <list type="unordered">
+                    <item>OpenRefine, a data cleaning, reconciliation and batch upload tool (Sterner 2019); </item>
+                    <item>Wikibase, a suite of services developed by Wikimedia Germany; Wikibase is the software behind Wikidata, the largest public knowledge graph on the web; it combines the ability to handle large volumes of data points with sophisticated data querying and extraction services via a dedicated SPARQL endpoint (Thornton et al. 2018); </item>
+                    <item>Kompakkt, a browser-based open-source 3D and multimedia viewer Kompakkt with built-in collaborative annotation features (Eide et al., 2019). </item>
+                </list>
+                <p style="text-align: left; ">The toolchain implementation is taking place in an open, iterative process in close collaboration with the culture community to leverage transparency, reduce duplication of effort and ensure optimal usability. The first milestone of establishing a mechanism for automated deployment of reconciliation services between OpenRefine and an arbitrary, self-managed instance of Wikibase has been completed via Ansible and CI/CD pipelines on GitLab. The next milestone of gathering sample contextual metadata alongside images, videos and related 3D objects is being completed in collaboration with the Corpus der barocken Deckenmalerei in Deutschland (Bayerische Akademie der Wissenschaften, 2021) and research partners at TUM. Once all relevant data is modelled and uploaded in Wikibase’s knowledge graph and linked to persistent storage of the media files, the next milestone is linking the graph database with Kompakkt’s rendering and user interaction environment, which will act as end-user’s entry point to exploring the datasets and annotating images and 3D models with high level of precision. In parallel to the work on the Wikibase-Kompakkt integration, we are extending Kompakkt’s current capabilities, so that we can facilitate collaborative annotation of large-scale 3D pointclouds and meshes with the same ease and efficiency as the currently supported smaller mesh datasets by providing an alternate FOSS pointcloud rendering backend.</p>
+                <p style="text-align: left; ">The integrated suite of tools follows FAIR principles, and adopts common standards like PIDs or the W3C annotation model. It facilitates linking 3D objects and annotations, and their cultural context (including historical people and places, geo-location and capture-technology metadata), to the broader semantic web and various national and international authority records (GND, Getty’s AAT, VIAF and more). </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Results</head>
+                <p style="text-align: left; ">By the end of 2021, the toolchain will be developed as an MVP (minimum viable product) to be tested and refined further with more data partnerships. It will allow a wide range of users to interact with 3D and other types of multimedia objects and annotations, and ultimately open up new digital spaces for research, education and discourse around cultural stewardship and memory preservation without siloing knowledge. The proposed toolchain will extend the potentials of Wikimedia and Europeana GLAM initiatives, while remaining highly flexible and adaptable to individual institutional contexts and research needs. Results – in the form of open-source code repositories, workflow documentation and a public portal for requirements gathering (GitLab, 2021) – are being made available in alignment with community needs.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Bayerische Akademie der Wissenschaften</hi>. (2021). <hi rend="italic">Corpus der barocken Deckenmalerei in Deutschland (CbDD)</hi>. 
+                        <ref target="https://deckenmalerei.badw.de/">https://deckenmalerei.badw.de/</ref> (accessed 15 July 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Eide, Ø., Schubert, Z., Türkoğlu, E., Wieners, J.G. and Niebes, K.</hi> (2019). <hi rend="italic">The intangibility of tangible objects: re-telling artefact stories through spatial multimedia annotations and 3D objects</hi>. 
+                        Presented at the ICOM Kyoto 2019, <hi rend="italic">25th ICOM General Conference: Museums as Cultural Hubs: The Future of Tradition</hi>, Kyoto.
+                        <ref target="http://doi.org/10.5281/zenodo.3878966">http://doi.org/10.5281/zenodo.3878966
+                        </ref> (accessed 15 July 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Gitlab</hi>. (2021). <hi rend="italic">MVP requirements gathering portal</hi>. 
+                        <ref target="https://gitlab.com/nfdi4culture-data-enrichment/kompakkt-wikibase-integration/-/requirements_management/requirements">https://gitlab.com/nfdi4culture-data-enrichment/kompakkt-wikibase-integration/-/requirements_management/requirements
+                        </ref> (accessed 15 July 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Kapsalis, E.</hi> (2016). <hi rend="italic">The impact of open access on galleries, libraries, museums, &amp; archives</hi>, 
+                        <ref target="http://siarchives.si.edu/sites/default/files/pdfs/2016_03_10_OpenCollections_Public.pdf">http://siarchives.si.edu/sites/default/files/pdfs/2 016_03_10_OpenCollections_Public.pdf
+                        </ref> (accessed 15 July 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Koller, D., Frischer, B. and Humphreys, G.</hi> (2009). <hi rend="italic">Research challenges for digital archives of 3D cultural heritage models, JOCCH</hi> 2, (7): 10.1145/1658346.1658347.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Maher, K. and Tallon, L.</hi> (2018). <hi rend="italic">Wikimedia and The Met: A shared digital vision</hi>,
+                        Wikimedia Blog.
+                        <ref target="https://blog.wikimedia.org/2018/04/19/wikimedia-the-met-shared-digital-vision/">https://blog.wikimedia.org/2018/04/19/wikimedia-the-met-shared-digital-vision/
+                        </ref> (accessed 15 July 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Parry, R.</hi> (ed). (2010).
+                        <hi rend="italic">Museums in a Digital Age</hi>. Abindgon: Routledge.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Sterner, E.</hi> (2019). "Cleaning Collections Data Using OpenRefine",
+                        <hi rend="italic">Issues in Science and Technology Librarianship,</hi> 92. 
+                        <ref target="https://doi.org/10.29173/istl30">https://doi.org/10.29173/istl30
+                        </ref> (accessed 15 July 2021).
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Terras, M.</hi> (2011). "The rise of digitization". In: Rikowski, R. (ed.), 
+                        <hi rend="italic">Digitisation Perspectives</hi>. Rotterdam: Sense Publishers, pp. 3–20.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Thornton, K., Seals-nutt, K., Cochrane, E. and Wilson, C.</hi> (2018). "Wikidata for Digital Preservation". In:
+                        <hi rend="italic">Proceedings of iPRES’18, Cambridge, MA, USA, September 24–27, 2018.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

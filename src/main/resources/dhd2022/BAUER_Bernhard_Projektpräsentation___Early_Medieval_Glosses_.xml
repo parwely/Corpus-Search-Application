@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_191">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Projektpräsentation "Early Medieval Glosses And The Question Of Their Genesis</title>
+                 <title type="sub">A Case Study On The Vienna Bede" (Gloss-ViBe)</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Bauer</surname>
+                        <forename>Bernhard</forename>
+                    </persName>
+                    <affiliation>Universität Graz, Austria</affiliation>
+                    <email>bernhard.w.bauer@gmail.com</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-13T13:22:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitale Edition</term>
+                    <term>Glossen</term>
+                    <term>Frühmittelalter</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Transkription</term>
+                    <term>Beziehungsanalyse</term>
+                    <term>Annotieren</term>
+                    <term>Manuskript</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">191</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Bis heute ist das Annotieren von Texten eine gängige Praxis, deren Formen – Unterstreichen, Hervorheben, Glossieren, Kommentieren etc. – sich im Prinzip seit dem Frühmittelalter kaum verändert haben (vgl. Moulin 2009). Grundsätzlich gibt es zwei Arten von graphischen Elementen in einem Manuskript: den 
+                <hi rend="italic">principal text</hi> und den 
+                <hi rend="italic">paratext</hi>, der ein Manuskript als glossiert klassifiziert (vgl. Blom 2017, 10). Der Paratext lässt sich vom Primärtext in der 
+                <hi rend="italic">mise-en-page –</hi> also der Gestaltung der Seite oder dem Layout –, durch seine Position, eine andere Schrift oder eine spezielle Markierung unterscheiden. Bei Glossen wird traditionell zwischen 
+                <hi rend="italic" xml:space="preserve">interlinearen </hi>und 
+                <hi rend="italic" xml:space="preserve">marginalen </hi>Glossen unterschieden. 
+            </p>
+            <p style="text-align: left; ">Eine wissenschaftliche Beschäftigung mit (frühmittelalterlichen) Glossierungstraditionen bietet zahlreiche Anknüpfungspunkte für multi- und interdisziplinäre Forschungsvorhaben, etwa in Bezug auf die verschiedenen Wege intellektuellen Austauschs, Sprachkontakt, die Geschichte des Zweitspracherwerbs, der Schreib- und Lesekompetenz, der Buchproduktion sowie anderer kultureller und sozio-historischer Aspekte. </p>
+            <p style="text-align: left; ">Das vorliegende Projekt Gloss-ViBe (MSCA-IF-EF-ST #101019035) beschäftigt sich im weitesten Sinn mit dem Sprach- und Kulturkontakt zwischen Irland und Kontinentaleuropa im Frühmittelalter. Es startete im September 2021 in Kollaboration mit dem 
+                <hi rend="italic">Zentrum für Informationsmodellierung – Austrian Centre for Digital Humanities</hi> und dem 
+                <hi rend="italic" xml:space="preserve">Institut für Antike </hi>an der Universität Graz. Die zentrale Forschungsfrage bezieht sich auf die Genese der vernakulären frühmittelalterlichen keltischsprachigen Glossen: Sind die Glossen Originale oder Übersetzungen ursprünglich lateinischer Glossen? Um Antwort(en) auf diese Frage zu finden, wird eine Fallstudie an den keltischen und lateinischen Glossen der Handschrift 
+                <hi rend="italic">Wien</hi>, 
+                <hi rend="italic">Österreichische Nationalbibliothek</hi>, Codex 15298 (olim Suppl. 2698)<ref target="ftn1" n="1"/>, sowie den Parallelglossen in drei weiteren Manuskripten: Angers, Bibliothèque municipale 477 (Ende 9. Jh.), Karlsruhe, Badische Landesbibliothek, Augiensis pergamentum 167 (olim Codex Augiensis CLXVII) (späte erste Hälfte 9. Jh.) und St. Gallen, Stiftsbibliothek, MS 251 (erste Hälfte 9. Jh.), durchgeführt. Dieses fragmentarische Manuskript (4 Folios) stammt aus dem späten 8./frühen 9. Jahrhundert und beinhaltet zirka 200 Glossen zu Bedas 
+                <hi rend="italic">De Temporum Ratione</hi> – wobei ungefähr ein Drittel in altirischer Sprache und der Rest in Latein verfasst ist. Forschungsgeschichtlich waren vor allem die irischen Glossen von Interesse (vgl. Stokes &amp; Strachan, 1901–1903; Dillon, 1956; Bauer 2017). Die lateinischen Glossen sowie der Primärtext wurden bis dato noch nicht vollständig ediert, weshalb in Gloss-ViBe eine umfassende digitale Edition der Handschrift erstellt wird. Um die Genese der Glossen sowie die Texttradition näher beleuchten zu können, sind drei Forschungsziele formuliert:
+            </p>
+            <list type="unordered">
+                <item>Transkription und Kollektion</item>
+                <item>Digitale Edition</item>
+                <item>Theoretisches Framework</item>
+            </list>
+            <p style="text-align: left; ">Die Daten sowie das erarbeitete theoretische Framework werden unter Einhaltung der FAIR-Prinzipien für weitere Nutzung allgemein verfügbar sein. Die Transkription des Wiener Beda sowie der Parallelglossen und die Metadaten werden in TEI/XML (Digitale Transkription und Edition) modelliert. Eine Langzeitarchivierung ist durch das 
+                <hi rend="italic">Geisteswissenschaftliche Asset Management System</hi> (GAMS, Zentrum für Informationsmodellierung Graz) gesichert. 
+            </p>
+            <p style="text-align: left; ">Die Transkription wird mit Transkribus
+                <hi rend="Footnote_Anchor"><ref target="ftn2" n="2"/>
+                </hi> durchgeführt, was auch bedeutet, dass der gesamte Output des Projekts in ein zukünftiges HTR-Trainingsmodell einfließen kann. Neben einer normalisierten Transkription ist auch geplant, das Originaldokument im Sinne Pierazzos (2011) so nahe als möglich wiederzugeben. Das bedeutet, dass Abkürzungen (ꝓ/ꝑ für Lateinisch 
+                <hi rend="italic">per</hi>/
+                <hi rend="italic">pro</hi>) oder Ligaturen (æ) nicht aufgelöst, sondern mit den jeweiligen Unicodezeichen transkribiert werden. Als Grundlage dafür dienen die Standards der 
+                <hi rend="italic">Medieval Unicode Font Initiative</hi>.
+                <hi rend="Footnote_Anchor"><ref target="ftn3" n="3"/>
+                </hi> Das zweite Workpackage dient der Datenmodellierung und Erstellung der digitalen Edition – aufbauend auf den Frameworks von Rehbein (2014) und Monella (2019). Strukturelle Informationen wie z.B. Überschriften oder der Unterschied zwischen Primär- und Paratext werden kodiert. Weiters sind intra- und intertextuelle Links vonnöten, d.h. dass jedem glossierten Lemma sowie der Glosse selbst wird ein Unique Identifier zugewiesen wird. Intratextuell ist das wichtig, um etwa Marginalglossen ihrem konkreten Lemma im Primärtext zuordnen zu können. Intertextuell sind diese Links vor allem für die Parallelglossen wichtig. 
+            </p>
+            <p style="text-align: left; ">Um Antworten auf die Hauptforschungsfrage zu erlangen, wird das erstellte Korpus im dritten Workpackage analysiert. Hierzu wird ein Workflow erstellt, der Ansätze des 
+                <hi rend="italic">close</hi> und 
+                <hi rend="italic">distant reading</hi> verbinden soll (vgl. etwa Bauer 2019 &amp; 2020). Die Parallelglossen werden mittels Netzwerkanalyse (Cytoscape, Gephi), Korpusanalyse Tools (AntConc, Voyant Tools), Kollations-Tools (CollateX, Juxta) aber auch „traditionellen“ Methoden der historisch-vergleichenden Sprachwissenschaft und Philologie untersucht. Durch minutiöse Analysen lässt sich die Richtung der Übersetzung bei mehrsprachigen Parallelglossen ermitteln. Mittels der Kollations-Tools können gemeinsame Fehler bzw. Abweichungen von der kanonisierten Version des Haupttextes ermittelt werden, welche auf eine engere Verbindung der Handschriften hinweisen. Dies kann mit Netzwerkanalysen visualisiert werden. Dadurch lässt sich ein Bild der Gelehrtennetzwerke im Frühmittelalter zeichnen.
+            </p>
+            <p style="text-align: left; ">Gloss-ViBe soll ein Modell für die Transkription/Edition und Analyse von (früh-)mittelalterlichen, glossierten Handschriften schaffen, das auch auf andere Epochen und Textsorten angewendet werden kann. Es soll Impulse für eine breitgefächerte fachliche Beschäftigung mit diesen reichhaltigen Fundgruben intersprachlichen und -kulturellen Wissenstransfers schaffen.</p>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Online unter http://data.onb.ac.at/dtl/8650790.</note><note place="foot" xml:id="ftn2" n="2"> https://readcoop.eu/transkribus/?sc=Transkribus.</note><note place="foot" xml:id="ftn3" n="3"> https://folk.uib.no/hnooh/mufi/.</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bauer, Bernhard</hi> (2017): “New and corrected MS readings of the Old Irish glosses in the Vienna Bede", in: 
+                        <hi rend="italic">Ériu</hi> 67: 29–48. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bauer, Bernhard</hi> (2019): "Venezia, Biblioteca Marciana, Zanetti lat. 349 an isolated manuscript? A (network) analysis of parallel glosses on Orosius’ 
+                        <hi rend="italic">Historiae adversus paganos</hi>", in: 
+                        <hi rend="italic">Études Celtiques</hi> 45: 91–106. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bauer, Bernhard</hi> (2020): "Distant Reading of Glossed Corpora: Stylometry and Network Analysis", Vortrag gehalten beim 
+                        <hi rend="italic">Workshop: Glossing in Celtic Contexts</hi>, Virginia Tech, Blacksburg, VA, USA, September 18–19, 2020. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Blom, Alderik H.</hi> (2017): 
+                        <hi rend="italic">Glossing the Psalms</hi>. Berlin/New York: Walter de Gruyter. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Dillon, Myles</hi> (1956): “The Vienna glosses on Bede", in: 
+                        <hi rend="italic">Celtica</hi> 3: 340–5. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Monella, Paolo</hi> (2019): „A digital critical edition model for Priscian: glosses, graeca, quotations“, in: 
+                        <hi rend="italic">Analecta Romana Instituti Danici</hi> 44, 135–149.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Moulin, Claudine</hi> (2009): "Paratextualle Netzwerke: Kulturwissenschaftliche Erschließung und soziale Dimensionen der althochdeutschen Glossenüberlieferung", in Krieger, Gerhard (ed.), 
+                        <hi rend="italic">Verwandtschaft, Freundschaft, Bruderschaft. Soziale Lebens- und Kommunikationsformen im Mittelalter. Akten des 12. Symposiums des Mediävistenverbandes vom 19. bis 22. März 2007 in Trier</hi>. Berlin: Akademie Verlag. 56–77.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Pierazzo, Elena</hi> (2011): "A Rationale of Digital Documentary Editions", in: 
+                        <hi rend="italic" xml:space="preserve">Literary and Linguistic Computing </hi>26(4): 463–477.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Rehbein, Malte</hi> (2014): "From the Scholarly Edition to Visualization: Re-Using Encoded Data for Historical Research", in: 
+                        <hi rend="italic" xml:space="preserve">International Journal of Humanities and Arts Computing </hi>8.1: 81–105. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Stokes, Whitley / Strachan, John</hi> (1901–1903): 
+                        <hi rend="italic">Thesaurus Palaeohibernicus</hi>, vol. I and II. Cambridge: University Press. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

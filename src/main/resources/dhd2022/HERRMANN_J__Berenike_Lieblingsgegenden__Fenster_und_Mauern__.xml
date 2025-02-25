@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_331">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Lieblingsgegenden, Fenster und Mauern</title>
+                <title type="sub">Zur emotionalen Enkodierung von Raum in Deutschschweizer Prosa zwischen 1850 und 1930</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Herrmann</surname>
+                        <forename>J. Berenike</forename>
+                    </persName>
+                    <affiliation>Universität Bielefeld, Germany</affiliation>
+                    <email>berenike.herrmann@uni-bielefeld.de</email>
+                <idno type="ORCID">0000-0002-5256-0566</idno></author>
+                <author>
+                    <persName>
+                        <surname>Grisot</surname>
+                        <forename>Giulia</forename>
+                    </persName>
+                    <affiliation>Universität Bielefeld, Germany</affiliation>
+                    <email>giulia.grisot@uni-bielefeld.de</email>
+                <idno type="ORCID">0000-0002-3038-6202</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-09-23T12:42:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Schweizer Literatur</term>
+                    <term>Raum</term>
+                    <term>Sentiment</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Räumliche Analyse</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Artefakte</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">331</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Einleitung</head>
+            <p>Raum ist eine wichtige Dimension von ‘Kultur’, nicht zuletzt in literarischen Artefakten. Definiert als “area, as perceived by people, whose character is the result of the action and interaction of natural and/or human factors’ (Council of Europe, 2000, S. 2) impliziert besonders die Landschaft, das ‘Gebiet, wie wahrgenommen’, einen oftmals vergleichenden En- und Dekodierungsakt.</p>
+            <p><hi rend="italic">Wer die Natur aufrichtig schätzt, hat seine Lieblingsgegenden, in welche er immer wieder zurückkehrt, selbst wenn er inzwischen überlegenere landschaftliche Bilder kennengelernt haben sollte.</hi> (Carl Spitteler, <hi rend="italic">Xaver Z'Gilgen</hi>, 1891)</p>
+            <p>Die Räume der deutschschweizer Literatur sind wie bei Spitteler offenbar regelmäßig solche “Lieblingsgegenden”, die dann doch Untiefen offenbaren, wie die Dörfer Gotthelfs, die Kleinstädte Kellers
+                (<hi rend="italic">Seldwyla</hi>) und Frischs
+                (<hi rend="italic">Güllen</hi>). Aber da ist auch der alpine Naturraum (Meyers
+                <hi rend="italic" xml:space="preserve"> Jürg Jenatsch, </hi>Heers
+                <hi rend="italic" xml:space="preserve"> An heiligen Wassern</hi>), sowie urbane und auch nichtschweizer Räume, wie etwa in Spyris Frankfurt am Main.
+            </p>
+            <p><hi rend="italic">Es lief von einem Fenster zum anderen und dann wieder zum ersten zurück; aber immer war dasselbe vor seinen Augen, Mauern und Fenster und wieder Mauern und dann wieder Fenster. Es wurde Heidi ganz bange.</hi> (Johanna Spyri, <hi rend="italic">Heidis Lehr- und Wanderjahre</hi>, 1880)</p>
+            <p>Spittelers scheinbar zahme Alpen, Spyris urbanes Gefängnis und schließlich Hölderlins erhabener “furchtbarherrlicher Haken” des Hochgebirgsaufstiegs
+                (<hi rend="italic" xml:space="preserve">Kanton Schweiz, </hi>1792) sind dabei ‘Kultur’ in doppeltem Sinne. Sie sind zum einen archivierte Beschreibungen von (fiktionalem) Raum, die zum kulturellen Gedächtnis gehören. Doch sind sie auch ‘Kultur’ im Luhmannschen Sinne (vgl. Schaffrick, 2017) - eine Beobachtungsoperation, mit der die beschriebenen Räume in Relation zu anderen (fiktional) enkodierten Räumen gesetzt werden.<ref target="ftn1" n="1"/>
+            </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Forschungsfrage und Vorgehen</head>
+            <p>Unser Beitrag möchte die beiden beschriebenen Ebenen von Kultur mit der des ‘digitalen Gedächtnisses’ zusammenbringen, indem wir computationelle Verfahren auf literarische Texte (als ‘Schweizer digitales Kulturerbe’) anwenden, um die affektive Enkodierung dargestellter Raumtypen (als ‘Reflektion der Reflektion’) zu untersuchen. </p>
+            <p>Ausgehend vom übergreifenden Forschungsinteresse einer Komparatistik der deutschsprachigen Länder möchte unser Beitrag erste Ergebnisse berichten über die emotionale Enkodierung von fiktionalem Raum. Anhand des DCHLi (Deutschschweizer Literaturkorpus), zurzeit als Pilotkorpus mit 76 Texten, und ausgehend von einem semiotischen Zugang zu textuell enkodierten Emotionen (z.B. Schiewer, 2007; vgl. Anz, 2007; Winko, 2022) und Raumanalyse (Balshaw, &amp; Kennedy, 2000; Bologna, 2020)</p>
+            <p>legen wir die in gängigen Sentiment-Diktionären vorgehaltenen Affekt-Kategorien zwischen dimensionalen (Valenz, Arousal) und diskreten Emotionen (“Angst”, “Freude”, “Wut”, “Trauer”, “Ekel”) an. Wir fragen:</p>
+            <p>
+                <hi rend="italic">Welche unterschiedlichen Typen von Landschaft und Raum gibt es in der fiktionalen deutschschweizer Prosa zwischen 1854 und 1930, und wie sind diese jeweils emotional enkodiert?</hi>
+            </p>
+            <p>Unsere quantitativen Befunde sollen Bezüge herstellen zu ikonischen Kultur/Natur-Dichotomien im Erbe der Romantik, zu historischen Stadt/Land-Konstellationen, aber auch zu einem nationalliterarischen Rahmen mit vielbeklagtem Schweizer “Mythos” (Böhler, 2010) einerseits und identifikatorischen (oftmals Alpen-orientierten) Angeboten (Zimmer, 1998) für die “imagined community” (Anderson) der sogenannten Willensnation andererseits.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Daten und Methode</head>
+            <p>Unser DCHLi Pilotkorpus umfasst derzeit 76 fiktionale Prosatexte von AutorInnen, die der deutschschweizer “Nationalliteratur” zugeordnet werden und die zwischen 1854 und 1930 zuerst publiziert wurden (N= 2,025,529 Wörter). DCHLi enthält das wachsende Deutschschweizer ELTeC-gsw (Grisot &amp; Herrmann, 2021) das wiederum Teil der European Literary Text Collection (ELTeC, Odebrecht et al., 2021) ist.</p>
+            <figure>
+                <head>Tab. 1: Auszug aus dem DCHLi Pilotkorpus</head>
+                <graphic n="1001" width="12.805833333333334cm" height="10.541cm" url="Pictures/21769aeda8abc81e957e6b7044c5938d.png" rend="inline"/>
+            </figure>
+            <p>Ausgehend vom derzeit 
+                <hi rend="italic">de facto</hi> Standard der diktionärbasierten Sentimentanalyse innerhalb der DH (vgl. Kim &amp; Klinger, 2019) nutzten wir zur Co-Identifizierung von räumlichen Entitäten und Affekt acht für das Deutsche gängige frei verfügbare Sentiment-/Emotions-Diktionäre, sowie Ressourcen mit geopolitischen und räumlichen Informationen. Ähnlich wie Heuser et al. (2016) identifizieren wir zunächst regelbasiert lexikalisch ‘räumliche Entitäten’ als “Seedwords”, und analysieren daraufhin innerhalb einer Spanne von + - 50 Wörtern um das seedword den enkodierten Affekt.
+            </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Spatial entities</head>
+            <p>Im ersten Schritt erstellten wir ein möglichst umfassendes und feingranuliertes Diktionär “räumlicher Entitäten”, das auf höchster Taxonomie-Ebene die Kategorien RURAL und URBAN zusammenfasst, die sich wiederum in fünf Subkategorien ‘natural entity’, ‘rural entity,’ und ‘geographic entity’, sowie ‘urban entity’ und ‘geopolitical entity’ auffächern (vgl. Wartmann et al. 2018, p. 1580; siehe Abb. 1).</p>
+            <figure>
+                <graphic n="1002" width="16.002cm" height="6.872652777777778cm" url="Pictures/379c8ed19d252e9cd77c1ae09bf4bab9.png" rend="inline"/>
+            <head>Abb. 1: Taxonomie der räumlichen Entitäten mit Gesamtanzahl der Elemente (Stand 9. Juli 2021).</head>
+            </figure>
+            <p>Hier wurden unter Rückgriff auf Ressourcen wie Openthesaurus und das Schweizer Idiotikon historisch wie sprachlich relevante Elemente berücksichtigt (i.e. 
+                <hi rend="italic">Weiher, Weg, Hütte, Berg, See, Straße, Gebäude, Dom</hi>; 
+                <hi rend="italic">Wiler, Bergli</hi>). Für die geopolitischen (i.e. 
+                <hi rend="italic">Basel, Zürich, Berlin, Rom</hi>) and geographischen Elemente (i.e. 
+                <hi rend="italic">Matterhorn, Rigi, Rhein</hi>) nutzen wir als digitale Ressourcen unter anderem Wikidata, Ortsnamen und Swisstopo. Die resultierenden Listen wurden händisch nachkorrigiert und werden auf GitHub (wie auch der gemeinfreie Teil des Korpus sowie der Code) frei zugänglich publiziert werden.
+            </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Sentiment und Emotion</head>
+            <p>Im zweiten Schritt erstellten wir für einen systematischen Vergleich ein Repositorium mit acht der frei verfügbaren Sentiment-Diktionäre (ADU, BAWL, Germanlex, LANG, Klinger, Plutchik, SentiWS, SentiArt, siehe Tabelle 2). </p>
+            <table rend="rules">
+             <head>Tab. 2: Sentiment lexicons</head>
+                <row>
+                    <cell style="text-align: left;">BAWL-R (Võ et al. 2009)</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">LANG (Kanske &amp; Kotz, 2010)</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">Plutchik (Stamm, 2014)</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">Klinger (Klinger et al., 2016)</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">Adu (Hölzer et al., 1992)</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">Germanlex (Clematide et al., 2010)</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">SentiWS (Remus et. al., 2010)</cell>
+                </row>
+                <row>
+                    <cell style="text-align: left;">SentiArt (Jacobs, 2019)</cell>
+                </row>
+            </table>
+            <p>Deren unterschiedlichen Formate wurden für die automatische Sentiment-Annotation in einer processing pipeline vereinheitlicht. Abbildung 2 zeigt die lexikalische Abdeckung der acht Diktionäre auf dem DCHLi, die angibt, wie viele der Wörter von der jeweiligen Ressource erkannt wurden (geordnet in abfallender Reihenfolge). </p>
+            <figure>
+                <graphic n="1003" width="13.1445cm" height="5.461cm" url="Pictures/07d57713b4522ffc6d5daed61e2f3687.png" rend="inline"/>
+                <head>Abb. 2: Lexikalische Abdeckung der Sentiment-Diktionäre im Vergleich</head>
+            </figure>
+            <p>Im dritten Schritt errechneten wir das semiotische Emotionspotenzial innerhalb der räumlichen Seedword-Spannen. Abbildung 3 zeigt den Abbildungsprozess der räumlichen Entitäten auf das Korpus beispielhaft für das BAWL-R-Diktionär: Sobald eine Entität identifiziert ist, werden innerhalb einer Gesamtspanne von 101 Wörtern je 50 Wörter vor und nach der Entität für die Berechnung von Emotions- und Sentimentwerten einbezogen (ohne Stoppwörter).</p>
+            <figure>
+                <graphic n="1004" width="14.224cm" height="9.398cm" url="Pictures/9202263db2b660d2135de54e3cf912d5.png" rend="inline"/>
+            <head>Abb. 3: Schematisches Beispiel für den Abbildungsprozess des Sentiment- / Entitäten-Matchings (BAWL-R).</head>
+            </figure>
+            <p>Mittels dieses Verfahrens kann die Repräsentation von Emotionen (Valenz, Diskrete Emotionen) und ihre Ausprägung (Arousal) bezüglich des fiktionalen Raums näherungsweise untersucht werden, wobei uns zunächst die potenzielle Differenz in der Emotionsrepräsentation zwischen ländlichen und städtischen Räumen interessierte.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Ergebnisse und Diskussion</head>
+            <p>Wir verwendeten R (Version R 4.1.0, R Core Team, 2021) um mittels mixed linear models den Effekt des Entitätstyps (rural, urban) auf die jeweiligen Sentiment-Werte zu beobachten, mit AutorIn und Titel als randomisierte Faktoren. Verwendete Pakte waren v.a. tidyverse (Wickham et al., 2019); LmerTest (Kuznetsova et al., 2017), und tm (Feinerer, 2020).</p>
+            <p>Wir konnten statistisch signifikante Effekte des Entitätstyps u.a. auf die Valenz/Polarität in verschiedenen Diktionären beobachten, wobei LANG und BAWL “positives Sentiment” häufiger für “rural” Passagen aufwiesen, Germanlex jedoch den entgegengesetzten Befund (Tabelle 3). </p>
+            <figure>
+                <head>Tab. 3: Statistischer Vergleich durchschnittlichen Sentiments (Valenz, Arousal, Polarität) über DCHLit für Textpassagen um <hi rend="italic">rural</hi> und <hi rend="italic">urban</hi> (BAWL, LANG, SEntiWS, Germanlex, Coverage in Klammern). “+” und “-” in Spalten 2 und 3 bezeichnen einen jeweils positiv oder negativ signifikant abweichenden Wert, während ns. (“nicht signifikant”) auf die Abwesenheit eines signifikanten Effekts des Entitätstyps hinweist.</head>
+                <graphic n="1005" width="12.467166666666667cm" height="7.217833333333333cm" url="Pictures/cd73ab6a2ed235595e4168f3652d9cd0.png" rend="inline"/>
+            </figure>
+            <figure>
+                <head>Tab. 4: Statistischer Vergleich durchschnittlicher diskreter Emotionswerte über DCHLit für Textpassagen um 
+                <hi rend="italic">rural</hi> und 
+                <hi rend="italic">urban</hi> (ADU, Klinger, Plutchik, SentiArt, Coverage in Klammern). 
+                Legende s. Tabelle 3.</head>
+                <graphic n="1006" width="12.361333333333333cm" height="6.392333333333333cm" url="Pictures/fffb2ebe9af5db964ec7c068eff99b14.png" rend="inline"/>
+            </figure>           
+            <p>Für die diskreten Emotionen berücksichtigte das mixed model jede einzelne Emotion als zusätzlichen “fixed factor” (Tabelle 4). Abweichungen zwischen den Diktionären konnten wieder beobachtet werden, wobei SentiArt signifikante Differenzen für fünf Basisemotionen (ausser 
+                <hi rend="italic">Angst</hi>) detektiert. 
+                <hi rend="italic" xml:space="preserve">Freude, Trauer, Ekel </hi>und
+                <hi rend="italic" xml:space="preserve"> Wut </hi>sind dabei häufiger in “rural” Passagen zu finden, während Überraschung häufiger in “urban” Passagen auftritt. 
+            </p>
+            <p>Obwohl die Sentimentdetektion, das räumliche Matching der Emotionen und die Korpusgröße weiter verbessert werden sollen, interpretieren wir die vorliegenden Daten vorsichtig dahingehend, dass Textpassagen mit ländlichen und Natur-Referenzen in unserem Korpus häufiger positiv enkodiert sind. Es scheint, dass diese «ruralen» und «Natur-» Räume im Vergleich insgesamt mehr unterschiedliche und möglicherweise reichhaltigere Emotionen repräsentieren. </p>
+            <p>Angesichts der Zusammensetzung des vorliegenden Korpus kann dies nicht nur auf eine topische Assoziation von positiv enkodierter Natur vs. negativ enkodierter Stadt/industrialisierter Zivilisation bezogen werden, sondern scheint auch Landschaft und Natur als vornehmlichen Schauplatz der Diegese abzubilden. Schlägt man den Bogen weiter, und projiziert noch hypothetisch auf die Grundgesamtheit der Deutschschweizer Prosa (Herrmann et al., 2021), könnte der Vorschlag, dass Deutschschweizer Literatur in dieser Zeit vornehmlich auf dem Lande und in der Natur stattfindet, im Luhmannschen Sinne als ‘kultureller’ Differenzvorschlag verstanden werden: ein Identifikationsangebot, das ‘Schweiz’ ebendort, und nicht anderswo, verortet. Wohlgemerkt wäre gerade unter solchen Bedingungen die evidente Rolle von Technik, Infrastruktur, Handel und Industrialisierung mitzumodellieren.</p>
+            <p>Wir schließen mit einer unabdingbaren methodologischen Notiz. In der vorliegenden Studie war es unsere Absicht, diktionärbasierte Sentimentanalyse als im Feld der DH gegenwärtig noch kanonischen Ressourcentyp in Anschlag zu bringen (Kim &amp; Klinger, 2019). Die niedrige lexikalische Abdeckung für die meisten Diktionäre, die im Umlauf sind (Abb. 2), zeigt auf, dass hier neue Ressourcen und ein erweitertes Methodenbewusstsein nötig sind. Untersucht man die Reliabilität und Domänenspezifik der einzelnen Diktionäre genauer, wie wir es getan haben, wird schnell deutlich, dass es sich für die DH lohnt, den Anschluss an den 
+                <hi rend="italic">State of the Art</hi> des Affective Computing aktiv zu verfolgen.
+            </p>
+            <p rend="annotation text">
+                <hi style="font-size:11pt" xml:space="preserve">Die Verwendung von vektorraumbasierten Diktionären wie SentiArt, aber besonders die Domänenadaption des avancierten maschinellen Lernens, auch auf feinjustierten Annotationen (Kim &amp; Klinger, 2018; Hoang et al., 2019), sind notwendig, um Nuancen, Objekte und Bedingungen von fiktional enkodiertem Affekt sicher zu detektieren. So bereiten wir derzeit manuelle Annotationen zur Implementierung in einer </hi>
+                <hi rend="italic" style="font-size:11pt">deep learning</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> Architektur vor und rechnen mit aussagekräftigen Ergebnissen zum Zeitpunkt des Vortrages. Zudem erweitern wir derzeit die Raumentitätszuordnung bezüglich von Elementen des Interiors, da wir davon ausgehen, dass diese im Allgemeinen und Spezifischen in urbanen Settings häufiger auftreten. Diese Annahme prüfen wir in explorativen Studien.</hi>
+            </p>
+        </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                        <hi style="font-size:10pt" xml:space="preserve"> “Seit dem Ende des 18. Jahrhunderts besetzt der Begriff der Kultur den Platz, an dem Selbstbeschreibungen reflektiert werden” (Luhmann, 1997, S. 880). Wer etwas als “Kultur” thematisiert, richtet ein muster(er)findendes, vergleichendes </hi>
+                        <hi rend="italic" style="font-size:10pt">bird’s eye</hi>
+                        <hi style="font-size:10pt" xml:space="preserve"> auf bestimmte Gepflogenheiten des Lebens. ‘Kultur’ ist also Vergleichsoperation im Modus der Beobachtung zweiter Ordnung, und literarische Texte sind dafür Musterkandidaten: in der zerdehnten und oft mehrebigen Kommunikationssituation zwischen Autorinstanz, Erzählinstanzen und Lesenden wird das Beobachten erster Ordnung im Erzählen ganz besonders beobachtbar. </hi>
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Anz, T.</hi> (2007). Kulturtechniken der Emotionalisierung: Beobachtungen, Reflexionen und Vorschläge zur literaturwissenschaftlichen Gefühlsforschung. In Im Rücken der Kulturen. - Paderborn: Mentis-Verlag, pp. 207–39. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Balshaw, M., &amp; Kennedy, L.</hi> (2000). Urban space and representation. Pluto.
+                    </bibl>
+                    <bibl><hi rend="bold">Bologna, F.</hi> (2020). A Computational Approach to Urban Space in Science Fiction. Journal of Cultural Analytics.
+                        <ref target="https://doi.org/10.22148/001c.18120">https://doi.org/10.22148/001c.18120</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Böhler, M.</hi> (2010). Gefängnis Schweiz oder Bergnebel Seldwyla? Max Niemeyer Verlag.
+                        <ref target="https://www.degruyter.com/document/doi/10.1515/9783484970526.1.45/html">https://www.degruyter.com/document/doi/10.1515/9783484970526.1.45/html</ref> (accessed 13 July 2021).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Clematide, S. &amp; Klenner, M.</hi> (2010). Evaluation and extension of a polarity lexicon for German. doi:10.5167/UZH-45506. https://www.zora.uzh.ch/id/eprint/45506 (accessed 12 July 2021).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Council of Europe.</hi> (2009). European Landscape Convention. Report and Convention Florence. 
+                        <hi rend="italic">ETS</hi>, 
+                        <hi rend="bold">17</hi>(8).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Feinerer, I. &amp; Hornik, K. </hi>(2020). tm: Text Mining Package. R package version 0.7-8. https://CRAN.R-project.org/package=tm 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Grisot, G., &amp; Herrmann, J.B. </hi>(Eds.) (2021). Swiss German Novel Collection (ELTeC-gsw), Version v1.0.0, July 2021. In: European Literary Text Collection (ELTeC). COST Action Distant Reading for European Literary History. 
+                        <ref target="https://github.com/COST-ELTeC/ELTeC-gsw/blob/master/README.md">https://github.com/COST-ELTeC/ELTeC-gsw/blob/master/README.md</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Herrmann, J. B., Grisot, G., Gubser, S., &amp; Kreyenbühl, E.</hi> (2021). Ein großer Berg Daten? Zur bibliothekswissenschaftlichen Dimension des korpusliteraturwissenschaftlichen DH-Projekts "High Mountains – Deutschschweizer Erzählliteratur 1880-1930". 027.7 Journal for Library Culture.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Heuser, R., Moretti, F. &amp; Steiner, E.</hi> (2016). The Emotions of London. Literary LabPamphlet, 13. 
+                        <ref target="https://litlab.stanford.edu/LiteraryLabPamphlet13.pdf">https://litlab.stanford.edu/LiteraryLabPamphlet13.pdf</ref> (accessed 15 December 2020).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Hoang, M., Bihorac, O. A., &amp; Rouces, J. </hi>(2019). Aspect-based sentiment analysis using BERT. Proceedings of the 22nd Nordic Conference on Computational Linguistics, 187–196.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hölzer, M., Scheytt, N. and Kächele, H.</hi> (1992). Das „Affektive Diktionär Ulm“ als eine Methode der quantitativen Vokabularbestimmung. In Züll, C. and Mohler, P. Ph. (eds), 
+                        <hi rend="italic">Textanalyse: Anwendungen der computerunterstützten Inhaltsanalyse. Beiträge zur 1. TEXTPACK-Anwenderkonferenz</hi>. (ZUMA-Publikationen). Wiesbaden: VS Verlag für Sozialwissenschaften, pp. 131–54 doi:10.1007/978-3-322-94229-6_7. https://doi.org/10.1007/978-3-322-94229-6_7 (accessed 12 July 2021).
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Jacobs, A. M. </hi>(2019). Sentiment Analysis for Words and Fiction Characters From the Perspective of Computational (Neuro-)Poetics. Frontiers in Robotics and AI, 6 doi:10.3389/frobt.2019.00053. https://www.frontiersin.org/article/10.3389/frobt.2019.00053/full (accessed 8 September 2019). 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kanske, P., &amp; Kotz, S. A.</hi> (2010). Leipzig Affective Norms for German: A reliability study. Behavior Research Methods, 42(4), 987–991. 
+                        <ref target="https://doi.org/10.3758/BRM.42.4.987">https://doi.org/10.3758/BRM.42.4.987</ref>
+                    </bibl>
+                    <bibl><hi rend="bold">Kim, E. &amp; Klinger, R.</hi> (2018). Who feels what and why? annotation of a literature corpus with semantic roles of emotions. Proceedings of the 27th International Conference on Computational Linguistics, 1345–1359.</bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Kim, E. &amp; Klinger, R. </hi>(2019). A Survey on Sentiment and Emotion Analysis for Computational Literary Studies. Zeitschrift Für Digitale Geisteswissenschaften.
+                        <ref target="https://doi.org/10.17175/2019_008">10.17175/2019_008.
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Kuznetsova, A., Brockhoff, P. B., &amp; Christensen, R. H. B.</hi> (2017). LmerTest package: tests in linear mixed effects models. JOSS, 82(13), 1–26. 
+                        <ref target="https://doi.org/10.18637/jss.v082.i13">https://doi.org/10.18637/jss.v082.i13</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Luhmann, N. </hi>(1997). 
+                        <hi rend="italic">Die Gesellschaft Der Gesellschaft</hi>. Suhrkamp.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Odebrecht, C., Burnard L., &amp; Schöch, C.</hi> (Eds.) (2021). European Literary Text Collection (ELTeC), version 1.1.0, April 2021. COST Action Distant Reading for European Literary History (CA16204). DOI: doi.org/10.5281/zenodo.4662444.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">R Core Team</hi> (2021). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" xml:space="preserve">Schaffrick, M. </hi>(2016). Niklas Luhmann (1927–1998), Kultur Als Historischer Begriff (1995). KulturPoetik, 16(2), pp. 272–80.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schiewer, G. L.</hi> (2007). Bausteine zu einer Emotionssemiotik: Zur Sprache des Gefühlsausdrucks in Kommunikation und affective computing. Kodikas/Code. Ars Semeiotica: An International Journal of Semiotics, 30(3–4), 235–257.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Stamm, N.</hi> (2014). Klassifikation und Analyse von Emotionswörtern in Tweets für die Sentimentanalyse.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Võ, M. L. H., Jacobs, A. M., &amp; Conrad, M.</hi> (2006). Cross-validating the Berlin affective word list. Behavior Research Methods, 38(4), 606–609.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wartmann, F. M., Acheson, E., &amp; Purves, R. S.</hi> (2018). Describing and comparing landscapes using tags, texts, and free lists: an interdisciplinary approach. International Journal of Geographical Information Science, 32(8), 1572–1592. 
+                        <ref target="https://doi.org/10.1080/13658816.2018.1445257">https://doi.org/10.1080/13658816.2018.1445257
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Wickham et al.</hi> (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686, 
+                        <ref target="https://doi.org/10.21105/joss.01686">https://doi.org/10.21105/joss.01686
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Winko, S.</hi> (2022). Literature and Emotion. In Schiewer, G.L., Altarriba, J., &amp; Ng, B.C. (Hgg.), Handbook on Language and Emotion. Handbooks of Linguistics and Communication Science, HSK. Berlin; Boston: De Gruyter.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Zimmer, O.</hi> (1998). In search of natural identity: Alpine landscape and the reconstruction of the Swiss nation. Comparative Studies in Society and History, 40(4), 637–665.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

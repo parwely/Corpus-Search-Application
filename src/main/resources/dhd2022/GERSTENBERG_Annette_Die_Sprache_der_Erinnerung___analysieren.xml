@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_133">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Die Sprache der Erinnerung – analysieren und verstehen</title>
+                <title type="sub">Korpuslinguistische Zugänge zu Oral-History-Daten</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Gerstenberg</surname>
+                        <forename>Annette</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam, Germany</affiliation>
+                    <email>gerstenberg@uni-potsdam.de</email>
+                <idno type="ORCID">0000-0001-7647-6986</idno></author>
+                <author>
+                    <persName>
+                        <surname>Leh</surname>
+                        <forename>Almut</forename>
+                    </persName>
+                    <affiliation>Fernuniversität Hagen, Germany</affiliation>
+                    <email>almut.leh@fernuni-hagen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Möbus</surname>
+                        <forename>Dennis</forename>
+                    </persName>
+                    <affiliation>Fernuniversität Hagen, Germany</affiliation>
+                    <email>dennis.moebus@fernuni-hagen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Pagenstecher</surname>
+                        <forename>Cord</forename>
+                    </persName>
+                    <affiliation>Freie Universität Berlin, Germany</affiliation>
+                    <email>cord.pagenstecher@fu-berlin.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-30T10:47:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Oral-History</term>
+                    <term>Korpuslinguistik</term>
+                    <term>Interviews</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sprache</term>
+                    <term>Forschungsprozess</term>
+                    <term>Software</term>
+                    <term>Ton</term>
+                    <term>Text</term>
+                    <term>Werkzeuge</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">133</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Die Motivation des Workshops ist es, die interdisziplinären Potentiale der Anwendung korpuslinguistischer Tools auszuloten, ohne die Spezifik und Sensibilität von Oral-History-Interviews aus dem Blick zu verlieren.</p>
+            <div type="div1" rend="DH-Heading1">
+                <head>Beschreibung des Themas</head>
+                <p style="text-align: left; ">Oral-History-Interviews sind narrative, meist lebensgeschichtliche Erinnerungsinterviews, die in der zeithistorischen Forschung, aber auch in den Sozial- und Kulturwissenschaften als Quellen bzw. Datengrundlage genutzt werden. Als Teil des kulturellen Erbes werden sie an verschiedenen Forschungs- und Gedächtniseinrichtungen gesammelt und für Sekundäranalysen aufbereitet. Interview-Archive sind Gedächtnisinstitution in zweifacher Hinsicht: einmal in der Bewahrung und Vermittlung von Wissensbeständen, die in ihrer Gesamtheit das kulturelle Gedächtnis einer Gemeinschaft bilden. Zusätzlich aber auch in einem unmittelbaren Sinn, insofern die hier archivierten Wissensbestände selbst Erinnerungen, also Gedächtnisinhalte, sind, und gehören als solche zum digitalen Gedächtnis Und da die Audio- oder Videoaufzeichnung sowie die Transkripte vielfach in elektronischer Form vorliegen, gehören Interview-Archive zum digitalen Gedächtnis. Als maschinenlesbare Daten sind Oral-History-Interviews nicht nur für die Humanities, sondern auch für Linguistik und Informatik interessante multimodale, freilich wenig strukturierte Daten.</p>
+                <p style="text-align: left; ">In den historischen Wissenschaften werden Oral-History-Interviews in intensiver hermeneutischer Arbeit analysiert und interpretiert, wobei sich die Fragestellung im Spannungsfeld persönlicher und kollektiver Relevanz situiert. Die digitale Erschließung dieser Quellen eröffnet die Möglichkeit, gerade auch überindividuelle Muster der Erinnerung und ihrer sprachlichen Verfasstheit mit Hilfe von korpuslinguistischen Tools zu erschließen. </p>
+                <p style="text-align: left; ">Auf Basis von Praxisbeispielen wird im Workshop die Frage nach dem Mehrwert dieser technikgetriebenen Analysen diskutiert. Können solche Tools das hermeneutische Verstehen unterstützen oder gar bereichern, oder besteht die Gefahr, die Subjektivität der Erzählung und die individuelle Entstehungssituation der Quellen aus dem Blick zu verlieren? Sind die digital erkannten Muster am Ende Artefakte oder können sie Schlüssel zum tieferen Verstehen sein?</p>
+                <p style="text-align: left; ">Die Motivation des Workshops ist es, die interdisziplinären Potentiale der Anwendung korpuslinguistischer Tools auszuloten, ohne die Spezifik und Sensibilität von Oral-History-Interviews aus dem Blick zu verlieren.</p>
+                <p style="text-align: left; ">Im ersten Block des Workshops widmen sich drei Impulsreferate diesen Koordinaten des Themas. Zuerst wird thesenartig entwickelt, welche Implikationen die Digitalisierung für die Auswertung des Quellentyps Oral-History-Interviews hat (Almut Leh). Daran anschließend wird das Projekt Oral-History.Digital vorgestellt, das verschiedene Interviewbestände in einer webbasierten Erschließungs- und Forschungsumgebung verbindet und damit sammlungsübergreifende und vergleichende Zugänge ermöglicht (Cord Pagenstecher). Mit dem Interesse, die sprachliche Konstruktion der Erinnerung auszuloten, werden darauf aufbauend linguistische Fragerichtungen der Pragmatik und Semantik entwickelt, die sich auf Oral-History-Interviews anwenden lassen (Annette Gerstenberg).</p>
+                <p style="text-align: left; ">Im zweiten Block werden anhand eines vorbereiteten Arbeitskorpus ausgewählter Oral-History-Interviews drei Anwendungsszenarien vorgestellt. Sie zeigen, wie die in den Impulsreferaten entwickelten Fragestellungen konkret bearbeitet werden können. </p>
+                <p style="text-align: left; ">Zur Einordnung wird zunächst das ausgewählte Arbeitskorpus vorgestellt: im Hinblick auf thematischen Schwerpunkt, Entstehungskontext und sprachliche Spezifika der enthaltenen Teiltexte. Mit sprachstatistischen Basisdaten und automatisch ermittelten „Schlüsselwörtern“ werden Unterschiede der verwendeten Teiltexte des Arbeitskorpus erläutert und visualisiert. Geplant sind darauf aufbauend drei Arbeitseinheiten, in denen jeweils eine in der Oral-History bisher wenig genutzte Analysemöglichkeiten im Mittelpunkt steht. In jeder Arbeitseinheit wird die Analyse demonstriert und zugleich die Möglichkeit gegeben, jeden Schritt selbst nachzuvollziehen. </p>
+                <p style="text-align: left; ">(1) Auf Basis des lemmatisierten und nach Wortarten ausgezeichneten Datensatzes werden Häufigkeiten, von Wortarten und Grundwörtern untersucht. Als aufschlussreich hat sich zum Beispiel der Vergleich der Vorkommen von Pronomina (
+                    <hi rend="italic" xml:space="preserve">ich </hi>vs. 
+                    <hi rend="italic">wir</hi>) erwiesen (Knowles et al. 2021). Weiterhin werden die häufigsten Verben semantisch kategorisiert, wobei Verben des Erinnerns und des Sagens besonders berücksichtigt werden. 
+                </p>
+                <p style="text-align: left; ">(2) Ausgehend von der Analyse häufig vorkommender Wortfolgen (n-grams) werden Instanzen formelhaften Sprechens ermittelt. Gerade im Vergleich verschiedener Interviews erweisen sich solche als „Floskeln“ unterschätzte Redewendungen als charakteristisch und aussagekräftig für eine distanzierende oder aktualisierende Rahmung der erzählten Erinnerungen. Häufig verwendete und in der Analyse meist übersehene Wendungen wie 
+                    <hi rend="italic">das ist alles lange her</hi>, 
+                    <hi rend="italic">das werde ich nie vergessen</hi> oder 
+                    <hi rend="italic">das hat uns geprägt</hi> helfen dabei zu beobachten, wie das Erinnerte eingeordnet wird. 
+                </p>
+                <p style="text-align: left; ">(3) Die Themen des Arbeitskorpus werden mit einer vorbereiteten Topic Modeling-Analyse, bei der lexikalische Cluster herausgearbeitet und visualisiert werden, vorgestellt. Dieser statistische Zugriff auf den Wortschatz wird in Kollokations-Analysen fortgesetzt und durch Kontextanalysen ergänzt. Dabei werden statistisch relevante gemeinsame Vorkommen ermittelt, aus denen deutlich wird, wie typische Erlebnisse sprachlich kodiert werden – wenn zum Beispiel das Kollokat von 
+                    <hi rend="italic" xml:space="preserve">Krieg </hi>der 
+                    <hi rend="italic" xml:space="preserve">Schützengraben </hi>ist oder zu 
+                    <hi rend="italic" xml:space="preserve">Gefangenen </hi>häufig die Herkunft (
+                    <hi rend="italic">französische</hi>, 
+                    <hi rend="italic">russische</hi>) angegeben wird. 
+                </p>
+                <p style="text-align: left; ">Jedes Szenario wird mit einer technischen Anleitung zum Mitmachen verbunden. Auf diese Weise können wir zielgerichtet und konkret mit den Sprachdaten arbeiten und davon ausgehend weiterdenken. In der Diskussion wird es darum gehen, welche Aussagekraft wir den Ergebnissen zumessen und ob die unterschiedlichen Sichtweisen auf den gleichen Datenbestand neue Fragestellungen aufwerfen oder bekannte Interessen neu akzentuieren. </p>
+                <p style="text-align: left; ">Helfen uns die digitalen Werkzeuge, den Interviews besser zuzuhören und die Sprache der Erinnerung besser zu verstehen? Als Ergebnis des Workshops versprechen wir uns Antworten auf diese Fragen der Erkenntnismöglichkeiten von Oral-History mit dem Werkzeugkasten der Korpuslinguistik.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Format</head>
+                <p style="text-align: left; ">Halbtägiger Workshop, 7.3.2022</p>
+                <p style="text-align: left; ">Arbeitsform: 1. Phase: Impulsreferate mit Diskussion, 2. Phase: Anwendungsszenarien von Korpustools mit vorbereiteten Datensamples und Anleitung zur eigenen Datenexploration, 3. Phase: Diskussion der Ergebnisse und ihrer Forschungsrelevanz.</p>
+                <p style="text-align: left; ">Der Workshop gibt Gelegenheit zur eigenen Datenexploration, wofür ein eigener Laptop notwendig ist. Die verwendeten Tools sind einfach zu installieren. Vor dem Workshop werden Datensätze zur Verfügung gestellt und Hinweise zu Tools gegeben, die installiert werden sollten, die verwendeten Werkzeuge sind sicher und gut handhabbar. Interessensbekundungen können mit spezifischen Fragen an Oral-History-Daten eingereicht werden, ggf. auch in Verbindung mit der Beschreibung eigener Datenbestände, die dann in die Workshoparbeit einbezogen werden können. Am Workshop kann auch ohne eigene Datenarbeit teilgenommen werden. </p>
+                <p style="text-align: left; ">Die Vorbereitung der Texte wird thematisiert und mit Hilfe von Screenshots nachvollziehbar gemacht (Bereinigung aus der Datenbank extrahierter Daten; Erstellen der Nur-Text-Version; Tokenisierung, POS-Tagging, Lemmatisierung mit WebLicht und TreeTagger). </p>
+                <p style="text-align: left; ">Die gemeinsame Arbeit im Workshop nutzt diese vorbereiteten Dateien. Für die Analyse von Verbformen, Pronomina (1) und n-grams (2) werden robuste Werkzeuge (AntConc, TextPad) verwendet. Es werden Frequenzen ermittelt und Vorkommen im Kontext überprüft und für unterschiedliche Oral History-Quellen verglichen; in der Diskussion werden die in den Eröffnungsreferaten aufgemachten Perspektiven auf die Ergebnisse bezogen. Das Topic Modeling (3) wird mit Python auf Jupyter-Konsolen in einem Google Colab durchgeführt, Datengrundlage werden die Transkriptionen lebensgeschichtlicher Interviews sein, als Topic Modeling-Engines kommen Gensim und dessen Mallet-Implementation zum Einsatz</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Angaben zum Zielpublikum, insbesondere zu notwendigem Vorwissen</head>
+                <p style="text-align: left; ">Wir laden Interessierte aus allen Disziplinen ein, die mit großen Textkorpora arbeiten und daran interessiert sind, die Anwendbarkeit computerlinguistischer Verfahren auf hermeneutische Probleme zu diskutieren. Es gibt die Möglichkeit, die Analyse mitzumachen oder nur zu verfolgen und die Relevanz der Ergebnisse auszuleuchten. Für den Workshop ist ein interdisziplinär zusammengesetztes Plenum aus den Digital Humanities sowie aus relevanten Themenfeldern wie Geschichtswissenschaften, Kulturwissenschaften, Literaturwissenschaft, Linguistik, Soziologie willkommen. </p>
+                <p style="text-align: left; ">Interesse an Oral-History bzw. interviewbasierter Forschung in anderen Disziplinen und / oder an Anwendungsszenarien korpuslinguistischer Tools wird vorausgesetzt. </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zahl</head>
+                <p>10–30 Teilnehmerinnen und Teilnehmer</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Technische Voraussetzung</head>
+                <p style="text-align: left; ">Der Raum sollte mit Projektor und W-LAN ausgestattet sein. Eigene Laptops werden nach Verfügbarkeit mitgebracht. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Apel, Linde / Almut Leh / Cord Pagenstecher</hi> (in print), “Oral History im digitalen Wandel. Interviews als Forschungsdaten“, in: Linde Apel (Hrsg.):
+                        <hi rend="italic" style="font-family:Segoe UI;font-size:9pt">Erinnern, erzählen, Geschichte schreiben. Oral History im 21. Jahrhundert</hi>.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Fechner, Martin / Andreas Weiß</hi> (2017): “Einsatz von Topic Modeling in den Geschichtswissenschaften: Wissensbestände des 19. Jahrhunderts“, in:
+                        <hi rend="italic" style="font-family:Segoe UI;font-size:9pt">Zeitschrift für digitale Geisteswissenschaften</hi>
+                        <hi style="font-family:Segoe UI;font-size:9pt" xml:space="preserve"> 2. </hi>
+                        <ref target="http://doi.org/10.17175/2017_005">
+                            <hi style="font-family:Segoe UI;font-size:9pt" xml:space="preserve">http://doi.org/10.17175/2017_005. </hi>
+                        </ref>
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Gerstenberg, Annette</hi> (2017): “A Difficult Term in Context: The Case of French STO“, in: Erich Kasten / Katja Roller / Joshua Wilbur (Hrsg.):
+                        <hi rend="italic" style="font-family:Segoe UI;font-size:9pt">Oral History Meets Linguistics</hi>
+                        <hi style="font-family:Segoe UI;font-size:9pt">. Fürstenberg: Kulturstiftung Sibirien: 159-184.</hi>
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Graham, Shawn / Ian Milligan / Scott Weingart</hi> (2014): 
+                        <hi rend="italic" style="font-family:Segoe UI;font-size:9pt">Exploring Big Historical Data: The Historian's Macroscope</hi>.
+                        <hi style="font-family:Segoe UI;font-size:9pt">London.</hi>
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Knowles, Anne Kelly / Paul B. Jaskot / Tim Cole / Alberto Giordano</hi> (2021): “Mind the Gap: Reading across the Holocaust Testimonial Archive“, in: Tim Cole / Simone Gigliotti (eds.):
+                        <hi rend="italic" style="font-family:Segoe UI;font-size:9pt">The Holocaust in the 21st Century: Relevance and Challenges in the Digital Age</hi>.
+                        <hi style="font-family:Segoe UI;font-size:9pt">United States: Northwestern University Press: 216-241.</hi>
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Leh, Almut / Joachim Köhler / Michael Gref / Nikolaus P. Himmelmann</hi> (2019): “Audiovisual Data in Digital Humanities“, in:
+                        <hi rend="italic" style="font-family:Segoe UI;font-size:9pt">VIEW Journal of European Television History and Culture</hi>
+                        <hi style="font-family:Segoe UI;font-size:9pt" xml:space="preserve"> 7/14: 138.</hi>
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Pagenstecher, Cord</hi> (2019): “Digital Humanities und biographische Forschung“, in:
+                        <hi rend="italic" style="font-family:Segoe UI;font-size:9pt">BIOS</hi>
+                        <hi style="font-family:Segoe UI;font-size:9pt" xml:space="preserve"> 30/1-2/2017: 76-91.</hi>
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Pagenstecher, Cord / Stefan Pfänder</hi> (2017): “Hidden dialogues. Towards an Interactional Understanding of Oral History Interviews“, in: Erich Kasten / Katja Roller / Joshua Wilbur (Hrsg.):
+                        <hi rend="italic" style="font-family:Segoe UI;font-size:9pt">Oral History Meets Linguistics</hi>
+                        <hi style="font-family:Segoe UI;font-size:9pt">. Fürstenberg: Kulturstiftung Sibirien: 185-207.</hi>
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Pagenstecher, Cord / Doris Tausendfreund</hi> (2013): “Das Online-Archiv 'Zwangsarbeit 1939–1945'“, in: Nicolas Apostolopoulos / Cord Pagenstecher (Hrsg.):
+                        <hi rend="italic" style="font-family:Segoe UI;font-size:9pt">Erinnern an Zwangsarbeit. Zeitzeugen-Interviews in der digitalen Welt</hi>.
+                        <hi style="font-family:Segoe UI;font-size:9pt">Berlin: Metropol: 71-96.</hi>
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Philipps, Axel</hi> (2018): “Text Mining-Verfahren als Herausforderung für die rekonstruktive Sozialforschung“, in:
+                        <hi rend="italic" style="font-family:Segoe UI;font-size:9pt">Sozialer Sinn</hi>
+                        <hi style="font-family:Segoe UI;font-size:9pt" xml:space="preserve"> 19/2, S. 367-388.</hi>
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Salman, Munir / Felix Engel / Almut Leh / Matthias Hemmje</hi> (2019): “Digital Humanities und biographische Forschung“, in:
+                        <hi rend="italic" style="font-family:Segoe UI;font-size:9pt">BIOS</hi>
+                        <hi style="font-family:Segoe UI;font-size:9pt" xml:space="preserve"> 30/1-2/2017: 92-100.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

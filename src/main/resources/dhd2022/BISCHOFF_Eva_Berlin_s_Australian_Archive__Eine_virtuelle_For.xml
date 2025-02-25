@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_224">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Berlin’s Australian Archive</title>
+                <title type="sub">Eine virtuelle Forschungsumgebung für naturkundliche Sammlungen aus den australischen Kolonien</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Bischoff</surname>
+                        <forename>Eva</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>bischoff@uni-trier.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schwarz</surname>
+                        <forename>Anja</forename>
+                    </persName>
+                    <affiliation>Universität Potsdam, Germany</affiliation>
+                    <email>anja.schwarz@uni-potsdam.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-14T14:54:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>cultural heritage</term>
+                    <term>Dekolonialisierung</term>
+                    <term>indigene Datensouveränität</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Metadaten</term>
+                    <term>Forschung</term>
+                    <term>virtuelle Forschungsumgebungen</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">224</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">Naturkundliches Sammeln ging spätestens seit dem 18. Jahrhundert Hand in Hand mit der Katalogisierung und Kategorisierung entlang wissenschaftlicher Taxonomien (Bennett 2004). Diese besondere Form der Informationsverarbeitung entwickelte unterschiedliche Strategien und bediente sich verschiedener Technologien zur „Inventarisierung der Natur“ (Nadim 2016) sowie der Organisation und Speicherung der ‘im Feld‘ gewonnenen Informationen: Bestandslisten, Zettelkästen, Datenbanken. Lokalisiert in Forschungsinstitutionen und Museen des Globalen Nordens, war der Zugang zu den in ihnen bewahrten Informationen beschränkt auf diejenigen, die physisch Zugang zu diesen Räumen erlangen konnten. Die solcherart entstandenen Wissensbestände bilden bis heute einen wesentlichen Bestandteil des kulturellen, ökonomischen und politischen Kapitals von Sammlungsinstitutionen des Globalen Nordens. Gleichzeitig sind diese Informationsasymmetrien vielfach Gegenstand post- und dekolonialer Kritik (Bennett 2004; Schiebinger 2004, Subramaniam 2014). Oft wird dabei die Forderung nach einer umfassenden Digitalisierung der Verzeichnisse und der Veröffentlichung von Datenbeständen erhoben. Entsprechende Veränderungen der Informationsethik lassen sich u.a. in internationalen Regelwerken wie der Biodiversitätskonvention nachweisen, welche seit 1992 für genetische Ressourcen den rechtlich verbindlichen Rahmen für das sog. „Access and Benefit-Sharing“ setzt. Für das in naturkundlichen Sammlungen archivierte kulturelle Erbe hingegen steckt diese Entwicklung noch in den Kinderschuhen.</p>
+            <p style="text-align: left; ">Ausgehend von diesen Überlegungen und basierend auf unserer aktuellen Entwicklungsarbeit an einer FUD-basierten virtuellen Forschungsumgebung zu naturkundlichen Sammlungen aus Australien am Berliner Museum für Naturkunde, MfN (Bischoff und Schwarz 2020a, 2020b) thematisiert das Poster sowohl die Potentiale als auch mögliche Schwierigkeiten digitaler Zugänge zum kulturellen Erbe. Wenn naturkundliche Sammlungen wie in unserem Fall in kolonialen Kontexten erworben wurden (Antonelli 2020; Das &amp; Lowe 2018; NatSCA 2020) und kulturell sensible Sammlungsgegenstände umfassen (Berner et. al 2011; German Museums Association 2021), müssen Auf- und Ausbau, sowie die Nutzung digitaler Archive eine Reihe von Problemstellungen adressieren. Diese beinhalten u.a. epistemische Konflikte um Metadatenstandards, Aushandlungen über Möglichkeiten des Zugangs aber auch der Restriktion des Zugriffs für unterschiedlich verfasste Öffentlichkeiten, sowie die Interpretation und kulturell autarke Ergänzung von Forschungsdaten durch Mitglieder der Herkunftsgesellschaften bis hin zur Begleitung von Prozessen der virtuellen Repatriierung.</p>
+            <p style="text-align: left; ">Unterstützt durch das Servicecentrum eSciences der Universität Trier und den Arbeitsbereich Humanities of Nature am MfN greift unsere Arbeit Impulse aus gegenwärtigen Diskussionen zu kolonialen Traditionen naturkundlicher Klassifikation und ihrer Fortschreibung in digitalen Metadaten auf (Agrawal 2002; Boamah &amp; Liew 2017; Briggs et al. 2020; Sarkhel 2016; Stevens 2008; Van der Velden 2010); wir lernen von Bemühungen zum Schutz indigenen Wissens in digitalen Kontexten und um indigene Datensouveränität (Anderson &amp; Christen 2013; Christen 2018; Geismar 2013a/b; Kapepiso et al. 2020; Walter &amp; Suina 2019); und wir orientieren uns an Diskussionen zur Bedeutung von digitaler Autonomie für eine zukunftsorientierte kulturelle Selbstbestimmung (Genovese 2016; Liew et al. forthcoming; McKemmish et al. 2011; Roy 2015; Thorpe 2016). Unser Projekt nimmt dabei insbesondere Erfahrungen aus dem australischen Kontext auf (Christen 2008; Christie 2004; Janke 2018; McGinnis 2020) und adaptiert diese im engen Austausch mit indigenen Kurator:innen und anderen wissenschaftlichen Mitarbeiter:innen des Australian Museums in Sydney und den Museums Victoria aus Melbourne für unsere virtuelle Forschungsumgebung zu kolonialen australischen Sammlungen in Deutschland. Konkrete Richtlinien und Anregungen für dieses Vorhaben finden wir in aktuellen Guidelines und Protokollen australischer Fachgesellschaften (ATSILIRN 2012; AIATSIS 2020; EGIM 2019; Janke et al 2019) und dem für uns vorbildlichen Datenbankprojekt “Return Reconcile Renew“.</p>
+            <p style="text-align: left; ">Am konkreten Beispiel der in der Forschungsumgebung hinterlegten Digitalisate der südost-australischen Sammlungsbestände des preußischen Naturkundlers Wilhelm Blandowski (1822-1872) diskutiert unser Poster die Problemstellungen, mit denen unser Projekt regelmäßig befasst ist, die Prozesse und Entscheidungen, die wir bisher durchlaufen haben sowie deren konkrete Umsetzung in der Forschungsumgebung.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; "><hi rend="bold">Aboriginal and Torres Strait Islander Library, Information and Resource Network (ATSILIRN)</hi> (2012): 
+                        <hi rend="italic">Aboriginal Torres Strait Islander Protocols for Libraries, Archives and Information Services</hi> https://atsilirn.aiatsis.gov.au/protocols.php [letzter Zugriff 10. Mai 2021].
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Agrawal, Arun</hi> (2002): “Indigenous Knowledge and the Politics of Classification”, in: 
+                        <hi rend="italic">International Social Science Journal</hi> 54: 287–297.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Anderson, Jane/Christen, Kim </hi>(2013): “‘Chuck a Copyright on it’. Dilemmas of Digital Return and the Possibilities for Traditional Knowledge Licenses and Labels” in: 
+                        <hi rend="italic">Museum Anthropology Review</hi> 7: 105–126.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Antonelli, Alexandre</hi> (2020): “It’s Time to Decolonise Botanical Collections”, 
+                        <hi rend="italic">Royal Botanic Gardens Kew</hi> https://www.kew.org/read-and-watch/time-to-decolonise-botanical-collections [letzter Zugriff 24. Mai 2021].
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Australian Institute of Aboriginal and Torres Strait Islander Studies (AIATSIS)</hi> (2020): 
+                        <hi rend="italic">AIATSIS Code of Ethics for Aboriginal and Torres Strait Islander Research</hi> https://apo.org.au/node/308966 [letzter Zugriff 14. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Bennett, Tony</hi> (2004): 
+                        <hi rend="italic">Pasts beyond Memory: Evolution Museums Colonialism. Museum Meanings</hi>. London: Routledge.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Berner, Margit</hi>, et al. (eds.) (2011): 
+                        <hi rend="italic" xml:space="preserve">Sensible Sammlungen. Aus dem anthropologischen Depot </hi>(= Fundus 210), Hamburg: Philo &amp; Philo Fine Arts.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Bischoff, Eva/ Schwarz, Anja</hi> (2020a): 
+                        <hi rend="italic">Wissen um Welt — Umweltwissen: Deutsche Naturkunde in Australien</hi> https://www.chest.uni-trier.de/projekte/wissen-um-welt-umweltwissen-deutsche-naturkunde-in-australien [letzter Zugriff 13. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Bischoff, Eva/ Schwarz, Anja</hi> (2020b): 
+                        <hi rend="italic">Collecting a Continent Reconstructing the Australian Archive of Berlin’s Natural History Museum</hi> https://collectingoz.hypotheses.org [letzter Zugriff 13. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Boamah, Eric / Li, Chern Liew</hi> (2017):“Conceptualising the Digitisation and Preservation of Indigenous Knowledge. The Importance of Attitudes” in: Choemprayong, Songphan/ Crestani, / Cunningham, Sally Jo (eds.): 
+                        <hi rend="italic" xml:space="preserve">Digital Libraries. Data, Information and Knowledge for Digital Lives. </hi>Cham: Springer 65-80.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Briggs, Carolyn</hi> et al. (2020): “Bridging the Geospatial Gap. Data about Space and Indigenous Knowledge of Place”, in: 
+                        <hi rend="italic">Geography Compass</hi> 14: 1-17.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Christen, Kimberly</hi> (2008): “Ara Irititja: Protecting the Past, Accessing the Future—Indigenous Memories in a Digital Age. A Digital Archive Project of the Pitjantjatjara Council”, in: 
+                        <hi rend="italic">Museum Anthropology</hi> 29: 56-60.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Christen, Kimberly</hi> (2018): “Relationships, Not Records. Digital Heritage and the Ethics of Sharing Indigenous Knowledge Online”, in: Sayers, Jentery (ed.): 
+                        <hi rend="italic">The Routledge Companion to Media Studies and Digital Humanities</hi>. London: Routledge 403-412.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Christie, Michael</hi> (2004): “Computer Databases and Aboriginal Knowledge”, in: 
+                        <hi rend="italic">Learning Communities: International Journal of Learning in Social Contexts</hi> 1: 4-12.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Das, Subhadra/ Lowe, Miranda</hi> (2018): “Nature Read in Black and White. Decolonial Approaches to Interpreting Natural History Collections“, in: 
+                        <hi rend="italic">Journal of Natural Science Collections</hi> 6: 4-14.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Expert Group on Indigenous Matters (EGIM)</hi> (2019): “Tandanya – Adelaide Declaration“, Declaration by the EGIM of the International Council on Archives (ICA) https://www.ica.org/en/egim-tandanya-adelaide-declaration [letzter Zugriff 14. Juli 2021].</bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Geismar, Haidy</hi> (2013): “Defining the Digital”, in: 
+                        <hi rend="italic">Museum Anthropology Review</hi> 7: 254-263.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Geismar, Haidy</hi> (2013b): 
+                        <hi rend="italic">Treasured Posessions: Indigenous Interventions into Cultural and Intellectual Property</hi>. Durham: Duke University Press.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Genovese, Taylor R.</hi> (2016): “Decolonizing Archival Methodology. Combating Hegemony and Moving towards a Collaborative Archival Environment”, in: 
+                        <hi rend="italic">AlterNative</hi> 12: 32–42.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">German Museum Association</hi> (2021):
+                        <hi rend="italic" xml:space="preserve"> Guidelines for German Museums. Guidelines for the Care of Collections from Colonial Contexts</hi> https://www.museumsbund.de/publikationen/guidelines-on-dealing-with-collections-from-colonial-contexts-2 [letzter Zugriff 14. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Janke, Terri</hi> et al. (2018): 
+                        <hi rend="italic">Indigenous Knowledge. Issues for Protection and Management</hi>. Discussion Paper, Commissioned by IP Australia &amp; the Department of Industry, Innovation and Science, 21-23, 65-70, 106 https://www.ipaustralia.gov.au/about-us/news-and-community/news/indigenous-knowledge-issues-protection-and-management [letzter Zugriff 14. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Janke, Terri</hi> et al. (2019): 
+                        <hi rend="italic">First Peoples. A Roadmap for Enhancing Indigenous Engagement in Museums and Galleries</hi> https://www.amaga.org.au/shop/first-peoples-roadmap-enhancing-indigenous-engagement-museums-and-galleries-hardcopy-version [letzter Zugriff 14. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Kapepiso, Fabian Simasiku/ Higgs, Richard</hi> (2020): “Tracing the Curation of Indigenous Knowledge in a Biopiracy Case”, in: 
+                        <hi rend="italic">AlterNative</hi> 16: 38-44.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Liew, Chern Li</hi> et al. (forthcoming): “Digitized Indigenous Knowledge Collections. Impact on Cultural Knowledge Transmissions, Social Connections, and Cultural Identity”, in: 
+                        <hi rend="italic">Journal of the Association for Information Science and Technology</hi>. 
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">McGinnis, Gabrielle</hi> et al. (2020): “Indigenous Knowledge Sharing in Northern Australia. Engaging Digital Technology for Cultural Interpretation”, in: 
+                        <hi rend="italic" xml:space="preserve">Tourism Planning &amp; Development </hi>17: 96-125.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">McKemmish, Sue</hi> et al. (2011): “Distrust in the Archive. Reconciling Records”, in: 
+                        <hi rend="italic">Archival Science</hi> 11: 211-239.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Nadim, Tahini</hi> (2016): "Biodiversität erfassen: von Suppen und Satelliten", in: André Blum/ Nina Zschocke/ Hans-Jörg Rheinberger/ Vincent Barras (eds.): 
+                        <hi rend="italic">Diversität: Geschichte und Aktualität eines Konzepts</hi>. Würzburg: Königshausen &amp; Neumann 61-84.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Natural Sciences Collections Association (NatSCA)</hi> (2020): “Decolonising Natural Science Collections” https://www.natsca.org/natsca-decolonising [letzter Zugriff 24. Mai 2021].</bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold"><hi rend="italic" xml:space="preserve">Return Reconcile Renew </hi></hi>https://returnreconcilerenew.info/ohrm/index.html [letzter Zugriff 14. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Roy, Loriene</hi> (2015): “Indigenous Cultural Heritage Preservation. A Review Essay with Ideas for the Future”, in: 
+                        <hi rend="italic">International Federation of Library Associations and Institutions</hi> 41: 192-203.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Sarkhel, Juran Krishna</hi> (2016): “Strategies of Indigenous Knowledge Management in Libraries”, in: 
+                        <hi rend="italic">Qualitative and Quantitative Methods in Libraries</hi> 5: 427-439.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Schiebinger, Londa</hi> (2004): 
+                        <hi rend="italic">Plants and Empire. Colonial Bioprospecting in the Atlantic World</hi>. Cambridge: Harvard University Press.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Stevens, Amanda</hi> (2008): “A Different Way of Knowing. Tools and Strategies for Managing Indigenous Knowledge”, in: 
+                        <hi rend="italic">Libri</hi> 58: 25-33.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Subramaniam, Banu</hi> (2014): 
+                        <hi rend="italic">Ghost Stories for Darwin. The Science of Variation and the Politics of Diversity</hi>. Urbana: University of Illinois Press.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Thorpe, Kirsten</hi> et al. (2016): “Discovering Indigenous Australian Culture: Building Trusted Engagements in Online Environments”, in: 
+                        <hi rend="italic">Journal of Web Librarianship</hi> 10: 343-363.
+                    </bibl>
+                    <bibl style="text-align: left; "><hi rend="bold">Van der Velden, Maja</hi> (2010): “Design for the Contact Zone”, in: Sudweeks, Fay/ Hrachovec, Herbert/ Ess, Charles (eds.): 
+                        <hi rend="italic" xml:space="preserve">Proceedings Cultural Attitudes toward Communication and Technology. Proceedings of the Fifth International Conference on Cultural Attitudes Towards Technology and Communication</hi>, Tartu, Estonia (28 June-1 July 2006), Murdoch: Murdoch University 1-18.
+                    </bibl>
+                    <bibl style="text-align: left; ">Walter, Maggie/ Suina, Michele (2019): “Indigenous Data, Indigenous Methodologies and Indigenous Data Sovereignty”, in: 
+                        <hi rend="italic">International Journal of Social Research Methodologies</hi> 22: 233-243.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

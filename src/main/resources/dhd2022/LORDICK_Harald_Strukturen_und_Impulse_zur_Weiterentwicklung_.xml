@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_157">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Strukturen und Impulse zur Weiterentwicklung der DHd-Abstracts</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Busch</surname>
+                        <forename>Anna</forename>
+                    </persName>
+                    <affiliation>Theodor-Fontane-Archiv, Universität Potsdam</affiliation>
+                    <email>annabusch@uni-potsdam.de</email>
+                <idno type="ORCID">0000-0001-5584-4807</idno></author>
+                <author>
+                    <persName>
+                        <surname>Cremer</surname>
+                        <forename>Fabian</forename>
+                    </persName>
+                    <affiliation>Leibniz-Institut für Europäische Geschichte (IEG)</affiliation>
+                    <email>cremer@ieg-mainz.de</email>
+                <idno type="ORCID">0000-0001-8251-9727</idno></author>
+                <author>
+                    <persName>
+                        <surname>Lordick</surname>
+                        <forename>Harald</forename>
+                    </persName>
+                    <affiliation>Steinheim-Institut (STI), Germany</affiliation>
+                    <email>lor@steinheim-institut.org</email>
+                <idno type="ORCID">0000-0002-5070-4263</idno></author>
+                <author>
+                    <persName>
+                        <surname>Mischke</surname>
+                        <forename>Dennis</forename>
+                    </persName>
+                    <affiliation>Netzwerk Digitale Geisteswissenschaften, Universität Potsdam</affiliation>
+                    <email>dennis.mischke@uni-potsdam.de</email>
+                <idno type="ORCID">0000-0001-8892-5419</idno></author>
+                <author>
+                    <persName>
+                        <surname>Steyer</surname>
+                        <forename>Timo</forename>
+                    </persName>
+                    <affiliation>Universitätsbibliothek Braunschweig</affiliation>
+                    <email>t.steyer@tu-braunschweig.de</email>
+                <idno type="ORCID">0000-0003-0218-2269</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-14T08:14:12.450962147</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>DHd-Abstracts</term>
+                    <term>Taskforce</term>
+                    <term>Publikationsprozess</term>
+                    <term>Normdaten</term>
+                    <term>Standardisierung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Community-Bildung</term>
+                    <term>Veröffentlichung</term>
+                    <term>Organisation</term>
+                    <term>Daten</term>
+                    <term>Metadaten</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">157</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Die DHd-Abstracts</head>
+                <p>Das Book of Abstracts ist seit 2015 ein fester Bestandteil der DHd-Jahrestagungen und hat sich seither stetig weiterentwickelt. Es spiegelt die Diskurse und Aktivitäten der deutschsprachigen DHd-Community wider und ist daher nicht nur für die Tagung selbst relevant, sondern gleichzeitig ein 
+                    <hi rend="background-">„</hi>
+                    <hi rend=" background-">‚</hi>Schaufenster
+                    <hi rend="">‘</hi> der aktuellen Forschung in den digitalen Geisteswissenschaften
+                    <hi rend="background-">“</hi> (Schöch 2020: V). 
+                    <hi rend="background-">Die wissenschaftliche Relevanz der Books of Abstracts der DHd-Jahrestagungen bekräftigte zuletzt noch einmal Sahle in seiner Einführung des vorletzten Konferenzbandes (Sahle 2019: V): „Books of Abstracts als durch peer review-Verfahren gefilterte und qualitätsgesicherte Summen der aktuellen Forschungen definieren das Feld, sind ein äußerst nützliches Instrument der Fachkommunikation und wertvolle Dokumente zum Beleg der Entwicklung über die Zeit.“ </hi>Trotz der gestiegenen Bedeutung und Weiterentwicklung bleiben die DHd-Abstracts Gegenstand der Diskussion in der DHd-Community, wie zuletzt die Veranstaltung „Die DHd-Abstracts im Zukunftslabor“ auf der vDHd2021 zeigte (Andorfer et al. 2021a).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__6hwpzargvluv"/>Die DHd-Abstracts-Community
+                </head>
+                <p>Eine Gruppe der DHd-Community, zu der die Autor:innen gehören, setzt seit 2018 kontinuierlich Impulse zur Weiterentwicklung der DHd-Abstracts vor allem im Hinblick auf zwei Bereiche: 1) Das Abstract als eigenständige und der Reputation förderliche Publikation und 2) das Abstract als Datenquelle selbstreflexiver Untersuchungsansätze in den DH. Neben konzeptionellen Impulsen (Cremer 2018, Andorfer et al. 2020) werden auch Diskussions- und Hands-On-Formate (Andorfer et al. 2019) organisiert sowie Datenbereitstellung und Softwareapplikationen (Andorfer 2019 und Lordick 2020) umgesetzt. Gemeinsam mit dem DHd-Data Steward und dem Organisationsteam der DHd2022 wurden im Rahmen des „Zukunftslabors“ auf der vDHd2021 die Herausforderungen und Potentiale 
+                    <hi rend="background-">konkret diskutiert und in Empfehlungen für zukünftige Jahrestagungen übersetzt (Andorfer et al. 2021b).</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__xh718kop2u63"/>Die DHd-Abstracts-Task-Force
+                </head>
+                <p>
+                    <hi rend="background-">Die aus den bisherigen Aktivitäten entstandenen Ergebnisse, Ideen und Ziele möchten die Autor:innen durch die Bildung einer festen Task-Force innerhalb des DHd-Verbandes weiter voranbringen. Dabei wird auf eine offene, community-getriebene Arbeitsform, die enge Zusammenarbeit mit dem DHd-Data Steward, eine Anbindung an die DHd AGs </hi>
+                    <hi rend="background-italic">Digitales Publizieren </hi>
+                    <hi rend="background-">und</hi>
+                    <hi rend="background-italic"> Datenzentren</hi>
+                    <hi rend="background-"> sowie die Kooperation mit dem lokalen Organisationsteam der jeweiligen DHd-Jahreskonferenzen geachtet.</hi>
+                    <hi rend="sup background-"><ref target="ftn1" n="1"/>
+                    </hi>
+                    <hi rend="background-"> Im Fokus stehen die (1) standardisierte und persistente Veröffentlichung von einzelnen Beiträgen zur Jahreskonferenz, die (2) nachhaltige Verfügbarmachung der Beiträge als Daten, die (3) technische und organisatorische Anreicherung der XML-Dateien mit weiteren Informationen sowie deren (4) Standardisierung. Damit verbundene Herausforderungen sind u.a. die Normdatenversorgung, die Nachnutzung der Daten durch bibliografische Ansetzungen, die Stärkung der Sichtbarkeit sowie der interdisziplinären und internationalen Anschlussfähigkeit.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__vas21efw4rro"/>Die DHd-Abstracts-Entwicklung
+                </head>
+                <p>Die Abstracts der vergangenen DHd-Jahrestagungen wurden mittlerweile durch den Data Steward des Verbands als einzelne und persistent referenzierbare Beiträge in der 
+                    <hi rend="italic">DHd-Community</hi> auf Zenodo sowie als Jahrespakete via Github publiziert (Helling 2021).
+                    <hi rend="sup"><ref target="ftn2" n="2"/>
+                    </hi> Davon ausgehend skizziert dieses Poster die bisherigen Initiativen einer Task-Force, die sich der kurz-, mittel- und langfristigen Aufwertung der Abstracts (einschließlich weiterer Beitragsformen wie Poster) widmet. Zu den aktuell identifizierten Aufgaben zählen:
+                </p>
+                <list type="unordered">
+                    <item>Betreuung und Weiterentwicklung von Publikationsprozessen: Die entwickelten Workflows und Pipelines zur Datenvorverarbeitung, zum automatisierten Upload und zur Publikation auf Zenodo soll durch die Task-Force organisatorisch und technisch weiterentwickelt werden. Dadurch werden auch Organisator:innen kommender DHd-Jahrestagungen beim Umgang mit der Publikation von Konferenzabstracts unterstützt. Hierzu gehört u.a. die Aufwertung und nachhaltige Verfügbarmachung von Posterbeiträgen, die im Rahmen der DHd2022-Jahrestagung erstmals in die entwickelten Publikationspipelines integriert und unter einer CC-BY-Lizenz in der 
+                        <hi rend="italic">DHd-Community</hi> auf Zenodo publiziert werden.
+               
+                            <ref target="ftn3" n="3"/>
+               
+                    </item>
+                    <item>Normdaten-Annotation (ORCID und GND): Dass bei der Einreichung für die DHd2022 erstmals die ORCID-iDs der Autor:innen eingetragen werden können, ist ein erster Schritt. Die konsequente Nutzung von Normdaten, PID-Systemen sowie die Integration der Gemeinsamen Normdatei (GND) können gelingen, wenn entsprechende technische und organisatorische Voraussetzungen im Einreichungs-, Verarbeitungs- und Publikationsprozess geschaffen werden. Gleichzeitig bedarf es der Aufmerksamkeit und der Bereitschaft der DHd-Community zu deren Nutzung, zu der auch dieses Poster beitragen soll.</item>
+                    <item>Steigerung der Sichtbarkeit von DHd-Abstracts: Durch die Publikation der DHd-Abstracts als einzeln referenzierbare Beiträge in der DHd-Community auf Zenodo wurden Metadateninformationen automatisiert zu aggregierenden Portalen wie bspw. OpenAIRE
+                       
+                            <ref target="ftn4" n="4"/>
+                         weitergegeben. Auch eine Indexierung durch die 
+                        <hi rend="italic">dblp computer science bibliography</hi>
+                        
+                            <ref target="ftn5" n="5"/>
+                         ist mittlerweile erfolgt. Eine zentrale Herausforderung stellt noch die Anpassung des TEI-XML-Schemas der DHd-Abstracts dar, damit diese auch im 
+                        <hi rend="italic">Index of Digital Humanities Conferences</hi> (Weingart et al. 2019) erfasst und indexiert werden können.
+                    </item>
+                </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>
+                    <anchor xml:id="id__md5c9k6bhd8g"/>Das DHd-Abstracts-Poster
+                </head>
+                <p>Mit diesem Poster soll die DHd-Community über die aktuellen Entwicklungen der DHd-Abstracts und die Arbeit der geplanten Task-Force informiert sowie zur Mitgestaltung und Mitarbeit eingeladen werden. Die Postersession dient auch als inhaltlicher Diskussionsraum für Ideen und Bedürfnisse der Community.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note xml:id="ftn1" place="foot" n="1">Dieses Poster versteht sich als komplementärer Beitrag zur Postereinreichung seitens des DHd Data Steward.</note><note xml:id="ftn2" place="foot" n="2">Zenodo-Community der Digital Humanities im deutschsprachigen Raum (DHd), 
+                            <ptr target="https://zenodo.org/communities/dhd/"/>.
+                        </note><note xml:id="ftn3" place="foot" n="3">Vgl. Jahrestagung des Verbands „Digital Humanities im deutschsprachigen Raum e.V.“, DHd2022, Call for Papers, 
+                                <ptr target="https://www.dhd2022.de/cfp/"/>.
+                            </note><note xml:id="ftn4" place="foot" n="4">OpenAIRE (Open Access Infrastructure for Research in Europe), 
+                                <ptr target="https://www.openaire.eu/"/>.
+                            </note><note xml:id="ftn5" place="foot" n="5">Vgl. Jahrestagung des Verbands Digital Humanities im deutschsprachigen Raum bei der dblp computer science bibliography: 
+                                <ptr target="https://dblp.org/db/conf/dhd/index.html"/>.
+                            </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-ecb277b2-7fff-fd40-660d-4e2cc6fa3692"/>
+                        <hi rend="bold">Andorfer, Peter</hi>
+                        <hi rend=""> </hi>
+                        <hi rend="">(2019): </hi>
+                        <hi rend="italic">dhd-boas-app</hi>
+                        <hi rend="">.</hi>
+                        <ref target="https://dhd-boas-app.acdh-dev.oeaw.ac.at/">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ptr target="https://dhd-boas-app.acdh-dev.oeaw.ac.at/"/>
+                        <hi rend="">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Andorfer, Peter / Busch, Anna / Cremer, Fabian / Helling, Patrick / Henrich, Andreas / Henrich / Lordick, Harald / Mischke, Dennis / Steyer, Timo</hi>
+                        <hi rend=""> </hi>
+                        <hi rend="">(2021a): </hi>
+                        <hi rend="italic">Die DHd-Abstracts im Zukunftslabor</hi>
+                        <hi rend="">. vDHd2021 – Experimente (blog). </hi>
+                        <ptr target="https://vdhd2021.hypotheses.org/137"/>
+                        <hi rend=""> </hi>
+                        <hi rend="">[letzter Zugriff 6. Juli 2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Andorfer, Peter / Busch, Anna / Cremer, Fabian / Helling, Patrick / Henrich, Andreas / Henrich / Lordick, Harald / Mischke, Dennis / Steyer, Timo </hi>
+                        <hi rend="">(2021b): </hi>
+                        <hi rend="italic">Bericht zur vDHd2021-Veranstaltung: Zukunftslabor DHd-Abstracts</hi>
+                        <hi rend="">. DHd-Blog (blog). </hi>
+                        <ptr target="https://dhd-blog.org/?p=15980"/>
+                        <hi rend=""> </hi>
+                        <hi rend="">[letzter Zugriff 6. Juli 2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Andorfer, Peter / Cremer,  Fabian / Steyer, Timo </hi>
+                        <hi rend="">(2019): „DHd 2019 Book of Abstracts Hackathon“, in: </hi>
+                        <hi rend="italic">DHd 2019 Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts</hi>
+                        <hi rend="">. Frankfurt am Main.</hi>
+                        <ref target="https://doi.org/10.20375/0000-000B-D512-0">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ptr target="https://doi.org/10.20375/0000-000B-D512-0"/>
+                        <hi rend=""> </hi>
+                        <hi rend="">[letzter Zugriff 6. Juli 2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Andorfer, Peter / Cremer,  Fabian / Steyer, Timo </hi>
+                        <hi rend="">(2020): „Abstract Enhancement. Potentiale der DHd-Konferenzabstracts als Daten/Publikation“, in: </hi>
+                        <hi rend="italic">DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation. Konferenzabstracts</hi>
+                        <hi rend="">. Paderborn.</hi>
+                        <ref target="https://doi.org/10.5281/zenodo.3666690">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ptr target="https://doi.org/10.5281/zenodo.3666690"/>
+                        <hi rend=""> </hi>
+                        <hi rend="">[letzter Zugriff 6. Juli 2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Cremer, Fabian</hi>
+                        <hi rend=""> </hi>
+                        <hi rend="">(2018): „Nun sag, wie hältst Du es mit dem Digitalen Publizieren, Digital Humanities?“. </hi>
+                        <hi rend="italic">Digitale Redaktion</hi>
+                        <hi rend=""> </hi>
+                        <hi rend="">(blog). </hi>
+                        <ptr target="https://editorial.hypotheses.org/113"/>
+                        <hi rend=""> </hi>
+                        <hi rend="">[letzter Zugriff 6. Juli 2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Helling, Patrick</hi>
+                        <hi rend=""> </hi>
+                        <hi rend="">(2021): „DHd-Konferenzen 2014-2020 – einzelne Abstracts in DHd-Community auf Zenodo publiziert | DHd-Blog“. </hi>
+                        <hi rend="italic">DHd-Blog</hi>
+                        <hi rend=""> </hi>
+                        <hi rend="">(blog).</hi>
+                        <ref target="https://dhd-blog.org/?p=15599">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ptr target="https://dhd-blog.org/?p=15599"/>
+                        <hi rend=""> </hi>
+                        <hi rend="">[letzter Zugriff 6. Juli 2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Lordick, Harald</hi>
+                        <hi rend=""> </hi>
+                        <hi rend="">(2020): </hi>
+                        <hi rend="italic">DH(d) Konferenzbeiträge</hi>
+                        <hi rend="">.</hi>
+                        <ref target="http://www.steinheim-institut.de/dhd/">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ptr target="http://www.steinheim-institut.de/dhd/"/>
+                        <hi rend=""> </hi>
+                        <hi rend="">[letzter Zugriff 6. Juli 2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Sahle, Patrick</hi>
+                        <hi rend=""> </hi>
+                        <hi rend="">(2019): </hi>
+                        <hi rend="italic">DHd 2019 Digital Humanities: multimedial &amp; multimodal. Konferenzabstracts</hi>
+                        <hi rend="">. Frankfurt am Main: Zenodo. </hi>
+                        <ptr target="https://doi.org/10.5281/zenodo.2596095"/>
+                        <hi rend=""> </hi>
+                        <hi rend="">[letzter Zugriff 6. Juli 2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Schöch, Christof</hi>
+                        <hi rend=""> </hi>
+                        <hi rend="">(2020): </hi>
+                        <hi rend="italic">DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation. Konferenzabstracts</hi>
+                        <hi rend="">. Paderborn: Christof Schöch.</hi>
+                        <ref target="https://doi.org/10.5281/zenodo.3666690">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ptr target="https://doi.org/10.5281/zenodo.3666690"/>
+                        <hi rend=""> </hi>
+                        <hi rend="">[letzter Zugriff 6. Juli 2021].</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Weingart, Scott B. / Eichmann-Kalwara, Nickoal / Lincoln, Matthew</hi>
+                        <hi rend=""> </hi>
+                        <hi rend="">(2020): </hi>
+                        <hi rend="italic">The Index of Digital Humanities Conferences</hi>
+                        <hi rend="">. Carnegie Mellon University.</hi>
+                        <ref target="https://dh-abstracts.library.cmu.edu/">
+                            <hi rend=""> </hi>
+                        </ref>
+                        <ptr target="https://dh-abstracts.library.cmu.edu/"/>
+                        <hi rend=""> </hi>
+                        <hi rend="">[letzter Zugriff 6. Juli 2021].</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

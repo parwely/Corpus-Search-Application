@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_246">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Linked Open Data für die Literaturgeschichtsschreibung</title>
+                <title type="sub">Das Projekt "Mining and Modeling Text"</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Hinzmann</surname>
+                        <forename>Maria</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>hinzmannm@uni-trier.de</email>
+                <idno type="ORCID">0000-0001-7199-1436</idno></author>
+                <author>
+                    <persName>
+                        <surname>Schöch</surname>
+                        <forename>Christof</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>schoech@uni-trier.de</email>
+                <idno type="ORCID">0000-0002-4557-2753</idno></author>
+                <author>
+                    <persName>
+                        <surname>Dietz</surname>
+                        <forename>Katharina</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>dietz@uni-trier.de</email>
+                <idno type="ORCID">0000-0001-7405-3656</idno></author>
+                <author>
+                    <persName>
+                        <surname>Klee</surname>
+                        <forename>Anne</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>klee@uni-trier.de</email>
+                <idno type="ORCID">0000-0002-1532-2649</idno></author>
+                <author>
+                    <persName>
+                        <surname>Erler-Fridgen</surname>
+                        <forename>Katharina</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>erler@uni-trier.de</email>
+                <idno type="ORCID">0000-0002-2061-2974</idno></author>
+                <author>
+                    <persName>
+                        <surname>Röttgermann</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>roettger@uni-trier.de</email>
+                <idno type="ORCID">0000-0002-1918-8117</idno></author>
+                <author>
+                    <persName>
+                        <surname>Steffes</surname>
+                        <forename>Moritz</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>steffesm@uni-trier.de</email>
+                <idno type="ORCID">0000-0002-4355-3209</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Linked Open Data</term>
+                    <term>Informationsextraktion</term>
+                    <term>Datenmodellierung</term>
+                    <term>Literaturgeschichte</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Datenerkennung</term>
+                    <term>Modellierung</term>
+                    <term>Identifizierung</term>
+                    <term>Literatur</term>
+                    <term>Metadaten</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">246</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Zielsetzung und Projektstruktur</head>
+                <p style="text-align: left; ">Im Umgang mit dem stetig wachsenden ‚digitalen Kulturerbe‘ bietet die Weiterentwicklung der systematischen Datenerschließung und Wissensrepräsentation bisher nicht ausgeschöpfte Potentiale für die Literaturgeschichtsschreibung. Vor diesem Hintergrund werden im Projekt
+                    <hi rend="italic" xml:space="preserve"> Mining and Modeling Text (MiMoText) </hi>quantitative Methoden der Informationsextraktion (‚Mining‘) und Datenmodellierung (‚Modeling‘) ineinander verschränkt, um ein literaturgeschichtliches Wissensnetzwerk aufzubauen (vgl. Abb. 1).<ref target="ftn1" n="1"/> Der Fokus liegt zunächst auf französischen Romanen (1751–1800). Die Übertragbarkeit in andere Domänen wird berücksichtigt. Zentrales Anliegen ist es, den Bereich der quantitativen Methoden zur Extraktion, Modellierung und Analyse geisteswissenschaftlich relevanter Informationen aus umfangreichen Textsammlungen weiterzuentwickeln und aus interdisziplinärer (geistes-, informatik- und rechtswissenschaftlicher) Perspektive zu erforschen.
+                </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="8.79475cm" url="Pictures/d3e60ac4b0b2c389da1e26aea88c6dc2.jpg" rend="inline"/>
+                    <head>Abb. 1: Informationsquellen des Wissensnetzwerks.</head>
+                </figure>
+                <p style="text-align: left; ">Bezogen auf den Gegenstandsbereich ist ein Ausgangspunkt, dass die über rund zwei Jahrhunderte akkumulierten literaturhistorischen Forschungserkenntnisse größtenteils nicht unmittelbar nutzbar sind, da diese sehr umfangreich sind, nicht digital vorliegen oder auf unterschiedliche Orte und Quellen verteilt und in unterschiedlichen Sprachen publiziert sind. 
+                    <hi rend="italic">MiMoText</hi> begegnet diesem Desiderat, indem es Informationen aus drei unterschiedlichen Quellentypen im Aufbau des fachspezifischen Wissensnetzwerks miteinander verknüpft: Metadaten aus Nachweissystemen, Texteigenschaften aus Primärtexten, Sachinformationen aus Fachliteratur. In vier Teilbereichen (Research Areas/RAs) werden Lösungen für die Informationsextraktion, ihre Modellierung, die rechtlichen Rahmenbedingungen sowie die Infrastruktur erarbeitet (vgl. Abb. 2).
+                </p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="15.361708333333333cm" url="Pictures/4ebf8faaf284e2f6a8e3b9edd196285b.jpg" rend="inline"/>
+                    <head>Abb. 2: Projektübersichtsgrafik.</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Open Science-Prinzipien</head>
+                <p style="text-align: left; ">Für die Bereitstellung der Daten sowie die Arbeit und Infrastruktur im Projekt sind Open Science-Prinzipien tragend. Dies betrifft u.a. die Veröffentlichung FAIRer Daten (Röttgermann/Schöch 2020) im Open Access (Schöch 2021), die Nutzung von Open Source-Tools wie 
+                    <hi rend="italic">INCEpTION</hi> (Klie et al. 2018) und 
+                    <hi rend="italic">OCR4all</hi> (Reul et al. 2019) sowie Wikibase als Infrastruktur, die dem Linked Open Data (LOD) folgt.<ref target="ftn2" n="2"/> Im rechtswissenschaftlichen Teilbereich werden die rechtlichen Rahmenbedingungen von Text und Data-Mining in den Geisteswissenschaften auch im Hinblick auf eine offenere und nachhaltigere Nutzung von Forschungsdaten erforscht (vgl. Erler-Fridgen 2021a; Erler-Fridgen 2021b; Erler-Fridgen 2021c; Raue/Schöch 2020; Schöch et al. 2020).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Mining – Extrahieren von Informationen aus drei Quellentypen</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Bibliographische Daten</head>
+                    <p style="text-align: left; ">Für unsere Domäne ist die 1977 von Mylne, Martin und Frautschi veröffentlichte 
+                        <hi rend="italic">Bibliographie du genre romanesque français 1751-1800</hi> (BGRF) zentral, da sie die Grundgesamtheit der Romane definiert. Die BGRF wurde von Andreas Lüschow aufwendig erschlossen und nach aktuellen bibliographischen Standards modelliert (Lüschow 2020).
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Primärliteratur</head>
+                    <p style="text-align: left; ">Im Teilprojekt zur Primärliteratur wird schrittweise ein Korpus von etwa 200 Romanen aufgebaut, wovon bereits reichlich 100 Texte in XML-TEI verfügbar sind (vgl. Röttgermann 2021; Klee/Röttgermann 2020).<ref target="ftn3" n="3"/> Eine Reihe von Analyseverfahren wurde bereits auf diesen Textbestand angewandt, darunter Topic Modeling (vgl. Klee/Röttgermann 2020), NER (Orte und Figuren) sowie explorativ Sentiment Analyse.<ref target="ftn4" n="4"/>
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Sekundärliteratur</head>
+                    <p style="text-align: left; ">Das mittelfristige Ziel besteht darin, durch überwachtes Lernen die automatische Extraktion von Aussagen (RDF-Tripel) zu ermöglichen. Um Trainingsdaten zu generieren und Tripel in das Wissensnetzwerk einspeisen zu können, werden aktuell literaturgeschichtliche Texte in INCEpTION annotiert. Die Daten sollen als Statements über eine noch zu entwickelnde toolübergreifende Pipeline in unsere projektspezifische Wikibase importiert werden.<ref target="ftn5" n="5"/>
+                    </p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Modeling – Repräsentation und Vernetzung von Wissen</head>
+                <p style="text-align: left; ">Im Aufbau des LOD-Wissensnetzwerks werden literaturgeschichtliche Aussagetypen in einer systematischen Ontologie modelliert und die extrahierten Informationen als RDF-Tripel repräsentiert (vgl. Abb. 3). Der Mehrwert des Netzwerks wird durch exemplarische Nutzungsszenarien in Form von SPARQL-Abfragen konkretisiert. Frageoptionen wie „Tritt Thema x in einem bestimmten Zeitraum y gehäuft auf?“ verdeutlichen, welcher Nutzen daraus für eine datenbasierte Literaturgeschichtsschreibung entstehen kann. Exemplarisch werden Einblicke in die Infrastruktur gegeben (vgl. Abb. 4).</p>
+                <figure>
+                    <graphic n="1003" width="16.002cm" height="8.466666666666667cm" url="Pictures/303bbe30b4e3bc670dbb19d1afc3c9e2.jpg" rend="inline"/>
+                    <head>Abb. 3: Thematische Aussagen (Property „about“) über das Werk <hi rend="italic">Candide</hi> aus den drei unterschiedlichen Informationsquellen.</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Domänenspezifische Herausforderungen &amp; Chancen</head>
+                <p style="text-align: left; ">Ein Standardisierungsprozess wie er sich beispielsweise im 
+                    <hi rend="italic">CIDOC CRM</hi> (http://www.cidoc-crm.org) niederschlägt, steht für die Domäne der Literaturgeschichte noch am Anfang. Das Projekt konzentriert sich auf Aussagen über literarische Werke und Autor:innen, bisher vor allem thematische Aussagen (vgl. Schöch et al. 2022) sowie Handlungsorte (vgl. Hinzmann et al. angenommen). Dabei ist das beständig wachsende Wissensnetzwerk in der Zusammenführung von Informationen aus verschiedenen, auch widersprüchlichen Quellen möglichst offen im Hinblick auf unterschiedliche Nutzungsszenarien und Fragerichtungen. Durch die Menge der aggregierten Daten lassen sich literaturhistorische Annahmen bestätigen, revidieren oder präzisieren und neue Fragestellungen sowie eine Metaperspektive auf den literaturwissenschaftlichen Diskurs entwickeln.
+                </p>
+                <figure>
+                    <graphic n="1004" width="16.002cm" height="9.001125cm" url="Pictures/011da80c26a94336525e604376e383f4.jpg" rend="inline"/>
+                    <head>Abb. 4: Screenshot von thematischen Aussagen zu <hi rend="italic" xml:space="preserve"> Candide</hi> in der MiMoText-Wikibase.</head>
+                </figure>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Präsentationsstrategie</head>
+                <p style="text-align: left; ">Das Poster veranschaulicht die Integration der verschiedenen Informationsquellen in der Datenmodellierung sowie das Zusammenspiel der verschiedenen Teilprojekte und Tools im Aufbau und in möglichen Nutzungsszenarien des mehrsprachigen Wissensnetzwerks.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Das Projekt wird im Rahmen der Forschungsinitiative Rheinland-Pfalz gefördert und vom 
+                            <hi rend="italic">Trier Center for Digital Humanities</hi> koordiniert, vgl. https://mimotext.uni-trier.de.
+                        </note><note place="foot" xml:id="ftn2" n="2"> Vgl. zum Datenmodell von Wikibase/Wikidata https://www.mediawiki.org/wiki/Wikibase/DataModel sowie https://www.mediawiki.org/wiki/Wikibase/Indexing/RDF_Dump_Format.</note><note place="foot" xml:id="ftn3" n="3"> Vgl. genauer zum Korpusaufbau Röttgermann (angenommen) und zu den Kodierungsprinzipien, die der European Literary Text Collection (ELTeC) folgen: Burnard et al. 2021.</note><note place="foot" xml:id="ftn4" n="4"> Vgl. das GitHub-Repository unter: https://github.com/MiMoText/roman18.</note><note place="foot" xml:id="ftn5" n="5"> Vgl. zum Statement-Begriff in Wikibase/Wikidata https://www.mediawiki.org/wiki/Wikibase/Indexing/RDF_Dump_Format sowie https://www.mediawiki.org/wiki/Wikibase/DataModel/Primer#Statements.</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Burnard, Lou / Schöch, Christof / Odebrecht, Carolin</hi> (2021): "In Search of Comity: TEI for Distant Reading", in: 
+                        <hi rend="italic">Journal of the Text Encoding Initiative</hi> 14 https://doi.org/10.4000/jtei.3500.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Erler-Fridgen, Katharina</hi> (2021a): "Die Nutzung wissenschaftlicher Ausgaben für Textanalysen", in: 
+                        <hi rend="italic">IRDT PaperSeries 1</hi>. https://irdt.uni-trier.de/die-nutzung-wissenschaftlicher-ausgaben-fuer-textanalysen/ [letzter Zugriff 30. November 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Erler-Fridgen, Katharina</hi> (2021b): "Kriterien der urheberrechtlichen Schutzfähigkeit von Texten und Sammelwerken", in: 
+                        <hi rend="italic">IRDT PaperSeries 2</hi>. https://irdt.uni-trier.de/kriterien-der-urheberrechtlichen-schutzfaehigkeit-von-texten-und-sammelwerken/ [letzter Zugriff 30. November 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Erler-Fridgen, Katharina</hi> (2021c): "Die Präsentation von Textteilen als Ergänzung von Textanalysen", in: 
+                        <hi rend="italic">IRDT PaperSeries 3</hi>. https://irdt.uni-trier.de/die-praesentation-von-textteilen-als-ergaenzung-von-textanalysen/ [letzter Zugriff 30. November 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hinzmann, Maria / Röttgermann, Julia / Klee, Anne / Steffes, Moritz / Schöch, Christof</hi> (angenommen): "The French Enlightenment Novel as a Graph? Potentials and Challenges in the Construction of a Knowledge Network", angenommener Beitrag 
+                        <hi rend="italic">Graphs and Networks in the Humanities 2022: Knowledge Graphs and Reasoning – Promises, Potentials, and Pitfalls</hi>. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Klee, Anne / Röttgermann, Julia</hi> (2020): 
+                        <hi rend="italic">Doing Topic Modeling on French 18th Century Novels in the Context of MiMoText Project</hi> [data set] https://github.com/MiMoText/topicmodeling [letzter Zugriff 30. November 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Klie, Jan-Christoph / Bugert, Michael / Boullosa, Beto / Eckart de Castilho, Richard / Gurevych, Iryna</hi> (2018): "The INCEpTION Platform: Machine-Assisted and Knowledge-Oriented Interactive Annotation", in: 
+                        <hi rend="italic">Proceedings of the 27th International Conference on Computational Linguistics: System Demonstrations</hi> 5–9 http://tubiblio.ulb.tu-darmstadt.de/106270/ [letzter Zugriff 30. November 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Lüschow, Andreas</hi> (2020): "Automatische Extraktion und semantische Modellierung der Einträge einer Bibliographie französischsprachiger Romane", in: 
+                        <hi rend="italic">Spielräume: Digital Humanities zwischen Modellierung und Interpretation. Konferenzabstracts</hi>, 80–84 10.5281/zenodo.3666690.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Raue, Benjamin / Schöch, Christof</hi> (2020): "Zugang zu großen Textkorpora des 20. und 21. Jahrhunderts mit Hilfe abgeleiteter Textformate – Versöhnung von Urheberrecht und textbasierter Forschung", in: 
+                        <hi rend="italic">RuZ – Recht und Zugang</hi>, 1.2.: 118–27 10.5771/2699-1284-2020-2-118.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Reul, Christian / Christ, Dennis / Hartelt, Alexander / Balbach, Nico / Wehner, Maximilian / Springmann, Uwe / Wick, Christoph / Grundig, Christine / Büttner, Andreas / Puppe, Frank</hi> (2019): "OCR4all -- An Open-Source Tool Providing a (Semi‑)Automatic OCR Workflow for Historical Printings", in: 
+                        <hi rend="italic">ArXiv:1909.04032</hi> [Cs].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Röttgermann, Julia / Schöch, Christof </hi>(2020): "FAIRe Daten in den Literaturwissenschaften? Das Beispiel „Mining and Modeling Text“ und der französische Roman des 18. Jahrhunderts", in: 
+                        <hi rend="italic" xml:space="preserve">Romanistik-Blog. Blog des Fachinformationsdienstes </hi>https://blog.fid-romanistik.de/2020/11/05/faire-daten-in-den-literaturwissenschaften/ [letzter Zugriff 30. November 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Röttgermann, Julia </hi>(ed.) (2021): 
+                        <hi rend="italic">Collection de romans français du dix-huitième siècle (1750-1800) / Eighteenth-Century French Novels (1750-1800)</hi> [data set]. Release v0.2.0 10.5281/zenodo.5040855.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Röttgermann, Julia</hi> (angenommen): "Établissement d’un corpus de romans français du XVIIIe siècle dans le cadre du projet Mining and Modeling Text" [angenommener Beitrag Frankoromanistentag 2021, Sektion: 
+                        <hi rend="italic">Digital, global, transdisziplinär: Impulse für eine transdisziplinäre digitale Romanistik</hi>].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schöch, Christof / Döhl, Frédéric / Rettinger, Achim / Gius, Evelyn / Trilcke, Peer / Leinen, Peter /Jannidis, Fotis / Hinzmann, Maria / Röpke, Jörg</hi> (2020): "Abgeleitete Textformate: Text und Data Mining mit urheberrechtlich geschützten Textbeständen", in: 
+                        <hi rend="italic">Zeitschrift für digitale Geisteswissenschaften – ZfdG</hi> 10.17175/2020_006.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schöch, Christof</hi> (2021): "Open Access für die Maschinen", in: Kohle, Hubertus / Effinger, Maria (eds.): 
+                        <hi rend="italic">Die Zukunft des kunsthistorischen Publizierens</hi>. Heidelberg: arthistoricum.net 79–94 10.11588/arthistoricum.663.c9210.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold" xml:space="preserve">Schöch, Christof / Hinzmann, Maria / Röttgermann, Julia / Dietz, Katharina / Klee, Anne </hi>(angenommen): "Smart Modeling For Literary History", angenommen in: 
+                        <hi rend="italic">IJHAC. Linked Open Data in the Arts and Humanities</hi> [special issue] (March 2022).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_281">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Linked Open Tafsir</title>
+                <title type="sub">Rekonstruktion der Entstehungsdynamik(en) des Korans mithilfe der Netzwerkmodellierung früher islamischer Überlieferungen</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Ahmed</surname>
+                        <forename>Sajawel</forename>
+                    </persName>
+                    <affiliation>Goethe-Universität Frankfurt am Main, Deutschland</affiliation>
+                    <email>sahmed@em.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Rehman</surname>
+                        <forename>Misbahur</forename>
+                    </persName>
+                    <affiliation>Goethe-Universität Frankfurt am Main, Deutschland</affiliation>
+                    <email>rehman@em.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Tischlik</surname>
+                        <forename>Joshua</forename>
+                    </persName>
+                    <affiliation>Goethe-Universität Frankfurt am Main, Deutschland</affiliation>
+                    <email>tischlik@em.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Kruse</surname>
+                        <forename>Carl</forename>
+                    </persName>
+                    <affiliation>Goethe-Universität Frankfurt am Main, Deutschland</affiliation>
+                    <email>ca.kruse@em.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Mahmutovic</surname>
+                        <forename>Edin</forename>
+                    </persName>
+                    <affiliation>Goethe-Universität Frankfurt am Main, Deutschland</affiliation>
+                    <email>mahmutovic@em.uni-frankfurt.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Özsoy</surname>
+                        <forename>Ömer</forename>
+                    </persName>
+                    <affiliation>Goethe-Universität Frankfurt am Main, Deutschland</affiliation>
+                    <email>oezsoy@em.uni-frankfurt.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Named Entity Recognition</term>
+                    <term>Maschinelles Lernen</term>
+                    <term>Computerlinguistik</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Datenerkennung</term>
+                    <term>Programmierung</term>
+                    <term>Annotieren</term>
+                    <term>Veröffentlichung</term>
+                    <term>Daten</term>
+                    <term>benannte Entitäten (named entities)</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">281</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Das Projekt 
+                <hi rend="italic">Linked Open Tafsir</hi><ref target="ftn1" n="1"/> hat die Erstellung einer online abrufbaren Datenbank früher exegetischer Überlieferungsmaterialien auf Basis des Kommentarwerks von At-Tabari (gest. 310 n. H. / 923 n. Chr.) zum Ziel. Sein Werk 
+                <hi rend="italic">Jami' al-bayan 'an ta'wil ay al-Qur'an</hi> (kurz: Tafsir At-Tabari) kann nach heutigem Kenntnisstand als Sammlung des Großteils aller zu Anfang des 4./10. Jahrhunderts vorliegenden exegetisch relevanten Überlieferungen gelten. In der Datenbank werden die in diesen Überlieferungen enthaltenen Informationen zu historischen Begebenheiten zur Offenbarungszeit sowie den kulturellen, religiösen, sozialen und sprachlichen Rahmenbedingungen der Koranentstehung erfasst. Für die Erfassung der Überlieferungen bzw. Informationen in den Überlieferungen werden mit Hilfe von Künstlicher Intelligenz Daten und Programme insbesondere für das 
+                <hi rend="italic">Named Entity Recognition</hi> entwickelt, die den Erfassungsprozess signifikant beschleunigen. Das Projekt soll eine solide Forschungsgrundlage für Zugänge zur Reflexion der Offenbarungsdynamik(en) des Korans in der frühen Exegese schaffen. Die Datenbank wird insofern "offen" sein, als dass zu einem späteren Zeitpunkt weitere exegetische Kompilationen sowie frühere Überlieferungswerke hinzugefügt werden können. Weiterhin werden die beteiligten WissenschaftlerInnen diese digitalen Zugänge in ihren Forschungsprojekten im Hinblick auf das Islamische Recht, die Systematische Theologie, die Hadithwissenschaft, die Tafsirgeschichte, die Religionspädagogik und dem Maschinellen Lernen für klassische arabische Literatur reflektieren.
+            </p>
+            <p>
+                <hi rend="bold">Datenbank:</hi> Die Erstellung der Datenbank erfolgt in mehreren Schritten: Zunächst sammeln die Projektbeteiligten bereits digital verfügbare Überlieferungen des Kommentarwerks von At-Tabari, um daraus ein erstes digitales Textkorpus zu erstellen. Im Anschluss wird eine Datenbank aufgebaut, die alle in den exegetischen Überlieferungen erhaltenen Informationen über das Offenbarungsumfeld (Mikro-, Makro- und Sprachumfeld), Lesarten (Qira'at), intratextuelle Zusammenhänge (Wiederholung, Querreferenz, Abrogation, Spezifikation etc.) und insbesondere 
+                <hi rend="italic">Named Entities</hi> (NEs: Ort, Zeit, Person etc.) als solche erfasst, markiert, vernetzt und auffindbar macht. Ein weiterer Arbeitsschwerpunkt liegt in der Erschließung der Überlieferungsketten (Isnade) und einzelner TradentInnen. Die Datenbank soll entsprechend verschiedener Forschungsinteressen genutzt werden können: So werden sich beispielsweise alle exegetischen Überlieferungen aus dem Werk Tafsir At-Tabari, welche verschiedene Koranverse mit einer bestimmten Person in Verbindung bringen, in einem einzigen Suchvorgang auffinden lassen. Ebenso werden sich durch die Datenbank unmittelbar Teilkorpora anzeigen lassen, die über dieselben TradentInnen überliefert worden sind. Es ist geplant, die Funktionalität der Datenbank sowie exemplarische Suchmöglichkeiten in Form von YouTube-Tutorials
+                <hi rend="Footnote_Anchor"><ref target="ftn2" n="2"/>
+                </hi> vorzustellen.
+            </p>
+            <p>
+                <hi rend="bold" xml:space="preserve">Annotation von Named Entities: </hi>Unter Named Entity Recognition (NER) versteht man die computerlinguistische Aufgabe, Eigennamen (NE) in Texten zu erkennen (z.B. Mekka, Asien, Tabari, Shia). Solche Eigennamen stehen im Kontrast zu Gattungsnamen, welche eine Klasse von Eigennamen umfassen (z.B. Stadt, Kontinent, Person, Organisation). Technisch gesehen sind für NER zwei Schritte notwendig: Zuerst müssen in einem laufenden Text die Inhaltselemente gefunden werden, die zu einem Eigennamen gehören, danach können diese Eigennamen semantischen Kategorien zugeordnet werden. In unserer aktuellen Annotationsarbeit haben wir aufbauend auf 
+                <hi rend="italic">Guidelines für die Named Entity Recognition</hi> (Benikova 2014; Ahmed 2019) fünf semantische Hauptklassen für klassische arabische Texte unterschieden (Personen, Organisationen, Orte, Zeiten und Andere).
+            </p>
+            <p>Zurzeit annotiert unser Team aus Arabisten den arabischsprachigen Text, welcher durch einen OCR-Prozess auf historische Manuskripte der Koranexegesis von At-Tabari generiert wurde und uns im XML-basierten TEI-Format vorliegt. Auf Basis dieser digitalen Textsammlung werden von unseren Annotatoren die einzelnen Eigennamen mithilfe des Tools 
+                <hi rend="italic">Oxygen XML Editor</hi>
+                <hi rend="Footnote_Anchor"><ref target="ftn3" n="3"/>
+                </hi> identifiziert, markiert und als NE im TEI-Format abgespeichert. In der 
+                <hi rend="italic">Fig. 1</hi> bekommen wir einen Einblick in der Annotationsumgebung. Wir sehen, dass der Oxygen XML Editor in der Lage ist, den arabischen 
+                <hi rend="italic">Right-to-Left</hi>-Text korrekt darzustellen, die markierten NEs farbig hervorzuheben und insgesamt den Annotatoren einen einfacheren Zugang zum Quelltext zu gewähren.
+            </p>
+            <figure>
+                <graphic n="1001" width="15.975541666666667cm" height="5.194652777777778cm" url="Pictures/5ee3842f41f6ae004baa59a04854f68f.png" rend="inline"/>
+                <head>Abb. 1: Ausschnitt aus dem 
+                    <hi rend="italic">Oxygen XML Editor</hi> für die Annotation von 
+                    <hi rend="italic">Named Entities</hi> im klassischen arabischen Quelltext 
+                    <hi rend="italic">Tafsir At-Tabari</hi>.
+                </head>
+            </figure>
+            <p style="text-align: left; ">
+                <hi rend="bold">Aktueller Stand der Annotationsarbeit und Ausblick:</hi> Aktuell haben wir bereits über 30.000 Sätze mit solchen NEs annotieren können, hinzu wird eine weitere solche Menge in der zweiten Phase der Annotation kommen. Zum Abschluss dieser Arbeit werden wir der DH-Fachcommunity den ersten Datensatz überhaupt für die klassische arabische Sprache von solcher Art und Dimension als Open-Source Ressource (Lizenz: CC-BY-4.0) auf 
+                <hi rend="italic">GitHub</hi> bereitstellen, welcher ein ideales Fundament für weiterführende Anwendungen von Sprachmodellen wie 
+                <hi rend="italic" xml:space="preserve">Word2vec </hi>(Mikolov 2013), 
+                <hi rend="italic" xml:space="preserve">LSTM </hi>(Lample 2016; Ahmed 2018), 
+                <hi rend="italic" xml:space="preserve">BERT </hi>(Devlin 2019) sein wird. Begleitend hierzu werden wir eine erste Datenanalyse mit eben diesen Sprachmodellen durchführen und über die Ergebnisse (Precision, Recall und F1-Score) berichten. Unsere innovative, interdisziplinäre Annotationsarbeit legt damit die ersten Bausteine für die Analyse klassischer arabischer Texte mit modernen Verfahren des Maschinellen Lernens, so dass auch der Bereich der Islamwissenschaft und historischen Theologie von der Digitalisierungswelle profitieren kann.
+            </p>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                        <ref target="http://www.linkedopentafsir.de/">www.linkedopentafsir.de/</ref>
+                    </note><note place="foot" xml:id="ftn2" n="2">
+                            <hi rend="Footnote_Characters"> </hi>
+                            <ref target="http://www.youtube.com/watch?v=LJODcc_Gz50">
+                                <hi rend="Internet_Link">www.youtube.com/watch?v=LJODcc_Gz50</hi>
+                            </ref>
+                        </note><note place="foot" xml:id="ftn3" n="3">
+                            <hi rend="Footnote_Characters"> </hi>
+                            <ref target="http://www.oxygenxml.com/">
+                                <hi rend="Internet_Link">www.oxygenxml.com/</hi>
+                            </ref>
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ahmed, S. and Mehler, A.</hi> (2018): “Resource-size matters: Improving neural named entity recognition with optimized large corpora”, in 
+                        <hi rend="italic">2018 17th IEEE International Conference on Machine Learning and Applications (ICMLA)</hi> (pp. 919-924).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ahmed, S., Stoeckel, M., Driller, C., Pachzelt, A. and Mehler, A.</hi> (2019): “BIOfid
+                        <lb/>Dataset: Publishing a German gold standard for named entity recognition in historical biodiversity literature”, in: 
+                        <hi rend="italic">Proceedings of the 23rd Conference on Computational Natural Language Learning</hi> (CoNLL) (pp. 871-880).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Benikova, D., Biemann, C. and Reznicek, M.</hi> (2014): “NoSta-D Named Entity Annotation for German: Guidelines and Dataset”, in: 
+                        <hi rend="italic">Proceedings of the 9th International Conference on Language Resources and Evaluation</hi> (LREC) (pp. 2524-2531).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Devlin, J., Chang, M.W., Lee, K. and Toutanova, K.</hi> (2018): “Bert: Pre-training of deep bidirectional transformers for language understanding”, in: 
+                        <hi rend="italic">Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</hi> (NAACL-HTL) (pp. 4171-4186).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Lample, G., Ballesteros, M., Subramanian, S., Kawakami, K. and Dyer, C.</hi> (2016): ”Neural architectures for named entity recognition”, in: 
+                        <hi rend="italic">Proceedings of the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</hi> (NAACL-HTL) (pp. 260-270).
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Mikolov, T., Sutskever, I., Chen, K., Corrado, G.S. and Dean, J.</hi> (2013): “Distributed representations of words and phrases and their compositionality”, in: 
+                        <hi rend="italic">Advances in neural information processing systems</hi> (NIPS) (pp. 3111-3119).
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

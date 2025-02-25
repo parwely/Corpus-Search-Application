@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_153">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">GitMA-Poster</title>
+                    <title type="sub">CATMA-Daten via Git abrufen und mittels Python-Bibliothek weiterverarbeiten</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Meister</surname>
+                        <forename>Malte</forename>
+                    </persName>
+                    <affiliation>Technische Universität Darmstadt, Germany</affiliation>
+                    <email>meister@linglit.tu-darmstadt.de</email>
+                <idno type="ORCID">0000-0002-9670-3573</idno></author>
+                <author>
+                    <persName>
+                        <surname>Vauth</surname>
+                        <forename>Michael</forename>
+                    </persName>
+                    <affiliation>Technische Universität Darmstadt, Germany</affiliation>
+                    <email>vauth@linglit.tu-darmstadt.de</email>
+                <idno type="ORCID">0000-0002-3668-6273</idno></author>
+                <author>
+                    <persName>
+                        <surname>Gerstorfer</surname>
+                        <forename>Dominik</forename>
+                    </persName>
+                    <affiliation>Technische Universität Darmstadt, Germany</affiliation>
+                    <email>gerstorfer@linglit.tu-darmstadt.de</email>
+                <idno type="ORCID">0000-0002-8095-2540</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2015-10-05T00:04:51.74</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>CATMA</term>
+                    <term>Git</term>
+                    <term>Python</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Annotieren</term>
+                    <term>Bearbeitung</term>
+                    <term>Einführung</term>
+                    <term>Visualisierung</term>
+                    <term>Daten</term>
+                    <term>Software</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">153</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Etwas zu erinnern heißt nicht, es abzuspeichern, sondern auch, es abzurufen und weiter zu prozessieren. Denn nur im produktiven Anschluss erhält die Erinnerung eine Bedeutung. Diese Beobachtung trifft 
+                <hi rend="italic">a fortiori</hi> auf technische Speichersysteme zu. Der Nutzen einer Software wird, gerade in den Digital Humanities, über die Möglichkeiten bestimmt, die erzeugten Daten zu exportieren, zu konvertieren, zu archivieren und in anderen Systemen weiterzuverarbeiten. In diesem Poster werden wir neue Möglichkeiten vorstellen, Daten aus CATMA (Gius et al. 2021) abzurufen und nachzunutzen.
+            </p>
+            <p>CATMA (Computer Assisted Text Markup and Analysis) ist eine kollaborative Textannotations- und Analyse-Plattform, die in den Digital Humanities gut etabliert ist und von vielen Projekten aktiv genutzt wird<ref target="#ftn1|region">[1]</ref>. Annotationsexporte waren, besonders im XML-TEI Format, schon seit Version 3 ein wichtiger Bestandteil der CATMA-Software (Petris &amp; Meister 2016; Petris 2017). Der Datenzugriff war aber bis einschließlich CATMA 5 nur über die graphische Benutzeroberfläche (GUI) möglich. Seit der Version 6.0 werden die von den Nutzer:innen erzeugten Daten in einem auf <ref target="https://git-scm.com/">Git</ref> basierenden Backend gespeichert und versioniert.
+            </p>
+            <p>Der genaue Aufbau der Datenstrukturen wird auf der CATMA Webseite dokumentiert (Petris 2020): Jedes Dokument, jede Annotation Collection einschließlich der Annotationen, sowie jedes Tagset einschließlich der zugehörigen Tags werden im Backend einzeln repräsentiert. Besonders wichtig für die Weiterverarbeitung der Annotationsdaten sind die Informationen, mit denen die einzelnen Annotationen repräsentiert werden:</p>
+            <list type="unordered">
+                <item>eine Referenz auf das entsprechende Dokument</item>
+                <item>die genaue Platzierung der annotierten Textspanne (als sogenannte Start und End-Offsets, welche sich auf die Zeichen-Positionen im Dokument beziehen)</item>
+                <item>eine Referenz auf das verwendete Tag (die Annotationskategorie) und das Tagset (eine benannte Kollektion von Tags) aus dem es stammt</item>
+                <item>eventuell Properties (vordefinierte erweiternde Eigenschaften) und deren Werte</item>
+                <item>Autor:in der Annotation</item>
+                <item>Zeitpunkt der Annotation</item>
+            </list>
+            <p>Die Nutzer:innen können sowohl auf eigene als auch auf mit ihnen geteilte Daten in Form von Git Repositorien zugreifen. Diese stellen damit eine Art Programmierschnittstelle (API) zum Abruf von CATMA-Annotationen dar, welche auf den lokalen Rechner heruntergeladen oder in anderen Tools weiterverarbeitet werden können.</p>
+            <p>Im Fachbereich für Digital Philology an der TU Darmstadt ist außerdem eine <ref target="https://github.com/michaelvauth/catma_gitlab">Python-Bibliothek</ref> entstanden, die einen einfachen Zugriff auf die Git Repositorien zulässt. Sie ermöglicht die Weiterverarbeitung der Annotationen mit gängigen Python Datascience-Tools, zum Beispiel als <ref target="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html">Pandas DataFrame</ref>. Mit der Python-Bibliothek lassen sich unter anderem Berechnungen des Inter Annotator Agreement oder Visualisierungen zum Annotationsfortschritt und zur Annotationsexploration erstellen. Damit ermöglichen wir nicht nur die Annotationsauswertung, sondern auch die schnelle Identifizierung von Annotationsfehlern, die unmittelbar korrigiert werden können.
+            </p>
+            <p>Insgesamt ist das zentrale Anliegen des Git Access, CATMA-Daten direkt verfügbar zu machen, damit Nutzer:innen nicht unbedingt an die schon in CATMA vorhandenen Funktionalitäten gebunden sind. Dadurch kann der Workflow zwischen Annotation, Annotationsauswertung und Annotationsüberarbeitung deutlich schneller werden. Das ist besonders für Nutzer:innen relevant, die sich – unter anderem im Rahmen von Forschungsprojekten – um die Organisation und Evaluierung von Annotationen kümmern.</p>
+            <p>Mit unserem Poster werden wir diesen Workflow detailliert darstellen. Das Poster soll also auch als eine Art Bedienungsanleitung für die Nutzung des CATMA Git Access fungieren und Best Practices zeigen. Dabei werden wir folgende Schritte abdecken:</p>
+            <list type="ordered">
+                <item>Voraussetzungen für den Zugriff auf die CATMA GitLab API</item>
+                <item>Installation der CATMA Python Pakete (bzw. eines Docker Image, welches alle Erfordernisse abdeckt)</item>
+                <item>Clonen der Repositories</item>
+                <item>Zugriff auf die Daten mit Python</item>
+                <item>Beispiele für die Annotationsexploration und -auswertung</item>
+            </list>
+            <p><ref target="#ftn1|region">[1]</ref> CATMA erscheint zum Beispiel im <ref target="http://tapor.ca/tools/1469">TAPoR Toolverzeichnis</ref>, sowie in „Digitale Werkzeuge zur textbasierten Annotation, Korpusanalyse und Netzwerkanalyse in den Geisteswissenschaften“ (Frey-Endres &amp; Simon 2021).
+            </p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Frey-Endres, Marcel / Simon, Tobias</hi> (2021): „Digitale Werkzeuge zur textbasierten Annotation, Korpusanalyse und Netzwerkanalyse in den Geisteswissenschaften“. In: 
+                        <hi rend="italic">Digital Philology | Working Papers in Digital Philology 02|2021</hi>. Darmstadt: TUPrints. URL: 
+                        <ptr target="https://tuprints.ulb.tu-darmstadt.de/17850/1/Digital_Philology__Working_Papers_in_Digital_Philology_vol002.pdf"/> [letzter Zugriff 24. November 2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Gius, Evelyn / Meister, Jan Christoph / Meister, Malte / Petris, Marco / Bruck, Christian / Jacke, Janina / Schumacher, Mareike / Gerstorfer, Dominik / Flüh, Marie / Horstmann, Jan</hi> (2021): CATMA 6 (Version 6.3). Zenodo. DOI: 
+                        <ref target="https://doi.org/10.5281/zenodo.1470118">10.5281/zenodo.1470118</ref>. URL: 
+                        <ptr target="https://catma.de/"/> [letzter Zugriff 24. November 2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Petris, Marco</hi> (2017): „TEI Export Format“. In: 
+                        <hi rend="italic">CATMA</hi>. URL: 
+                        <ptr target="https://catma.de/documentation/tei-export-format/"/> [letzer Zugriff 6. Juli 2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Petris, Marco</hi> (2020): „Git Access“. In: 
+                        <hi rend="italic">CATMA</hi>. URL: 
+                        <ptr target="https://catma.de/documentation/git-access/"/> [letzter Zugriff 6. Juli 2021].
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Petris, Marco / Meister, Malte</hi> (2016): „Technology and Versions“. In: 
+                        <hi rend="italic">CATMA</hi>. URL: 
+                        <ptr target="https://catma.de/documentation/technology-and-versions/"/> [letzter Zugriff 6. Juli 2021].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

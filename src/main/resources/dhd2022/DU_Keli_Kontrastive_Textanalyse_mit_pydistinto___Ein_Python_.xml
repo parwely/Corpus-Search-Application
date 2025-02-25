@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_181">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Kontrastive Textanalyse mit pydistinto</title>
+                <title type="sub">Ein Python-Paket zur Nutzung unterschiedlicher Distinktivitätsmaße</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Du</surname>
+                        <forename>Keli</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>duk@uni-trier.de</email>
+                <idno type="ORCID">0000-0001-7800-0682</idno></author>
+                <author>
+                    <persName>
+                        <surname>Dudar</surname>
+                        <forename>Julia</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>dudar@uni-trier.de</email>
+                <idno type="ORCID">0000-0001-5545-9562</idno></author>
+                <author>
+                    <persName>
+                        <surname>Rok</surname>
+                        <forename>Cora</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>rok@uni-trier.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schöch</surname>
+                        <forename>Christof</forename>
+                    </persName>
+                    <affiliation>Universität Trier, Germany</affiliation>
+                    <email>schoech@uni-trier.de</email>
+                <idno type="ORCID">0000-0002-4557-2753</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Computational Literary Studies</term>
+                    <term>Distinktivitätsmaße</term>
+                    <term>Python-Implementierung</term>
+                    <term>pydistinto</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Programmierung</term>
+                    <term>Stilistische Analyse</term>
+                    <term>Methoden</term>
+                    <term>Software</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">181</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi style="font-size:12pt" xml:space="preserve">Viele Wissenschaftsbereiche, die sich mit der quantitativen Textanalyse beschäftigen, wie die Korpuslinguistik oder die Computational Literary Studies (CLS) setzen verschiedene statistische Distinktivitätsmaße ein, um Elemente (z.B. Wortformen oder Wortarten) zu bestimmen, die charakteristisch für eine Textgruppe im Vergleich mit einer anderen Textgruppe sind. Tools wie z.B. </hi>
+                <hi rend="italic" style="font-size:12pt">WordSmith</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> (Scott 2020) oder </hi>
+                <hi rend="italic" style="font-size:12pt">AntConc</hi>
+                <hi style="font-size:12pt" xml:space="preserve"> (Anthony 2005), die solche Analysen ermöglichen, sind weit verbreitet, haben jedoch einige Nachteile: Die meisten bieten nur häufigkeitsbasierte Maße (z.B. Log-Likelihood-Ratio Test oder Chi-Squared Test) an, die in vielen Fällen Ergebnisse produzieren, die für die kontrastive (explorative) Textanalyse nicht hilfreich sind (siehe u.a. Baker 2004 und Johnson and Ensslin 2006). Dispersionsmaße wie z.B. DP (Gries 2008) oder dispersionsbasierte Distinktivitätsmaße wie z.B. Zeta (Burrows 2007), die besser interpretierbaren Ergebnisse liefern (siehe Gries 2021; Schöch 2018), werden dagegen nicht implementiert. Eine Ausnahme bildet </hi>
+                <hi rend="italic" style="font-size:12pt">stylo</hi>
+                <hi style="font-size:12pt">, das Zeta implementiert (Eder et al. 2016). Ein weiterer Nachteil ist, dass bei den meisten Tools nur ein oder zwei Maße für die Analyse ausgewählt werden können, was einen Vergleich der unterschiedlichen Maße erschwert. Gerade wenn Nutzende ihre Analysen anpassen und eigene Parametereinstellungen vornehmen oder verschiedene Datenformate nutzen wollen, erweisen sich die meisten Tools als ungeeignet.</hi>
+                <hi rend="" style="font-size:10.5pt"> </hi>
+            </p>
+            <p>
+                <hi style="font-size:12pt" xml:space="preserve">Um den Einsatz relevanter Maße für die kontrastive Textanalyse zu erleichtern und das Bewusstsein für die Vielfalt der Maße zu schärfen, entwickeln wir im Rahmen des Projekts „Zeta and Company“ ein Python-Paket mit dem Namen </hi>
+                <hi rend="italic" style="font-size:12pt">pydistinto</hi>
+                <hi style="font-size:12pt">.</hi><ref target="ftn1" n="1"/>
+                <hi style="font-size:12pt" xml:space="preserve"> Ziel unseres Projekts ist es, zu einem tieferen Verständnis der verschiedenen Distinktivitätsmaße zu gelangen und Verbesserungen für deren Implementierung und Anwendung vorzuschlagen. Mithilfe von </hi>
+                <hi rend="italic" style="font-size:12pt">pydistinto</hi>
+                <hi style="font-size:12pt">können zwei Textkorpora mit unterschiedlichen Maßen verglichen werden.</hi>
+            </p>
+            <p>
+                <hi style="font-size:12pt" xml:space="preserve">Hierfür haben wir zunächst ein konzeptionelles Framework erstellt, auf dessen Basis die Maße in </hi>
+                <hi rend="italic" style="font-size:12pt">pydistinto</hi>
+                <hi style="font-size:12pt">implementiert werden (Du et al. 2021a). Das Framework definiert die Bereiche Preprocessing, Berechnung von Häufigkeiten, Korpusaufteilung sowie der eigentlichen Berechnung der Distinktivitätswerte, Visualisierung sowie quantitative und qualitative Evaluation der Ergebnisse. </hi>
+            </p>
+            <p>
+                <hi style="font-size:12pt">In der Implementierung umfasst das Preprocessing die Tokenisierung, Lemmatisierung und das POS-Tagging der Texte. Danach werden die Texte je nach Parameter entweder segmentiert (dies wird bei der Berechnung von dispersionsbasierten Maßen empfohlen) oder als ganze Dokumente belassen. Die (absoluten, binären, relativen usw.) Worthäufigkeiten in den Segmenten bzw. Dokumenten werden in einer Matrix zusammengefasst. Als Nächstes werden die Segmente bzw. Dokumente in zwei Gruppen, ein Ziel- und ein Vergleichskorpus, aufgeteilt. Anschließend werden die Distinktivitätswerte auf Basis der Worthäufigkeits-Matrizen berechnet und die distinktiven Wörter für das Zielkorpus visualisiert. Die Implementierung des Moduls zur quantitativen Evaluation steht noch aus. Geplant ist hier, die statistischen Eigenschaften der Wortlisten zu analysieren und die Korrelation verschiedener Maße zu untersuchen (siehe, für Zwischenergebnisse, Du et al. 2021c). Bei der qualitativen Evaluation werden die ausgegebenen Wörter manuell interpretiert und ihre Relevanz für das Zielkorpus wird beurteilt. </hi>
+            </p>
+            <p>
+                <hi style="font-size:12pt">Das Python-Paket wird auf Github veröffentlicht und steht somit zur freien Nutzung, eigenen Anpassung und weiteren Entwicklung zur Verfügung (Du et al. 2021b). Im pydistinto sind derzeit folgende Distinktivitätsmaße implementiert: Zeta, Ratio of Relative Frequencies, Gris’ Deviation of Proportions based measure (Eta, siehe Du et al. 2021c), Welch's T-test, Wilcoxon Rank-sum Test, Kullback-Leibler Divergence, Chi-Squared Test, Log-Likelihood-Ratio</hi>
+                <hi rend="" style="font-size:12pt" xml:space="preserve"> Test, TF-IDF. </hi>
+                <hi style="font-size:12pt">Ein besonderer Vorteil des Pakets ist, dass es in einem Beginner-Modus und einem Profi-Modus genutzt werden kann. Im Beginner-Modus können auch weniger erfahrene Nutzende mit geringen Programmier- und Statistikkenntnissen Textkorpora vergleichen. Ziel- und Vergleichskorpus müssen hierfür lediglich als ‘plain text’ vorbereitet und einige Parameter wie z. B. Segmentlänge, Feature-Typen oder Anzahl der Top-Features eingestellt werden. Die Analyse wird dann automatisch durchgeführt und eine Visualisierung angeboten. Wer sich für die statistischen Eigenschaften der unterschiedlichen Maße interessiert und diese vergleichen möchte, kann den Profi-Modus verwenden. Die Nutzenden können dann selbst darüber bestimmen, welche Maße und statistischen Eigenschaften der Features (z.B. absolute Häufigkeit, relative Häufigkeit, Dispersion) für die Berechnung der Distinktivität kombiniert werden sollen. Es gibt in diesem Modus außerdem zusätzliche Möglichkeiten, die Daten zu visualisieren: so kann die Abhängigkeitsstruktur zweier statistischer Merkmale (z.B. Zeta-Wert und absolute Häufigkeiten der Features) auch durch ein Streudiagramm dargestellt werden.</hi>
+            </p>
+            <p>
+                <hi style="font-size:12pt">Durch die Entwicklung des Pakets möchten wir auf der einen Seite eine reflektierte Nutzung statistischer Distinktivitätsmaße für die kontrastive Textanalyse erleichtern. Auf der anderen Seite soll das Paket ermöglichen, die Eigenschaften und Leistungsfähigkeit der Maße empirisch zu ermitteln und systematisch zu vergleichen.</hi>
+            </p>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> Das Projekt gehört zum DFG-geförderten Schwerpunktprogramm “Computational Literary Studies” (SPP 2207) und läuft von 2020-2023. Weitere Informationen unter 
+                        <ref target="https://zeta-project.eu/de/">https://zeta-project.eu/de/</ref>.
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold">Baker, Paul</hi> (2004): "Querying keywords: questions in difference, frequency, and sense in keyword analysis", in: 
+                        <hi rend="italic">Journal of English Linguistics</hi> 32 (4), pp. 346–59
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold">Du, Keli / Dudar, Julia / Rok, Cora / Schöch, Christof</hi>
+                        <hi rend="" xml:space="preserve"> (2021a): Implementation framework of measures of distinctiveness. Zenodo. </hi>
+                        <ref target="http://doi.org/10.5281/zenodo.5092328">http://doi.org/10.5281/zenodo.5092328</ref>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold">Du, Keli / Dudar, Julia / Schöch, Christof</hi>
+                        <hi rend="" xml:space="preserve"> (2021b): pydistinto. Version 0.1.0. Verfügbar unter: </hi>
+                        <ref target="https://github.com/Zeta-and-Company/pydistinto">https://github.com/Zeta-and-Company/pydistinto</ref>
+                        <hi rend="" xml:space="preserve">. DOI: </hi>
+                        <ref target="https://doi.org/10.5281/zenodo.5094346">
+                            <hi rend="">https://doi.org/10.5281/zenodo.5094346</hi>
+                        </ref>
+                        <hi rend="">.</hi>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold">Du, Keli / Dudar, Julia / Rok, Cora / Schöch, Christof</hi>
+                        <hi rend="" xml:space="preserve"> (2021c):</hi> "
+                        <hi rend="">Zeta &amp; Eta: An Exploration and Evaluation of Two Dispersion-based Measures of Distinctiveness</hi>", in: 
+                        <hi rend="italic">CHR 2021: Computational Humanities Research Conference</hi>
+                        <hi rend="" xml:space="preserve">, November 17–19, 2021, Amsterdam, The Netherlands, </hi>
+                        <ref target="https://2021.computational-humanities-research.org/conference/">
+                            <hi rend="">https://2021.computational-humanities-research.org/conference/</hi>
+                        </ref>
+                        <hi rend=""> </hi>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold">Eder, Maciej / Rybicki, Jan / Kestemont, Mike</hi>
+                        <hi rend="" xml:space="preserve"> (2016):</hi> "
+                        <hi rend="">Stylometry with R: a package for computational text analysis</hi>", in: 
+                        <hi rend="italic">R Journal</hi>
+                        <hi rend="" xml:space="preserve">, 8(1): 107-21. </hi>
+                        <ref target="https://journal.r-project.org/archive/2016/RJ-2016-007/index.html">
+                            <hi rend="">https://journal.r-project.org/archive/2016/RJ-2016-007/index.htm</hi>
+                        </ref>
+                        <hi rend="">l </hi>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold">Gries, Stephan</hi> (2008): "Dispersions and adjusted frequencies in corpora", in: 
+                        <hi rend="italic">International Journal of Corpus Linguistics, Volume</hi> 13(4): 403–437. DOI: 
+                        <ref target="https://doi.org/10.1075/ijcl.13.4.02gri">
+                            <hi rend="">https://doi.org/10.1075/ijcl.13.4.02gri</hi>
+                        </ref>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold">Gries, Stephan</hi> (2021): "A New Approach to (Key) Keywords Analysis: Using Frequency, and Now Also Dispersion", in: 
+                        <hi rend="italic">Research in Corpus Linguistics</hi>, 9, 1–33. DOI: 
+                        <ref target="https://doi.org/10.32714/ricl.09.02.02">
+                            <hi rend="">https://doi.org/10.32714/ricl.09.02.02</hi>
+                        </ref>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold">Johnson, Sally / Ensslin, Astrid</hi> (2006): "Language in the news: some reflections on keyword analysis using WordSmith Tools and the BNC", in: 
+                        <hi rend="italic">Leeds Working Papers in Linguistics and Phonetics</hi> 11, pp. 96–109. 
+                        <ref target="https://www.latl.leeds.ac.uk/wp-content/uploads/sites/49/2019/05/Johnson-Ensslin_2006.pdf">
+                            <hi rend="">https://www.latl.leeds.ac.uk/wp-content/uploads/sites/49/2019/05/Johnson-Ensslin_2006.pdf</hi>
+                        </ref> 
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold">Laurence, Anthony</hi>
+                        <hi rend="" xml:space="preserve"> (2005):</hi> "
+                        <hi rend="">AntConc: A learner and classroom friendly, multi-platform corpus analysis toolkit</hi>", in: 
+                        <hi rend="italic">Proceedings of IWLeL 2004: An Interactive Workshop on Language e-Learning</hi>
+                        <hi rend="">. 7–13.</hi>
+                    </bibl>
+                    <bibl style="text-align: justify;">
+                        <hi rend="bold">Schöch, Christof</hi>
+                        <hi rend="" xml:space="preserve"> (2018):</hi> "
+                        <hi rend="">Zeta für die kontrastive Analyse literarischer Texte. Theorie, Implementierung, Fallstudie</hi>",
+                        <hi rend="" xml:space="preserve"> in: Bernhart, T., et al. (eds.), Quantitative Ansätze in der Literatur- und Geisteswissenschaften. Berlin: de Gruyter, 77</hi>–
+                        <hi rend="" xml:space="preserve">94. </hi>
+                        <ref target="https://www.degruyter.com/viewbooktoc/product/479792">
+                            <hi rend="">https://www.degruyter.com/viewbooktoc/product/479792</hi>
+                        </ref>
+                        <hi rend="">.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Scott, Mike</hi>
+                        <hi rend="" xml:space="preserve"> (2020): WordSmith Tools, Version 8, Stroud: Lexical Analysis Software.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

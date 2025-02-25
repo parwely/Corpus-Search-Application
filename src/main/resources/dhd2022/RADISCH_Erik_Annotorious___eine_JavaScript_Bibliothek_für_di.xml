@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_159">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Annotorious</title>
+                    <title type="sub">Eine JavaScript-Bibliothek für die Entwicklung maßgeschneiderter Bildannotationstools</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Rainer</surname>
+                        <forename>Simon</forename>
+                    </persName>
+                    <affiliation>Austrian Institute of Technology in Wien, Österreich</affiliation>
+                    <email>Rainer.Simon@ait.ac.at</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Radisch</surname>
+                        <forename>Erik</forename>
+                    </persName>
+                    <affiliation>Sächsische Akademie der Wissenschaften zu Leipzig, Deutschland</affiliation>
+                    <email>e.radisch@gmx.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-14T13:09:47.174089107</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Annotation</term>
+                    <term>Bildannotation</term>
+                    <term>Visuelle Medien</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Programmierung</term>
+                    <term>Annotieren</term>
+                    <term>Webentwicklung</term>
+                    <term>Bilder</term>
+                    <term>Metadaten</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">159</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <anchor xml:id="id_docs-internal-guid-e68c47f8-7fff-5bb7-5073-6d727bf72009"/>
+                <hi rend="">Dieser Workshop richtet sich an Software-Entwickler im Digital Humanities-Bereich, die für die Konzeption und Umsetzung von Software-Tools, Forschungsinfrastrukturen und User Interfaces verantwortlich sind, bzw. in deren Arbeitsbereich der Umgang mit visuellen Medien fällt. Der Workshop behandelt speziell das Thema der </hi>
+                <hi rend="bold">digitalen Bildannotation</hi>
+                <hi rend="">, und zeigt, wie mit Hilfe der open source JavaScript-Bibliothek </hi><ref target="https://recogito.github.io/annotorious/">
+                    <hi rend="underline">Annotorious</hi>
+                </ref>
+                <hi rend=""> </hi>
+                <hi rend="">mit geringem Aufwand maßgeschneiderte, an Projektbedürfnisse angepasste Bildannotations-Interfaces entwickelt werden können. Der Workshop geht dabei auch auf typische Use Cases ein, wie z.B. die semantische Annotation mit kontrollierten Vokabularen oder die Annotation zum Zweck des “ground truth building” für machine learning-Anwendungen. In praktischen Übungen vermittelt der Workshop die Grundlagen der Verwendung der Bibliothek, sowie die Möglichkeiten zur Integration in bestehende Infrastrukturen und der Anpassung und Erweiterung über die umfangreiche Programmierschnittstelle und das Plugin-Ökosystem.</hi>
+            </p>
+            <div type="div1" rend="DH-Heading">
+                <head>Bildannotation in den Geisteswissenschaften</head>
+                <p>Als einer der sieben “scholarly primitives” (Unsworth 2000) kommt der Annotation in der geisteswissenschaftlichen Forschungspraxis eine wichtige Bedeutung zu. Die Idee, Dokumente mit Notizen oder Marginalien zu versehen, reicht mindestens bis zu den Manuskripten des Mittelalters zurück. Aber vor allem im digitalen Kontext eröffnet die Praxis der Annotation Wissenschaftlern neue Möglichkeiten, um Wissen und Forschungsergebnisse zu organisieren, zu teilen, sich kollaborativ mit anderen Forschern auszutauschen, und gemeinsam an der Analyse und Interpretation von Quellmaterial zu arbeiten (Barker und Terras 2016). Annotationen können dabei vielfältige Formen annehmen. Sie erweitern den Kontext, indem sie ein Quelldokument mit Zusatzinformationen anreichern, z.B. über Provenienz, Aufbau oder Autorenschaft; sie tragen zur Verbesserung der Auffindbarkeit in digitalen Sammlungen bei, insbesondere für Laien, die nicht oder wenig mit domänenspezifischer Terminologie vertraut sind (Hunter et al. 2008); sie machen die Struktur eines Dokuments transparent und explizit, und unterstützen damit bei der Analyse; oder sie liefern zusätzliche Details über bestimmte Aspekte, die bei Interpretation und Verständnis helfen können (Haslhofer et al. 2009).</p>
+                <p>Besonders in geisteswissenschaftlichen Projekten variieren die Anforderungen an Annotationswerkzeuge für digitale Inhalten sehr stark. Das betrifft nicht nur Fragen der grundlegenden Benutzerinteraktion und Usability, sondern vor allem die fachlichen und technischen Aspekte: zum Beispiel die Einbindung projektspezifischer Taxonomien und Eingabe-Schemata; die Anpassung von User Interface-Elementen an bestehende Arbeitsabläufe oder Kuratierungspraktiken; die Integration in bestimmte existierende Systeme wie ein spezifisches Sammlungs- oder Content-Management-System; oder die Anbindung an verschiedene Datenbank-Backends. Diese Heterogenität, und die oft sehr spezifischen Probleme geisteswissenschaftlicher Projekte führen in vielen Fällen dazu, dass überlegt wird, maßgeschneiderte Annotationswerkzeuge von Grund auf selbst zu entwickeln - was allerdings wiederum zeit- und ressourcenintensiv ist.</p>
+                <p>Genau für dieses Problem bietet Annotorious eine Lösung an. Einerseits bietet es vorgefertigte Basis-Komponenten, mit deren Hilfe mit geringem Aufwand ein umfangreiches Bild-Annotationstool in die eigene Forschungsumgebung eingebunden werden kann. Andererseits bietet es dabei aber viele Möglichkeiten, den Annotationsprozess individuell zu gestalten, und maßgeschneidert an die Bedürfnisse des jeweiligen Projektes anzupassen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Über Annotorious</head>
+                <p>Annotorious ist eine JavaScript-Bibliothek mit deren Hilfe Bildannotationsfunktion einfach in eine bestehende Webseite oder eine Browser-basierte Webapplikationen eingebunden werden kann. Annotorious ist dabei bewusst keine off-the-shelf"-Lösung. Es Bedarf der Erstellung einer eigenen Lösung, um Annotorious zu nutzen. Das mag im ersten Augenblick abschrecken. Allerdings lässt sich eine Basisvariante schon mit wenigen Codezeilen ein Standardszenario umsetzen, in welchem eine Annotationsebene an bestehende Bilder “angeheftet” wird. Je nachdem, welche Bedürfnisse die jeweilige Fragestellung mit sich bringt, stehen Benutzern verschiedene Zeichenwerkzeuge zur Verfügung (Rechteck, Polygon, Freihandzeichnen etc.). In einem weiteren Schritt mit den gezeichneten Markierungen verschiedene Zusatzinformationen verknüpft werden, z.B. Kommentare oder Tags (siehe Abbildung 1, 2 und 3). Hier liegt die wirkliche Stärke des Annotationstools. Sowohl die Zeichenwerkzeuge als auch der integrierte Annotations-Editor sind dabei erweiterbar. Sie lassen sich nach Bedarf um projektspezifische Elemente, wie zum Beispiel Eingabefelder für strukturierte Daten, ergänzen. Das Tool ist dadurch mit sehr wenigen Codezeilen hochgradig individualisierbar und je nach Nutzungsszenario erweiterbar, was es perfekt für geisteswissenschafltiche Problemstellungen macht.</p>
+                <p>
+                    <hi rend="">Annotorious läuft ausschließlich im Browser, und hat keine server-seitigen Abhängigkeiten. Über die umfangreiche Programmierschnittstelle (API) lässt es sich nahtlos in bestehende Umgebungen integrieren, und an verschiedene graphische Anforderungen (visuelles Erscheinungsbild, Branding etc.) anpassen. Als Bildformate unterstützt Annotorious nicht nur die gängigen browser-kompatiblen Dateitypen (JPEG, PNG), sondern auch eine Reihe von Formaten für hochauflösende zoombare Bilder, wie insbesondere IIIF, Zoomify oder DeepZoom. Diese werden über den in den Geisteswissenschaften weit verbreiteten Image Viewer OpenSeadragon</hi>
+                    <hi rend=""><ref target="ftn1" n="1"/>
+                    </hi>
+                    <hi rend="">untersützt, der ebenfalls sehr einfach in bestehende Systeme integriert werden kann, und für den Annotorious als Plugin-Variante zur Verfügung steht. Um Annotationsdaten in einem möglichst interoperablen und zukunftssicheren Format zu halten, setzt Annotorious als Speicherformat das vom World Wide Web Consortium standardisierte </hi><ref target="https://www.w3.org/TR/annotation-model/">
+                        <hi rend="underline">W3C Web Annotation Data Model</hi>
+                    </ref>
+                    <hi rend=""> </hi>
+                    <hi rend="">ein.</hi>
+                </p>
+                <p>
+                    <hi rend="">Die Entwicklung von Annotorious wurde unter anderem durch </hi><ref target="https://pelagios.org/">
+                        <hi rend="underline">Pelagios</hi>
+                    </ref>
+                    <hi rend=""> </hi>
+                    <hi rend="">ermöglicht, einer internationalen Digital Humanities Initiative die sich insbesondere mit dem Thema der semantischen Annotation von räumlich-/geographischen Bezügen in Texten und Bildern beschäftigt. Die weitere Entwicklung läuft inzwischen aber unabhängig als selbstständiges Community-Projekt weiter, das die Bibliothek unter der BSD-3-Clause open source Lizenz zur uneingeschränkten Verwendung zur Verfügung stellt. Die Entwickler-Gemeinde wird dabei durch eine </hi><ref target="https://annotorious.com/">
+                        <hi rend="underline">Projektwebseite mit umfassender Dokumentation</hi>
+                    </ref>
+                    <hi rend="">, sowie einen aktiven </hi><ref target="https://gitter.im/recogito/annotorious">
+                        <hi rend="underline">Support Chat-Kanal</hi>
+                    </ref>
+                    <hi rend=""> </hi>
+                    <hi rend="">tatkräftig unterstützt. Aktuelle Nutzer von Annotorious im geisteswissenschaftlichen Kontext, bzw. im Bibliotheksbereich sind z.B. das Metropolitan New York Library Council</hi>
+                    <hi rend=""><ref target="ftn3" n="2"/>
+                    </hi>
+                    <hi rend="">, die britische Crowdsourcing-Plattform MicroPasts</hi>
+                    <hi rend=""><ref target="ftn0" n="3"/>
+                    </hi>
+                    <hi rend="">, oder das Projekt “Wissenschaftliche Bearbeitung der buddhistischen Höhlenmalereien in der Ku<hi rend="math">č</hi>a-Region der nördlichen Seidenstraße” der Sächsischen Akademie der Wissenschaften.</hi>
+                    <hi rend=""><ref target="ftn2" n="4"/>
+                    </hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Lernziel</head>
+                <p>Ziel des Workshops ist es, den Teilnehmern umfassenden Einblick in den Funktionsumfang und in die Einsatzmöglichkeiten von Annotorious zu geben, und sie in die Lage zu versetzen, selbstständig Annotationsumgebungen zu erstellen, sie gemäß den eigenen Forschungsbedürfnissen individuell anzupassen, und über Plugins zu erweitern. Im Rahmen von praktischen Übungen werden die Teilnehmer dazu Basisszenarios auf dem eigenen Notebook entwickeln und Grundkomponenten (visuelles Erscheinungsbild, Annotations-Editor) anpassen. Weiters werden fortgeschrittene Themen angesprochen und die nötigen Konzepte vermittelt, die die Teilnehmer benötigen um auch komplexere Erweiterungen und eigene Plugins für Annotorious selbst zu schreiben. </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Voraussetzungen</head>
+                <p>
+                    <hi rend="">Die Teilnehmer benötigen ein eigenes Notebook um an den praktischen Übungen teilzunehmen, sowie grundlegende Kenntnisse der Web-Entwicklung (HTML, CSS, JavaScript). Fortgeschrittene Erfahrung mit JavaScript, bzw. die Installation erweiterter JavaScript Entwicklerwerkzeuge (node, npm) ist </hi>
+                    <hi rend="bold">nicht zwingend erforderlich </hi>
+                    <hi rend="">aber, vor allem hinsichtlich der fortgeschrittenen Themen (Entwicklung eigener Erweiterungen) von Vorteil. Die Teilnehmerzahl ist auf 15 Personen beschränkt. Ein separater Call for Papers ist nicht nötig.</hi>
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Workshop Ablauf</head>
+                <p>Der Workshop wird einen halben Tag in Anspruch nehmen, und gliedert sich in 3 Teile (jeweils ca. 45min-1h30min), gefolgt von einem allgemeinen Frage &amp; Antwort-Teil.</p>
+                <p>Im ersten Teil wird gemeinsam ein Basis-Setup von Annotorius in einer eigenen Webseite erstellt. Hierbei wird auf grundlegende Fragen wie Annotationsmodi (Zeichenwerkzeuge, headless mode, Annotorious standard vs. OpenSeadragon), Backend-Anbindung und Integration von bestehendem Benutzermanagement eingegangen. Die wichtigsten Funktionen und Konzepte der Programmierschnittstelle werden besprochen; und es wird anhand von zwei unterschiedlichen Beispielen gezeigt, wie Datenspeicher für Annotorious realisiert und angebunden werden können.</p>
+                <p>
+                    <hi rend="">Im zweiten Teil werden bereits existierende Erweiterungen vorgestellt. Es wird in das Plugin-Ökosystem eingeführt, und gezeigt wie typische Use Cases (z.B. die Integration einer visuell an die eigenen Bedürfnisse angepassten Zeichenwerkzeugleiste, oder der Umgang mit mehrseitigen Bilddokumenten) mit existierenden Plugins stark vereinfacht werden können. Es wird näher auf das von Annotorious verwendete Datenformat, das </hi><ref target="https://www.w3.org/TR/annotation-model/">
+                        <hi rend="underline">W3C Web Annotation Data Model</hi>
+                    </ref>
+                    <hi rend=""> </hi>
+                    <hi rend="">eingegangen, und der Zusammenhang zwischen Datenmodell und Editor-Komponenten besprochen. Es wird gezeigt Annotationsdaten sinnvoll in andere gängige Formate konvertiert werden können. Der Fokus liegt dabei insbesondere auf Formaten die relevant für die Annotation von Landkarten sind (GeoJSON oder WKT), bzw. Auf Formaten für die Verwendung von Annotationen  als Trainingsdaten für Neuronale Netze (Coco-Dataset-Format).</hi>
+                </p>
+                <p>Im letzten Teil wird eine kurze Einführung in die internen Plugin Schnittstellen von Annotorious gegeben, die die Entwicklung eigener Erweiterungen - z.B. neuer Zeichenwerkzeuge oder von Zusatzkomponenten für den Annotations-Editor - ermöglichen. Der Workshop schließt mit einem Überblick zu fortführendem Material, das den Teilnehmern das Selbststudium von fortgeschrittenen Themen ermöglicht, sowie einer allgemeinen abschließenden Frage-und-Antwort- bzw. Diskussionsmöglichkeit.</p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Benötigte technische Ausstattung</head>
+                <p>Es wird ein Beamer und ein Flipchart benötigt.</p>
+            </div>
+            <div type="div1" rend="DH-Heading">
+                <head>Beitragende</head>
+                <p>Dr. Rainer Simon ist Senior Research Software Engineer in der Forschungsgruppe Data Science &amp; Artificial Intelligence am Austrian Institute of Technology in Wien, wo er sich vorwiegend mit der Entwicklung von digitalen Tools und Plattformen zur Unterstützung geisteswissenschaftlicher Forschung beschäftigt. Er arbeitet seit mehr als 15 Jahren im Bereich der Digital Humanities, und hat während dieser Zeit mit einer Vielzahl von Partner aus dem akademischen und dem GLAM (Galleries, Libraries, Archives, Museums) Bereich zusammengearbeitet. Er ist der Urheber und Haupt-Betreuuer des Annotorious Open Source Projektes.</p>
+                <p>Dr. Erik Radisch ist wissenschaftlicher Mitarbeiter der Sächsischen Akademie der Wissenschaften zu Leipzig, wo er augenblicklich vor allem im Projekt “Wissenschaftliche Bearbeitung der buddhistischen Höhlenmalereien in der Ku<hi rend="math">č</hi>a-Region der nördlichen Seidenstraße” involviert ist. Hier integrierte er ebenfalls Annotorious in die Projektseite und erweiterte die Annotationsmöglichkeiten um die Erfassung von Multipolygonen. Bereits vor seiner Arbeit an der sächsischen Akademie der Wissenschaften beschäftigte er sich intensiv mit wissenschaftlichen Methoden der Bildanalyse im Bereich der Digital Humanities.</p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/495be0d5a77d3d0a2216cfb3c5f2388a.png"/>
+                        <head>Abb. 1: Beispiel für eine Polygonannotation mit einem Annotationseditor, der eine Taxonomie in Baumstruktur integriert hat.</head>
+                    </figure>
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/722599dc284c825019366799811f337d.png"/>
+                        <head>Abb. 2: Der Annotationseditor ermöglicht es, verschiedene Informationen mit der Bildannotation zu verknüpfen.</head>
+                    </figure>
+                </p>
+                <p>
+                    <figure>
+                        <graphic url="Pictures/5e84bc32a6d1d8fc5c5950e1554c4066.jpg"/>
+                        <head>Abb. 3: Beispiel der Standardannotation mit Rechtecken.</head>
+                    </figure>
+                </p>
+            </div>
+        </body>
+        <back><div type="notes"><note xml:id="ftn1" place="foot" n="1"><ptr target="https://openseadragon.github.io/examples/in-the-wild/"/> (zuletzt geprüft: 30.11.2021)
+                        </note><note xml:id="ftn3" place="foot" n="2"><ptr target="https://github.com/esmero/archipelago-deployment"/>; 
+                            <ptr target="https://metro.org/"/> (zuletzt geprüft: 30.11.2021)
+                        </note><note xml:id="ftn0" place="foot" n="3"><ptr target="https://crowdsourced.micropasts.org/"/> (zuletzt geprüft: 30.11.2021)
+                        </note><note xml:id="ftn2" place="foot" n="4"><ptr target="https://kucha.saw-leipzig.de/"/> (zuletzt geprüft: 30.11.2021)
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <anchor xml:id="id_docs-internal-guid-145ab027-7fff-572b-9123-93197e9053b4"/>
+                        <hi rend="bold">Barker, E. / Terras, M.</hi>
+                        <hi rend=""> (2016) Greek literature, the digital humanities, and shifting technologies of reading. Oxford Handbooks Online, Oxford. DOI: 10.1093/oxfordhb/9780199935390.013.45.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Haslhofer, B./ Jochum, W./ King, R./ Sadilek, C./ Schellner, K.</hi>
+                        <hi rend=""> (2009) The LEMO Annotation Framework: Weaving Multimedia Annotations with the Web. In: </hi>
+                        <hi rend="italic">International Journal on Digital Libraries, 10(1)</hi>
+                        <hi rend="">: 15-32.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hunter, J./ Khan, I./ Gerber, A. </hi>
+                        <hi rend="">(2008) HarvANA – Harvesting Community Tags to Enrich Collection Metadata. </hi>
+                        <hi rend="">In:</hi>
+                        <hi rend=""> </hi>
+                        <hi rend="italic">Proceedings of the 8th ACM/IEEE-CS Joint Conference on Digital Libraries</hi>
+                        <hi rend=""> (JCDL 2008), Pittsburgh, Pennsylvania, United States, June 16–20, 2008: 147–156.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Unsworth, J.</hi>
+                        <hi rend=""> (2000) Scholarly Primitives: what methods do humanities researchers have in common, and how might our tools reflect this? In: </hi>
+                        <hi rend="italic">Humanities Computing: formal methods, experimental practice</hi>
+                        <hi rend="">. King’s College, London, May 2000. Available at: </hi>
+                        <ptr target="https://www.johnunsworth.name/Kings.5-00/primitives.html"/>
+                        <hi rend=""> </hi>
+                        <hi rend="">(zuletzt geprüft: 30.11.2021).</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

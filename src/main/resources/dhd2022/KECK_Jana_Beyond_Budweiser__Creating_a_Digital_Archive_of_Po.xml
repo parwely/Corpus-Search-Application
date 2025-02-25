@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_227">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Beyond Budweiser</title>
+                <title type="sub">Creating a Digital Archive of Popular German-American Newspaper Literature</title>
+                </title>
+            <author>
+                    <persName>
+                        <surname>Keck</surname>
+                        <forename>Jana</forename>
+                    </persName>
+                    <affiliation>German Historical Institute Washington DC</affiliation>
+                    <email>keck@ghi-dc.org</email>
+                <idno type="ORCID">0000-0002-9416-1256</idno></author>
+                <author>
+                    <persName>
+                        <surname>Blessing</surname>
+                        <forename>Andre</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Institut für Maschinelle Sprachverarbeitung</affiliation>
+                    <email>andre.blessing@ims.uni-stuttgart.de</email>
+                <idno type="ORCID">0000-0001-7573-578X</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014-12-19T13:50:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en"/>
+            </langUsage>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Digitized Newspapers</term>
+                    <term>Digital Archive</term>
+                    <term>Machine Learning</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Annotieren</term>
+                    <term>Kontextsetzung</term>
+                    <term>Bearbeitung</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">227</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                <hi style="font-family:Segoe UI">Who gets to be remembered and historicized by ways of – digital – record creation? For many German-Americans in the long nineteenth century, German-language newspapers were the primary source of both information and entertainment. So far, research on the German-American press has predominantly focused on the male editors, writers, or advertisers and their influence – and success stories – on U.S. politics and economy. These HIStories have entered into schoolbooks and popular culture in the U.S. and Germany alike. Idealized versions, for instance, of the nineteenth-century German-American migrant as a hard-working, bright, self-made man have been “reused” for marketing strategies as the 2017 Budweiser Super Bowl commercial illustrates. The commercial video ad titled “Born the Hard Way” tells the fictitious tale of Adolphus Busch, co-founder of the brewery dynasty Anheuser-Busch, who emigrated to the U.S. in 1857, and ends with the slogan: “when nothing stops your dream.”</hi><ref target="ftn1" n="1"/>
+            </p>
+            <p>
+                <hi style="font-family:Segoe UI">Such representations offer limited access to histories about the everyday life of other historical actors that go beyond the elite. Digitized historic German-language newspapers in the</hi>
+                <hi rend="italic" style="font-family:Segoe UI">Chronicling America</hi>
+                <hi style="font-family:Segoe UI">database</hi><ref target="ftn2" n="2"/>
+                <hi style="font-family:Segoe UI">seem to provide a fruitful platform to find unknown stories that shed more light onto the daily experiences of historical actors of migration such as, for instance, women, girls, mothers, or daughters. Even though, such digitization projects offer access to thousands of newspapers pages (cf. Soni et al. 2021), there are no innovate methods to search and analyze them (cf. Hausdewell et al. 2020). Which keywords to enter when one does not even know what they are looking for?</hi>
+            </p>
+            <p>
+                <hi style="font-family:Segoe UI" xml:space="preserve">In order to systematically rewrite histories about representations of marginalized groups in the German-American press, we are creating an expanded version of </hi>
+                <hi rend="italic" style="font-family:Segoe UI">Chronicling America’s</hi>
+                <hi style="font-family:Segoe UI">repository: using OMEKA S,</hi><ref target="ftn3" n="3"/>
+                <hi style="font-family:Segoe UI" xml:space="preserve"> a free, flexible, and open-source web-publishing platform, users will have the opportunity to access news content that was not only published once, but reprinted several times across states and decades (see fig 1). The dataset of reprinted texts was created with text reuse detection software (Smith et al. 2013).</hi><ref target="ftn4" n="4"/>
+            </p>
+            <figure>
+                <graphic n="1001" width="15.920861111111112cm" height="11.789833333333334cm" url="Pictures/a8f3d34e8a3402b931ea6b0ddbbb3c67.jpeg" rend="inline"/>
+                <head>Fig. 1: Sample homepage (OMEKA S) of the dataset of reprinted texts in nineteenth-century German-American newspapers (in progress).</head>
+            </figure>
+            <p>
+                <hi style="font-family:Segoe UI">With this method, we have uncovered approximately 500,000 viral texts, in Ryan Cordell’s words, who uses the social media metaphor to describe reprinting practices in the industrial age.</hi><ref target="ftn5" n="5"/>
+                <hi style="font-family:Segoe UI">These viral texts were not only hard news. They range from advertisements, or factual texts to poems. However, these texts are not yet categorized into different genres. To add another layer that will make an expanded search possible by adding genre as metadata, we are using unsupervised methods (</hi>
+                <hi rend="italic" style="font-family:Segoe UI">topic models</hi>
+                <hi style="font-family:Segoe UI" xml:space="preserve">, </hi>
+                <hi rend="italic" style="font-family:Segoe UI">clustering</hi>
+                <hi style="font-family:Segoe UI">) and supervised classification methods enabled by manual annotations that were integrated into a web-based interface, an adaptation of the DFR-Browser,</hi><ref target="ftn6" n="6"/>
+                <hi style="font-family:Segoe UI">and extended by an annotation module.</hi>
+            </p>
+            <figure>
+                    <graphic n="1002" width="15.8115cm" height="11.147777777777778cm" url="Pictures/49dc221ca6c9c68950c6bebd7d03c2e2.png" rend="inline"/>
+                    <head>Fig. 2: DFR-Browser extended by an annotation module to tag genres</head>
+            </figure>  
+            <p>
+                <hi style="font-family:Segoe UI">To annotate data, which is then being used as training data for the genre classifier, we have added a sample selection of documents. Such a step allows us to annotate texts, which have a high and a low likelihood of representing a specific topic.</hi><ref target="ftn7" n="7"/>
+                <hi style="font-family:Segoe UI" xml:space="preserve"> As figure 2 illustrates, computationally classifying genres does not mean that a text will be 100 % categorized as belonging to one type, but in varying degrees to several types. The genre which achieves the highest score will be decisive for the dataset published in OMEKA S. With this approach, we have identified 10 different newspaper genres. By linking the annotation interface with the OMEKA site, users will be able to gain insight into genre classification process and examine similarities and anomalies between texts and genres using a mixed-methods approach (Sá Pereira 2019). Additionally, scholars can always get redirected to </hi>
+                <hi rend="italic" style="font-family:Segoe UI">Chronicling America</hi>
+                <hi style="font-family:Segoe UI" xml:space="preserve"> and to examine, for instance, where the text was embedded in the newspaper page. </hi>
+            </p>
+            <p>
+                <hi style="font-family:Segoe UI">In nineteenth-century newspaper ads, women were not only used as marketing strategies for medical products to cure female weakness, but predominantly for products marketed to both sexes (Keck 2021). By linking different datasets and interfaces, our project shows how we can efficiently use data as “a check-in, (...), a resource to begin and continue dialogue”</hi><ref target="ftn8" n="8"/>
+                <hi style="font-family:Segoe UI" xml:space="preserve"> in gender studies. Only accessible datasets can be passed on to future generations. Adding the category of genre as metadata, provides a distinct approach to simply using keyword search, which requires prior – often biased – knowledge of the user. As Temi Odumosu proposes, we should see data and metadata as ways to rethink cataloguing spaces with the potential to alter historical imbalances of power (2020: 299). Machines can help in this way because they approach data differently: the algorithms used for text reuse detection and text classification do neither privilege specific writers, topics or groups.</hi>
+            </p>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1"> https://www.youtube.com/watch?v=IZaQQvfIfPQ</note><note place="foot" xml:id="ftn2" n="2"> For details, see Chronicling America‘s “About” page.</note><note place="foot" xml:id="ftn3" n="3"> https://omeka.org/s/</note><note place="foot" xml:id="ftn4" n="4"> See https://github.com/dasmiq/passim.git.</note><note place="foot" xml:id="ftn5" n="5"> https://viraltexts.org</note><note place="foot" xml:id="ftn6" n="6"> https://agoldst.github.io/dfr-browser/</note><note place="foot" xml:id="ftn7" n="7"> For a critical reflection on the use of topic modeling in the humanities, see Shadrova (2021). </note><note place="foot" xml:id="ftn8" n="8"> https://www.manifestno.com</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend="bold" style="font-family:Segoe UI">Hauswedell, Tessa / Nyhan, Julianne / Beals, Melodee / Terras, Melissa / Bell, Emily</hi>
+                        <hi style="font-family:Segoe UI" xml:space="preserve">(2020): "Of global reach yet of situated contexts: an examination of the implicit and explicit selection criteria that shape digital archives of historical newspapers". In: </hi>
+                        <hi rend="italic" style="font-family:Segoe UI">Archival Science</hi>
+                        <hi style="font-family:Segoe UI">20,</hi>
+                        <hi style="font-family:Segoe UI" xml:space="preserve">139-165. DOI:</hi>
+                        <ref target="https://doi.org/10.1007/s10502-020-09332-1">
+                            <hi style="font-family:Segoe UI">https://doi.org/10.1007/s10502-020-09332-1</hi>.
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-family:Segoe UI">Keck, Jana</hi>
+                        <hi style="font-family:Segoe UI" xml:space="preserve"> (2021): "Let’s talk data, bias, and menstrual cramps: Voicing Gerwomanness in the ninetheenth century and today". In:</hi>
+                        <hi rend="italic" style="font-family:Segoe UI">Bulletin of the German Historical Institute (Spring 2021)</hi>.
+                        <hi style="font-family:Segoe UI">https://www.ghi-dc.org/fileadmin/publications/Bulletin/bu68/bu68_61.pdf</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-family:Segoe UI">Odumosu, Temi</hi>
+                        <hi style="font-family:Segoe UI" xml:space="preserve"> (2020): "The Crying Child: On Colonial Archives, Digitization, and Ethics of Care in the Cultural Commons". In: <hi rend="italic">Current Anthropology</hi>, vol. 61. DOI: 10.1086/710062.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-family:Segoe UI">Sá Pereira, Moacir P. de</hi>
+                        <hi style="font-family:Segoe UI" xml:space="preserve"> (2019): "Mixed Methodological Digital Humanities". In: </hi>
+                        <hi rend="italic" style="font-family:Segoe UI">Debates in the Digital Humanities</hi>,
+                        <hi style="font-family:Segoe UI" xml:space="preserve">chapter 34. DOI:</hi>
+                        <ref target="https://doi.org/10.5749/9781452963785">
+                            <hi style="font-family:Segoe UI">https://doi.org/10.5749/9781452963785</hi>.
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-family:Segoe UI">Shadrova, Anna</hi>
+                        <hi style="font-family:Segoe UI" xml:space="preserve"> (2021). "Topic models do not model topics: epistemological remarks and steps towards best practices". In: </hi>
+                        <hi rend="italic" style="font-family:Segoe UI">Journal of Data Mining and Digital Humanities</hi>,
+                        <hi style="font-family:Segoe UI">Episciences.org, 2021. DOI: https://doi.org/10.46298/jdmdh.7595.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-family:Segoe UI">Smith, David A. / Cordell, Ryan / Maddock Dillon, Elisabeth</hi>
+                        <hi style="font-family:Segoe UI" xml:space="preserve"> (2013). "Infectious Texts: Modelling Text Reuse in Nineteenth-Century Newspapers". In: </hi>
+                        <hi rend="italic" style="font-family:Segoe UI">Proceedings of the Workshop on Big Humanities</hi>,
+                        <hi style="font-family:Segoe UI">86–94. Washingyon, DC: IEEE Computer Society Press.</hi>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold" style="font-family:Segoe UI">Soni, Sandeep / Klein, Lauren F. / Eisenstein, Jacob</hi>
+                        <hi style="font-family:Segoe UI" xml:space="preserve"> (2021): "Abolitionist Networks: Modeling Language Change in Nineteenth­Century Activist Newspapers". In: </hi>
+                        <hi rend="italic" style="font-family:Segoe UI">Journal of Cultural Analytics</hi>,
+                        <hi style="font-family:Segoe UI">43 (1). Doi: 10.22148/001c.18841.</hi>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

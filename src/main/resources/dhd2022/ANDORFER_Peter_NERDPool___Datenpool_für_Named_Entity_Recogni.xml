@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_255">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">NERDPool</title>
+                    <title type="sub">Datenpool für Named Entity Recognition</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Andorfer</surname>
+                        <forename>Peter</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Austria</affiliation>
+                    <email>peter.andorfer@oeaw.ac.at</email>
+                <idno type="ORCID">0000-0002-9575-9372</idno></author>
+                <author>
+                    <persName>
+                        <surname>Schlögl</surname>
+                        <forename>Matthias</forename>
+                    </persName>
+                    <affiliation>Österreichische Akademie der Wissenschaften, Austria</affiliation>
+                    <email>matthias.schloegl@oeaw.ac.at</email>
+                <idno type="ORCID">0000-0003-1451-0987</idno></author>
+                <author>
+                    <persName>
+                        <surname>Bleier</surname>
+                        <forename>Roman</forename>
+                    </persName>
+                    <affiliation>Universität Graz, Austria</affiliation>
+                    <email>roman.bleier@uni-graz.at</email>
+                <idno type="ORCID">0000-0003-4674-1042</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-07-15T12:24:11.950212554</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>NER</term>
+                    <term>spaCy</term>
+                    <term>API</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Teilen</term>
+                    <term>Annotieren</term>
+                    <term>benannte Entitäten (named entities)</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">255</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Bedeutung</head>
+                <p>In digitalen Editionen ist die automatische Erkennung und Annotation von Personen, Orten und Datumsangaben eine wichtige Aufgabe, die langfristig die händische Annotation ablösen wird. Machine Learning (ML) und Named Entity Recognition (NER) spielt dabei eine zentrale Rolle.<ref target="ftn1" n="1"/> Historische Texte bilden noch ein Problem, da oft zu wenig Trainingsmaterial zur Verfügung steht, um entsprechende ML-Modelle zu trainieren. Andererseits werden seit über 30 Jahren digitale Editionen mit strukturierten Daten produziert, die diese Lücke füllen könnten.
+                </p>
+                <p>Das von CLARIAH-AT finanzierte Projekt NERDPool versucht einerseits existierende (XML/TEI kodierte) Editionsdaten zu nutzen und daraus einen Pool an Trainingsdaten zu generieren, sowie andererseits Workflows zu erproben und zu implementieren, die es erlauben, einfach und effizient bestehende Korpa manuell zu annotieren. Den Schwerpunkt setzt das Projekts auf frühneuzeitliche deutsche Texte, ein Sprachstufe für die es wenig NER Material gibt. Die Datensätze werden über die Webapplikation https://nerdpool-api.acdh-dev.oeaw.ac.at/ respektive über eine impelementierte offene API veröffentlicht und können etwa mit Hilfe eines eigenen Python-Clients
+                    (<ptr target="https://github.com/acdh-oeaw/nerdpool-client"/>, 14. Juli 2021) heruntergeladen werden. Mit Stand Juli umfasst NERDPool rund 23.500 annotierte Datensätze. Darunter sind etwa Akten vom Regensburger Reichstag von 1576 (<ref target="https://reichstagsakten-1576.uni-graz.at/">
+                        <hi rend="underline">https://reichstagsakten-1576.uni-graz.at</hi>),
+                    </ref>
+                    Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie 1848–1918 oder die ersten Ausgaben des Wienerischen Diariums (um 1750).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>XML/TEI <hi rend="math">→</hi> Annotationen</head>
+                <p>Die in NERDPool gesammelten Daten sind stets das Resultat manueller Annotation. Die konkrete Annotationsarbeit erfolgte im Kontext der Erstellung einer XML/TEI kodierten Digitalen Edition. Hier wurden Personen, Orte, Datumsangaben mit entsprechenden TEI Tags annotiert. Die Daten werden über die GitHub API direkt von einem Repo abgerufen und dahingehend weiterverarbeit, als die annotierten Textknoten gelesen und die Offsets der annotierten Elemente extrahiert werden (
+                    <ptr target="https://github.com/acdh-oeaw/acdh-tei-pyutils"/>). Konkret wird ein Nodeset wie `&lt;p&gt;&lt;placeName&gt;Wien&lt;/placeName&gt; ist eine Stadt.&lt;/p&gt;` in folgenden JSON-Eintrag `{“text”: “Wien ist eine Stadt.”, “entities”: [0, 3, “LOC”]}` konvertiert und anschließend in die Django basierte Webapplikation nerdpool-api importiert.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Prodigy &amp; „custom loaders“</head>
+                <p>Ein zweiter Ansatz setzt auf das Annotationstoolkit Prodigy
+                    (<ptr target="https://prodi.gy/"/>). Das kostenpflichtige und teilweise closed sourced Softwarepaket bietet ein äußerst effizientes Annotationsinterface und lässt sich sehr gut adaptieren, beispielsweise durch das Hinzufügen sogenannter ‘custom loaders’, welche Textdaten in das Annotationsinterface streamen und es so etwa erlauben Texte aus bestehenden APIs mit Prodigy zu annotieren. Mit einem solchen Loader „pr_transkribus.py“
+                    <anchor xml:id="id_docs-internal-guid-ad39e723-7fff-e97e-86"/>
+                    (<ptr target="https://github.com/acdh-oeaw/acdh-prodigy-utils/blob/master/pr_transkribus.py"/>)
+                    wurden etwa Texte direkt aus Transkribus über die Transkribus-API
+                    (<ptr target="https://transkribus.eu/TrpServer/Swadl/wadl.html"/>) in Prodigy geladen.
+                </p>
+                <p>Die Orchestrierung der einzelnen Prodigy-Instanzen, das notwendige Usermanagement der einzelnen Annotator*Innen sowie die Sicherung und Zusammenführung der Annotationsdaten erfolgt mittels Django, Postgresql, Nginx und dem Container Management Tool Portainer
+                    (ptr target="https://github.com/acdh-oeaw/nerdpool"/>).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head> Probleme und Lösungen</head>
+                <p>In der konkreten Implementierung der obene beschrieben Workflows bereitete vor allem die für Prodigy notwendige Tokenisierung und die darauf aufbauende Segmentierung (Sentence-Splitting) Probleme:</p>
+                <p>Die Syntax und Satzlänge historischer weicht teils massiv von jenen zeitgenössischer Texte - welche gemeinhin zum Training von NLP Modellen verwendet werden - ab.</p>
+                <p>In historischen Texten finden sich viele zum Teil heute nicht mehr gängige Abkürzungen (<ref target="https://abbr.acdh.oeaw.ac.at/">https://abbr.acdh.oeaw.ac.at</ref>) bzw. Trenn- und Satzzeichen - was sich wiederum ungünstig auf die Tokenisierung auswirkt.
+                </p>
+                <p>Was das Problem einer automatisierten Satzsegmentierung betrifft, so wurde darauf zum Teil verzichtet und die Texte anhand von formalen Kriterien wie beispielsweise manuell annotierter (XML/TEI) oder von Layouterkennung erkannter Absätze geteilt. Dies hat den Vorteil, dass die Annotationssamples nicht an den falschen Stellen unterbrochen werden, führt aber Teilweise zu sehr langen Annotationssamples, welche das Annotieren vor allem über ein auf Effizienz ausgerichtete System wie Prodigy erschwert.</p>
+                <p>In einem anderen Ansatz wurde das zur Tokenisierung verwendete Spacy Modell um eine Liste von Abkürzungen erweitert. Das funktioniert tendenziell gut, bringt allerdings einen (weiteren) technisch-administraiven Overhead hinischtlich der Verwaltung der (Tokenisierungs-)Modelle mit sich.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Protokolle des österreichischen Ministerrates als Beispiel</head>
+                <p>Das Potential der gesammelten Annotationsdaten soll beispielhaft an der bereits erwähnten Edition der "Protokolle des österreichischen Ministerrates 1848-1867" (MRP) gezeigt werden. Auf Basis von rund 12.000 manuell annotierten Samples wurde ein spaCy NER Modell (Version 3.x) trainiert
+                    (ptr target="https://huggingface.co/csae8092/de_MRP_NER"/>). Während das kleine spaCy Standardmodell für Deutsch auf dem Evaluationsset der MPR Daten F1 Werte für Personen und Organisationen von rund 23 bzw. 12 Prozent erzielt, liegen die Werte beim MRP Modell bei 91 und 82 Prozent. Die Werte für die weiters annotierten Kategorien LOC und GPE liegen bei 87 bzw. 58 Prozent
+                    (ptr target="https://github.com/csae8092/ner-tei-playgrounds"/>). Das MRP-Modell ist damit trotz historischer Sprachstufe, vielen Abkürzungen und vergleichsweise wenigen Trainingsdaten nur knapp unter aktuellen Named Entity Recognizern.
+                </p>
+            </div>
+        </body>
+        <back><div type="notes"><note xml:id="ftn1" place="foot" n="1"> Vgl. dazu die in der Bibliographie angeführte Literatur.</note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Urbano, J</hi> et al. (2012): “Named Entity Recognition: Fallacies, challenges and opportunities”, <hi rend="italic">Computer Standards &amp; Interfaces</hi> 35(5): pp. 482–489. doi: 10.1016/j.csi.2012.09.004 [letzter Zugriff 13. Juli 2021].</bibl>
+                    <bibl><hi rend="bold">Kettunen, Kimmo / Mäkelä, Eetu / Ruokolainen, Teemu / Kuokkala, Juha / Löfberg, Laura</hi> (2017): “Old Content and Modern Tools: Searching Named Entities in a Finnish OCRed Historical Newspaper Collection 1771–1910”, in: <hi rend="italic">Digital Humanities Quarterly</hi> 11(3), http://digitalhumanities.org/dhq/vol/11/3/000333/000333.html [letzter Zugriff 13. Juli 2021].</bibl>
+                    <bibl><hi rend="bold">Kannisto, Maiju / Kauppinen, Pekka</hi> (2020): "Of Great Men and Eurovision Songs: Studying the Finnish Audio-Visual Heritage through NER-based Analysis on Metadata", in: Fridlund, Mats / Oiva, Mila / Paju, Petri (eds.) <hi rend="italic">Digital Histories: Emergent Approaches within the New Digital History</hi>, 165-180.</bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

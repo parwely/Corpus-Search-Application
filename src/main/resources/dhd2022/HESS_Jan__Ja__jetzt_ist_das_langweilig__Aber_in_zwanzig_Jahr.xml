@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_259">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">„Ja, jetzt ist das langweilig. Aber in zwanzig Jahren!“</title>
+                <title type="sub">Bereitstellung, Zugang und Analyse literarischer Blogs am Beispiel des Techniktagebuchs</title>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Blessing</surname>
+                        <forename>André</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Institut für maschinelle Sprachverarbeitung</affiliation>
+                    <email>andre.blessing@ims.uni-stuttgart.de</email>
+                <idno type="ORCID">0000-0001-7573-578X</idno></author>
+                <author>
+                    <persName>
+                        <surname>Hess</surname>
+                        <forename>Jan</forename>
+                    </persName>
+                    <affiliation>Deutsches Literaturarchiv Marbach, Germany</affiliation>
+                    <email>jan.hess@dla-marbach.de</email>
+                <idno type="ORCID">0000-0003-4162-2132</idno></author>
+                <author>
+                    <persName>
+                        <surname>Jung</surname>
+                        <forename>Kerstin</forename>
+                    </persName>
+                    <affiliation>Universität Stuttgart, Institut für maschinelle Sprachverarbeitung</affiliation>
+                    <email>kerstin.jung@ims.uni-stuttgart.de</email>
+                <idno type="ORCID">0000-0002-9548-8461</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-12-01T13:05:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Exploration</term>
+                    <term>Bloganalyse</term>
+                    <term>Korpusanalyse</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Entdeckung</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Beziehungsanalyse</term>
+                    <term>Netzwerkanalyse</term>
+                    <term>Literatur</term>
+                    <term>Text</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">259</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: justify;">
+                <hi style="font-size:11pt" xml:space="preserve">„Ja, jetzt ist das langweilig. Aber in zwanzig Jahren!“ – Wie der Untertitel des </hi>
+                <hi rend="italic" style="font-size:11pt">Techniktagebuchs</hi><ref target="ftn1" n="1"/>
+                <hi style="font-size:11pt" xml:space="preserve"> bereits suggeriert, versteht sich das 2014 von der Schriftstellerin Kathrin Passig ins Leben gerufene literarische Blog als Teil des kulturellen Gedächtnisses. Mehr als sechzig regelmäßige Autor:innen bloggen hier oftmals humorvoll-pointiert über ihre Erlebnisse, Erfahrungen, Erfolge und Misserfolge im Zusammenhang mit technischen Themen und Gegenständen. Bereits seit 2008 werden literarische Blogs wie das </hi>
+                <hi rend="italic" style="font-size:11pt">Techniktagebuch</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> am Deutschen Literaturarchiv Marbach gesammelt und archiviert. Im Rahmen des Projekts SDC4Lit – Science Data Center for Literature</hi><ref target="ftn2" n="2"/>
+                <hi style="font-size:11pt" xml:space="preserve"> werden nicht nur der Workflow zur Archivierung von Literatur im Netz aktualisiert, sondern auch Methoden und Werkzeuge zur (explorativen) Analyse von elektronischer Literatur getestet und (weiter-)entwickelt, um sie in Form von Analyse-Pipelines über die SDC4Lit-Plattform zur Verfügung zu stellen (Schlesinger 2021). </hi>
+            </p>
+            <p style="text-align: justify;">
+                <hi style="font-size:11pt" xml:space="preserve">Am Beispiel des </hi>
+                <hi rend="italic" style="font-size:11pt">Techniktagebuchs</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> soll der hier vorgeschlagene Poster-Beitrag einerseits die Herausforderungen bei der wissenschaftlichen Arbeit mit diesen bislang wenig erforschten „born-digital“ Literaturformen</hi><ref target="ftn3" n="3"/>
+                <hi style="font-size:11pt" xml:space="preserve"> aufzeigen sowie andererseits vor allem auch (explorative) Zugangs- und Analysemöglichkeiten literarischer Blogs präsentieren. Als Standard für die Archivierung von Webinhalten hat sich das WARC-Format (IPCC) etabliert. Resultierend aus der Blog-Software enthält der im Falle des </hi>
+                <hi rend="italic" style="font-size:11pt">Techniktagebuchs</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> ca. neun Gigabytes große Blog-Crawl</hi><ref target="ftn4" n="4"/>
+                <hi style="font-size:11pt" xml:space="preserve"> neben den 7677 Blogbeiträgen eine Vielzahl an Metaseiten wie dem aus Tags bestehenden Stichwortverzeichnis oder den Blog-Archivseiten, die für die reine Inhaltsanalyse störend sind und entsprechend vorab identifiziert werden müssen. Eine Besonderheit des </hi>
+                <hi rend="italic" style="font-size:11pt">Techniktagebuchs</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> und zugleich Grund für die Auswahl von Tumblr als Blogging-Plattform</hi><ref target="ftn5" n="5"/>
+                <hi style="font-size:11pt" xml:space="preserve"> ist zudem die Möglichkeit zur Rückdatierung einzelner Blogposts. Neben den aus aktuellen (technischen) Erlebnissen der Autor:innen resultierenden und entsprechend auf den tatsächlichen Schreibzeitpunkt datierten Beiträgen enthält das </hi>
+                <hi rend="italic" style="font-size:11pt">Techniktagebuch</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> zahlreiche retroperspektivisch verfasste und entsprechend zurückdatierte, sodass das eigentliche Publikationsdatum zum Teil über die in der jeweiligen URL enthaltene Tumblr-ID ermittelt werden muss. Bereits aus der Diskrepanz zwischen dem eigentlichen Publikationsdatum und dem von den verschiedenen Autor:innen deklarierten Datum ergeben sich verschiedene Fragestellungen: Welche Autor:innen schreiben eher über Aktuelles, welche eher über Vergangenes? Lassen sich dabei jeweils thematische Schwerpunkte ermitteln? Wie verändern sich diese im zeitlichen Verlauf? Gibt es thematische "Trendsetter" unter den Autor:innen? Inwiefern beeinflussen sie sich gegenseitig?</hi>
+            </p>
+            <p rend="docdata" style="text-align: left; text-align: justify;">
+                <hi style="font-size:11pt">Um sich Fragestellungen wie diesen nähern zu können, wurden die in den WARC-Records enthaltenen Daten zunächst mithilfe von WARC-Bibliotheken wie WARCIO</hi><ref target="ftn6" n="6"/>
+                <hi style="font-size:11pt" xml:space="preserve"> und JWARC</hi><ref target="ftn7" n="7"/>
+                <hi style="font-size:11pt" xml:space="preserve"> aufbereitet und die zu analysierenden Texte mithilfe von trafilatura (Barbaresi 2019) extrahiert. Mittels regelbasierter Informationsextraktion (Blessing 2014) wurden hieraus u. a. die in den Blogposts im Normalfall nur in Klammern am Textende genannten Autor:innen ermittelt. Basierend auf den so gewonnenen Informationen wurden verschiedene Netzwerke zur Visualisierung verschiedener Zusammenhänge erstellt. Analysiert wurden so beispielsweise die direkten Referenzierungen der Autor:innen innerhalb der Blogposts unter Berücksichtigung der deklarierten Publikationsdaten. Dabei wurde u. a. sichtbar, dass die Links zwar vorwiegend genutzt werden, um auf auch hinsichtlich des deklarierten Datums früher entstandene Blogposts zurück zu verweisen oder gar Fortsetzungsgeschichten in Form mehrerer Blogbeiträge aufzubauen. Die hier dennoch zahlreich zutage tretenden, vermeintlich anachronistischen Verweise auf künftige Beiträge verdeutlichen aber zugleich, dass die Autor:innen die Rückdatierungsoption durchaus kreativ zu nutzen wissen.</hi>
+            </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="10.23761111111111cm" url="Pictures/bed402ffb51967b5f8cf8d1682802ca2.png" rend="inline"/>
+                <head>Abb. 1: Collage von Gephi-Visualisierungen zur Analyse des Techniktagebuchs.</head>
+            </figure>
+            <p style="text-align: justify;">
+                <hi style="font-size:11pt" xml:space="preserve">Netzwerkvisualisierungen zu den von den Autor:innen vergebenen Tags in Kombination mit dem Einsatz von Topic-Model-Analysen (Blei 2003) zeigen demgegenüber, dass diese manuell definierten Schlagwörter der Autor:innen nicht konsistent, mitunter eher humoristisch verwendet werden. Um das </hi>
+                <hi rend="italic" style="font-size:11pt">Techniktagebuch</hi>
+                <hi style="font-size:11pt">korpuslinguistisch und stilometrisch auszuwerten, kamen bislang CQPWeb (Hardie 2012) sowie Stylo (Eder 2016) zum Einsatz, sodass auch hinsichtlich des Vokabulars und des individuellen Blog-Schreibstils Unterschiede aufgezeigt werden können. Interessant und überraschend ist beispielsweise bereits die später auf dem Poster zu findende Antwort auf die Frage nach den fünf Wörtern, die Kathrin Passig wesentlich häufiger nutzt als alle anderen Autor:innen.</hi>
+            </p>
+            <p style="text-align: justify;">
+                <hi style="font-size:11pt" xml:space="preserve">Mit Blick auf die bereits erwähnte SDC4Lit-Plattform werden die genannten Methoden und Werkzeuge nicht nur hinsichtlich ihres konkreten Nutzens bei der beispielhaften, explorativen Analyse des </hi>
+                <hi rend="italic" style="font-size:11pt">Techniktagebuchs</hi>
+                <hi style="font-size:11pt" xml:space="preserve"> getestet, (weiter-)entwickelt und in Form von Analysepipelines kombiniert, sondern auch hinsichtlich ihrer Verwendbarkeit für die über das SDC4Lit-Repositorium zur Verfügung gestellten Materialien von Literatur im Netz. Letztlich sollen die erstellten Analyse-Pipelines demnach nicht nur auf anderen (literarischen) Blogs, sondern auch auf Werken der Netzliteratur Anwendung finden können, um möglichst niedrigschwellige Zugangsmöglichkeiten zu diesen trotz ihrer genuinen Digitalität eher vernachlässigten Literaturformen zu schaffen, die keinesfalls erst „in zwanzig Jahren“ in den (wissenschaftlichen) Fokus rücken sollten.</hi>
+            </p>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                        <hi style="font-size:9pt" xml:space="preserve"> Techniktagebuch, </hi>
+                        <ref target="https://techniktagebuch.tumblr.com/">
+                            <hi style="font-size:9pt">https://techniktagebuch.tumblr.com/</hi>
+                        </ref>
+                        <hi rend="1471">, Abruf: 15.7.2021.</hi>
+                    </note><note place="foot" xml:id="ftn2" n="2">
+                        <hi style="font-size:9pt" xml:space="preserve"> SDC4Lit, </hi>
+                        <ref target="https://sdc4lit.de/">
+                            <hi style="font-size:9pt">https://sdc4lit.de/</hi>
+                        </ref>
+                        <hi rend="1407">, </hi>
+                        <hi rend="1471">letzter Zugriff: 15.7.2021.</hi>
+                    </note><note place="foot" xml:id="ftn3" n="3">
+                        <hi style="font-size:9pt" xml:space="preserve"> In Untersuchungen literarischer Blogs finden computergestützte Analysemöglichkeiten bislang kaum Verwendung, vgl. Fassio (2021), Knapp (2012, 2014) und Ainetter (2006).</hi>
+                    </note><note place="foot" xml:id="ftn4" n="4">
+                        <hi style="font-size:9pt" xml:space="preserve"> Der Blogcrawl wurde erstellt mithilfe von Brozzler (</hi>
+                        <ref target="https://github.com/internetarchive/brozzler">
+                            <hi style="font-size:9pt">https://github.com/internetarchive/brozzler</hi>
+                        </ref>
+                        <hi style="font-size:9pt">, letzter Zugriff: 30.11.2021) und Heritrix (</hi>
+                        <ref target="https://github.com/internetarchive/heritrix3">
+                            <hi style="font-size:9pt">https://github.com/internetarchive/heritrix3</hi>
+                        </ref>
+                        <hi style="font-size:9pt">, letzter Zugriff: 30.11.2021).</hi>
+                    </note><note place="foot" xml:id="ftn5" n="5">
+                        <hi style="font-size:9pt" xml:space="preserve"> Techniktagebuch, </hi>
+                        <ref target="https://techniktagebuch.tumblr.com/post/76963766003/20140218">
+                            <hi style="font-size:9pt">https://techniktagebuch.tumblr.com/post/76963766003/20140218</hi>
+                        </ref>
+                        <hi rend="1506">, </hi>
+                        <hi rend="1471">letzter Zugriff</hi>
+                        <hi rend="1506">: 15.07.2021.</hi>
+                    </note><note place="foot" xml:id="ftn6" n="6">
+                        <hi style="font-size:9pt" xml:space="preserve"> WARCIO: WARC (and ARC) Streaming Library, </hi>
+                        <ref target="https://github.com/webrecorder/warcio">
+                            <hi style="font-size:9pt">https://github.com/webrecorder/warcio</hi>
+                        </ref>
+                        <hi style="font-size:9pt">, letzter Zugriff: 30.11.2021.</hi>
+                    </note><note place="foot" xml:id="ftn7" n="7">
+                        <hi style="font-size:9pt" xml:space="preserve"> JWARC, Java library for reading and writing WARC files with a typed API, </hi>
+                        <ref target="https://github.com/iipc/jwarc">
+                            <hi style="font-size:9pt">https://github.com/iipc/jwarc</hi>
+                        </ref>
+                        <hi style="font-size:9pt">, letzter Zugriff: 30.11.2021.</hi>
+                    </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Ainetter, Sylvia</hi> (2006): Blogs - literarische Aspekte eines neuen Mediums. Eine Analyse am Beispiel des Weblogs Miagolare (= Innsbrucker Studien zur Alltagsrezeption 5). Wien: Lit Verlag.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Barbaresi, Adrien</hi> (2019): “Generic Web Content Extraction with Open-Source Software”, in: Proceedings of the 15th Conference on Natural Language Processing (KONVENS 2019), 267–268.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Blei, David M. / Ng, Andrew Y. / Jordan, Michael I.</hi> (2003): “Latent dirichlet allocation”, in: Journal of Machine Learning Research 3, 993–1022.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Blessing, André / Kuhn, Jonas</hi> (2014): “Textual Emigration Analysis (TEA)”, in: Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC&amp;apos; 14) European Language Resources Association (ELRA), Reykjavik, Iceland, 2089–2093.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Eder, Maciej / Rybicki, Jan / Kestemont, Mike</hi> (2016): “Stylometry with R: a package for computational text analysis”, in: R Journal, 8(1), 107–121.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Fassio, Marcella</hi> (2021): Das literarische Weblog. Praktiken, Poetiken, Autorschaften (= Praktiken der Subjektivierung 21). Bielefeld: Transcript.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold" xml:space="preserve">Hardie, Andrew </hi>(2012): “CQPweb – combining power, flexibility and usability in a corpus analysis tool”, in: International Journal of Corpus Linguistics, 17(3), 380–409.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">IIPC</hi>: The WARC Format. 
+                        <ref target="https://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/">https://iipc.github.io/warc-specifications/specifications/warc-format/warc-1.1/</ref>, letzter Zugriff: 15.07.2021.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Knapp, Lore</hi> (2012): “Christoph Schlingensiefs Blog. Multimediale Autofiktion im Künstlerblog”, in: Ansgar Nünning und Jan Rupp (Hrsg.), Narrative Genres im Internet: Theoretische Bezugsrahmen, Mediengattungstypologie und Funktionen. Trier: Wissenschaftlicher Verlag, 117-132.
+                        <lb/>
+                        <hi rend="bold">Knapp, Lore</hi> (2014): Künstlerblogs. Zum Einfluss der Digitalisierung auf literarische Schreibprozesse (Goetz, Schlingensief, Herrndorf), Berlin: Ripperger &amp; Kremers.
+                    </bibl>
+                    <bibl style="text-align: left;">
+                        <hi rend="bold">Schlesinger, Claus-Michael / Ulrich, Mona / Hein, Pascal / Blessing, André</hi> (2021): Networks of Net Literature - Modelling, Extracting and Visualizing Link-Based Networks in the DLA corpus of net literature. Bergen: ELMCIP 2021, 
+                        <ref target="https://elmcip.net/node/16380">https://elmcip.net/node/16380</ref>, letzter Zugriff: 30.11.2021.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

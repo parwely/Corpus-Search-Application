@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_276">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">Was sehe ich?</title>
+                <title type="sub">Visualisierungsstrategien für Datentransparenz in der Historischen Netzwerkanalyse</title>
+                </title>
+            <author>
+                    <persName>
+                        <surname>Bludau</surname>
+                        <forename>Mark-Jan</forename>
+                    </persName>
+                    <affiliation>Fachhochschule Potsdam, UCLAB</affiliation>
+                    <email>mark-jan.bludau@fh-potsdam.de</email>
+                <idno type="ORCID">0000-0001-6300-8833</idno></author>
+                <author>
+                    <persName>
+                        <surname>Halling</surname>
+                        <forename>Thorsten</forename>
+                    </persName>
+                    <affiliation>Heinrich-Heine-Universität Düsseldorf, Medizinische Fakultät, Institut für Geschichte, Theorie und Ethik der Medizin</affiliation>
+                    <email>thorsten.halling@hhu.de</email>
+                <idno type="ORCID">0000-0002-1743-1611</idno></author>
+                <author>
+                    <persName>
+                        <surname>Holly</surname>
+                        <forename>Eva Maria</forename>
+                    </persName>
+                    <affiliation>Heinrich-Heine-Universität Düsseldorf, Abteilung Wirtschaftsgeschichte</affiliation>
+                    <email>eva.holly@hhu.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wieloch</surname>
+                        <forename>Jasmin</forename>
+                    </persName>
+                    <affiliation>Heinrich-Heine-Universität Düsseldorf, Medizinische Fakultät, Institut für Geschichte, Theorie und Ethik der Medizin</affiliation>
+                    <email>wielocj@hhu.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Schnaitter</surname>
+                        <forename>Hannes</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</affiliation>
+                    <email>hannes.schnaitter.1@ibi.hu-berlin.de</email>
+                <idno type="ORCID">0000-0002-1602-6032</idno></author>
+                <author>
+                    <persName>
+                        <surname>Balck</surname>
+                        <forename>Sandra</forename>
+                    </persName>
+                    <affiliation>Humboldt-Universität zu Berlin, Institut für Bibliotheks- und Informationswissenschaft</affiliation>
+                    <email>balcksaa@hu-berlin.de</email>
+                <idno type="ORCID">0000-0002-0573-3911</idno></author>
+                <author>
+                    <persName>
+                        <surname>Plakidis</surname>
+                        <forename>Melina</forename>
+                    </persName>
+                    <affiliation>Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI), Speech and Language Technology Lab</affiliation>
+                    <email>melina.plakidis@dfki.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Rehm</surname>
+                        <forename>Georg</forename>
+                    </persName>
+                    <affiliation>Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI), Speech and Language Technology Lab</affiliation>
+                    <email>georg.rehm@dfki.de</email>
+                <idno type="ORCID">0000-0002-7800-1893</idno></author>
+                <author>
+                    <persName>
+                        <surname>Fangerau</surname>
+                        <forename>Heiner</forename>
+                    </persName>
+                    <affiliation>Heinrich-Heine-Universität Düsseldorf, Medizinische Fakultät, Institut für Geschichte, Theorie und Ethik der Medizin</affiliation>
+                    <email>heiner.fangerau@hhu.de</email>
+                <idno type="ORCID">0000-0001-9065-3395</idno></author>
+                <author>
+                    <persName>
+                        <surname>Dörk</surname>
+                        <forename>Marian</forename>
+                    </persName>
+                    <affiliation>Fachhochschule Potsdam, UCLAB</affiliation>
+                    <email>marian.doerk@fh-potsdam.de</email>
+                <idno type="ORCID">0000-0002-3469-7841</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-12-01T10:54:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Vortrag</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Historische Netzwerkanalyse</term>
+                    <term>Visualisierung</term>
+                    <term>Transparenz</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Netzwerkanalyse</term>
+                    <term>Visualisierung</term>
+                    <term>Visualisierung</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">276</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einführung </head>
+                <p style="text-align: left; ">Angelehnt an die Methodik der Sozialen Netzwerkanalyse nutzen Historiker*innen vermehrt auch graphenbasierte Visualisierungen zur (Re-)konstruktion sozialer Strukturen. Im Zentrum steht das Ziel, Muster zu erkennen um soziale Prozesse historisch verstehen und erklären zu können (Kerschbaumer et al. 2020). Konferenzserien, eine Fachzeitschrift (Journal of Historical Network Research), ein Handbuch (Düring et al. 2016), Lehrveranstaltungen sowie Studien zu (sozialen) Netzwerken aus allen Epochen der Geschichtsschreibung (Düring, M. &amp; Grandjean, M. 2021) machen die Historische Netzwerkanalyse (HNA) zu einem inzwischen ausdifferenzierten Forschungsfeld. Zu den wichtigsten methodischen Herausforderungen gehört die Suggestionskraft von Visualisierungen: „Sie sind fehlbare, abstrahierte und interessengeleitete Modelle und mit entsprechender Vorsicht zu betrachten.“ (Düring et al. 2016: 6)</p>
+                <p style="text-align: left; ">Obwohl zur Netzwerk-Visualisierung bereits zahlreiche Forschungsarbeiten und Anwendungen vorliegen, beziehen sich die hier dargestellten Techniken und Taxonomien zumeist auf allgemeine Graphvisualisierung (Hadlak et al. 2015; Lee et al. 2006; Nobre et al. 2019). Dies führt dazu, dass Anwendungen und Visualisierungen häufig nicht ausreichend spezifische Bedürfnisse, Herausforderungen und relevante Datenpraktiken der HNA-Forschung oder generell geisteswissenschaftliche Forschung beachten. Dazu gehören Probleme der Unsicherheit, Mehrdeutigkeit, Subjektivität (Drucker 2011) und wenige Methoden zur Darstellung von Provenienz (Hadlak et al. 2015). Einigen Herausforderungen in der Netzwerkforschung werden dabei unter anderem durch Nutzung von statistischen Methoden begegnet (z.B. Griffith et al. 2016; Scholtes 2017). Dennoch sehen wir auch im Bereich der Visualisierung Notwendigkeit an der Weiterentwicklung geeigneter Strategien. Bisherige Visualisierungsforschung zu Datenprovenienz dagegen konzentrierte sich auf naturwissenschaftliche Workflows (Ragan et al. 2016). Die Abbildung von Provenienz und die Offenlegung sowie die Verknüpfung mit Quellen stellen jedoch einer Metastudie zu Nutzeranforderungen von Forscher*innen der digitalen Geisteswissenschaften zufolge, zentrale Faktoren für die Glaubwürdigkeit und damit für das Vertrauen in eine Visualisierung dar (Lamqaddam et al. 2020). Weiterhin gibt es zunehmend Ansätze um diesen und ähnlichen Herausforderungen mit kritischen und für die Geisteswissenschaften geeigneten Visualisierungskonzepten zu begegnen (z.B. Kleymann &amp; Stange 2021).</p>
+                <p style="text-align: left; ">Aktuell werden im deutschsprachigen Sprachraum für HNA vor allem proprietäre Visualisierungstools verwendet, die zumeist nicht genuin für HNA-Zwecke konzipiert sind und in der Regel keine interaktiven, webbasierten Darstellungsformen ermöglichen. Eine Ausnahme bildet hier 
+                    <hi rend="italic">nodegoat</hi>, eine speziell für die Humanities entwickelte webbasierte Forschungsumgebung (van Bree &amp; Kessels 2017). Angaben zu verwendeten Visualisierungstools fehlen in vielen Studien ebenso wie eine Begründung der Auswahl. Im Text genannte Datenquellen können den Knoten und Kanten oft nicht zugeordnet werden, ferner sind in einer statischen Darstellung facettierte Relationen ebenso wie dynamische Prozesse über die Zeit hinweg kaum abbildbar.
+                </p>
+                <p style="text-align: left; ">Verschiedene Projekte suchen daher verstärkt nach Lösungsansätzen zur Visualisierung selbst erhobener oder rekonstruierter Netzwerke (z.B. Campbell et al. 2018; Novak et al. 2014). Zu den Kernproblemen gehört die mit heterogenen Datenrepositorien verbundene, nahezu zwangsläufige Verzerrung von Visualisierungsergebnissen, insbesondere durch fehlende, ungenaue oder uneindeutige Daten (Drucker 2011). Die Datentransparenz bezüglich der Datenquellen ist für die HNA sowohl bei selbst erhobenen als auch bei sekundär genutzten Daten Voraussetzung, will sie geisteswissenschaftlichen Kriterien der Nachprüfbarkeit und Nachvollziehbarkeit von Interpretationen erfüllen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Projekthintergrund und Vorgehen </head>
+                <p style="text-align: left; ">Grundlage dieses Beitrags ist das anwendungsbezogene Forschungs- und Entwicklungsprojekt SoNAR (IDH) – Interfaces to Data for Social Historical Network Analysis and Research<ref target="ftn1" n="1"/> (Bludau et al. 2020). In diesem Projekt soll systematisch forschungsorientiert das Aufbereiten, Bereitstellen und Analysieren von Massendaten für den Aufbau einer HNA-Forschungstechnologie erprobt werden. Den Ausgangspunkt bildet die Überlegung, dass für den Bibliotheks- und Archivbereich erstellte Norm- und Metadaten bereits über eine gesicherte Qualität der Daten verfügen, deren Provenienz nachvollziehbar und nachprüfbar ist. Eine Disambiguierung, also die eindeutige Zuordnung von Entitäten wie Personen, Körperschaften oder Orten ermöglicht eine Sekundärnutzung der Daten für automatisierte historische Netzwerkanalysen. Einschränkungen ergeben sich systemimmanent aufgrund des ursprünglichen Verwendungszwecks der Daten zur Beschreibung vor allem von Bibliotheksbeständen. Dieser kann dazu führen, dass Entitäten fehlen oder unzureichend beschrieben sind. Bei der Zusammenführung heterogener Daten (GND<ref target="ftn2" n="2"/>, Kalliope<ref target="ftn3" n="3"/>, DNB<ref target="ftn4" n="4"/>, ZDB<ref target="ftn5" n="5"/> und SBB<ref target="ftn6" n="6"/>) mit großen Datenmengen (~52 Mio. Knoten, ~185 Mio. Kanten) ist die Transparenz der Daten das zentrale Kriterium für die Nutzung einer solchen Forschungstechnologie.  
+                </p>
+                <p style="text-align: left; ">In einem iterativen Prototypingprozess zwischen Forscher*innen mit Hintergrund in Geschichtswissenschaften, Data Science, Datenvisualisierung, Kulturwissenschaften und Informationswissenschaften haben sich Prozesse der Forschungsdesign-Entwicklung, der Datentransformation und -zusammenführung, Entwicklung von Visualisierungen und die Evaluation (siehe Balck et al. 2021) dieser Arbeitsbereiche gegenseitig beeinflusst und unterstützt. In einem Co-Design Workshop mit HNA-Forscher*innen und anderen interdisziplinären Teilnehmenden – in dem anhand von Collagen (siehe Chen et al. 2014) Zugänge zu Graph-Daten zur Ermöglichung von HNA-Forschung gestaltet wurden (siehe Abb. 1) – war Transparenz bezüglich der Daten und Visualisierungen ein wichtiger, immer wiederkehrender Diskussionspunkt. Die Forderung nach Kontextualisierung der Daten zeigte sich in den Collagen auch in der vielfältigen Verbindung und Annotation visueller Elemente. </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="8.967611111111111cm" url="Pictures/d0db970f009ab5e512d8bffa68d50768.jpg" rend="inline"/>
+                    <head>Abb. 1: Teilnehmer*innen unseres Co-Design Workshops wurden gebeten Zugänge zu den SoNAR-Daten in Form von Collagen zu gestalten mit dem Ziel, Diskussionen und Austausch über Potenziale visueller Analyse anzuregen.</head>
+                </figure>
+                <p style="text-align: left; ">Weiterhin wurde der Prozess, aufbauend auf dem Ansatz der 
+                    <hi rend="italic">grounded evaluation </hi>(Isenberg et al. 2008) durch Interviews zu Forschungsprozessen und genutzten Tools sowie durch fortlaufende Evaluierung der iterativ entwickelten Projektergebnisse auch unter Einbindung von externen HNA-Forscher*innen im Rahmen einer Nutzer*innenstudie begleitet. In beiden Studien wurden die Transparenz der Modellierungsentscheidungen, die Nachvollziehbarkeit der Datengrundlage und die Unterstützung bei der Dokumentation des eigenen Forschungsprozesses als grundlegende Anforderungen an ein wissenschaftlich nutzbares Visualisierungswerkzeug herausgearbeitet: 
+                </p>
+                <p style="text-align: left; ">
+                    <hi rend="italic">„[...] da würde ich gerne wissen wo diese Informationen herkommen und wie die eigentlich miteinander verknüpft werden und wer auf die Idee gekommen ist das so zu tun.“</hi> (P3) 
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Förderung von Transparenz in Graph Visualisierungen </head>
+                <p style="text-align: left; ">Aus der sich in der Projektarbeit ergebenden Forderung nach Datenklarheit haben wir folgende 
+                    <hi rend="bold">Designziele (DZ) </hi>für interaktive HNA-Visualisierungen abgeleitet: 
+                </p>
+                <p style="text-align: left; ">
+                    <hi rend="bold">DZ1) Aufnahme und Kommunikation von Datenprovenienzen:</hi> Um die Datentransparenz auch nach Datentransformation und Zusammenführungen sicherzustellen, müssen Datenprovenienzen über Merkmale bei Knoten und Kanten unbedingt erhalten werden und über URIs auf die Ausgangsdaten verweisen.  
+                </p>
+                <p style="text-align: left; ">
+                    <hi rend="bold">DZ2) Dokumentation vorausgegangener Prozesse: </hi>Die konkreten Schritte der Datentransformationen und Anwendungen von Algorithmen für Visualisierungen müssen inklusive Code nachvollziehbar und frei verfügbar dokumentiert werden, um Vertrauen zu schaffen und reproduzierbare Ergebnisse sowie kritische Auseinandersetzungen zu ermöglichen. Dies beinhaltet auch eine Versionierung der Daten in allen Zwischenschritten. 
+                </p>
+                <p style="text-align: left; ">
+                    <hi rend="bold">DZ3) Offenhaltung der Interpretierbarkeit der Daten: </hi>Datenunsicherheiten und unterschiedliche Granularitätsstufen müssen für spätere Interpretation in den Daten erhalten bleiben und dürfen nicht durch Normalisierungen entfernt werden. Auch in Visualisierungen müssen Kodierungen verwendet werden, die fachspezifische Einschätzungen und Interpretationen erlauben. Zudem können unterschiedliche Visualisierungsformen oder zugrundeliegende Algorithmen die Interpretation beeinflussen. Um unterschiedlichste Forschungsfragen beantworten zu können und die Interpretierbarkeit gezielt zu fördern, muss dazu eine Vielzahl an An- und Übersichten mit bedarfsabhängigen Graden an Fokus und Detail bereitgestellt werden, die das Potential der Daten sowie Fehlstellen und Unsicherheiten offenlegen.
+                </p>
+                <p style="text-align: left; ">
+                    <hi rend="bold">DZ4) Unterstützung von Folgeforschung:</hi> Zugriff auf die Datenquellen (z.B. Dokumente, Briefe, Publikationen) müssen direkt in der Visualisierung über URIs verfügbar sein, um weitere Recherchen zu ermöglichen. Visualisierungsergebnisse, spezifische Ansichten und die Daten selbst müssen speicherbar, zu verlinken und reproduzierbar sein.  
+                </p>
+                <p style="text-align: left; ">Diese Designziele müssen in der gesamten Daten-Nutzungs-Pipeline – von der
+                    <hi rend="bold"> </hi>Datentransformation über die Aufbereitung der transformierten Daten durch Visualisierungen bis zur möglichen Nachnutzung der Daten und Offenlegung der Prozesse – angesetzt und mitgedacht werden. Interaktivität spielt hier eine Schlüsselrolle, um Bewegungen zwischen zusätzlichen Detailgraden und vereinfachten Darstellungen zu ermöglichen. Die folgenden Abschnitte beschreiben exemplarisch Strategien zur Förderung von Transparenz mit Verweisen auf die konkreten Designziele (DZ1–DZ4).
+                </p>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Unterschiedliche Ansichten für unterschiedliche Bedarfe</head>
+                    <figure>
+                        <graphic n="1002" width="10.16cm" height="7.796388888888889cm" url="Pictures/a83ac1e32a3743d09c0bf320be4f7a78.jpg" rend="inline"/>
+                        <head>Abb. 2: Eine Übersicht bietet eine Meta-Perspektive auf ~52 Mio. Knoten und ~185 Mio. Kanten ab und zeigt z.B. akkumuliert die häufigsten Berufsgruppen von Personen für eine Zeitauswahl.</head>
+                    </figure>
+                    <figure>
+                        <graphic n="1003" width="16.002cm" height="9.784291666666666cm" url="Pictures/0c5bc7d5b0f02710d66264ebb927c255.jpg" rend="inline"/>
+                        <head>Abb. 3: Ein Force-Layout lässt sich dynamisch zu einer Zeit-basierten Ansicht von Knoten transformieren, bei der Knoten mit Hilfe eines Community-Algorithmus angeordnet werden.</head>
+                    </figure>
+                    <p style="text-align: left; ">In einem experimentellen 
+                        <hi rend="italic">Sandcastling</hi> Prozess (Hinrichs et al. 2019) wurden verschiedene Ansichten entwickelt, die eine Exploration der Daten aus unterschiedlichen Perspektiven und mit Fokus auf eine Vielzahl von Daten-Dimensionen ermöglichen (Dörk et al. 2017; Whitelaw 2015) (DZ3). Entstanden sind Ansichten, die als Zugang eine gesamtdatenbasierte, akkumulierte Überblicks-Ansicht nach dem Prinzip „
+                        <hi rend="italic">Overview first [..] then details-on-demand</hi>“ (Shneiderman 1996) mit einzelnen suchbasierten Ansichten nach dem Prinzip „
+                        <hi rend="italic">Search, Show Context, Expand on Demand</hi>“ (van Ham &amp; Perer 2009) kontrastieren. Die übersichtsbasierte Ansicht (Abb. 2) dient dazu, die Relevanz für die Bearbeitung von Forschungsfragen ermitteln zu können, und um darzulegen, auf welchen Daten die Visualisierungen basieren (DZ1). Die suchbasierten Ansichten sollen unterschiedliche Perspektiven auf Basis gezielter Anfragen liefern, und durch die Priorisierung von unterschiedlichen Dimensionen zusätzliche Details für mehr Interpretationsspielraum bieten. Dazu gehören auch klassische Force-basierte Netzwerkdarstellungen (Abb. 5a) und zeitbasierte Ansichten (Abb. 3) (DZ3). 
+                    </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Entfaltung von Kanten und deren Eigenschaften </head>
+                    <figure>
+                        <graphic n="1004" width="16.002cm" height="13.453180555555555cm" url="Pictures/bdaf8a61063fdb847816419ae9ffef8f.jpg" rend="inline"/>
+                        <head>Abb. 4: Die beispielhafte Visualisierung eines Egonetzwerkes, in der alle Beziehungen separat inklusive farbiger Kodierung angezeigt werden, führt zu visuellen Überlagerungen.</head>
+                    </figure>
+                    <figure>
+                        <graphic n="1005" width="16.002cm" height="18.988263888888888cm" url="Pictures/d52edc07b761e3c5553e3cc322807f71.jpg" rend="inline"/>
+                        <head>Abb. 5: Durch die iterative Entfaltung von Kanten<ref target="ftn7" n="7"/> werden in einer Grundansicht (a) mehrere Verbindungen zwischen zwei Personen zusammengefasst und die Anzahl dahinterstehender Beziehungen durch Kantenstärke dargestellt. Auswahl einer Kante führt zu bedarfsabhängigen Entfaltungen von Beziehungen (b), welche durch den gezielten Fokus Enkodierungsmöglichkeiten (z.B. für Unsicherheiten oder Kategorien) ermöglichen.</head>
+                    </figure>
+                    <p style="text-align: left; ">Häufig beruhen Kanten in historischen Netzwerken auf Rekonstruktionen von Beziehungen basierend auf Ressourcen wie Briefen, Tagebüchern, Protokollen oder Publikationen. Um die Datentransparenz bei der Transformation sicherzustellen, haben wir bei der Interpretation der sozialen Relationen aus den Metadaten ein Merkmal mit der ID einer Ursprungsressource an den Kanten hinzugefügt, welches eine eindeutige Identifikation zum Ursprung der Ableitung ermöglicht. Die ID referiert dabei auf einen Metadatensatz, der als Knoten repräsentiert ist und Informationen zu Provenienzangaben enthält (DZ1,2). Eine Herausforderung besteht in der Visualisierung von Provenienzen, da viele Beziehungen zwischen Akteuren auf mehreren Quellen basieren können, was durch die dargestellten Details zu einer Komplexitätserhöhung führen kann. Ein Netzwerk, in dem alle Beziehungen jeweils in unterschiedlichen Farben je nach Ursprungsquelle dargestellt werden, führt zu vielen Kantenüberlappungen (Abb. 4). Unser Ansatz besteht darin, die Kanten zwischen zwei Akteuren für eine übersichtlichere Ansicht zunächst zu gruppieren (Abb. 5a), und nur bei Bedarf per Auswahl zu entfalten (Abb. 5b) (Bludau et al. 2021; Brüggemann et al. 2020). So lassen sich gezielt Details anzeigen und Quellen verlinken (DZ1,4). </p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Nachnutzung und Dokumentation </head>
+                    <p style="text-align: left; ">Die Verlinkung in der Visualisierung zu Ursprungs-URIs von Knoten und Kanten ermöglicht es Nutzer*innen direkt Daten zu überprüfen oder Recherchen fortzusetzen (DZ1,4). Weiterhin sind die Verlinkung und Speicherung von Visualisierungsansichten (inklusive Filterungen und Selektionen), aber auch der gezielte Daten-Download wichtige Bestandteile der Transparenz (DZ4). Die Nutzer*innenstudie und Interviews haben auch gezeigt, dass insbesondere für Anwender*innen mit Fokus auf quantitative Analysen der einfache Zugang zu den Daten selbst wesentlich wichtiger ist als deren Visualisierung, und dass die Dokumentation der Prozesse um das Daten-Retrieval und die Visualisierung eine hohe Priorität haben. Um weitere Analyse-Möglichkeiten bereitzustellen, setzen wir zusätzlich zu Explorations-fokussierten Visualisierung auf einen Daten-Zugang über dokumentierende und als Einführung dienende Jupyter-Notebooks. Diese sind durch die Verbindung von Code und beschreibendem Text eine in sich geschlossene Dokumentation und sind so in der Lage in der Visualisierung dargestellte Prozesse festzuhalten, sie reproduzierbar zu machen, aber auch darüberhinausgehende Analysen und statistische Methoden zu ermöglichen (DZ2). Aufbereitet in einem Curriculum für historische Netzwerkanalyse mit Jupyter Notebooks werden hierdurch auch (mit diesen Methoden unerfahrene) Nutzer*innen zur Verwendung parametrisierbarer Methoden, die über die Visualisierung hinausgehen, befähigt. Weiterhin wird der Quellcode für die Visualisierungen und die Datenzusammenführungen für Nachnutzung und Transparenz frei verfügbar gemacht (DZ2,4).</p>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Reflexion der Ergebnisse und Diskussion </head>
+                <p style="text-align: left; ">Die Diskussionen in der Forschungsliteratur zur HNA, vorausgegangene Forschungsprojekte und unser eigener Forschungsprozess bestätigen: Transparenz ist eine grundlegende Voraussetzung, um Netzwerkdaten und Visualisierungen für die HNA nutzbar zu machen und in den wissenschaftlichen Diskurs einbringen zu können. Bislang mangelt es an konkreten Strategien, um Transparenz insbesondere bei der Sekundärnutzung von Daten mit Blick auf Provenienzen, Unsicherheiten und Prozesse herstellen zu können. Zugleich führt die Einführung von zusätzlichen Datendimensionen für Datenprovenienzen in Visualisierungen zu einer erhöhten Komplexität, die wiederum Interpretationen erschwert. </p>
+                <p style="text-align: left; ">Die hier skizzierten Strategien wurden gezielt für die Exploration und Analyse von historischen sozialen Netzwerken entwickelt, anschließend beispielhafte Umsetzungsstrategien im Rahmen des SoNAR-Projektes in Form von Prototypen präsentiert und fortlaufend evaluierend (siehe Balck et al. 2021) begleitet. Interaktivität erwies sich dabei als wirkungsvolles Werkzeug, das helfen kann, dynamisch und Nutzer*innenspezifisch größtmögliche Transparenz herzustellen, ohne zu komplexe und dadurch unzugängliche Ansichten zu erzeugen. Weitere Lösungen müssen noch für die Darstellungen von unsicheren Beziehungen gefunden werden, um den Nutzer*innen eine erste Einschätzung zu ermöglichen, etwa durch die Anzeige von Wahrscheinlichkeitsgraden auf Grundlage von wiederum nachvollziehbaren Indikatoren und Algorithmen. Großes Potential verspricht die Dokumentation und Weiterbearbeitung über Notebooks inklusive offenem Sourcecode. Hier bieten die ergänzenden Notebooks detaillierte Erklärungen und individualisierbare Analysemethoden.</p>
+                <p style="text-align: left; ">Für Forschungsumgebungen mit einer perspektivisch großen Anzahl von zusammengeführten Datenrepositorien, wie in unserem Fall als Sekundärnutzung von Bibliotheks- und Archivdaten, ist die Umsetzung von umfassenden Konzepten zur Transparenz der Datenprovenienz, -modellierung, -aufbereitung und -visualisierung für einen nachprüfbaren und nachvollziehbaren Einsatz in der Historischen Netzwerkanalyse zwingend notwendig.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Danksagung</head>
+                <p style="text-align: left; ">Wir danken unseren Kolleg*innen aus dem DFG-Verbundprojekt SoNAR(IDH): Michael Czolkoss-Hettwer, Katrin Getschmann, Kerstin Humm, Elena Leitner, Hans-Jörg Lieder, Sina Menzel, Gerhard Müller, Clemens Neudecker, Felix Ostrowski, Vivien Petras, Larissa Schmid, Elena Leitner, Florian Richter, Julian Moreno Schneider, Michael C. Schneider, David Zellhöfer und Josefine Zinck.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                            <ref target="https://sonar.fh-potsdam.de">https://sonar.fh-potsdam.de</ref>
+                        </note><note place="foot" xml:id="ftn2" n="2"> Gemeinsame Normdatei: 
+                            <ref target="https://gnd.network">https://gnd.network</ref>
+                        </note><note place="foot" xml:id="ftn3" n="3"> Kalliope: 
+                            <ref target="https://kalliope-verbund.info">https://kalliope-verbund.info</ref>
+                        </note><note place="foot" xml:id="ftn4" n="4"> Katalog der Deutschen Nationalbibliothek: 
+                            <ref target="https://www.dnb.de">https://www.dnb.de</ref>
+                        </note><note place="foot" xml:id="ftn5" n="5"> Zeitschriftendatenbank: 
+                            <ref target="https://zdb-katalog.de/index.xhtml">https://zdb-katalog.de/index.xhtml</ref>  
+                        </note><note place="foot" xml:id="ftn6" n="6"> Katalog der Staatsbibliothek zu Berlin: 
+                            <ref target="https://stabikat.de">https://stabikat.de</ref>
+                        </note><note place="foot" xml:id="ftn7" n="7"> Demo-Video: 
+                                <ref target="https://sonar.fh-potsdam.de/demos/kantenentfaltung.mp4">https://sonar.fh-potsdam.de/demos/kantenentfaltung.mp4</ref>
+                            </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Balck, S. / Menzel, S. / Petras, V. / Schnaitter, H. / Zinck, J. </hi>(2021): "Fluch und Segen der Visualisierung: Unterschiedliche Zielfunktionen im Forschungsprozess der historischen Netzwerkanalyse", in: 
+                        <hi rend="italic">DHd 2022 Kulturen des digitalen Gedächtnisses. Konferenzabstracts. Tagung des Verbands Digital Humanities, March 7-11, Potsdam, Germany</hi>. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bludau, M.-J. / Dörk, M. / Fangerau, H. / Halling, T. / Leitner, E. / Menzel, S. / Müller, G. / Petras, V. / Rehm, G. / Neudecker, C. / Zellhöfer, D. / Moreno Schneider, J.</hi> (2020): "SoNAR (IDH): Datenschnittstellen für historische Netzwerkanalyse", in: Schöch, C. (ed.), 
+                        <hi rend="italic">DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation. Poster. Konferenzabstracts. Tagung des Verbands Digital Humanities, March 2-6, Paderborn, Germany</hi>: 360–362.  
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Bludau, M.-J. / Dörk, M. / Tominski, C.</hi> (2021): "Unfolding Edges for Exploring Multivariate Edge Attributes in Graphs", in: Byška, J. / Jänicke, S./ Schmidt, J. (eds.), 
+                        <hi rend="italic">EuroVis 2021—Posters</hi>. The Eurographics Association. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Brüggemann, V. / Bludau, M.-J. / Dörk, M.</hi> (2020): "The Fold: Rethinking Interactivity in Data Visualization", in: 
+                        <hi rend="italic">DHQ: Digital Humanities Quarterly</hi> 14(3). 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/14/3/000487/000487.html">http://www.digitalhumanities.org/dhq/vol/14/3/000487/000487.html</ref> [letzter Zugriff 15. Juli 2021]. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Campbell, S. / Yu, Z. Y. / Connell, S. / Dunne, C.</hi> (2018): "Close and Distant Reading via Named Entity Network Visualization: A Case Study of Women Writers Online", in: 
+                        <hi rend="italic">Proceedings of the 3rd Workshop on Visualization for the Digital Humanities. VIS4DH.</hi> 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Chen, K. / Dörk, M. / Dade-Robertson, M.</hi> (2014): "Exploring the Promises and Potentials of Visual Archive Interfaces", in: 
+                        <hi rend="italic">Proceedings of the 2014 iConference</hi> 735–741. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Dörk, M. / Pietsch, C. / Credico, G.</hi> (2017): "One view is not enough: High-level visualizations of a large cultural collection", in: 
+                        <hi rend="italic">Information Design Journal</hi> 23(1): 39-47. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Drucker, J.</hi> (2011): "Humanities approaches to graphical display", in: 
+                        <hi rend="italic">Digital Humanities Quarterly</hi> 5(1): 1-21. 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html">http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html</ref> [letzter Zugriff 15. Juli 2021]. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Düring, M. / Eumann, U. / Stark, M. / Keyserlingk, L.v.</hi> (2016): <hi rend="italic">Handbuch Historische Netzwerkforschung. Grundlagen und Anwendungen</hi>, Berlin: LIT-Verlag. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Düring, M. / Grandjean, M.</hi> (2021):
+                        <hi rend="italic">Journal of Historical Network Research Bibliography</hi> 7. 
+                        <ref target="https://historicalnetworkresearch.org/bibliography/">https://historicalnetworkresearch.org/bibliography/</ref>
+                        <hi rend="underline"> </hi>[letzter Zugriff 15. Juli 2021]. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Griffith, D. M. / Veech, J. A. / Marsh, C. J. </hi>(2016): "cooccur: Probabilistic Species Co-Occurrence Analysis in R. Journal of Statistical Software", in: 
+                        <hi rend="italic">Journal of Statistical Software, Code Snippets</hi> 69(2): 1–17. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hadlak, S. / Schumann, H. / Schulz, H.-J.</hi> (2015):
+                        <hi rend="bold"> </hi>"A Survey of Multi-faceted Graph Visualization", in: 
+                        <hi rend="italic">Eurographics Conference on Visualization (EuroVis) - STARs.</hi> 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hinrichs, U. / Forlini, S. / Moynihan, B.</hi> (2019): "In defense of sandcastles: Research thinking through visualization in digital humanities", in: 
+                        <hi rend="italic">Digital Scholarship in the Humanities</hi> 34(1): 80-99. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Isenberg, P. / Zuk, T. / Collins, C. / Carpendale, S. </hi>(2008):
+                        <hi rend="bold"> </hi>"Grounded evaluation of information visualizations", in: 
+                        <hi rend="italic">Proceedings of the 2008 Workshop on Beyond time and errors: novel evaLuation methods for Information Visualization</hi>: 1-8. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Kerschbaumer, F. / von Keyserlingk, L. / Stark, M. / Düring, M.</hi> (2020): <hi rend="italic">The Power of Networks: Prospects of Historical Network Research</hi>. Routledge. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Kleymann, R. / Stange, J.-E. </hi>(2021): "Towards Hermeneutic Visualization in Digital Literary Studies", in: 
+                        <hi rend="italic">DHQ: Digital Humanities Quarterly</hi> 15(2). 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/15/2/000547/000547.html">http://www.digitalhumanities.org/dhq/vol/15/2/000547/000547.html</ref> [letzter Zugriff 01. Dezember 2021]. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Lamqaddam, H. / Moere, A. V. / Abeele, V. V. / Brosens, K. / Verbert, K. </hi>(2020)
+                        <hi rend="bold">:</hi> "Introducing Layers of Meaning (LoM): A Framework to Reduce Semantic Distance of Visualization", in:  
+                        <hi rend="italic">IEEE Transactions on Visualization and Computer Graphics 27 (2)</hi>: 1084-1094. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Lee, B. / Plaisant C. / Parr, C. S. / Fekete, J.-D. / Henry, N.</hi> (2006): "Task taxonomy for graph visualization", in: 
+                        <hi rend="italic">Proceedings of the 2006 AVI Workshop on BEyond Time and Errors Novel Evaluation Methods for Information Visualization - BELIV </hi>1.  
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Nobre, C. / Meyer, M. / Streit, M. / Lex, A.</hi> (2019): "The State of the Art in Visualizing Multivariate Networks", in: 
+                        <hi rend="italic">Computer Graphics Forum </hi>38(3): 807–832. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Novak, J. / Micheel, I. / Melenhorst, M. / Wieneke, L. / Düring, M. / Moron, J. G. / Pasini, C. / Tagliasacchi, M. / Fraternali, P.</hi> (2014): "HistoGraph—A Visualization Tool for Collaborative Analysis of Networks from Historical Social Multimedia Collections" in: 
+                        <hi rend="italic">18th International Conference on Information Visualisation</hi>: 241–250. https://doi.org/10.1109/IV.2014.47. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Ragan, E. D. / Endert, A. / Sanyal, J. / Chen, J. </hi>(2016): "Characterizing provenance in visualization and data analysis: An organizational framework of provenance types and purposes", in: 
+                        <hi rend="italic">IEEE Transactions on Visualization and Computer Graphics</hi> 22(1):31–40. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Scholtes, I.</hi> (2017): "When is a network a network? multi-order graphical model selection in pathways and temporal networks", in:
+                        <hi rend="italic"> Proceedings of the 23rd ACM SIGKDD international conference on knowledge discovery and data mining: </hi>1037-1046. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Shneiderman, B.</hi> (1996): "The eyes have it: A task by data type taxonomy for information visualizations", in: 
+                        <hi rend="italic">Visual Languages, 1996. IEEE Symposium on Proceedings: </hi>336–343. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">van Bree, P. / Kessels, G.</hi> (2017): "nodegoat: Enabling Explorative Research", in: 
+                        <hi rend="italic">Digital Humanities Conference</hi>. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">van Ham, F. / Perer, A.</hi> (2009): "’Search, show context, expand on demand’: Supporting large graph exploration with degree-of-interest", in: 
+                        <hi rend="italic">IEEE Transactions on Visualization and Computer Graphics</hi> 15(6): 953-960. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Whitelaw, M. </hi>(2015): "Generous Interfaces for Digital Cultural Collections", in: 
+                        <hi rend="italic">DHQ: Digital Humanities Quarterly</hi> 9(1). 
+                        <ref target="http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html">http://www.digitalhumanities.org/dhq/vol/9/1/000205/000205.html</ref>  [letzter Zugriff 15. Juli 2021]. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

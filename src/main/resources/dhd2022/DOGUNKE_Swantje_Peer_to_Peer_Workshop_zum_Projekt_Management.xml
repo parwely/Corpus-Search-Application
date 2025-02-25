@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_116">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peer-to-Peer-Workshop zum Projekt Management in den Digital Humanities</title>
+                <author>
+                    <persName>
+                        <surname>Cremer</surname>
+                        <forename>Fabian</forename>
+                    </persName>
+                    <affiliation>Leibniz-Institut für Europäische Geschichte</affiliation>
+                    <email>Cremer@ieg-mainz.de</email>
+                <idno type="ORCID">0000-0001-8251-9727</idno></author>
+                <author>
+                    <persName>
+                        <surname>Dogunke</surname>
+                        <forename>Swantje</forename>
+                    </persName>
+                    <affiliation>Thüringer Universitäts- und Landesbibliothek, Germany</affiliation>
+                    <email>swantje.dogunke@gmail.com</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Neubert</surname>
+                        <forename>Anna</forename>
+                    </persName>
+                    <affiliation>Universität Bielefeld</affiliation>
+                    <email>aneubert@uni-bielefeld.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Wübbena</surname>
+                        <forename>Thorsten</forename>
+                    </persName>
+                    <affiliation>Leibniz-Institut für Europäische Geschichte</affiliation>
+                    <email>Wuebbena@ieg-mainz.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-29T14:05:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Workshop</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Vernetzung</term>
+                    <term>Peer-to-Peer</term>
+                    <term>Reflektion</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Kommunikation</term>
+                    <term>Theoretisierung</term>
+                    <term>Community-Bildung</term>
+                    <term>Projektmanagement</term>
+                    <term>Curricula</term>
+                    <term>Projekte</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">116</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Kontext und Einführung</head>
+                <p>Interdisziplinäre Wissensproduktion innerhalb der digitalen geistes- und kulturwissenschaftlichen Forschung benötigt verschiedene Planungs-, Koordinierungs- und Steuerungselemente, um eine erfolgreiche Zusammenarbeit zu ermöglichen. Dabei müssen unterschiedliche Aufgaben koordiniert, Wissen, Herausforderungen und Fortschritte kommuniziert und eine übergreifende Forschungsvision akzeptiert und umgesetzt werden, damit ein Projekt gelingt (Neubert 2020). Das Zusammenführen verschiedener Stakeholder, wie die Mitarbeitenden in Archiven, Bibliotheken, Infrastruktureinrichtungen, Museen oder Stiftungen mit Forschenden in Geisteswissenschaften und Informatik erfordert daher grundlegendes Wissen über Praktiken und Gegenstände und setzt Kenntnisse über die jeweiligen Vorgehensweisen voraus. Unterschiedliche Konzepte, Werkzeuge sowie ein Verständnis von Projektmanagement sind hier unabdingbare Voraussetzungen, um erfolgreich zusammenzuarbeiten und zu interessanten sowie innovativen Ergebnissen zu gelangen (Komprecht und Röwenstrunk 2016).</p>
+                <p>Gerade wenn es also auch um die „Kulturen des digitalen Gedächtnisses“ geht, trägt die sorgfältige Planung und Koordination von Projekten dazu bei, besser mit Möglichkeiten und Konsequenzen der digitalen Gedächtnisarbeit umzugehen. Dazu gehören neben effektivem Zeit- und Beziehungsmanagement auch die theoretische wie praktische Auseinandersetzung im Umgang mit verschiedenen Gruppen, Zeitschienen und Kulturen. Welche Chancen ergeben sich für die digitale geisteswissenschaftliche Gedächtnisarbeit durch gutes Projektmanagement? Welche Planungs- und Koordinierungselemente sind besonders wichtig und können in (digitalen) interdisziplinären Teams hilfreich sein? Wie können Potenziale erkannt und Risiken in solchen Projekten minimiert werden?</p>
+                <p>Neben den methodischen Fragestellungen beeinflussen auch die individuellen, strukturellen und organisatorischen Rahmenbedingungen die Projektarbeit in den DH. Welche Fähigkeiten und Kompetenzen sind für das Projektmanagement in den DH entscheidend und wie werden diese erlernt oder erfahren? Welche Rollen und welches Rollenverständnis bilden Grundlage für die Zusammenarbeit? Wie lässt im Wissenschaftssystem aus Aufgaben im Projektmanagement Anerkennung und Reputation gewinnen? In unserem Peer-to-Peer-Workshop wollen wir im Rahmen eines World Cafés diesen und anderen Fragen nachgehen und mit allen interessierten Forscher:innen und Projektmanager:innen diskutieren und dabei einen Raum schaffen, sich über methodische Fragen und persönliche Erfahrungen mit Projektplanung, Projektmanagement und Koordinierungsaufgaben in der digitalen interdisziplinären Wissensproduktion auszutauschen.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Bedarf und Genese</head>
+                <p>Die Vermittlung von Fähigkeiten und Methoden im Projektmanagement ist bisher kein weit verbreiteter Teil der Curricula in den DH-Studiengängen - Ausnahmen sind hier DH-Studiengänge in München oder Graz -, oder Gegenstand der verfügbaren Handbücher im deutschsprachigen Raum (vgl. Cremer 2019). Während in englischsprachigen DH Summer Schools regelmäßig Einführungen in das Projektmanagement stattfinden, steht dies in der DHd-Community noch aus. Jenseits dieses Desiderats fehlt es darüber hinaus auch an Möglichkeiten eines grundsätzlichen Wissensaustauschs über die Forschungspraxis und den Einsatz von Projektmanagementmethoden in den DH im deutschsprachigem Raum.<ref target="https://pad.gwdg.de/rlrfoPvASduU1iwv1ib7JQ#fn1">
+                        <hi rend="superscript color(337AB7)" style="font-family:Segoe UI;font-size:9pt">[1]</hi>
+                    </ref> Es existiert eine Vielzahl an Digital Humanists, die sich die Fähigkeiten oft durch die „school of hard learned experience“ (Siemens 2016) aneignen mussten. Die Personen, die häufig als „Intermediaries“ (Edmond 2005) in DH-Projekten das Projektmanagement übernehmen (teilweise ohne Auftrag), finden jedoch nur wenig Austauschmöglichkeiten, weil sie im Projektkontext und auch in den Organisationen oft die einzigen Personen mit dieser Rolle und damit „strukturell isoliert“ sind (Cremer et al. 2018). Ein Konzeptionstreffen zu einer Interviewreihe zu Projektmanagement im Rahmen den vDHd2021 (Cremer et al. 2021) hat eine Vielzahl der Akteur:innen zusammengebracht, die hierbei den Bedarf nach einem Austauschformat und einer Netzwerkbildung festgestellt haben. Weiter wurden hier mehrere Themenkomplexe identifiziert, die sich für einen Erfahrungsaustausch und inhaltliche Auseinandersetzung eignen.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ziele und Umsetzung</head>
+                <p>Der hier vorgeschlagene Workshop bietet den Teilgebenden Möglichkeiten der Auseinandersetzung und Weiterentwicklung der spezifischen Themen im Bereich des DH-Projektmanagements. Der hierfür notwendige Grad an Partizipation wird bereits im Vorfeld durch Beteiligung an der Programmgestaltung im Rahmen eines (
+                    <hi rend="italic">
+                        <hi rend="color(333333)" style="font-family:Segoe UI" xml:space="preserve">Call for </hi>
+                        <hi rend="color(333333)" style="font-family:Segoe UI">Ideas</hi>
+                    </hi>) ermöglicht. Die konkrete Bearbeitung der aufgeworfenen Fragen und Ideen erfolgt gemeinsam in der Gruppe in einem Peer-to-peer-Format im Rahmen eines World Café (Brown und Isaacs 2001). Die Prinzipien der Partizipation und Multiperspektivität sowie der gemeinsamen Ergebnissicherung und Dokumentation im World Café ermöglichen Wissensaustausch und Erkenntnisgewinn. Das World Café ist in der DHd-Community bereits als erfolgreiches Austausch- und Entwicklungsformat etabliert (vgl. Roeder et al. 2020 sowie Geiger und Pfeiffer 2020).
+                </p>
+                <p>Zugleich wird mit der Durchführung und wissenschaftlichen Begleitung dieser Veranstaltung die Sensibilisierung für Projektmanagement in den DH erhöht. Ähnliche Effekte lassen sich bereits durch vorhergehende Veranstaltungen der DHd-Tagungen beobachten, wo insbesondere auch Studierende mit diesem Themenkomplex erstmals in Berührung gekommen sind. Der hier vorgeschlagene Workshop knüpft an diese Entwicklungen in der DHd-Community an, dazu gehören die Erfahrungen im Projektmanagement als Teil der Koordination von DH-Aktivitäten (Cremer et al. 2019 und Roeder et. al 2020) sowie die Interviewreihe zu Projektmanagement in den Digital Humanities auf der vDHd 2021 (Cremer et al. 2021). Die Dokumentation der an den Tischen entwickelten Ideen und die spätere Aufbereitung durch die Workshop-Veranstaltenden in Form von sowohl Blog- als auch wissenschaftlichen Beiträgen können eine hilfreiche Grundlage für eine methodische Weiterentwicklung und organisatorische Strukturbildung sein.</p>
+                <p>Der strukturierte „Peer-to-Peer“-Austausch bietet neben dem Wissensaustausch und konzeptionellen Lösungsentwicklungen auch die Möglichkeit, weitergehende individuelle Formate (Bildung einer eigenen Peer Group etwa über eine Mailing-Liste) oder institutionelle Strukturen (Bildung eines Netzwerkes oder Arbeitsgruppe innerhalb des DHd-Verbandes) zu entwickeln, die über das sporadische und unregelmäßige Zusammenkommen hinausgehen. Hier soll der Workshop ergebnisoffen sowohl Impulse zur Entwicklung von Ideen geben, gemeinsame Interessen identifizieren und auch Raum für die Bildung der individuellen Netzwerke geben. Die Verortung dieser Teil-Community und die Gestaltung der Kommunikationsstrukturen kann sich im Rahmen des Workshops herauskristallisieren.</p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Themen und Ideenentwicklung</head>
+                <p>Über einen 
+                    <hi rend="italic">
+                        <hi rend="color(333333)" style="font-family:Segoe UI" xml:space="preserve">Call for </hi>
+                        <hi rend="color(333333)" style="font-family:Segoe UI">Ideas</hi>
+                    </hi> möchten wir die Fragestellungen und Konzepte aus der Community bezüglich des weitgefächerten Themenkomplexes abfragen. Die eingegangenen Vorschläge werden von den Workshop-Veranstaltenden ausgewertet, ggf. zusammengefasst und ausgewählt, so dass in der Überarbeitungsphase dieses Beitrages die Themen bereits festgelegt sind. Der offene Call stellt sicher, dass die diskutierten Themen den Bedürfnissen der Community der Projektmanager:innen in den DH entsprechen. Die Rolle der Workshopleitung wird darin liegen, die eingereichten Themen zu strukturieren, die Moderation der Veranstaltung zu übernehmen und die Ergebnissicherung zu begleiten. Die folgenden Themen wurden aus der Community in vorhergehenden Veranstaltungen erarbeitet und geben einen Eindruck in das zu erwartende Programm ohne das diese Themen als gesetzt oder notwendig anzusehen sind:
+                </p>
+                <list type="unordered">
+                    <item>Managementkultur in den Geisteswissenschaften: Gibt es in den Geisteswissenschaften eine Management-Tradition nur unter anderem Namen? Was hat sich mit der Digitalen Transformation verändert und inwiefern bedürfen die DH ein spezifisches Projektmanagement? Werden Selbstbestimmung und Steuerung bzw. Selbstorganisation und Teamstrukturen als gegensätzliche Kulturen wahrgenommen?</item>
+                    <item>Projektmanagement gelernt und gelehrt: Welche Kompetenzen sind für ein Projektmanagement in den DH erforderlich? Wo sollte Projektmanagement in der Lehre verortet werden? Wie und wo haben die Teilgebenden die theoretische Ebene reflektiert und die praktische Ebene erfahren?</item>
+                    <item>Operationalisierung von Projektmanagement: Wie unterscheiden wir zwischen operativer, administrativer und strategischer Managementebene? Benötigt es dezidierte Stellen oder ist Projektmanagement eine (geteilte) Aufgabe für alle? Wie lässt sich Projektmanagement als eine „Teilaufgabe“ im Projekt operationalisieren und in den Einrichtungen institutionalisieren?</item>
+                    <item>Projektmanagement als Teil der Wissenschaft: Welche Managementkonzepte lassen sich als wissenschaftliches Arbeiten charakterisierten? Wie lässt im Wissenschaftssystem Anerkennung und Reputation gewinnen? Welche Formate und Bedingungen erlauben eine theoretische Reflexion der vorhandenen Managementtätigkeiten und Strukturen.</item>
+                </list>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Organisation und Ablauf</head>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Roadmap</head>
+                    <list type="unordered">
+                        <item>November 2021: Call for Ideas</item>
+                        <item>Dezember 2021: Redaktion der Themen</item>
+                        <item>Januar 2022: Endfassung des Abstracts mit allen Themen und Beitragenden</item>
+                        <item>März 2022: World Café auf der DHd 2022</item>
+                        <item>Juni 2022: Veröffentlichung der Dokumentation</item>
+                    </list>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Ablauf der Veranstaltung</head>
+                    <list type="ordered">
+                        <item>Intro (15 min)
+                            <list type="ordered">
+                                <item>Themeneinführung</item>
+                                <item>Erläuterung des Formats World Café</item>
+                            </list>
+                        </item>
+                        <item>World Café Qualifying (25 min)
+                            <list type="ordered">
+                                <item>Vorstellung der Thementische</item>
+                                <item>Gruppenbildung und informeller Austausch</item>
+                            </list>
+                        </item>
+                        <item>World Café Runden (4-5 Runden) (4-5 x 20 min + je 5 min Pause)
+                            <list type="ordered">
+                                <item>Diskussion und Dokumentation</item>
+                                <item>Rotation der Gruppen und Tische</item>
+                            </list>
+                        </item>
+                        <item>World Café Endrunde (30 min + 15 min Pause)
+                            <list type="ordered">
+                                <item>Präsentation der Tischplakate</item>
+                                <item>Zusammenfassung der Ergebnisse</item>
+                            </list>
+                        </item>
+                        <item>Outro (25 min)
+                            <list type="ordered">
+                                <item>Fortführung und Verstetigung des Austauschs</item>
+                                <item>Verabschiedung</item>
+                            </list>
+                        </item>
+                    </list>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Formalia</head>
+                    <p>Zielpublikum: alle Interessierten, Vorerfahrung im Projektmanagement wünschenswert, aber keine Voraussetzung</p>
+                    <p>Zahl der möglichen Teilnehmerinnen und Teilnehmer: bis 30 (bis zu 5 Themen/Tische à 20 min mit je 4-7 Diskutant:innen)</p>
+                    <p>Benötigte technische Ausstattung: 5 Tischgruppen, A0-Papierbögen, Moderationskarten, dicke Filzstifte, Aufhängung für die Papierbögen (Wand oder Stellwand)</p>
+                </div>
+                <div type="div2" rend="DH-Heading2">
+                    <head>Workshopleitung</head>
+                    <list type="unordered">
+                        <item>
+                            <ref target="https://orcid.org/0000-0001-8251-9727">Fabian Cremer</ref>;
+                            (<ref target="https://twitter.com/fabian_cremer">@fabian_cremer</ref>); Leibniz-Institut für Europäische Geschichte (IEG); 
+                            <ref target="mailto:cremer@ieg-mainz.de">cremer@ieg-mainz.de</ref>
+                            <p>Forschungsinteressen: Forschungsdatenmanagement, Digitale Transformation und Arbeitsteilung im Forschungsprozess, Soziale Forschungsinfrastrukturen</p>
+                    </item>
+                        <item>
+                            <ref target="https://orcid.org/0000-0002-5293-7044">Swantje Dogunke</ref>;
+                            <ref target="https://twitter.com/swagunke">(@swagunke</ref>); Thüringer Universitäts- und Landesbibliothek (ThULB) Jena; 
+                            <ref target="mailto:swantje.dogunke@uni-jena.de">swantje.dogunke@uni-jena.de</ref>
+                            <p>Forschungsinteressen: Partizipativer Aufbau von Infrastruktur und Services in den DH, digitale Editionen, Modellierung</p>
+                        </item>
+                        <item>
+                            <ref target="https://orcid.org/0000-0002-7528-1842">Anna Maria Neubert</ref>;
+                            <ref target="https://twitter.com/annamneubert">(@annamneubert</ref>); Universität Bielefeld; 
+                            <ref target="mailto:aneubert@uni-bielefeld.de">aneubert@uni-bielefeld.de</ref>
+                            <p>Forschungsinteressen: Digitalisierung der Wissenschaften, Projektmanagement, Forschungsförderung, Wissenschaftspolitik</p>
+                        </item>
+                        <item>
+                            <ref target="https://orcid.org/0000-0001-8172-6097">Thorsten Wübbena</ref>;
+                            <ref target="https://twitter.com/ThWuebbena">(@ThWuebbena</ref>); Leibniz-Institut für Europäische Geschichte (IEG); 
+                            <ref target="mailto:wuebbena@ieg-mainz.de">wuebbena@ieg-mainz.de</ref>
+                            <p>Forschungsinteressen: Digitale Kunstgeschichte, Wissensrepräsentation, Forschungsinfrastrukturen, Offene Forschungsdaten</p>
+                        </item>
+                    </list>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl><hi rend="bold">Cremer, Fabian</hi>. 2019. „Gottes Werk und Teufels Beitrag: Ein Essay zu Digital Humanities und Projektmanagement“. Blog. <hi rend="italic">DHd-Blog</hi> (blog). 19. März 2019. 
+                        <ref target="https://dhd-blog.org/?p=11283">
+                            <hi rend="color(337AB7)" style="font-family:Segoe UI">https://dhd-blog.org/?p=11283</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Cremer, Fabian, Swantje Dogunke, und Thorsten Wübbena</hi>. 2021. „Unfrequently Asked Questions: Interviewreihe zu Projektmanagement in den Digital Humanities“. Gehalten auf der <hi rend="italic">vDHd 2021 – Experimente</hi>, Januar 28. 
+                        <ref target="https://vdhd2021.hypotheses.org/187">
+                            <hi rend="color(337AB7)" style="font-family:Segoe UI">https://vdhd2021.hypotheses.org/187</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Edmond, Jennifer</hi>. 2005. „The Role of the Professional Intermediary in Expanding the Humanities Computing Base“. <hi rend="italic">Literary and Linguistic Computing</hi> 20 (3): 367–80. 
+                        <ref target="https://doi.org/10.1093/llc/fqi036">
+                            <hi rend="color(337AB7)" style="font-family:Segoe UI">https://doi.org/10.1093/llc/fqi036 </hi>
+                        </ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Geiger, Jonathan, und Jasmin Pfeiffer</hi>. 2020. „Spielplätze der Theoriebildung in den Digital Humanities“. Gehalten auf der <hi rend="italic">DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation</hi>. 7. Tagung des Verbands „Digital Humanities im deutschsprachigen Raum“ (DHd 2020), Paderborn, Februar 20. 
+                        <ref target="https://doi.org/10.5281/zenodo.4621980">
+                            <hi rend="color(337AB7)" style="font-family:Segoe UI">https://doi.org/10.5281/zenodo.4621980 </hi>
+                        </ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Komprecht, Anna Maria, und Daniel Röwenstrunk</hi>. 2016. „Projektmanagement in digitalen Forschungsprojekten. Ein Leitfaden für interdisziplinäre und kooperative Drittmittelprojekte im Umfeld Digitaler Editionen“. In <hi rend="italic">„Ei, dem alten Herrn zoll’ ich Achtung gern’“. Festschrift für Joachim Veit zum 60. Geburtstag</hi>. 
+                        <ref target="https://pub.uni-bielefeld.de/record/2912214">
+                            <hi rend="color(337AB7)" style="font-family:Segoe UI">https://pub.uni-bielefeld.de/record/2912214</hi>
+                        </ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Neubert, Anna Maria</hi>. 2020. „Navigating Disciplinary Differences in (Digital) Research Projects Through Project Management“. In <hi rend="italic">Digital Methods in the Humanities</hi>, herausgegeben von Silke Schwandt, 59–86. 
+                        <ref target="https://doi.org/10.14361/9783839454190-003">
+                            <hi rend="color(337AB7)" style="font-family:Segoe UI">https://doi.org/10.14361/9783839454190-003 </hi>
+                        </ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Roeder, Torsten, Fabian Cremer, Swantje Dogunke, Frederik Elwert, Harald Lordick, Katrin Ott, Sibylle Söring, und Thorsten Wübbena</hi>. 2020. „Digital Humanities from Scratch 2020“. Gehalten auf der <hi rend="italic">DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation</hi>. 7. Tagung des Verbands „Digital Humanities im deutschsprachigen Raum“ (DHd 2020), Paderborn, März 2. 
+                        <ref target="https://doi.org/10.5281/zenodo.4621848">
+                            <hi rend="color(337AB7)" style="font-family:Segoe UI">https://doi.org/10.5281/zenodo.4621848 </hi>
+                        </ref>.
+                    </bibl>
+                    <bibl><hi rend="bold">Siemens, Lynne</hi>. 2016. „Project Management and the digital humanist“. In <hi rend="italic">Doing digital humanities: practice, training, research</hi>. New York.</bibl>
+                    <bibl><hi rend="bold">Steyer, Timo, Fabian Cremer, Swantje Dogunke, Corinna Mayer, Katrin Neumann, und Thorsten Wübbena</hi>. 2018. „Peer-To-Peer statt Client-Server: Der Mehrwert Kollegialer Beratung und agiler DH-Treffen“. In <hi rend="italic">DHd2018: Kritik der digitalen Vernunft</hi>. Köln. 
+                        <ref target="https://doi.org/10.5281/zenodo.1186594">
+                            <hi rend="color(337AB7)" style="font-family:Segoe UI">https://doi.org/10.5281/zenodo.1186594</hi>
+                        </ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

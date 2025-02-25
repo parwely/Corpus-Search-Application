@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_129">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Semantische Suche mit Word Embeddings für ein mehrsprachiges Wörterbuchportal</title>
+                <author>
+                    <persName>
+                        <surname>Tu</surname>
+                        <forename>Ngoc Duyen Tanja</forename>
+                    </persName>
+                    <affiliation>Leibniz-Institut für Deutsche Sprache, Germany</affiliation>
+                    <email>tu@ids-mannheim.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Meyer</surname>
+                        <forename>Peter</forename>
+                    </persName>
+                    <affiliation>Leibniz-Institut für Deutsche Sprache, Germany</affiliation>
+                    <email>meyer@ids-mannheim.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2020-08-20T15:33:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>word embeddings</term>
+                    <term>onomasiologische Suche</term>
+                    <term>multilingual</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Programmierung</term>
+                    <term>Beziehungsanalyse</term>
+                    <term>Annotieren</term>
+                    <term>Sprache</term>
+                    <term>Methoden</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">129</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p style="text-align: left; ">
+                <anchor xml:id="Hlk77176663"/>
+                <anchor xml:id="Hlk77237760"/>Das Lehnwortportal Deutsch (LWPD) (Meyer/Eppinger 2019; 
+                <anchor xml:id="Hlk77173890"/>lwp.ids-mannheim.de) ist ein Online-Informationssystem zu Entlehnungen von Wörtern aus dem Deutschen in andere Sprachen. Es beruht auf einer wachsenden Zahl von lexikographischen Ressourcen zu verschiedenen Sprachen und bietet eine einfache ressourcenübergreifende Suchfunktion an. Das Poster präsentiert eine derzeit in Entwicklung befindliche onomasiologische Suchfunktion für das LWPD. 
+            </p>
+            <p style="text-align: left; ">Ähnliche Projekte, z.B. van der Sijs (2015), nutzen für die Implementierung ihrer semantischen Suche eigens für ihre Datenbasis erstellte Taxonomien von semantischen Feldern. Eine sehr komplexe Open-Source-Taxonomie findet sich beispielsweise auf <ref target="https://semdom.org/">semdom.org/</ref>. Solche Klassifikationen ziehen häufig folgende Probleme nach sich: (a) Aufgrund der inhärenten Vagheit von Definitionen für semantische Felder beruht die Zuordnung von Einzelbedeutungen einer lexikalischen Einheit zu Feldern immer auf einer subjektiven Annotationspraxis, die (b) von dem:der Nutzer:in gewissermaßen rekonstruiert werden muss; (c) bezogen auf die Taxonomie ist es schwierig, einen guten Kompromiss zwischen einfacher Handhabung und Detailgenauigkeit zu finden; (d) grundsätzliche Änderungen an der Taxonomie sind mit einem hohen Aufwand verbunden.
+            </p>
+            <p style="text-align: left; ">Wir haben einen alternativen Ansatz implementiert, um die oben genannten Probleme anzugehen. Die technische Umsetzung unserer Methode basiert auf den ConceptNet NumberBatch Word Embeddings (CN) (Speer/Chin/Havasi 2017), die auf multilingualen Daten sowie semantischen Beziehungen zwischen Wörtern trainiert sind. Ein im Grunde ähnlicher Lösungsansatz wurde erfolgreich zur Optimierung von Suchmaschinen genutzt (Castro Fernandez et al. 2018; Kuzi/Shtock/Kurland 2016). Da wir keinen Zugriff auf die Korpusdaten haben, die den lexikographischen Ressourcen des LWPD zugrunde liegen, ist es uns nicht möglich, selbst Word Embeddings zu trainieren.</p>
+            <p style="text-align: left; ">Für die Implementierung der semantischen Suche werden zunächst jedem Wort im LWPD (darunter deutsche Etyma, Lehnwörter, etc.) mindestens ein Wort sowie der/die entsprechende/n Vektor/en aus CN zugeordnet. Für jedes zugeordnete CN-Wort wird angegeben, in welcher semantischen Beziehung (z.B. Synonym, Hyperonym) es zu dem LWPD-Wort steht. Die Zuordnung wird folgendermaßen durchgeführt: </p>
+            <p style="text-align: left; ">(1) Wenn ein monosemes LWPD-Wort in CN enthalten ist, wird ihm als Default-Wert automatisch dieses CN-Wort zugeordnet.</p>
+            <p style="text-align: left; ">(2) Wenn ein LWPD-Wort nicht in CN enthalten ist, aber ein LWPD-Wort, das in einer etymologischen oder Derivationsbeziehung zu ihm steht, dann wird ihm als Default-Wert dieses CN-Wort zugeordnet. </p>
+            <p style="text-align: left; ">(3) Wenn ein LWPD-Wort polysem ist, wird jeder Bedeutung manuell ein CN-Wort zugeordnet. </p>
+            <p style="text-align: left; ">(4) Wenn ein LWPD-Wort nicht in CN enthalten ist, wird ihm manuell ein semantisch ähnliches CN-Wort zugeordnet. </p>
+            <p style="text-align: left; ">Ebenfalls können die Default-Werte manuell geändert werden. Homonymen LWPD-Wörtern werden manuell eindeutige CN-Wörter zugeordnet.</p>
+            <p style="text-align: left; ">Einem LWPD-Wort bzw. einer Bedeutung eines Wortes können auch mehrere CN-Wörter zugeordnet werden, u.a. um Word Embeddings polysemer Wörter zu disambiguieren. Es wird dann eine gewichtete und normierte Summe der Vektoren der einzelnen zugeordneten CN-Wörter zugrunde gelegt. Das Gewicht eines CN-Wortes ergibt sich aus der angegebenen semantischen Beziehung, die auf eine Ganzzahl abgebildet wird. </p>
+            <p style="text-align: left; ">Die semantische Suche im LWPD läuft aus Nutzer:innensicht folgendermaßen ab: Es steht eine große Anzahl an häufig verwendeten deutschen Wörtern (im Folgenden: Suchschlüssel) zur Auswahl, die mit automatischer Vervollständigung eingegeben werden können. Mit diesen kann der:die Nutzer:in beliebige Aspekte lexikalischer Bedeutung beschreiben. Alle Suchschlüssel sind in CN enthalten. Somit berechnet sich die semantische Ähnlichkeit der Suchschlüssel und der, den Bedeutungen der LWPD-Wörter zugeordneten, CN-Wörter aus ihrer Kosinus-Ähnlichkeit. Wenn die Kosinus-Ähnlichkeit über einem bestimmten Schwellenwert liegt, werden die entsprechenden LWPD-Wörter in der Suchergebnisliste angezeigt. Die Kosinus-Ähnlichkeiten zwischen den Suchschlüsseln und den CN-Wörtern liegen vorberechnet im LWPD vor.</p>
+            <p style="text-align: left; ">Um die Qualität der Suchergebnisse zu evaluieren, wurde eine Vorstudie durchgeführt:</p>
+            <p style="text-align: left; ">(1) Die Bedeutungsangabe (z.B. für das Etymon
+                <hi rend="italic" xml:space="preserve"> Riss</hi>: „
+                <hi rend="italic">Spalte, Einschnitt, Einriss</hi>“) von jedem Etymon aus dem LWPD wird lemmatisiert und POS-getagged. 
+            </p>
+            <p style="text-align: left; ">(2) Für jedes Etymon E und jedes Lemma L aus einer zugehörigen Bedeutungsangabe wird mit Hilfe von GermaNet (Hamp/Feldweg 1997; Henrich/Hinrichs 2010) ihre semantische Ähnlichkeit gemäß dem Maß in Lin (1998) ermittelt. Budanitsky/Hirst (2006) zeigen, dass die von menschlichen Annotatoren vergebenen semantischen Ähnlichkeitsscores bei englischen Wortpaaren mit den berechneten Scores des Maßes in Lin (1998) eine hohe Korrelation aufweisen. Wir unterstellen, dass Etyma mit den Lemmata ihrer Bedeutungsangaben typischerweise in einer engen semantischen Relation stehen. Daher werden jeweils die Lin-ähnlichsten Synsets von E und L zugrunde gelegt. </p>
+            <p style="text-align: left; ">(3) Die Kosinus-Ähnlichkeit zwischen dem Vektor von E (z.B. 
+                <hi rend="italic">Riss</hi>) und dem von L (z.B. 
+                <hi rend="italic">Spalte</hi>) wird berechnet.
+            </p>
+            <p style="text-align: left; ">(4) Die Kosinus-Ähnlichkeit wird mit dem Ergebnis des Ähnlichkeitsmaßes in (2) verglichen.</p>
+            <p style="text-align: left; ">Es ergibt sich, dass in unserem LWPD-Datensatz die Kosinus-Ähnlichkeit mit dem Ähnlichkeitsmaß von Lin (1998) positiv korreliert ist (r=0,52) und für Lin-Ähnlichkeit größer als 0,9 auf fast 0,65 ansteigt.</p>
+            <p style="text-align: left; ">Diese Evaluation gibt allerdings nur einen ersten Hinweis dazu, dass unser Ansatz vielversprechend ist. Sobald die hier präsentierte semantische Suche implementiert und im LWPD verfügbar ist, soll anhand einer Benutzungsstudie die Qualität der Suchergebnisse untersucht werden.</p>
+        </body>
+        <back>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold" xml:space="preserve">Budanitsky, Alexander / Hirst, Graeme </hi>(2006): 
+                        <hi style="font-size:10pt">"</hi>Evaluating WordNet-based Measures of Lexical Semantic Relatedness”, in: 
+                        <hi rend="italic" xml:space="preserve">Computational Linguistics </hi>32(1): 13-47.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Castro Fernandez, Raul / Mansour, Essam / Qahtan, Abdulhakim A. / Elmagarmid, Ahmed / Ilyas, Ihab / Madden, Samuel / Ouzzani, Mouhrad / Stonebraker, Michael / Tang, Nan</hi> (2018): 
+                        <hi style="font-size:10pt">"</hi>Seeping Semantics: Linking Datasets Using Word Embeddings for Data Discovery
+                        <hi style="font-size:10pt" xml:space="preserve"> "</hi>, in:
+                        <hi rend="italic" xml:space="preserve"> Proceedings of the 34th International Conference on Data Engineering</hi> 989-1000. 
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Hamp, Birgit / Feldweg, Helmut</hi> (1997): 
+                        <hi style="font-size:10pt">"</hi>GermaNet - a Lexical-Semantic Net for German
+                        <hi style="font-size:10pt">"</hi>, in: 
+                        <hi rend="italic">Proceedings of the ACL workshop Automatic Information Extraction and Building of Lexical Semantic Resources for NLP Applications</hi> 9-15. 
+                    </bibl>
+                    <bibl style="text-align: left; text-align: justify;">
+                        <hi rend="bold">Henrich, Verena / Hinrichs, Erhard</hi> (2010): 
+                        <hi style="font-size:10pt">"</hi>GernEdiT - The GermaNet Editing Tool
+                        <hi style="font-size:10pt">"</hi>, in: 
+                        <hi rend="italic">Proceedings of the Seventh Conference on International Language Resources and Evaluation</hi> 2228–2235.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Kuzi, Saar / Shtok, Anna / Kurland, Oren</hi> (2016): “Query Expansion Using Word Embeddings”, in: 
+                        <hi rend="italic">Proceedings of the 25th ACM International Conference on Information and Knowledge Management</hi> 1929–1932.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Lin, Dekang</hi> (1998): “An Information-Theoretic Definition of Similarity”, in: 
+                        <hi rend="italic">Proceedings of the Fifteenth International Conference on Machine Learning</hi> 296–304.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Meyer, Peter</hi> (2019): “Leistungsfähige und einfache Suchen in lexikografischen Datennetzen. Ein Query Builder für lexikografische Property-Graphen“, in: 
+                        <hi rend="italic">Digital Humanities: multimedial &amp; multimodal. 6. Tagung des Verbands Digital Humanities im deutschsprachigen Raum e.V. Konferenzabstracts</hi> 312-314.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Meyer, Peter / Eppinger, Mirjam (</hi>2018): “fLexiCoGraph: Creating and Managing Curated Graph-Based Lexicographical Data“, in: 
+                        <hi rend="italic">Proceedings of the XVIII EURALEX International Congress</hi> 1017-1022.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Speer, Robyn / Chin, Joshua / Havasi, Catherine</hi> (2018): “ConceptNet 5.5: An Open Multilingual Graph of General Knowledge”, in: 
+                        <hi rend="italic">arXiv:1612.03975 [cs]</hi>.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">van der Sijs, Nicoline</hi> (2015): Uitleenwoordenbank, uitleenwoordenbank.ivdnt.org, hosted by the Instituut voor de Nederlandse Taal. Accessed at: http://uitleenwoordenbank.ivdnt.org/. (06 April 2021)
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

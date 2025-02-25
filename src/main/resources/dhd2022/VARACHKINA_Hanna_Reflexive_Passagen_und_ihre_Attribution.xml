@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_242">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                    <title type="main">Reflexive Passagen und ihre Attribution</title>
+                    <title type="sub"/>
+                </title>
+                <author>
+                    <persName>
+                        <surname>Varachkina</surname>
+                        <forename>Hanna</forename>
+                    </persName>
+                    <affiliation>Georg-August-Universität Göttingen, Deutschland</affiliation>
+                    <email>hanna.varachkina@stud.uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Barth</surname>
+                        <forename>Florian</forename>
+                    </persName>
+                    <affiliation>Georg-August-Universität Göttingen, Deutschland</affiliation>
+                    <email>barth@sub.uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Gödeke</surname>
+                        <forename>Luisa</forename>
+                    </persName>
+                    <affiliation>Georg-August-Universität Göttingen, Deutschland</affiliation>
+                    <email>luisa.goedeke@uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Hofmann</surname>
+                        <forename>Anna Mareike</forename>
+                    </persName>
+                    <affiliation>Georg-August-Universität Göttingen, Deutschland</affiliation>
+                    <email>annamareike.hofmann@uni-goettingen.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Dönicke</surname>
+                        <forename>Tillmann</forename>
+                    </persName>
+                    <affiliation>Georg-August-Universität Göttingen, Deutschland</affiliation>
+                    <email>tillmann.doenicke@uni-goettingen.de</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-26T11:36:46.033620086</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from an OASIS Open Document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>reflexive Passagen</term>
+                    <term>Attribution</term>
+                    <term>Korpus</term>
+                    <term>automatische Erkennung</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Literatur</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">242</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Im Projekt MONA (Modes of Narration and Attribution) werden Phänomene in fiktionaler Literatur untersucht, die mit reflexiven Passagen assoziiert sind. Reflexive Passagen kommentieren die Handlung im Text oder den Schreibprozess oder generalisieren über die fiktive und / oder reale Welt. Da das Konzept der reflexiven Passagen in der Literaturwissenschaft bisher nicht formalisiert wurde, werden diese nicht direkt annotiert. Stattdessen annotieren wir drei Phänomene, die wir für starke Indikatoren reflexiver Passagen halten: Kommentar (Bonheim 1975; Chatman 1980), nicht-fiktionale Rede (Konrad 2017; Searle 1975) und Generalisierung (Leslie et al. 2016; Dönicke et al. 2021). Darüber hinaus beschäftigt sich das Projekt mit der Zuschreibung reflexiver Passagen zu Sprechinstanzen. Für die Identifikation und Klassifikation dieser Phänomene werden Modelle entwickelt. Dafür wird ein annotiertes Korpus deutschsprachiger fiktionaler Texte erstellt, das die Entwicklung dieser Phänomene über 350 Jahre der Literaturgeschichte abbildet.</p>
+            <p>Basierend auf den bisherigen Arbeiten haben wir Definitionen für die mit reflexiven Passagen assoziierten Phänomene formuliert bzw. weiterentwickelt. Unter Generalisierungen werden quantifizierte Aussagen über angenommene Instanzen einer Klasse oder Gruppe von Objekten, Individuen oder (Zeit-)Räumen verstanden, auf die nicht kontextuell referiert wird. Kommentare schließen Textstellen ein, in denen die erzählte Zeit unterbrochen und eine ergänzende Information zu Erzählung, Figuren, Handlung oder dem Akt des Erzählens eingefügt wird (Bonheim 1975). Nicht-fiktionale Rede bezeichnet Passagen in fiktionalen Texten, die Behauptungen bzw. Hypothesen über die reale Welt nahelegen (Konrad 2017). Generalisierung, Kommentar und nicht-fiktionale Rede können sich vollständig oder teilweise überlappen.</p>
+            <quote>Und so begann der Hauptmann: »[An allen Naturwesen, die wir gewahr werden, bemerken wir zuerst, daß sie einen Bezug auf sich selbst haben. [...]« (Goethe 2012)</quote>
+            <p>In diesem Beispiel treten alle drei Phänomene auf. Die erzählte Zeit, die in der Erzählerrede fließt, wird unterbrochen und ein Kommentar über Naturwesen vorgenommen. Zugleich wird eine Aussage über angenommene Instanzen der Klasse der Naturwesen getroffen. Da auch in der realen Welt Naturwesen (jeglicher Art) vorkommen, ist die Proposition grundsätzlich auf die reale Welt übertragbar.</p>
+            <p>Für reflexive Passagen erstellen wir eine Goldannotation, auf der in einem nächsten Schritt eine Attributionsannotation vorgenommen wird. Die Attribution bestimmt, wem die in der Passage enthaltene Information zugeschrieben werden kann, wofür grundsätzlich Figuren, die Erzählinstanz oder die AutorIn in Frage kommen. Einige sprachliche Mittel im Text sind prädestiniert für bestimmte Attributionen, so markieren bestimmte Satzzeichen i. d. R. (in)direkte Rede und damit die Sprecher im Text. Dennoch gibt es Passagen, in denen sich die Sprechinstanz nicht eindeutig identifizieren lässt und sich unterschiedliche Interpretationen (Zuschreibungen) aufdecken lassen.</p>
+            <p>Zur automatischen Erkennung und quantitativen Analyse erstellen wir das Korpus MONACO (Modes of Narration and Attribution Corpus)<ref target="ftn1" n="1"/>, das aus deutschsprachigen fiktionalen Erzähltexten von 1600–1950 besteht. Jede AutorIn ist im Korpus nur einmal vertreten und es wird eine gleiche Verteilung der Texte über Jahrhunderte angestrebt. Die wichtigste Textquelle für MONACO ist Kolimo (Herrmann und Lauer 2017).
+            </p>
+            <p>Die Annotation der Texte wird in CATMA 6.2<ref target="ftn2" n="2"/> vorgenommen und basiert auf detaillierten Richtlinien, die iterativ entwickelt wurden. Dabei werden momentan lediglich die ersten 200 Sätze eines Textes annotiert, um mehr Texte zu annotieren und das Korpus möglichst divers gestalten zu können. Jedes der drei mit reflexiven Passagen assoziierten Phänomene wird von zwei studentischen AnnotarorInnen annotiert. Der Goldstandard für Generalisierung, Kommentar und nicht-fiktionale Rede wird in Kleingruppen von 2-3 DoktorandInnen erstellt. Zur Beschleunigung der Goldstandarderstellung haben wir einen „CATMA-Merger“ entwickelt, welcher eine neue Annotation als die Vereinigung mehrerer Annotationen erstellt, die dann von den DoktorandInnen überprüft und bestätigt, korrigiert oder gelöscht werden kann. Die Attribution wird im zweiten Schritt von allen (sechs) studentischen AnnotatorInnen auf dem Goldstandard für Generalisierung, Kommentar und nicht-fiktionale Rede annotiert. Für Attribution wird kein Goldstandard erstellt, um sämtliche mögliche Interpretationen zu erfassen.
+            </p>
+            <p>Bisher wurden Goldstandards für achtzehn Texte erstellt. Der älteste Text stammt aus dem Jahr 1616, der jüngste aus dem Jahr 1930. Die annotierten Texte weisen im Durchschnitt ein moderates (&gt; 0,4) oder gutes (&gt; 0,6) Inter-Annotator Agreement mit κ-Werten (Fleiss et al. 1981) von 0,59 für Generalisierung, 0,44 für Kommentar und 0,66 für nicht-fiktionale Rede auf. Die Inter-Annotator Agreement-Werte für γ (Mathet et al. 2015) sind etwas höher: 0,66 für Generalisierung, 0,52 für Kommentar und 0,72 für nicht-fiktionale Rede.</p>
+            <p>Mit der zunehmenden Menge annotierter Texte werden schrittweise regelbasierte, statistische und neuronale Tagger für die einzelnen Phänomene entwickelt. Ihre Anwendbarkeit wird dabei auch für andere Textsorten wie Essays und enzyklopädische Texte erprobt. Letzten Endes soll eine ausreichend große Menge annotierter Daten nicht nur bessere Modelle ermöglichen, sondern auch diachrone oder genreübergreifende Perspektiven auf reflexive Passagen und ihre Attribution eröffnen.</p>
+        </body>
+        <back><div type="notes"><note xml:id="ftn1" place="foot" n="1"><ptr target="https://gitlab.gwdg.de/mona/korpus-public"/></note><note xml:id="ftn2" place="foot" n="2"><ptr target="https://catma.de/"/></note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Bonheim, Helmut</hi> (1975): 
+                        <emph>"</emph>Theory of narrative modes
+                        <emph>"</emph>, in: 
+                        <hi rend="italic">Semiotica</hi> 14/4: 329–344.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Chatman, Seymour Benjamin</hi> (1980): 
+                        <hi rend="italic">Story and Discourse: Narrative Structure in Fiction and Film.</hi> Ithaca / Lodon: Cornell University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Dönicke, T</hi>
+                        <hi rend="bold">illmann /</hi>
+                        <hi rend="bold"> Gödeke, L</hi>
+                        <hi rend="bold">uisa / </hi>
+                        <hi rend="bold">Varachkina, H</hi>
+                        <hi rend="bold">anna</hi> (2021): Annotating Quantified Phenomena in Complex Sentence Structures Using the Example of Generalising Statements in Literary Texts, in: 
+                        <hi rend="italic">Proceedings of the 17th Joint ACL-ISO Workshop on Interoperable Semantic Annotation </hi>20-32.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Fleiss, Joseph L.</hi> (1971): 
+                        <emph>"</emph>Measuring nominal scale agreement among many raters
+                        <emph>"</emph>, in: 
+                        <hi rend="italic">Psychological bulletin</hi> 76.5: 378.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Goethe, Johann Wolfgang</hi> (2012): 
+                        <emph>"</emph>Die Wahlverwandtschaften
+                        <emph>"</emph>, in: 
+                        <hi rend="italic">TextGrid Repository, Digitale Bibliothek, </hi>
+                        <ptr target="https://hdl.handle.net/11858/00-1734-0000-0006-6A93-D"/> [letzter Zugriff 26. November 2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Herrmann, Berenike / Lauer, Gerhard</hi> (2017): 
+                        <emph>"</emph>KOLIMO. A corpus of Literary Modernism for comparative analysis
+                        <emph>"</emph>, 
+                        <ref target="https://www.google.com/url?q=https://kolimo.uni-goettingen.de/about&amp;sa=D&amp;source=docs&amp;ust=1637854209315000&amp;usg=AOvVaw3pF0eyvkUr2e2qKFnjfbIH">https://kolimo.uni-goettingen.de/about</ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Konrad, Eva-Maria </hi>(2017): 
+                        <emph>"</emph>Signposts of Factuality: On Genuine Assertions in Fictional Literature
+                        <emph>"</emph> in: Sullivan- Bissett, Ema / Bradley, Helen / Noordhof, Paul (eds.): 
+                        <hi rend="italic">Art and Belief.</hi> Oxford: Mind Association Occasional Series 42-62.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Leslie, Sarah-Jane</hi>
+                        <hi rend="bold">/</hi>
+                        <hi rend="bold">Lerner, Adam / Zalta, Edward Nouri </hi>(2016): 
+                        <emph>"</emph>Generic Generalizations
+                        <emph>"</emph>, in: 
+                        <hi rend="italic">Stanford Encyclopedia of Philosophy</hi>
+                        <ptr target="https://plato.stanford.edu/entries/generics/"/> [letzter Zugriff 26. November 2021]
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Mathet, Yann / Widlöcher, Antoine / Métivier, Jean-Philippe</hi> (2015): 
+                        <emph>"</emph>The unified and holistic method gamma (𝛾) for inter-annotator agreement measure and alignment
+                        <emph>"</emph>, in: 
+                        <hi rend="italic">Computational Linguistics</hi> 41.3: 437–479.
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Searle, John Rogers </hi>(1975): 
+                        <emph>"</emph>The logical status of fictional discourse
+                        <emph>"</emph>, in: 
+                        <hi rend="italic">New literary history </hi>6(2): 319-332.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

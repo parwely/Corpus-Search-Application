@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_253">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ein Thesaurus für die digitale Edition der Ästhetikvorlesungen von Friedrich Schleiermacher</title>
+                <author>
+                    <persName>
+                        <surname>Kelm</surname>
+                        <forename>Holden</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Germany</affiliation>
+                    <email>kelm@bbaw.de</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Klappenbach</surname>
+                        <forename>Lou</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften, Germany</affiliation>
+                    <email>klappenbach@bbaw.de</email>
+                <idno type="ORCID">0000-0001-6587-3353</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-25T14:30:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>SKOS</term>
+                    <term>Kontrollierte Vokabularien</term>
+                    <term>ediarum</term>
+                    <term>linked open data</term>
+                    <term>Ästhetikvorlesungen</term>
+                    <term>Schleiermacher</term>
+                    <term>Philosophiegeschichte</term>
+                    <term>Digitale Edition</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Inhaltsanalyse</term>
+                    <term>Modellierung</term>
+                    <term>Annotieren</term>
+                    <term>Methoden</term>
+                    <term>Text</term>
+                    <term>virtuelle Forschungsumgebungen</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">253</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="div1" rend="DH-Heading1">
+                <head>Einleitung</head>
+                <p style="text-align: left; ">Die Ästhetikvorlesungen des Philosophen und Theologen Friedrich Schleiermacher<ref target="ftn1" n="1"/> (1768-1834) sind Bestandteil des ästhetischen Diskurses der klassischen deutschen Philosophie nach Kant (vgl. Jaeschke / Arndt 2012), sind aber als Bestandteil dieses Diskurses noch nicht hinreichend untersucht worden. Das sich diesem Desiderat widmende DFG-Projekt<ref target="ftn2" n="2"/>, das mit dem Akademienvorhaben „Schleiermacher in Berlin 1808-1834“<ref target="ftn3" n="3"/> assoziiert ist, stellt die Frage, wie die Ästhetikvorlesungen aufgrund von digitalen Methoden erschlossen, wie sie in ihrem Verlauf untersucht und in ihrem philosophiehistorischen Kontext kritisch dargestellt werden können. Das geplante Poster illustriert eine für dieses Projekt zentrale digitale Methode: das von der Digital Humanities-Arbeitsgruppe TELOTA<ref target="ftn4" n="4"/> entwickelte Tool ediarum.SKOS.
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Erfassung und Analyse der Themen und Begriffe der Ästhetikvorlesungen mit dem Tool ediarum.SKOS</head>
+                <p style="text-align: left; ">Das DFG-Projekt schließt an die Hybridedition von Schleiermachers Ästhetikvorlesungen im Rahmen der 
+                    <hi rend="italic">Kritischen Gesamtausgabe</hi> Schleiermachers (Schleiermacher 2021) an und ist durch drei zentrale Forschungsfragen gegliedert: 1.) Wie kann die Nutzung und Erschließbarkeit der digitalen Edition durch thematische und begriffliche Zugänge sinnvoll erweitert werden? 2.) Wie kann der Verlauf der drei Ästhetikvorlesungen, die Schleiermacher 1819, 1825 und 1832/33 an der Berliner Universität hielt, aufgrund der überlieferten Dokumente näher bestimmt und in Bezug auf mögliche Veränderungen der Konzeption untersucht werden? 3.) Wie können die Ästhetikvorlesungen in ihrer Eigenbedeutung und in ihrem diskursiven Umfeld mit digitalen Mitteln erörtert werden?
+                </p>
+                <p style="text-align: left; ">Zur Bearbeitung dieser Forschungsfragen wurde beschlossen, die Annotation, Definition und Referenzierung von Themen mit einem digitalen Thesaurus vorzunehmen. Die Modellierung der Themen- und Begriffsfelder basiert auf dem „Simple Knowledge Organisation System“<ref target="ftn5" n="5"/> (SKOS), das auf dem Resource Description Framework (RDF) und RDF-Schema aufbaut (Isaac/Summers 2009), und welches in XML serialisiert werden kann. Das Akademienvorhaben „Schleiermacher in Berlin 1808-1834“ erschließt verschiedene Quellen für digitale und für Druck-Editionen mit 
+                    <hi rend="italic">ediarum</hi><ref target="ftn6" n="6"/>, einem oXygen-Framework für den Author-Modus des oXygen XML-Editors.<ref target="ftn7" n="7"/> Da semantische Modellierungsformen wie Thesauri bisher nicht in 
+                    <hi rend="italic">ediarum</hi> integriert sind, wird im Rahmen des Ästhetik-Projekts ein eigenes Framework entwickelt: ediarum.SKOS. Es bietet eine nutzer:innenfreundliche Oberfläche, um SKOS-basierte Thesauri zu erstellen und zu bearbeiten. 
+                </p>
+                <figure>
+                    <graphic n="1001" width="16.002cm" height="9.267472222222223cm" url="Pictures/ab6737a57bbf37b69bbf4117d54ea933.png" rend="inline"/>
+                    <head>Abb. 1: Symbolleiste des ediarum.SKOS Frameworks im Autormodus des oXygen XML Editors</head>
+                </figure>
+                <p style="text-align: left; ">Das Framework<ref target="ftn8" n="8"/> kann als oXygen Add-on<ref target="ftn9" n="9"/> installiert werden und umfasst derzeit verschiedene Grundfunktionen, wie die Erstellung von Konzepten (skos:Concept), von Sammlungen (skos:Collection), die Vergabe von Labels (skos:prefLabel, skos:altLabel) und die Einfügung von Definitionen (skos:definition). An Beziehungstypen zwischen Konzepten sind derzeit Hierarchien (skos:narrower und skos:broader) und Assoziationen (skos:related) implementiert. Ebenfalls Teil von ediarum.SKOS ist ein SKOS-Reasoner in XSLT, der für die Nutzer:innen „per Knopfdruck“ Inferenzen aus den Beziehungen zieht. Zur Verknüpfung von Konzepten des Thesaurus mit historischen Dokumenten innerhalb einer Edition, kann ediarum.SKOS mit weiteren 
+                    <hi rend="italic">ediarum-</hi>Modulen (wie ediarum.BASE) sowie mit projektspezifischen 
+                    <hi rend="italic">ediarum</hi>-Frameworks kombiniert werden.
+                </p>
+                <figure>
+                    <graphic n="1002" width="16.002cm" height="7.0573194444444445cm" url="Pictures/f3b2348dff03810b0b9020708e58b2f5.png" rend="inline"/>
+                    <head>Abb. 2: Datenmodellierung am Beispiel des Konzeptes "Geschichte der Ästhetik als Wissenschaft"</head>
+                </figure>
+                <p style="text-align: left; ">Methodisch wurde so vorgegangen, dass in den Textdokumenten der Ästhetikvorlesungen aufgrund von Lektüre und Interpretation eine Gruppe von 14 Themen identifiziert und jedem Thema ein vorläufiges Begriffsfeld zugewiesen wurde. Mithilfe des Tools ediarum.SKOS konnten die identifizierten Themen in Form eines Thesaurus organisiert werden. Für jedes Thema wurde ein Eintrag angelegt und dieser mit weiteren Informationen wie Bezeichnungen, Definitionen und Beziehungen zu anderen Einträgen ausgestattet. Die Themen wurden dann in den TEI-XML-Dateien annotiert und auf den entsprechenden Eintrag im Thesaurus referenziert. Für die Auswahl und Überprüfung der themenspezifischen Begriffe wurde „voyant tools“<ref target="ftn10" n="10"/> hinzugezogen (terms, trends, keywords in context); die sich daraus ergebenen signifikanten Begriffe wurden dann in den Thesaurus integriert und ihre Beziehung zu den Themen bestimmt. Aufgrund dieser Modellierung konnten semantische Beziehungen zwischen Themen und Begriffen in den Ästhetikvorlesungen explizit formalisiert und dadurch in computerlesbarer Weise erfasst werden (Rehbein 2017: 163). Dies ermöglicht, die verschiedenen Themen der Ästhetik Schleiermachers abzufragen, zu durchsuchen, zu analysieren und über das World Wide Web mit kontrollierten Vokabularien anderer Projekte und mit anderen Thesauri zu verknüpfen (Harpring 2010; Zaytseva / <hi rend="math">Ď</hi>ur<hi rend="math">č</hi>o 2020).
+                </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+                <head>Ausblick</head>
+                <p style="text-align: left; ">Die Erfassung der Themen und Begriffe mit ediarum.SKOS bildet die Grundlage für die Einbettung und Visualisierung des Thesaurus im Rahmen der digitalen Editionsplattform 
+                    <hi rend="italic">schleiermacher digital</hi><ref target="ftn11" n="11"/>. Damit soll die Edition der Ästhetikvorlesungen um eine Erschließungsoption erweitert werden, die den Zugang zum Korpus durch einschlägige Themen und/oder durch mit diesen Themen verknüpfte signifikante Sachbegriffe ermöglicht. Dadurch wird es künftig auch möglich, thematische und begriffliche Verknüpfungen mit anderen Ästhetikvorlesungen der Epoche herzustellen, um den ästhetischen Diskurs in autorenübergreifender Perspektive rekonstruieren zu können.
+                </p>
+                <p style="text-align: left; ">Dafür soll ediarum.SKOS über die derzeit implementierten Grundfunktionen hinaus weiterentwickelt und über das Ästhetik-Projekt hinaus nutzbar gemacht werden. Künftig sollen weitere Funktionen zur Verknüpfung von Konzepten mit externen Ressourcen im Sinne von linked open data hinzukommen. Dem Open Science Prinzip folgend, werden Code und Dokumentation im Projektverlauf zur Nachnutzung und Weiterentwicklung unter GNU-Lizenz auf Github publiziert und über Zenodo versioniert.</p>
+            </div>
+        </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                            <ref target="https://de.wikipedia.org/wiki/Friedrich_Schleiermacher">
+                                <hi style="font-size:9pt">https://de.wikipedia.org/wiki/Friedrich_Schleiermacher</hi>
+                            </ref>
+                            <hi style="font-size:9pt">[letzter Zugriff 15. Juli 2021].</hi>
+                        </note><note place="foot" xml:id="ftn2" n="2">
+                            <hi style="font-size:9pt" xml:space="preserve">Zum DFG-Projekt „Schleiermachers Ästhetikvorlesungen im Kontext. Zur Reflexion und Anwendung digitaler Methoden in der Konstellationsforschung“ von Holden Kelm vgl. URL: </hi>
+                            <ref target="https://gepris.dfg.de/gepris/projekt/448730446?context=projekt&amp;task=showDetail&amp;id=448730446&amp;">
+                                <hi style="font-size:9pt">https://gepris.dfg.de/gepris/projekt/448730446?context=projekt&amp;task=showDetail&amp;id=448730446&amp;</hi>
+                            </ref>
+                            <hi rend="Hyperlink" xml:space="preserve"> </hi>
+                            <hi style="font-size:9pt">[letzter Zugriff 15. Juli 2021].</hi>
+                        </note><note place="foot" xml:id="ftn3" n="3">
+                            <ref target="https://www.bbaw.de/forschung/schleiermacher-in-berlin-1808-1834-briefwechsel-tageskalender-vorlesungen">
+                                <hi style="font-size:9pt">https://www.bbaw.de/forschung/schleiermacher-in-berlin-1808-1834-briefwechsel-tageskalender-vorlesungen</hi>
+                            </ref>
+                            <hi style="font-size:9pt">[letzter Zugriff 15. Juli 2021].</hi>
+                        </note><note place="foot" xml:id="ftn4" n="4">
+                            <ref target="https://www.bbaw.de/bbaw-digital/telota">
+                                <hi style="font-size:9pt">https://www.bbaw.de/bbaw-digital/telota</hi>
+                            </ref>
+                            <hi style="font-size:9pt">[letzter Zugriff 15. Juli 2021].</hi>
+                        </note><note place="foot" xml:id="ftn5" n="5">
+                            <ref target="https://www.w3.org/TR/skos-primer/">
+                                <hi style="font-size:9pt">https://www.w3.org/TR/skos-primer/</hi>
+                            </ref>
+                            <hi style="font-size:9pt">[letzter Zugriff 15. Juli 2021].</hi>
+                        </note><note place="foot" xml:id="ftn6" n="6">
+                            <ref target="https://www.ediarum.org">
+                                <hi style="font-size:9pt">https://www.ediarum.org</hi>
+                            </ref>
+                            <hi style="font-size:9pt">[letzter Zugriff 15. Juli 2021].</hi>
+                        </note><note place="foot" xml:id="ftn7" n="7">
+                            <ref target="http://www.oxygenxml.com">
+                                <hi style="font-size:9pt">http://www.oxygenxml.com</hi>
+                            </ref>
+                            <hi style="font-size:9pt">[letzter Zugriff 15. Juli 2021].</hi>
+                        </note><note place="foot" xml:id="ftn8" n="8">
+                            <hi style="font-size:9pt" xml:space="preserve"> Das Framework kann über die URL </hi>
+                            <ref target="http://telota.bbaw.de/ediarum/skos/edit/update.xml">
+                                <hi style="font-size:9pt">http://telota.bbaw.de/ediarum/skos/edit/update.xml</hi>
+                            </ref>
+                            <hi style="font-size:9pt" xml:space="preserve"> installiert werden.</hi>
+                        </note><note place="foot" xml:id="ftn9" n="9">
+                            <hi style="font-size:9pt" xml:space="preserve">Informationen zum Installieren von oXygen Add-ons finden sich in der Dokumentation unter </hi>
+                            <ref target="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/howto-install-plugins.html">
+                                <hi style="font-size:9pt">https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/howto-install-plugins.html</hi>
+                            </ref>
+                            <hi style="font-size:9pt">[letzter Zugriff 15. Juli 2021].</hi>
+                        </note><note place="foot" xml:id="ftn10" n="10">
+                            <ref target="https://voyant-tools.org/">
+                                <hi style="font-size:9pt">https://voyant-tools.org/</hi>
+                            </ref>
+                            <hi style="font-size:9pt">[letzter Zugriff 15. Juli 2021].</hi>
+                        </note><note place="foot" xml:id="ftn11" n="11">
+                            <ref target="https://schleiermacher-digital.de/">
+                                <hi style="font-size:9pt">https://schleiermacher-digital.de/</hi>
+                            </ref>
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Akademienvorhaben Schleiermacher in Berlin 1808–1834</hi> (o.J.): 
+                        <hi rend="italic">schleiermacher digital, Briefwechsel, Tageskalender, Vorlesungen von Friedrich Schleiermacher 1808–1834. Eine Publikation des Akademienvorhabens Schleiermacher in Berlin 1808–1834 der Berlin-Brandenburgischen Akademie der Wissenschaften.</hi> Berlin: Berlin-Brandenburgische Akademie der Wissenschaften 
+                        <ref target="https://schleiermacher-digital.de/">https://schleiermacher-digital.de/</ref> [letzter Zugriff 15. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Rehbein, Malte</hi> (2017): "Ontologien" in: Jannidis, Fotis / Kohle, Hubertus / Rehbein, Malte (eds.): 
+                        <hi rend="italic">Digital Humanities. Eine Einführung</hi>, Stuttgart: J.B. Metzler 328-342 10.1007/978-3-476-05446-3_23.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Schleiermacher, Friedrich Daniel Ernst</hi> (2021): "Vorlesungen über die Ästhetik" in: Holden Kelm (ed.): 
+                        <hi rend="italic">Kritische Gesamtausgabe Schleiermachers, Abt. II, Bd. 14</hi>, unter Verwendung vorbereitender Materialien von Wolfgang Virmond, Berlin: De Gruyter 10.1515/9783110537758.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Dumont, Stefan / Fechner, Martin</hi> (2014/2015): "Bridging the Gap: Greater Usability for TEI encoding", in: 
+                        <hi rend="italic">Journal of the Text Encoding Initiative</hi> [Online] 8 
+                        <ref target="http://journals.openedition.org/jtei/1242">http://journals.openedition.org/jtei/1242</ref> [letzter Zugriff 15. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Harpring, Patricia / Baca, Murtha</hi> (2013): 
+                        <hi rend="italic">Introduction to Controlled Vocabularies: Terminology for Art, Architecture, and Other Cultural Works.</hi> Los Angeles, California: Getty Research Institute 
+                        <ref target="https://www.getty.edu/research/publications/electronic_publications/intro_controlled_vocab/index.html">https://www.getty.edu/research/publications/electronic_publications/intro_controlled_vocab/index.html</ref> [letzter Zugriff 15. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Isaac, Antoine / Summers, Ed</hi> (2009): 
+                        <hi rend="italic">W3C Working Group Note 18 August 2009. SKOS Simple Knowledge Organization System Prime</hi>r 
+                        <ref target="https://www.w3.org/TR/skos-primer/">https://www.w3.org/TR/skos-primer/</ref> [letzter Zugriff 15. Juli 2021].
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Jaeschke, Walter / Arndt, Andreas</hi> (2012): 
+                        <hi rend="italic">Die Klassische Deutsche Philosophie nach Kant. Systeme der reinen Vernunft und ihre Kritik 1785-1845.</hi> München: C.H. Beck.
+                    </bibl>
+                    <bibl style="text-align: left; ">
+                        <hi rend="bold">Zaytseva, Ksenia / <hi rend="math">Ď</hi>ur<hi rend="math">č</hi>o, Matej</hi> (2020): "Controlled Vocabularies and SKOS" Version 1.1.0. Edited by Matej <hi rend="math">Ď</hi>ur<hi rend="math">č</hi>o and Tanja Wissik. DARIAH-Campus [Training module] 
+                        <ref target="https://campus.dariah.eu/resource/controlled-vocabularies-and-skos">https://campus.dariah.eu/resource/controlled-vocabularies-and-skos</ref> [letzter Zugriff 15. Juli 2021].
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DHd2022_251">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="full">
+                <title type="main">DiaCollo für GEI-Digital</title>
+                <title type="sub">Ein experimentelles Projekt zur weiteren Erschließung digitalisierter historischer Schulbuchbestände</title>
+                </title>
+            <author>
+                    <persName>
+                        <surname>Nieländer</surname>
+                        <forename>Maret</forename>
+                    </persName>
+                    <affiliation>Georg-Eckert-Institut - Leibniz-Institut für internationale Schulbuchforschung, Germany</affiliation>
+                    <email>nielaender@leibniz-gei.de</email>
+                <idno type="ORCID">0000-0002-5972-6362</idno></author>
+                <author>
+                    <persName>
+                        <surname>Jurish</surname>
+                        <forename>Bryan</forename>
+                    </persName>
+                    <affiliation>Berlin-Brandenburgische Akademie der Wissenschaften</affiliation>
+                    <email>jurish@bbaw.de</email>
+                <idno type="ORCID">0000-0003-4230-3790</idno></author>
+                <author>
+                    <persName>
+                        <surname>Scheel</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <affiliation>Georg-Eckert-Institut - Leibniz-Institut für internationale Schulbuchforschung, Germany</affiliation>
+                    <email>scheel@leibniz-gei.de</email>
+                <idno type="ORCID">0000-0002-9718-690X</idno></author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2021-11-26T17:25:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+    <publisher>Universität Potsdam</publisher>
+    <address>
+        <addrLine>Netzwerk für Digitale Geisteswissenschaften</addrLine>  
+        <addrLine>Am Neuen Palais 10</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+    <publisher>Fachhochschule Potsdam</publisher>
+    <address>
+        <addrLine>Kiepenheuerallee 5</addrLine>
+        <addrLine>14469 Potsdam</addrLine>
+        <addrLine>Deutschland</addrLine>
+    </address>
+</publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident="DHCONVALIDATOR" version="1.22">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="ConfTool" n="category">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="subcategory">
+                    <term>Posterpräsentation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="keywords">
+                    <term>Korpusanalyse</term>
+                    <term>digitale Erschließung</term>
+                    <term>Nachnutzung</term>
+                    <term>Computerlinguistik</term>
+                    <term>Kooperation</term>
+                </keywords>
+                <keywords scheme="ConfTool" n="topics">
+                    <term>Sammlung</term>
+                    <term>Inhaltsanalyse</term>
+                    <term>Annotieren</term>
+                    <term>Visualisierung</term>
+                    <term>Infrastruktur</term>
+                </keywords>
+            </textClass>
+        <settingDesc><ab n="conference">DHd2022 – "Kulturen des digitalen Gedächtnisses", Potsdam</ab><ab n="paperID">251</ab></settingDesc></profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Seit 2009 digitalisiert die Forschungsbibliothek des Leibniz-Institut für Bildungsmedien | Georg-Eckert-Institut (GEI) mit Förderung der DFG seine historischen Bestände. Die „Digitale Schulbuchbibliothek GEI-Digital“<ref target="ftn1" n="1"/> umfasst mittlerweile etwa 6000 vor 1920 erschienene Werke, v.a. deutschsprachige Realienkundebücher, Fibeln und Lesebücher sowie Bücher für die Fächer Geographie, Geschichte, Politik und Religion. Die Digitalisate, Metadaten und OCR-generierten Volltexte können online genutzt werden und stehen in verschiedenen Formaten unter der Lizenz CC0 zum Download zur Verfügung (Hertling / Klaes 2018a, 2018b).
+            </p>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Das Projekt</head>
+            <p>Das experimentelle, GEI-intern geförderte Projekt „DiaCollo für GEI-Digital“<ref target="ftn2" n="2"/> zielte darauf ab, den aktuellen digitalen Bestand mit etablierten computerlinguistischen Werkzeugen zu verbinden und dabei die Passfähigkeit von Daten, Werkzeugen und Bedarfen der Nutzer:innen zu testen und ggf. zu erhöhen. Es schließt damit an frühere Projekte an, bei denen mit verschiedenen Partnern unterschiedliche Ansätze für die weitere digitale Erschließung der Bestände erprobt und entwickelt wurden: so etwa zur Visualisierung der Metadaten im Projekt „GEI-Digital Visualized“<ref target="ftn3" n="3"/> und zur Nutzung von Volltexten und Metadaten für Filterung, Gruppenvergleiche, Suchen in Verbindung mit Topic Modells u. ä. im Projekt „Welt der Kinder“.<ref target="ftn4" n="4"/> Das Projekt ist somit Bestandteil von Bedarfserhebung und Benchmarking für Tool-Entwicklungen am GEI (De Luca et.al. 2019).
+            </p>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Vorgehen</head>
+            <p>Ende 2020 wurden die Daten aller Werke, die bis zu diesem Zeitpunkt mit automatisch generierten Volltexten zur Verfügung standen über die bestehenden APIs gesammelt, nach TEI konvertiert und zum 
+                <hi rend="italic">GEI-Digital-2020</hi> Korpus zusammengefasst.
+            </p>
+            <p>Für die maschinelle Vorverarbeitung und Indexierung wurden Werkzeuge und Workflows genutzt, die am Zentrum Sprache an der Berlin-Brandenburgischen Akademie der Wissenschaften speziell für historische deutschsprachige Texte entwickelt und genutzt werden. Diese Werkzeuge sind dafür optimiert, möglichst vorlagengetreue digitale Volltexte um Zusatzinformationen anzureichern, um so z. B. Frequenz- und diachrone Kollokationsanalysen und komplexe Suchen unter Einbeziehung von Wortarten zu ermöglichen. </p>
+            <p>Hierfür wurde eine Instanz der ebenfalls am Zentrum Sprache genutzten und entwickelten D*- und DiaCollo-Software für das GEI aufgesetzt. Das open-source Werkzeug DiaCollo wurde von Bryan Jurish in Zusammenarbeit mit Historiker:innen entwickelt, um den Wortgebrauch über die Zeit sowohl im Distant Reading zu untersuchen und zu visualisieren, als auch die Ergebnisse jederzeit am konkreten Beleg in der Quelle überprüfen zu können (Jurish 2018; Jurish / Nieländer 2020). Üblicherweise wird DiaCollo mit historischen Referenzkorpora oder mehrere Jahrgänge umfassenden Zeitungs- und Zeitschriften-Korpora eingesetzt. </p>
+            <figure>
+                <graphic n="1001" width="16.002cm" height="10.024180555555555cm" url="Pictures/0e88221fb515584adc0adca5f2daf7d1.jpg" rend="inline"/>
+                <head>Abb. 1: Startseite von „DiaCollo für GEI-Digital“</head>
+            </figure>
+            <div type="div2" rend="DH-Heading2">
+	        <head>Usabilty und Nachnutzbarkeit</head>
+        
+            <list type="unordered">
+                <item>Korpus und Werkzeuge sind über die Webseite des Projektes nutzbar.</item>
+                <item>Die Benutzeroberflächen von D* und DiaCollo wurden für Benutzer:innen mit einem gewissen Maß an Vorerfahrung mit korpuslinguistischen Methoden und Terminologie entwickelt. Um die Usability für Nutzer:innen aus anderen Disziplinen und für Laien zu erhöhen wurde ein umfangreiches Tutorial erstellt, das die Benutzeroberflächen, einige der anpassbaren Parameter sowie Beispielabfragen präsentiert. Auch Vorverarbeitung, Indexierung und einige Besonderheiten des Korpus werden im Tutorial vorgestellt (Nieländer / Jurish 2021). </item>
+                <item>Um den Nutzer:innen intuitivere Einblicke in die Zusammensetzung des Korpus‘ zu ermöglichen, wurden die Visualisierungen und Filterfunktionen des o.g. Projektes „GEI-Digital Visualized“ nachgenutzt, die 2017 in einer Kooperation mit der Fachhochschule Potsdam entwickelt worden waren.
+                    <ref target="ftn5" n="5"/> Zudem stehen die bibliographischen Metadaten aller Werke des GEI-Digital-2020 Korpus zum Download als Excel-Liste bereit.
+                    <ref target="ftn6" n="6"/>
+                </item>
+                <item>Die verfügbaren Exportmöglichkeiten für Treffermengen wurden um ein KWIC/CSV Format ergänzt, um auch technisch wenig versierte Nutzer:innen in die Lage zu versetzen, diese z. B. in ein Tabellenkalkulationsprogramm zu exportieren um sie dort weiter zu bearbeiten oder archivieren zu können.</item>
+                <item>Das 
+                    <hi rend="italic">GEI-Digital-2020</hi> Korpus wurde auch über das Zentrum Sprache zugänglich gemacht, wo es z.B. von der Community der Sprachwissenschaft und Germanistik nachgenutzt wird. Die historischen Schulbücher können dort vergleichend oder gemeinsam mit weiteren historischen Quellensammlungen der Jahre 1465–1969 untersucht werden.
+                    <ref target="ftn7" n="7"/>
+                </item>
+            </list>
+                </div>
+            </div>
+            <div type="div1" rend="DH-Heading1">
+	        <head>Befunde und Ausblick</head>
+            <p>Das Projekt verdeutlicht einmal mehr die Vorteile der Nachnutzung und der offenen, interoperablen Gestaltung von Datenbeständen und digitalen Werkzeugen. Als Anwendungsfall bereits erprobter Abläufe war es verhältnismäßig ressourcenschonend realisierbar und half gleichzeitig, diese Abläufe weiter zu testen und optimieren. Die Möglichkeiten für digital gestützte Analysen historischer Schulbücher wurden erheblich erweitert auch wenn die Aussagekraft computerlinguistischer Analysen durch die Fehlerquote der automatischen Texterkennung einschränkt bleibt. Einige Charakteristika von Schulbüchern und der Korpuszusammensetzung haben sich als nicht optimal kompatibel mit den Logiken der Analysewerkzeuge erwiesen. Dies ist zum Teil durch die Nutzung von Filterfunktionen mit der DDC-Abfragesprache kompensierbar. Grundsätzlich zeigten sich im Projekt nutzer:innenseitige Bedarfe für die ausführlich dokumentierte und auf unterschiedliche Zielgruppen abgestimmte Gestaltung von Forschungsinfrastrukturen, die ggf. auch projektspezifische Korpuszusammenstellungen und modulare, individuell durchführbare Datenkuration erlauben.</p>
+            </div>
+                </body>
+        <back><div type="notes"><note place="foot" xml:id="ftn1" n="1">
+                        <ref target="http://gei-digital.gei.de/">
+                            <hi rend="Internet_Link">http://gei-digital.gei.de/</hi>
+                        </ref>
+                    </note><note place="foot" xml:id="ftn2" n="2">
+                        <ref target="https://diacollo.gei.de/">
+                            <hi rend="Internet_Link">https://diacollo.gei.de/</hi>
+                        </ref>
+                    </note><note place="foot" xml:id="ftn3" n="3">
+                        <ref target="http://gei-digital.gei.de/visualized">
+                            <hi rend="Internet_Link">http://gei-digital.gei.de/visualized</hi>
+                        </ref>
+                    </note><note place="foot" xml:id="ftn4" n="4">
+                        <ref target="http://wdk.gei.de/">
+                            <hi rend="Internet_Link">http://wdk.gei.de/</hi>
+                        </ref>
+                    </note><note place="foot" xml:id="ftn5" n="5">
+                            <ref target="https://diacollo.gei.de/gei-digital-2020/visualized/">https://diacollo.gei.de/gei-digital-2020/visualized/</ref>
+                        </note><note place="foot" xml:id="ftn6" n="6">
+                            <ref target="https://diacollo.gei.de/wp-content/uploads/2021/04/gei-digital-2020.xlsx">https://diacollo.gei.de/wp-content/uploads/2021/04/gei-digital-2020.xlsx</ref>
+                        </note><note place="foot" xml:id="ftn7" n="7">
+                            <ref target="https://www.dwds.de/d/korpora/dtaxl">
+                                <hi rend="Internet_Link">https://www.dwds.de/d/korpora/dtaxl</hi>
+                            </ref>
+                        </note></div>
+            <div type="bibliogr">
+                <listBibl>
+                    <head>Bibliographie</head>
+                    <bibl>
+                        <hi rend="bold">Hertling, Anke / Klaes, Sebastian</hi> (2018): „Historische Schulbücher als digitales Korpus für die Forschung: Auswahl und Aufbau einer digitalen Schulbuchbibliothek“ in: Nieländer, Maret / De Luca, Ernesto William (eds.): 
+                        <hi rend="italic" xml:space="preserve">Digital Humanities in der internationalen Schulbuchforschung. </hi>Göttingen: V&amp;R unipress 21–44. DOI: 
+                        <ref target="https://www.vr-elibrary.de/doi/10.14220/9783737009539.21">
+                            <hi rend="ListLabel_20">10.14220/9783737009539.21</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Hertling, Anke / Klaes, Sebastian</hi> (2018): „»GEI-Digital« als Grundlage für Digital-Humanities-Projekte: Erschließung und Datenaufbereitung“ in: Nieländer, Maret / De Luca, Ernesto William (eds.): 
+                        <hi rend="italic">Digital Humanities in der internationalen Schulbuchforschung.</hi> Göttingen: V&amp;R unipress 45–68. DOI: 
+                        <ref target="https://www.vr-elibrary.de/doi/10.14220/9783737009539.45">
+                            <hi rend="ListLabel_20">10.14220/9783737009539.45</hi>
+                        </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jurish, Bryan</hi> (2018): „Diachronic Collocations, Genre, and DiaCollo“ in: Whitt, R. J. (ed.): <hi rend="italic">Diachronic Corpora, Genre, and Language Change</hi>. Amsterdam: John Benjamins 42–64. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Jurish, Bryan / Nieländer, Maret</hi> (2020): “Using DiaCollo for historical research” in: Simov, Kiril / Eskevich, Maria (eds.), <hi rend="italic">Selected Papers from the CLARIN Annual Conference 2019, Linköping Electronic Conference Proceedings</hi> 172:5: 33–40. DOI: 
+                        <ref target="https://doi.org/10.3384/ecp2020172005" xml:space="preserve">10.3384/ecp2020172005  </ref>
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">Nieländer, Maret / Jurish, Bryan</hi> (2021): <hi rend="italic">D* für Anfänger:innen: Ein Tutorial. Einfache und komplexe Suchanfragen, Frequenzanalysen und diachrone Kollokationsanalysen in der D*-Korpusmanagement-Umgebung.</hi> 
+                        <ref target="https://repository.gei.de/handle/11428/321">urn:nbn:de:0220-2021-0088</ref>. 
+                    </bibl>
+                    <bibl>
+                        <hi rend="bold">De Luca, Ernesto William / Fallucchi, Francesca / Ligi, Alessandro / Tarquini, Massimiliano</hi> (2019): “A Research Toolbox: A Complete Suite for Analysis in Digital Humanities” in: Garoufallou E. / Fallucchi F. / William De Luca E. (eds): <hi rend="italic">Metadata and Semantic Research. MTSR 2019. Communications in Computer and Information Science</hi>, vol 1057. Springer, Cham: 385–397. DOI:
+                        <ref target="https://doi.org/10.1007/978-3-030-36599-8_35" xml:space="preserve"> 10.1007/978-3-030-36599-8_35</ref>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
