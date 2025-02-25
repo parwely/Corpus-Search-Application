@@ -1,7 +1,5 @@
-# Modulprüfung Programmierung (alter Name: Softwaretechnologie)
-
+For Modulprüfung Programmierung (Softwaretechnologie)
 Studiengänge: B.A. Informationsverarbeitung, B.A. Medieninformatik
-
 
 ## Beschreibung der Anwendung
 
