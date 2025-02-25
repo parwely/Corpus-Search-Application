@@ -1,5 +1,5 @@
 For Modulprüfung Programmierung (Softwaretechnologie)
-Studiengänge: B.A. Informationsverarbeitung, B.A. Medieninformatik
+Studiengänge: B.A. Informationsverarbeitung, B.A. Medieninformatik in Java mit MavenDependencies und JUNIT Tests
 
 ## Beschreibung der Anwendung
 
