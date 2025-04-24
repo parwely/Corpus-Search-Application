@@ -1,6 +1,3 @@
-For Modulprüfung Programmierung (Softwaretechnologie)
-Studiengänge: B.A. Informationsverarbeitung, B.A. Medieninformatik in Java mit MavenDependencies und JUNIT Tests
-
 ## Beschreibung der Anwendung
 
 Bei dem Programm **CorpEx** handelt es sich um einen textbasierten Korpus-Explorer. Es dient dazu, größere Korpora, die in verschiedenen Dateiformaten vorliegen können, effizient durchsuchen zu können. Als Ergebnis der Suche werden sog. *keyword in context*-Listen (KWIC) angezeigt, die das Suchwort sowie links und rechts davon den Kontext der Fundstelle anzeigen.
@@ -15,11 +12,11 @@ Der Befehl `search` erlaubt eine token-basierte Suche. D.h. es werden ausschlie�
 
 Sobald eine Suche erfolgt ist, kann diese mit dem Kommando `sort` sortiert werden. Die Einträge werden dabei alphabetisch aufsteigend nach dem auf den Suchbegriff folgenden Kontext sortiert.
 
-### 1. Import von HTML & XML-Dateien
+1. Import von HTML & XML-Dateien
 
-### 2. Tokenisierung des Textinhalts
+2. Tokenisierung des Textinhalts
 
-### 3. Sortierung einer Suche
+3. Sortierung einer Suche
 
 Beispiel:
 
