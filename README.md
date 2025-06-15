@@ -49,29 +49,24 @@ Corpus-Search-Application/
 
 ### Kompilierung & Start
 
-```bash
-javac -d out src/de/uni_koeln/**/*.java
-java -cp out de.uni_koeln.core.CorpEx
+
+**javac -d out src/de/uni_koeln/**/*.java
+**java -cp out de.uni_koeln.core.CorpEx
+
 
 🔍 Beispielhafte Nutzung
 
-    Wählen Sie ein Text- oder HTML-Dokument.
-
-    Starten Sie die Anwendung.
-
-    Geben Sie einen Suchbegriff ein.
-
-    Die Anwendung zeigt Treffer inklusive Kontext sowie sortierter Anzeige an.
+   1. Wählen Sie ein Text- oder HTML-Dokument.
+   2. Starten Sie die Anwendung.
+   3. Geben Sie einen Suchbegriff ein.
+   4. Die Anwendung zeigt Treffer inklusive Kontext sowie sortierter Anzeige an.
 
 💡 Erweiterbarkeit
 
-Die modulare Struktur erlaubt eine einfache Erweiterung:
-
-    Neue Importer durch Implementierung von IFileImporter
-
-    Neue Tokenizer durch ITokenizer
-
-    Eigene Sortierstrategien durch IResultSorter
+- Die modulare Struktur erlaubt eine einfache Erweiterung:
+- Neue Importer durch Implementierung von IFileImporter
+- Neue Tokenizer durch ITokenizer
+- Eigene Sortierstrategien durch IResultSorter
 
 📄 Lizenz
 
