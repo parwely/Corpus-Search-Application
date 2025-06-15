@@ -27,4 +27,52 @@ Das System basiert auf folgenden zentralen Interfaces:
 Die Hauptklasse `CorpEx` dient als Einstiegspunkt und Koordinator der einzelnen Komponenten.
 
 ## 📂 Projektstruktur
+Corpus-Search-Application/
+│
+├── de.uni_koeln.* # Hauptpaketstruktur
+│ ├── importers # Datei-Importlogik (.txt, .html)
+│ ├── tokenizers # Tokenisierungskomponenten
+│ ├── sorter # Suchergebnis-Sortierung
+│ ├── interfaces # Definition der Interfaces
+│ ├── core # CorpEx-Logik
+│ └── model # Datenstrukturen (Token, Treffer etc.)
+│
+├── README.md # Dieses Dokument
+└── ...
 
+## 🛠️ Installation & Ausführung
+
+### Voraussetzungen
+
+- Java 17 oder höher
+- IDE (z. B. IntelliJ IDEA, Eclipse) oder Build-Tool wie Maven/Gradle
+
+### Kompilierung & Start
+
+```bash
+javac -d out src/de/uni_koeln/**/*.java
+java -cp out de.uni_koeln.core.CorpEx
+
+🔍 Beispielhafte Nutzung
+
+    Wählen Sie ein Text- oder HTML-Dokument.
+
+    Starten Sie die Anwendung.
+
+    Geben Sie einen Suchbegriff ein.
+
+    Die Anwendung zeigt Treffer inklusive Kontext sowie sortierter Anzeige an.
+
+💡 Erweiterbarkeit
+
+Die modulare Struktur erlaubt eine einfache Erweiterung:
+
+    Neue Importer durch Implementierung von IFileImporter
+
+    Neue Tokenizer durch ITokenizer
+
+    Eigene Sortierstrategien durch IResultSorter
+
+📄 Lizenz
+
+Dieses Projekt wurde im Rahmen einer Studienleistung entwickelt. Die Nutzung zu Lernzwecken ist gestattet. Eine kommerzielle Verwendung ist nur nach Rücksprache erlaubt.
