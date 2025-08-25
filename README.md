@@ -61,13 +61,6 @@ Corpus-Search-Application/
    3. Geben Sie einen Suchbegriff ein.
    4. Die Anwendung zeigt Treffer inklusive Kontext sowie sortierter Anzeige an.
 
-💡 Erweiterbarkeit
-
-- Die modulare Struktur erlaubt eine einfache Erweiterung:
-- Neue Importer durch Implementierung von IFileImporter
-- Neue Tokenizer durch ITokenizer
-- Eigene Sortierstrategien durch IResultSorter
-
 📄 Lizenz
 
 Dieses Projekt wurde im Rahmen einer Studienleistung entwickelt. Die Nutzung zu Lernzwecken ist gestattet. Eine kommerzielle Verwendung ist nur nach Rücksprache erlaubt.
