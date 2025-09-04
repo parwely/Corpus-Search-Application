@@ -4,7 +4,7 @@ Ein Java-Projekt zur performanten Suche und Analyse in Textkorpora – entwickel
 
 ## 🧩 Projektbeschreibung
 
-Die **Corpus Search Application** ermöglicht die Analyse und Exploration großer Textkorpora durch die Implementierung modularer Schnittstellen für Dateiexport, Tokenisierung und Ergebnis-Sortierung. Das Projekt wurde im Rahmen der Abschlussprüfung im Fach Programmierung (Sommersemester 2024) unter Beachtung objektorientierter Prinzipien, Interface-Design und sauberer Architektur entwickelt.
+Die **Corpus Search Application** ermöglicht die Analyse und Exploration großer Textkorpora durch die Implementierung modularer Schnittstellen für Dateiexport, Tokenisierung und Ergebnis-Sortierung. Das Projekt wurde im Rahmen der Abschlussprüfung im Fach Programmierung (Sommersemester 2024) unter Beachtung objektorientierter Prinzipien, Interface-Design und sauberer Architektur entwickelt
 
 ## ⚙️ Funktionen
 
